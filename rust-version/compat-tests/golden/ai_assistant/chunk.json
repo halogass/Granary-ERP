@@ -1,0 +1,49 @@
+[
+ {
+  "in": "",
+  "out": []
+ },
+ {
+  "in": "one",
+  "out": [
+   "one"
+  ]
+ },
+ {
+  "in": "Hello  world\n\nnew para ",
+  "out": [
+   "Hello  ",
+   "world\n\n",
+   "new ",
+   "para "
+  ]
+ },
+ {
+  "in": "  lead",
+  "out": [
+   "lead"
+  ]
+ },
+ {
+  "in": "a\tb c　d",
+  "out": [
+   "a\t",
+   "b ",
+   "c　",
+   "d"
+  ]
+ },
+ {
+  "in": "trailing   ",
+  "out": [
+   "trailing   "
+  ]
+ },
+ {
+  "in": "x\u001cy",
+  "out": [
+   "x\u001c",
+   "y"
+  ]
+ }
+]

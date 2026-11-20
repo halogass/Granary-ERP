@@ -1,0 +1,206 @@
+{
+ "organization": {
+  "ok": {
+   "name": {
+    "kind": "text",
+    "custom": false
+   },
+   "industry": {
+    "kind": "text",
+    "custom": false
+   },
+   "country": {
+    "kind": "text",
+    "custom": false
+   },
+   "city": {
+    "kind": "text",
+    "custom": true,
+    "label": "City (custom)",
+    "choices": null
+   },
+   "website": {
+    "kind": "text",
+    "custom": false
+   },
+   "email": {
+    "kind": "text",
+    "custom": false
+   },
+   "employee_count": {
+    "kind": "number",
+    "custom": false
+   },
+   "annual_revenue": {
+    "kind": "number",
+    "custom": false
+   },
+   "created_at": {
+    "kind": "datetime",
+    "custom": false
+   },
+   "tier": {
+    "kind": "text",
+    "custom": true,
+    "label": "Tier",
+    "choices": [
+     "Tier 1",
+     "Tier 2"
+    ]
+   },
+   "score": {
+    "kind": "number",
+    "custom": true,
+    "label": "Score",
+    "choices": null
+   },
+   "tags": {
+    "kind": "list",
+    "custom": true,
+    "label": "Tags",
+    "choices": [
+     "South",
+     "North"
+    ]
+   },
+   "flag": {
+    "kind": "bool",
+    "custom": true,
+    "label": "Flag",
+    "choices": null
+   },
+   "when": {
+    "kind": "date",
+    "custom": true,
+    "label": "When",
+    "choices": null
+   }
+  }
+ },
+ "contact": {
+  "ok": {
+   "first_name": {
+    "kind": "text",
+    "custom": false
+   },
+   "last_name": {
+    "kind": "text",
+    "custom": false
+   },
+   "email": {
+    "kind": "text",
+    "custom": false
+   },
+   "position": {
+    "kind": "text",
+    "custom": false
+   },
+   "department": {
+    "kind": "text",
+    "custom": false
+   },
+   "country": {
+    "kind": "text",
+    "custom": false
+   },
+   "organization_id": {
+    "kind": "uuid",
+    "custom": false
+   },
+   "created_at": {
+    "kind": "datetime",
+    "custom": false
+   },
+   "linkedin": {
+    "kind": "text",
+    "custom": true,
+    "label": "LinkedIn",
+    "choices": null
+   }
+  }
+ },
+ "lead": {
+  "ok": {
+   "title": {
+    "kind": "text",
+    "custom": false
+   },
+   "status": {
+    "kind": "text",
+    "custom": false
+   },
+   "priority": {
+    "kind": "text",
+    "custom": false
+   },
+   "source": {
+    "kind": "text",
+    "custom": false
+   },
+   "segment": {
+    "kind": "text",
+    "custom": false
+   },
+   "estimated_value": {
+    "kind": "number",
+    "custom": false
+   },
+   "organization_id": {
+    "kind": "uuid",
+    "custom": false
+   },
+   "created_at": {
+    "kind": "datetime",
+    "custom": false
+   }
+  }
+ },
+ "deal": {
+  "ok": {
+   "title": {
+    "kind": "text",
+    "custom": false
+   },
+   "stage": {
+    "kind": "text",
+    "custom": false
+   },
+   "value": {
+    "kind": "number",
+    "custom": false
+   },
+   "probability": {
+    "kind": "number",
+    "custom": false
+   },
+   "currency": {
+    "kind": "text",
+    "custom": false
+   },
+   "segment": {
+    "kind": "text",
+    "custom": true,
+    "label": "Segment",
+    "choices": [
+     "SMB",
+     "Enterprise"
+    ]
+   },
+   "expected_close_date": {
+    "kind": "date",
+    "custom": false
+   },
+   "organization_id": {
+    "kind": "uuid",
+    "custom": false
+   },
+   "created_at": {
+    "kind": "datetime",
+    "custom": false
+   }
+  }
+ },
+ "invoice": {
+  "err": "object_type must be one of organization, contact, lead, deal"
+ }
+}

@@ -1,0 +1,1927 @@
+[
+ {
+  "text": "",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "",
+  "ctx": [],
+  "out": ""
+ },
+ {
+  "text": "",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "Hello {{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "Hello Ann"
+ },
+ {
+  "text": "Hello {{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "Hello ann@customer.test"
+ },
+ {
+  "text": "Hello {{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "Hello "
+ },
+ {
+  "text": "Hello {{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "Hello "
+ },
+ {
+  "text": "Hello {{first_name}}",
+  "ctx": [],
+  "out": "Hello {{first_name}}"
+ },
+ {
+  "text": "Hello {{first_name}}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "Hello {{first_name}}"
+ },
+ {
+  "text": "{{first_name}}{{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "AnnAnn"
+ },
+ {
+  "text": "{{first_name}}{{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "ann@customer.testann@customer.test"
+ },
+ {
+  "text": "{{first_name}}{{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "{{first_name}}{{first_name}}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "{{first_name}}{{first_name}}",
+  "ctx": [],
+  "out": "{{first_name}}{{first_name}}"
+ },
+ {
+  "text": "{{first_name}}{{first_name}}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "{{first_name}}{{first_name}}"
+ },
+ {
+  "text": "{{ first_name }}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "{{ first_name }}"
+ },
+ {
+  "text": "{{ first_name }}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "{{ first_name }}"
+ },
+ {
+  "text": "{{ first_name }}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "{{ first_name }}"
+ },
+ {
+  "text": "{{ first_name }}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "{{ first_name }}"
+ },
+ {
+  "text": "{{ first_name }}",
+  "ctx": [],
+  "out": "{{ first_name }}"
+ },
+ {
+  "text": "{{ first_name }}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "{{ first_name }}"
+ },
+ {
+  "text": "{{{first_name}}}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "{Ann}"
+ },
+ {
+  "text": "{{{first_name}}}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "{ann@customer.test}"
+ },
+ {
+  "text": "{{{first_name}}}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "{}"
+ },
+ {
+  "text": "{{{first_name}}}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "{}"
+ },
+ {
+  "text": "{{{first_name}}}",
+  "ctx": [],
+  "out": "{{{first_name}}}"
+ },
+ {
+  "text": "{{{first_name}}}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "{{{first_name}}}"
+ },
+ {
+  "text": "News for {{company}} ({{email}}).",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "News for Acme & Sons <Ltd> (ann@customer.test)."
+ },
+ {
+  "text": "News for {{company}} ({{email}}).",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "News for {{first_name}} (ann@customer.test)."
+ },
+ {
+  "text": "News for {{company}} ({{email}}).",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "News for Acme & Sons <Ltd> (ann@customer.test)."
+ },
+ {
+  "text": "News for {{company}} ({{email}}).",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "News for  ()."
+ },
+ {
+  "text": "News for {{company}} ({{email}}).",
+  "ctx": [],
+  "out": "News for {{company}} ({{email}})."
+ },
+ {
+  "text": "News for {{company}} ({{email}}).",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "News for {{company}} ({{email}})."
+ },
+ {
+  "text": "{{unknown}}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "{{unknown}}"
+ },
+ {
+  "text": "{{unknown}}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "{{unknown}}"
+ },
+ {
+  "text": "{{unknown}}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "{{unknown}}"
+ },
+ {
+  "text": "{{unknown}}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "{{unknown}}"
+ },
+ {
+  "text": "{{unknown}}",
+  "ctx": [],
+  "out": "{{unknown}}"
+ },
+ {
+  "text": "{{unknown}}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "{{unknown}}"
+ },
+ {
+  "text": "{{full_name}} <b>&</b> 'q' \"dq\"",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "Ann Tester <b>&</b> 'q' \"dq\""
+ },
+ {
+  "text": "{{full_name}} <b>&</b> 'q' \"dq\"",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "Ann Tester <b>&</b> 'q' \"dq\""
+ },
+ {
+  "text": "{{full_name}} <b>&</b> 'q' \"dq\"",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "Ann Tester <b>&</b> 'q' \"dq\""
+ },
+ {
+  "text": "{{full_name}} <b>&</b> 'q' \"dq\"",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": " <b>&</b> 'q' \"dq\""
+ },
+ {
+  "text": "{{full_name}} <b>&</b> 'q' \"dq\"",
+  "ctx": [],
+  "out": "{{full_name}} <b>&</b> 'q' \"dq\""
+ },
+ {
+  "text": "{{full_name}} <b>&</b> 'q' \"dq\"",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "{{full_name}} <b>&</b> 'q' \"dq\""
+ },
+ {
+  "text": "multi\nline\n\n{{company_name}}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "multi\nline\n\nACME \"Tech\""
+ },
+ {
+  "text": "multi\nline\n\n{{company_name}}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "multi\nline\n\nACME \"Tech\""
+ },
+ {
+  "text": "multi\nline\n\n{{company_name}}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "multi\nline\n\nACME \"Tech\""
+ },
+ {
+  "text": "multi\nline\n\n{{company_name}}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "multi\nline\n\n"
+ },
+ {
+  "text": "multi\nline\n\n{{company_name}}",
+  "ctx": [],
+  "out": "multi\nline\n\n{{company_name}}"
+ },
+ {
+  "text": "multi\nline\n\n{{company_name}}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "multi\nline\n\nÜnïcødé 李"
+ },
+ {
+  "text": "{{company_address}}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "1 Main Street <Tokyo>"
+ },
+ {
+  "text": "{{company_address}}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "1 Main Street <Tokyo>"
+ },
+ {
+  "text": "{{company_address}}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "{{company_address}}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "{{company_address}}",
+  "ctx": [],
+  "out": "{{company_address}}"
+ },
+ {
+  "text": "{{company_address}}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "Line1\nLine2"
+ },
+ {
+  "text": "{{email}}{{company}}",
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "ann@customer.testAcme & Sons <Ltd>"
+ },
+ {
+  "text": "{{email}}{{company}}",
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "out": "ann@customer.test{{first_name}}"
+ },
+ {
+  "text": "{{email}}{{company}}",
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": "ann@customer.testAcme & Sons <Ltd>"
+ },
+ {
+  "text": "{{email}}{{company}}",
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "out": ""
+ },
+ {
+  "text": "{{email}}{{company}}",
+  "ctx": [],
+  "out": "{{email}}{{company}}"
+ },
+ {
+  "text": "{{email}}{{company}}",
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "out": "{{email}}{{company}}"
+ }
+]

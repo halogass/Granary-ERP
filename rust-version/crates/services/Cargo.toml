@@ -1,0 +1,66 @@
+[package]
+license.workspace = true
+name = "granary-services"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[dependencies]
+granary-compat.workspace = true
+granary-core.workspace = true
+granary-db.workspace = true
+granary-research = { path = "../../services/research" }   # security 26 Oct: safe_fetch.rs reuses its internal-address guard
+url = "2"   # safe_fetch.rs (host kinds)
+tokio.workspace = true
+sqlx.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+rust_decimal.workspace = true
+chrono.workspace = true
+chrono-tz.workspace = true
+uuid.workspace = true
+thiserror.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+redis.workspace = true
+reqwest.workspace = true
+once_cell.workspace = true
+regex.workspace = true
+fancy-regex.workspace = true
+sha2.workspace = true
+sha1.workspace = true
+hmac.workspace = true
+base64.workspace = true
+hex.workspace = true
+rand.workspace = true
+axum.workspace = true
+tower = { workspace = true, features = ["util"] }
+futures = "0.3"
+async-trait = "0.1"
+markdown-it = { version = "=0.6.1", default-features = false }         # documents/render.rs (markdown-it-py port)
+image = { version = "0.25", default-features = false, features = ["jpeg", "png", "gif", "webp", "bmp", "tiff"] }   # wa_export.rs (Pillow port)
+lopdf = { version = "0.47", default-features = false }   # pdftools.rs (PDF object model: open, edit, save)
+hayro = "0.9"   # pdftools.rs (page rendering, text and image positions; pure Rust)
+der = { version = "0.7", features = ["std", "oid", "alloc"] }                     # pdf_sign.rs (asn1crypto port)
+x509-cert = { version = "0.2", features = ["builder"] }                           # pdf_sign.rs
+spki = "0.7"                                                                         # pdf_sign.rs
+rsa = { version = "0.9", features = ["sha2"] }                                       # pdf_sign.rs
+p12-keystore = "0.4"                                                                 # pdf_sign.rs (PKCS#12 load)
+flate2 = "1"                                                                         # pdf_sign.rs (PDF streams)
+p256 = { version = "0.13", features = ["ecdsa"] }                                   # pdf_sign.rs (EC seal keys)
+p384 = { version = "0.13", features = ["ecdsa"] }                                   # pdf_sign.rs (EC seal keys)
+
+qrcode = { version = "0.14", default-features = false }                            # verification/service.rs (python-qrcode port)
+lettre = { version = "0.11", default-features = false, features = ["smtp-transport", "tokio1", "tokio1-rustls-tls", "hostname", "builder"] }   # email.rs (aiosmtplib port)
+mailparse = "0.16"   # email_inline.rs (parsed MIME messages)
+quick-xml = "0.37"   # batch 4 D1: nary/file_text.rs (DOCX and XLSX customer files)
+resvg = { version = "0.48", default-features = false, features = ["text"] }   # visuals V1: raster.rs (figure SVG to PNG, bundled font, no system fonts)
+ttf-parser = "0.25"   # visuals V1: text.rs (label widths from the bundled font)
+
+encoding_rs = "0.8"                                                                  # imap_sync/pyemail/codecs.rs (Python codecs port)
+tokio-rustls = { version = "0.26", default-features = false, features = ["ring", "tls12", "logging"] }   # imap_sync/aioimap.rs (IMAP4_SSL)
+rustls-native-certs = "0.8"                                                          # imap_sync/aioimap.rs (system CAs like ssl.create_default_context)
+[dev-dependencies]
+wiremock = "0.6"
+tokio = { workspace = true }
+rqrr = "0.11"                                                                        # verification QR decode test

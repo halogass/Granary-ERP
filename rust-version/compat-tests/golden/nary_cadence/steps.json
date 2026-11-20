@@ -1,0 +1,3452 @@
+[
+ {
+  "raw": "",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' is not set. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "  ",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' is not set. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "not json",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' is not valid JSON. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' must be a list of {day, channel, intent, topic}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "{}",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' must be a list of {day, channel, intent, topic}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "null",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' must be a list of {day, channel, intent, topic}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "0",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' must be a list of {day, channel, intent, topic}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "\"x\"",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' must be a list of {day, channel, intent, topic}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[1]",
+  "error": {
+   "status": 500,
+   "type": "AttributeError"
+  }
+ },
+ {
+  "raw": "[null]",
+  "error": {
+   "status": 500,
+   "type": "AttributeError"
+  }
+ },
+ {
+  "raw": "[[1]]",
+  "error": {
+   "status": 500,
+   "type": "AttributeError"
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 0, \"channel\": \"erp\"}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   },
+   {
+    "day": 0,
+    "channel": "erp"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   },
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 0,
+    "channel": "erp"
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05+00:00"
+   },
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 5, \"channel\": null}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 0, \"channel\": \"erp\"}]",
+  "steps": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   },
+   {
+    "day": 0,
+    "channel": "erp"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05.123456+00:00"
+   },
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 0,
+    "channel": "erp"
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   },
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   },
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05.123456+00:00"
+   },
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "steps": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}]",
+  "steps": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 999999,
+    "channel": "email"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05.123456+00:00"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "steps": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   },
+   {
+    "day": 0,
+    "channel": "erp"
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5, \"channel\": null}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 0, \"channel\": \"erp\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "steps": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"channel\": \"email\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 5}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "steps": [
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 2,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-17T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 0, \"channel\": \"erp\"}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   },
+   {
+    "day": 0,
+    "channel": "erp"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 5}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05+00:00"
+   },
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   },
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 2,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-17T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "steps": [
+   {
+    "day": 0,
+    "channel": "erp"
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   },
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05.123456+00:00"
+   },
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05.123456+00:00"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05.123456+00:00"
+   },
+   {
+    "day": 2,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-17T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   },
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05+00:00"
+   },
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 5}, {\"channel\": \"email\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}]",
+  "steps": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}]",
+  "steps": [
+   {
+    "day": 0,
+    "channel": "erp"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 5}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"channel\": \"email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 5}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 5, \"channel\": null}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 5, \"channel\": null}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5, \"channel\": null}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 999999,
+    "channel": "email"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05.123456+00:00"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "steps": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   },
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": 2,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-17T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "steps": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05.123456+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"channel\": \"email\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   },
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 5, \"channel\": null}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 5}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 5}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "steps": [
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 2,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-17T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 5, \"channel\": null}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "steps": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"channel\": \"email\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 5, \"channel\": null}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 5}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 5}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"Email\"}, {\"day\": 0, \"channel\": \"erp\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05.123456+00:00"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05.123456+00:00"
+   },
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 5, \"channel\": null}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": null}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 0,
+    "channel": "erp"
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05+00:00"
+   },
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05+00:00"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05+00:00"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "steps": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   },
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 5}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": 5, \"channel\": null}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05+00:00"
+   },
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05+00:00"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 1000000000000,
+    "channel": "email"
+   }
+  ],
+  "schedule_error": "OverflowError"
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   },
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05+00:00"
+   },
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 5}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "steps": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}]",
+  "steps": [
+   {
+    "day": 0,
+    "channel": "erp"
+   },
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   },
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05+00:00"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 0, \"channel\": \"erp\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 5, \"channel\": null}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 999999, \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05+00:00"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 5, \"channel\": null}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   },
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05+00:00"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"Email\"}, {\"day\": 0, \"channel\": \"erp\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 2, 'channel': 'Email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}]",
+  "steps": [
+   {
+    "day": 0,
+    "channel": "erp"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "news": true
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 0,
+    "channel": "erp",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-15T03:04:05.123456+00:00"
+   },
+   {
+    "day": 3,
+    "channel": "email",
+    "intent": "value",
+    "topic": "case_study",
+    "due_at": "2026-10-18T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1000000000000, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}]",
+  "steps": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "news": 1
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 14,
+    "channel": "email",
+    "intent": "Präsentation “neu”",
+    "topic": "ünïcode",
+    "due_at": "2026-10-29T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 14, \"channel\": \"email\", \"intent\": \"Präsentation “neu”\", \"topic\": \"ünïcode\", \"news\": 1}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"value\", \"topic\": \"case_study\", \"news\": true}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"it's \\\"quoted\\\"\", \"topic\": \"q\", \"news\": \"yes\"}]",
+  "steps": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "news": "yes"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 7,
+    "channel": "whatsapp",
+    "intent": "it's \"quoted\"",
+    "topic": "q",
+    "due_at": "2026-10-22T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 999999, \"channel\": \"email\"}]",
+  "steps": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "news": false
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   },
+   {
+    "day": 999999,
+    "channel": "email"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 30,
+    "channel": "erp",
+    "intent": "expiry decision",
+    "topic": "expiry",
+    "due_at": "2026-11-14T03:04:05.123456+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05.123456+00:00"
+   },
+   {
+    "day": 999999,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "4764-09-10T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": \"1\", \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}]",
+  "steps": [
+   {
+    "day": true,
+    "channel": "call",
+    "intent": null,
+    "topic": null
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 1,
+    "channel": "call",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-16T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 5}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"expiry decision\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 5, \"channel\": \"sms\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 1.0, \"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"channel\": \"email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}, {\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}]",
+  "steps": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt"
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05+00:00"
+   },
+   {
+    "day": 1,
+    "channel": "whatsapp",
+    "intent": "check it arrived",
+    "topic": "receipt",
+    "due_at": "2026-10-16T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}]",
+  "steps": [
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   }
+  ],
+  "base": "2026-10-15T03:04:05+00:00",
+  "schedule": [
+   {
+    "day": 2,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-17T03:04:05+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 999999, \"channel\": \"email\"}, {\"day\": 5, \"channel\": null}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 0, \"channel\": \"erp\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "steps": [
+   {
+    "day": 2,
+    "channel": "email",
+    "extra": [
+     1,
+     2.5,
+     null,
+     {
+      "a": "b"
+     }
+    ]
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x"
+   }
+  ],
+  "base": "2026-10-15T03:04:05.123456+00:00",
+  "schedule": [
+   {
+    "day": 2,
+    "channel": "email",
+    "intent": null,
+    "topic": null,
+    "due_at": "2026-10-17T03:04:05.123456+00:00"
+   },
+   {
+    "day": -2,
+    "channel": "whatsapp",
+    "intent": "back",
+    "topic": "x",
+    "due_at": "2026-10-13T03:04:05.123456+00:00"
+   }
+  ]
+ },
+ {
+  "raw": "[{\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": \"1\", \"channel\": \"email\"}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': '1', 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"check it arrived\", \"topic\": \"receipt\"}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"Pr\\u00e4sentation \\u201cneu\\u201d\", \"topic\": \"\\u00fcn\\u00efcode\", \"news\": 1}, {\"day\": 5, \"channel\": \"sms\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 0, \"channel\": \"erp\"}, {\"day\": 1000000000000, \"channel\": \"email\"}, {\"day\": 5, \"channel\": null}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 5}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': None}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": 2, \"channel\": \"email\", \"extra\": [1, 2.5, null, {\"a\": \"b\"}]}, {\"day\": 5, \"channel\": null}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 5, \"channel\": \"sms\"}, {\"day\": -2, \"channel\": \"whatsapp\", \"intent\": \"back\", \"topic\": \"x\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 5, 'channel': 'sms'}. Set it in Settings → Nary & AI."
+  }
+ },
+ {
+  "raw": "[{\"day\": 1.0, \"channel\": \"email\"}, {\"day\": 5}, {\"day\": true, \"channel\": \"call\", \"intent\": null, \"topic\": null}, {\"day\": 2, \"channel\": \"Email\"}]",
+  "error": {
+   "status": 400,
+   "detail": "Setting 'nary.cadence.steps' has a bad step: {'day': 1.0, 'channel': 'email'}. Set it in Settings → Nary & AI."
+  }
+ }
+]

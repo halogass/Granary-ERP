@@ -1,0 +1,2775 @@
+[
+ {
+  "cost": "976587431.54",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1775613511.89",
+   "price_at_floor": "1502442202.37"
+  }
+ },
+ {
+  "cost": "248156703.16",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "451194005.75",
+   "price_at_floor": "381779543.32"
+  }
+ },
+ {
+  "cost": "465625908.47",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "846592560.85",
+   "price_at_floor": "716347551.49"
+  }
+ },
+ {
+  "cost": "277501912.7",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "504548932.18",
+   "price_at_floor": "426926019.54"
+  }
+ },
+ {
+  "cost": "745619865.72",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1355672483.13",
+   "price_at_floor": "1147107485.72"
+  }
+ },
+ {
+  "cost": "390982061.86",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "792752981.3",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1441369056.91",
+   "price_at_floor": "1219619971.23"
+  }
+ },
+ {
+  "cost": "62484667",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "93722314.38",
+   "price_at_floor": "71411048.00"
+  }
+ },
+ {
+  "cost": "991452584",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "777370100.47",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1413400182.67",
+   "price_at_floor": "1195954000.72"
+  }
+ },
+ {
+  "cost": "97264129.4",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "471609740.90",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "417075425.2",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "758318954.91",
+   "price_at_floor": "641654500.31"
+  }
+ },
+ {
+  "cost": "41340918.99",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "62008278.07",
+   "price_at_floor": "47246764.56"
+  }
+ },
+ {
+  "cost": "611954652.1",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1112644822.00",
+   "price_at_floor": "941468695.54"
+  }
+ },
+ {
+  "cost": "7983675",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "14515772.73",
+   "price_at_floor": "12282576.92"
+  }
+ },
+ {
+  "cost": "677796801.75",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1232357821.36",
+   "price_at_floor": "1042764310.38"
+  }
+ },
+ {
+  "cost": "993575153.80",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1806500279.64",
+   "price_at_floor": "1528577159.69"
+  }
+ },
+ {
+  "cost": "880033436",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "508904628",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "600915663",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "901328428.08",
+   "price_at_floor": "686760757.71"
+  }
+ },
+ {
+  "cost": "236974491.65",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "355443965.28",
+   "price_at_floor": "270827990.46"
+  }
+ },
+ {
+  "cost": "124753953",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "226825369.09",
+   "price_at_floor": "191929158.46"
+  }
+ },
+ {
+  "cost": "80670754.3",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "121000081.45",
+   "price_at_floor": "92195147.77"
+  }
+ },
+ {
+  "cost": "474594694.24",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "711856448.54",
+   "price_at_floor": "542393936.27"
+  }
+ },
+ {
+  "cost": "52783582.9",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "79171415.78",
+   "price_at_floor": "60324094.74"
+  }
+ },
+ {
+  "cost": "115578492.725",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "918094370.6",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "832424175",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1248573833.81",
+   "price_at_floor": "951341914.29"
+  }
+ },
+ {
+  "cost": "100105973.451",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "182010860.82",
+   "price_at_floor": "154009189.92"
+  }
+ },
+ {
+  "cost": "763003232.72",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1387278604.95",
+   "price_at_floor": "1173851127.26"
+  }
+ },
+ {
+  "cost": "471310902",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "856928912.73",
+   "price_at_floor": "725093695.38"
+  }
+ },
+ {
+  "cost": "673929222.27",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1225325858.67",
+   "price_at_floor": "1036814188.11"
+  }
+ },
+ {
+  "cost": "876745667.505",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1315052748.62",
+   "price_at_floor": "1001995048.58"
+  }
+ },
+ {
+  "cost": "821290564",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1231874252.29",
+   "price_at_floor": "938617787.43"
+  }
+ },
+ {
+  "cost": "453054088",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "197915671.401",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "429936998.25",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "644873253.71",
+   "price_at_floor": "491356569.43"
+  }
+ },
+ {
+  "cost": "644946433",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1172629878.18",
+   "price_at_floor": "992225281.54"
+  }
+ },
+ {
+  "cost": "865117541",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "623401464.56",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "935055444.07",
+   "price_at_floor": "712458816.64"
+  }
+ },
+ {
+  "cost": "259025719",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "470955852.73",
+   "price_at_floor": "398501106.15"
+  }
+ },
+ {
+  "cost": "937456023",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "927636100.80",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "547969451.848",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "434629240.69",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "884484739",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "546513102.03",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "972918391.77",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1459304622.42",
+   "price_at_floor": "1111906733.45"
+  }
+ },
+ {
+  "cost": "841084510.33",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1529244564.24",
+   "price_at_floor": "1293976169.74"
+  }
+ },
+ {
+  "cost": "873748083.00",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1310556596.67",
+   "price_at_floor": "998569237.71"
+  }
+ },
+ {
+  "cost": "918051889.9",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1377008984.40",
+   "price_at_floor": "1049202159.89"
+  }
+ },
+ {
+  "cost": "24546116.778",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "680847358.464",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1021219976.70",
+   "price_at_floor": "778111266.82"
+  }
+ },
+ {
+  "cost": "18085908.22",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "402788705",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "604152849.86",
+   "price_at_floor": "460329948.57"
+  }
+ },
+ {
+  "cost": "956232682.236",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "94979955.15",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "295855723",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "537919496.36",
+   "price_at_floor": "455162650.77"
+  }
+ },
+ {
+  "cost": "176425160.48",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "252308335.00",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "378443580.32",
+   "price_at_floor": "288352382.86"
+  }
+ },
+ {
+  "cost": "226185034",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "163597155.497",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "297449373.63",
+   "price_at_floor": "251687931.53"
+  }
+ },
+ {
+  "cost": "754869972.59",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1372490859.25",
+   "price_at_floor": "1161338419.37"
+  }
+ },
+ {
+  "cost": "31703060.06",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "57641927.38",
+   "price_at_floor": "48773938.55"
+  }
+ },
+ {
+  "cost": "923350369.089",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1678818852.89",
+   "price_at_floor": "1420539029.37"
+  }
+ },
+ {
+  "cost": "575580854.98",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "507022475.09",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "581420282",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "872086818.66",
+   "price_at_floor": "664480322.29"
+  }
+ },
+ {
+  "cost": "735772371.728",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1337767948.60",
+   "price_at_floor": "1131957494.97"
+  }
+ },
+ {
+  "cost": "371181475",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "674875409.09",
+   "price_at_floor": "571048423.08"
+  }
+ },
+ {
+  "cost": "472398729.08",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "708562665.49",
+   "price_at_floor": "539884261.81"
+  }
+ },
+ {
+  "cost": "444459360.305",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "808107927.83",
+   "price_at_floor": "683783631.24"
+  }
+ },
+ {
+  "cost": "725282896.64",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1318696175.71",
+   "price_at_floor": "1115819840.98"
+  }
+ },
+ {
+  "cost": "559323728.024",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "838943644.85",
+   "price_at_floor": "639227117.74"
+  }
+ },
+ {
+  "cost": "879043147.01",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1318498795.58",
+   "price_at_floor": "1004620739.44"
+  }
+ },
+ {
+  "cost": "709548100.90",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1064268937.90",
+   "price_at_floor": "810912115.31"
+  }
+ },
+ {
+  "cost": "874836392.14",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1312188978.76",
+   "price_at_floor": "999813019.59"
+  }
+ },
+ {
+  "cost": "369683167.8",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "672151214.18",
+   "price_at_floor": "568743335.08"
+  }
+ },
+ {
+  "cost": "166514088.49",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "884203359.12",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1607642471.13",
+   "price_at_floor": "1360312860.18"
+  }
+ },
+ {
+  "cost": "816312076.49",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1224406894.39",
+   "price_at_floor": "932928087.42"
+  }
+ },
+ {
+  "cost": "103517734.387",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "530924724.43",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "796347269.28",
+   "price_at_floor": "606771113.63"
+  }
+ },
+ {
+  "cost": "542481154",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "813681046.95",
+   "price_at_floor": "619978461.71"
+  }
+ },
+ {
+  "cost": "464718338",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "844942432.73",
+   "price_at_floor": "714951289.23"
+  }
+ },
+ {
+  "cost": "344093181.10",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "625623965.64",
+   "price_at_floor": "529374124.77"
+  }
+ },
+ {
+  "cost": "569706368",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1035829760.00",
+   "price_at_floor": "876471335.38"
+  }
+ },
+ {
+  "cost": "481145260",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "721681805.91",
+   "price_at_floor": "549880297.14"
+  }
+ },
+ {
+  "cost": "79217150",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "305293616.780",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "974823556.073",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1772406465.59",
+   "price_at_floor": "1499728547.80"
+  }
+ },
+ {
+  "cost": "327528967.85",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "979432801",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1469075747.71",
+   "price_at_floor": "1119351772.57"
+  }
+ },
+ {
+  "cost": "291051570.950",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "436555528.65",
+   "price_at_floor": "332630366.80"
+  }
+ },
+ {
+  "cost": "980809716.38",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1783290393.42",
+   "price_at_floor": "1508938025.20"
+  }
+ },
+ {
+  "cost": "705248205.348",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1057819417.05",
+   "price_at_floor": "805997948.97"
+  }
+ },
+ {
+  "cost": "143502831.250",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "260914238.64",
+   "price_at_floor": "220773586.54"
+  }
+ },
+ {
+  "cost": "31337758",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "47004286.79",
+   "price_at_floor": "35814580.57"
+  }
+ },
+ {
+  "cost": "317267322.314",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "576849676.93",
+   "price_at_floor": "488103572.79"
+  }
+ },
+ {
+  "cost": "54499071",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "99089220.00",
+   "price_at_floor": "83844724.62"
+  }
+ },
+ {
+  "cost": "625351713.53",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "477331833.898",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "945302695.42",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1417883148.97",
+   "price_at_floor": "1080345937.62"
+  }
+ },
+ {
+  "cost": "38965363.373",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "536260726.8",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "804350872.66",
+   "price_at_floor": "612869402.06"
+  }
+ },
+ {
+  "cost": "731766638.08",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1330484796.51",
+   "price_at_floor": "1125794827.82"
+  }
+ },
+ {
+  "cost": "383886546.9",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "438727290.71",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "658058033.16",
+   "price_at_floor": "501402617.95"
+  }
+ },
+ {
+  "cost": "687538282",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1250069603.64",
+   "price_at_floor": "1057751203.08"
+  }
+ },
+ {
+  "cost": "857549392.6",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1286259775.91",
+   "price_at_floor": "980056448.69"
+  }
+ },
+ {
+  "cost": "766761689.53",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "199668776",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "299488189.59",
+   "price_at_floor": "228192886.86"
+  }
+ },
+ {
+  "cost": "97908124.3",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "178014771.45",
+   "price_at_floor": "150627883.54"
+  }
+ },
+ {
+  "cost": "170609564.313",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "310199207.84",
+   "price_at_floor": "262476252.79"
+  }
+ },
+ {
+  "cost": "353306362",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "642375203.64",
+   "price_at_floor": "543548249.23"
+  }
+ },
+ {
+  "cost": "18640716.42",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "33892211.67",
+   "price_at_floor": "28678025.26"
+  }
+ },
+ {
+  "cost": "225964553.536",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "410844642.79",
+   "price_at_floor": "347637774.67"
+  }
+ },
+ {
+  "cost": "203336094.23",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "369701989.51",
+   "price_at_floor": "312824760.35"
+  }
+ },
+ {
+  "cost": "650691581.87",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "774110830.372",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "809431234.68",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1214086147.71",
+   "price_at_floor": "925064268.21"
+  }
+ },
+ {
+  "cost": "600312852",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "900424256.79",
+   "price_at_floor": "686071830.86"
+  }
+ },
+ {
+  "cost": "759702162",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1139496268.19",
+   "price_at_floor": "868231042.29"
+  }
+ },
+ {
+  "cost": "521315254.97",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "664946689.87",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "997370166.30",
+   "price_at_floor": "759939074.14"
+  }
+ },
+ {
+  "cost": "601804853.8",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1094190643.27",
+   "price_at_floor": "925853621.23"
+  }
+ },
+ {
+  "cost": "863683171.323",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1295459983.99",
+   "price_at_floor": "987066481.51"
+  }
+ },
+ {
+  "cost": "160465279.29",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "291755053.25",
+   "price_at_floor": "246869660.45"
+  }
+ },
+ {
+  "cost": "321942610",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "585350200.00",
+   "price_at_floor": "495296323.08"
+  }
+ },
+ {
+  "cost": "551099716.45",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "826608244.26",
+   "price_at_floor": "629828247.37"
+  }
+ },
+ {
+  "cost": "78315375.638",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "142391592.07",
+   "price_at_floor": "120485193.29"
+  }
+ },
+ {
+  "cost": "826167095.76",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "159818211.142",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "239715330.95",
+   "price_at_floor": "182649384.16"
+  }
+ },
+ {
+  "cost": "586453588",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "989183718",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "224651506",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "408457283.64",
+   "price_at_floor": "345617701.54"
+  }
+ },
+ {
+  "cost": "325696569",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "592175580.00",
+   "price_at_floor": "501071644.62"
+  }
+ },
+ {
+  "cost": "678896992.81",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1234358168.75",
+   "price_at_floor": "1044456912.02"
+  }
+ },
+ {
+  "cost": "206789104.878",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "787781711",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1181613485.83",
+   "price_at_floor": "900321955.43"
+  }
+ },
+ {
+  "cost": "292750055",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "439103127.34",
+   "price_at_floor": "334571491.43"
+  }
+ },
+ {
+  "cost": "680806751",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1021159068.55",
+   "price_at_floor": "778064858.29"
+  }
+ },
+ {
+  "cost": "168608228",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "252899697.02",
+   "price_at_floor": "192695117.71"
+  }
+ },
+ {
+  "cost": "844250268.26",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1266312086.79",
+   "price_at_floor": "964857449.44"
+  }
+ },
+ {
+  "cost": "380988266.58",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "692705939.24",
+   "price_at_floor": "586135794.74"
+  }
+ },
+ {
+  "cost": "796300638",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1194391237.44",
+   "price_at_floor": "910057872.00"
+  }
+ },
+ {
+  "cost": "352286842.729",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "854439775.06",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "452897773",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "679312693.87",
+   "price_at_floor": "517597454.86"
+  }
+ },
+ {
+  "cost": "435879318",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "881780194.99",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1603236718.16",
+   "price_at_floor": "1356584915.37"
+  }
+ },
+ {
+  "cost": "360576689.94",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "655593981.71",
+   "price_at_floor": "554733369.14"
+  }
+ },
+ {
+  "cost": "630109718.34",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "945117321.64",
+   "price_at_floor": "720125392.39"
+  }
+ },
+ {
+  "cost": "693051236.53",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "525413410.4",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "788080711.56",
+   "price_at_floor": "600472469.03"
+  }
+ },
+ {
+  "cost": "968038957.35",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1451985836.73",
+   "price_at_floor": "1106330236.97"
+  }
+ },
+ {
+  "cost": "77192955.88",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "914096981.839",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1661994512.43",
+   "price_at_floor": "1406303048.98"
+  }
+ },
+ {
+  "cost": "288684424.10",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "524880771.09",
+   "price_at_floor": "444129883.23"
+  }
+ },
+ {
+  "cost": "693743591.52",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1261351984.58",
+   "price_at_floor": "1067297833.11"
+  }
+ },
+ {
+  "cost": "473320049.0",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "774010393",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1160957541.62",
+   "price_at_floor": "884583306.29"
+  }
+ },
+ {
+  "cost": "148273975.299",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "269589046.00",
+   "price_at_floor": "228113808.15"
+  }
+ },
+ {
+  "cost": "687810451.0",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1031664093.30",
+   "price_at_floor": "786069086.86"
+  }
+ },
+ {
+  "cost": "804575180.59",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "791299296.94",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1186889600.93",
+   "price_at_floor": "904342053.65"
+  }
+ },
+ {
+  "cost": "264820426.36",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "481491684.29",
+   "price_at_floor": "407416040.55"
+  }
+ },
+ {
+  "cost": "897496821",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "342714434.832",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "99604915.11",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "181099845.65",
+   "price_at_floor": "153238330.94"
+  }
+ },
+ {
+  "cost": "156784723",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "285063132.73",
+   "price_at_floor": "241207266.15"
+  }
+ },
+ {
+  "cost": "585169407.47",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "877710225.69",
+   "price_at_floor": "668765037.11"
+  }
+ },
+ {
+  "cost": "274390322.416",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "216300441.41",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "324434440.39",
+   "price_at_floor": "247200504.47"
+  }
+ },
+ {
+  "cost": "393991162.88",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "590957196.46",
+   "price_at_floor": "450275614.72"
+  }
+ },
+ {
+  "cost": "929478981.37",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1394148764.62",
+   "price_at_floor": "1062261692.99"
+  }
+ },
+ {
+  "cost": "552119315.7",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1003853301.27",
+   "price_at_floor": "849414331.85"
+  }
+ },
+ {
+  "cost": "835427705.8",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1253078904.75",
+   "price_at_floor": "954774520.91"
+  }
+ },
+ {
+  "cost": "826879914.400",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "339662695.28",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "617568536.87",
+   "price_at_floor": "522557992.74"
+  }
+ },
+ {
+  "cost": "616732819",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "796966466",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "445670197.52",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "760067429.41",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "1140044141.91",
+   "price_at_floor": "868648490.75"
+  }
+ },
+ {
+  "cost": "43996216",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "324341003.04",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "988221009",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1796765470.91",
+   "price_at_floor": "1520340013.85"
+  }
+ },
+ {
+  "cost": "578582784.19",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "306093786.845",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "30737858.58",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "55887015.60",
+   "price_at_floor": "47289013.20"
+  }
+ },
+ {
+  "cost": "73060941.156",
+  "band": null,
+  "out": {
+   "band": null,
+   "price_at_target": null,
+   "price_at_floor": null
+  }
+ },
+ {
+  "cost": "74508540.46",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "135470073.56",
+   "price_at_floor": "114628523.78"
+  }
+ },
+ {
+  "cost": "904344511",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1644262747.27",
+   "price_at_floor": "1391299247.69"
+  }
+ },
+ {
+  "cost": "40129598.012",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "60191387.45",
+   "price_at_floor": "45862397.73"
+  }
+ },
+ {
+  "cost": "582194610",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1058535654.55",
+   "price_at_floor": "895684015.38"
+  }
+ },
+ {
+  "cost": "98746825.988",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "179539683.61",
+   "price_at_floor": "151918193.83"
+  }
+ },
+ {
+  "cost": "317750636",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "476602123.89",
+   "price_at_floor": "363143584.00"
+  }
+ },
+ {
+  "cost": "388340185.49",
+  "band": [
+   "k",
+   "K",
+   "33.33",
+   "12.5"
+  ],
+  "out": {
+   "band": "K",
+   "target_pct": "33.33",
+   "floor_pct": "12.5",
+   "price_at_target": "582481154.18",
+   "price_at_floor": "443817354.85"
+  }
+ },
+ {
+  "cost": "891297754.8",
+  "band": [
+   "project_services",
+   "Project services",
+   "45",
+   "35"
+  ],
+  "out": {
+   "band": "Project services",
+   "target_pct": "45",
+   "floor_pct": "35",
+   "price_at_target": "1620541372.36",
+   "price_at_floor": "1371227315.08"
+  }
+ }
+]

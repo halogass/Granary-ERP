@@ -1,0 +1,9 @@
+Message-ID: <s01@acme.test>
+From: ACME <hello@acme.test>
+To: ann@customer.test
+Subject: Re: Quote please
+In-Reply-To: <m01@customer.test>
+References: <m01@customer.test>
+Date: {{RECENT}}
+
+Here it is.

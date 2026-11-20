@@ -1,0 +1,277 @@
+[
+ {
+  "cfg": {},
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.feature.scoring": ""
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.feature.scoring": "true"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.feature.scoring": "True"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.feature.scoring": "false"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.feature.scoring": "0"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": ""
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "",
+   "ai.feature.scoring": ""
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "",
+   "ai.feature.scoring": "true"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "",
+   "ai.feature.scoring": "True"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "",
+   "ai.feature.scoring": "false"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "",
+   "ai.feature.scoring": "0"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "true"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "true",
+   "ai.feature.scoring": ""
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "true",
+   "ai.feature.scoring": "true"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "true",
+   "ai.feature.scoring": "True"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "true",
+   "ai.feature.scoring": "false"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "true",
+   "ai.feature.scoring": "0"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "TRUE"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "TRUE",
+   "ai.feature.scoring": ""
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "TRUE",
+   "ai.feature.scoring": "true"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "TRUE",
+   "ai.feature.scoring": "True"
+  },
+  "feature": "scoring",
+  "out": true
+ },
+ {
+  "cfg": {
+   "ai.enabled": "TRUE",
+   "ai.feature.scoring": "false"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "TRUE",
+   "ai.feature.scoring": "0"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "false"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "false",
+   "ai.feature.scoring": ""
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "false",
+   "ai.feature.scoring": "true"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "false",
+   "ai.feature.scoring": "True"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "false",
+   "ai.feature.scoring": "false"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "false",
+   "ai.feature.scoring": "0"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "yes"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "yes",
+   "ai.feature.scoring": ""
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "yes",
+   "ai.feature.scoring": "true"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "yes",
+   "ai.feature.scoring": "True"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "yes",
+   "ai.feature.scoring": "false"
+  },
+  "feature": "scoring",
+  "out": false
+ },
+ {
+  "cfg": {
+   "ai.enabled": "yes",
+   "ai.feature.scoring": "0"
+  },
+  "feature": "scoring",
+  "out": false
+ }
+]

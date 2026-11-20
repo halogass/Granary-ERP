@@ -1,0 +1,8 @@
+Content-Disposition: charset=utf-8
+From: "quoted name", )	7bit
+Sender: =?gb2312?b?xOO6ww==?=, <> =?shift_jis?b?gqA=?=  Sun, 1 Jan 2006 1:2:3 -0000>
+Content-Disposition: name*0*=utf-8''%C3;
+Content-Type: text/plain
+
+hello
+world

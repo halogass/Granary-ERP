@@ -1,0 +1,20 @@
+{
+ "template": "document",
+ "data": {
+  "company": {},
+  "doc_title": "PURCHASE ORDER",
+  "number": "PO-1",
+  "rows": [],
+  "totals": [],
+  "payments": [],
+  "approvals": [],
+  "signatures": [],
+  "sections": []
+ },
+ "footer": {
+  "qr_data_uri": "javascript:alert(1)",
+  "title": "<script>x</script>",
+  "line": null,
+  "code": 42
+ }
+}

@@ -1,0 +1,3226 @@
+[
+ {
+  "name": "ok_minimal",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "missing_body",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "missing_body_no_ct",
+  "method": "POST",
+  "path": "/item",
+  "content_type": null,
+  "body": "",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "json_null",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "null",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "json_list",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "[1]",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "json_string",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "\"abc\"",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "invalid_json_trunc",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"x\", ",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"14\",\"message\":\"JSON decode error\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "invalid_json_bare",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{bad}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"1\",\"message\":\"JSON decode error\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "invalid_json_trailing_comma",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"x\",}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"13\",\"message\":\"JSON decode error\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "invalid_json_extra",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"x\"} x",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"14\",\"message\":\"JSON decode error\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "invalid_json_single_quote",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{'a': 1}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"1\",\"message\":\"JSON decode error\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "invalid_json_newline_pos",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\n  \"name\": \"é\",\n  \"count\": tru\n}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"28\",\"message\":\"JSON decode error\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "invalid_json_empty_ws",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "   ",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"3\",\"message\":\"JSON decode error\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "no_content_type_json",
+  "method": "POST",
+  "path": "/item",
+  "content_type": null,
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "text_plain",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "text/plain",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "json_charset",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json; charset=utf-8",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "vnd_json",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/vnd.api+json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "form_ct",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/x-www-form-urlencoded",
+  "body": "name=x",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "nan_literal",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"a\", \"count\": 1, \"price\": NaN, \"ratio\": Infinity}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"price\",\"message\":\"Input should be a finite number\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "dup_keys",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"a\", \"count\": 1, \"price\": \"1\", \"name\": \"b\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"b\",\"count\":\"1\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"1\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "missing_all",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"Field required\"},{\"field\":\"count\",\"message\":\"Field required\"},{\"field\":\"price\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "missing_count",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "all_wrong_types",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": 5, \"count\": \"x\", \"ratio\": \"y\", \"active\": \"maybe\", \"price\": true, \"amount\": [], \"pct\": 1.5, \"rate\": \"abc\", \"id\": \"nope\", \"day\": \"2026-13-01\", \"at\": \"garbage\", \"email\": \"bad\", \"kind\": \"z\", \"one\": \"y\", \"note\": 3, \"code\": \"ab\", \"tags\": \"notalist\", \"nums\": [1, 2, 3, 4], \"inner\": \"x\", \"inners\": [{\"code\": 1, \"qty\": 0}, \"y\"], \"meta\": [], \"labels\": {\"k\": 1}}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"Input should be a valid string\"},{\"field\":\"count\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"},{\"field\":\"ratio\",\"message\":\"Input should be a valid number, unable to parse string as a number\"},{\"field\":\"active\",\"message\":\"Input should be a valid boolean, unable to interpret input\"},{\"field\":\"price\",\"message\":\"Decimal input should be an integer, float, string or Decimal object\"},{\"field\":\"amount\",\"message\":\"Decimal input should be an integer, float, string or Decimal object\"},{\"field\":\"pct\",\"message\":\"Input should be a valid integer, got a number with a fractional part\"},{\"field\":\"rate\",\"message\":\"Input should be a valid decimal\"},{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `n` at 1\"},{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, month value is outside expected range of 1-12\"},{\"field\":\"at\",\"message\":\"Input should be a valid datetime or date, input is too short\"},{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address must have an @-sign.\"},{\"field\":\"kind\",\"message\":\"Input should be 'a', 'b' or 'c'\"},{\"field\":\"one\",\"message\":\"Input should be 'x'\"},{\"field\":\"note\",\"message\":\"Input should be a valid string\"},{\"field\":\"code\",\"message\":\"String should match pattern '^[A-Z]+$'\"},{\"field\":\"tags\",\"message\":\"Input should be a valid list\"},{\"field\":\"nums\",\"message\":\"List should have at most 3 items after validation, not 4\"},{\"field\":\"inner\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"},{\"field\":\"inners -> 0 -> code\",\"message\":\"Input should be a valid string\"},{\"field\":\"inners -> 0 -> qty\",\"message\":\"Input should be greater than or equal to 1\"},{\"field\":\"inners -> 1\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"},{\"field\":\"meta\",\"message\":\"Input should be a valid dictionary\"},{\"field\":\"labels -> k\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "name_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"String should have at least 1 character\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "name_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"12345678901\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"String should have at most 10 characters\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "name_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"ok\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"ok\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "name_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"\\u00e9moji\\ud83d\\ude00\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"émoji😀\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "name_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": null, \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "name_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": 1.5, \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "name_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": [\"x\"], \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "name_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": {\"a\": 1}, \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "name_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": false, \"count\": 2, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"name\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pattern_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"code\": \"AB\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "pattern_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"code\": \"Ab\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"code\",\"message\":\"String should match pattern '^[A-Z]+$'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pattern_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"code\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"code\",\"message\":\"String should match pattern '^[A-Z]+$'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pattern_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"code\": \"A1\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"code\",\"message\":\"String should match pattern '^[A-Z]+$'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "note_null",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"note\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 0, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"0\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": -3, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"-3\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"7\", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"7\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \" 8 \", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"8\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"+9\", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"9\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"1_000\", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"1000\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"1.0\", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"1\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"1.5\", \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"0x10\", \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"\", \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"abc\", \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2.0, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2.5, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer, got a number with a fractional part\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": true, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"1\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_14",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": false, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"0\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_15",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": null, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_16",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"1e3\", \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_17",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"007\", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"7\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_18",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"-0\", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"0\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_19",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 12345678901234567890, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"12345678901234567890\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_20",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"99999999999999999999\", \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"99999999999999999999\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "count_21",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 1e+20, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Unable to parse input string as an integer, exceeded maximum size\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_22",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": [1], \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_23",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": {\"a\": 1}, \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "count_24",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": \"\\u0661\\u0662\", \"price\": \"10.50\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"count\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pct_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"pct\": -1}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"pct\",\"message\":\"Input should be greater than or equal to 0\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pct_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"pct\": 0}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "pct_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"pct\": 100}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"100\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "pct_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"pct\": 101}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"pct\",\"message\":\"Input should be less than or equal to 100\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pct_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"pct\": \"50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"50\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "pct_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"pct\": 50.0}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"50\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "pct_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"pct\": \"x\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"pct\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "ratio_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": 1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"1.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": 1.5}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"1.5\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \"2.5\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"2.5\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \" 3 \"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"3.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \"1e3\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"1000.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \"abc\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"ratio\",\"message\":\"Input should be a valid number, unable to parse string as a number\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "ratio_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"ratio\",\"message\":\"Input should be a valid number, unable to parse string as a number\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "ratio_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": true}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"1.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": null}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"ratio\",\"message\":\"Input should be a valid number\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "ratio_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \"inf\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"inf\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \"nan\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"nan\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": \"1_0.5\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"10.5\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": 0.1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.1\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": 1e+16}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"1e+16\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_14",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": 1e-07}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"1e-07\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_15",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": 123456789.12345679}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"123456789.12345679\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "ratio_16",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"ratio\": [1]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"ratio\",\"message\":\"Input should be a valid number\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "active_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": true}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": false}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"true\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"False\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"yes\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"NO\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"on\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"off\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"1\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"0\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"t\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"f\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"y\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"n\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_14",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": 1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_15",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": 0}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_16",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": 2}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"active\",\"message\":\"Input should be a valid boolean, unable to interpret input\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "active_17",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": 1.0}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_18",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": 0.0}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":false,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "active_19",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": 0.5}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"active\",\"message\":\"Input should be a valid boolean\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "active_20",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"maybe\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"active\",\"message\":\"Input should be a valid boolean, unable to interpret input\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "active_21",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"active\",\"message\":\"Input should be a valid boolean, unable to interpret input\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "active_22",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": null}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"active\",\"message\":\"Input should be a valid boolean\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "active_23",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"active\": [true]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"active\",\"message\":\"Input should be a valid boolean\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "price_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.5000\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.5000\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": 10}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": 10.5}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.5\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": 0.1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"0.1\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"1e2\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"1E+2\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"abc\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"price\",\"message\":\"Input should be a valid decimal\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "price_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"price\",\"message\":\"Input should be a valid decimal\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "price_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": true}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"price\",\"message\":\"Decimal input should be an integer, float, string or Decimal object\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "price_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": null}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"price\",\"message\":\"Decimal input should be an integer, float, string or Decimal object\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "price_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": [1]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"price\",\"message\":\"Decimal input should be an integer, float, string or Decimal object\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "price_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \" 3.5 \"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"3.5\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"-0\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"-0\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"NaN\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"price\",\"message\":\"Input should be a finite number\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "price_14",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"1_000.5\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"1000.5\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_15",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": 1e-07}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"1E-7\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_16",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": 123456789.12345679}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"123456789.12345679\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_17",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"0.000001\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"0.000001\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "price_18",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": 1.1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"1.1\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "amount_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"amount\": 0}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":\"0\",\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "amount_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"amount\": -1}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"amount\",\"message\":\"Input should be greater than or equal to 0\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "amount_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"amount\": \"-0.01\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"amount\",\"message\":\"Input should be greater than or equal to 0\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "amount_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"amount\": \"5\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":\"5\",\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "rate_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"rate\": \"0\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"rate\",\"message\":\"Input should be greater than 0\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "rate_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"rate\": \"999.99\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":\"999.99\",\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "rate_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"rate\": \"1000\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"rate\",\"message\":\"Decimal input should have no more than 3 digits before the decimal point\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "rate_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"rate\": \"1.234\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"rate\",\"message\":\"Decimal input should have no more than 2 decimal places\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "rate_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"rate\": \"12.3\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":\"12.3\",\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "rate_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"rate\": 0.5}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":\"0.5\",\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "rate_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"rate\": \"-1\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"rate\",\"message\":\"Input should be greater than 0\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":\"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\",\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "uuid_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"8D5A1F8E3C2B4B7A9C1D2E3F4A5B6C7D\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":\"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\",\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "uuid_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"{8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d}\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":\"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\",\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "uuid_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"urn:uuid:8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":\"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\",\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "uuid_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"nope\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `n` at 1\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid length: expected length 32 for simple format, found 0\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid group length in group 4: expected 12, found 11\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7dd\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid group length in group 4: expected 12, found 13\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6cxz\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `x` at 35\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"8d5a1f8e3c2b-4b7a-9c1d-2e3f4a5b6c7d\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid group count: expected 5, found 4\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": \"gggggggggggggggggggggggggggggggg\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `g` at 1\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": 123}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"UUID input should be a string, bytes or UUID object\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "uuid_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "uuid_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"id\": true}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"id\",\"message\":\"UUID input should be a string, bytes or UUID object\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-01-02\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":\"2026-01-02\",\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "day_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-01-02T00:00:00\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":\"2026-01-02\",\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "day_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-01-02T10:00:00\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Datetimes provided to dates should have zero time - e.g. be exact dates\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-01-02T00:00:00Z\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":\"2026-01-02\",\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "day_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"02/01/2026\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, invalid character in year\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, input is too short\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-1-2\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, input is too short\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-02-30\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, day value is outside expected range\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-13-01\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, month value is outside expected range of 1-12\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"20260102\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Datetimes provided to dates should have zero time - e.g. be exact dates\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": 20260102}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Datetimes provided to dates should have zero time - e.g. be exact dates\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"1700000000\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Datetimes provided to dates should have zero time - e.g. be exact dates\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": 1700000000}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Datetimes provided to dates should have zero time - e.g. be exact dates\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-01-02 extra\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, invalid character in hour\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_14",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"x\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, input is too short\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_15",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "day_16",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": true}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_17",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": 1.5}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Datetimes provided to dates should have zero time - e.g. be exact dates\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_18",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-01-02T\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, input is too short\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "day_19",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"day\": \"2026-01-02T25:00:00\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"day\",\"message\":\"Input should be a valid date or datetime, hour value is outside expected range of 0-23\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "at_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T03:04:05\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T03:04:05Z\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T03:04:05+07:00\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05+07:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02 03:04:05.123456\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05.123456\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T03:04:05.1234567\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05.123456\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T03:04\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T00:00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T03:04:05-05:30\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05-05:30\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": 1700000000}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2023-11-14T22:13:20+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": 1700000000.5}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2023-11-14T22:13:20.500000+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"1700000000\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2023-11-14T22:13:20+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": 1700000000000}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2023-11-14T22:13:20+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": 0}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"1970-01-01T00:00:00+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": -1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"1969-12-31T23:59:59+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_14",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"garbage\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"at\",\"message\":\"Input should be a valid datetime or date, input is too short\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "at_15",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"at\",\"message\":\"Input should be a valid datetime or date, input is too short\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "at_16",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-13-01T00:00:00\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"at\",\"message\":\"Input should be a valid datetime or date, month value is outside expected range of 1-12\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "at_17",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T24:00:00\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"at\",\"message\":\"Input should be a valid datetime or date, unexpected extra characters at the end of the input\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "at_18",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": true}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"at\",\"message\":\"Input should be a valid datetime\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "at_19",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_20",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": [1]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"at\",\"message\":\"Input should be a valid datetime\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "at_21",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02T03:04:05+0700\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05+07:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "at_22",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"at\": \"2026-01-02t03:04:05z\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":\"2026-01-02T03:04:05+00:00\",\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b.com\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"a@b.com\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"Foo.Bar@Example.COM\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"Foo.Bar@example.com\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"bad\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address must have an @-sign.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: The part after the @-sign is not valid. It should have a period.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"@b.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: There must be something before the @-sign.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: There must be something after the @-sign.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a b@c.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: The email address contains invalid characters before the @-sign: SPACE.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_7",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b..com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address cannot have two periods in a row.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_8",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a..b@c.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address cannot have two periods in a row.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_9",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \".a@b.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address cannot start with a period.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_10",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a.@b.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address cannot have a period immediately before the @-sign.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_11",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@-b.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address cannot have a hyphen immediately after the @-sign.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_12",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b.com.\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address cannot end with a period.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_13",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"John <john@x.com>\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"john@x.com\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_14",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@localhost\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: The part after the @-sign is not valid. It should have a period.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_15",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b.test\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: The part after the @-sign is a special-use or reserved name that cannot be used with email.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_16",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@@b.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: The part after the @-sign contains invalid characters: '@'.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_17",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: An email address must have an @-sign.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_18",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": 5}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_19",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_20",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b_c.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: The part after the @-sign contains invalid characters: '_'.\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_21",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"\\u00fc@b.com\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"ü@b.com\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_22",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b\\u00fc.com\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"a@bü.com\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_23",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: After the @-sign, periods cannot be separated by so many characters (1 character too many).\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_24",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@b.com\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"email\",\"message\":\"value is not a valid email address: The email address is too long before the @-sign (1 character too many).\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "email_25",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a@b.c\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"a@b.c\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_26",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \"a+tag@b.example\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"a+tag@b.example\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "email_27",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"email\": \" a@b.com \"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":\"a@b.com\",\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "kind_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"kind\": \"a\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "kind_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"kind\": \"c\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"c\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "kind_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"kind\": \"d\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"kind\",\"message\":\"Input should be 'a', 'b' or 'c'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "kind_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"kind\": \"\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"kind\",\"message\":\"Input should be 'a', 'b' or 'c'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "kind_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"kind\": null}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"kind\",\"message\":\"Input should be 'a', 'b' or 'c'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "kind_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"kind\": 1}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"kind\",\"message\":\"Input should be 'a', 'b' or 'c'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "kind_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"kind\": \"A\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"kind\",\"message\":\"Input should be 'a', 'b' or 'c'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "one_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"one\": \"x\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":\"x\",\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "one_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"one\": \"y\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"one\",\"message\":\"Input should be 'x'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "one_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"one\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "tags_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"tags\": []}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "tags_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"tags\": [\"a\", \"b\"]}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[\"a\",\"b\"],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "tags_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"tags\": [\"a\", 1, null]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"tags -> 1\",\"message\":\"Input should be a valid string\"},{\"field\":\"tags -> 2\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "tags_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"tags\": \"abc\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"tags\",\"message\":\"Input should be a valid list\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "tags_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"tags\": null}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"tags\",\"message\":\"Input should be a valid list\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "tags_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"tags\": {\"a\": 1}}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"tags\",\"message\":\"Input should be a valid list\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "tags_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"tags\": [[]]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"tags -> 0\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "nums_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"nums\": [1, \"2\", 3.0]}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[\"1\",\"2\",\"3\"],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "nums_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"nums\": [1, 2, 3, 4]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"nums\",\"message\":\"List should have at most 3 items after validation, not 4\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "nums_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"nums\": [1, \"x\", 3, 4, 5]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"nums\",\"message\":\"List should have at most 3 items after validation, not 5\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "nums_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"nums\": [\"x\", \"x\", \"x\", \"x\"]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"nums\",\"message\":\"List should have at most 3 items after validation, not 4\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "inner_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inner\": {\"code\": \"X\"}}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":{\"code\":\"X\",\"qty\":\"1\"},\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "inner_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inner\": {\"code\": \"X\", \"qty\": 0}}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"inner -> qty\",\"message\":\"Input should be greater than or equal to 1\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "inner_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inner\": {}}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"inner -> code\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "inner_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inner\": {\"qty\": \"x\"}}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"inner -> code\",\"message\":\"Field required\"},{\"field\":\"inner -> qty\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "inner_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inner\": []}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"inner\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "inner_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inner\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "inner_6",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inner\": {\"code\": \"X\", \"extra\": 1}}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":{\"code\":\"X\",\"qty\":\"1\"},\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "inners_mixed",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"inners\": [{\"code\": \"a\"}, {\"qty\": 0}, 5, {\"code\": \"b\", \"qty\": \"2\"}]}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"inners -> 1 -> code\",\"message\":\"Field required\"},{\"field\":\"inners -> 1 -> qty\",\"message\":\"Input should be greater than or equal to 1\"},{\"field\":\"inners -> 2\",\"message\":\"Input should be a valid dictionary or object to extract fields from\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "meta_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"meta\": {}}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":{},\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "meta_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"meta\": {\"a\": [1, {\"b\": null}]}}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":{\"a\":[\"1\",{\"b\":null}]},\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "meta_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"meta\": []}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"meta\",\"message\":\"Input should be a valid dictionary\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "meta_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"meta\": \"x\"}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"meta\",\"message\":\"Input should be a valid dictionary\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "meta_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"meta\": null}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "labels_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"labels\": {\"a\": \"b\"}}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":{\"a\":\"b\"},\"anything\":null}}"
+ },
+ {
+  "name": "labels_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"labels\": {\"a\": 1, \"b\": null, \"c\": \"d\"}}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"labels -> a\",\"message\":\"Input should be a valid string\"},{\"field\":\"labels -> b\",\"message\":\"Input should be a valid string\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "labels_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"labels\": []}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"labels\",\"message\":\"Input should be a valid dictionary\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "anything_0",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"anything\": 1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":\"1\"}}"
+ },
+ {
+  "name": "anything_1",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"anything\": 1.5}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":\"1.5\"}}"
+ },
+ {
+  "name": "anything_2",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"anything\": \"s\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":\"s\"}}"
+ },
+ {
+  "name": "anything_3",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"anything\": [1, \"2\"]}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":[\"1\",\"2\"]}}"
+ },
+ {
+  "name": "anything_4",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"anything\": {\"k\": true}}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":{\"k\":true}}}"
+ },
+ {
+  "name": "anything_5",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"anything\": 12345678901234567890}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":\"12345678901234567890\"}}"
+ },
+ {
+  "name": "strict_ok",
+  "method": "POST",
+  "path": "/strict",
+  "content_type": "application/json",
+  "body": "{\"a\": 1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"a\":\"1\",\"b\":\"x\"}}"
+ },
+ {
+  "name": "strict_extra",
+  "method": "POST",
+  "path": "/strict",
+  "content_type": "application/json",
+  "body": "{\"a\": 1, \"z\": 2, \"y\": 3}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"z\",\"message\":\"Extra inputs are not permitted\"},{\"field\":\"y\",\"message\":\"Extra inputs are not permitted\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "strict_missing_extra",
+  "method": "POST",
+  "path": "/strict",
+  "content_type": "application/json",
+  "body": "{\"z\": 2, \"b\": 3}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"a\",\"message\":\"Field required\"},{\"field\":\"b\",\"message\":\"Input should be a valid string\"},{\"field\":\"z\",\"message\":\"Extra inputs are not permitted\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "extra_ignored",
+  "method": "POST",
+  "path": "/item",
+  "content_type": "application/json",
+  "body": "{\"name\": \"Widget\", \"count\": 2, \"price\": \"10.50\", \"unknown\": 1}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"name\":\"Widget\",\"count\":\"2\",\"ratio\":\"0.0\",\"active\":true,\"price\":\"10.50\",\"amount\":null,\"pct\":\"0\",\"rate\":null,\"id\":null,\"day\":null,\"at\":null,\"email\":null,\"kind\":\"a\",\"one\":null,\"note\":null,\"code\":\"AB\",\"tags\":[],\"nums\":[],\"inner\":null,\"inners\":[],\"meta\":null,\"labels\":null,\"anything\":null}}"
+ },
+ {
+  "name": "raw_ok",
+  "method": "POST",
+  "path": "/raw",
+  "content_type": "application/json",
+  "body": "{\"a\": 1, \"b\": [1.5, \"x\"]}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"a\":\"1\",\"b\":[\"1.5\",\"x\"]}}"
+ },
+ {
+  "name": "raw_list",
+  "method": "POST",
+  "path": "/raw",
+  "content_type": "application/json",
+  "body": "[1]",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Input should be a valid dictionary\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "raw_empty",
+  "method": "POST",
+  "path": "/raw",
+  "content_type": "application/json",
+  "body": "",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "raw_null",
+  "method": "POST",
+  "path": "/raw",
+  "content_type": "application/json",
+  "body": "null",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q",
+  "method": "GET",
+  "path": "/q",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"50\",\"q\":null,\"day\":null,\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?limit=10",
+  "method": "GET",
+  "path": "/q?limit=10",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"10\",\"q\":null,\"day\":null,\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?limit=0",
+  "method": "GET",
+  "path": "/q?limit=0",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> limit\",\"message\":\"Input should be greater than or equal to 1\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?limit=201",
+  "method": "GET",
+  "path": "/q?limit=201",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> limit\",\"message\":\"Input should be less than or equal to 200\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?limit=abc",
+  "method": "GET",
+  "path": "/q?limit=abc",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> limit\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?limit=",
+  "method": "GET",
+  "path": "/q?limit=",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> limit\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?limit=5&limit=7",
+  "method": "GET",
+  "path": "/q?limit=5&limit=7",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"7\",\"q\":null,\"day\":null,\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?q=hello%20world&q=x",
+  "method": "GET",
+  "path": "/q?q=hello%20world&q=x",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"50\",\"q\":\"x\",\"day\":null,\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?day=2026-01-02",
+  "method": "GET",
+  "path": "/q?day=2026-01-02",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"50\",\"q\":null,\"day\":\"2026-01-02\",\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?day=bad",
+  "method": "GET",
+  "path": "/q?day=bad",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> day\",\"message\":\"Input should be a valid date or datetime, input is too short\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?flag=yes",
+  "method": "GET",
+  "path": "/q?flag=yes",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"50\",\"q\":null,\"day\":null,\"flag\":true,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?flag=maybe",
+  "method": "GET",
+  "path": "/q?flag=maybe",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> flag\",\"message\":\"Input should be a valid boolean, unable to interpret input\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?kind=z",
+  "method": "GET",
+  "path": "/q?kind=z",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> kind\",\"message\":\"Input should be 'x' or 'y'\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?kind=x",
+  "method": "GET",
+  "path": "/q?kind=x",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"50\",\"q\":null,\"day\":null,\"flag\":false,\"kind\":\"x\",\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?uid=nope",
+  "method": "GET",
+  "path": "/q?uid=nope",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> uid\",\"message\":\"Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `n` at 1\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?amount=1.50",
+  "method": "GET",
+  "path": "/q?amount=1.50",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"50\",\"q\":null,\"day\":null,\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":\"1.50\"}}"
+ },
+ {
+  "name": "query /q?amount=x",
+  "method": "GET",
+  "path": "/q?amount=x",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> amount\",\"message\":\"Input should be a valid decimal\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?limit=0&day=bad&flag=maybe",
+  "method": "GET",
+  "path": "/q?limit=0&day=bad&flag=maybe",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> limit\",\"message\":\"Input should be greater than or equal to 1\"},{\"field\":\"query -> day\",\"message\":\"Input should be a valid date or datetime, input is too short\"},{\"field\":\"query -> flag\",\"message\":\"Input should be a valid boolean, unable to interpret input\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "query /q?limit=+12",
+  "method": "GET",
+  "path": "/q?limit=+12",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"12\",\"q\":null,\"day\":null,\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?q=",
+  "method": "GET",
+  "path": "/q?q=",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"limit\":\"50\",\"q\":\"\",\"day\":null,\"flag\":false,\"kind\":null,\"uid\":null,\"amount\":null}}"
+ },
+ {
+  "name": "query /q?flag=",
+  "method": "GET",
+  "path": "/q?flag=",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"query -> flag\",\"message\":\"Input should be a valid boolean, unable to interpret input\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "path /p/8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d/3",
+  "method": "GET",
+  "path": "/p/8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d/3",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"item_id\":\"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\",\"n\":\"3\"}}"
+ },
+ {
+  "name": "path /p/nope/3",
+  "method": "GET",
+  "path": "/p/nope/3",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"path -> item_id\",\"message\":\"Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `n` at 1\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "path /p/nope/x",
+  "method": "GET",
+  "path": "/p/nope/x",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"path -> item_id\",\"message\":\"Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `n` at 1\"},{\"field\":\"path -> n\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "path /p/8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d/1.0",
+  "method": "GET",
+  "path": "/p/8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d/1.0",
+  "content_type": null,
+  "body": null,
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"item_id\":\"8d5a1f8e-3c2b-4b7a-9c1d-2e3f4a5b6c7d\",\"n\":\"1\"}}"
+ },
+ {
+  "name": "pq_all_bad",
+  "method": "POST",
+  "path": "/pq/x?limit=0",
+  "content_type": "application/json",
+  "body": "{\"z\": 1}",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"path -> n\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"},{\"field\":\"query -> limit\",\"message\":\"Input should be greater than or equal to 1\"},{\"field\":\"a\",\"message\":\"Field required\"},{\"field\":\"z\",\"message\":\"Extra inputs are not permitted\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pq_no_body",
+  "method": "POST",
+  "path": "/pq/x",
+  "content_type": "application/json",
+  "body": "",
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Validation failed\",\"errors\":[{\"field\":\"path -> n\",\"message\":\"Input should be a valid integer, unable to parse string as an integer\"},{\"field\":\"query -> limit\",\"message\":\"Field required\"},{\"field\":\"\",\"message\":\"Field required\"}],\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "pq_ok",
+  "method": "POST",
+  "path": "/pq/3?limit=2",
+  "content_type": "application/json",
+  "body": "{\"a\": \"4\"}",
+  "status": 200,
+  "headers": {},
+  "response": "{\"ok\":true,\"v\":{\"n\":\"3\",\"limit\":\"2\",\"body\":{\"a\":\"4\",\"b\":\"x\"}}}"
+ },
+ {
+  "name": "err notfound",
+  "method": "GET",
+  "path": "/err/notfound",
+  "content_type": null,
+  "body": null,
+  "status": 404,
+  "headers": {},
+  "response": "{\"detail\":\"Invoice 'INV-1' not found\",\"code\":\"NOT_FOUND\"}"
+ },
+ {
+  "name": "err notfound_noid",
+  "method": "GET",
+  "path": "/err/notfound_noid",
+  "content_type": null,
+  "body": null,
+  "status": 404,
+  "headers": {},
+  "response": "{\"detail\":\"Invoice not found\",\"code\":\"NOT_FOUND\"}"
+ },
+ {
+  "name": "err conflict",
+  "method": "GET",
+  "path": "/err/conflict",
+  "content_type": null,
+  "body": null,
+  "status": 409,
+  "headers": {},
+  "response": "{\"detail\":\"Already exists\",\"code\":\"CONFLICT\"}"
+ },
+ {
+  "name": "err forbidden",
+  "method": "GET",
+  "path": "/err/forbidden",
+  "content_type": null,
+  "body": null,
+  "status": 403,
+  "headers": {},
+  "response": "{\"detail\":\"Access denied\",\"code\":\"FORBIDDEN\"}"
+ },
+ {
+  "name": "err forbidden_msg",
+  "method": "GET",
+  "path": "/err/forbidden_msg",
+  "content_type": null,
+  "body": null,
+  "status": 403,
+  "headers": {},
+  "response": "{\"detail\":\"Nope\",\"code\":\"FORBIDDEN\"}"
+ },
+ {
+  "name": "err validation",
+  "method": "GET",
+  "path": "/err/validation",
+  "content_type": null,
+  "body": null,
+  "status": 422,
+  "headers": {},
+  "response": "{\"detail\":\"Bad value\",\"code\":\"VALIDATION_ERROR\"}"
+ },
+ {
+  "name": "err business",
+  "method": "GET",
+  "path": "/err/business",
+  "content_type": null,
+  "body": null,
+  "status": 400,
+  "headers": {},
+  "response": "{\"detail\":\"Rule broken\",\"code\":\"BUSINESS_RULE_VIOLATION\"}"
+ },
+ {
+  "name": "err http",
+  "method": "GET",
+  "path": "/err/http",
+  "content_type": null,
+  "body": null,
+  "status": 400,
+  "headers": {},
+  "response": "{\"detail\":\"Plain message\"}"
+ },
+ {
+  "name": "err http_dict",
+  "method": "GET",
+  "path": "/err/http_dict",
+  "content_type": null,
+  "body": null,
+  "status": 409,
+  "headers": {},
+  "response": "{\"detail\":{\"message\":\"x\",\"items\":[1,2]}}"
+ },
+ {
+  "name": "err http_headers",
+  "method": "GET",
+  "path": "/err/http_headers",
+  "content_type": null,
+  "body": null,
+  "status": 401,
+  "headers": {
+   "www-authenticate": "Bearer"
+  },
+  "response": "{\"detail\":\"Not authenticated\"}"
+ },
+ {
+  "name": "err http_none",
+  "method": "GET",
+  "path": "/err/http_none",
+  "content_type": null,
+  "body": null,
+  "status": 404,
+  "headers": {},
+  "response": "{\"detail\":\"Not Found\"}"
+ },
+ {
+  "name": "err unique",
+  "method": "GET",
+  "path": "/err/unique",
+  "content_type": null,
+  "body": null,
+  "status": 409,
+  "headers": {},
+  "response": "{\"detail\":\"A record with these values already exists\",\"code\":\"CONFLICT\"}"
+ },
+ {
+  "name": "err fk",
+  "method": "GET",
+  "path": "/err/fk",
+  "content_type": null,
+  "body": null,
+  "status": 409,
+  "headers": {},
+  "response": "{\"detail\":\"Referenced record does not exist\",\"code\":\"CONFLICT\"}"
+ },
+ {
+  "name": "err other_integrity",
+  "method": "GET",
+  "path": "/err/other_integrity",
+  "content_type": null,
+  "body": null,
+  "status": 409,
+  "headers": {},
+  "response": "{\"detail\":\"Database constraint violation\",\"code\":\"CONFLICT\"}"
+ },
+ {
+  "name": "err crash",
+  "method": "GET",
+  "path": "/err/crash",
+  "content_type": null,
+  "body": null,
+  "status": 500,
+  "headers": {},
+  "response": "{\"detail\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}"
+ },
+ {
+  "name": "unknown route",
+  "method": "GET",
+  "path": "/nope",
+  "content_type": null,
+  "body": null,
+  "status": 404,
+  "headers": {},
+  "response": "{\"detail\":\"Not Found\"}"
+ },
+ {
+  "name": "trailing slash",
+  "method": "GET",
+  "path": "/err/http/",
+  "content_type": null,
+  "body": null,
+  "status": 404,
+  "headers": {},
+  "response": "{\"detail\":\"Not Found\"}"
+ },
+ {
+  "name": "method not allowed",
+  "method": "DELETE",
+  "path": "/item",
+  "content_type": null,
+  "body": null,
+  "status": 405,
+  "headers": {
+   "allow": "POST"
+  },
+  "response": "{\"detail\":\"Method Not Allowed\"}"
+ }
+]

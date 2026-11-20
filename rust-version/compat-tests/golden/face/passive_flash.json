@@ -1,0 +1,880 @@
+{
+ "description": "Passive liveness flash judgement vectors (contract of 6 Nov 2026, lag + chromaticity revision of the same evening). judge(neutral, flashes, colors, flash_min_delta, flash_min_corr) -> expected {outcome, corr, delta, lag}; compare corr and delta to 1e-9. Means and colours are compared as chromaticity x/(r+g+b)*255; lag 0 and (3+ flashes) lag 1 are tried, the higher corr wins (ties lag 0). zero_variance_eps: a centred sum of squares below it counts as zero variance (corr 0). verdicts: verdict(flash outcome, spoof_real, spoof_min_real).",
+ "zero_variance_eps": 1e-09,
+ "cases": [
+  {
+   "name": "clear_pass",
+   "why": "live skin: each flash's colour shows in the cheeks (gain 0.08 plus noise)",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     173.4,
+     117.9,
+     101.1
+    ],
+    [
+     161.5,
+     129.3,
+     101.7
+    ],
+    [
+     162.1,
+     121.2,
+     111.4
+    ],
+    [
+     172.5,
+     126.5,
+     101.2
+    ],
+    [
+     170.4,
+     119.2,
+     111.8
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "pass",
+    "corr": 0.9970385474046369,
+    "delta": 2.713471412749435,
+    "lag": 0
+   }
+  },
+  {
+   "name": "printed_uniform",
+   "why": "a print or screen: brightness changes the same on all channels, unrelated to the colour",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     152.4,
+     108.7,
+     91.2
+    ],
+    [
+     165.4,
+     121.7,
+     104.2
+    ],
+    [
+     154.4,
+     110.7,
+     93.2
+    ],
+    [
+     167.4,
+     123.7,
+     106.2
+    ],
+    [
+     153.4,
+     109.7,
+     92.2
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "inconclusive",
+    "corr": 0.11276274254336516,
+    "delta": 0.7919436245679007,
+    "lag": 1
+   }
+  },
+  {
+   "name": "low_delta",
+   "why": "bright ambient light: the right pattern but too small to judge",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     154.95,
+     109.9,
+     92.4
+    ],
+    [
+     153.6,
+     111.25,
+     92.6
+    ],
+    [
+     153.6,
+     110.2,
+     93.75
+    ],
+    [
+     154.95,
+     111.0,
+     92.4
+    ],
+    [
+     154.6,
+     110.0,
+     93.75
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "inconclusive",
+    "corr": 0.9972098442665318,
+    "delta": 0.37339466532143584,
+    "lag": 0
+   }
+  },
+  {
+   "name": "wrong_order",
+   "why": "the response follows a different colour order than the one shown",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     162.6,
+     120.3,
+     111.9
+    ],
+    [
+     172.3,
+     118.5,
+     100.1
+    ],
+    [
+     170.1,
+     119.6,
+     111.4
+    ],
+    [
+     161.7,
+     128.5,
+     102.8
+    ],
+    [
+     173.2,
+     127.2,
+     101.0
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "fail",
+    "corr": 0.27015499603225457,
+    "delta": 2.3637997592056945,
+    "lag": 1
+   }
+  },
+  {
+   "name": "zero_variance",
+   "why": "no change at all: corr 0, delta 0",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     152.4,
+     108.7,
+     91.2
+    ],
+    [
+     152.4,
+     108.7,
+     91.2
+    ],
+    [
+     152.4,
+     108.7,
+     91.2
+    ],
+    [
+     152.4,
+     108.7,
+     91.2
+    ],
+    [
+     152.4,
+     108.7,
+     91.2
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "inconclusive",
+    "corr": 0.0,
+    "delta": 0.0,
+    "lag": 0
+   }
+  },
+  {
+   "name": "constant_offset",
+   "why": "every flash brightens equally: centred response is zero",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     162.4,
+     118.7,
+     101.2
+    ],
+    [
+     162.4,
+     118.7,
+     101.2
+    ],
+    [
+     162.4,
+     118.7,
+     101.2
+    ],
+    [
+     162.4,
+     118.7,
+     101.2
+    ],
+    [
+     162.4,
+     118.7,
+     101.2
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "inconclusive",
+    "corr": 0.0,
+    "delta": 0.0,
+    "lag": 0
+   }
+  },
+  {
+   "name": "same_colors",
+   "why": "the screen colour never changes (zero variance on the colour side): corr 0, so fail",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     173.4,
+     117.9,
+     101.1
+    ],
+    [
+     161.5,
+     129.3,
+     101.7
+    ],
+    [
+     162.1,
+     121.2,
+     111.4
+    ],
+    [
+     172.5,
+     126.5,
+     101.2
+    ],
+    [
+     170.4,
+     119.2,
+     111.8
+    ]
+   ],
+   "colors": [
+    [
+     200,
+     200,
+     200
+    ],
+    [
+     200,
+     200,
+     200
+    ],
+    [
+     200,
+     200,
+     200
+    ],
+    [
+     200,
+     200,
+     200
+    ],
+    [
+     200,
+     200,
+     200
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "fail",
+    "corr": 0.0,
+    "delta": 2.713471412749435,
+    "lag": 0
+   }
+  },
+  {
+   "name": "negative_corr",
+   "why": "the response is the inverse of the colours: fails at lag 0; this sequence happens to correlate at lag 1 (the documented cost of lag tolerance; the anti-spoof score still has to pass)",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     132.6,
+     98.7,
+     81.9
+    ],
+    [
+     142.3,
+     88.5,
+     79.3
+    ],
+    [
+     142.9,
+     97.2,
+     70.6
+    ],
+    [
+     131.7,
+     89.7,
+     82.0
+    ],
+    [
+     135.2,
+     98.4,
+     71.0
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "pass",
+    "corr": 0.6212163799769893,
+    "delta": 3.4295902673632264,
+    "lag": 1
+   }
+  },
+  {
+   "name": "four_flashes",
+   "why": "four flashes, pass",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     175.95,
+     119.1,
+     102.3
+    ],
+    [
+     162.7,
+     131.85,
+     103.1
+    ],
+    [
+     163.3,
+     122.7,
+     113.95
+    ],
+    [
+     175.05,
+     128.8,
+     102.4
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "pass",
+    "corr": 0.9987994298481591,
+    "delta": 3.002877035602767,
+    "lag": 0
+   }
+  },
+  {
+   "name": "camera_late",
+   "why": "the camera delivers each frame one colour late: lag 1 passes",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     152.4,
+     108.7,
+     91.2
+    ],
+    [
+     173.4,
+     117.9,
+     101.1
+    ],
+    [
+     161.5,
+     129.3,
+     101.7
+    ],
+    [
+     162.1,
+     121.2,
+     111.4
+    ],
+    [
+     172.5,
+     126.5,
+     101.2
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "pass",
+    "corr": 0.998388704093648,
+    "delta": 2.705362291126827,
+    "lag": 1
+   }
+  },
+  {
+   "name": "exposure_change",
+   "why": "auto exposure changes the brightness of every flash frame: chromaticity still passes",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     138.72,
+     94.32,
+     80.88
+    ],
+    [
+     148.58,
+     118.956,
+     93.564
+    ],
+    [
+     113.47,
+     84.84,
+     77.98
+    ],
+    [
+     163.875,
+     120.175,
+     96.14
+    ],
+    [
+     144.84,
+     101.32,
+     95.03
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ],
+    [
+     120,
+     150,
+     255
+    ],
+    [
+     255,
+     230,
+     120
+    ],
+    [
+     220,
+     130,
+     255
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "pass",
+    "corr": 0.9970385474046366,
+    "delta": 2.7134714127494317,
+    "lag": 0
+   }
+  },
+  {
+   "name": "two_flashes",
+   "why": "two flashes: lag 1 is not tried",
+   "neutral": [
+    152.4,
+    108.7,
+    91.2
+   ],
+   "flashes": [
+    [
+     173.4,
+     117.9,
+     101.1
+    ],
+    [
+     161.5,
+     129.3,
+     101.7
+    ]
+   ],
+   "colors": [
+    [
+     255,
+     120,
+     120
+    ],
+    [
+     120,
+     255,
+     140
+    ]
+   ],
+   "flash_min_delta": 1.5,
+   "flash_min_corr": 0.6,
+   "expected": {
+    "outcome": "pass",
+    "corr": 0.9986300274274383,
+    "delta": 2.5866397865170754,
+    "lag": 0
+   }
+  }
+ ],
+ "verdicts": [
+  {
+   "flash": "pass",
+   "spoof_real": 0.93,
+   "spoof_min_real": 0.7,
+   "expected": {
+    "passed": true,
+    "reason": null,
+    "attempt_outcome": null
+   }
+  },
+  {
+   "flash": "pass",
+   "spoof_real": 0.7,
+   "spoof_min_real": 0.7,
+   "expected": {
+    "passed": true,
+    "reason": null,
+    "attempt_outcome": null
+   }
+  },
+  {
+   "flash": "pass",
+   "spoof_real": 0.42,
+   "spoof_min_real": 0.7,
+   "expected": {
+    "passed": false,
+    "reason": "spoof",
+    "attempt_outcome": "passive_failed"
+   }
+  },
+  {
+   "flash": "fail",
+   "spoof_real": 0.99,
+   "spoof_min_real": 0.7,
+   "expected": {
+    "passed": false,
+    "reason": "flash_failed",
+    "attempt_outcome": "passive_failed"
+   }
+  },
+  {
+   "flash": "inconclusive",
+   "spoof_real": 0.99,
+   "spoof_min_real": 0.7,
+   "expected": {
+    "passed": false,
+    "reason": "flash_inconclusive",
+    "attempt_outcome": "passive_inconclusive"
+   }
+  },
+  {
+   "flash": "inconclusive",
+   "spoof_real": 0.1,
+   "spoof_min_real": 0.7,
+   "expected": {
+    "passed": false,
+    "reason": "flash_inconclusive",
+    "attempt_outcome": "passive_inconclusive"
+   }
+  }
+ ]
+}

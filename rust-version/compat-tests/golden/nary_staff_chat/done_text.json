@@ -1,0 +1,748 @@
+[
+ {
+  "p": {},
+  "label": "Q-001",
+  "out": "Done: a change (Q-001)"
+ },
+ {
+  "p": {},
+  "label": "Cancelled TEST",
+  "out": "Done: a change (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": null
+  },
+  "label": "Q-001",
+  "out": "Done: a change (Q-001)"
+ },
+ {
+  "p": {
+   "kind": null
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: a change (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "something_new"
+  },
+  "label": "Q-001",
+  "out": "Done: something new (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "something_new"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: something new (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "summary": "Just a summary"
+  },
+  "label": "Q-001",
+  "out": "Done: Just a summary (Q-001)"
+ },
+ {
+  "p": {
+   "summary": "Just a summary"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Just a summary (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "summary": "Globex Corp",
+   "payload": {
+    "items": [
+     1,
+     2
+    ]
+   }
+  },
+  "label": "Q-001",
+  "out": "Done: Draft quotation: Globex Corp (2 lines) (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "summary": "Globex Corp",
+   "payload": {
+    "items": [
+     1,
+     2
+    ]
+   }
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Draft quotation: Globex Corp (2 lines) (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "payload": {
+    "items": [
+     1
+    ]
+   }
+  },
+  "label": "Q-001",
+  "out": "Done: Draft invoice (1 line) (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "payload": {
+    "items": [
+     1
+    ]
+   }
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Draft invoice (1 line) (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": null
+  },
+  "label": "Q-001",
+  "out": "Done: Draft quotation (0 lines) (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": null
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Draft quotation (0 lines) (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "title": "T",
+   "payload": {
+    "items": []
+   },
+   "currency": "usd"
+  },
+  "label": "Q-001",
+  "out": "Done: Draft invoice: T (0 lines) (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "title": "T",
+   "payload": {
+    "items": []
+   },
+   "currency": "usd"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Draft invoice: T (0 lines) (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": {
+    "currency": "eur",
+    "items": [
+     {
+      "a": 1
+     }
+    ]
+   }
+  },
+  "label": "Q-001",
+  "out": "Done: Draft quotation (1 line) (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": {
+    "currency": "eur",
+    "items": [
+     {
+      "a": 1
+     }
+    ]
+   }
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Draft quotation (1 line) (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "update",
+   "object_type": "contact",
+   "label": "John",
+   "after": {
+    "phone": "1"
+   },
+   "record_id": "r1",
+   "display": {
+    "organization_id": "Globex Corp",
+    "name": "x",
+    "lead_id": "Lead A"
+   }
+  },
+  "label": "Q-001",
+  "out": "Done: Update contact: John (linked to Globex Corp, Lead A) (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "update",
+   "object_type": "contact",
+   "label": "John",
+   "after": {
+    "phone": "1"
+   },
+   "record_id": "r1",
+   "display": {
+    "organization_id": "Globex Corp",
+    "name": "x",
+    "lead_id": "Lead A"
+   }
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Update contact: John (linked to Globex Corp, Lead A) (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "record_change"
+  },
+  "label": "Q-001",
+  "out": "Done: Change record (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "record_change"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Change record (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "cREATE",
+   "label": ""
+  },
+  "label": "Q-001",
+  "out": "Done: Create record (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "cREATE",
+   "label": ""
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Create record (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "sop",
+   "title": "Returns",
+   "payload": {
+    "title": "Returns"
+   }
+  },
+  "label": "Q-001",
+  "out": "Done: SOP draft: Returns (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "sop",
+   "title": "Returns",
+   "payload": {
+    "title": "Returns"
+   }
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: SOP draft: Returns (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "sop"
+  },
+  "label": "Q-001",
+  "out": "Done: SOP draft: untitled (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "sop"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: SOP draft: untitled (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "whatsapp",
+   "recipient": "David (+1 555 0199)",
+   "text": "Hello\nthere"
+  },
+  "label": "Q-001",
+  "out": "Sent: WhatsApp to David (+1 555 0199)"
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "whatsapp",
+   "recipient": "David (+1 555 0199)",
+   "text": "Hello\nthere"
+  },
+  "label": "Cancelled TEST",
+  "out": "Sent: WhatsApp to David (+1 555 0199)"
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "email",
+   "to": "a@b.c",
+   "subject": "Hi",
+   "text": "Dear\n\nX",
+   "attachments": [
+    "Quotation Q-1.pdf",
+    "Spec.pdf"
+   ],
+   "warning": "first message",
+   "attach": [
+    {
+     "type": "q",
+     "id": "1"
+    }
+   ],
+   "chat_id": null,
+   "thread_id": "t1",
+   "contact_id": "c1"
+  },
+  "label": "Q-001",
+  "out": "Sent: email to a@b.c"
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "email",
+   "to": "a@b.c",
+   "subject": "Hi",
+   "text": "Dear\n\nX",
+   "attachments": [
+    "Quotation Q-1.pdf",
+    "Spec.pdf"
+   ],
+   "warning": "first message",
+   "attach": [
+    {
+     "type": "q",
+     "id": "1"
+    }
+   ],
+   "chat_id": null,
+   "thread_id": "t1",
+   "contact_id": "c1"
+  },
+  "label": "Cancelled TEST",
+  "out": "Sent: email to a@b.c"
+ },
+ {
+  "p": {
+   "kind": "customer_message"
+  },
+  "label": "Q-001",
+  "out": "Sent: WhatsApp to None"
+ },
+ {
+  "p": {
+   "kind": "customer_message"
+  },
+  "label": "Cancelled TEST",
+  "out": "Sent: WhatsApp to None"
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "Book Acme x Globex",
+   "message": {
+    "text": "Join {link}\nsee you"
+   },
+   "title": "Acme x GX",
+   "start": "2026-10-16T11:00:00+07:00",
+   "duration_minutes": 30,
+   "staff_ids": [
+    "a"
+   ],
+   "customer_email": "d@g.test",
+   "lead_id": null,
+   "deal_id": "d1",
+   "contact_id": null
+  },
+  "label": "Q-001",
+  "out": "Q-001"
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "Book Acme x Globex",
+   "message": {
+    "text": "Join {link}\nsee you"
+   },
+   "title": "Acme x GX",
+   "start": "2026-10-16T11:00:00+07:00",
+   "duration_minutes": 30,
+   "staff_ids": [
+    "a"
+   ],
+   "customer_email": "d@g.test",
+   "lead_id": null,
+   "deal_id": "d1",
+   "contact_id": null
+  },
+  "label": "Cancelled TEST",
+  "out": "Cancelled TEST"
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "No message"
+  },
+  "label": "Q-001",
+  "out": "Q-001"
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "No message"
+  },
+  "label": "Cancelled TEST",
+  "out": "Cancelled TEST"
+ },
+ {
+  "p": {
+   "kind": "meeting"
+  },
+  "label": "Q-001",
+  "out": "Q-001"
+ },
+ {
+  "p": {
+   "kind": "meeting"
+  },
+  "label": "Cancelled TEST",
+  "out": "Cancelled TEST"
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "action": "meeting.cancel",
+   "payload": {
+    "meeting_id": "m1"
+   },
+   "summary": "Cancel TEST"
+  },
+  "label": "Q-001",
+  "out": "Done: Q-001"
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "action": "meeting.cancel",
+   "payload": {
+    "meeting_id": "m1"
+   },
+   "summary": "Cancel TEST"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Cancelled TEST"
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "summary": "With msg",
+   "message": {
+    "text": "Line 1\nLine 2"
+   },
+   "action": "x",
+   "payload": {}
+  },
+  "label": "Q-001",
+  "out": "Done: Q-001"
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "summary": "With msg",
+   "message": {
+    "text": "Line 1\nLine 2"
+   },
+   "action": "x",
+   "payload": {}
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Cancelled TEST"
+ },
+ {
+  "p": {
+   "kind": "nary_decision",
+   "card_id": "c1",
+   "decision": "apply",
+   "summary": "Apply card"
+  },
+  "label": "Q-001",
+  "out": "Done: Apply card (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "nary_decision",
+   "card_id": "c1",
+   "decision": "apply",
+   "summary": "Apply card"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Apply card (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "nary_topic_answer",
+   "topic_id": "t1",
+   "answer": "yes",
+   "tier_pct": 5
+  },
+  "label": "Q-001",
+  "out": "Done: nary topic answer (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "nary_topic_answer",
+   "topic_id": "t1",
+   "answer": "yes",
+   "tier_pct": 5
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: nary topic answer (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "proposal_change",
+   "document_id": "d1",
+   "instruction": "shorter"
+  },
+  "label": "Q-001",
+  "out": "Done: proposal change (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "proposal_change",
+   "document_id": "d1",
+   "instruction": "shorter"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: proposal change (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "nary_pause",
+   "paused": true,
+   "summary": "Pause"
+  },
+  "label": "Q-001",
+  "out": "Done: Pause (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "nary_pause",
+   "paused": true,
+   "summary": "Pause"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Pause (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "nary_pause"
+  },
+  "label": "Q-001",
+  "out": "Done: nary pause (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "nary_pause"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: nary pause (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "chat_link",
+   "chat_id": "818@c.us",
+   "contact_id": "c1",
+   "summary": "Link the WhatsApp chat"
+  },
+  "label": "Q-001",
+  "out": "Done: Link the WhatsApp chat (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "chat_link",
+   "chat_id": "818@c.us",
+   "contact_id": "c1",
+   "summary": "Link the WhatsApp chat"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Link the WhatsApp chat (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "snooze",
+   "until": "2026-10-20"
+  },
+  "label": "Q-001",
+  "out": "Done: reminder change (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "snooze",
+   "until": "2026-10-20"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: reminder change (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "cancel"
+  },
+  "label": "Q-001",
+  "out": "Done: reminder change (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "cancel"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: reminder change (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "debrief",
+   "meeting_id": "m",
+   "deal_id": null,
+   "text": "t",
+   "source": "chat"
+  },
+  "label": "Q-001",
+  "out": "Done: debrief (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "debrief",
+   "meeting_id": "m",
+   "deal_id": null,
+   "text": "t",
+   "source": "chat"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: debrief (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "followup_reminder",
+   "title": "Call Globex Corp",
+   "note": null,
+   "entity_type": "whatsapp_chat",
+   "entity_id": null,
+   "chat_id": "81@c.us",
+   "due_at": "2026-10-17T00:00:00+00:00",
+   "summary": "Remind you"
+  },
+  "label": "Q-001",
+  "out": "Done: Remind you (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "followup_reminder",
+   "title": "Call Globex Corp",
+   "note": null,
+   "entity_type": "whatsapp_chat",
+   "entity_id": null,
+   "chat_id": "81@c.us",
+   "due_at": "2026-10-17T00:00:00+00:00",
+   "summary": "Remind you"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: Remind you (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "research",
+   "object_type": "lead",
+   "record_id": "l1"
+  },
+  "label": "Q-001",
+  "out": "Done: research (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "research",
+   "object_type": "lead",
+   "record_id": "l1"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: research (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "research"
+  },
+  "label": "Q-001",
+  "out": "Done: research (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "research"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: research (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "some_kind_x",
+   "label": "lbl"
+  },
+  "label": "Q-001",
+  "out": "Done: lbl (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "some_kind_x",
+   "label": "lbl"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: lbl (Cancelled TEST)"
+ },
+ {
+  "p": {
+   "kind": "a_b_c"
+  },
+  "label": "Q-001",
+  "out": "Done: a b c (Q-001)"
+ },
+ {
+  "p": {
+   "kind": "a_b_c"
+  },
+  "label": "Cancelled TEST",
+  "out": "Done: a b c (Cancelled TEST)"
+ }
+]

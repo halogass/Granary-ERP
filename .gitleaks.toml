@@ -1,0 +1,25 @@
+# gitleaks configuration: the default rules, with the test fixtures allow-listed.
+# Everything allow-listed here is a test value (fixed test keys, recorded test tokens, hashes of known inputs,
+# a throwaway test PKI). A real secret never belongs in this repository: secrets live encrypted in the
+# application's settings or in the deployment's environment.
+[extend]
+useDefault = true
+
+[allowlist]
+description = "test fixtures and documented placeholders"
+# the regexes below are matched against the whole line of a finding
+regexTarget = "line"
+paths = [
+  '''rust-version/compat-tests/golden/''',
+  '''rust-version/crates/[a-z_]+/tests/''',
+  '''rust-version/services/[a-z_]+/tests/''',
+  '''rust-version/vendor/''',
+  '''rust-version/compat-tests/env\.test\.sh''',
+  '''\.github/workflows/ci\.yml''',
+]
+regexes = [
+  # the pinned sha256 of a download in the Dockerfile
+  '''FACE_API_SHA256=[0-9a-f]{64}''',
+  # the fixed key of config.rs's own unit tests
+  '''"jwt_secret_key", "0123456789abcdef0123456789abcdef"''',
+]

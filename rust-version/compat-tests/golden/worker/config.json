@@ -1,0 +1,7 @@
+{
+ "task_acks_late": true,
+ "worker_prefetch_multiplier": 1,
+ "task_serializer": "json",
+ "timezone": "UTC",
+ "enable_utc": true
+}

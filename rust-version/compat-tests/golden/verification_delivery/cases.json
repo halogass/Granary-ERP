@@ -1,0 +1,270 @@
+{
+ "filename": [
+  [
+   "QUO/I-2026-09-00007-1",
+   "QUO-I-2026-09-00007-1.pdf"
+  ],
+  [
+   "INV 2026/10/001",
+   "INV-2026-10-001.pdf"
+  ],
+  [
+   "",
+   "document.pdf"
+  ],
+  [
+   "///",
+   "document.pdf"
+  ],
+  [
+   "-a-",
+   "a.pdf"
+  ],
+  [
+   "PO.2026_01",
+   "PO.2026_01.pdf"
+  ],
+  [
+   "Ünïcødé №5",
+   "Ünïcødé--5.pdf"
+  ],
+  [
+   "QU/O—2026",
+   "QU-O-2026.pdf"
+  ],
+  [
+   "  spaced  ",
+   "spaced.pdf"
+  ],
+  [
+   "xxx",
+   "xxx.pdf"
+  ],
+  [
+   "--__..--",
+   "__...pdf"
+  ],
+  [
+   "Q#1?&=2",
+   "Q-1---2.pdf"
+  ],
+  [
+   "Café-01",
+   "Cafe--01.pdf"
+  ],
+  [
+   "नमस्ते-1",
+   "नमस-त--1.pdf"
+  ],
+  [
+   "INVͅX",
+   "INV-X.pdf"
+  ],
+  [
+   "Ⅻ½²٣",
+   "Ⅻ½²٣.pdf"
+  ],
+  [
+   "a‍b",
+   "a-b.pdf"
+  ],
+  [
+   "ǅx",
+   "ǅx.pdf"
+  ]
+ ],
+ "send_key": [
+  [
+   "invoice",
+   "6f1c0c1e-8d55-4f0c-9a43-1d4f3c1f8a01",
+   "email",
+   [
+    "Bob@Customer.test"
+   ],
+   "docsend:invoice:6f1c0c1e-8d55-4f0c-9a43-1d4f3c1f8a01:email:c3067b54af85957a"
+  ],
+  [
+   "quotation",
+   "0b7c1a2e-1111-4222-8333-944455556666",
+   "whatsapp",
+   [
+    "0812 3456 7890"
+   ],
+   "docsend:quotation:0b7c1a2e-1111-4222-8333-944455556666:whatsapp:3a73b9ac54d18f94"
+  ],
+  [
+   "invoice",
+   "6f1c0c1e-8d55-4f0c-9a43-1d4f3c1f8a01",
+   "email",
+   [
+    "b@x.test",
+    "A@x.test",
+    "c@x.test"
+   ],
+   "docsend:invoice:6f1c0c1e-8d55-4f0c-9a43-1d4f3c1f8a01:email:2495523691a44102"
+  ],
+  [
+   "sales_document",
+   "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee",
+   "email",
+   [
+    "ÄBC@x.test"
+   ],
+   "docsend:sales_document:aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee:email:ce19b8b83b21317d"
+  ]
+ ],
+ "place_fields": [
+  {
+   "pdf": "anchors.pdf",
+   "anchors": [
+    "[[SIG-1]]",
+    "[[SIG-2]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": "12.1",
+     "y": "82.5",
+     "width": "28.57",
+     "height": "5.46"
+    },
+    "2": {
+     "page_number": 2,
+     "x": "53.78",
+     "y": "82.5",
+     "width": "28.57",
+     "height": "5.46"
+    }
+   }
+  },
+  {
+   "pdf": "anchors.pdf",
+   "anchors": [
+    "[[SIG-2]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": "53.78",
+     "y": "82.5",
+     "width": "28.57",
+     "height": "5.46"
+    }
+   }
+  },
+  {
+   "pdf": "anchors.pdf",
+   "anchors": [
+    "[[SIG-1]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": "12.1",
+     "y": "82.5",
+     "width": "28.57",
+     "height": "5.46"
+    }
+   }
+  },
+  {
+   "pdf": "anchors.pdf",
+   "anchors": [
+    "[[NOPE]]",
+    "[[SIG-2]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": 8,
+     "y": 72,
+     "width": 36,
+     "height": 8
+    },
+    "2": {
+     "page_number": 2,
+     "x": "53.78",
+     "y": "82.5",
+     "width": "28.57",
+     "height": "5.46"
+    }
+   }
+  },
+  {
+   "pdf": "anchors_shifted.pdf",
+   "anchors": [
+    "[[SIG-1]]",
+    "[[SIG-2]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": 8,
+     "y": 72,
+     "width": 36,
+     "height": 8
+    },
+    "2": {
+     "page_number": 2,
+     "x": "84.03",
+     "y": "13.61",
+     "width": "15.97",
+     "height": "5.46"
+    }
+   }
+  },
+  {
+   "pdf": "anchors_shifted.pdf",
+   "anchors": [
+    "[[SIG-2]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": "84.03",
+     "y": "13.61",
+     "width": "15.97",
+     "height": "5.46"
+    }
+   }
+  },
+  {
+   "pdf": "anchors_shifted.pdf",
+   "anchors": [
+    "[[SIG-1]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": 8,
+     "y": 72,
+     "width": 36,
+     "height": 8
+    }
+   }
+  },
+  {
+   "pdf": "anchors_shifted.pdf",
+   "anchors": [
+    "[[NOPE]]",
+    "[[SIG-2]]"
+   ],
+   "placed": {
+    "1": {
+     "page_number": 2,
+     "x": 8,
+     "y": 72,
+     "width": 36,
+     "height": 8
+    },
+    "2": {
+     "page_number": 2,
+     "x": "84.03",
+     "y": "13.61",
+     "width": "15.97",
+     "height": "5.46"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+[
+ {
+  "in": null,
+  "out": "#"
+ },
+ {
+  "in": "",
+  "out": "#"
+ },
+ {
+  "in": " ",
+  "out": "#"
+ },
+ {
+  "in": "http://x",
+  "out": "http://x"
+ },
+ {
+  "in": " https://x/y?a=1&b=2 ",
+  "out": "https://x/y?a=1&b=2"
+ },
+ {
+  "in": "javascript:alert(1)",
+  "out": "#"
+ },
+ {
+  "in": "HTTP://upper",
+  "out": "#"
+ },
+ {
+  "in": "ftp://x",
+  "out": "#"
+ },
+ {
+  "in": "https:",
+  "out": "#"
+ },
+ {
+  "in": "//cdn/x",
+  "out": "#"
+ },
+ {
+  "in": " https://nbsp ",
+  "out": "https://nbsp"
+ },
+ {
+  "in": "data:image/png;base64,AAA",
+  "out": "#"
+ }
+]

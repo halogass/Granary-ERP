@@ -1,0 +1,15 @@
+{
+ "template": "quotation",
+ "data": {
+  "company": {},
+  "full_number": "Q-1",
+  "customer": {},
+  "items": [],
+  "tax_lines": [],
+  "payment_terms": {},
+  "issued_date": 1760000000000,
+  "valid_until": "2026-02-30",
+  "subtotal": "12",
+  "grand_total": -0.004
+ }
+}

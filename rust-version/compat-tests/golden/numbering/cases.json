@@ -1,0 +1,772 @@
+[
+ {
+  "name": "existing_basic",
+  "tz": "Asia/Tokyo",
+  "now": "2025-05-10T03:00:00Z",
+  "type": "gold_q",
+  "rows": [
+   {
+    "sequence_type": "gold_q",
+    "prefix": "QUO/X",
+    "year": 2025,
+    "month": 5,
+    "current_sequence": 26,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 3,
+  "numbers": [
+   "QUO/X-2025-05-00027",
+   "QUO/X-2025-05-00028",
+   "QUO/X-2025-05-00029"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_q",
+    "prefix": "QUO/X",
+    "suffix_separator": "-",
+    "year": 2025,
+    "month": 5,
+    "current_sequence": 29,
+    "sequence_padding": 5,
+    "last_generated": "QUO/X-2025-05-00029"
+   }
+  ]
+ },
+ {
+  "name": "padding_zero",
+  "tz": "UTC",
+  "now": "2026-01-15T12:00:00Z",
+  "type": "gold_p0",
+  "rows": [
+   {
+    "sequence_type": "gold_p0",
+    "prefix": "P0",
+    "year": 2026,
+    "month": 1,
+    "current_sequence": 0,
+    "sequence_padding": 0,
+    "last_generated": null
+   }
+  ],
+  "calls": 2,
+  "numbers": [
+   "P0-2026-01-1",
+   "P0-2026-01-2"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_p0",
+    "prefix": "P0",
+    "suffix_separator": "-",
+    "year": 2026,
+    "month": 1,
+    "current_sequence": 2,
+    "sequence_padding": 0,
+    "last_generated": "P0-2026-01-2"
+   }
+  ]
+ },
+ {
+  "name": "padding_one",
+  "tz": "UTC",
+  "now": "2026-02-15T12:00:00Z",
+  "type": "gold_p1",
+  "rows": [
+   {
+    "sequence_type": "gold_p1",
+    "prefix": "P1",
+    "year": 2026,
+    "month": 2,
+    "current_sequence": 8,
+    "sequence_padding": 1,
+    "last_generated": null
+   }
+  ],
+  "calls": 3,
+  "numbers": [
+   "P1-2026-02-9",
+   "P1-2026-02-10",
+   "P1-2026-02-11"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_p1",
+    "prefix": "P1",
+    "suffix_separator": "-",
+    "year": 2026,
+    "month": 2,
+    "current_sequence": 11,
+    "sequence_padding": 1,
+    "last_generated": "P1-2026-02-11"
+   }
+  ]
+ },
+ {
+  "name": "overflow_padding",
+  "tz": "UTC",
+  "now": "2026-03-15T12:00:00Z",
+  "type": "gold_ov",
+  "rows": [
+   {
+    "sequence_type": "gold_ov",
+    "prefix": "OV",
+    "year": 2026,
+    "month": 3,
+    "current_sequence": 99998,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 3,
+  "numbers": [
+   "OV-2026-03-99999",
+   "OV-2026-03-100000",
+   "OV-2026-03-100001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_ov",
+    "prefix": "OV",
+    "suffix_separator": "-",
+    "year": 2026,
+    "month": 3,
+    "current_sequence": 100001,
+    "sequence_padding": 5,
+    "last_generated": "OV-2026-03-100001"
+   }
+  ]
+ },
+ {
+  "name": "wide_padding",
+  "tz": "UTC",
+  "now": "2026-12-31T23:59:59Z",
+  "type": "gold_wide",
+  "rows": [
+   {
+    "sequence_type": "gold_wide",
+    "prefix": "INV/X",
+    "year": 2026,
+    "month": 12,
+    "current_sequence": 123456,
+    "sequence_padding": 12,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "INV/X-2026-12-000000123457"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_wide",
+    "prefix": "INV/X",
+    "suffix_separator": "-",
+    "year": 2026,
+    "month": 12,
+    "current_sequence": 123457,
+    "sequence_padding": 12,
+    "last_generated": "INV/X-2026-12-000000123457"
+   }
+  ]
+ },
+ {
+  "name": "negative_sequence",
+  "tz": "UTC",
+  "now": "2027-04-01T00:00:00Z",
+  "type": "gold_neg",
+  "rows": [
+   {
+    "sequence_type": "gold_neg",
+    "prefix": "NEG",
+    "year": 2027,
+    "month": 4,
+    "current_sequence": -5,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 2,
+  "numbers": [
+   "NEG-2027-04--0004",
+   "NEG-2027-04--0003"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_neg",
+    "prefix": "NEG",
+    "suffix_separator": "-",
+    "year": 2027,
+    "month": 4,
+    "current_sequence": -3,
+    "sequence_padding": 5,
+    "last_generated": "NEG-2027-04--0003"
+   }
+  ]
+ },
+ {
+  "name": "unicode_prefix",
+  "tz": "UTC",
+  "now": "2027-06-01T00:00:00Z",
+  "type": "gold_uni",
+  "rows": [
+   {
+    "sequence_type": "gold_uni",
+    "prefix": "ü-前",
+    "year": 2027,
+    "month": 6,
+    "current_sequence": 41,
+    "sequence_padding": 4,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "ü-前-2027-06-0042"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_uni",
+    "prefix": "ü-前",
+    "suffix_separator": "-",
+    "year": 2027,
+    "month": 6,
+    "current_sequence": 42,
+    "sequence_padding": 4,
+    "last_generated": "ü-前-2027-06-0042"
+   }
+  ]
+ },
+ {
+  "name": "new_period_latest_ref",
+  "tz": "UTC",
+  "now": "2031-02-03T00:00:00Z",
+  "type": "gold_ref",
+  "rows": [
+   {
+    "sequence_type": "gold_ref",
+    "prefix": "OLD",
+    "year": 2030,
+    "month": 12,
+    "current_sequence": 7,
+    "sequence_padding": 3,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_ref",
+    "prefix": "NEWER",
+    "year": 2031,
+    "month": 1,
+    "current_sequence": 9,
+    "sequence_padding": 6,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_ref",
+    "prefix": "OLDEST",
+    "year": 2029,
+    "month": 11,
+    "current_sequence": 1,
+    "sequence_padding": 2,
+    "last_generated": null
+   }
+  ],
+  "calls": 2,
+  "numbers": [
+   "NEWER-2031-02-000001",
+   "NEWER-2031-02-000002"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_ref",
+    "prefix": "OLDEST",
+    "suffix_separator": "-",
+    "year": 2029,
+    "month": 11,
+    "current_sequence": 1,
+    "sequence_padding": 2,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_ref",
+    "prefix": "OLD",
+    "suffix_separator": "-",
+    "year": 2030,
+    "month": 12,
+    "current_sequence": 7,
+    "sequence_padding": 3,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_ref",
+    "prefix": "NEWER",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 1,
+    "current_sequence": 9,
+    "sequence_padding": 6,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_ref",
+    "prefix": "NEWER",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 2,
+    "current_sequence": 2,
+    "sequence_padding": 6,
+    "last_generated": "NEWER-2031-02-000002"
+   }
+  ]
+ },
+ {
+  "name": "new_period_ref_month_order",
+  "tz": "UTC",
+  "now": "2032-01-01T00:00:00Z",
+  "type": "gold_mo",
+  "rows": [
+   {
+    "sequence_type": "gold_mo",
+    "prefix": "M2",
+    "year": 2031,
+    "month": 2,
+    "current_sequence": 1,
+    "sequence_padding": 4,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_mo",
+    "prefix": "M11",
+    "year": 2031,
+    "month": 11,
+    "current_sequence": 1,
+    "sequence_padding": 7,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "M11-2032-01-0000001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_mo",
+    "prefix": "M2",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 2,
+    "current_sequence": 1,
+    "sequence_padding": 4,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_mo",
+    "prefix": "M11",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 11,
+    "current_sequence": 1,
+    "sequence_padding": 7,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_mo",
+    "prefix": "M11",
+    "suffix_separator": "-",
+    "year": 2032,
+    "month": 1,
+    "current_sequence": 1,
+    "sequence_padding": 7,
+    "last_generated": "M11-2032-01-0000001"
+   }
+  ]
+ },
+ {
+  "name": "new_type_upper",
+  "tz": "UTC",
+  "now": "2028-08-08T08:00:00Z",
+  "type": "gold_type",
+  "rows": [],
+  "calls": 2,
+  "numbers": [
+   "GOLD_TYPE-2028-08-00001",
+   "GOLD_TYPE-2028-08-00002"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_type",
+    "prefix": "GOLD_TYPE",
+    "suffix_separator": "-",
+    "year": 2028,
+    "month": 8,
+    "current_sequence": 2,
+    "sequence_padding": 5,
+    "last_generated": "GOLD_TYPE-2028-08-00002"
+   }
+  ]
+ },
+ {
+  "name": "new_type_upper_unicode",
+  "tz": "UTC",
+  "now": "2028-09-09T08:00:00Z",
+  "type": "gold_straße",
+  "rows": [],
+  "calls": 1,
+  "numbers": [
+   "GOLD_STRASSE-2028-09-00001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_straße",
+    "prefix": "GOLD_STRASSE",
+    "suffix_separator": "-",
+    "year": 2028,
+    "month": 9,
+    "current_sequence": 1,
+    "sequence_padding": 5,
+    "last_generated": "GOLD_STRASSE-2028-09-00001"
+   }
+  ]
+ },
+ {
+  "name": "local_month_tokyo",
+  "tz": "Asia/Tokyo",
+  "now": "2031-10-31T18:00:00Z",
+  "type": "gold_clock",
+  "rows": [
+   {
+    "sequence_type": "gold_clock",
+    "prefix": "CLK",
+    "year": 2031,
+    "month": 10,
+    "current_sequence": 4,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "CLK-2031-11-00001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_clock",
+    "prefix": "CLK",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 10,
+    "current_sequence": 4,
+    "sequence_padding": 5,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "gold_clock",
+    "prefix": "CLK",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 11,
+    "current_sequence": 1,
+    "sequence_padding": 5,
+    "last_generated": "CLK-2031-11-00001"
+   }
+  ]
+ },
+ {
+  "name": "local_month_utc",
+  "tz": "UTC",
+  "now": "2031-10-31T18:00:00Z",
+  "type": "gold_clock2",
+  "rows": [
+   {
+    "sequence_type": "gold_clock2",
+    "prefix": "CLK",
+    "year": 2031,
+    "month": 10,
+    "current_sequence": 4,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "CLK-2031-10-00005"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_clock2",
+    "prefix": "CLK",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 10,
+    "current_sequence": 5,
+    "sequence_padding": 5,
+    "last_generated": "CLK-2031-10-00005"
+   }
+  ]
+ },
+ {
+  "name": "local_month_behind",
+  "tz": "America/New_York",
+  "now": "2032-01-01T03:00:00Z",
+  "type": "gold_ny",
+  "rows": [],
+  "calls": 1,
+  "numbers": [
+   "GOLD_NY-2031-12-00001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_ny",
+    "prefix": "GOLD_NY",
+    "suffix_separator": "-",
+    "year": 2031,
+    "month": 12,
+    "current_sequence": 1,
+    "sequence_padding": 5,
+    "last_generated": "GOLD_NY-2031-12-00001"
+   }
+  ]
+ },
+ {
+  "name": "other_type_ignored",
+  "tz": "UTC",
+  "now": "2029-03-03T00:00:00Z",
+  "type": "gold_a",
+  "rows": [
+   {
+    "sequence_type": "gold_b",
+    "prefix": "BBB",
+    "year": 2029,
+    "month": 3,
+    "current_sequence": 50,
+    "sequence_padding": 2,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "GOLD_A-2029-03-00001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_a",
+    "prefix": "GOLD_A",
+    "suffix_separator": "-",
+    "year": 2029,
+    "month": 3,
+    "current_sequence": 1,
+    "sequence_padding": 5,
+    "last_generated": "GOLD_A-2029-03-00001"
+   },
+   {
+    "sequence_type": "gold_b",
+    "prefix": "BBB",
+    "suffix_separator": "-",
+    "year": 2029,
+    "month": 3,
+    "current_sequence": 50,
+    "sequence_padding": 2,
+    "last_generated": null
+   }
+  ]
+ },
+ {
+  "name": "null_padding_error",
+  "tz": "UTC",
+  "now": "2029-04-04T00:00:00Z",
+  "type": "gold_null",
+  "rows": [
+   {
+    "sequence_type": "gold_null",
+    "prefix": "NUL",
+    "year": 2029,
+    "month": 4,
+    "current_sequence": 1,
+    "sequence_padding": null,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [],
+  "error": "TypeError",
+  "rows_after": null
+ },
+ {
+  "name": "default_prefix_offer_letter",
+  "tz": "UTC",
+  "now": "2033-01-10T00:00:00Z",
+  "type": "offer_letter",
+  "rows": [],
+  "calls": 2,
+  "numbers": [
+   "OL-2033-01-00001",
+   "OL-2033-01-00002"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "offer_letter",
+    "prefix": "OL",
+    "suffix_separator": "-",
+    "year": 2033,
+    "month": 1,
+    "current_sequence": 2,
+    "sequence_padding": 5,
+    "last_generated": "OL-2033-01-00002"
+   }
+  ]
+ },
+ {
+  "name": "default_prefix_credit_note",
+  "tz": "UTC",
+  "now": "2033-01-10T00:00:00Z",
+  "type": "credit_note_export",
+  "rows": [],
+  "calls": 1,
+  "numbers": [
+   "CREDIT_NOTE_EXPORT-2033-01-00001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "credit_note_export",
+    "prefix": "CREDIT_NOTE_EXPORT",
+    "suffix_separator": "-",
+    "year": 2033,
+    "month": 1,
+    "current_sequence": 1,
+    "sequence_padding": 5,
+    "last_generated": "CREDIT_NOTE_EXPORT-2033-01-00001"
+   }
+  ]
+ },
+ {
+  "name": "raw_key_row_repaired",
+  "tz": "UTC",
+  "now": "2033-03-10T00:00:00Z",
+  "type": "credit_note_idr",
+  "rows": [
+   {
+    "sequence_type": "credit_note_idr",
+    "prefix": "CREDIT_NOTE_JPY",
+    "year": 2033,
+    "month": 3,
+    "current_sequence": 4,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 2,
+  "numbers": [
+   "CREDIT_NOTE_JPY-2033-03-00005",
+   "CREDIT_NOTE_JPY-2033-03-00006"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "credit_note_idr",
+    "prefix": "CREDIT_NOTE_JPY",
+    "suffix_separator": "-",
+    "year": 2033,
+    "month": 3,
+    "current_sequence": 6,
+    "sequence_padding": 5,
+    "last_generated": "CREDIT_NOTE_JPY-2033-03-00006"
+   }
+  ]
+ },
+ {
+  "name": "raw_key_ref_repaired",
+  "tz": "UTC",
+  "now": "2033-02-10T00:00:00Z",
+  "type": "memo",
+  "rows": [
+   {
+    "sequence_type": "memo",
+    "prefix": "MEMO",
+    "year": 2033,
+    "month": 1,
+    "current_sequence": 3,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "MEMO-2033-02-00001"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "memo",
+    "prefix": "MEMO",
+    "suffix_separator": "-",
+    "year": 2033,
+    "month": 1,
+    "current_sequence": 3,
+    "sequence_padding": 5,
+    "last_generated": null
+   },
+   {
+    "sequence_type": "memo",
+    "prefix": "MEMO",
+    "suffix_separator": "-",
+    "year": 2033,
+    "month": 2,
+    "current_sequence": 1,
+    "sequence_padding": 5,
+    "last_generated": "MEMO-2033-02-00001"
+   }
+  ]
+ },
+ {
+  "name": "raw_key_unknown_type_kept",
+  "tz": "UTC",
+  "now": "2033-04-10T00:00:00Z",
+  "type": "gold_raw",
+  "rows": [
+   {
+    "sequence_type": "gold_raw",
+    "prefix": "GOLD_RAW",
+    "year": 2033,
+    "month": 4,
+    "current_sequence": 1,
+    "sequence_padding": 5,
+    "last_generated": null
+   }
+  ],
+  "calls": 1,
+  "numbers": [
+   "GOLD_RAW-2033-04-00002"
+  ],
+  "error": null,
+  "rows_after": [
+   {
+    "sequence_type": "gold_raw",
+    "prefix": "GOLD_RAW",
+    "suffix_separator": "-",
+    "year": 2033,
+    "month": 4,
+    "current_sequence": 2,
+    "sequence_padding": 5,
+    "last_generated": "GOLD_RAW-2033-04-00002"
+   }
+  ]
+ }
+]

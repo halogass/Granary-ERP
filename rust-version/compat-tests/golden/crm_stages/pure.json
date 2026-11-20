@@ -1,0 +1,1494 @@
+[
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "new"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "new"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "qualifying"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "qualifying"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "discovery"
+  ],
+  "ok": "discovery"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "discovery"
+  ],
+  "err": "Unknown lead status 'discovery'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "discovery"
+  ],
+  "err": "Unknown lead status 'discovery'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "discovery"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "discovery"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "discovery"
+  ],
+  "ok": "discovery"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "assessment"
+  ],
+  "ok": "assessment"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "assessment"
+  ],
+  "err": "Unknown lead status 'assessment'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "assessment"
+  ],
+  "err": "Unknown lead status 'assessment'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "assessment"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "assessment"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "assessment"
+  ],
+  "ok": "assessment"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "proposal"
+  ],
+  "ok": "proposal"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "proposal"
+  ],
+  "err": "Unknown lead status 'proposal'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "proposal"
+  ],
+  "err": "Unknown lead status 'proposal'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "proposal"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "proposal"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "proposal"
+  ],
+  "ok": "proposal"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "contract"
+  ],
+  "ok": "contract"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "contract"
+  ],
+  "err": "Unknown lead status 'contract'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "contract"
+  ],
+  "err": "Unknown lead status 'contract'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "contract"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "contract"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "contract"
+  ],
+  "ok": "contract"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "won"
+  ],
+  "ok": "won"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "won"
+  ],
+  "err": "Unknown lead status 'won'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "won"
+  ],
+  "err": "Unknown lead status 'won'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "won"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "won"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "won"
+  ],
+  "ok": "won"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "handover"
+  ],
+  "ok": "handover"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "handover"
+  ],
+  "err": "Unknown lead status 'handover'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "handover"
+  ],
+  "err": "Unknown lead status 'handover'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "handover"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "handover"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "handover"
+  ],
+  "ok": "handover"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "onboarding"
+  ],
+  "ok": "onboarding"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "onboarding"
+  ],
+  "err": "Unknown lead status 'onboarding'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "onboarding"
+  ],
+  "err": "Unknown lead status 'onboarding'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "onboarding"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "onboarding"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "onboarding"
+  ],
+  "ok": "onboarding"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "nurture"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "nurture"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "lost"
+  ],
+  "ok": "lost"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "lost"
+  ],
+  "err": "Unknown lead status 'lost'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "lost"
+  ],
+  "err": "Unknown lead status 'lost'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "lost"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "lost"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "lost"
+  ],
+  "ok": "lost"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "disqualified"
+  ],
+  "err": "A new lead can't start as disqualified. Use one of: new, triaging, qualifying, nurture"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "disqualified"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "disqualified"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "new"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "new"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "triaging"
+  ],
+  "err": "Unknown deal stage 'triaging'. Use one of: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "triaging"
+  ],
+  "ok": "triaging"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "triaging"
+  ],
+  "ok": "triaging"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "triaging"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "triaging"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "triaging"
+  ],
+  "ok": null
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "qualifying"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "qualifying"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "nurture"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "nurture"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "disqualified"
+  ],
+  "err": "A new lead can't start as disqualified. Use one of: new, triaging, qualifying, nurture"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "disqualified"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "disqualified"
+  ],
+  "ok": true
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "promoted"
+  ],
+  "err": "Unknown deal stage 'promoted'. Use one of: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "promoted"
+  ],
+  "ok": "promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "promoted"
+  ],
+  "err": "A new lead can't start as promoted. Use one of: new, triaging, qualifying, nurture"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "promoted"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "promoted"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "promoted"
+  ],
+  "ok": null
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   null
+  ],
+  "err": "Unknown deal stage 'None'. Use one of: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   null
+  ],
+  "err": "Unknown lead status 'None'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   null
+  ],
+  "err": "Unknown lead status 'None'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   null
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   null
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   null
+  ],
+  "ok": null
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   ""
+  ],
+  "err": "Unknown deal stage ''. Use one of: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   ""
+  ],
+  "err": "Unknown lead status ''. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   ""
+  ],
+  "err": "Unknown lead status ''. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   ""
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   ""
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   ""
+  ],
+  "ok": null
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "bogus"
+  ],
+  "err": "Unknown deal stage 'bogus'. Use one of: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "bogus"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "bogus"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "bogus"
+  ],
+  "ok": null
+ },
+ {
+  "fn": "validate_deal_stage",
+  "args": [
+   "Won"
+  ],
+  "err": "Unknown deal stage 'Won'. Use one of: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified"
+ },
+ {
+  "fn": "validate_lead_status",
+  "args": [
+   "Won"
+  ],
+  "err": "Unknown lead status 'Won'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_status_create",
+  "args": [
+   "Won"
+  ],
+  "err": "Unknown lead status 'Won'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "is_won",
+  "args": [
+   "Won"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "is_closed",
+  "args": [
+   "Won"
+  ],
+  "ok": false
+ },
+ {
+  "fn": "deal_stage",
+  "args": [
+   "Won"
+  ],
+  "ok": null
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "new",
+   "new"
+  ],
+  "err": "A new lead can't move to new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "new",
+   "triaging"
+  ],
+  "ok": "triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "new",
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "new",
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "new",
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "new",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "new",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "triaging",
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "triaging",
+   "triaging"
+  ],
+  "err": "A triaging lead can't move to triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "triaging",
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "triaging",
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "triaging",
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "triaging",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "triaging",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "qualifying",
+   "new"
+  ],
+  "err": "A qualifying lead can't move to new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "qualifying",
+   "triaging"
+  ],
+  "ok": "triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "qualifying",
+   "qualifying"
+  ],
+  "err": "A qualifying lead can't move to qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "qualifying",
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "qualifying",
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "qualifying",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "qualifying",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "nurture",
+   "new"
+  ],
+  "err": "A nurture lead can't move to new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "nurture",
+   "triaging"
+  ],
+  "ok": "triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "nurture",
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "nurture",
+   "nurture"
+  ],
+  "err": "A nurture lead can't move to nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "nurture",
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "nurture",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "nurture",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "disqualified",
+   "new"
+  ],
+  "ok": "new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "disqualified",
+   "triaging"
+  ],
+  "err": "A disqualified lead can't move to triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "disqualified",
+   "qualifying"
+  ],
+  "err": "A disqualified lead can't move to qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "disqualified",
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "disqualified",
+   "disqualified"
+  ],
+  "err": "A disqualified lead can't move to disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "disqualified",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "disqualified",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "promoted",
+   "new"
+  ],
+  "err": "A promoted lead can't move to new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "promoted",
+   "triaging"
+  ],
+  "err": "A promoted lead can't move to triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "promoted",
+   "qualifying"
+  ],
+  "err": "A promoted lead can't move to qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "promoted",
+   "nurture"
+  ],
+  "err": "A promoted lead can't move to nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "promoted",
+   "disqualified"
+  ],
+  "err": "A promoted lead can't move to disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "promoted",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "promoted",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   null,
+   "new"
+  ],
+  "err": "A None lead can't move to new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   null,
+   "triaging"
+  ],
+  "ok": "triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   null,
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   null,
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   null,
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   null,
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   null,
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "",
+   "new"
+  ],
+  "err": "A  lead can't move to new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "",
+   "triaging"
+  ],
+  "ok": "triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "",
+   "qualifying"
+  ],
+  "ok": "qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "",
+   "nurture"
+  ],
+  "ok": "nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "",
+   "disqualified"
+  ],
+  "ok": "disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "bogus",
+   "new"
+  ],
+  "err": "A bogus lead can't move to new"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "bogus",
+   "triaging"
+  ],
+  "err": "A bogus lead can't move to triaging"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "bogus",
+   "qualifying"
+  ],
+  "err": "A bogus lead can't move to qualifying"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "bogus",
+   "nurture"
+  ],
+  "err": "A bogus lead can't move to nurture"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "bogus",
+   "disqualified"
+  ],
+  "err": "A bogus lead can't move to disqualified"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "bogus",
+   "promoted"
+  ],
+  "err": "A lead is promoted with Promote (POST /crm/leads/{id}/promote), not by its status"
+ },
+ {
+  "fn": "validate_lead_transition",
+  "args": [
+   "bogus",
+   "bogus"
+  ],
+  "err": "Unknown lead status 'bogus'. Use one of: new, triaging, qualifying, nurture, disqualified, promoted"
+ },
+ {
+  "fn": "consts",
+  "args": [],
+  "ok": {
+   "WON_STAGES": [
+    "won",
+    "handover",
+    "onboarding"
+   ],
+   "CLOSED_STAGES": [
+    "won",
+    "handover",
+    "onboarding",
+    "lost",
+    "disqualified"
+   ],
+   "ACTIVE_STAGES": [
+    "new",
+    "qualifying",
+    "discovery",
+    "assessment",
+    "proposal",
+    "contract"
+   ],
+   "ACTIVE_LEAD_STATUSES": [
+    "new",
+    "triaging",
+    "qualifying"
+   ],
+   "CLOSED_LEAD_STATUSES": [
+    "disqualified",
+    "promoted"
+   ],
+   "LEAD_TRANSITIONS": {
+    "new": [
+     "disqualified",
+     "nurture",
+     "qualifying",
+     "triaging"
+    ],
+    "triaging": [
+     "disqualified",
+     "new",
+     "nurture",
+     "qualifying"
+    ],
+    "qualifying": [
+     "disqualified",
+     "nurture",
+     "triaging"
+    ],
+    "nurture": [
+     "disqualified",
+     "qualifying",
+     "triaging"
+    ],
+    "disqualified": [
+     "new",
+     "nurture"
+    ],
+    "promoted": []
+   }
+  }
+ }
+]

@@ -1,0 +1,8 @@
+From: a@b.c
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: x-uuencode
+
+begin 644 f.txt
+%:&5L;&\
+`
+end

@@ -1,0 +1,114 @@
+[
+ {
+  "in": {},
+  "out": "[attachment]"
+ },
+ {
+  "in": {
+   "type": "image"
+  },
+  "out": "[image]"
+ },
+ {
+  "in": {
+   "type": "ptt"
+  },
+  "out": "[voice note]"
+ },
+ {
+  "in": {
+   "type": "vcard",
+   "media": {
+    "filename": "x.vcf"
+   }
+  },
+  "out": "[contact card: x.vcf]"
+ },
+ {
+  "in": {
+   "type": "document",
+   "media": {
+    "filename": "contract.pdf"
+   }
+  },
+  "out": "[document: contract.pdf]"
+ },
+ {
+  "in": {
+   "type": "document",
+   "media": {
+    "filename": ""
+   }
+  },
+  "out": "[document]"
+ },
+ {
+  "in": {
+   "type": "document",
+   "media": null
+  },
+  "out": "[document]"
+ },
+ {
+  "in": {
+   "type": "weird"
+  },
+  "out": "[weird]"
+ },
+ {
+  "in": {
+   "type": ""
+  },
+  "out": "[attachment]"
+ },
+ {
+  "in": {
+   "type": null
+  },
+  "out": "[attachment]"
+ },
+ {
+  "in": {
+   "type": "chat"
+  },
+  "out": "[chat]"
+ },
+ {
+  "in": {
+   "type": "revoked"
+  },
+  "out": "[message deleted]"
+ },
+ {
+  "in": {
+   "type": "e2e_notification",
+   "media": {
+    "filename": "a"
+   }
+  },
+  "out": "[e2e_notification: a]"
+ },
+ {
+  "in": {
+   "media": {
+    "filename": "n.bin"
+   }
+  },
+  "out": "[attachment: n.bin]"
+ },
+ {
+  "in": {
+   "type": 5
+  },
+  "out": "[5]"
+ },
+ {
+  "in": {
+   "type": "sticker",
+   "media": {
+    "filename": 7
+   }
+  },
+  "out": "[sticker: 7]"
+ }
+]

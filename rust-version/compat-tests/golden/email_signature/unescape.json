@@ -1,0 +1,2486 @@
+[
+ {
+  "in": "X",
+  "out": "X"
+ },
+ {
+  "in": "ltgtym0000gamquot",
+  "out": "ltgtym0000gamquot"
+ },
+ {
+  "in": "0000\tx91F600& 65535",
+  "out": "0000\tx91F600& 65535"
+ },
+ {
+  "in": "1114111\t amp1F600Fquot655351F600gampn&",
+  "out": "1114111\t amp1F600Fquot655351F600gampn&"
+ },
+ {
+  "in": "é9",
+  "out": "é9"
+ },
+ {
+  "in": "m1114111quotyamp&#xc#notin",
+  "out": "m1114111quotyamp\f#notin"
+ },
+ {
+  "in": ";65535lm",
+  "out": ";65535lm"
+ },
+ {
+  "in": "11114111128",
+  "out": "11114111128"
+ },
+ {
+  "in": "&#x quotan",
+  "out": "&#x quotan"
+ },
+ {
+  "in": "f&#",
+  "out": "f&#"
+ },
+ {
+  "in": "ampoé",
+  "out": "ampoé"
+ },
+ {
+  "in": "xa&xé;<",
+  "out": "xa&xé;<"
+ },
+ {
+  "in": "AEligF",
+  "out": "AEligF"
+ },
+ {
+  "in": "XépX\tx&#1114111\txa",
+  "out": "XépX\tx\txa"
+ },
+ {
+  "in": "amp1114111xnot<",
+  "out": "amp1114111xnot<"
+ },
+ {
+  "in": "ygtXtm",
+  "out": "ygtXtm"
+ },
+ {
+  "in": " 0000c1F600",
+  "out": " 0000c1F600"
+ },
+ {
+  "in": "X65535&#quot<&#xquotlt",
+  "out": "X65535&#quot<&#xquotlt"
+ },
+ {
+  "in": "9p128y1114111",
+  "out": "9p128y1114111"
+ },
+ {
+  "in": "11F600pcopygtampcopyl;quotF#y",
+  "out": "11F600pcopygtampcopyl;quotF#y"
+ },
+ {
+  "in": "<",
+  "out": "<"
+ },
+ {
+  "in": "#copyy55296notinnot55296",
+  "out": "#copyy55296notinnot55296"
+ },
+ {
+  "in": "0000y;quot",
+  "out": "0000y;quot"
+ },
+ {
+  "in": "n<c111141119p&#x\t&",
+  "out": "n<c111141119p&#x\t&"
+ },
+ {
+  "in": "&#xp",
+  "out": "&#xp"
+ },
+ {
+  "in": "&#x655351114111##Xlt1p",
+  "out": "�##Xlt1p"
+ },
+ {
+  "in": "55296x",
+  "out": "55296x"
+ },
+ {
+  "in": "gt",
+  "out": "gt"
+ },
+ {
+  "in": "11141112#not#2lt1114111tnoF",
+  "out": "11141112#not#2lt1114111tnoF"
+ },
+ {
+  "in": "t1114111Xlampnotglnot",
+  "out": "t1114111Xlampnotglnot"
+ },
+ {
+  "in": "lt",
+  "out": "lt"
+ },
+ {
+  "in": "alx#",
+  "out": "alx#"
+ },
+ {
+  "in": "\t\t1lgt1&#xgtx quot9&#xquot",
+  "out": "\t\t1lgt1&#xgtx quot9&#xquot"
+ },
+ {
+  "in": "12mlt",
+  "out": "12mlt"
+ },
+ {
+  "in": "1F6001114111128#",
+  "out": "1F6001114111128#"
+ },
+ {
+  "in": "\t128f1F600gty<m",
+  "out": "\t128f1F600gty<m"
+ },
+ {
+  "in": "AEligXy",
+  "out": "AEligXy"
+ },
+ {
+  "in": "p&#lt128é9amp",
+  "out": "p&#lt128é9amp"
+ },
+ {
+  "in": "&#x128t1F600<quotxquotctcopy#128a",
+  "out": "Ĩt1F600<quotxquotctcopy#128a"
+ },
+ {
+  "in": "55296xnotin copy",
+  "out": "55296xnotin copy"
+ },
+ {
+  "in": "fquotnotin1114111;amp128y1F600&#x",
+  "out": "fquotnotin1114111;amp128y1F600&#x"
+ },
+ {
+  "in": "not",
+  "out": "not"
+ },
+ {
+  "in": "copy1F600lFc1114111",
+  "out": "copy1F600lFc1114111"
+ },
+ {
+  "in": "lt&",
+  "out": "lt&"
+ },
+ {
+  "in": "mt",
+  "out": "mt"
+ },
+ {
+  "in": "&#x&#x;pamp55296X#&#x",
+  "out": "&#x&#x;pamp55296X#&#x"
+ },
+ {
+  "in": "a",
+  "out": "a"
+ },
+ {
+  "in": "copyx",
+  "out": "copyx"
+ },
+ {
+  "in": "X;é<lté9nfcampquot",
+  "out": "X;é<lté9nfcampquot"
+ },
+ {
+  "in": "\t",
+  "out": "\t"
+ },
+ {
+  "in": "quot<&#xamp\t1F60055296lnot&55296pnotgt",
+  "out": "quot<\nmp\t1F60055296lnot&55296pnotgt"
+ },
+ {
+  "in": "mFquot",
+  "out": "mFquot"
+ },
+ {
+  "in": "m",
+  "out": "m"
+ },
+ {
+  "in": ";128o",
+  "out": ";128o"
+ },
+ {
+  "in": "&1ltnotin\t",
+  "out": "&1ltnotin\t"
+ },
+ {
+  "in": "\ttnotincpl1114111",
+  "out": "\ttnotincpl1114111"
+ },
+ {
+  "in": "0000AElig9mfa1ngt é;c&#x",
+  "out": "0000AElig9mfa1ngt é;c&#x"
+ },
+ {
+  "in": "\tampt9p9xlt#mX",
+  "out": "\tampt9p9xlt#mX"
+ },
+ {
+  "in": "éAEligta 552969fcopyalt",
+  "out": "éAEligta 552969fcopyalt"
+ },
+ {
+  "in": ";",
+  "out": ";"
+ },
+ {
+  "in": "notp<quotFAElig  lt ",
+  "out": "notp<quotFAElig  lt "
+ },
+ {
+  "in": "X#1114111pmFfy1114111co",
+  "out": "X#1114111pmFfy1114111co"
+ },
+ {
+  "in": "128éolt65535 ",
+  "out": "128éolt65535 "
+ },
+ {
+  "in": "&#x1114111nc gécopyltmFg1114111&#x",
+  "out": "�nc gécopyltmFg1114111&#x"
+ },
+ {
+  "in": "128ynot",
+  "out": "128ynot"
+ },
+ {
+  "in": "<a1 ;notinamplt",
+  "out": "<a1 ;notinamplt"
+ },
+ {
+  "in": "l",
+  "out": "l"
+ },
+ {
+  "in": "\txAElig",
+  "out": "\txAElig"
+ },
+ {
+  "in": "9<xgt",
+  "out": "9<xgt"
+ },
+ {
+  "in": "9#2quot#&#x",
+  "out": "9#2quot#&#x"
+ },
+ {
+  "in": "lt#Faa",
+  "out": "lt#Faa"
+ },
+ {
+  "in": "128xltéAElig",
+  "out": "128xltéAElig"
+ },
+ {
+  "in": "Xampt&#xy00009xy ",
+  "out": "Xampt&#xy00009xy "
+ },
+ {
+  "in": "&lAEliggto&#xAEligx55296fquot",
+  "out": "&lAEliggto®ligx55296fquot"
+ },
+ {
+  "in": "ly&#copyF1lnXnot",
+  "out": "ly&#copyF1lnXnot"
+ },
+ {
+  "in": "1F600<y9gté2pg1F600&#0000g",
+  "out": "1F600<y9gté2pg1F600�g"
+ },
+ {
+  "in": "not AEligfpXlt128o",
+  "out": "not AEligfpXlt128o"
+ },
+ {
+  "in": "amp0000fyo6553555296not",
+  "out": "amp0000fyo6553555296not"
+ },
+ {
+  "in": "gtnotinAElig9x128128amp&#",
+  "out": "gtnotinAElig9x128128amp&#"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "9X&#x 1np",
+  "out": "9X&#x 1np"
+ },
+ {
+  "in": "n;",
+  "out": "n;"
+ },
+ {
+  "in": "AElignnF128y&#yxlquot",
+  "out": "AElignnF128y&#yxlquot"
+ },
+ {
+  "in": "gn lg 1F600\txquotxn",
+  "out": "gn lg 1F600\txquotxn"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "&fcopyX9AElig1",
+  "out": "&fcopyX9AElig1"
+ },
+ {
+  "in": "&#xltFpm55296a&#x1114111ampfquotamp<",
+  "out": "&#xltFpm55296a�mpfquotamp<"
+ },
+ {
+  "in": "o&#x",
+  "out": "o&#x"
+ },
+ {
+  "in": "ampé<t",
+  "out": "ampé<t"
+ },
+ {
+  "in": " é1#cx128pl1114111xl",
+  "out": " é1#cx128pl1114111xl"
+ },
+ {
+  "in": "quotquot\t1l128quot&#x&#x ",
+  "out": "quotquot\t1l128quot&#x&#x "
+ },
+ {
+  "in": "1114111&#xcopyc0000notin128;quot",
+  "out": "1114111\fopyc0000notin128;quot"
+ },
+ {
+  "in": "oxnotcopygtx&#lgtFnotin&g",
+  "out": "oxnotcopygtx&#lgtFnotin&g"
+ },
+ {
+  "in": "\t<",
+  "out": "\t<"
+ },
+ {
+  "in": "2nlt0000<ampnotinXln",
+  "out": "2nlt0000<ampnotinXln"
+ },
+ {
+  "in": "000019o1114111a<tg",
+  "out": "000019o1114111a<tg"
+ },
+ {
+  "in": " 65535mnotm91552961g0000;&notin",
+  "out": " 65535mnotm91552961g0000;¬in"
+ },
+ {
+  "in": "aquotl;p",
+  "out": "aquotl;p"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "#;\tm1F6000000f",
+  "out": "#;\tm1F6000000f"
+ },
+ {
+  "in": "92nocopyloX2&#65535agt;",
+  "out": "92nocopyloX2agt;"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "t&#gt<gnotiny1114111Xoquotp;",
+  "out": "t&#gt<gnotiny1114111Xoquotp;"
+ },
+ {
+  "in": "Fl1F600gt0000AEligno",
+  "out": "Fl1F600gt0000AEligno"
+ },
+ {
+  "in": "f128ncopyFnott",
+  "out": "f128ncopyFnott"
+ },
+ {
+  "in": "&#9< 55296ltquot65535cl<< <",
+  "out": "\t< 55296ltquot65535cl<< <"
+ },
+ {
+  "in": "copyAElig#128",
+  "out": "copyAElig#128"
+ },
+ {
+  "in": "mnotiné2#2&#&#x pF",
+  "out": "mnotiné2#2&#&#x pF"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "9é255296<notnot55296#mX",
+  "out": "9é255296<notnot55296#mX"
+ },
+ {
+  "in": "65535pX\ttp",
+  "out": "65535pX\ttp"
+ },
+ {
+  "in": "AElig1l#ampé ampcopytn;",
+  "out": "AElig1l#ampé ampcopytn;"
+ },
+ {
+  "in": "0000F",
+  "out": "0000F"
+ },
+ {
+  "in": "pquot1114111y;amp",
+  "out": "pquot1114111y;amp"
+ },
+ {
+  "in": "&éol#",
+  "out": "&éol#"
+ },
+ {
+  "in": "notin",
+  "out": "notin"
+ },
+ {
+  "in": "ampm5529665535\t",
+  "out": "ampm5529665535\t"
+ },
+ {
+  "in": "1114111a000055296X&#",
+  "out": "1114111a000055296X&#"
+ },
+ {
+  "in": "a\tfcopyAEligcopyXFp212812865535",
+  "out": "a\tfcopyAEligcopyXFp212812865535"
+ },
+ {
+  "in": "copycf9x",
+  "out": "copycf9x"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": " notX&<ltm1114111g55296xX\t9",
+  "out": " notX&<ltm1114111g55296xX\t9"
+ },
+ {
+  "in": "génotin55296équotg5529665535g128 ",
+  "out": "génotin55296équotg5529665535g128 "
+ },
+ {
+  "in": "128pquot",
+  "out": "128pquot"
+ },
+ {
+  "in": "11141110000&<XFX\t",
+  "out": "11141110000&<XFX\t"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "0000lo2xgt;",
+  "out": "0000lo2xgt;"
+ },
+ {
+  "in": "FFAEliglt &#l1114111",
+  "out": "FFAEliglt &#l1114111"
+ },
+ {
+  "in": "65535notinplt12821nampcopy55296ampn",
+  "out": "65535notinplt12821nampcopy55296ampn"
+ },
+ {
+  "in": "xé&AEligc9<\tf\t1F600",
+  "out": "xéÆc9<\tf\t1F600"
+ },
+ {
+  "in": "copy21F600a<<n\t;",
+  "out": "copy21F600a<<n\t;"
+ },
+ {
+  "in": "o\tlt&#",
+  "out": "o\tlt&#"
+ },
+ {
+  "in": "amp#t2yé\t#ntg",
+  "out": "amp#t2yé\t#ntg"
+ },
+ {
+  "in": "&#x55296F128quotlt",
+  "out": "�quotlt"
+ },
+ {
+  "in": "65535l",
+  "out": "65535l"
+ },
+ {
+  "in": "quot;gt&&notgtlt&#",
+  "out": "quot;gt&¬gtlt&#"
+ },
+ {
+  "in": "n\t55296y",
+  "out": "n\t55296y"
+ },
+ {
+  "in": "<f1280000lté55296notinnotlty",
+  "out": "<f1280000lté55296notinnotlty"
+ },
+ {
+  "in": "notinF\t",
+  "out": "notinF\t"
+ },
+ {
+  "in": "x&#x2t1114111not&",
+  "out": "xt1114111not&"
+ },
+ {
+  "in": "#m",
+  "out": "#m"
+ },
+ {
+  "in": "l1114111xquot1114111",
+  "out": "l1114111xquot1114111"
+ },
+ {
+  "in": "128&&#1114111copyy55296an",
+  "out": "128&copyy55296an"
+ },
+ {
+  "in": "\t&# #amp",
+  "out": "\t&# #amp"
+ },
+ {
+  "in": "p2 notFlt\tF<",
+  "out": "p2 notFlt\tF<"
+ },
+ {
+  "in": "cAEligXam2<",
+  "out": "cAEligXam2<"
+ },
+ {
+  "in": "9\tAElig12855296not\t0000",
+  "out": "9\tAElig12855296not\t0000"
+ },
+ {
+  "in": " <;pXx&#xnotingtl2tmcopy",
+  "out": " <;pXx&#xnotingtl2tmcopy"
+ },
+ {
+  "in": "tanpXlté",
+  "out": "tanpXlté"
+ },
+ {
+  "in": "g9cp#ltlnlloXxAElig",
+  "out": "g9cp#ltlnlloXxAElig"
+ },
+ {
+  "in": "é55296g9tAElig0000",
+  "out": "é55296g9tAElig0000"
+ },
+ {
+  "in": "F1",
+  "out": "F1"
+ },
+ {
+  "in": "6553512855296quot&#x&#a1114111gt\témpn",
+  "out": "6553512855296quot&#x&#a1114111gt\témpn"
+ },
+ {
+  "in": "x65535gtx12865535FF",
+  "out": "x65535gtx12865535FF"
+ },
+ {
+  "in": "notin&f128&#1114111a65535111411155296m",
+  "out": "notin&f128a65535111411155296m"
+ },
+ {
+  "in": " onoAElig#65535<1F600",
+  "out": " onoAElig#65535<1F600"
+ },
+ {
+  "in": "XAEligo552961114111\tfcopy&#t22l&",
+  "out": "XAEligo552961114111\tfcopy&#t22l&"
+ },
+ {
+  "in": "AElignotcaltap0000oé9111411155296",
+  "out": "AElignotcaltap0000oé9111411155296"
+ },
+ {
+  "in": "mmF ;AElig55296ét",
+  "out": "mmF ;AElig55296ét"
+ },
+ {
+  "in": "f",
+  "out": "f"
+ },
+ {
+  "in": "f#X#",
+  "out": "f#X#"
+ },
+ {
+  "in": "55296ltxtmmynotgt",
+  "out": "55296ltxtmmynotgt"
+ },
+ {
+  "in": "é1114111f1F6001&;pXnotFy",
+  "out": "é1114111f1F6001&;pXnotFy"
+ },
+ {
+  "in": "lt0000quotamppAElig&#gt1114111ampquot&",
+  "out": "lt0000quotamppAElig&#gt1114111ampquot&"
+ },
+ {
+  "in": " AElig",
+  "out": " AElig"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "65535noté128",
+  "out": "65535noté128"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "c&fampAElig1114111;",
+  "out": "c&fampAElig1114111;"
+ },
+ {
+  "in": "gquotnot19g0000énotin",
+  "out": "gquotnot19g0000énotin"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "55296m 65535&1mnotingnot",
+  "out": "55296m 65535&1mnotingnot"
+ },
+ {
+  "in": "&##0000é265535amplt",
+  "out": "&##0000é265535amplt"
+ },
+ {
+  "in": "#55296000055296;X2",
+  "out": "#55296000055296;X2"
+ },
+ {
+  "in": "é65535",
+  "out": "é65535"
+ },
+ {
+  "in": "<ygt2128m\tg&quota\tn",
+  "out": "<ygt2128m\tg\"a\tn"
+ },
+ {
+  "in": "<fonotin\t;9of&# p",
+  "out": "<fonotin\t;9of&# p"
+ },
+ {
+  "in": "notintéc",
+  "out": "notintéc"
+ },
+ {
+  "in": "n9notonotin2&#x\t",
+  "out": "n9notonotin2&#x\t"
+ },
+ {
+  "in": "ampnotin",
+  "out": "ampnotin"
+ },
+ {
+  "in": "y0000AEligquotquot\t2m&#x1p128l",
+  "out": "y0000AEligquotquot\t2mp128l"
+ },
+ {
+  "in": "notAElig",
+  "out": "notAElig"
+ },
+ {
+  "in": "\t",
+  "out": "\t"
+ },
+ {
+  "in": "X;<&éFxlt1114111&",
+  "out": "X;<&éFxlt1114111&"
+ },
+ {
+  "in": "notcquotn128f",
+  "out": "notcquotn128f"
+ },
+ {
+  "in": "copy2X<2",
+  "out": "copy2X<2"
+ },
+ {
+  "in": "n552961114111lcopyé9copyamp;&#F128c",
+  "out": "n552961114111lcopyé9copyamp;&#F128c"
+ },
+ {
+  "in": "é9<éF",
+  "out": "é9<éF"
+ },
+ {
+  "in": "AEligAEliga<#&#&gt",
+  "out": "AEligAEliga<#&#>"
+ },
+ {
+  "in": "notinFof&#1F600éy Fm&",
+  "out": "notinFofF600éy Fm&"
+ },
+ {
+  "in": "65535&écnotinlt65535notin1&#x",
+  "out": "65535&écnotinlt65535notin1&#x"
+ },
+ {
+  "in": "1l00000000xnot;quot128",
+  "out": "1l00000000xnot;quot128"
+ },
+ {
+  "in": "552969cn2\tx9\t",
+  "out": "552969cn2\tx9\t"
+ },
+ {
+  "in": "9l&\t&#229\tFa",
+  "out": "9l&\tå\tFa"
+ },
+ {
+  "in": "copynfFnotgnotin&amp",
+  "out": "copynfFnotgnotin&"
+ },
+ {
+  "in": "1F6001114111amp&yé#",
+  "out": "1F6001114111amp&yé#"
+ },
+ {
+  "in": "AElig19#65535ptyty2",
+  "out": "AElig19#65535ptyty2"
+ },
+ {
+  "in": "Fquot9m<;c2&#xf9n",
+  "out": "Fquot9m<;c2ùn"
+ },
+ {
+  "in": "AEligltépgf2",
+  "out": "AEligltépgf2"
+ },
+ {
+  "in": "X128\t",
+  "out": "X128\t"
+ },
+ {
+  "in": "cf65535f2é",
+  "out": "cf65535f2é"
+ },
+ {
+  "in": "0000not amplf",
+  "out": "0000not amplf"
+ },
+ {
+  "in": "<00001F600notin;<fo1F600\t&#x ",
+  "out": "<00001F600notin;<fo1F600\t&#x "
+ },
+ {
+  "in": "pxfxnotin2Xnotnot",
+  "out": "pxfxnotin2Xnotnot"
+ },
+ {
+  "in": "o65535g\tXnot9\tna1114111amp1F600",
+  "out": "o65535g\tXnot9\tna1114111amp1F600"
+ },
+ {
+  "in": "0000notinnotfn552962l<y65535",
+  "out": "0000notinnotfn552962l<y65535"
+ },
+ {
+  "in": "y9mAEligf&#xé&#notin655351",
+  "out": "y9mAEligf&#xé&#notin655351"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "m&1F6001114111m1amp",
+  "out": "m&1F6001114111m1amp"
+ },
+ {
+  "in": "1F600copyampcF9 ",
+  "out": "1F600copyampcF9 "
+ },
+ {
+  "in": "notin",
+  "out": "notin"
+ },
+ {
+  "in": "éé2é1F6001notl;fé65535l55296",
+  "out": "éé2é1F6001notl;fé65535l55296"
+ },
+ {
+  "in": "2conot91F600\t6553511&#xF&#",
+  "out": "2conot91F600\t6553511&#"
+ },
+ {
+  "in": "notté 128",
+  "out": "notté 128"
+ },
+ {
+  "in": "ampAEligétocopy",
+  "out": "ampAEligétocopy"
+ },
+ {
+  "in": "quot2xxamp2not<<é\t2 ",
+  "out": "quot2xxamp2not<<é\t2 "
+ },
+ {
+  "in": "1114111\t1F6002élcopynot1F600;",
+  "out": "1114111\t1F6002élcopynot1F600;"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "&#&#",
+  "out": "&#&#"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "&#x0000nXné1",
+  "out": "�nXné1"
+ },
+ {
+  "in": "\t19copycopy",
+  "out": "\t19copycopy"
+ },
+ {
+  "in": "notéxquotxoAElig&pl1x2",
+  "out": "notéxquotxoAElig&pl1x2"
+ },
+ {
+  "in": "ltmé&<",
+  "out": "ltmé&<"
+ },
+ {
+  "in": " l1F600notinyquot\toxcopyé",
+  "out": " l1F600notinyquot\toxcopyé"
+ },
+ {
+  "in": "p",
+  "out": "p"
+ },
+ {
+  "in": "128#F9gtyp&#n\t\t",
+  "out": "128#F9gtyp&#n\t\t"
+ },
+ {
+  "in": "notgt&21F600;",
+  "out": "notgt&21F600;"
+ },
+ {
+  "in": "notinfquotlt1amf#onotin",
+  "out": "notinfquotlt1amf#onotin"
+ },
+ {
+  "in": " ynotin",
+  "out": " ynotin"
+ },
+ {
+  "in": "&#xampquotpf",
+  "out": "\nmpquotpf"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "l128l\t21F600a&",
+  "out": "l128l\t21F600a&"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "notin1114111128",
+  "out": "notin1114111128"
+ },
+ {
+  "in": "  \tXénot",
+  "out": "  \tXénot"
+ },
+ {
+  "in": "llampog#m",
+  "out": "llampog#m"
+ },
+ {
+  "in": "55296notp128éa",
+  "out": "55296notp128éa"
+ },
+ {
+  "in": "quotgt",
+  "out": "quotgt"
+ },
+ {
+  "in": "a255296tcopy",
+  "out": "a255296tcopy"
+ },
+ {
+  "in": "<allt&#",
+  "out": "<allt&#"
+ },
+ {
+  "in": "tgl&#;px&#a2ltltp",
+  "out": "tgl&#;px&#a2ltltp"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "m;",
+  "out": "m;"
+ },
+ {
+  "in": "g&#lnotp",
+  "out": "g&#lnotp"
+ },
+ {
+  "in": "m",
+  "out": "m"
+ },
+ {
+  "in": "55296opF55296f",
+  "out": "55296opF55296f"
+ },
+ {
+  "in": "&#x\tc\tAElig#6553511141111F600",
+  "out": "&#x\tc\tAElig#6553511141111F600"
+ },
+ {
+  "in": "1114111notampampXn65535",
+  "out": "1114111notampampXn65535"
+ },
+ {
+  "in": "f2no1114111gtpgt128 tcgtAElig",
+  "out": "f2no1114111gtpgt128 tcgtAElig"
+ },
+ {
+  "in": "y",
+  "out": "y"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "l12é1281F6009not1114111g22",
+  "out": "l12é1281F6009not1114111g22"
+ },
+ {
+  "in": "x1F600notin00001F600\t&#xampm;pa",
+  "out": "x1F600notin00001F600\t\nmpm;pa"
+ },
+ {
+  "in": "lt\t655351114111quotF",
+  "out": "lt\t655351114111quotF"
+ },
+ {
+  "in": "&#xgt1114111x55296tl;",
+  "out": "&#xgt1114111x55296tl;"
+ },
+ {
+  "in": "X2",
+  "out": "X2"
+ },
+ {
+  "in": "65535é00001F600m",
+  "out": "65535é00001F600m"
+ },
+ {
+  "in": "9copy<co2AEligé128",
+  "out": "9copy<co2AEligé128"
+ },
+ {
+  "in": "1289xltn",
+  "out": "1289xltn"
+ },
+ {
+  "in": "nAEligf éfltcanotin55296at",
+  "out": "nAEligf éfltcanotin55296at"
+ },
+ {
+  "in": "Fx1notn",
+  "out": "Fx1notn"
+ },
+ {
+  "in": "&",
+  "out": "&"
+ },
+ {
+  "in": "<9oquot",
+  "out": "<9oquot"
+ },
+ {
+  "in": "amp<",
+  "out": "amp<"
+ },
+ {
+  "in": "t1l",
+  "out": "t1l"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "&#xt#<p&2f",
+  "out": "&#xt#<p&2f"
+ },
+ {
+  "in": "copy<ltn1114111cquot1114111a",
+  "out": "copy<ltn1114111cquot1114111a"
+ },
+ {
+  "in": "é552961F600gtnotin#x;g1114111f",
+  "out": "é552961F600gtnotin#x;g1114111f"
+ },
+ {
+  "in": "o X9",
+  "out": "o X9"
+ },
+ {
+  "in": "2on",
+  "out": "2on"
+ },
+ {
+  "in": "&#x",
+  "out": "&#x"
+ },
+ {
+  "in": ";",
+  "out": ";"
+ },
+ {
+  "in": "ampmoltptnotinltg55296;0000",
+  "out": "ampmoltptnotinltg55296;0000"
+ },
+ {
+  "in": "x000000009é&55296gt",
+  "out": "x000000009é&55296gt"
+ },
+ {
+  "in": "9notcopyoyXa<gtg",
+  "out": "9notcopyoyXa<gtg"
+ },
+ {
+  "in": "lF",
+  "out": "lF"
+ },
+ {
+  "in": "1114111229&1114111y&#",
+  "out": "1114111229&1114111y&#"
+ },
+ {
+  "in": "gt;128pnotin1282&#x oa&#xX",
+  "out": "gt;128pnotin1282&#x oa&#xX"
+ },
+ {
+  "in": "p",
+  "out": "p"
+ },
+ {
+  "in": "n#128&",
+  "out": "n#128&"
+ },
+ {
+  "in": "ygt1912\txamp1114111y",
+  "out": "ygt1912\txamp1114111y"
+ },
+ {
+  "in": "1F60065535copyF",
+  "out": "1F60065535copyF"
+ },
+ {
+  "in": "nt0000&#AElignmnot<1F600AElignotAElig2",
+  "out": "nt0000&#AElignmnot<1F600AElignotAElig2"
+ },
+ {
+  "in": "<55296",
+  "out": "<55296"
+ },
+ {
+  "in": "0000clt",
+  "out": "0000clt"
+ },
+ {
+  "in": "y0000gAEligXquotgfg9p",
+  "out": "y0000gAEligXquotgfg9p"
+ },
+ {
+  "in": "t&#xéoFlXnoting",
+  "out": "t&#xéoFlXnoting"
+ },
+ {
+  "in": "notin128552960000notin\tX&#x é;",
+  "out": "notin128552960000notin\tX&#x é;"
+ },
+ {
+  "in": "ét1F6001F600éénotinquota&#x128",
+  "out": "ét1F6001F600éénotinquotaĨ"
+ },
+ {
+  "in": "ty\té 1gt",
+  "out": "ty\té 1gt"
+ },
+ {
+  "in": "m1114111",
+  "out": "m1114111"
+ },
+ {
+  "in": ";Fa9lé&#xAElig&#",
+  "out": ";Fa9lé®lig&#"
+ },
+ {
+  "in": "l\t9<c#p<F&#xAElig1F600655351",
+  "out": "l\t9<c#p<F®lig1F600655351"
+ },
+ {
+  "in": "lta11141111F600quot&#notinquotamp",
+  "out": "lta11141111F600quot&#notinquotamp"
+ },
+ {
+  "in": "gtyanot1ampfm#11114111&#xfgt",
+  "out": "gtyanot1ampfm#11114111gt"
+ },
+ {
+  "in": "552962#AEligAElig1114111amp;",
+  "out": "552962#AEligAElig1114111amp;"
+ },
+ {
+  "in": "&#ly t",
+  "out": "&#ly t"
+ },
+ {
+  "in": "gt#x1F6001F600;1F600",
+  "out": "gt#x1F6001F600;1F600"
+ },
+ {
+  "in": "\t1F600",
+  "out": "\t1F600"
+ },
+ {
+  "in": "9xnfnotinlt#<n&#x",
+  "out": "9xnfnotinlt#<n&#x"
+ },
+ {
+  "in": "gt",
+  "out": "gt"
+ },
+ {
+  "in": "flt 2c",
+  "out": "flt 2c"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "000055296m<p0000",
+  "out": "000055296m<p0000"
+ },
+ {
+  "in": "128an55296notinf1F6000000",
+  "out": "128an55296notinf1F6000000"
+ },
+ {
+  "in": " &#x\tn;notX#xn",
+  "out": " &#x\tn;notX#xn"
+ },
+ {
+  "in": "yX;65535y&y5529665535noté&#xAElign",
+  "out": "yX;65535y&y5529665535noté®lign"
+ },
+ {
+  "in": "nn ",
+  "out": "nn "
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "t00002cnotcg",
+  "out": "t00002cnotcg"
+ },
+ {
+  "in": "ogtAElig9yt0000ltlnotin",
+  "out": "ogtAElig9yt0000ltlnotin"
+ },
+ {
+  "in": "2<ocopy&#xlampampé65535n&lt",
+  "out": "2<ocopy&#xlampampé65535n<"
+ },
+ {
+  "in": "g1114111an9552962ppo",
+  "out": "g1114111an9552962ppo"
+ },
+ {
+  "in": "9on",
+  "out": "9on"
+ },
+ {
+  "in": "amp\tpm0000",
+  "out": "amp\tpm0000"
+ },
+ {
+  "in": "2",
+  "out": "2"
+ },
+ {
+  "in": "lt#",
+  "out": "lt#"
+ },
+ {
+  "in": "9X9lcopya55296cp128x",
+  "out": "9X9lcopya55296cp128x"
+ },
+ {
+  "in": "cquot9t\t",
+  "out": "cquot9t\t"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "a1t#é",
+  "out": "a1t#é"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "l",
+  "out": "l"
+ },
+ {
+  "in": "ltamp f&#",
+  "out": "ltamp f&#"
+ },
+ {
+  "in": "<ygf111411155296x",
+  "out": "<ygf111411155296x"
+ },
+ {
+  "in": "notf2g",
+  "out": "notf2g"
+ },
+ {
+  "in": "f2aquotcopynotin9not128",
+  "out": "f2aquotcopynotin9not128"
+ },
+ {
+  "in": "<&#y965535;",
+  "out": "<&#y965535;"
+ },
+ {
+  "in": "tnot1114111",
+  "out": "tnot1114111"
+ },
+ {
+  "in": "p9#yo a;tp1F600AElig",
+  "out": "p9#yo a;tp1F600AElig"
+ },
+ {
+  "in": "AEligp55296notinAElig",
+  "out": "AEligp55296notinAElig"
+ },
+ {
+  "in": "22copyx",
+  "out": "22copyx"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "xpl2 not",
+  "out": "xpl2 not"
+ },
+ {
+  "in": "yampm",
+  "out": "yampm"
+ },
+ {
+  "in": "ngXamp9a&#x#AEligAEligtquota",
+  "out": "ngXamp9a&#x#AEligAEligtquota"
+ },
+ {
+  "in": "<quot1lt",
+  "out": "<quot1lt"
+ },
+ {
+  "in": "gnnot#0000quot\t&#x128&#x",
+  "out": "gnnot#0000quot\tĨ&#x"
+ },
+ {
+  "in": "notinlltXnotin 65535amllt\t65535&#",
+  "out": "notinlltXnotin 65535amllt\t65535&#"
+ },
+ {
+  "in": "&#xcopy&# \tltF",
+  "out": "\fopy&# \tltF"
+ },
+ {
+  "in": "1ao\tc1114111Fcgt",
+  "out": "1ao\tc1114111Fcgt"
+ },
+ {
+  "in": " 1F600copy&g# quot1&#xF",
+  "out": " 1F600copy&g# quot1"
+ },
+ {
+  "in": "111411155296&#20000mnotn",
+  "out": "111411155296丠mnotn"
+ },
+ {
+  "in": "gtnot",
+  "out": "gtnot"
+ },
+ {
+  "in": "9nx9m1114111",
+  "out": "9nx9m1114111"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "55296",
+  "out": "55296"
+ },
+ {
+  "in": "2g gquot65535ccopyx",
+  "out": "2g gquot65535ccopyx"
+ },
+ {
+  "in": "éxx128;copyfmpa#",
+  "out": "éxx128;copyfmpa#"
+ },
+ {
+  "in": "128y#&#xnX",
+  "out": "128y#&#xnX"
+ },
+ {
+  "in": "n\tf\t65535#ltnotin&#",
+  "out": "n\tf\t65535#ltnotin&#"
+ },
+ {
+  "in": "1&#gf655355529655296",
+  "out": "1&#gf655355529655296"
+ },
+ {
+  "in": "<g2<X",
+  "out": "<g2<X"
+ },
+ {
+  "in": "notinm1xltXé 2é&#xc55296",
+  "out": "notinm1xltXé 2é�"
+ },
+ {
+  "in": "gc1F60065535o&&&#655351114111alt",
+  "out": "gc1F60065535o&&�alt"
+ },
+ {
+  "in": "9monamquotocopyx;tX;",
+  "out": "9monamquotocopyx;tX;"
+ },
+ {
+  "in": "ot99552960000ltnotinlt",
+  "out": "ot99552960000ltnotinlt"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "m;é;o\tcopy2&#é",
+  "out": "m;é;o\tcopy2&#é"
+ },
+ {
+  "in": "cl&#0000#pnot",
+  "out": "cl�#pnot"
+ },
+ {
+  "in": "2&#xltgt1F600fgtamp",
+  "out": "2&#xltgt1F600fgtamp"
+ },
+ {
+  "in": "c1114111&#xoc55296y1",
+  "out": "c1114111&#xoc55296y1"
+ },
+ {
+  "in": "égquotltAEligf copyo#9",
+  "out": "égquotltAEligf copyo#9"
+ },
+ {
+  "in": ";0000quotc&pm1quotnotinénotin",
+  "out": ";0000quotc&pm1quotnotinénotin"
+ },
+ {
+  "in": "&quot1",
+  "out": "\"1"
+ },
+ {
+  "in": "AElig2<y\t128",
+  "out": "AElig2<y\t128"
+ },
+ {
+  "in": "copyF2quot0000",
+  "out": "copyF2quot0000"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "l&#x211141119ampcn1F600c",
+  "out": "l�mpcn1F600c"
+ },
+ {
+  "in": "55296<0000a",
+  "out": "55296<0000a"
+ },
+ {
+  "in": "&#ltF55296notammcopyp",
+  "out": "&#ltF55296notammcopyp"
+ },
+ {
+  "in": "9ppXquotampnot\tf55296oquot65535",
+  "out": "9ppXquotampnot\tf55296oquot65535"
+ },
+ {
+  "in": "9copynl9ampy65535",
+  "out": "9copynl9ampy65535"
+ },
+ {
+  "in": "< &#&#x65535552965529665535\tlt#&#x",
+  "out": "< &#�\tlt#&#x"
+ },
+ {
+  "in": "&#x&#x128",
+  "out": "&#xĨ"
+ },
+ {
+  "in": "y1114111not",
+  "out": "y1114111not"
+ },
+ {
+  "in": "ftml\téécopy<llt",
+  "out": "ftml\téécopy<llt"
+ },
+ {
+  "in": "é",
+  "out": "é"
+ },
+ {
+  "in": "gt",
+  "out": "gt"
+ },
+ {
+  "in": "65535f&notinAElig&&2lt9AElignF",
+  "out": "65535f¬inAElig&&2lt9AElignF"
+ },
+ {
+  "in": "not&#axnquot&nnotFé",
+  "out": "not&#axnquot&nnotFé"
+ },
+ {
+  "in": "cquoty55296",
+  "out": "cquoty55296"
+ },
+ {
+  "in": "1F600xy&#&#xnotin",
+  "out": "1F600xy&#&#xnotin"
+ },
+ {
+  "in": "965535gtcopy",
+  "out": "965535gtcopy"
+ },
+ {
+  "in": "notinyFpt",
+  "out": "notinyFpt"
+ },
+ {
+  "in": ";\txcopy",
+  "out": ";\txcopy"
+ },
+ {
+  "in": "128x< o65535m1F60055296&gt",
+  "out": "128x< o65535m1F60055296>"
+ },
+ {
+  "in": "ampogt gt1114111gtlt",
+  "out": "ampogt gt1114111gtlt"
+ },
+ {
+  "in": "lt955296quotgtm",
+  "out": "lt955296quotgtm"
+ },
+ {
+  "in": "65535000055296ltxéml",
+  "out": "65535000055296ltxéml"
+ },
+ {
+  "in": "copyo&#",
+  "out": "copyo&#"
+ },
+ {
+  "in": "&#x",
+  "out": "&#x"
+ },
+ {
+  "in": "#lg&#1281F600&#a65535\tAElig",
+  "out": "#lgԁF600&#a65535\tAElig"
+ },
+ {
+  "in": "#altAEligquot1f1F600F1F600n65535",
+  "out": "#altAEligquot1f1F600F1F600n65535"
+ },
+ {
+  "in": "1114111équotgtnotnot",
+  "out": "1114111équotgtnotnot"
+ },
+ {
+  "in": "0000tAElig128Flt gfFnotin<notinquot",
+  "out": "0000tAElig128Flt gfFnotin<notinquot"
+ },
+ {
+  "in": "1F600;quot",
+  "out": "1F600;quot"
+ },
+ {
+  "in": "<n&#128lt128 cgcy&&X",
+  "out": "<n€lt128 cgcy&&X"
+ },
+ {
+  "in": "fp",
+  "out": "fp"
+ },
+ {
+  "in": "65535c",
+  "out": "65535c"
+ },
+ {
+  "in": "lcquotl&g",
+  "out": "lcquotl&g"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "65535n0000t0000t911141110000FX;",
+  "out": "65535n0000t0000t911141110000FX;"
+ },
+ {
+  "in": "1F6009gtquotnltnot<t",
+  "out": "1F6009gtquotnltnot<t"
+ },
+ {
+  "in": "quot1F600128 &#&",
+  "out": "quot1F600128 &#&"
+ },
+ {
+  "in": "ampnot éto1gtlt&notin",
+  "out": "ampnot éto1gtlt¬in"
+ },
+ {
+  "in": "1&9tAElig1114111yX9f",
+  "out": "1&9tAElig1114111yX9f"
+ },
+ {
+  "in": "1114111Xf\tamp1tp1114111npao",
+  "out": "1114111Xf\tamp1tp1114111npao"
+ },
+ {
+  "in": "F965535;é1114111quot65535pamp65535Ft",
+  "out": "F965535;é1114111quot65535pamp65535Ft"
+ },
+ {
+  "in": "9<ccopypnot1F60065535c1F600F",
+  "out": "9<ccopypnot1F60065535c1F600F"
+ },
+ {
+  "in": "128g#f;",
+  "out": "128g#f;"
+ },
+ {
+  "in": "o55296quot",
+  "out": "o55296quot"
+ },
+ {
+  "in": "&copynquotm11114111équotcopy9not",
+  "out": "©nquotm11114111équotcopy9not"
+ },
+ {
+  "in": "<m<&égt0000",
+  "out": "<m<&égt0000"
+ },
+ {
+  "in": "gtmc9pm<&#lt1114111y\ty",
+  "out": "gtmc9pm<&#lt1114111y\ty"
+ },
+ {
+  "in": "fquotquotFlé",
+  "out": "fquotquotFlé"
+ },
+ {
+  "in": "plt1114111quot",
+  "out": "plt1114111quot"
+ },
+ {
+  "in": "\tnot128&#copyéénotin1F600tp",
+  "out": "\tnot128&#copyéénotin1F600tp"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "2olt1114111mn\t l291F600",
+  "out": "2olt1114111mn\t l291F600"
+ },
+ {
+  "in": "ccopycopyx#tml200000000",
+  "out": "ccopycopyx#tml200000000"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": ";",
+  "out": ";"
+ },
+ {
+  "in": "gAElig&#x55296&notnot amp",
+  "out": "gAElig񕊖¬not amp"
+ },
+ {
+  "in": "\t &#gt#n1copyAElig55296copy ",
+  "out": "\t &#gt#n1copyAElig55296copy "
+ },
+ {
+  "in": "ycopy&&#xpygt1F600o128noté1114111",
+  "out": "ycopy&&#xpygt1F600o128noté1114111"
+ },
+ {
+  "in": "n&g&<m1114111<65535",
+  "out": "n&g&<m1114111<65535"
+ },
+ {
+  "in": "xgtnot&#xp&#128o",
+  "out": "xgtnot&#xp€o"
+ },
+ {
+  "in": "9cfp1114111f;55296n55296yFé",
+  "out": "9cfp1114111f;55296n55296yFé"
+ },
+ {
+  "in": "Xcopylt552962lc1114111pquoto&#",
+  "out": "Xcopylt552962lc1114111pquoto&#"
+ },
+ {
+  "in": "&#x1F600notngtnamp111411155296&#x",
+  "out": "😀notngtnamp111411155296&#x"
+ },
+ {
+  "in": "gt",
+  "out": "gt"
+ },
+ {
+  "in": "gt&#x&#é#",
+  "out": "gt&#x&#é#"
+ },
+ {
+  "in": "2y12lamp",
+  "out": "2y12lamp"
+ },
+ {
+  "in": "X1F600F&#x2#0000nf\tF128",
+  "out": "X1F600F#0000nf\tF128"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "&#<g1114111nnltggt#0000pa",
+  "out": "&#<g1114111nnltggt#0000pa"
+ },
+ {
+  "in": "xcopyX #f",
+  "out": "xcopyX #f"
+ },
+ {
+  "in": "<t<notm&#1114111X ",
+  "out": "<t<notmX "
+ },
+ {
+  "in": "quot11114111",
+  "out": "quot11114111"
+ },
+ {
+  "in": "&#xAElig655351281114111AElig&#x",
+  "out": "®lig655351281114111AElig&#x"
+ },
+ {
+  "in": "annotcopyF9yXX&65535cl",
+  "out": "annotcopyF9yXX&65535cl"
+ },
+ {
+  "in": "F12855296n;amp",
+  "out": "F12855296n;amp"
+ },
+ {
+  "in": "#copynxnotin<",
+  "out": "#copynxnotin<"
+ },
+ {
+  "in": "amp",
+  "out": "amp"
+ },
+ {
+  "in": "&#é92F9;",
+  "out": "&#é92F9;"
+ },
+ {
+  "in": "copynot",
+  "out": "copynot"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "\tgt128 0000#128",
+  "out": "\tgt128 0000#128"
+ },
+ {
+  "in": "éyg2é65535",
+  "out": "éyg2é65535"
+ },
+ {
+  "in": "X&#xquot<",
+  "out": "X&#xquot<"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "1F600ltlt&#1114111ampt0000 oAElig1114111l",
+  "out": "1F600ltltampt0000 oAElig1114111l"
+ },
+ {
+  "in": "<",
+  "out": "<"
+ },
+ {
+  "in": "&#x;t",
+  "out": "&#x;t"
+ },
+ {
+  "in": "AEliggo&#xnggnot9not",
+  "out": "AEliggo&#xnggnot9not"
+ },
+ {
+  "in": "a#notin",
+  "out": "a#notin"
+ },
+ {
+  "in": "xgt12865535\tégtoa9ampégt",
+  "out": "xgt12865535\tégtoa9ampégt"
+ },
+ {
+  "in": "1not&#Xlxnot1F600quot1",
+  "out": "1not&#Xlxnot1F600quot1"
+ },
+ {
+  "in": "AEligXl55296xo",
+  "out": "AEligXl55296xo"
+ },
+ {
+  "in": "c&#xnotinamp\t1114111",
+  "out": "c&#xnotinamp\t1114111"
+ },
+ {
+  "in": "né1F600;x&#xF&#xnquoté ",
+  "out": "né1F600;x&#xnquoté "
+ },
+ {
+  "in": " ",
+  "out": " "
+ },
+ {
+  "in": "pAEligo",
+  "out": "pAEligo"
+ },
+ {
+  "in": "c",
+  "out": "c"
+ },
+ {
+  "in": "<&#quotgté",
+  "out": "<&#quotgté"
+ },
+ {
+  "in": "<amp1aX&quotnltamp",
+  "out": "<amp1aX\"nltamp"
+ },
+ {
+  "in": "f11141111F6002<&xé\t&gc55296",
+  "out": "f11141111F6002<&xé\t&gc55296"
+ },
+ {
+  "in": ";111411155296;ltnotfXo&#",
+  "out": ";111411155296;ltnotfXo&#"
+ },
+ {
+  "in": "1#n<#F",
+  "out": "1#n<#F"
+ },
+ {
+  "in": "&#x1114111o0000mamp65535l1#notin&",
+  "out": "�o0000mamp65535l1#notin&"
+ },
+ {
+  "in": "ampltt&copy",
+  "out": "ampltt©"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "gt&&#xcopy55296a0000l55296mnX",
+  "out": "gt&\fopy55296a0000l55296mnX"
+ },
+ {
+  "in": "n1AElig x;F21114111gto",
+  "out": "n1AElig x;F21114111gto"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "lnota gtpo1114111yoAElig",
+  "out": "lnota gtpo1114111yoAElig"
+ },
+ {
+  "in": "ampo1copy<F 1F600a&#128fa2",
+  "out": "ampo1copy<F 1F600a€fa2"
+ },
+ {
+  "in": ";lnotinoy128foxFl",
+  "out": ";lnotinoy128foxFl"
+ },
+ {
+  "in": "tnot;y#n&#xcopynotinflgt",
+  "out": "tnot;y#n\fopynotinflgt"
+ },
+ {
+  "in": "1F600é",
+  "out": "1F600é"
+ },
+ {
+  "in": "1F600&#ltgt",
+  "out": "1F600&#ltgt"
+ },
+ {
+  "in": "c\ta1F600Fl\t&#x55296&",
+  "out": "c\ta1F600Fl\t񕊖&"
+ },
+ {
+  "in": "g2cnoX",
+  "out": "g2cnoX"
+ },
+ {
+  "in": "ltynotin&yp;é0000AEligltcopym9",
+  "out": "ltynotin&yp;é0000AEligltcopym9"
+ },
+ {
+  "in": "ltmAElig&",
+  "out": "ltmAElig&"
+ },
+ {
+  "in": "Fn155296notin",
+  "out": "Fn155296notin"
+ },
+ {
+  "in": "not65535o&#x&#x mn<c",
+  "out": "not65535o&#x&#x mn<c"
+ },
+ {
+  "in": "pp9lt128a",
+  "out": "pp9lt128a"
+ },
+ {
+  "in": "2ampFnoting&#quot0000pAElig&#x2notinx",
+  "out": "2ampFnoting&#quot0000pAElignotinx"
+ },
+ {
+  "in": "#gt552962a9",
+  "out": "#gt552962a9"
+ },
+ {
+  "in": "l9my",
+  "out": "l9my"
+ },
+ {
+  "in": "copycopy",
+  "out": "copycopy"
+ },
+ {
+  "in": "65535&#xé1écopyo0000notincynotinc1F600",
+  "out": "65535&#xé1écopyo0000notincynotinc1F600"
+ },
+ {
+  "in": "notinamp9notinx&#9éltFXn#2",
+  "out": "notinamp9notinx\téltFXn#2"
+ },
+ {
+  "in": "#\tycopyampt2xnotin",
+  "out": "#\tycopyampt2xnotin"
+ },
+ {
+  "in": "1281F600 copylt X1114111AEligAElig19n",
+  "out": "1281F600 copylt X1114111AEligAElig19n"
+ },
+ {
+  "in": "x0000ct1552961F600Fcopy65535F<",
+  "out": "x0000ct1552961F600Fcopy65535F<"
+ },
+ {
+  "in": "128yx65535aquotgt65535og55296copyf&#x",
+  "out": "128yx65535aquotgt65535og55296copyf&#x"
+ },
+ {
+  "in": "65535",
+  "out": "65535"
+ },
+ {
+  "in": "Xoamp&X#2F",
+  "out": "Xoamp&X#2F"
+ },
+ {
+  "in": "00009&ampc&éy11141119",
+  "out": "00009&c&éy11141119"
+ },
+ {
+  "in": "xcp\tgtAElig1éénotinfm",
+  "out": "xcp\tgtAElig1éénotinfm"
+ },
+ {
+  "in": " ",
+  "out": " "
+ },
+ {
+  "in": ";p",
+  "out": ";p"
+ },
+ {
+  "in": "1o",
+  "out": "1o"
+ },
+ {
+  "in": "notX0000\t1",
+  "out": "notX0000\t1"
+ },
+ {
+  "in": "quotna",
+  "out": "quotna"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "c",
+  "out": "c"
+ },
+ {
+  "in": "1F600ampcf&#1F600",
+  "out": "1F600ampcfF600"
+ },
+ {
+  "in": "cpynotquotxp; ",
+  "out": "cpynotquotxp; "
+ },
+ {
+  "in": "9AEligyp2énotinXfm1F60091o",
+  "out": "9AEligyp2énotinXfm1F60091o"
+ },
+ {
+  "in": "tltamp128128&#1114111gt&#xo1F600",
+  "out": "tltamp128128gt&#xo1F600"
+ },
+ {
+  "in": "<0000;&#gt",
+  "out": "<0000;&#gt"
+ },
+ {
+  "in": "n0000aquot#0000né&#x&#&#x1F600",
+  "out": "n0000aquot#0000né&#x&#😀"
+ },
+ {
+  "in": " ",
+  "out": " "
+ },
+ {
+  "in": "11141111F6000000copyacopymnot\tamp",
+  "out": "11141111F6000000copyacopymnot\tamp"
+ },
+ {
+  "in": "20000ap1F600notquot552961t21F600",
+  "out": "20000ap1F600notquot552961t21F600"
+ },
+ {
+  "in": "gt9&&#128m1114111copy&#x0000",
+  "out": "gt9&€m1114111copy�"
+ },
+ {
+  "in": "nmfnf1AElignot#notincopy",
+  "out": "nmfnf1AElignot#notincopy"
+ },
+ {
+  "in": "&#ltxo",
+  "out": "&#ltxo"
+ },
+ {
+  "in": "notx",
+  "out": "notx"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "AEligaygtampX2F",
+  "out": "AEligaygtampX2F"
+ },
+ {
+  "in": "2lt255296&&#cnotp#",
+  "out": "2lt255296&&#cnotp#"
+ },
+ {
+  "in": "a y1114111olt65535AElig",
+  "out": "a y1114111olt65535AElig"
+ },
+ {
+  "in": "9g&notn1114111lt",
+  "out": "9g¬n1114111lt"
+ },
+ {
+  "in": "&#xo&#xquot",
+  "out": "&#xo&#xquot"
+ },
+ {
+  "in": "lt&ampcopy155296FltX9copy",
+  "out": "lt&copy155296FltX9copy"
+ },
+ {
+  "in": "#tnot",
+  "out": "#tnot"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "ycopycopy&#&\tl1F6009AElig\t128&",
+  "out": "ycopycopy&#&\tl1F6009AElig\t128&"
+ },
+ {
+  "in": "&#X",
+  "out": "&#X"
+ },
+ {
+  "in": "\t0000notinnotinx655351114111quotamp\t",
+  "out": "\t0000notinnotinx655351114111quotamp\t"
+ },
+ {
+  "in": "copylt#m  ;&0000128",
+  "out": "copylt#m  ;&0000128"
+ },
+ {
+  "in": "aF",
+  "out": "aF"
+ },
+ {
+  "in": "9mltquotF9not1notin#pt",
+  "out": "9mltquotF9not1notin#pt"
+ },
+ {
+  "in": "copym;",
+  "out": "copym;"
+ },
+ {
+  "in": "oamp0000nmtylt55296",
+  "out": "oamp0000nmtylt55296"
+ },
+ {
+  "in": "55296técopy#X#fgtf",
+  "out": "55296técopy#X#fgtf"
+ },
+ {
+  "in": "c55296quotxc1114111128",
+  "out": "c55296quotxc1114111128"
+ },
+ {
+  "in": "amp;copy65535quot9AElig 1114111",
+  "out": "amp;copy65535quot9AElig 1114111"
+ },
+ {
+  "in": "c&#F",
+  "out": "c&#F"
+ },
+ {
+  "in": "olt&#xnotinX65535",
+  "out": "olt&#xnotinX65535"
+ },
+ {
+  "in": "a55296copy#gtt",
+  "out": "a55296copy#gtt"
+ },
+ {
+  "in": "xm65535notinnotpAElignot\t",
+  "out": "xm65535notinnotpAElignot\t"
+ },
+ {
+  "in": "é65535F",
+  "out": "é65535F"
+ },
+ {
+  "in": "&#&XAElig&#F1copy\t9copy&#x",
+  "out": "&#&XAElig&#F1copy\t9copy&#x"
+ },
+ {
+  "in": "&#xf&#1114111notin552960000Fécc",
+  "out": "notin552960000Fécc"
+ },
+ {
+  "in": "ctyamp",
+  "out": "ctyamp"
+ },
+ {
+  "in": "xXé",
+  "out": "xXé"
+ },
+ {
+  "in": "not 11141119FAElig;1copylt F2",
+  "out": "not 11141119FAElig;1copylt F2"
+ },
+ {
+  "in": "65535ygt&#not<&#X;gt",
+  "out": "65535ygt&#not<&#X;gt"
+ },
+ {
+  "in": "y",
+  "out": "y"
+ },
+ {
+  "in": "gtyAElig128nquot1114111FF128\t<yy",
+  "out": "gtyAElig128nquot1114111FF128\t<yy"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "p&olt2",
+  "out": "p&olt2"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "ogtoyalcopy",
+  "out": "ogtoyalcopy"
+ },
+ {
+  "in": "notin&#&#xf\tnotin1280000",
+  "out": "notin&#\tnotin1280000"
+ },
+ {
+  "in": " 1F600lp#g;x11114111xgt",
+  "out": " 1F600lp#g;x11114111xgt"
+ },
+ {
+  "in": "gt<ynotinquotFo#t128",
+  "out": "gt<ynotinquotFo#t128"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "#pX&#Fcopy55296\t",
+  "out": "#pX&#Fcopy55296\t"
+ },
+ {
+  "in": "&0000gta&",
+  "out": "&0000gta&"
+ },
+ {
+  "in": "copy2lt1gt",
+  "out": "copy2lt1gt"
+ },
+ {
+  "in": "&#",
+  "out": "&#"
+ },
+ {
+  "in": "gt128AEligc x",
+  "out": "gt128AEligc x"
+ },
+ {
+  "in": "1114111ltl\t",
+  "out": "1114111ltl\t"
+ },
+ {
+  "in": "lX;&#x1114111fnot1F600f",
+  "out": "lX;�not1F600f"
+ },
+ {
+  "in": "aamp55296copyé1l&#x<copy&#x;&#y",
+  "out": "aamp55296copyé1l&#x<copy&#x;&#y"
+ },
+ {
+  "in": "xy9f1F600lt",
+  "out": "xy9f1F600lt"
+ },
+ {
+  "in": "g&#xc128&#g#1114111x&#x",
+  "out": "g섨&#g#1114111x&#x"
+ },
+ {
+  "in": "F9x55296AElig128128",
+  "out": "F9x55296AElig128128"
+ },
+ {
+  "in": "0000128128ltlt&#té\t1F600",
+  "out": "0000128128ltlt&#té\t1F600"
+ },
+ {
+  "in": "X1pya",
+  "out": "X1pya"
+ },
+ {
+  "in": "&#&0000fx&#;X65535",
+  "out": "&#&0000fx&#;X65535"
+ },
+ {
+  "in": "notinaFppc",
+  "out": "notinaFppc"
+ },
+ {
+  "in": "#l65535X&#notin65535t1F6002y1114111o",
+  "out": "#l65535X&#notin65535t1F6002y1114111o"
+ },
+ {
+  "in": "&#x55296p2copy5529699X2;",
+  "out": "񕊖p2copy5529699X2;"
+ },
+ {
+  "in": "1281&2cx&#amp",
+  "out": "1281&2cx&#amp"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "notinn1280000ltaf&#x#AElig55296amp<amp",
+  "out": "notinn1280000ltaf&#x#AElig55296amp<amp"
+ },
+ {
+  "in": "mc2gt\tAEligltmamp",
+  "out": "mc2gt\tAEligltmamp"
+ },
+ {
+  "in": "é",
+  "out": "é"
+ },
+ {
+  "in": "cm\t965535lt",
+  "out": "cm\t965535lt"
+ },
+ {
+  "in": "é<F#",
+  "out": "é<F#"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "m128my1114111t1F600",
+  "out": "m128my1114111t1F600"
+ },
+ {
+  "in": "n255296",
+  "out": "n255296"
+ },
+ {
+  "in": " ",
+  "out": " "
+ },
+ {
+  "in": "128gpc1289m&ampcopym1114111a1",
+  "out": "128gpc1289m&copym1114111a1"
+ },
+ {
+  "in": "o128gquoty55296xonotinF",
+  "out": "o128gquoty55296xonotinF"
+ },
+ {
+  "in": "notamp&#x128alAElignot",
+  "out": "notampኊlAElignot"
+ },
+ {
+  "in": "gtn65535552969",
+  "out": "gtn65535552969"
+ },
+ {
+  "in": "&notit;",
+  "out": "¬it;"
+ },
+ {
+  "in": "&notin;",
+  "out": "∉"
+ },
+ {
+  "in": "&noti",
+  "out": "¬i"
+ },
+ {
+  "in": "&amp;amp",
+  "out": "&amp"
+ },
+ {
+  "in": "&ampx",
+  "out": "&x"
+ },
+ {
+  "in": "&AMP",
+  "out": "&"
+ },
+ {
+  "in": "&#38",
+  "out": "&"
+ },
+ {
+  "in": "&#x26",
+  "out": "&"
+ },
+ {
+  "in": "&#0;",
+  "out": "�"
+ },
+ {
+  "in": "&#x80;",
+  "out": "€"
+ },
+ {
+  "in": "&#x9F;",
+  "out": "Ÿ"
+ },
+ {
+  "in": "&#xD800;",
+  "out": "�"
+ },
+ {
+  "in": "&#xFFFF;",
+  "out": ""
+ },
+ {
+  "in": "&#x10FFFF;",
+  "out": ""
+ },
+ {
+  "in": "&#x110000;",
+  "out": "�"
+ },
+ {
+  "in": "&#99999999999999999999;",
+  "out": "�"
+ },
+ {
+  "in": "&#1;",
+  "out": ""
+ },
+ {
+  "in": "&#xFDD0;",
+  "out": ""
+ },
+ {
+  "in": "&aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;",
+  "out": "&aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;"
+ },
+ {
+  "in": "&acE;",
+  "out": "∾̳"
+ },
+ {
+  "in": "&ThickSpace;",
+  "out": "  "
+ }
+]

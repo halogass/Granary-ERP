@@ -1,0 +1,1000 @@
+The ERP's API, grouped by area (every page in the ERP uses these). Nary does not call them directly; it uses its tools and cards, which call them as the user. This map says what exists.
+
+## AI Assistant
+- `DELETE /api/v1/ai/conversations/{conversation_id}`: Delete Conversation
+- `GET /api/v1/ai/conversations/{conversation_id}`: Get Conversation
+- `GET /api/v1/ai/conversations`: List Conversations
+- `PATCH /api/v1/ai/conversations/{conversation_id}/proposals/{proposal_id}`: Set Proposal Status
+- `PATCH /api/v1/ai/conversations/{conversation_id}`: Rename Conversation
+- `POST /api/v1/ai/assistant/chat`: Assistant Chat
+- `POST /api/v1/ai/document/analyze`: Analyze Document Endpoint
+- `POST /api/v1/ai/suggest/reply`: Suggest Reply Endpoint
+
+## AI Knowledge
+- `DELETE /api/v1/ai/knowledge/{doc_id}`: Delete Document
+- `GET /api/v1/ai/knowledge/{doc_id}`: Get Document
+- `GET /api/v1/ai/knowledge`: List Documents
+- `PATCH /api/v1/ai/knowledge/{doc_id}`: Update Document
+- `POST /api/v1/ai/knowledge/search`: Test Search
+- `POST /api/v1/ai/knowledge/{doc_id}/reindex`: Reindex Document
+- `POST /api/v1/ai/knowledge`: Add Document
+
+## Approvals
+- `GET /api/v1/approvals/count`: Count Awaiting
+- `GET /api/v1/approvals/discount-allowances`: List Allowances
+- `GET /api/v1/approvals/entity/{entity_type}/{entity_id}`: Approval For Document
+- `GET /api/v1/approvals/policies`: List Policies
+- `GET /api/v1/approvals/rules`: List Rules
+- `GET /api/v1/approvals/{request_id}`: Get Request
+- `GET /api/v1/approvals`: List Requests
+- `PATCH /api/v1/approvals/policies/{policy_id}`: Update Policy
+- `POST /api/v1/approvals/submit`: Submit For Approval
+- `POST /api/v1/approvals/{request_id}/approve`: Approve Request
+- `POST /api/v1/approvals/{request_id}/cancel`: Cancel Request
+- `POST /api/v1/approvals/{request_id}/reject`: Reject Request
+- `PUT /api/v1/approvals/discount-allowances`: Replace Allowances
+
+## Assets
+- `DELETE /api/v1/finance/assets/{asset_id}`: Delete Asset
+- `DELETE /api/v1/finance/categories/{category_id}`: Delete Category
+- `GET /api/v1/finance/assets/{asset_id}/depreciation-schedule`: Get Depreciation Schedule
+- `GET /api/v1/finance/assets/{asset_id}`: Get Asset
+- `GET /api/v1/finance/assets`: List Assets
+- `GET /api/v1/finance/categories`: List Categories
+- `PATCH /api/v1/finance/assets/{asset_id}`: Update Asset
+- `PATCH /api/v1/finance/categories/{category_id}`: Update Category
+- `POST /api/v1/finance/assets/{asset_id}/dispose`: Dispose Asset
+- `POST /api/v1/finance/assets/{asset_id}/generate-schedule`: Generate Schedule
+- `POST /api/v1/finance/assets/{asset_id}/post-depreciation`: Post Depreciation
+- `POST /api/v1/finance/assets`: Create Asset
+- `POST /api/v1/finance/categories`: Create Category
+
+## Attachments
+- `DELETE /api/v1/attachments/{attachment_id}`: Delete Attachment
+- `GET /api/v1/attachments/{attachment_id}/download`: Download Attachment
+- `GET /api/v1/attachments`: List Attachments
+- `POST /api/v1/attachments/upload`: Upload Attachment
+
+## Auth
+- `DELETE /api/v1/auth/me/signature`: Delete My Signature
+- `GET /api/v1/auth/me/signature`: Get My Signature
+- `GET /api/v1/auth/me`: Get Me
+- `PATCH /api/v1/auth/me`: Update Me
+- `POST /api/v1/auth/change-password`: Change Password
+- `POST /api/v1/auth/login`: Login
+- `POST /api/v1/auth/logout`: Logout
+- `POST /api/v1/auth/me/avatar`: Upload Avatar
+- `POST /api/v1/auth/refresh`: Do Refresh Token
+- `PUT /api/v1/auth/me/signature`: Save My Signature
+
+## Budgeting
+- `DELETE /api/v1/finance/budgets/{budget_id}/lines/{line_id}`: Delete Line
+- `DELETE /api/v1/finance/budgets/{budget_id}`: Delete Budget
+- `GET /api/v1/finance/budgets/{budget_id}/vs-actual`: Budget Vs Actual
+- `GET /api/v1/finance/budgets/{budget_id}`: Get Budget
+- `GET /api/v1/finance/budgets`: List Budgets
+- `PATCH /api/v1/finance/budgets/{budget_id}/lines/{line_id}`: Update Line
+- `PATCH /api/v1/finance/budgets/{budget_id}`: Update Budget
+- `POST /api/v1/finance/budgets/{budget_id}/approve`: Approve Budget
+- `POST /api/v1/finance/budgets/{budget_id}/lines`: Add Line
+- `POST /api/v1/finance/budgets`: Create Budget
+
+## CRM
+- `DELETE /api/v1/crm/activities/{activity_id}`: Delete Activity
+- `DELETE /api/v1/crm/contacts/{contact_id}`: Delete Contact
+- `DELETE /api/v1/crm/deals/{deal_id}`: Delete Deal
+- `DELETE /api/v1/crm/leads/{lead_id}`: Delete Lead
+- `DELETE /api/v1/crm/organizations/{org_id}`: Delete Org
+- `GET /api/v1/crm/activities`: List Activities
+- `GET /api/v1/crm/contacts/{contact_id}`: Get Contact
+- `GET /api/v1/crm/contacts`: List Contacts
+- `GET /api/v1/crm/deals/{deal_id}`: Get Deal
+- `GET /api/v1/crm/deals`: List Deals
+- `GET /api/v1/crm/leads/{lead_id}`: Get Lead
+- `GET /api/v1/crm/leads`: List Leads
+- `GET /api/v1/crm/organizations/{org_id}`: Get Org
+- `GET /api/v1/crm/organizations`: List Orgs
+- `GET /api/v1/crm/stages`: Get Funnel Stages
+- `PATCH /api/v1/crm/activities/{activity_id}`: Update Activity
+- `PATCH /api/v1/crm/contacts/{contact_id}`: Update Contact
+- `PATCH /api/v1/crm/deals/{deal_id}/stage`: Update Deal Stage
+- `PATCH /api/v1/crm/deals/{deal_id}`: Update Deal
+- `PATCH /api/v1/crm/leads/{lead_id}`: Update Lead
+- `PATCH /api/v1/crm/organizations/{org_id}`: Update Org
+- `POST /api/v1/crm/activities`: Create Activity
+- `POST /api/v1/crm/contacts`: Create Contact
+- `POST /api/v1/crm/deals`: Create Deal
+- `POST /api/v1/crm/leads/{lead_id}/promote`: Promote Lead
+- `POST /api/v1/crm/leads/{lead_id}/score`: Score Lead Endpoint
+- `POST /api/v1/crm/leads`: Create Lead
+- `POST /api/v1/crm/organizations/{org_id}/enrich`: Enrich Org
+- `POST /api/v1/crm/organizations`: Create Org
+
+## CRM Follow-ups
+- `GET /api/v1/crm/reminders/count`: Reminder Counts
+- `GET /api/v1/crm/reminders/defaults`: Reminder Defaults
+- `GET /api/v1/crm/reminders/for-record`: Reminders For Record
+- `GET /api/v1/crm/reminders`: List Reminders
+- `POST /api/v1/crm/reminders/{reminder_id}/cancel`: Cancel Reminder
+- `POST /api/v1/crm/reminders/{reminder_id}/done`: Complete Reminder
+- `POST /api/v1/crm/reminders/{reminder_id}/snooze`: Snooze Reminder
+- `POST /api/v1/crm/reminders`: Create Reminder
+
+## CRM Inbox
+- `DELETE /api/v1/crm/inbox/messages/{message_id}`: Delete Message
+- `DELETE /api/v1/crm/inbox/threads/{thread_id}`: Delete Thread
+- `DELETE /api/v1/crm/inbox/wa-link/{phone}`: Wa Unlink Contact
+- `GET /api/v1/crm/inbox/attachments/{attachment_id}`: Download Attachment
+- `GET /api/v1/crm/inbox/threads/{thread_id}`: Get Thread
+- `GET /api/v1/crm/inbox/threads`: List Threads
+- `GET /api/v1/crm/inbox/unread-count`: Unread Count
+- `PATCH /api/v1/crm/inbox/threads/{thread_id}`: Update Thread
+- `POST /api/v1/crm/inbox/sync-older`: Trigger Sync Older
+- `POST /api/v1/crm/inbox/sync`: Trigger Sync
+- `POST /api/v1/crm/inbox/threads/bulk`: Bulk Threads
+- `POST /api/v1/crm/inbox/threads/{thread_id}/reply`: Reply To Thread
+- `POST /api/v1/crm/inbox/threads/{thread_id}/unread`: Mark Thread Unread
+- `POST /api/v1/crm/inbox/wa-link`: Wa Link Contact
+
+## CRM Records
+- `DELETE /api/v1/crm/attributes/{attribute_id}`: Delete Attribute
+- `GET /api/v1/crm/attributes`: List Attributes
+- `GET /api/v1/crm/duplicates/preview`: Duplicates Preview
+- `GET /api/v1/crm/duplicates`: Duplicates List
+- `GET /api/v1/crm/records/{object_type}/{record_id}/ai-fields`: Record Ai Fields
+- `GET /api/v1/crm/records/{object_type}/{record_id}/timeline`: Record Timeline
+- `GET /api/v1/crm/search/schema`: Search Schema
+- `PATCH /api/v1/crm/attributes/{attribute_id}`: Update Attribute
+- `POST /api/v1/crm/ai/apply`: Apply Ai Change
+- `POST /api/v1/crm/ai/preview`: Preview Ai Change
+- `POST /api/v1/crm/attributes`: Create Attribute
+- `POST /api/v1/crm/duplicates/merge`: Duplicates Merge
+- `POST /api/v1/crm/duplicates/scan`: Duplicates Scan
+- `POST /api/v1/crm/duplicates/{candidate_id}/dismiss`: Duplicates Dismiss
+- `POST /api/v1/crm/records/bulk/ai-fields/run`: Bulk Run Ai Field
+- `POST /api/v1/crm/records/{object_type}/{record_id}/ai-fields/{attribute_key}/run`: Run Ai Field
+- `POST /api/v1/crm/records/{object_type}/{record_id}/brief`: Record Brief
+- `POST /api/v1/crm/search/filters`: Search Filters
+
+## CRM Research
+- `GET /api/v1/crm/research/{object_type}/{record_id}`: Research State
+- `POST /api/v1/crm/research/people/{person_id}/add`: Add Person
+- `POST /api/v1/crm/research/people/{person_id}/dismiss`: Dismiss Person
+- `POST /api/v1/crm/research/{object_type}/{record_id}`: Start Research
+
+## Document Delivery
+- `GET /api/v1/documents/{entity_type}/{entity_id}/send-defaults`: Send Defaults
+- `POST /api/v1/documents/{entity_type}/{entity_id}/prepare-send`: Prepare Send
+- `POST /api/v1/documents/{entity_type}/{entity_id}/send`: Send Document
+
+## Document Signing
+- `DELETE /api/v1/sign/documents/{doc_id}/signers/{signer_id}`: Remove Signer
+- `DELETE /api/v1/sign/documents/{doc_id}`: Cancel Document
+- `GET /api/v1/sign/documents/{doc_id}/certificate`: Download Certificate Internal
+- `GET /api/v1/sign/documents/{doc_id}/pdf`: Get Document Pdf
+- `GET /api/v1/sign/documents/{doc_id}/signed`: Download Signed Pdf
+- `GET /api/v1/sign/documents/{doc_id}`: Get Document
+- `GET /api/v1/sign/documents`: List Documents
+- `GET /api/v1/sign/export`: Download All
+- `GET /api/v1/sign/from-document/{entity_type}/{entity_id}`: Signature For Document
+- `GET /api/v1/sign/public/{token}/certificate`: Public Download Certificate
+- `GET /api/v1/sign/public/{token}/pdf`: Proxy Pdf
+- `GET /api/v1/sign/public/{token}`: Public View Document
+- `GET /api/v1/sign/signers/search`: Search Signers
+- `GET /api/v1/sign/verify/{document_id}`: Verify Document
+- `POST /api/v1/sign/documents/{doc_id}/extend`: Extend Signing Deadline
+- `POST /api/v1/sign/documents/{doc_id}/fields/batch`: Add Fields Batch
+- `POST /api/v1/sign/documents/{doc_id}/fields`: Add Field
+- `POST /api/v1/sign/documents/{doc_id}/finalize`: Finalize Document
+- `POST /api/v1/sign/documents/{doc_id}/remind`: Remind Signer
+- `POST /api/v1/sign/documents/{doc_id}/self-sign`: Self Sign
+- `POST /api/v1/sign/documents/{doc_id}/send`: Send Document
+- `POST /api/v1/sign/documents/{doc_id}/signers`: Add Signer
+- `POST /api/v1/sign/documents/{doc_id}/upload-pdf`: Upload Pdf
+- `POST /api/v1/sign/documents`: Create Document
+- `POST /api/v1/sign/from-document`: Sign From Document
+- `POST /api/v1/sign/public/{token}/decline`: Decline Signing
+- `POST /api/v1/sign/public/{token}/sign`: Submit Signature
+
+## Document Verification
+- `GET /api/v1/verify/entity/{entity_type}/{entity_id}`: Verifications For Document
+- `GET /api/v1/verify/t/{token}/pdf`: Verified Pdf
+- `GET /api/v1/verify/t/{token}`: Verify By Token
+- `GET /api/v1/verify/{verification_id}/pdf`: Internal Pdf
+- `GET /api/v1/verify/{verification_id}/views`: Verification Views
+- `POST /api/v1/verify/issue`: Issue Verification
+- `POST /api/v1/verify/{verification_id}/revoke`: Revoke Verification
+
+## Email Client
+- `DELETE /api/v1/email/accounts/{account_id}`: Remove Account
+- `DELETE /api/v1/email/messages/{message_id}`: Delete Message
+- `GET /api/v1/email/accounts/{account_id}/folders`: List Folders
+- `GET /api/v1/email/accounts`: List Accounts
+- `GET /api/v1/email/inbox/count`: Count Inbox
+- `GET /api/v1/email/inbox`: List Inbox
+- `GET /api/v1/email/messages/{message_id}/attachments/{att_id}/download`: Download Email Attachment
+- `GET /api/v1/email/messages/{message_id}`: Get Message
+- `PATCH /api/v1/email/accounts/{account_id}`: Update Account
+- `PATCH /api/v1/email/messages/{message_id}/link`: Link Message
+- `PATCH /api/v1/email/messages/{message_id}/read`: Set Read
+- `PATCH /api/v1/email/messages/{message_id}/star`: Toggle Star
+- `POST /api/v1/email/accounts/{account_id}/sync-older`: Trigger Sync Older
+- `POST /api/v1/email/accounts/{account_id}/sync`: Trigger Sync
+- `POST /api/v1/email/accounts`: Add Account
+- `POST /api/v1/email/messages/bulk`: Bulk Messages
+- `POST /api/v1/email/send`: Send Email
+
+## Email Signature
+- `GET /api/v1/email/signature/assets/{asset_id}`: Get Asset
+- `GET /api/v1/email/signature/me`: Get My Signature
+- `GET /api/v1/email/signature/render`: Render My Signature
+- `GET /api/v1/email/signature/template`: Get Template
+- `PUT /api/v1/email/signature/me`: Save My Signature
+- `PUT /api/v1/email/signature/template`: Save Template
+
+## Finance
+- `DELETE /api/v1/finance/accounts/{account_id}`: Delete Account
+- `DELETE /api/v1/finance/exchange-rates/{rate_id}`: Delete Exchange Rate
+- `DELETE /api/v1/finance/expenses/{expense_id}`: Delete Expense
+- `DELETE /api/v1/finance/invoices/{invoice_id}/items/{item_id}`: Delete Invoice Item
+- `DELETE /api/v1/finance/invoices/{invoice_id}`: Delete Invoice
+- `DELETE /api/v1/finance/journal/{entry_id}`: Delete Journal Entry
+- `DELETE /api/v1/finance/payment-schedules/{schedule_id}`: Delete Payment Schedule
+- `DELETE /api/v1/finance/payments/{payment_id}`: Delete Payment
+- `DELETE /api/v1/finance/taxes/{tax_id}`: Delete Tax
+- `GET /api/v1/finance/accounts`: List Accounts
+- `GET /api/v1/finance/bank-accounts/{account_id}/statements`: List Statements
+- `GET /api/v1/finance/bank-accounts`: List Bank Accounts
+- `GET /api/v1/finance/bank-statements/{statement_id}/candidate-lines`: List Candidate Journal Lines
+- `GET /api/v1/finance/bank-statements/{statement_id}/lines`: List Statement Lines
+- `GET /api/v1/finance/exchange-rates`: List Exchange Rates
+- `GET /api/v1/finance/expenses`: List Expenses
+- `GET /api/v1/finance/fiscal-periods`: List Fiscal Periods
+- `GET /api/v1/finance/fx/rate`: Get Spot Rate
+- `GET /api/v1/finance/gl-roles`: List Gl Roles
+- `GET /api/v1/finance/invoices/summary`: Invoice Summary
+- `GET /api/v1/finance/invoices/{invoice_id}`: Get Invoice
+- `GET /api/v1/finance/invoices`: List Invoices
+- `GET /api/v1/finance/journal/by-source`: Journal Entries For Source
+- `GET /api/v1/finance/journal/{entry_id}`: Get Journal Entry
+- `GET /api/v1/finance/journal`: List Journal Entries
+- `GET /api/v1/finance/payment-schedules`: List Payment Schedules
+- `GET /api/v1/finance/payments`: List Payments
+- `GET /api/v1/finance/reports/aged-receivables`: Aged Receivables
+- `GET /api/v1/finance/reports/balance-sheet`: Balance Sheet
+- `GET /api/v1/finance/reports/gl/{account_id}`: General Ledger
+- `GET /api/v1/finance/reports/pl`: Profit And Loss
+- `GET /api/v1/finance/reports/trial-balance`: Trial Balance
+- `GET /api/v1/finance/taxes`: List Taxes
+- `PATCH /api/v1/finance/accounts/{account_id}`: Update Account
+- `PATCH /api/v1/finance/bank-accounts/{account_id}`: Update Bank Account
+- `PATCH /api/v1/finance/bank-statements/{statement_id}/reconcile`: Reconcile Statement
+- `PATCH /api/v1/finance/expenses/{expense_id}/review`: Review Expense
+- `PATCH /api/v1/finance/fiscal-periods/{period_id}/lock`: Toggle Period Lock
+- `PATCH /api/v1/finance/invoices/{invoice_id}/items/{item_id}`: Update Invoice Item
+- `PATCH /api/v1/finance/invoices/{invoice_id}/status`: Update Invoice Status
+- `PATCH /api/v1/finance/invoices/{invoice_id}`: Update Invoice
+- `PATCH /api/v1/finance/taxes/{tax_id}`: Update Tax
+- `POST /api/v1/finance/accounting/migrate-opening`: Migrate Opening Entries
+- `POST /api/v1/finance/accounts`: Create Account
+- `POST /api/v1/finance/bank-accounts/{account_id}/statements`: Create Statement
+- `POST /api/v1/finance/bank-accounts`: Create Bank Account
+- `POST /api/v1/finance/bank-statements/{statement_id}/lines/bulk`: Add Statement Lines
+- `POST /api/v1/finance/bank-statements/{statement_id}/lines/{line_id}/exclude`: Exclude Statement Line
+- `POST /api/v1/finance/bank-statements/{statement_id}/lines/{line_id}/match`: Match Statement Line
+- `POST /api/v1/finance/exchange-rates`: Create Exchange Rate
+- `POST /api/v1/finance/expenses/{expense_id}/reimburse`: Reimburse Expense
+- `POST /api/v1/finance/expenses`: Submit Expense
+- `POST /api/v1/finance/fiscal-periods/generate`: Generate Fiscal Periods
+- `POST /api/v1/finance/invoices/{invoice_id}/credit-note`: Issue Credit Note
+- `POST /api/v1/finance/invoices/{invoice_id}/items`: Add Invoice Item
+- `POST /api/v1/finance/invoices/{invoice_id}/refund`: Record Refund
+- `POST /api/v1/finance/invoices/{invoice_id}/revise`: Revise Invoice
+- `POST /api/v1/finance/invoices/{pi_id}/convert-to-commercial`: Convert Proforma To Commercial
+- `POST /api/v1/finance/invoices`: Create Invoice
+- `POST /api/v1/finance/journal/{entry_id}/post`: Post Journal Entry
+- `POST /api/v1/finance/journal/{entry_id}/reverse`: Reverse Journal Entry
+- `POST /api/v1/finance/journal/{entry_id}/unpost`: Unpost Journal Entry
+- `POST /api/v1/finance/journal`: Create Journal Entry
+- `POST /api/v1/finance/payment-schedules/{schedule_id}/raise-proforma`: Raise Proforma For Milestone
+- `POST /api/v1/finance/payment-schedules`: Create Payment Schedule
+- `POST /api/v1/finance/payments`: Record Payment
+- `POST /api/v1/finance/taxes`: Create Tax
+- `PUT /api/v1/finance/gl-roles`: Update Gl Roles
+
+## Fleet
+- `DELETE /api/v1/fleet/assignments/{assignment_id}`: End Assignment
+- `DELETE /api/v1/fleet/fuel-logs/{log_id}`: Delete Fuel Log
+- `DELETE /api/v1/fleet/service-records/{svc_id}`: Delete Service Record
+- `DELETE /api/v1/fleet/vehicles/{vehicle_id}`: Delete Vehicle
+- `GET /api/v1/fleet/assignments`: List Assignments
+- `GET /api/v1/fleet/fuel-logs`: List Fuel Logs
+- `GET /api/v1/fleet/odometer-logs`: List Odometer Logs
+- `GET /api/v1/fleet/service-records`: List Service Records
+- `GET /api/v1/fleet/summary`: Fleet Summary
+- `GET /api/v1/fleet/vehicles/{vehicle_id}/assignments`: Get Vehicle Assignments
+- `GET /api/v1/fleet/vehicles/{vehicle_id}`: Get Vehicle
+- `GET /api/v1/fleet/vehicles`: List Vehicles
+- `PATCH /api/v1/fleet/vehicles/{vehicle_id}`: Update Vehicle
+- `POST /api/v1/fleet/assignments`: Create Assignment
+- `POST /api/v1/fleet/fuel-logs`: Create Fuel Log
+- `POST /api/v1/fleet/odometer-logs`: Create Odometer Log
+- `POST /api/v1/fleet/service-records`: Create Service Record
+- `POST /api/v1/fleet/vehicles`: Create Vehicle
+
+## HR
+- `DELETE /api/v1/hr/allowances/{allowance_id}`: Delete Allowance
+- `DELETE /api/v1/hr/coordinative-links/{link_id}`: Delete Coord Link
+- `DELETE /api/v1/hr/employees/{employee_id}`: Delete Employee
+- `DELETE /api/v1/hr/hiring-requests/{request_id}`: Delete Hiring Request
+- `DELETE /api/v1/hr/job-openings/{opening_id}`: Delete Job Opening
+- `DELETE /api/v1/hr/leave/{leave_id}`: Delete Leave
+- `DELETE /api/v1/hr/offer-letters/{offer_id}`: Delete Offer Letter
+- `DELETE /api/v1/hr/office-locations/{loc_id}`: Delete Office Location
+- `GET /api/v1/hr/applicants`: List Applicants
+- `GET /api/v1/hr/attendance/clock-events`: List Clock Events
+- `GET /api/v1/hr/attendance/my-today`: My Today Attendance
+- `GET /api/v1/hr/attendance/pending-overrides`: List Pending Overrides
+- `GET /api/v1/hr/attendance`: List Attendance
+- `GET /api/v1/hr/employees/{employee_id}/allowances`: List Allowances
+- `GET /api/v1/hr/employees/{employee_id}`: Get Employee
+- `GET /api/v1/hr/employees`: List Employees
+- `GET /api/v1/hr/hiring-requests`: List Hiring Requests
+- `GET /api/v1/hr/job-openings`: List Job Openings
+- `GET /api/v1/hr/job-titles`: List Job Titles
+- `GET /api/v1/hr/leave`: List Leave
+- `GET /api/v1/hr/offer-letters/{offer_id}`: Get Offer Letter
+- `GET /api/v1/hr/offer-letters`: List Offer Letters
+- `GET /api/v1/hr/office-locations`: List Office Locations
+- `GET /api/v1/hr/org-chart`: Get Org Chart
+- `GET /api/v1/hr/payroll/{run_id}`: Get Payroll Run
+- `GET /api/v1/hr/payroll`: List Payroll Runs
+- `PATCH /api/v1/hr/allowances/{allowance_id}`: Update Allowance
+- `PATCH /api/v1/hr/applicants/{applicant_id}/stage`: Update Applicant Stage
+- `PATCH /api/v1/hr/employees/{employee_id}`: Update Employee
+- `PATCH /api/v1/hr/leave/{leave_id}/review`: Review Leave
+- `PATCH /api/v1/hr/offer-letters/{offer_id}`: Update Offer Letter
+- `PATCH /api/v1/hr/office-locations/{loc_id}`: Update Office Location
+- `PATCH /api/v1/hr/payroll/{run_id}/approve`: Approve Payroll Run
+- `PATCH /api/v1/hr/payroll/{run_id}/mark-paid`: Mark Payroll Paid
+- `POST /api/v1/hr/applicants`: Add Applicant
+- `POST /api/v1/hr/attendance/clock-events/{event_id}/override`: Override Clock Event
+- `POST /api/v1/hr/attendance`: Record Attendance
+- `POST /api/v1/hr/coordinative-links`: Add Coord Link
+- `POST /api/v1/hr/employees/{employee_id}/allowances`: Create Allowance
+- `POST /api/v1/hr/employees`: Create Employee
+- `POST /api/v1/hr/hiring-requests`: Create Hiring Request
+- `POST /api/v1/hr/job-openings`: Create Job Opening
+- `POST /api/v1/hr/leave`: Submit Leave
+- `POST /api/v1/hr/offer-letters/{offer_id}/cancel`: Cancel Offer Letter
+- `POST /api/v1/hr/offer-letters/{offer_id}/response`: Record Offer Response
+- `POST /api/v1/hr/offer-letters/{offer_id}/send`: Send Offer Letter
+- `POST /api/v1/hr/offer-letters`: Create Offer Letter
+- `POST /api/v1/hr/office-locations`: Create Office Location
+- `POST /api/v1/hr/payroll`: Create Payroll Run
+- `POST /api/v1/hr/termination-requests`: Create Termination Request
+
+## HR — Face Attendance
+- `DELETE /api/v1/hr/employees/{employee_id}/face`: Delete Face Enrollment
+- `GET /api/v1/hr/attendance/engine/{file}`: Personal Engine
+- `GET /api/v1/hr/employees/{employee_id}/face`: Get Face Enrollment
+- `GET /api/v1/hr/kiosk/engine/{file}`: Kiosk Engine
+- `GET /api/v1/hr/kiosk/gallery`: Kiosk Gallery
+- `GET /api/v1/hr/kiosks`: List Kiosks
+- `POST /api/v1/hr/attendance/challenge`: Personal Challenge
+- `POST /api/v1/hr/attendance/clock-in`: Clock In
+- `POST /api/v1/hr/attendance/clock-out`: Clock Out
+- `POST /api/v1/hr/employees/{employee_id}/face/enroll`: Enroll Face
+- `POST /api/v1/hr/kiosk/clock`: Kiosk Clock
+- `POST /api/v1/hr/kiosk/session`: Kiosk Session
+- `POST /api/v1/hr/kiosks/{kiosk_id}/revoke`: Revoke Kiosk
+- `POST /api/v1/hr/kiosks`: Register Kiosk
+
+## Health
+- `GET /health`: Health Check
+
+## Helpdesk
+- `DELETE /api/v1/helpdesk/categories/{cat_id}`: Delete Category
+- `DELETE /api/v1/helpdesk/sla-policies/{policy_id}`: Delete Sla Policy
+- `DELETE /api/v1/helpdesk/teams/{team_id}`: Delete Team
+- `DELETE /api/v1/helpdesk/tickets/{ticket_id}`: Delete Ticket
+- `GET /api/v1/helpdesk/categories`: List Categories
+- `GET /api/v1/helpdesk/public/categories`: Public Categories
+- `GET /api/v1/helpdesk/public/teams`: Public Teams
+- `GET /api/v1/helpdesk/public/tickets/{token}`: Track Ticket
+- `GET /api/v1/helpdesk/sla-policies`: List Sla Policies
+- `GET /api/v1/helpdesk/summary`: Helpdesk Summary
+- `GET /api/v1/helpdesk/teams`: List Teams
+- `GET /api/v1/helpdesk/tickets/{ticket_id}`: Get Ticket
+- `GET /api/v1/helpdesk/tickets`: List Tickets
+- `PATCH /api/v1/helpdesk/teams/{team_id}`: Update Team
+- `PATCH /api/v1/helpdesk/tickets/{ticket_id}`: Update Ticket
+- `POST /api/v1/helpdesk/categories`: Create Category
+- `POST /api/v1/helpdesk/public/tickets`: Submit Ticket
+- `POST /api/v1/helpdesk/sla-policies`: Create Sla Policy
+- `POST /api/v1/helpdesk/teams`: Create Team
+- `POST /api/v1/helpdesk/tickets/{ticket_id}/messages`: Add Message
+
+## Inventory
+- `DELETE /api/v1/inventory/locations/{location_id}`: Delete Location
+- `DELETE /api/v1/inventory/warehouses/{warehouse_id}`: Deactivate Warehouse
+- `GET /api/v1/inventory/locations`: List All Locations
+- `GET /api/v1/inventory/stock/ledger/{sku}`: Stock Ledger
+- `GET /api/v1/inventory/stock/moves`: List Moves
+- `GET /api/v1/inventory/warehouses/{warehouse_id}/locations`: Get Warehouse Locations
+- `GET /api/v1/inventory/warehouses`: List Warehouses
+- `PATCH /api/v1/inventory/locations/{location_id}`: Update Location
+- `PATCH /api/v1/inventory/warehouses/{warehouse_id}`: Update Warehouse
+- `POST /api/v1/inventory/locations`: Create Location
+- `POST /api/v1/inventory/stock/moves`: Record Move
+- `POST /api/v1/inventory/stock/transfer`: Transfer Stock
+- `POST /api/v1/inventory/warehouses`: Create Warehouse
+
+## Knowledge Base
+- `DELETE /api/v1/kb/articles/{article_id}`: Delete Article
+- `GET /api/v1/kb/articles/{article_id}/pdf`: Export Article Pdf
+- `GET /api/v1/kb/articles/{article_id}/revisions`: Get Article Revisions
+- `GET /api/v1/kb/articles/{article_id}`: Get Article
+- `GET /api/v1/kb/articles`: List Articles
+- `GET /api/v1/kb/categories`: List Categories
+- `PATCH /api/v1/kb/articles/{article_id}/publish`: Publish Article
+- `PATCH /api/v1/kb/articles/{article_id}`: Update Article
+- `POST /api/v1/kb/articles/import-markdown`: Import Markdown
+- `POST /api/v1/kb/articles/{article_id}/import-pdf`: Import Pdf
+- `POST /api/v1/kb/articles/{article_id}/sign/owner`: Sign Article Owner
+- `POST /api/v1/kb/articles/{article_id}/sign`: Sign Article
+- `POST /api/v1/kb/articles`: Create Article
+- `POST /api/v1/kb/categories`: Create Category
+
+## MCP Server
+- `DELETE /api/v1/mcp/connections/{token_id}`: Revoke Connection
+- `DELETE /api/v1/mcp/tokens/{token_id}`: Revoke Token
+- `GET /.well-known/oauth-authorization-server/api/v1/mcp`: Authorization Server
+- `GET /.well-known/oauth-authorization-server`: Authorization Server
+- `GET /.well-known/oauth-protected-resource/api/v1/mcp`: Protected Resource
+- `GET /.well-known/oauth-protected-resource`: Protected Resource
+- `GET /api/v1/mcp/connections`: List Connections
+- `GET /api/v1/mcp/levels`: Grantable Levels
+- `GET /api/v1/mcp/oauth/client`: Client Info
+- `GET /api/v1/mcp/tokens`: List Tokens
+- `POST /api/v1/mcp/`: Mcp Endpoint
+- `POST /api/v1/mcp/oauth/authorize`: Authorize
+- `POST /api/v1/mcp/oauth/register`: Register
+- `POST /api/v1/mcp/oauth/revoke`: Revoke
+- `POST /api/v1/mcp/oauth/token`: Token
+- `POST /api/v1/mcp/tokens`: Create Token
+- `POST /api/v1/mcp`: Mcp Endpoint
+
+## Maintenance
+- `DELETE /api/v1/maintenance/equipment/{eq_id}`: Delete Equipment
+- `DELETE /api/v1/maintenance/plans/{plan_id}`: Delete Plan
+- `DELETE /api/v1/maintenance/requests/{req_id}`: Delete Request
+- `DELETE /api/v1/maintenance/work-orders/{wo_id}`: Delete Work Order
+- `GET /api/v1/maintenance/equipment/{eq_id}`: Get Equipment
+- `GET /api/v1/maintenance/equipment`: List Equipment
+- `GET /api/v1/maintenance/plans`: List Plans
+- `GET /api/v1/maintenance/requests`: List Requests
+- `GET /api/v1/maintenance/work-orders`: List Work Orders
+- `PATCH /api/v1/maintenance/equipment/{eq_id}`: Update Equipment
+- `PATCH /api/v1/maintenance/plans/{plan_id}`: Update Plan
+- `PATCH /api/v1/maintenance/requests/{req_id}/review`: Review Request
+- `PATCH /api/v1/maintenance/work-orders/{wo_id}/status`: Update Wo Status
+- `POST /api/v1/maintenance/equipment`: Create Equipment
+- `POST /api/v1/maintenance/plans/{plan_id}/complete`: Mark Plan Completed
+- `POST /api/v1/maintenance/plans`: Create Plan
+- `POST /api/v1/maintenance/requests`: Create Request
+- `POST /api/v1/maintenance/work-orders`: Create Work Order
+
+## Manufacturing
+- `DELETE /api/v1/manufacturing/production-orders/{order_id}`: Delete Production Order
+- `DELETE /api/v1/manufacturing/products/{product_id}`: Delete Product
+- `GET /api/v1/manufacturing/bom/{product_id}`: Get Bom
+- `GET /api/v1/manufacturing/inventory`: List Inventory
+- `GET /api/v1/manufacturing/production-orders`: List Production Orders
+- `GET /api/v1/manufacturing/products`: List Products
+- `GET /api/v1/manufacturing/qc-records`: List Qc Records
+- `GET /api/v1/manufacturing/units/{unit_id}/label`: Get Unit Label
+- `GET /api/v1/manufacturing/units`: List Units
+- `GET /api/v1/manufacturing/warranty`: List Warranty
+- `PATCH /api/v1/manufacturing/inventory/{item_id}/adjust`: Adjust Inventory
+- `PATCH /api/v1/manufacturing/production-orders/{order_id}/cost`: Update Production Cost
+- `PATCH /api/v1/manufacturing/production-orders/{order_id}/status`: Update Production Order Status
+- `PATCH /api/v1/manufacturing/products/{product_id}`: Update Product
+- `PATCH /api/v1/manufacturing/units/{unit_id}/delivery`: Update Unit Delivery
+- `PATCH /api/v1/manufacturing/units/{unit_id}/status`: Update Unit Status
+- `PATCH /api/v1/manufacturing/warranty/{warranty_id}/status`: Update Warranty Status
+- `POST /api/v1/manufacturing/bom`: Create Bom
+- `POST /api/v1/manufacturing/inventory`: Create Inventory Item
+- `POST /api/v1/manufacturing/production-orders`: Create Production Order
+- `POST /api/v1/manufacturing/products`: Create Product
+- `POST /api/v1/manufacturing/qc-records`: Create Qc Record
+- `POST /api/v1/manufacturing/units`: Register Unit
+- `POST /api/v1/manufacturing/warranty`: Create Warranty
+
+## Marketing
+- `DELETE /api/v1/marketing/campaigns/{campaign_id}`: Delete Campaign
+- `DELETE /api/v1/marketing/content/{item_id}`: Delete Content
+- `DELETE /api/v1/marketing/email/campaigns/{campaign_id}`: Delete Email Campaign
+- `DELETE /api/v1/marketing/email/lists/{list_id}/contacts/{contact_id}`: Delete Contact
+- `DELETE /api/v1/marketing/email/lists/{list_id}`: Delete Mailing List
+- `GET /api/v1/marketing/campaigns`: List Campaigns
+- `GET /api/v1/marketing/content`: List Content
+- `GET /api/v1/marketing/email/access`: Email Marketing Access
+- `GET /api/v1/marketing/email/campaigns/{campaign_id}/report`: Campaign Report
+- `GET /api/v1/marketing/email/campaigns/{campaign_id}`: Get Email Campaign
+- `GET /api/v1/marketing/email/campaigns`: List Email Campaigns
+- `GET /api/v1/marketing/email/lists/{list_id}/contacts`: List Contacts
+- `GET /api/v1/marketing/email/lists/{list_id}`: Get Mailing List
+- `GET /api/v1/marketing/email/lists`: List Mailing Lists
+- `GET /api/v1/marketing/email/senders`: Campaign Senders
+- `GET /api/v1/marketing/email/track/{tracking_id}`: Track Open
+- `GET /api/v1/marketing/email/unsubscribe/{tracking_id}`: Unsubscribe
+- `PATCH /api/v1/marketing/campaigns/{campaign_id}/status`: Update Campaign Status
+- `PATCH /api/v1/marketing/campaigns/{campaign_id}`: Update Campaign
+- `PATCH /api/v1/marketing/content/{item_id}/status`: Update Content Status
+- `PATCH /api/v1/marketing/email/campaigns/{campaign_id}`: Update Email Campaign
+- `PATCH /api/v1/marketing/email/lists/{list_id}/contacts/{contact_id}`: Update Contact
+- `PATCH /api/v1/marketing/email/lists/{list_id}`: Update Mailing List
+- `POST /api/v1/marketing/campaigns`: Create Campaign
+- `POST /api/v1/marketing/content`: Create Content
+- `POST /api/v1/marketing/email/campaigns/{campaign_id}/dispatch`: Dispatch Email Campaign
+- `POST /api/v1/marketing/email/campaigns`: Create Email Campaign
+- `POST /api/v1/marketing/email/lists/{list_id}/contacts`: Add Contact
+- `POST /api/v1/marketing/email/lists`: Create Mailing List
+- `POST /api/v1/marketing/email/preview`: Preview Email Campaign
+- `POST /api/v1/marketing/email/resubscribe/{tracking_id}`: Resubscribe
+- `POST /api/v1/marketing/email/unsubscribe/{tracking_id}`: Unsubscribe One Click
+
+## Messaging
+- `DELETE /api/v1/messaging/channels/{channel_id}/members/{user_id}`: Remove Channel Member
+- `DELETE /api/v1/messaging/channels/{channel_id}`: Delete Channel
+- `GET /api/v1/messaging/channels/{channel_id}/messages`: Get Channel Messages
+- `GET /api/v1/messaging/channels/{channel_id}/search`: Search Channel
+- `GET /api/v1/messaging/channels/{channel_id}`: Get Channel
+- `GET /api/v1/messaging/channels`: List Channels
+- `GET /api/v1/messaging/conversations`: List Conversations
+- `GET /api/v1/messaging/dm/{other_user_id}/search`: Search Dm
+- `GET /api/v1/messaging/memos/{memo_id}/pdf`: Memo Pdf
+- `GET /api/v1/messaging/memos/{memo_id}`: Get Memo
+- `GET /api/v1/messaging/memos`: List Memos
+- `GET /api/v1/messaging/mention/entities`: Mention Entities
+- `GET /api/v1/messaging/mention/users`: Mention Users
+- `GET /api/v1/messaging/messages/{message_id}/reactions`: Get Reactions
+- `GET /api/v1/messaging/messages/{other_user_id}`: Get Messages
+- `GET /api/v1/messaging/online`: Online Users
+- `GET /api/v1/messaging/people`: People Directory
+- `GET /api/v1/messaging/thread/{message_id}`: Get Thread
+- `PATCH /api/v1/messaging/channels/{channel_id}`: Update Channel
+- `POST /api/v1/messaging/channels/{channel_id}/invite`: Invite To Channel
+- `POST /api/v1/messaging/channels/{channel_id}/join`: Join Channel
+- `POST /api/v1/messaging/channels/{channel_id}/leave`: Leave Channel
+- `POST /api/v1/messaging/channels/{channel_id}/messages`: Send Channel Message
+- `POST /api/v1/messaging/channels`: Create Channel
+- `POST /api/v1/messaging/memos/{memo_id}/acknowledge`: Acknowledge Memo
+- `POST /api/v1/messaging/memos/{memo_id}/recall`: Recall Memo
+- `POST /api/v1/messaging/memos`: Create Memo
+- `POST /api/v1/messaging/messages/{message_id}/react`: Toggle Reaction
+- `POST /api/v1/messaging/send`: Send Message
+- `POST /api/v1/messaging/upload`: Upload File
+
+## Nary
+- `DELETE /api/v1/nary/memory/{entry_id}`: Delete Memory
+- `DELETE /api/v1/nary/staff-chats/{link_id}`: Remove Staff Chat
+- `GET /api/v1/nary/autonomy`: Get Autonomy
+- `GET /api/v1/nary/owner/topics`: Owner Topics
+- `GET /api/v1/nary/channels/health`: Channels Health
+- `GET /api/v1/nary/deals/{deal_id}/panel`: Deal Panel
+- `GET /api/v1/nary/events/given-up`: Given Up Events
+- `GET /api/v1/nary/exclusions`: List Exclusions
+- `GET /api/v1/nary/google/callback`: Google Callback
+- `GET /api/v1/nary/google`: Google Status
+- `GET /api/v1/nary/history`: History Overview
+- `GET /api/v1/nary/intake/arrivals`: List Arrivals
+- `GET /api/v1/nary/intake/held`: List Held
+- `GET /api/v1/nary/intake/links`: List Links
+- `GET /api/v1/nary/intake/verdicts`: List Verdicts
+- `GET /api/v1/nary/leads/{lead_id}/panel`: Lead Panel
+- `GET /api/v1/nary/meetings`: Meetings List
+- `GET /api/v1/nary/memory`: List Memory
+- `GET /api/v1/nary/pending`: List Cards
+- `GET /api/v1/nary/report`: Report View
+- `GET /api/v1/nary/roles`: List Roles
+- `GET /api/v1/nary/runs/{run_id}`: Get Run
+- `GET /api/v1/nary/runs`: List Runs
+- `GET /api/v1/nary/sop-revisions`: Sop Briefs
+- `GET /api/v1/nary/staff-chats/search`: Search Staff Chats
+- `GET /api/v1/nary/staff-chats`: List Staff Chats
+- `GET /api/v1/nary/status`: Status
+- `PATCH /api/v1/nary/memory/{entry_id}`: Edit Memory
+- `POST /api/v1/nary/actions/run`: Run Action
+- `POST /api/v1/nary/autonomy/{action}/promote`: Promote Action
+- `POST /api/v1/nary/briefs/{slot}/send`: Send Brief Now
+- `POST /api/v1/nary/owner/topics/{topic_id}/answer`: Answer Owner Topic
+- `POST /api/v1/nary/owner/topics/{topic_id}/close`: Close Owner Topic
+- `POST /api/v1/nary/chats/{chat_id}/link`: Link Chat To Contact
+- `POST /api/v1/nary/deals/{deal_id}/debrief`: Deal Debrief
+- `POST /api/v1/nary/deals/{deal_id}/meeting`: Deal Meeting
+- `POST /api/v1/nary/debrief/text`: Debrief Text
+- `POST /api/v1/nary/debrief`: Transcribe Debrief
+- `POST /api/v1/nary/events/dismiss-given-up`: Dismiss Given Up
+- `POST /api/v1/nary/exclusions/{chat_id}/include`: Include Again
+- `POST /api/v1/nary/exclusions`: Add Exclusion
+- `POST /api/v1/nary/google/connect`: Google Connect
+- `POST /api/v1/nary/history/chats/{chat_id}/import-now`: History Import Now
+- `POST /api/v1/nary/history/create-records`: History Create
+- `POST /api/v1/nary/history/decisions`: History Decide
+- `POST /api/v1/nary/history/refresh`: History Refresh
+- `POST /api/v1/nary/history/run`: History Run
+- `POST /api/v1/nary/intake/held/{chat_id}`: Decide Held Chat
+- `POST /api/v1/nary/intake/links/{link_id}/undo`: Undo Link
+- `POST /api/v1/nary/intake/verdicts/{verdict_id}/correct`: Correct Verdict
+- `POST /api/v1/nary/meetings/book`: Meeting Book
+- `POST /api/v1/nary/meetings/{meeting_id}/debrief`: Meeting Debrief
+- `POST /api/v1/nary/meetings/{meeting_id}/no-show`: Meeting No Show
+- `POST /api/v1/nary/memory/style/relearn`: Relearn Style
+- `POST /api/v1/nary/memory`: Add Memory
+- `POST /api/v1/nary/pause`: Pause
+- `POST /api/v1/nary/pending/batch`: Batch Apply
+- `POST /api/v1/nary/pending/{card_id}/decide`: Decide Card
+- `POST /api/v1/nary/report/send`: Report Send
+- `POST /api/v1/nary/send`: Send Now
+- `POST /api/v1/nary/shadow`: Shadow
+- `POST /api/v1/nary/sop-revisions`: Sop Draft
+- `POST /api/v1/nary/staff-chats/{link_id}/primary`: Make Staff Chat Primary
+- `POST /api/v1/nary/staff-chats`: Add Staff Chat
+- `PUT /api/v1/nary/autonomy-never-promote`: Set Never Promote
+- `PUT /api/v1/nary/autonomy/{action}`: Set Action Level
+- `PUT /api/v1/nary/google/credentials`: Google Credentials
+- `PUT /api/v1/nary/roles/{sop_role}`: Set Role
+
+## Note Templates
+- `DELETE /api/v1/note-templates/{template_id}`: Delete Template
+- `GET /api/v1/note-templates`: List Templates
+- `PATCH /api/v1/note-templates/{template_id}`: Update Template
+- `POST /api/v1/note-templates`: Create Template
+
+## P2P / RFQ
+- `DELETE /api/v1/vendor/rfqs/{rfq_id}/lines/{line_id}`: Delete Rfq Line
+- `DELETE /api/v1/vendor/rfqs/{rfq_id}`: Delete Rfq
+- `GET /api/v1/vendor/goods-receipts`: List Receipts
+- `GET /api/v1/vendor/purchase-orders/{po_id}/matching`: Three Way Match
+- `GET /api/v1/vendor/rfqs/{rfq_id}`: Get Rfq
+- `GET /api/v1/vendor/rfqs`: List Rfqs
+- `POST /api/v1/vendor/goods-receipts`: Create Receipt
+- `POST /api/v1/vendor/purchase-orders/{po_id}/approve`: Approve Po
+- `POST /api/v1/vendor/rfqs/{rfq_id}/close`: Close Rfq
+- `POST /api/v1/vendor/rfqs/{rfq_id}/invite`: Invite Vendor
+- `POST /api/v1/vendor/rfqs/{rfq_id}/lines`: Add Rfq Line
+- `POST /api/v1/vendor/rfqs/{rfq_id}/respond`: Submit Vendor Response
+- `POST /api/v1/vendor/rfqs`: Create Rfq
+
+## PM Collab
+- `DELETE /api/v1/collab/columns/{column_id}`: Delete Column
+- `DELETE /api/v1/collab/comments/{comment_id}`: Delete Comment
+- `DELETE /api/v1/collab/epics/{epic_id}`: Delete Epic
+- `GET /api/v1/collab/activity`: List Activity
+- `GET /api/v1/collab/columns`: List Columns
+- `GET /api/v1/collab/comments`: List Comments
+- `GET /api/v1/collab/epics`: List Epics
+- `PATCH /api/v1/collab/columns/{column_id}`: Update Column
+- `PATCH /api/v1/collab/comments/{comment_id}`: Edit Comment
+- `PATCH /api/v1/collab/epics/{epic_id}`: Update Epic
+- `POST /api/v1/collab/columns/seed`: Seed Columns
+- `POST /api/v1/collab/columns`: Create Column
+- `POST /api/v1/collab/comments`: Add Comment
+- `POST /api/v1/collab/epics`: Create Epic
+
+## Partner
+- `DELETE /api/v1/partner/accounts/{partner_id}/access`: Revoke Partner Access
+- `DELETE /api/v1/partner/accounts/{partner_id}`: Delete Partner
+- `DELETE /api/v1/partner/deal-registrations/{reg_id}`: Delete Deal Registration
+- `DELETE /api/v1/partner/leads/{lead_id}`: Delete Lead
+- `DELETE /api/v1/partner/resources/{resource_id}`: Delete Resource
+- `DELETE /api/v1/partner/training/modules/{module_id}`: Delete Training Module
+- `GET /api/v1/partner/accounts/{partner_id}`: Get Partner
+- `GET /api/v1/partner/accounts`: List Partners
+- `GET /api/v1/partner/commissions`: List Commissions
+- `GET /api/v1/partner/deal-registrations`: List Deal Registrations
+- `GET /api/v1/partner/leads`: List Leads
+- `GET /api/v1/partner/mdf/claims/{claim_id}/proof`: Download Mdf Claim Proof
+- `GET /api/v1/partner/mdf`: List Mdf
+- `GET /api/v1/partner/options`: Partner Options
+- `GET /api/v1/partner/portal/account`: Portal Get Account
+- `GET /api/v1/partner/portal/commissions/stats`: Portal Commission Stats
+- `GET /api/v1/partner/portal/commissions`: Portal List Commissions
+- `GET /api/v1/partner/portal/deals/stats`: Portal Deal Stats
+- `GET /api/v1/partner/portal/deals`: Portal List Deals
+- `GET /api/v1/partner/portal/leads/stats`: Portal Lead Stats
+- `GET /api/v1/partner/portal/leads`: Portal List Leads
+- `GET /api/v1/partner/portal/mdf/claims`: Portal List Mdf Claims
+- `GET /api/v1/partner/portal/mdf/stats`: Portal Mdf Stats
+- `GET /api/v1/partner/portal/mdf`: Portal List Mdf
+- `GET /api/v1/partner/portal/resources`: Portal List Resources
+- `GET /api/v1/partner/portal/training/certifications/{cert_id}/pdf`: Portal Certificate Pdf
+- `GET /api/v1/partner/portal/training/certifications`: Portal List Certifications
+- `GET /api/v1/partner/portal/training/stats`: Portal Training Stats
+- `GET /api/v1/partner/portal/training/{module_id}`: Portal Get Training Module
+- `GET /api/v1/partner/portal/training`: Portal List Training
+- `GET /api/v1/partner/resources`: List Resources
+- `GET /api/v1/partner/training/modules/{module_id}/progress`: List Training Progress
+- `GET /api/v1/partner/training/modules`: List Training Modules
+- `PATCH /api/v1/partner/accounts/{partner_id}`: Update Partner
+- `PATCH /api/v1/partner/commissions/{commission_id}/status`: Update Commission Status
+- `PATCH /api/v1/partner/deal-registrations/{reg_id}/close`: Close Deal Registration
+- `PATCH /api/v1/partner/deal-registrations/{reg_id}/protection`: Update Registration Protection
+- `PATCH /api/v1/partner/deal-registrations/{reg_id}/review`: Review Deal Registration
+- `PATCH /api/v1/partner/leads/{lead_id}/status`: Update Lead Status
+- `PATCH /api/v1/partner/mdf/claims/{claim_id}/review`: Review Mdf Claim
+- `PATCH /api/v1/partner/mdf/{mdf_id}/review`: Review Mdf
+- `PATCH /api/v1/partner/resources/{resource_id}`: Update Resource
+- `PATCH /api/v1/partner/training/modules/{module_id}`: Update Training Module
+- `POST /api/v1/partner/accounts/{partner_id}/invite`: Invite Partner User
+- `POST /api/v1/partner/accounts`: Create Partner
+- `POST /api/v1/partner/commissions`: Create Commission
+- `POST /api/v1/partner/deal-registrations`: Register Deal
+- `POST /api/v1/partner/leads`: Create Lead
+- `POST /api/v1/partner/portal/deals`: Portal Create Deal
+- `POST /api/v1/partner/portal/mdf/{mdf_id}/claims`: Portal Submit Mdf Claim
+- `POST /api/v1/partner/portal/mdf`: Portal Create Mdf
+- `POST /api/v1/partner/portal/training/{module_id}/start`: Portal Start Training
+- `POST /api/v1/partner/portal/training/{module_id}/submit-quiz`: Portal Submit Quiz
+- `POST /api/v1/partner/resources`: Create Resource
+- `POST /api/v1/partner/training/modules/{module_id}/chapters`: Add Training Chapter
+- `POST /api/v1/partner/training/modules`: Create Training Module
+- `POST /api/v1/partner/training/progress/{progress_id}/reset`: Reset Training Attempts
+
+## Portal Self-Registration
+- `GET /api/v1/portal/register/partner-types`: Partner Registration Types
+- `GET /api/v1/portal/registrations`: List Registrations
+- `POST /api/v1/portal/register/partner`: Register Partner
+- `POST /api/v1/portal/register/vendor`: Register Vendor
+- `POST /api/v1/portal/registrations/{reg_id}/approve`: Approve Registration
+- `POST /api/v1/portal/registrations/{reg_id}/reject`: Reject Registration
+
+## Product Catalog
+- `DELETE /api/v1/catalog/product-lines/{line_id}`: Delete Product Line
+- `GET /api/v1/catalog/product-lines`: List Product Lines
+- `PATCH /api/v1/catalog/product-lines/{line_id}`: Update Product Line
+- `POST /api/v1/catalog/product-lines`: Create Product Line
+
+## Projects
+- `DELETE /api/v1/projects/tasks/{task_id}`: Delete Task
+- `DELETE /api/v1/projects/{project_id}/members/{user_id}`: Remove Member
+- `DELETE /api/v1/projects/{project_id}`: Delete Project
+- `GET /api/v1/projects/time-logs`: List Time Logs
+- `GET /api/v1/projects/{project_id}/milestones`: List Milestones
+- `GET /api/v1/projects/{project_id}`: Get Project
+- `GET /api/v1/projects`: List Projects
+- `PATCH /api/v1/projects/tasks/{task_id}`: Update Task
+- `PATCH /api/v1/projects/{project_id}/members/{user_id}`: Update Member
+- `PATCH /api/v1/projects/{project_id}`: Update Project
+- `POST /api/v1/projects/milestones`: Create Milestone
+- `POST /api/v1/projects/tasks`: Create Task
+- `POST /api/v1/projects/time-logs`: Log Time
+- `POST /api/v1/projects/{project_id}/members`: Add Member
+- `POST /api/v1/projects`: Create Project
+
+## R&D
+- `DELETE /api/v1/rnd/backlog/{item_id}`: Delete Backlog Item
+- `DELETE /api/v1/rnd/projects/{project_id}`: Delete Rnd Project
+- `GET /api/v1/rnd/backlog/{item_id}`: Get Backlog Item
+- `GET /api/v1/rnd/backlog`: List Backlog
+- `GET /api/v1/rnd/gitlab/configs`: List Gitlab Configs
+- `GET /api/v1/rnd/gitlab/events`: List Gitlab Events
+- `GET /api/v1/rnd/gitlab/pipelines`: List Pipelines
+- `GET /api/v1/rnd/gitlab/repos`: List Gitlab Repos
+- `GET /api/v1/rnd/projects/{project_id}/releases`: List Releases
+- `GET /api/v1/rnd/projects/{project_id}/sprints`: List Sprints
+- `GET /api/v1/rnd/projects/{project_id}`: Get Rnd Project
+- `GET /api/v1/rnd/projects`: List Rnd Projects
+- `PATCH /api/v1/rnd/backlog/{item_id}/assign-sprint`: Assign To Sprint
+- `PATCH /api/v1/rnd/backlog/{item_id}`: Update Backlog Item
+- `PATCH /api/v1/rnd/gitlab/configs/{config_id}`: Update Gitlab Config
+- `PATCH /api/v1/rnd/gitlab/repos/{repo_id}`: Update Gitlab Repo
+- `PATCH /api/v1/rnd/projects/{project_id}`: Update Rnd Project
+- `PATCH /api/v1/rnd/releases/{release_id}/publish`: Publish Release
+- `PATCH /api/v1/rnd/releases/{release_id}`: Update Release
+- `PATCH /api/v1/rnd/sprints/{sprint_id}/complete`: Complete Sprint
+- `PATCH /api/v1/rnd/sprints/{sprint_id}/start`: Start Sprint
+- `PATCH /api/v1/rnd/sprints/{sprint_id}`: Update Sprint
+- `POST /api/v1/rnd/backlog`: Create Backlog Item
+- `POST /api/v1/rnd/gitlab/configs/{config_id}/test`: Test Gitlab Connection
+- `POST /api/v1/rnd/gitlab/configs`: Create Gitlab Config
+- `POST /api/v1/rnd/gitlab/repos/{repo_id}/sync-pipelines`: Sync Pipelines
+- `POST /api/v1/rnd/gitlab/repos`: Add Gitlab Repo
+- `POST /api/v1/rnd/gitlab/webhook`: Receive Gitlab Webhook
+- `POST /api/v1/rnd/projects/{project_id}/releases`: Create Release
+- `POST /api/v1/rnd/projects/{project_id}/sprints`: Create Sprint
+- `POST /api/v1/rnd/projects`: Create Rnd Project
+
+## Roles
+- `GET /api/v1/roles/permissions`: List Permissions
+- `GET /api/v1/roles`: List Roles
+- `PATCH /api/v1/roles/{role_id}`: Update Role
+- `POST /api/v1/roles`: Create Role
+
+## Sales
+- `DELETE /api/v1/sales/catalog/prices/{price_id}`: Delete Price Row
+- `DELETE /api/v1/sales/catalog/{product_id}`: Delete Product
+- `DELETE /api/v1/sales/contracts/{contract_id}`: Delete Contract
+- `DELETE /api/v1/sales/quotations/{quotation_id}/items/{item_id}`: Delete Quotation Item
+- `DELETE /api/v1/sales/quotations/{quotation_id}`: Delete Quotation
+- `GET /api/v1/sales/catalog/access`: Catalog Access
+- `GET /api/v1/sales/catalog/{product_id}`: Get Product
+- `GET /api/v1/sales/catalog`: List Catalog
+- `GET /api/v1/sales/contracts/{contract_id}`: Get Contract
+- `GET /api/v1/sales/contracts`: List Contracts
+- `GET /api/v1/sales/documents/{doc_id}/assets/{asset_id}`: Get Asset
+- `GET /api/v1/sales/documents/{doc_id}/cost-sheet`: Cost Sheet
+- `GET /api/v1/sales/documents/{doc_id}/preview`: Preview
+- `GET /api/v1/sales/documents/{doc_id}`: Get Document
+- `GET /api/v1/sales/documents`: List Documents
+- `GET /api/v1/sales/quotation-defaults`: Quotation Defaults
+- `GET /api/v1/sales/quotations/{quotation_id}`: Get Quotation
+- `GET /api/v1/sales/quotations`: List Quotations
+- `GET /api/v1/sales/rate-card`: Rate Card
+- `PATCH /api/v1/sales/catalog/prices/{price_id}`: Update Price Row
+- `PATCH /api/v1/sales/catalog/{product_id}`: Update Product
+- `PATCH /api/v1/sales/contracts/{contract_id}/status`: Update Contract Status
+- `PATCH /api/v1/sales/documents/{doc_id}`: Patch Document
+- `PATCH /api/v1/sales/quotations/{quotation_id}/items/{item_id}`: Update Quotation Item
+- `PATCH /api/v1/sales/quotations/{quotation_id}/record-po`: Record Customer Po
+- `PATCH /api/v1/sales/quotations/{quotation_id}/status`: Update Quotation Status
+- `PATCH /api/v1/sales/quotations/{quotation_id}`: Update Quotation
+- `POST /api/v1/sales/catalog/configure`: Configure Catalog
+- `POST /api/v1/sales/catalog/{product_id}/prices`: Add Price Row
+- `POST /api/v1/sales/catalog`: Create Product
+- `POST /api/v1/sales/contracts`: Create Contract
+- `POST /api/v1/sales/documents/{doc_id}/ask`: Ask Nary
+- `POST /api/v1/sales/documents/{doc_id}/assets`: Upload Asset
+- `POST /api/v1/sales/documents/{doc_id}/confirm`: Confirm
+- `POST /api/v1/sales/documents/{doc_id}/cost-sheet`: Reestimate
+- `POST /api/v1/sales/documents/{doc_id}/quotations`: Link Quotation
+- `POST /api/v1/sales/documents/{doc_id}/revise`: Revise
+- `POST /api/v1/sales/documents`: Create Document
+- `POST /api/v1/sales/pricing/preview`: Pricing Preview
+- `POST /api/v1/sales/quotations/{quotation_id}/generate-invoice`: Generate Invoice From Quotation
+- `POST /api/v1/sales/quotations/{quotation_id}/items`: Add Quotation Item
+- `POST /api/v1/sales/quotations/{quotation_id}/revise`: Revise Quotation
+- `POST /api/v1/sales/quotations/{quotation_id}/send`: Send Quotation
+- `POST /api/v1/sales/quotations`: Create Quotation
+- `POST /api/v1/sales/rate-card/research`: Research Rates
+- `POST /api/v1/sales/rate-card`: Add Rate
+- `PUT /api/v1/sales/catalog/{product_id}/tiers`: Replace Tiers
+- `PUT /api/v1/sales/documents/{doc_id}/blocks`: Save Blocks
+
+## Scheduled Messages
+- `DELETE /api/v1/crm/scheduled/{msg_id}`: Cancel Scheduled Message
+- `GET /api/v1/crm/scheduled/`: List Scheduled Messages
+- `PATCH /api/v1/crm/scheduled/{msg_id}`: Update Scheduled Message
+- `POST /api/v1/crm/scheduled/`: Create Scheduled Message
+
+## System
+- `DELETE /api/v1/system/branding/favicon`: Delete Favicon
+- `DELETE /api/v1/system/branding/logo`: Delete Logo
+- `DELETE /api/v1/system/settings/letterhead`: Delete Letterhead
+- `GET /api/v1/system/ai-settings/models`: List Ai Models
+- `GET /api/v1/system/ai-settings`: Get Ai Settings
+- `GET /api/v1/system/ai-usage`: Ai Usage
+- `GET /api/v1/system/audit-log`: Get Audit Log
+- `GET /api/v1/system/branding`: Get Branding
+- `GET /api/v1/system/company`: Get Company Settings
+- `GET /api/v1/system/currencies`: Get Currency Settings
+- `GET /api/v1/system/dashboard-kpis`: Get Dashboard Kpis
+- `GET /api/v1/system/email-config`: Get Email Config
+- `GET /api/v1/system/notifications/unread-count`: Get Unread Count
+- `GET /api/v1/system/notifications`: List Notifications
+- `GET /api/v1/system/settings/letterhead`: Get Letterhead
+- `GET /api/v1/system/settings`: List Settings
+- `GET /api/v1/system/tax-configs/active`: Get Active Tax Config
+- `GET /api/v1/system/tax-configs`: List Tax Configs
+- `PATCH /api/v1/system/branding`: Update Branding
+- `PATCH /api/v1/system/currencies`: Update Currency Settings
+- `PATCH /api/v1/system/email-config`: Update Email Config
+- `PATCH /api/v1/system/notifications/{notification_id}/read`: Mark Notification Read
+- `PATCH /api/v1/system/settings/{key}`: Update Setting
+- `PATCH /api/v1/system/tax-rules/{rule_id}`: Update Tax Rule
+- `POST /api/v1/system/ai-settings/reindex`: Reindex Kb Embeddings Endpoint
+- `POST /api/v1/system/ai-settings/test-provider`: Test Ai Provider
+- `POST /api/v1/system/ai-settings/test`: Test Ai Connection
+- `POST /api/v1/system/branding/favicon`: Upload Favicon
+- `POST /api/v1/system/branding/logo`: Upload Logo
+- `POST /api/v1/system/currencies/sync-now`: Trigger Fx Sync
+- `POST /api/v1/system/currencies/test-api-key`: Test Fx Api Key
+- `POST /api/v1/system/email-config/test-imap`: Test Crm Imap
+- `POST /api/v1/system/email-config/test`: Test Email Config
+- `POST /api/v1/system/notifications/read-all`: Mark All Read
+- `POST /api/v1/system/notifications`: Create Notification
+- `POST /api/v1/system/settings/letterhead`: Upload Letterhead
+- `POST /api/v1/system/tax-configs/{config_id}/activate`: Activate Tax Config
+- `POST /api/v1/system/tax-configs/{config_id}/rules`: Add Tax Rule
+- `POST /api/v1/system/tax-configs`: Create Tax Config
+- `PUT /api/v1/system/ai-settings`: Update Ai Settings
+
+## Users
+- `DELETE /api/v1/users/{user_id}/roles/{role_name}`: Remove Role
+- `DELETE /api/v1/users/{user_id}`: Deactivate User
+- `GET /api/v1/users/{user_id}`: Get User
+- `GET /api/v1/users`: List Users
+- `PATCH /api/v1/users/me/password`: Change Own Password
+- `PATCH /api/v1/users/{user_id}`: Update User
+- `POST /api/v1/users/{user_id}/reset-password`: Reset Password
+- `POST /api/v1/users/{user_id}/roles/{role_name}`: Assign Role
+- `POST /api/v1/users`: Create User
+
+## Vendor
+- `DELETE /api/v1/vendor/contractor-requests/{req_id}`: Delete Contractor Request
+- `DELETE /api/v1/vendor/portal/documents/{doc_id}`: Delete Portal Document
+- `DELETE /api/v1/vendor/purchase-orders/{po_id}`: Delete Purchase Order
+- `DELETE /api/v1/vendor/vendor-invoices/{invoice_id}`: Delete Vendor Invoice
+- `DELETE /api/v1/vendor/vendors/{vendor_id}/access`: Revoke Vendor Access
+- `DELETE /api/v1/vendor/vendors/{vendor_id}`: Delete Vendor
+- `DELETE /api/v1/vendor/work-orders/{wo_id}`: Delete Work Order
+- `GET /api/v1/vendor/contractor-requests`: List Contractor Requests
+- `GET /api/v1/vendor/portal/documents`: List Portal Documents
+- `GET /api/v1/vendor/portal/invoices`: Portal List Invoices
+- `GET /api/v1/vendor/portal/profile`: Portal Get Profile
+- `GET /api/v1/vendor/portal/purchase-orders`: Portal List Purchase Orders
+- `GET /api/v1/vendor/portal/rfqs`: Portal List Rfqs
+- `GET /api/v1/vendor/portal/timesheets`: Portal List Timesheets
+- `GET /api/v1/vendor/portal/work-orders`: Portal List Work Orders
+- `GET /api/v1/vendor/purchase-orders/{po_id}`: Get Purchase Order
+- `GET /api/v1/vendor/purchase-orders`: List Purchase Orders
+- `GET /api/v1/vendor/timesheets`: List Timesheets
+- `GET /api/v1/vendor/vendor-invoices/summary`: Vendor Invoice Summary
+- `GET /api/v1/vendor/vendor-invoices`: List Vendor Invoices
+- `GET /api/v1/vendor/vendors/{vendor_id}/documents`: List Vendor Documents
+- `GET /api/v1/vendor/vendors/{vendor_id}`: Get Vendor
+- `GET /api/v1/vendor/vendors`: List Vendors
+- `GET /api/v1/vendor/work-orders`: List Work Orders
+- `PATCH /api/v1/vendor/contractor-requests/{req_id}/approve`: Approve Contractor Request
+- `PATCH /api/v1/vendor/documents/{doc_id}/verify`: Verify Vendor Document
+- `PATCH /api/v1/vendor/timesheets/{ts_id}/review`: Review Timesheet
+- `PATCH /api/v1/vendor/vendor-invoices/{invoice_id}/status`: Update Vendor Invoice Status
+- `PATCH /api/v1/vendor/vendors/{vendor_id}`: Update Vendor
+- `PATCH /api/v1/vendor/work-orders/{wo_id}/status`: Update Wo Status
+- `POST /api/v1/vendor/contractor-requests`: Create Contractor Request
+- `POST /api/v1/vendor/portal/documents`: Upload Portal Document
+- `POST /api/v1/vendor/portal/invoices`: Portal Submit Invoice
+- `POST /api/v1/vendor/portal/rfqs/{rfq_id}/respond`: Portal Respond To Rfq
+- `POST /api/v1/vendor/portal/timesheets`: Portal Submit Timesheet
+- `POST /api/v1/vendor/purchase-orders`: Create Purchase Order
+- `POST /api/v1/vendor/vendor-invoices`: Create Vendor Invoice
+- `POST /api/v1/vendor/vendors/{vendor_id}/invite`: Invite Vendor User
+- `POST /api/v1/vendor/vendors`: Create Vendor
+- `POST /api/v1/vendor/work-orders`: Create Work Order
+
+## Video Calls
+- `GET /api/v1/calls/rooms/{room_id}/guest-status/{waiting_id}`: Guest Poll Status
+- `GET /api/v1/calls/rooms/{room_id}/public`: Get Room Public
+- `GET /api/v1/calls/rooms/{room_id}/recording`: Get Recording
+- `GET /api/v1/calls/rooms/{room_id}/waiting`: List Waiting
+- `GET /api/v1/calls/rooms/{room_id}`: Get Room
+- `POST /api/v1/calls/rooms/{room_id}/end`: End Room
+- `POST /api/v1/calls/rooms/{room_id}/guest-wait`: Guest Enter Waiting Room
+- `POST /api/v1/calls/rooms/{room_id}/invite`: Invite Users
+- `POST /api/v1/calls/rooms/{room_id}/join`: Join Room
+- `POST /api/v1/calls/rooms/{room_id}/kick/{peer_id}`: Kick Participant
+- `POST /api/v1/calls/rooms/{room_id}/leave`: Leave Room
+- `POST /api/v1/calls/rooms/{room_id}/recording`: Upload Recording
+- `POST /api/v1/calls/rooms/{room_id}/waiting/{waiting_id}/admit`: Admit Guest
+- `POST /api/v1/calls/rooms/{room_id}/waiting/{waiting_id}/reject`: Reject Guest
+- `POST /api/v1/calls/rooms`: Create Room
+
+## WhatsApp
+- `DELETE /api/v1/whatsapp/conversations/{chat_id}`: Hide Conversation
+- `GET /api/v1/whatsapp/conversations`: List Conversations
+- `GET /api/v1/whatsapp/export`: Export Conversation
+- `GET /api/v1/whatsapp/media`: Get Media
+- `GET /api/v1/whatsapp/messages`: Get Messages
+- `GET /api/v1/whatsapp/signature`: Get Signature
+- `GET /api/v1/whatsapp/status`: Whatsapp Status
+- `POST /api/v1/whatsapp/conversations/bulk`: Bulk Conversations
+- `POST /api/v1/whatsapp/event`: Whatsapp Event
+- `POST /api/v1/whatsapp/forward`: Forward Message
+- `POST /api/v1/whatsapp/mark-read`: Mark Read
+- `POST /api/v1/whatsapp/send-document`: Send Document
+- `POST /api/v1/whatsapp/send-media`: Send Media
+- `POST /api/v1/whatsapp/send`: Send Message
+- `POST /api/v1/whatsapp/sync-history`: Sync History
+- `POST /api/v1/whatsapp/webhook`: Whatsapp Webhook

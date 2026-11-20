@@ -1,0 +1,70 @@
+[
+ {
+  "in": {
+   "a": 1,
+   "b": null,
+   "c": [
+    true,
+    "x — y"
+   ]
+  },
+  "out": {
+   "a": 1,
+   "b": null,
+   "c": [
+    true,
+    "x, y"
+   ]
+  }
+ },
+ {
+  "in": "top — level",
+  "out": "top, level"
+ },
+ {
+  "in": [
+   "a—",
+   {
+    "k": [
+     "—x"
+    ]
+   }
+  ],
+  "out": [
+   "a, ",
+   {
+    "k": [
+     "- x"
+    ]
+   }
+  ]
+ },
+ {
+  "in": 3.5,
+  "out": 3.5
+ },
+ {
+  "in": null,
+  "out": null
+ },
+ {
+  "in": {
+   "title": "Onboarding — v2",
+   "steps": [
+    {
+     "t": "Do — it"
+    }
+   ],
+   "n": 3
+  },
+  "out": {
+   "title": "Onboarding, v2",
+   "steps": [
+    {
+     "t": "Do, it"
+    }
+   ],
+   "n": 3
+  }
+ }
+]

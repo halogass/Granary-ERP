@@ -1,0 +1,432 @@
+[
+ {
+  "s": "",
+  "quote": true,
+  "expected": ""
+ },
+ {
+  "s": "",
+  "quote": false,
+  "expected": ""
+ },
+ {
+  "s": "a",
+  "quote": true,
+  "expected": "a"
+ },
+ {
+  "s": "a",
+  "quote": false,
+  "expected": "a"
+ },
+ {
+  "s": "hello world",
+  "quote": true,
+  "expected": "hello world"
+ },
+ {
+  "s": "hello world",
+  "quote": false,
+  "expected": "hello world"
+ },
+ {
+  "s": "quote \" inside",
+  "quote": true,
+  "expected": "quote &quot; inside"
+ },
+ {
+  "s": "quote \" inside",
+  "quote": false,
+  "expected": "quote \" inside"
+ },
+ {
+  "s": "back\\slash",
+  "quote": true,
+  "expected": "back\\slash"
+ },
+ {
+  "s": "back\\slash",
+  "quote": false,
+  "expected": "back\\slash"
+ },
+ {
+  "s": "slash /",
+  "quote": true,
+  "expected": "slash /"
+ },
+ {
+  "s": "slash /",
+  "quote": false,
+  "expected": "slash /"
+ },
+ {
+  "s": "tab\tnl\ncr\r",
+  "quote": true,
+  "expected": "tab\tnl\ncr\r"
+ },
+ {
+  "s": "tab\tnl\ncr\r",
+  "quote": false,
+  "expected": "tab\tnl\ncr\r"
+ },
+ {
+  "s": "\b\f",
+  "quote": true,
+  "expected": "\b\f"
+ },
+ {
+  "s": "\b\f",
+  "quote": false,
+  "expected": "\b\f"
+ },
+ {
+  "s": "\u0000\u0001\u001f",
+  "quote": true,
+  "expected": "\u0000\u0001\u001f"
+ },
+ {
+  "s": "\u0000\u0001\u001f",
+  "quote": false,
+  "expected": "\u0000\u0001\u001f"
+ },
+ {
+  "s": "\u007f",
+  "quote": true,
+  "expected": "\u007f"
+ },
+ {
+  "s": "\u007f",
+  "quote": false,
+  "expected": "\u007f"
+ },
+ {
+  "s": "\u0080\u009f\u00a0",
+  "quote": true,
+  "expected": "\u0080\u009f\u00a0"
+ },
+ {
+  "s": "\u0080\u009f\u00a0",
+  "quote": false,
+  "expected": "\u0080\u009f\u00a0"
+ },
+ {
+  "s": "caf\u00e9",
+  "quote": true,
+  "expected": "caf\u00e9"
+ },
+ {
+  "s": "caf\u00e9",
+  "quote": false,
+  "expected": "caf\u00e9"
+ },
+ {
+  "s": "na\u00efve r\u00e9sum\u00e9",
+  "quote": true,
+  "expected": "na\u00efve r\u00e9sum\u00e9"
+ },
+ {
+  "s": "na\u00efve r\u00e9sum\u00e9",
+  "quote": false,
+  "expected": "na\u00efve r\u00e9sum\u00e9"
+ },
+ {
+  "s": "JPY 1,000,000",
+  "quote": true,
+  "expected": "JPY 1,000,000"
+ },
+ {
+  "s": "JPY 1,000,000",
+  "quote": false,
+  "expected": "JPY 1,000,000"
+ },
+ {
+  "s": "\u20ac 12,50",
+  "quote": true,
+  "expected": "\u20ac 12,50"
+ },
+ {
+  "s": "\u20ac 12,50",
+  "quote": false,
+  "expected": "\u20ac 12,50"
+ },
+ {
+  "s": "\u4e2d\u6587",
+  "quote": true,
+  "expected": "\u4e2d\u6587"
+ },
+ {
+  "s": "\u4e2d\u6587",
+  "quote": false,
+  "expected": "\u4e2d\u6587"
+ },
+ {
+  "s": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+  "quote": true,
+  "expected": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+ },
+ {
+  "s": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+  "quote": false,
+  "expected": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+ },
+ {
+  "s": "\ud83d\ude00",
+  "quote": true,
+  "expected": "\ud83d\ude00"
+ },
+ {
+  "s": "\ud83d\ude00",
+  "quote": false,
+  "expected": "\ud83d\ude00"
+ },
+ {
+  "s": "x\ud83d\ude80y",
+  "quote": true,
+  "expected": "x\ud83d\ude80y"
+ },
+ {
+  "s": "x\ud83d\ude80y",
+  "quote": false,
+  "expected": "x\ud83d\ude80y"
+ },
+ {
+  "s": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "quote": true,
+  "expected": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67"
+ },
+ {
+  "s": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+  "quote": false,
+  "expected": "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67"
+ },
+ {
+  "s": "\ufeffbom",
+  "quote": true,
+  "expected": "\ufeffbom"
+ },
+ {
+  "s": "\ufeffbom",
+  "quote": false,
+  "expected": "\ufeffbom"
+ },
+ {
+  "s": "\u2028\u2029",
+  "quote": true,
+  "expected": "\u2028\u2029"
+ },
+ {
+  "s": "\u2028\u2029",
+  "quote": false,
+  "expected": "\u2028\u2029"
+ },
+ {
+  "s": "\u00ad soft",
+  "quote": true,
+  "expected": "\u00ad soft"
+ },
+ {
+  "s": "\u00ad soft",
+  "quote": false,
+  "expected": "\u00ad soft"
+ },
+ {
+  "s": "\ue000 private",
+  "quote": true,
+  "expected": "\ue000 private"
+ },
+ {
+  "s": "\ue000 private",
+  "quote": false,
+  "expected": "\ue000 private"
+ },
+ {
+  "s": "\uffff",
+  "quote": true,
+  "expected": "\uffff"
+ },
+ {
+  "s": "\uffff",
+  "quote": false,
+  "expected": "\uffff"
+ },
+ {
+  "s": "\udbff\udfff",
+  "quote": true,
+  "expected": "\udbff\udfff"
+ },
+ {
+  "s": "\udbff\udfff",
+  "quote": false,
+  "expected": "\udbff\udfff"
+ },
+ {
+  "s": "\ud800\udc00",
+  "quote": true,
+  "expected": "\ud800\udc00"
+ },
+ {
+  "s": "\ud800\udc00",
+  "quote": false,
+  "expected": "\ud800\udc00"
+ },
+ {
+  "s": "it's",
+  "quote": true,
+  "expected": "it&#x27;s"
+ },
+ {
+  "s": "it's",
+  "quote": false,
+  "expected": "it's"
+ },
+ {
+  "s": "it's \"both\"",
+  "quote": true,
+  "expected": "it&#x27;s &quot;both&quot;"
+ },
+ {
+  "s": "it's \"both\"",
+  "quote": false,
+  "expected": "it's \"both\""
+ },
+ {
+  "s": "<b>&amp;</b>",
+  "quote": true,
+  "expected": "&lt;b&gt;&amp;amp;&lt;/b&gt;"
+ },
+ {
+  "s": "<b>&amp;</b>",
+  "quote": false,
+  "expected": "&lt;b&gt;&amp;amp;&lt;/b&gt;"
+ },
+ {
+  "s": "line1\nline2",
+  "quote": true,
+  "expected": "line1\nline2"
+ },
+ {
+  "s": "line1\nline2",
+  "quote": false,
+  "expected": "line1\nline2"
+ },
+ {
+  "s": "\u200b zero width",
+  "quote": true,
+  "expected": "\u200b zero width"
+ },
+ {
+  "s": "\u200b zero width",
+  "quote": false,
+  "expected": "\u200b zero width"
+ },
+ {
+  "s": "In English: Thank you!",
+  "quote": true,
+  "expected": "In English: Thank you!"
+ },
+ {
+  "s": "In English: Thank you!",
+  "quote": false,
+  "expected": "In English: Thank you!"
+ },
+ {
+  "s": "emoji \u2764\ufe0f",
+  "quote": true,
+  "expected": "emoji \u2764\ufe0f"
+ },
+ {
+  "s": "emoji \u2764\ufe0f",
+  "quote": false,
+  "expected": "emoji \u2764\ufe0f"
+ },
+ {
+  "s": "\u3000ideographic space",
+  "quote": true,
+  "expected": "\u3000ideographic space"
+ },
+ {
+  "s": "\u3000ideographic space",
+  "quote": false,
+  "expected": "\u3000ideographic space"
+ },
+ {
+  "s": "<script>alert('x')</script>",
+  "quote": true,
+  "expected": "&lt;script&gt;alert(&#x27;x&#x27;)&lt;/script&gt;"
+ },
+ {
+  "s": "<script>alert('x')</script>",
+  "quote": false,
+  "expected": "&lt;script&gt;alert('x')&lt;/script&gt;"
+ },
+ {
+  "s": "a & b",
+  "quote": true,
+  "expected": "a &amp; b"
+ },
+ {
+  "s": "a & b",
+  "quote": false,
+  "expected": "a &amp; b"
+ },
+ {
+  "s": "&amp;",
+  "quote": true,
+  "expected": "&amp;amp;"
+ },
+ {
+  "s": "&amp;",
+  "quote": false,
+  "expected": "&amp;amp;"
+ },
+ {
+  "s": "\"'<>&",
+  "quote": true,
+  "expected": "&quot;&#x27;&lt;&gt;&amp;"
+ },
+ {
+  "s": "\"'<>&",
+  "quote": false,
+  "expected": "\"'&lt;&gt;&amp;"
+ },
+ {
+  "s": "Tom & Jerry's \"show\"",
+  "quote": true,
+  "expected": "Tom &amp; Jerry&#x27;s &quot;show&quot;"
+ },
+ {
+  "s": "Tom & Jerry's \"show\"",
+  "quote": false,
+  "expected": "Tom &amp; Jerry's \"show\""
+ },
+ {
+  "s": "https://x.y/?a=1&b=2",
+  "quote": true,
+  "expected": "https://x.y/?a=1&amp;b=2"
+ },
+ {
+  "s": "https://x.y/?a=1&b=2",
+  "quote": false,
+  "expected": "https://x.y/?a=1&amp;b=2"
+ },
+ {
+  "s": "&#39;",
+  "quote": true,
+  "expected": "&amp;#39;"
+ },
+ {
+  "s": "&#39;",
+  "quote": false,
+  "expected": "&amp;#39;"
+ },
+ {
+  "s": "no special",
+  "quote": true,
+  "expected": "no special"
+ },
+ {
+  "s": "no special",
+  "quote": false,
+  "expected": "no special"
+ }
+]

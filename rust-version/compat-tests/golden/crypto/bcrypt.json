@@ -1,0 +1,130 @@
+{
+ "python_hashes": [
+  {
+   "password": "correct horse battery staple",
+   "hash": "$2b$12$DoL/RrtGBkGMb9VjIaQM1O9hgnIeTB4os3UGfLSrrcGl4mIUfsaUW",
+   "wrong": "correct horse battery staple!",
+   "verify_ok": true,
+   "verify_wrong": false
+  },
+  {
+   "password": "",
+   "hash": "$2b$12$RpA8fLXPiFQOblt0en1yqO3dGHwQoOk7hNIyNj98ycsc.2HJb7SoK",
+   "wrong": "!",
+   "verify_ok": true,
+   "verify_wrong": false
+  },
+  {
+   "password": "Ünïcode pässwörd ☃ 日本",
+   "hash": "$2b$12$2xaAEWTKSOGZQttkn/SFxuQQRTRt4WnIDCu.2.MlYV0UTkvW.J41i",
+   "wrong": "Ünïcode pässwörd ☃ 日本!",
+   "verify_ok": true,
+   "verify_wrong": false
+  }
+ ],
+ "fixed_salt": [
+  {
+   "password": "correct horse battery staple",
+   "salt_hex": "3c4d1ab8657a27171105668cea4accfd",
+   "cost": 4,
+   "hash": "$2b$04$NCyYsET4HvaP/UYK4ipK9O49Mk5mH1kksvd479i813EwG5qPq2tHm",
+   "passlib_verify": true
+  },
+  {
+   "password": "",
+   "salt_hex": "c30f3885895c46c72cd31b4336f1ed06",
+   "cost": 4,
+   "hash": "$2b$04$uu62fWjaPqaqyvrBLtFr/eEoMqFVOaPpiK0gBCsvCH1Hn0BJF1cOu",
+   "passlib_verify": true
+  },
+  {
+   "password": "Ünïcode pässwörd ☃ 日本",
+   "salt_hex": "d4a4ce42cc45312a4f4aa0debbf5dad9",
+   "cost": 4,
+   "hash": "$2b$04$zIRMOqvDKQnNQoBcs9VY0OQIk6QOrTHEBIo8Sh4QZWE9NJtAS1Gh.",
+   "passlib_verify": true
+  },
+  {
+   "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "salt_hex": "e15f16d89b56ab63813f2d3f794716f1",
+   "cost": 4,
+   "hash": "$2b$04$2T6U0HrUo0M/Nwy9cSaU6O7YW7CuUSbNmFCe.5xV2RjZY5G7vbMSO",
+   "passlib_verify": true
+  },
+  {
+   "password": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "salt_hex": "efd1ddf18cd74c01e84a92b4e14fd9c3",
+   "cost": 4,
+   "hash": "$2b$04$57Fb6WxVR.FmQnIy2S9Xuuw0XpukuV1471fXfmwOkBqGGs2bsM5lC",
+   "passlib_verify": true
+  },
+  {
+   "password": "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyé",
+   "salt_hex": "8231696c99496e73293b4e42d0cc0b14",
+   "cost": 4,
+   "hash": "$2b$04$ehDnZHjHZlKnMy3AyKuJD.HNzFBaFgT6kfyYeZreZrpFBDfpGUMs.",
+   "passlib_verify": true
+  },
+  {
+   "password": "trailing space ",
+   "salt_hex": "0b76a0ff478488a578b35725ffac3211",
+   "cost": 4,
+   "hash": "$2b$04$A1Ye9ycCgIT2qzaj94uwCOX7ZRP2kqyV2KUY95YfHYuvjQDYBVCg2",
+   "passlib_verify": true
+  },
+  {
+   "password": "p@ss\tword\n",
+   "salt_hex": "69e933a2a170462f5b6fbf9652a28e32",
+   "cost": 4,
+   "hash": "$2b$04$YcixmoDuPg7ZZ58USoIMKeizDSNCRaaLjdtSf0mnpbZEQNqeFrwKK",
+   "passlib_verify": true
+  }
+ ],
+ "other_idents": [
+  {
+   "password": "ident test",
+   "hash": "$2a$04$aaaaaaaaaaaaaaaaaaaaaeV8W.d.4IOEV11YAWYcsJ1KHFeqVJ9m6",
+   "passlib_verify": true
+  },
+  {
+   "password": "ident test",
+   "hash": "$2y$04$aaaaaaaaaaaaaaaaaaaaaeV8W.d.4IOEV11YAWYcsJ1KHFeqVJ9m6",
+   "passlib_verify": true
+  }
+ ],
+ "errors": [
+  {
+   "password": "has\u0000nul",
+   "hash": "$2b$12$DoL/RrtGBkGMb9VjIaQM1O9hgnIeTB4os3UGfLSrrcGl4mIUfsaUW",
+   "raises": true,
+   "error": "PasswordValueError"
+  },
+  {
+   "password": "x",
+   "hash": "not-a-hash",
+   "raises": true,
+   "error": "UnknownHashError"
+  },
+  {
+   "password": "x",
+   "hash": "$2x$04$aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "raises": true,
+   "error": "ValueError"
+  },
+  {
+   "password": "x",
+   "hash": "$2b$04$aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "raises": true,
+   "error": "ValueError"
+  },
+  {
+   "password": "x",
+   "hash": "",
+   "raises": true,
+   "error": "UnknownHashError"
+  }
+ ],
+ "hash_nul_raises": [
+  true
+ ]
+}

@@ -1,0 +1,2010 @@
+{
+ "cases": [
+  {
+   "name": "quotation_list",
+   "entity_type": "quotation",
+   "id": "51400064-0000-4000-8000-000000000064",
+   "number": "Q-S14-001",
+   "document_label": "Quotation Q-S14-001 for Newco Ltd",
+   "revision": 1,
+   "expiry_date": "2026-03-12",
+   "link": "/sales/quotations/51400064-0000-4000-8000-000000000064",
+   "check_submittable": null,
+   "facts": "{\"number\": \"Q-S14-001\", \"revision\": 1, \"currency\": \"JPY\", \"subtotal\": 5900000.0, \"total\": 6549000.0, \"header_discount_type\": null, \"header_discount_value\": 0.0, \"payment_terms\": {\"net_days\": 30}, \"payment_terms_days\": null, \"procurement_type\": \"standard\", \"customer_org_id\": \"5140000b-0000-4000-8000-00000000000b\", \"valid_until\": \"2026-03-12\", \"lines\": [{\"product_id\": \"51400028-0000-4000-8000-000000000028\", \"sku\": \"S14-CAM\", \"name\": \"Laptop\", \"quantity\": 2.0, \"unit\": \"Unit\", \"unit_price\": 2500000.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false, \"tax_pct\": 11.0}, {\"product_id\": \"51400029-0000-4000-8000-000000000029\", \"sku\": \"S14-SAAS\", \"name\": \"AI SaaS\", \"quantity\": 3.0, \"unit\": \"Unit\", \"unit_price\": 300000.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false, \"term_months\": 1, \"tax_pct\": 11.0}]}",
+   "snapshot": "{\"document\": {\"number\": \"Q-S14-001\", \"revision\": 1, \"currency\": \"JPY\", \"subtotal\": 5900000.0, \"total\": 6549000.0, \"header_discount_type\": null, \"header_discount_value\": 0.0, \"payment_terms\": {\"net_days\": 30}, \"payment_terms_days\": null, \"procurement_type\": \"standard\", \"customer_org_id\": \"5140000b-0000-4000-8000-00000000000b\", \"valid_until\": \"2026-03-12\", \"lines\": [{\"product_id\": \"51400028-0000-4000-8000-000000000028\", \"sku\": \"S14-CAM\", \"name\": \"Laptop\", \"quantity\": 2.0, \"unit\": \"Unit\", \"unit_price\": 2500000.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false, \"tax_pct\": 11.0}, {\"product_id\": \"51400029-0000-4000-8000-000000000029\", \"sku\": \"S14-SAAS\", \"name\": \"AI SaaS\", \"quantity\": 3.0, \"unit\": \"Unit\", \"unit_price\": 300000.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false, \"term_months\": 1, \"tax_pct\": 11.0}]}, \"amount\": 5900000.0, \"currency\": \"JPY\", \"amount_base\": 5900000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 5000000.0, \"lines\": [{\"name\": \"Laptop\", \"quantity\": 2.0, \"unit_price\": 2500000.0, \"list_price\": 2500000.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_custom\": false, \"price_rule\": \"list\", \"is_list\": true, \"allowance\": null, \"amount\": 5000000.0}, {\"name\": \"AI SaaS\", \"quantity\": 3.0, \"unit_price\": 300000.0, \"list_price\": 300000.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_custom\": false, \"price_rule\": \"list\", \"is_list\": true, \"allowance\": null, \"amount\": 900000.0}], \"allowances\": [{\"kind\": \"volume\", \"label\": \"Volume 5+\", \"min_qty\": 5.0, \"max_qty\": null, \"max_discount_pct\": 10.0, \"notify_owner\": false}, {\"kind\": \"volume\", \"label\": \"Volume 5-50\", \"min_qty\": 5.0, \"max_qty\": 50.0, \"max_discount_pct\": 10.0, \"notify_owner\": true}, {\"kind\": \"loyalty\", \"label\": \"Loyal\", \"min_qty\": null, \"max_qty\": null, \"max_discount_pct\": 15.5, \"notify_owner\": false}, {\"kind\": \"bundle\", \"label\": \"Bundle small\", \"min_qty\": null, \"max_qty\": 3.0, \"max_discount_pct\": 7.5, \"notify_owner\": false}], \"is_loyal_customer\": false, \"max_discount_pct\": 0.0, \"margin_pct\": 60.0, \"margin_unknown\": true, \"has_custom_line\": false, \"all_catalog_list_price\": true, \"is_multi_year_bundle\": false, \"terms_days\": 30, \"procurement_type\": \"standard\"}",
+   "fingerprint": "ede7ee38de829870ab6aebe2c0dd8b9ed025effae321e5638b8f0b122f10cf53",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "quotations",
+       "id": "51400064-0000-4000-8000-000000000064",
+       "changes": {
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      null,
+      "x"
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "quotation_discounts",
+   "entity_type": "quotation",
+   "id": "5140006e-0000-4000-8000-00000000006e",
+   "number": "Q-S14-002 Rev. 2",
+   "document_label": "Quotation Q-S14-002 Rev. 2 for Loyal Corp",
+   "revision": 2,
+   "expiry_date": "2026-04-04",
+   "link": "/sales/quotations/5140006e-0000-4000-8000-00000000006e",
+   "check_submittable": null,
+   "facts": "{\"number\": \"Q-S14-002 Rev. 2\", \"revision\": 2, \"currency\": \"USD\", \"subtotal\": 2400.4, \"total\": 2292.72, \"header_discount_type\": \"percentage\", \"header_discount_value\": 5.0, \"payment_terms\": {\"dp\": 30, \"text\": \"NET 45, balance 10 days after handover\"}, \"payment_terms_days\": null, \"procurement_type\": \"e_catalog\", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"valid_until\": \"2026-04-04\", \"lines\": [{\"product_id\": \"51400028-0000-4000-8000-000000000028\", \"sku\": \"S14-CAM\", \"name\": \"Laptop\", \"quantity\": 12.0, \"unit\": \"Unit\", \"unit_price\": 150.0, \"discount_pct\": 10.0, \"discount_type\": \"volume\", \"is_optional\": false}, {\"product_id\": \"51400029-0000-4000-8000-000000000029\", \"sku\": \"S14-SAAS\", \"name\": \"AI SaaS\", \"quantity\": 12.0, \"unit\": \"Unit\", \"unit_price\": 20.0, \"discount_pct\": 15.0, \"discount_type\": \"loyalty\", \"is_optional\": false, \"term_months\": 24, \"tax_pct\": 11.0}, {\"product_id\": null, \"sku\": null, \"name\": \"Installation\", \"quantity\": 1.5, \"unit\": \"Lot\", \"unit_price\": 333.6, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false}, {\"product_id\": \"51400028-0000-4000-8000-000000000028\", \"sku\": \"S14-CAM\", \"name\": \"Spare laptop\", \"quantity\": 1.0, \"unit\": \"Unit\", \"unit_price\": 140.0, \"discount_pct\": 2.5, \"discount_type\": \"bundle\", \"is_optional\": true, \"parent_item_id\": \"5140006f-0000-4000-8000-00000000006f\"}, {\"product_id\": \"5140002a-0000-4000-8000-00000000002a\", \"sku\": \"S14-MAN\", \"name\": \"Integration\", \"quantity\": 1.0, \"unit\": \"Lot\", \"unit_price\": 99.99, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false}]}",
+   "snapshot": "{\"document\": {\"number\": \"Q-S14-002 Rev. 2\", \"revision\": 2, \"currency\": \"USD\", \"subtotal\": 2400.4, \"total\": 2292.72, \"header_discount_type\": \"percentage\", \"header_discount_value\": 5.0, \"payment_terms\": {\"dp\": 30, \"text\": \"NET 45, balance 10 days after handover\"}, \"payment_terms_days\": null, \"procurement_type\": \"e_catalog\", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"valid_until\": \"2026-04-04\", \"lines\": [{\"product_id\": \"51400028-0000-4000-8000-000000000028\", \"sku\": \"S14-CAM\", \"name\": \"Laptop\", \"quantity\": 12.0, \"unit\": \"Unit\", \"unit_price\": 150.0, \"discount_pct\": 10.0, \"discount_type\": \"volume\", \"is_optional\": false}, {\"product_id\": \"51400029-0000-4000-8000-000000000029\", \"sku\": \"S14-SAAS\", \"name\": \"AI SaaS\", \"quantity\": 12.0, \"unit\": \"Unit\", \"unit_price\": 20.0, \"discount_pct\": 15.0, \"discount_type\": \"loyalty\", \"is_optional\": false, \"term_months\": 24, \"tax_pct\": 11.0}, {\"product_id\": null, \"sku\": null, \"name\": \"Installation\", \"quantity\": 1.5, \"unit\": \"Lot\", \"unit_price\": 333.6, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false}, {\"product_id\": \"51400028-0000-4000-8000-000000000028\", \"sku\": \"S14-CAM\", \"name\": \"Spare laptop\", \"quantity\": 1.0, \"unit\": \"Unit\", \"unit_price\": 140.0, \"discount_pct\": 2.5, \"discount_type\": \"bundle\", \"is_optional\": true, \"parent_item_id\": \"5140006f-0000-4000-8000-00000000006f\"}, {\"product_id\": \"5140002a-0000-4000-8000-00000000002a\", \"sku\": \"S14-MAN\", \"name\": \"Integration\", \"quantity\": 1.0, \"unit\": \"Lot\", \"unit_price\": 99.99, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false}]}, \"amount\": 2280.38, \"currency\": \"USD\", \"amount_base\": 37057315.190000005, \"fx_rate_base\": 16250.5, \"fx_rate_missing\": false, \"max_line_amount_base\": 75584325.6, \"lines\": [{\"name\": \"Laptop\", \"quantity\": 12.0, \"unit_price\": 150.0, \"list_price\": 160.0, \"discount_pct\": 15.62, \"discount_type\": \"volume\", \"is_custom\": false, \"price_rule\": \"manual\", \"is_list\": false, \"allowance\": {\"kind\": \"volume\", \"label\": \"Volume 5+\", \"min_qty\": 5.0, \"max_qty\": null, \"max_discount_pct\": 10.0, \"notify_owner\": false}, \"amount\": 1620.0}, {\"name\": \"AI SaaS\", \"quantity\": 12.0, \"unit_price\": 20.0, \"list_price\": 20.0, \"discount_pct\": 19.25, \"discount_type\": \"loyalty\", \"is_custom\": false, \"price_rule\": \"list\", \"is_list\": false, \"allowance\": {\"kind\": \"loyalty\", \"label\": \"Loyal\", \"min_qty\": null, \"max_qty\": null, \"max_discount_pct\": 15.5, \"notify_owner\": false}, \"amount\": 4896.0}, {\"name\": \"Installation\", \"quantity\": 1.5, \"unit_price\": 333.6, \"list_price\": null, \"discount_pct\": 5.0, \"discount_type\": \"none\", \"is_custom\": true, \"price_rule\": \"manual\", \"is_list\": false, \"allowance\": null, \"amount\": 500.4}, {\"name\": \"Spare laptop\", \"quantity\": 1.0, \"unit_price\": 140.0, \"list_price\": 160.0, \"discount_pct\": 14.69, \"discount_type\": \"bundle\", \"is_custom\": false, \"price_rule\": \"manual\", \"is_list\": false, \"allowance\": {\"kind\": \"bundle\", \"label\": \"Bundle small\", \"min_qty\": null, \"max_qty\": 3.0, \"max_discount_pct\": 7.5, \"notify_owner\": false}, \"amount\": 136.5}, {\"name\": \"Integration\", \"quantity\": 1.0, \"unit_price\": 99.99, \"list_price\": null, \"discount_pct\": 5.0, \"discount_type\": \"none\", \"is_custom\": false, \"price_rule\": \"manual\", \"is_list\": false, \"allowance\": null, \"amount\": 99.99}], \"allowances\": [{\"kind\": \"volume\", \"label\": \"Volume 5+\", \"min_qty\": 5.0, \"max_qty\": null, \"max_discount_pct\": 10.0, \"notify_owner\": false}, {\"kind\": \"volume\", \"label\": \"Volume 5-50\", \"min_qty\": 5.0, \"max_qty\": 50.0, \"max_discount_pct\": 10.0, \"notify_owner\": true}, {\"kind\": \"loyalty\", \"label\": \"Loyal\", \"min_qty\": null, \"max_qty\": null, \"max_discount_pct\": 15.5, \"notify_owner\": false}, {\"kind\": \"bundle\", \"label\": \"Bundle small\", \"min_qty\": null, \"max_qty\": 3.0, \"max_discount_pct\": 7.5, \"notify_owner\": false}], \"is_loyal_customer\": true, \"max_discount_pct\": 19.25, \"margin_pct\": 52.02, \"margin_unknown\": true, \"has_custom_line\": true, \"all_catalog_list_price\": false, \"is_multi_year_bundle\": true, \"terms_days\": 45, \"procurement_type\": \"e_catalog\"}",
+   "fingerprint": "d77658b283cddf56ee04e72c854bed996fef2cbae878a44b7f4a11ecc573add6",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      null,
+      null
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "quotation_eur_no_rate",
+   "entity_type": "quotation",
+   "id": "51400078-0000-4000-8000-000000000078",
+   "number": "Q-S14-003",
+   "document_label": "Quotation Q-S14-003",
+   "revision": 1,
+   "expiry_date": "2026-04-09",
+   "link": "/sales/quotations/51400078-0000-4000-8000-000000000078",
+   "check_submittable": null,
+   "facts": "{\"number\": \"Q-S14-003\", \"revision\": 1, \"currency\": \"eur\", \"subtotal\": 1000.0, \"total\": 900.0, \"header_discount_type\": \"fixed\", \"header_discount_value\": 100.0, \"payment_terms\": \"Net-60 / 14 days\", \"payment_terms_days\": null, \"procurement_type\": \"tender\", \"customer_org_id\": null, \"valid_until\": \"2026-04-09\", \"lines\": [{\"product_id\": null, \"sku\": null, \"name\": \"Consulting\", \"quantity\": 10.0, \"unit\": \"Day\", \"unit_price\": 100.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false}]}",
+   "snapshot": "{\"document\": {\"number\": \"Q-S14-003\", \"revision\": 1, \"currency\": \"eur\", \"subtotal\": 1000.0, \"total\": 900.0, \"header_discount_type\": \"fixed\", \"header_discount_value\": 100.0, \"payment_terms\": \"Net-60 / 14 days\", \"payment_terms_days\": null, \"procurement_type\": \"tender\", \"customer_org_id\": null, \"valid_until\": \"2026-04-09\", \"lines\": [{\"product_id\": null, \"sku\": null, \"name\": \"Consulting\", \"quantity\": 10.0, \"unit\": \"Day\", \"unit_price\": 100.0, \"discount_pct\": 0.0, \"discount_type\": \"none\", \"is_optional\": false}]}, \"amount\": 900.0, \"currency\": \"EUR\", \"amount_base\": null, \"fx_rate_base\": null, \"fx_rate_missing\": true, \"max_line_amount_base\": null, \"lines\": [{\"name\": \"Consulting\", \"quantity\": 10.0, \"unit_price\": 100.0, \"list_price\": null, \"discount_pct\": 10.0, \"discount_type\": \"none\", \"is_custom\": true, \"price_rule\": \"manual\", \"is_list\": false, \"allowance\": null, \"amount\": 1000.0}], \"allowances\": [{\"kind\": \"volume\", \"label\": \"Volume 5+\", \"min_qty\": 5.0, \"max_qty\": null, \"max_discount_pct\": 10.0, \"notify_owner\": false}, {\"kind\": \"volume\", \"label\": \"Volume 5-50\", \"min_qty\": 5.0, \"max_qty\": 50.0, \"max_discount_pct\": 10.0, \"notify_owner\": true}, {\"kind\": \"loyalty\", \"label\": \"Loyal\", \"min_qty\": null, \"max_qty\": null, \"max_discount_pct\": 15.5, \"notify_owner\": false}, {\"kind\": \"bundle\", \"label\": \"Bundle small\", \"min_qty\": null, \"max_qty\": 3.0, \"max_discount_pct\": 7.5, \"notify_owner\": false}], \"is_loyal_customer\": false, \"max_discount_pct\": 10.0, \"margin_pct\": null, \"margin_unknown\": false, \"has_custom_line\": true, \"all_catalog_list_price\": false, \"is_multi_year_bundle\": false, \"terms_days\": 60, \"procurement_type\": \"tender\"}",
+   "fingerprint": "ccbe792312d91ca9fd668f01247ccb65b79781afba41c39df0c5189dad244258",
+   "hooks": []
+  },
+  {
+   "name": "quotation_sent_empty",
+   "entity_type": "quotation",
+   "id": "51400082-0000-4000-8000-000000000082",
+   "number": "Q-S14-004",
+   "document_label": "Quotation Q-S14-004 for Loyal Corp",
+   "revision": 1,
+   "expiry_date": "2026-02-14",
+   "link": "/sales/quotations/51400082-0000-4000-8000-000000000082",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A quotation with status 'sent' cannot be submitted for approval"
+   },
+   "facts": "{\"number\": \"Q-S14-004\", \"revision\": 1, \"currency\": \"USD\", \"subtotal\": 0.0, \"total\": 0.0, \"header_discount_type\": null, \"header_discount_value\": 0.0, \"payment_terms\": null, \"payment_terms_days\": 14, \"procurement_type\": \"standard\", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"valid_until\": \"2026-02-14\", \"lines\": []}",
+   "snapshot": "{\"document\": {\"number\": \"Q-S14-004\", \"revision\": 1, \"currency\": \"USD\", \"subtotal\": 0.0, \"total\": 0.0, \"header_discount_type\": null, \"header_discount_value\": 0.0, \"payment_terms\": null, \"payment_terms_days\": 14, \"procurement_type\": \"standard\", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"valid_until\": \"2026-02-14\", \"lines\": []}, \"amount\": 0.0, \"currency\": \"USD\", \"amount_base\": 0.0, \"fx_rate_base\": 16000.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 0.0, \"lines\": [], \"allowances\": [{\"kind\": \"volume\", \"label\": \"Volume 5+\", \"min_qty\": 5.0, \"max_qty\": null, \"max_discount_pct\": 10.0, \"notify_owner\": false}, {\"kind\": \"volume\", \"label\": \"Volume 5-50\", \"min_qty\": 5.0, \"max_qty\": 50.0, \"max_discount_pct\": 10.0, \"notify_owner\": true}, {\"kind\": \"loyalty\", \"label\": \"Loyal\", \"min_qty\": null, \"max_qty\": null, \"max_discount_pct\": 15.5, \"notify_owner\": false}, {\"kind\": \"bundle\", \"label\": \"Bundle small\", \"min_qty\": null, \"max_qty\": 3.0, \"max_discount_pct\": 7.5, \"notify_owner\": false}], \"is_loyal_customer\": true, \"max_discount_pct\": 0.0, \"margin_pct\": null, \"margin_unknown\": false, \"has_custom_line\": false, \"all_catalog_list_price\": false, \"is_multi_year_bundle\": false, \"terms_days\": 14, \"procurement_type\": \"standard\"}",
+   "fingerprint": "338a527aa6d23573291503891e69aa4100f633df5d00a06afcc019b7c6ea566e",
+   "hooks": []
+  },
+  {
+   "name": "contract",
+   "entity_type": "sales_contract",
+   "id": "5140008c-0000-4000-8000-00000000008c",
+   "number": "CTR-S14-1",
+   "document_label": "Contract CTR-S14-1",
+   "revision": 1,
+   "expiry_date": "2027-01-31",
+   "link": "/sales/contracts?contract=5140008c-0000-4000-8000-00000000008c",
+   "check_submittable": null,
+   "facts": "{\"number\": \"CTR-S14-1\", \"contract_type\": \"subscription\", \"value\": 12000.5, \"currency\": \"USD\", \"start_date\": \"2026-02-01\", \"end_date\": \"2027-01-31\", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"quotation_id\": \"5140006e-0000-4000-8000-00000000006e\", \"document_url\": \"https://files.test/c1.pdf\", \"auto_renew\": false}",
+   "snapshot": "{\"document\": {\"number\": \"CTR-S14-1\", \"contract_type\": \"subscription\", \"value\": 12000.5, \"currency\": \"USD\", \"start_date\": \"2026-02-01\", \"end_date\": \"2027-01-31\", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"quotation_id\": \"5140006e-0000-4000-8000-00000000006e\", \"document_url\": \"https://files.test/c1.pdf\", \"auto_renew\": false}, \"amount\": 12000.5, \"currency\": \"USD\", \"amount_base\": 192008000.0, \"fx_rate_base\": 16000.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 192008000.0}",
+   "fingerprint": "adad383a8e7a6d59a987acafe49a2805f990289835c90d74c8ee582186e412ec",
+   "hooks": []
+  },
+  {
+   "name": "contract_blank",
+   "entity_type": "sales_contract",
+   "id": "5140008d-0000-4000-8000-00000000008d",
+   "number": "CTR-S14-2",
+   "document_label": "Contract CTR-S14-2",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/sales/contracts?contract=5140008d-0000-4000-8000-00000000008d",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A contract with status 'active' cannot be submitted for approval"
+   },
+   "facts": "{\"number\": \"CTR-S14-2\", \"contract_type\": null, \"value\": null, \"currency\": \"USD\", \"start_date\": null, \"end_date\": null, \"customer_org_id\": null, \"quotation_id\": null, \"document_url\": null, \"auto_renew\": false}",
+   "snapshot": "{\"document\": {\"number\": \"CTR-S14-2\", \"contract_type\": null, \"value\": null, \"currency\": \"USD\", \"start_date\": null, \"end_date\": null, \"customer_org_id\": null, \"quotation_id\": null, \"document_url\": null, \"auto_renew\": false}, \"amount\": 0.0, \"currency\": \"USD\", \"amount_base\": 0.0, \"fx_rate_base\": 16250.5, \"fx_rate_missing\": false, \"max_line_amount_base\": 0.0}",
+   "fingerprint": "57bf6726c3ec47d6701a042bcf721604ebf1fdf55d7db83d1d6e3c329bda4307",
+   "hooks": []
+  },
+  {
+   "name": "invoice",
+   "entity_type": "invoice",
+   "id": "51400097-0000-4000-8000-000000000097",
+   "number": "INV-S14-001-R1",
+   "document_label": "Invoice INV-S14-001-R1 for Loyal Corp",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/finance/invoices/51400097-0000-4000-8000-000000000097",
+   "check_submittable": null,
+   "facts": "{\"number\": \"INV-S14-001-R1\", \"invoice_type\": \"invoice\", \"currency\": \"JPY\", \"subtotal\": 5900000.0, \"tax_total\": 649000.0, \"total\": 6549000.0, \"issue_date\": \"2026-02-11\", \"due_date\": \"2026-03-13\", \"payment_terms_text\": \"  NET   30 \", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"customer_name\": \"Loyal Corp\", \"quotation_id\": \"51400064-0000-4000-8000-000000000064\", \"credit_of_invoice_id\": null, \"items\": [{\"name\": \"Laptop\", \"quantity\": 2.0, \"unit_price\": 2500000.0, \"amount\": 5000000.0, \"tax_pct\": 11.0, \"tax_amount\": 550000.0}, {\"name\": \"AI SaaS\", \"quantity\": 3.0, \"unit_price\": 300000.0, \"amount\": 900000.0, \"tax_pct\": 11.0, \"tax_amount\": 99000.0}]}",
+   "snapshot": "{\"document\": {\"number\": \"INV-S14-001-R1\", \"invoice_type\": \"invoice\", \"currency\": \"JPY\", \"subtotal\": 5900000.0, \"tax_total\": 649000.0, \"total\": 6549000.0, \"issue_date\": \"2026-02-11\", \"due_date\": \"2026-03-13\", \"payment_terms_text\": \"  NET   30 \", \"customer_org_id\": \"5140000a-0000-4000-8000-00000000000a\", \"customer_name\": \"Loyal Corp\", \"quotation_id\": \"51400064-0000-4000-8000-000000000064\", \"credit_of_invoice_id\": null, \"items\": [{\"name\": \"Laptop\", \"quantity\": 2.0, \"unit_price\": 2500000.0, \"amount\": 5000000.0, \"tax_pct\": 11.0, \"tax_amount\": 550000.0}, {\"name\": \"AI SaaS\", \"quantity\": 3.0, \"unit_price\": 300000.0, \"amount\": 900000.0, \"tax_pct\": 11.0, \"tax_amount\": 99000.0}]}, \"amount\": 6549000.0, \"currency\": \"JPY\", \"amount_base\": 6549000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 5000000.0, \"is_credit_note\": false, \"terms_differ_from_contract\": true, \"is_first_invoice_for_customer\": false}",
+   "fingerprint": "55ca2f08fce7877a870f0f483a228e1835cc8486ec4da12ff79214cbbc3e0ebd",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "invoices",
+       "id": "51400097-0000-4000-8000-000000000097",
+       "changes": {
+        "authorized_by_id": "51400001-0000-4000-8000-000000000001",
+        "authorized_by_name": "Grace Owner",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      null,
+      null
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "invoice_credit_note",
+   "entity_type": "invoice",
+   "id": "51400098-0000-4000-8000-000000000098",
+   "number": "CN-S14-001",
+   "document_label": "Credit note CN-S14-001 for Walk-in Buyer",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/finance/invoices/51400098-0000-4000-8000-000000000098",
+   "check_submittable": null,
+   "facts": "{\"number\": \"CN-S14-001\", \"invoice_type\": \"credit_note\", \"currency\": \"USD\", \"subtotal\": -50.0, \"tax_total\": 0.0, \"total\": -50.0, \"issue_date\": \"2026-03-02\", \"due_date\": null, \"payment_terms_text\": \"30\", \"customer_org_id\": null, \"customer_name\": \"Walk-in Buyer\", \"quotation_id\": null, \"credit_of_invoice_id\": \"51400096-0000-4000-8000-000000000096\", \"items\": [{\"name\": \"Refund\", \"quantity\": 1.0, \"unit_price\": -50.0, \"amount\": -50.0, \"discount_pct\": 12.5}]}",
+   "snapshot": "{\"document\": {\"number\": \"CN-S14-001\", \"invoice_type\": \"credit_note\", \"currency\": \"USD\", \"subtotal\": -50.0, \"tax_total\": 0.0, \"total\": -50.0, \"issue_date\": \"2026-03-02\", \"due_date\": null, \"payment_terms_text\": \"30\", \"customer_org_id\": null, \"customer_name\": \"Walk-in Buyer\", \"quotation_id\": null, \"credit_of_invoice_id\": \"51400096-0000-4000-8000-000000000096\", \"items\": [{\"name\": \"Refund\", \"quantity\": 1.0, \"unit_price\": -50.0, \"amount\": -50.0, \"discount_pct\": 12.5}]}, \"amount\": -50.0, \"currency\": \"USD\", \"amount_base\": -812525.0, \"fx_rate_base\": 16250.5, \"fx_rate_missing\": false, \"max_line_amount_base\": -812525.0, \"is_credit_note\": true, \"terms_differ_from_contract\": false, \"is_first_invoice_for_customer\": true}",
+   "fingerprint": "bf62af48a28ece5d4f92b2859dac25df80dfbcf0fd0cbb313ebfafb44de571ce",
+   "hooks": []
+  },
+  {
+   "name": "invoice_proforma_sgd",
+   "entity_type": "invoice",
+   "id": "51400099-0000-4000-8000-000000000099",
+   "number": "PI-S14-001",
+   "document_label": "Proforma invoice PI-S14-001",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/finance/invoices/51400099-0000-4000-8000-000000000099",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A invoice with status 'sent' cannot be submitted for approval"
+   },
+   "facts": "{\"number\": \"PI-S14-001\", \"invoice_type\": \"proforma\", \"currency\": \"SGD\", \"subtotal\": 1000.0, \"tax_total\": 0.0, \"total\": 1000.0, \"issue_date\": \"2026-03-02\", \"due_date\": null, \"payment_terms_text\": null, \"customer_org_id\": null, \"customer_name\": null, \"quotation_id\": null, \"credit_of_invoice_id\": null, \"items\": []}",
+   "snapshot": "{\"document\": {\"number\": \"PI-S14-001\", \"invoice_type\": \"proforma\", \"currency\": \"SGD\", \"subtotal\": 1000.0, \"tax_total\": 0.0, \"total\": 1000.0, \"issue_date\": \"2026-03-02\", \"due_date\": null, \"payment_terms_text\": null, \"customer_org_id\": null, \"customer_name\": null, \"quotation_id\": null, \"credit_of_invoice_id\": null, \"items\": []}, \"amount\": 1000.0, \"currency\": \"SGD\", \"amount_base\": 12004801.920768306, \"fx_rate_base\": 12004.801920768306, \"fx_rate_missing\": false, \"max_line_amount_base\": 0.0, \"is_credit_note\": false, \"terms_differ_from_contract\": false, \"is_first_invoice_for_customer\": false}",
+   "fingerprint": "2211ff910d755dd7d63fa7288bb22a0fe1cd7411fd140e594e84f948915db8ae",
+   "hooks": []
+  },
+  {
+   "name": "invoice_terms_same",
+   "entity_type": "invoice",
+   "id": "5140009a-0000-4000-8000-00000000009a",
+   "number": "INV-S14-002",
+   "document_label": "Invoice INV-S14-002 for Newco Ltd",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/finance/invoices/5140009a-0000-4000-8000-00000000009a",
+   "check_submittable": null,
+   "facts": "{\"number\": \"INV-S14-002\", \"invoice_type\": \"invoice\", \"currency\": \"JPY\", \"subtotal\": 0.0, \"tax_total\": 0.0, \"total\": 10.0, \"issue_date\": \"2026-03-02\", \"due_date\": null, \"payment_terms_text\": \"net 45, balance 10 days after handover 30\", \"customer_org_id\": null, \"customer_name\": \"Newco Ltd\", \"quotation_id\": \"5140006e-0000-4000-8000-00000000006e\", \"credit_of_invoice_id\": null, \"items\": []}",
+   "snapshot": "{\"document\": {\"number\": \"INV-S14-002\", \"invoice_type\": \"invoice\", \"currency\": \"JPY\", \"subtotal\": 0.0, \"tax_total\": 0.0, \"total\": 10.0, \"issue_date\": \"2026-03-02\", \"due_date\": null, \"payment_terms_text\": \"net 45, balance 10 days after handover 30\", \"customer_org_id\": null, \"customer_name\": \"Newco Ltd\", \"quotation_id\": \"5140006e-0000-4000-8000-00000000006e\", \"credit_of_invoice_id\": null, \"items\": []}, \"amount\": 10.0, \"currency\": \"JPY\", \"amount_base\": 10.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 0.0, \"is_credit_note\": false, \"terms_differ_from_contract\": true, \"is_first_invoice_for_customer\": true}",
+   "fingerprint": "b93e285aa8acab336d4ff12ae1327a27bce3eb3934ebb79f80a5c69210de664d",
+   "hooks": []
+  },
+  {
+   "name": "expense_usd",
+   "entity_type": "expense",
+   "id": "514000a0-0000-4000-8000-0000000000a0",
+   "number": "514000a0",
+   "document_label": "Expense claim (travel): Taxi to client site xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/finance/expenses?expense=514000a0-0000-4000-8000-0000000000a0",
+   "check_submittable": null,
+   "facts": "{\"category\": \"travel\", \"description\": \"Taxi to client site xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\", \"amount\": 200.1, \"currency\": \"USD\", \"expense_date\": \"2026-02-20\", \"receipt_url\": \"https://files.test/r.jpg\", \"project_id\": null, \"vendor_id\": null}",
+   "snapshot": "{\"document\": {\"category\": \"travel\", \"description\": \"Taxi to client site xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\", \"amount\": 200.1, \"currency\": \"USD\", \"expense_date\": \"2026-02-20\", \"receipt_url\": \"https://files.test/r.jpg\", \"project_id\": null, \"vendor_id\": null}, \"amount\": 200.1, \"currency\": \"USD\", \"amount_base\": 3201600.0, \"fx_rate_base\": 16000.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 3201600.0}",
+   "fingerprint": "5e1f0c4e2db302c95a351adedc38b3b725c4fb807441470ba3471b999365e54f",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": []
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      "ok"
+     ],
+     "diff": [
+      {
+       "table": "expenses",
+       "id": "514000a0-0000-4000-8000-0000000000a0",
+       "changes": {
+        "status": "approved",
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "approved_at": "<now>",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      "51400001-0000-4000-8000-000000000001",
+      "Too much"
+     ],
+     "diff": [
+      {
+       "table": "expenses",
+       "id": "514000a0-0000-4000-8000-0000000000a0",
+       "changes": {
+        "status": "rejected",
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "approved_at": "<now>",
+        "rejection_reason": "Too much",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "expense_rejected",
+   "entity_type": "expense",
+   "id": "514000a1-0000-4000-8000-0000000000a1",
+   "number": "514000a1",
+   "document_label": "Expense claim (meals): Lunch",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/finance/expenses?expense=514000a1-0000-4000-8000-0000000000a1",
+   "check_submittable": null,
+   "facts": "{\"category\": \"meals\", \"description\": \"Lunch\", \"amount\": 750000.0, \"currency\": \"JPY\", \"expense_date\": \"2026-02-21\", \"receipt_url\": null, \"project_id\": null, \"vendor_id\": null}",
+   "snapshot": "{\"document\": {\"category\": \"meals\", \"description\": \"Lunch\", \"amount\": 750000.0, \"currency\": \"JPY\", \"expense_date\": \"2026-02-21\", \"receipt_url\": null, \"project_id\": null, \"vendor_id\": null}, \"amount\": 750000.0, \"currency\": \"JPY\", \"amount_base\": 750000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 750000.0}",
+   "fingerprint": "8125a8e09c6c1404ff7f2d2ff76d36d771485cdb8b83a32ed3d5c1224d93d0e7",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": [
+      {
+       "table": "expenses",
+       "id": "514000a1-0000-4000-8000-0000000000a1",
+       "changes": {
+        "status": "pending",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "expense_approved",
+   "entity_type": "expense",
+   "id": "514000a2-0000-4000-8000-0000000000a2",
+   "number": "514000a2",
+   "document_label": "Expense claim (meals): Paid",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/finance/expenses?expense=514000a2-0000-4000-8000-0000000000a2",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A expense claim with status 'approved' cannot be submitted for approval"
+   },
+   "facts": "{\"category\": \"meals\", \"description\": \"Paid\", \"amount\": 1.0, \"currency\": \"JPY\", \"expense_date\": \"2026-02-21\", \"receipt_url\": null, \"project_id\": null, \"vendor_id\": null}",
+   "snapshot": "{\"document\": {\"category\": \"meals\", \"description\": \"Paid\", \"amount\": 1.0, \"currency\": \"JPY\", \"expense_date\": \"2026-02-21\", \"receipt_url\": null, \"project_id\": null, \"vendor_id\": null}, \"amount\": 1.0, \"currency\": \"JPY\", \"amount_base\": 1.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 1.0}",
+   "fingerprint": "563363c93209322354c81b52a9007a3cca3ddc111d90acf04e03afa9b576d7a4",
+   "hooks": []
+  },
+  {
+   "name": "po_attachments",
+   "entity_type": "purchase_order",
+   "id": "514000b4-0000-4000-8000-0000000000b4",
+   "number": "PO-S14-1",
+   "document_label": "Purchase order PO-S14-1",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/purchase-orders?po=514000b4-0000-4000-8000-0000000000b4",
+   "check_submittable": null,
+   "facts": "{\"number\": \"PO-S14-1\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"currency\": \"JPY\", \"total\": 7000000.0, \"expected_delivery\": \"2026-04-01\", \"items\": [{\"description\": \"Lens\", \"quantity\": 3.0, \"unit_price\": 1000000.0, \"amount\": 3000000.0}, {\"description\": \"Board\", \"quantity\": 2.0, \"unit_price\": 2000000.0, \"amount\": 4000000.0}]}",
+   "snapshot": "{\"document\": {\"number\": \"PO-S14-1\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"currency\": \"JPY\", \"total\": 7000000.0, \"expected_delivery\": \"2026-04-01\", \"items\": [{\"description\": \"Lens\", \"quantity\": 3.0, \"unit_price\": 1000000.0, \"amount\": 3000000.0}, {\"description\": \"Board\", \"quantity\": 2.0, \"unit_price\": 2000000.0, \"amount\": 4000000.0}]}, \"amount\": 7000000.0, \"currency\": \"JPY\", \"amount_base\": 7000000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 4000000.0, \"vendor_quotes_count\": 2}",
+   "fingerprint": "defe7c0bec2f99390e1f0b326eb3003540594cd6aaa94e8624645224c4cde934",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": [
+      {
+       "table": "purchase_orders",
+       "id": "514000b4-0000-4000-8000-0000000000b4",
+       "changes": {
+        "approval_status": "pending",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": []
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "purchase_orders",
+       "id": "514000b4-0000-4000-8000-0000000000b4",
+       "changes": {
+        "approval_status": "approved",
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "approved_at": "<now>",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      null,
+      "no"
+     ],
+     "diff": [
+      {
+       "table": "purchase_orders",
+       "id": "514000b4-0000-4000-8000-0000000000b4",
+       "changes": {
+        "approval_status": "rejected",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "po_rfq_usd",
+   "entity_type": "purchase_order",
+   "id": "514000b5-0000-4000-8000-0000000000b5",
+   "number": "PO-S14-2",
+   "document_label": "Purchase order PO-S14-2",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/purchase-orders?po=514000b5-0000-4000-8000-0000000000b5",
+   "check_submittable": null,
+   "facts": "{\"number\": \"PO-S14-2\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"currency\": \"USD\", \"total\": 55.5, \"expected_delivery\": null, \"items\": [{\"description\": \"Cable\", \"quantity\": 5.5, \"unit_price\": 10.0909, \"amount\": 55.5}]}",
+   "snapshot": "{\"document\": {\"number\": \"PO-S14-2\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"currency\": \"USD\", \"total\": 55.5, \"expected_delivery\": null, \"items\": [{\"description\": \"Cable\", \"quantity\": 5.5, \"unit_price\": 10.0909, \"amount\": 55.5}]}, \"amount\": 55.5, \"currency\": \"USD\", \"amount_base\": 901902.75, \"fx_rate_base\": 16250.5, \"fx_rate_missing\": false, \"max_line_amount_base\": 901902.75, \"vendor_quotes_count\": 2}",
+   "fingerprint": "25f6ad0281a8055294cb5c101c70e4a024e35274d60ce89265c9b200d637192a",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": [
+      {
+       "table": "purchase_orders",
+       "id": "514000b5-0000-4000-8000-0000000000b5",
+       "changes": {
+        "approval_status": "cancelled",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "po_received",
+   "entity_type": "purchase_order",
+   "id": "514000b6-0000-4000-8000-0000000000b6",
+   "number": "PO-S14-3",
+   "document_label": "Purchase order PO-S14-3",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/purchase-orders?po=514000b6-0000-4000-8000-0000000000b6",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A purchase order with status 'received' cannot be submitted for approval"
+   },
+   "facts": "{\"number\": \"PO-S14-3\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"currency\": \"JPY\", \"total\": 1000.0, \"expected_delivery\": null, \"items\": [{\"description\": \"Screws\", \"quantity\": 100.0, \"unit_price\": 10.0, \"amount\": 1000.0}]}",
+   "snapshot": "{\"document\": {\"number\": \"PO-S14-3\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"currency\": \"JPY\", \"total\": 1000.0, \"expected_delivery\": null, \"items\": [{\"description\": \"Screws\", \"quantity\": 100.0, \"unit_price\": 10.0, \"amount\": 1000.0}]}, \"amount\": 1000.0, \"currency\": \"JPY\", \"amount_base\": 1000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 1000.0, \"vendor_quotes_count\": 0}",
+   "fingerprint": "6ddae287474144f17d6b95411e7de2420248df823dbbe1bcdda07b3f0f1438c6",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "bom_mixed",
+   "entity_type": "bom",
+   "id": "514000c1-0000-4000-8000-0000000000c1",
+   "number": "v2.0",
+   "document_label": "BOM v2.0 for Workstation",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/manufacturing/products?bom=514000c1-0000-4000-8000-0000000000c1",
+   "check_submittable": null,
+   "facts": "{\"product_id\": \"514000be-0000-4000-8000-0000000000be\", \"version\": \"2.0\", \"notes\": \"Cheaper lens\", \"items\": [{\"component\": \"Lens\", \"sku\": \"L1\", \"quantity\": 3.0, \"unit_cost\": 10.25, \"currency\": \"usd\"}, {\"component\": \"Board\", \"sku\": null, \"quantity\": 2.0, \"unit_cost\": 5000.0, \"currency\": \"USD\"}, {\"component\": \"Label\", \"sku\": null, \"quantity\": 1.0, \"unit_cost\": null, \"currency\": \"USD\"}]}",
+   "snapshot": "{\"document\": {\"product_id\": \"514000be-0000-4000-8000-0000000000be\", \"version\": \"2.0\", \"notes\": \"Cheaper lens\", \"items\": [{\"component\": \"Lens\", \"sku\": \"L1\", \"quantity\": 3.0, \"unit_cost\": 10.25, \"currency\": \"usd\"}, {\"component\": \"Board\", \"sku\": null, \"quantity\": 2.0, \"unit_cost\": 5000.0, \"currency\": \"USD\"}, {\"component\": \"Label\", \"sku\": null, \"quantity\": 1.0, \"unit_cost\": null, \"currency\": \"USD\"}]}, \"amount\": 163004703.0, \"currency\": \"JPY\", \"amount_base\": 163004703.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 163004703.0}",
+   "fingerprint": "5556b0d0c43b55f43f661547c347d22ccddb74c5df1a46a078c0012a30d70117",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "boms",
+       "id": "514000c0-0000-4000-8000-0000000000c0",
+       "changes": {
+        "status": "archived",
+        "updated_at": "<now>"
+       }
+      },
+      {
+       "table": "boms",
+       "id": "514000c1-0000-4000-8000-0000000000c1",
+       "changes": {
+        "status": "approved",
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "updated_at": "<now>"
+       }
+      },
+      {
+       "table": "boms",
+       "id": "514000c3-0000-4000-8000-0000000000c3",
+       "changes": {
+        "status": "archived",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "bom_no_rate",
+   "entity_type": "bom",
+   "id": "514000c2-0000-4000-8000-0000000000c2",
+   "number": "v1",
+   "document_label": "BOM v1 for Workstation 2",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/manufacturing/products?bom=514000c2-0000-4000-8000-0000000000c2",
+   "check_submittable": null,
+   "facts": "{\"product_id\": \"514000bf-0000-4000-8000-0000000000bf\", \"version\": \"1\", \"notes\": null, \"items\": [{\"component\": \"Chip\", \"sku\": null, \"quantity\": 1.0, \"unit_cost\": 9.0, \"currency\": \"EUR\"}]}",
+   "snapshot": "{\"document\": {\"product_id\": \"514000bf-0000-4000-8000-0000000000bf\", \"version\": \"1\", \"notes\": null, \"items\": [{\"component\": \"Chip\", \"sku\": null, \"quantity\": 1.0, \"unit_cost\": 9.0, \"currency\": \"EUR\"}]}, \"amount\": 0.0, \"currency\": \"USD\", \"amount_base\": null, \"fx_rate_base\": null, \"fx_rate_missing\": true, \"max_line_amount_base\": null}",
+   "fingerprint": "a37b122e48a83cd70809500270d97612c22349d3c8d1f66f94a8784d6a3db193",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      null,
+      null
+     ],
+     "diff": [
+      {
+       "table": "boms",
+       "id": "514000c2-0000-4000-8000-0000000000c2",
+       "changes": {
+        "status": "approved",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "contractor_request_approved",
+   "entity_type": "contractor_request",
+   "id": "514000c8-0000-4000-8000-0000000000c8",
+   "number": "514000c8",
+   "document_label": "Contractor request (R&D): Label 10k images",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/contractor-requests?request=514000c8-0000-4000-8000-0000000000c8",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A contractor request with status 'approved' cannot be submitted for approval"
+   },
+   "facts": "{\"department\": \"R&D\", \"vendor_type\": \"freelancer\", \"scope_description\": \"Label 10k images\", \"estimated_value\": 10000000.0, \"currency\": \"JPY\", \"needed_by\": \"2026-05-01\"}",
+   "snapshot": "{\"document\": {\"department\": \"R&D\", \"vendor_type\": \"freelancer\", \"scope_description\": \"Label 10k images\", \"estimated_value\": 10000000.0, \"currency\": \"JPY\", \"needed_by\": \"2026-05-01\"}, \"amount\": 10000000.0, \"currency\": \"JPY\", \"amount_base\": 10000000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 10000000.0}",
+   "fingerprint": "90e6ada7f9adf55634357388a9ca99403102803b52c87f6ed848fd38386281f2",
+   "hooks": []
+  },
+  {
+   "name": "contractor_request_pending",
+   "entity_type": "contractor_request",
+   "id": "514000c9-0000-4000-8000-0000000000c9",
+   "number": "514000c9",
+   "document_label": "Contractor request (n/a): SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/contractor-requests?request=514000c9-0000-4000-8000-0000000000c9",
+   "check_submittable": null,
+   "facts": "{\"department\": null, \"vendor_type\": null, \"scope_description\": \"SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\", \"estimated_value\": 1000.0, \"currency\": \"USD\", \"needed_by\": null}",
+   "snapshot": "{\"document\": {\"department\": null, \"vendor_type\": null, \"scope_description\": \"SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\", \"estimated_value\": 1000.0, \"currency\": \"USD\", \"needed_by\": null}, \"amount\": 1000.0, \"currency\": \"USD\", \"amount_base\": 16250500.0, \"fx_rate_base\": 16250.5, \"fx_rate_missing\": false, \"max_line_amount_base\": 16250500.0}",
+   "fingerprint": "2f610b8e320cd1f88c39573864ddec15d88d7ab595844c604c416292b5afa429",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": []
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      "fine"
+     ],
+     "diff": [
+      {
+       "table": "contractor_requests",
+       "id": "514000c9-0000-4000-8000-0000000000c9",
+       "changes": {
+        "status": "approved",
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "approved_at": "<now>",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      null,
+      "no"
+     ],
+     "diff": [
+      {
+       "table": "contractor_requests",
+       "id": "514000c9-0000-4000-8000-0000000000c9",
+       "changes": {
+        "status": "rejected",
+        "approved_at": "<now>",
+        "rejection_reason": "no",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "work_order_above",
+   "entity_type": "work_order",
+   "id": "514000d2-0000-4000-8000-0000000000d2",
+   "number": "WO-S14-1",
+   "document_label": "Work order WO-S14-1",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/work-orders?wo=514000d2-0000-4000-8000-0000000000d2",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A work order with status 'completed' cannot be submitted for approval"
+   },
+   "facts": "{\"number\": \"WO-S14-1\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"title\": \"Labeling\", \"scope\": \"10k images\", \"agreed_value\": 12000000.0, \"agreed_rate\": null, \"currency\": \"JPY\", \"start_date\": \"2026-03-01\", \"end_date\": \"2026-04-01\", \"contractor_request_id\": \"514000c8-0000-4000-8000-0000000000c8\"}",
+   "snapshot": "{\"document\": {\"number\": \"WO-S14-1\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"title\": \"Labeling\", \"scope\": \"10k images\", \"agreed_value\": 12000000.0, \"agreed_rate\": null, \"currency\": \"JPY\", \"start_date\": \"2026-03-01\", \"end_date\": \"2026-04-01\", \"contractor_request_id\": \"514000c8-0000-4000-8000-0000000000c8\"}, \"amount\": 12000000.0, \"currency\": \"JPY\", \"amount_base\": 12000000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 12000000.0, \"has_approved_contractor_request\": true, \"above_cr_estimate\": true}",
+   "fingerprint": "7308294e487f22b900411193fe6de4412b7f355e99ac1dd1987078ded0c3da26",
+   "hooks": []
+  },
+  {
+   "name": "work_order_equal_usd",
+   "entity_type": "work_order",
+   "id": "514000d3-0000-4000-8000-0000000000d3",
+   "number": "WO-S14-2",
+   "document_label": "Work order WO-S14-2",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/work-orders?wo=514000d3-0000-4000-8000-0000000000d3",
+   "check_submittable": null,
+   "facts": "{\"number\": \"WO-S14-2\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"title\": \"Equal\", \"scope\": null, \"agreed_value\": 625.0, \"agreed_rate\": null, \"currency\": \"USD\", \"start_date\": \"2026-01-02\", \"end_date\": null, \"contractor_request_id\": \"514000c8-0000-4000-8000-0000000000c8\"}",
+   "snapshot": "{\"document\": {\"number\": \"WO-S14-2\", \"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"title\": \"Equal\", \"scope\": null, \"agreed_value\": 625.0, \"agreed_rate\": null, \"currency\": \"USD\", \"start_date\": \"2026-01-02\", \"end_date\": null, \"contractor_request_id\": \"514000c8-0000-4000-8000-0000000000c8\"}, \"amount\": 625.0, \"currency\": \"USD\", \"amount_base\": 10000000.0, \"fx_rate_base\": 16000.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 10000000.0, \"has_approved_contractor_request\": true, \"above_cr_estimate\": false}",
+   "fingerprint": "7514eca20a010e158ff4a4b345936544cc386db34a39ea754be92de2a38c3515",
+   "hooks": []
+  },
+  {
+   "name": "work_order_pending_cr",
+   "entity_type": "work_order",
+   "id": "514000d4-0000-4000-8000-0000000000d4",
+   "number": "WO-S14-3",
+   "document_label": "Work order WO-S14-3",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/work-orders?wo=514000d4-0000-4000-8000-0000000000d4",
+   "check_submittable": null,
+   "facts": "{\"number\": \"WO-S14-3\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"title\": \"Pending CR\", \"scope\": null, \"agreed_value\": null, \"agreed_rate\": 150000.0, \"currency\": \"JPY\", \"start_date\": null, \"end_date\": null, \"contractor_request_id\": \"514000c9-0000-4000-8000-0000000000c9\"}",
+   "snapshot": "{\"document\": {\"number\": \"WO-S14-3\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"title\": \"Pending CR\", \"scope\": null, \"agreed_value\": null, \"agreed_rate\": 150000.0, \"currency\": \"JPY\", \"start_date\": null, \"end_date\": null, \"contractor_request_id\": \"514000c9-0000-4000-8000-0000000000c9\"}, \"amount\": 0.0, \"currency\": \"JPY\", \"amount_base\": 0.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 0.0, \"has_approved_contractor_request\": false, \"above_cr_estimate\": false}",
+   "fingerprint": "9258b5dc9c4c4de36be9242bc49da3564eb42d1a98748f09b17d41617019393a",
+   "hooks": []
+  },
+  {
+   "name": "work_order_no_cr",
+   "entity_type": "work_order",
+   "id": "514000d5-0000-4000-8000-0000000000d5",
+   "number": "WO-S14-4",
+   "document_label": "Work order WO-S14-4",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/work-orders?wo=514000d5-0000-4000-8000-0000000000d5",
+   "check_submittable": null,
+   "facts": "{\"number\": \"WO-S14-4\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"title\": \"No CR\", \"scope\": null, \"agreed_value\": 10.0, \"agreed_rate\": null, \"currency\": \"JPY\", \"start_date\": null, \"end_date\": null, \"contractor_request_id\": null}",
+   "snapshot": "{\"document\": {\"number\": \"WO-S14-4\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"title\": \"No CR\", \"scope\": null, \"agreed_value\": 10.0, \"agreed_rate\": null, \"currency\": \"JPY\", \"start_date\": null, \"end_date\": null, \"contractor_request_id\": null}, \"amount\": 10.0, \"currency\": \"JPY\", \"amount_base\": 10.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 10.0, \"has_approved_contractor_request\": false, \"above_cr_estimate\": false}",
+   "fingerprint": "e58bed28e5fc6a002707d730ba747097d67f78f4ab25b88708c7f3cced5f3234",
+   "hooks": []
+  },
+  {
+   "name": "work_order_cr_no_estimate",
+   "entity_type": "work_order",
+   "id": "514000d6-0000-4000-8000-0000000000d6",
+   "number": "WO-S14-5",
+   "document_label": "Work order WO-S14-5",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/work-orders?wo=514000d6-0000-4000-8000-0000000000d6",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A work order with status 'in_progress' cannot be submitted for approval"
+   },
+   "facts": "{\"number\": \"WO-S14-5\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"title\": \"CR no estimate\", \"scope\": null, \"agreed_value\": 10.0, \"agreed_rate\": null, \"currency\": \"JPY\", \"start_date\": null, \"end_date\": null, \"contractor_request_id\": \"514000ca-0000-4000-8000-0000000000ca\"}",
+   "snapshot": "{\"document\": {\"number\": \"WO-S14-5\", \"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"title\": \"CR no estimate\", \"scope\": null, \"agreed_value\": 10.0, \"agreed_rate\": null, \"currency\": \"JPY\", \"start_date\": null, \"end_date\": null, \"contractor_request_id\": \"514000ca-0000-4000-8000-0000000000ca\"}, \"amount\": 10.0, \"currency\": \"JPY\", \"amount_base\": 10.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 10.0, \"has_approved_contractor_request\": true, \"above_cr_estimate\": false}",
+   "fingerprint": "38d22a945f94d43e83f2ed1888dee55a684a39a590bdb5e8134dfc9cf06f0f10",
+   "hooks": []
+  },
+  {
+   "name": "vendor_invoice_wo",
+   "entity_type": "vendor_invoice",
+   "id": "514000dc-0000-4000-8000-0000000000dc",
+   "number": "VI-S14-1",
+   "document_label": "Vendor invoice VI-S14-1",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/invoices?invoice=514000dc-0000-4000-8000-0000000000dc",
+   "check_submittable": null,
+   "facts": "{\"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"vendor_invoice_number\": \"VI-S14-1\", \"invoice_date\": \"2026-04-02\", \"amount\": 6000000.0, \"currency\": \"JPY\", \"work_order_id\": \"514000d2-0000-4000-8000-0000000000d2\", \"purchase_order_id\": null}",
+   "snapshot": "{\"document\": {\"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"vendor_invoice_number\": \"VI-S14-1\", \"invoice_date\": \"2026-04-02\", \"amount\": 6000000.0, \"currency\": \"JPY\", \"work_order_id\": \"514000d2-0000-4000-8000-0000000000d2\", \"purchase_order_id\": null}, \"amount\": 6000000.0, \"currency\": \"JPY\", \"amount_base\": 6000000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 6000000.0, \"has_closed_wo_po\": true, \"responsible_user_id\": \"51400003-0000-4000-8000-000000000003\"}",
+   "fingerprint": "a2923f9c5045caa778c83e66f2744a048eb3193dbbc37331fd668fcf3b8ed19a",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": [
+      {
+       "table": "vendor_invoices",
+       "id": "514000dc-0000-4000-8000-0000000000dc",
+       "changes": {
+        "status": "under_review",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": []
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      "51400001-0000-4000-8000-000000000001",
+      "dup"
+     ],
+     "diff": [
+      {
+       "table": "vendor_invoices",
+       "id": "514000dc-0000-4000-8000-0000000000dc",
+       "changes": {
+        "status": "rejected",
+        "rejection_reason": "dup",
+        "reviewed_by_id": "51400001-0000-4000-8000-000000000001",
+        "reviewed_at": "<now>",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "vendor_invoice_po",
+   "entity_type": "vendor_invoice",
+   "id": "514000dd-0000-4000-8000-0000000000dd",
+   "number": "514000dd",
+   "document_label": "Vendor invoice 514000dd",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/invoices?invoice=514000dd-0000-4000-8000-0000000000dd",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A vendor invoice with status 'under_review' cannot be submitted for approval"
+   },
+   "facts": "{\"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"vendor_invoice_number\": null, \"invoice_date\": \"2026-03-04\", \"amount\": 1000.0, \"currency\": \"JPY\", \"work_order_id\": \"514000d3-0000-4000-8000-0000000000d3\", \"purchase_order_id\": \"514000b6-0000-4000-8000-0000000000b6\"}",
+   "snapshot": "{\"document\": {\"vendor_id\": \"514000aa-0000-4000-8000-0000000000aa\", \"vendor_invoice_number\": null, \"invoice_date\": \"2026-03-04\", \"amount\": 1000.0, \"currency\": \"JPY\", \"work_order_id\": \"514000d3-0000-4000-8000-0000000000d3\", \"purchase_order_id\": \"514000b6-0000-4000-8000-0000000000b6\"}, \"amount\": 1000.0, \"currency\": \"JPY\", \"amount_base\": 1000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 1000.0, \"has_closed_wo_po\": true, \"responsible_user_id\": \"51400002-0000-4000-8000-000000000002\"}",
+   "fingerprint": "7466a92072642cd2cdb5635ea22252fb4ac5edc141689c41e3bf21a7067c3ebf",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": [
+      {
+       "table": "vendor_invoices",
+       "id": "514000dd-0000-4000-8000-0000000000dd",
+       "changes": {
+        "status": "submitted",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "purchase_order_items",
+       "id": "514000ba-0000-4000-8000-0000000000ba",
+       "changes": {
+        "quantity_invoiced": 100.0,
+        "updated_at": "<now>"
+       }
+      },
+      {
+       "table": "vendor_invoices",
+       "id": "514000dd-0000-4000-8000-0000000000dd",
+       "changes": {
+        "status": "approved",
+        "reviewed_by_id": "51400001-0000-4000-8000-000000000001",
+        "reviewed_at": "<now>",
+        "exchange_rate": 1.0,
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "vendor_invoice_none_usd",
+   "entity_type": "vendor_invoice",
+   "id": "514000de-0000-4000-8000-0000000000de",
+   "number": "VI-S14-3",
+   "document_label": "Vendor invoice VI-S14-3",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/invoices?invoice=514000de-0000-4000-8000-0000000000de",
+   "check_submittable": null,
+   "facts": "{\"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"vendor_invoice_number\": \"VI-S14-3\", \"invoice_date\": \"2026-03-04\", \"amount\": 50.0, \"currency\": \"USD\", \"work_order_id\": null, \"purchase_order_id\": null}",
+   "snapshot": "{\"document\": {\"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"vendor_invoice_number\": \"VI-S14-3\", \"invoice_date\": \"2026-03-04\", \"amount\": 50.0, \"currency\": \"USD\", \"work_order_id\": null, \"purchase_order_id\": null}, \"amount\": 50.0, \"currency\": \"USD\", \"amount_base\": 812525.0, \"fx_rate_base\": 16250.5, \"fx_rate_missing\": false, \"max_line_amount_base\": 812525.0, \"has_closed_wo_po\": false, \"responsible_user_id\": null}",
+   "fingerprint": "b79d36efe4befa2116c9c03bd37262aaa12610ef9350b368ce84717018100472",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "vendor_invoices",
+       "id": "514000de-0000-4000-8000-0000000000de",
+       "changes": {
+        "status": "approved",
+        "reviewed_by_id": "51400001-0000-4000-8000-000000000001",
+        "reviewed_at": "<now>",
+        "exchange_rate": 16250.5,
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "vendor_invoice_paid",
+   "entity_type": "vendor_invoice",
+   "id": "514000df-0000-4000-8000-0000000000df",
+   "number": "VI-S14-4",
+   "document_label": "Vendor invoice VI-S14-4",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/vendor-mgmt/invoices?invoice=514000df-0000-4000-8000-0000000000df",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A vendor invoice with status 'paid' cannot be submitted for approval"
+   },
+   "facts": "{\"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"vendor_invoice_number\": \"VI-S14-4\", \"invoice_date\": \"2026-03-04\", \"amount\": 50.0, \"currency\": \"JPY\", \"work_order_id\": \"514000d5-0000-4000-8000-0000000000d5\", \"purchase_order_id\": null}",
+   "snapshot": "{\"document\": {\"vendor_id\": \"514000ab-0000-4000-8000-0000000000ab\", \"vendor_invoice_number\": \"VI-S14-4\", \"invoice_date\": \"2026-03-04\", \"amount\": 50.0, \"currency\": \"JPY\", \"work_order_id\": \"514000d5-0000-4000-8000-0000000000d5\", \"purchase_order_id\": null}, \"amount\": 50.0, \"currency\": \"JPY\", \"amount_base\": 50.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 50.0, \"has_closed_wo_po\": false, \"responsible_user_id\": \"51400003-0000-4000-8000-000000000003\"}",
+   "fingerprint": "7701f5b7eceb0a3012619cfa8bce08d9998cd38b8bd81635dd8c2df74de59147",
+   "hooks": []
+  },
+  {
+   "name": "content",
+   "entity_type": "marketing_content",
+   "id": "514000e6-0000-4000-8000-0000000000e6",
+   "number": "514000e6",
+   "document_label": "Content: Case study: héllo ✓",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/marketing/content?item=514000e6-0000-4000-8000-0000000000e6",
+   "check_submittable": null,
+   "facts": "{\"title\": \"Case study: h\\u00e9llo \\u2713\", \"content_type\": \"case_study\", \"platform\": \"blog\", \"planned_date\": \"2026-05-05\", \"content_body_sha256\": \"03489fd130d0da6eb4f6de19613f9533eb566e8c1fdcd3c950a4c2d1d77773a1\", \"campaign_id\": null}",
+   "snapshot": "{\"document\": {\"title\": \"Case study: h\\u00e9llo \\u2713\", \"content_type\": \"case_study\", \"platform\": \"blog\", \"planned_date\": \"2026-05-05\", \"content_body_sha256\": \"03489fd130d0da6eb4f6de19613f9533eb566e8c1fdcd3c950a4c2d1d77773a1\", \"campaign_id\": null}, \"content_type\": \"case_study\"}",
+   "fingerprint": "d15d4ce09b8cfb187b486fddb47929101993d5012c5af8e52d4da52dc92dcf25",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": [
+      {
+       "table": "content_calendar",
+       "id": "514000e6-0000-4000-8000-0000000000e6",
+       "changes": {
+        "status": "review",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": []
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "content_calendar",
+       "id": "514000e6-0000-4000-8000-0000000000e6",
+       "changes": {
+        "status": "approved",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "content_review",
+   "entity_type": "marketing_content",
+   "id": "514000e7-0000-4000-8000-0000000000e7",
+   "number": "514000e7",
+   "document_label": "Content: Post",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/marketing/content?item=514000e7-0000-4000-8000-0000000000e7",
+   "check_submittable": null,
+   "facts": "{\"title\": \"Post\", \"content_type\": null, \"platform\": null, \"planned_date\": null, \"content_body_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"campaign_id\": null}",
+   "snapshot": "{\"document\": {\"title\": \"Post\", \"content_type\": null, \"platform\": null, \"planned_date\": null, \"content_body_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"campaign_id\": null}, \"content_type\": null}",
+   "fingerprint": "6c76c5aa00ea356932308175a53af708417119ee3f0c6dd335d7030f59a886ed",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": [
+      {
+       "table": "content_calendar",
+       "id": "514000e7-0000-4000-8000-0000000000e7",
+       "changes": {
+        "status": "in_progress",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "content_calendar",
+       "id": "514000e7-0000-4000-8000-0000000000e7",
+       "changes": {
+        "status": "in_progress",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "content_published",
+   "entity_type": "marketing_content",
+   "id": "514000e8-0000-4000-8000-0000000000e8",
+   "number": "514000e8",
+   "document_label": "Content: Done",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/marketing/content?item=514000e8-0000-4000-8000-0000000000e8",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A content with status 'published' cannot be submitted for approval"
+   },
+   "facts": "{\"title\": \"Done\", \"content_type\": \"linkedin_post\", \"platform\": null, \"planned_date\": null, \"content_body_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"campaign_id\": null}",
+   "snapshot": "{\"document\": {\"title\": \"Done\", \"content_type\": \"linkedin_post\", \"platform\": null, \"planned_date\": null, \"content_body_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"campaign_id\": null}, \"content_type\": \"linkedin_post\"}",
+   "fingerprint": "b16766fbf54e5e0dba5f967135bfdb1ecf2726653395906d7d2018d1760b2b17",
+   "hooks": []
+  },
+  {
+   "name": "hiring",
+   "entity_type": "hiring_request",
+   "id": "514000f0-0000-4000-8000-0000000000f0",
+   "number": "514000f0",
+   "document_label": "Headcount request: ML Engineer (R&D)",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/hr/hiring?request=514000f0-0000-4000-8000-0000000000f0",
+   "check_submittable": null,
+   "facts": "{\"title\": \"ML Engineer\", \"department\": \"R&D\", \"employment_type\": \"permanent\", \"headcount\": 2, \"urgency\": \"high\", \"notes\": \"Two seats\", \"budget_approved\": false}",
+   "snapshot": "{\"document\": {\"title\": \"ML Engineer\", \"department\": \"R&D\", \"employment_type\": \"permanent\", \"headcount\": 2, \"urgency\": \"high\", \"notes\": \"Two seats\", \"budget_approved\": false}}",
+   "fingerprint": "7deb120fc9e51c657f1800fe3009bb3eb048b426ae2dbfbc30aeb2c8fadf1fe2",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": []
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "hiring_requests",
+       "id": "514000f0-0000-4000-8000-0000000000f0",
+       "changes": {
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "approved_at": "<now>",
+        "status": "approved",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "hiring_requests",
+       "id": "514000f0-0000-4000-8000-0000000000f0",
+       "changes": {
+        "status": "on_hold",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "hiring_approved",
+   "entity_type": "hiring_request",
+   "id": "514000f1-0000-4000-8000-0000000000f1",
+   "number": "514000f1",
+   "document_label": "Headcount request: Intern (Ops)",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/hr/hiring?request=514000f1-0000-4000-8000-0000000000f1",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A headcount request with status 'approved' cannot be submitted for approval"
+   },
+   "facts": "{\"title\": \"Intern\", \"department\": \"Ops\", \"employment_type\": null, \"headcount\": 1, \"urgency\": \"normal\", \"notes\": null, \"budget_approved\": false}",
+   "snapshot": "{\"document\": {\"title\": \"Intern\", \"department\": \"Ops\", \"employment_type\": null, \"headcount\": 1, \"urgency\": \"normal\", \"notes\": null, \"budget_approved\": false}}",
+   "fingerprint": "b90806e81e56abcb4534cb08b390cd42a70d3a22c85f0b7c4c65d039a2ac6b81",
+   "hooks": []
+  },
+  {
+   "name": "offer",
+   "entity_type": "offer_letter",
+   "id": "514000f4-0000-4000-8000-0000000000f4",
+   "number": "OL-S14-1",
+   "document_label": "Offer letter OL-S14-1: ML Engineer",
+   "revision": 1,
+   "expiry_date": "2026-05-20",
+   "link": "/hr/offer-letters/514000f4-0000-4000-8000-0000000000f4",
+   "check_submittable": null,
+   "facts": "{\"number\": \"OL-S14-1\", \"applicant_id\": \"514000f3-0000-4000-8000-0000000000f3\", \"position_title\": \"ML Engineer\", \"department\": \"R&D\", \"employment_type\": \"permanent\", \"salary_gross_monthly\": 25000000.0, \"salary_currency\": \"JPY\", \"start_date\": \"2026-06-01\", \"probation_months\": 3, \"benefits\": \"Health insurance\", \"other_terms\": null, \"acceptance_deadline\": \"2026-05-20\", \"reports_to_employee_id\": null}",
+   "snapshot": "{\"document\": {\"number\": \"OL-S14-1\", \"applicant_id\": \"514000f3-0000-4000-8000-0000000000f3\", \"position_title\": \"ML Engineer\", \"department\": \"R&D\", \"employment_type\": \"permanent\", \"salary_gross_monthly\": 25000000.0, \"salary_currency\": \"JPY\", \"start_date\": \"2026-06-01\", \"probation_months\": 3, \"benefits\": \"Health insurance\", \"other_terms\": null, \"acceptance_deadline\": \"2026-05-20\", \"reports_to_employee_id\": null}, \"amount\": 25000000.0, \"currency\": \"JPY\", \"amount_base\": 25000000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 25000000.0}",
+   "fingerprint": "4032fcf525a62bf3500737461a2a8f4f68b0bfaf602161d1444ea30e971803a0",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "offer_usd_sent",
+   "entity_type": "offer_letter",
+   "id": "514000f5-0000-4000-8000-0000000000f5",
+   "number": "OL-S14-2",
+   "document_label": "Offer letter OL-S14-2: Advisor",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/hr/offer-letters/514000f5-0000-4000-8000-0000000000f5",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A offer letter with status 'sent' cannot be submitted for approval"
+   },
+   "facts": "{\"number\": \"OL-S14-2\", \"applicant_id\": \"514000f3-0000-4000-8000-0000000000f3\", \"position_title\": \"Advisor\", \"department\": null, \"employment_type\": null, \"salary_gross_monthly\": 1500.0, \"salary_currency\": \"USD\", \"start_date\": null, \"probation_months\": 3, \"benefits\": null, \"other_terms\": null, \"acceptance_deadline\": null, \"reports_to_employee_id\": null}",
+   "snapshot": "{\"document\": {\"number\": \"OL-S14-2\", \"applicant_id\": \"514000f3-0000-4000-8000-0000000000f3\", \"position_title\": \"Advisor\", \"department\": null, \"employment_type\": null, \"salary_gross_monthly\": 1500.0, \"salary_currency\": \"USD\", \"start_date\": null, \"probation_months\": 3, \"benefits\": null, \"other_terms\": null, \"acceptance_deadline\": null, \"reports_to_employee_id\": null}, \"amount\": 1500.0, \"currency\": \"USD\", \"amount_base\": 24375750.0, \"fx_rate_base\": 16250.5, \"fx_rate_missing\": false, \"max_line_amount_base\": 24375750.0}",
+   "fingerprint": "d757e70a88e851f390dcfad287077cf35927c55d1b212455542f518300d38f00",
+   "hooks": []
+  },
+  {
+   "name": "payroll",
+   "entity_type": "payroll_run",
+   "id": "514000f6-0000-4000-8000-0000000000f6",
+   "number": "514000f6",
+   "document_label": "Payroll 03/2026",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/hr/payroll?run=514000f6-0000-4000-8000-0000000000f6",
+   "check_submittable": null,
+   "facts": "{\"month\": 3, \"year\": 2026, \"currency\": \"JPY\", \"total_gross\": 100000000.0, \"total_net\": 90000000.0, \"total_income_tax\": 5000000.0, \"total_contributions\": 5000000.0}",
+   "snapshot": "{\"document\": {\"month\": 3, \"year\": 2026, \"currency\": \"JPY\", \"total_gross\": 100000000.0, \"total_net\": 90000000.0, \"total_income_tax\": 5000000.0, \"total_contributions\": 5000000.0}, \"amount\": 100000000.0, \"currency\": \"JPY\", \"amount_base\": 100000000.0, \"fx_rate_base\": 1.0, \"fx_rate_missing\": false, \"max_line_amount_base\": 100000000.0}",
+   "fingerprint": "3dc5e5062b26cd899b2355e02297bc5b9bbaa2cc9cbf707df6d547d9df1d43f3",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "payroll_runs",
+       "id": "514000f6-0000-4000-8000-0000000000f6",
+       "changes": {
+        "status": "approved",
+        "approved_by_id": "51400001-0000-4000-8000-000000000001",
+        "approved_at": "<now>",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "payroll_usd",
+   "entity_type": "payroll_run",
+   "id": "514000f7-0000-4000-8000-0000000000f7",
+   "number": "514000f7",
+   "document_label": "Payroll 11/2025",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/hr/payroll?run=514000f7-0000-4000-8000-0000000000f7",
+   "check_submittable": null,
+   "facts": "{\"month\": 11, \"year\": 2025, \"currency\": \"USD\", \"total_gross\": 1000.0, \"total_net\": 0.0, \"total_income_tax\": 0.0, \"total_contributions\": 0.0}",
+   "snapshot": "{\"document\": {\"month\": 11, \"year\": 2025, \"currency\": \"USD\", \"total_gross\": 1000.0, \"total_net\": 0.0, \"total_income_tax\": 0.0, \"total_contributions\": 0.0}, \"amount\": 1000.0, \"currency\": \"USD\", \"amount_base\": null, \"fx_rate_base\": null, \"fx_rate_missing\": true, \"max_line_amount_base\": null}",
+   "fingerprint": "ad19ce5c727d5b750ff8a0631c6af11dd166b73bf3a9b2668a2f70f385173db8",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      null,
+      null
+     ],
+     "diff": [
+      {
+       "table": "payroll_runs",
+       "id": "514000f7-0000-4000-8000-0000000000f7",
+       "changes": {
+        "status": "approved",
+        "approved_at": "<now>",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "sop_revision",
+   "entity_type": "sop_article",
+   "id": "514000fb-0000-4000-8000-0000000000fb",
+   "number": "sop-live-rev",
+   "document_label": "SOP sop-live-rev: SOP Live",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/knowledge/articles/514000fb-0000-4000-8000-0000000000fb",
+   "check_submittable": null,
+   "facts": "{\"title\": \"SOP Live\", \"sop_code\": null, \"version\": \"1.1\", \"content_sha256\": \"b4fa5ebb0b1672856c87c8fcd9b6962b5683b615d511d5027ca85c7f24fa80cc\", \"sop_steps_sha256\": \"82486f74a86a7f0ebd5a4cfe0d0dc7d04e8b1002beb3627c28dbc1a81f5c4932\"}",
+   "snapshot": "{\"document\": {\"title\": \"SOP Live\", \"sop_code\": null, \"version\": \"1.1\", \"content_sha256\": \"b4fa5ebb0b1672856c87c8fcd9b6962b5683b615d511d5027ca85c7f24fa80cc\", \"sop_steps_sha256\": \"82486f74a86a7f0ebd5a4cfe0d0dc7d04e8b1002beb3627c28dbc1a81f5c4932\"}}",
+   "fingerprint": "d3f67ad2d3706f14dfa93fcaf85c5100bc8a2ef501446a19d78b85bfa59a6f09",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": []
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": [
+      {
+       "table": "kb_articles",
+       "id": "514000fb-0000-4000-8000-0000000000fb",
+       "changes": {
+        "status": "draft",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "kb_article_revisions",
+       "new": {
+        "article_id": "514000fa-0000-4000-8000-0000000000fa",
+        "version": "1.0",
+        "content_snapshot": "Old body",
+        "change_summary": "Replaced by approved revision 1.1",
+        "changed_by_id": "51400001-0000-4000-8000-000000000001",
+        "id": "<new:0>",
+        "created_at": "<now>",
+        "updated_at": "<now>"
+       }
+      },
+      {
+       "table": "kb_articles",
+       "id": "514000fa-0000-4000-8000-0000000000fa",
+       "changes": {
+        "content": "New body ✓",
+        "summary": "Sum",
+        "sop_owner_role": "ops",
+        "sop_trigger": "New site",
+        "sop_steps": [
+         {
+          "e": 10000000000000000000000,
+          "f": 1e-07,
+          "n": null,
+          "ok": true,
+          "big": 12345678901234567890,
+          "list": [
+           1,
+           2.0,
+           "x"
+          ],
+          "step": 1,
+          "text": "Check \"laptop\" ✓ it's",
+          "weight": 1.5
+         }
+        ],
+        "version": "1.1",
+        "version_notes": "Tighter",
+        "access_level": "internal",
+        "is_private": true,
+        "tags": [
+         "a",
+         "b"
+        ],
+        "published_by_id": "51400001-0000-4000-8000-000000000001",
+        "author_signed_at": "2026-02-01T01:02:03.456789+00:00",
+        "author_signature_url": "/sig/a.png",
+        "owner_signed_by_id": "51400001-0000-4000-8000-000000000001",
+        "owner_signed_at": "2026-02-01T01:02:03.456789+00:00",
+        "owner_signature_url": "/sig/c.png",
+        "updated_at": "<now>"
+       }
+      },
+      {
+       "table": "kb_articles",
+       "id": "514000fb-0000-4000-8000-0000000000fb",
+       "changes": {
+        "status": "archived",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "kb_articles",
+       "id": "514000fb-0000-4000-8000-0000000000fb",
+       "changes": {
+        "status": "draft",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "sop_unsigned",
+   "entity_type": "sop_article",
+   "id": "514000fc-0000-4000-8000-0000000000fc",
+   "number": "sop-unsigned",
+   "document_label": "SOP sop-unsigned: SOP Unsigned",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/knowledge/articles/514000fc-0000-4000-8000-0000000000fc",
+   "check_submittable": null,
+   "facts": "{\"title\": \"SOP Unsigned\", \"sop_code\": null, \"version\": \"1.0\", \"content_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"sop_steps_sha256\": \"dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91\"}",
+   "snapshot": "{\"document\": {\"title\": \"SOP Unsigned\", \"sop_code\": null, \"version\": \"1.0\", \"content_sha256\": \"e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855\", \"sop_steps_sha256\": \"dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91\"}}",
+   "fingerprint": "facbc9629649aead54762042a0b295b31cbd60a115a02abf2a1a6edac21b3d2c",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "sop_guide",
+   "entity_type": "sop_article",
+   "id": "514000fd-0000-4000-8000-0000000000fd",
+   "number": "guide-1",
+   "document_label": "SOP guide-1: Guide",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/knowledge/articles/514000fd-0000-4000-8000-0000000000fd",
+   "check_submittable": {
+    "status": 400,
+    "detail": "Only SOP articles go through publication approval"
+   },
+   "facts": "{\"title\": \"Guide\", \"sop_code\": null, \"version\": \"1.0\", \"content_sha256\": \"2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881\", \"sop_steps_sha256\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\"}",
+   "snapshot": "{\"document\": {\"title\": \"Guide\", \"sop_code\": null, \"version\": \"1.0\", \"content_sha256\": \"2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881\", \"sop_steps_sha256\": \"4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945\"}}",
+   "fingerprint": "8f3ffc1e6209431b12dc6194de183029fc2bbfebf9d559fd6228bfd60492755d",
+   "hooks": []
+  },
+  {
+   "name": "sop_new",
+   "entity_type": "sop_article",
+   "id": "514000fe-0000-4000-8000-0000000000fe",
+   "number": "sop-new",
+   "document_label": "SOP sop-new: SOP New",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/knowledge/articles/514000fe-0000-4000-8000-0000000000fe",
+   "check_submittable": null,
+   "facts": "{\"title\": \"SOP New\", \"sop_code\": null, \"version\": \"1.0\", \"content_sha256\": \"6ccaa6415b5ee449e3c5c716f57b4608ebe3b780f5aa6b077bc5d8eee5d961f9\", \"sop_steps_sha256\": \"84579c58e8f8d53bf36db42508f63ae618986ea7592905d09aea984d873ebe9c\"}",
+   "snapshot": "{\"document\": {\"title\": \"SOP New\", \"sop_code\": null, \"version\": \"1.0\", \"content_sha256\": \"6ccaa6415b5ee449e3c5c716f57b4608ebe3b780f5aa6b077bc5d8eee5d961f9\", \"sop_steps_sha256\": \"84579c58e8f8d53bf36db42508f63ae618986ea7592905d09aea984d873ebe9c\"}}",
+   "fingerprint": "71ca903eccf99aa8dc2890070d661517f52b80794599c12972505638a61d41f7",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      null,
+      null
+     ],
+     "diff": [
+      {
+       "table": "kb_articles",
+       "id": "514000fe-0000-4000-8000-0000000000fe",
+       "changes": {
+        "status": "published",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "kb_articles",
+       "id": "514000fe-0000-4000-8000-0000000000fe",
+       "changes": {
+        "status": "published",
+        "published_by_id": "51400001-0000-4000-8000-000000000001",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "sop_live",
+   "entity_type": "sop_article",
+   "id": "514000fa-0000-4000-8000-0000000000fa",
+   "number": "SOP-S14-1",
+   "document_label": "SOP SOP-S14-1: SOP Live",
+   "revision": 1,
+   "expiry_date": null,
+   "link": "/knowledge/articles/514000fa-0000-4000-8000-0000000000fa",
+   "check_submittable": {
+    "status": 400,
+    "detail": "A sop with status 'published' cannot be submitted for approval"
+   },
+   "facts": "{\"title\": \"SOP Live\", \"sop_code\": \"SOP-S14-1\", \"version\": \"1.0\", \"content_sha256\": \"5fc3cba3b3a58d3daf31974c6feebd95e8c93293a60a2ece66d973ba6779715a\", \"sop_steps_sha256\": \"243186be413b5337140b2a362e21c097ed3a1ac43b9458011da533df151aef5b\"}",
+   "snapshot": "{\"document\": {\"title\": \"SOP Live\", \"sop_code\": \"SOP-S14-1\", \"version\": \"1.0\", \"content_sha256\": \"5fc3cba3b3a58d3daf31974c6feebd95e8c93293a60a2ece66d973ba6779715a\", \"sop_steps_sha256\": \"243186be413b5337140b2a362e21c097ed3a1ac43b9458011da533df151aef5b\"}}",
+   "fingerprint": "5c253e337819ad1007a42fc996d5454d9397f2cedc7e59d7c4869fe42563665e",
+   "hooks": []
+  },
+  {
+   "name": "proposal",
+   "entity_type": "sales_document",
+   "id": "51400104-0000-4000-8000-000000000104",
+   "number": "SP-S14-1",
+   "document_label": "Solution Proposal SP-S14-1: Smart city",
+   "revision": 1,
+   "expiry_date": "2026-03-31",
+   "link": "/sales/proposals/51400104-0000-4000-8000-000000000104",
+   "check_submittable": null,
+   "facts": "{\"number\": \"SP-S14-1\", \"title\": \"Smart city\", \"language\": \"en\", \"deal_id\": \"5140000c-0000-4000-8000-00000000000c\", \"quotations\": [{\"number\": \"Q-S14-001\", \"total\": \"6549000.00\", \"currency\": \"JPY\"}, {\"number\": \"Q-S14-002 Rev. 2\", \"total\": \"2292.72\", \"currency\": \"USD\"}], \"content_sha256\": \"07879a6b0c1dc81189e4e91bae99627be6a63842629fb09780d4e9a2db1263d8\"}",
+   "snapshot": "{\"document\": {\"number\": \"SP-S14-1\", \"title\": \"Smart city\", \"language\": \"en\", \"deal_id\": \"5140000c-0000-4000-8000-00000000000c\", \"quotations\": [{\"number\": \"Q-S14-001\", \"total\": \"6549000.00\", \"currency\": \"JPY\"}, {\"number\": \"Q-S14-002 Rev. 2\", \"total\": \"2292.72\", \"currency\": \"USD\"}], \"content_sha256\": \"07879a6b0c1dc81189e4e91bae99627be6a63842629fb09780d4e9a2db1263d8\"}}",
+   "fingerprint": "97b7bd896e6333586dc767bd027169de75688efe54286cbce32bb43cf75aa460",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_submitted",
+      "51400002-0000-4000-8000-000000000002"
+     ],
+     "diff": [
+      {
+       "table": "sales_documents",
+       "id": "51400104-0000-4000-8000-000000000104",
+       "changes": {
+        "status": "review",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "sales_documents",
+       "id": "51400104-0000-4000-8000-000000000104",
+       "changes": {
+        "status": "approved",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "rejected",
+      null,
+      null
+     ],
+     "diff": []
+    }
+   ]
+  },
+  {
+   "name": "proposal_rev",
+   "entity_type": "sales_document",
+   "id": "51400105-0000-4000-8000-000000000105",
+   "number": "SP-S14-2 Rev. 2",
+   "document_label": "Solution Proposal SP-S14-2 Rev. 2: Retail",
+   "revision": 2,
+   "expiry_date": null,
+   "link": "/sales/proposals/51400105-0000-4000-8000-000000000105",
+   "check_submittable": null,
+   "facts": "{\"number\": \"SP-S14-2 Rev. 2\", \"title\": \"Retail\", \"language\": \"en\", \"deal_id\": null, \"quotations\": [], \"content_sha256\": \"4cdf7b9acf50dec00f881906c9569f4a9e21cbef476e461420049d74ad5174fd\"}",
+   "snapshot": "{\"document\": {\"number\": \"SP-S14-2 Rev. 2\", \"title\": \"Retail\", \"language\": \"en\", \"deal_id\": null, \"quotations\": [], \"content_sha256\": \"4cdf7b9acf50dec00f881906c9569f4a9e21cbef476e461420049d74ad5174fd\"}}",
+   "fingerprint": "e381943640d9b9635a0a0a8e50f870c927a27060a3dc87fb42249e68ba89aaf2",
+   "hooks": [
+    {
+     "ok": true,
+     "hook": [
+      "on_cancelled"
+     ],
+     "diff": [
+      {
+       "table": "sales_documents",
+       "id": "51400105-0000-4000-8000-000000000105",
+       "changes": {
+        "status": "draft",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    },
+    {
+     "ok": true,
+     "hook": [
+      "on_decision",
+      "approved",
+      "51400001-0000-4000-8000-000000000001",
+      null
+     ],
+     "diff": [
+      {
+       "table": "sales_documents",
+       "id": "51400105-0000-4000-8000-000000000105",
+       "changes": {
+        "status": "approved",
+        "issue_date": "2026-10-14",
+        "updated_at": "<now>"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "loads": [
+  {
+   "entity_type": "quotation",
+   "raw": "not-a-uuid",
+   "found": null
+  },
+  {
+   "entity_type": "quotation",
+   "raw": "{51400064-0000-4000-8000-000000000064}",
+   "found": "51400064-0000-4000-8000-000000000064"
+  },
+  {
+   "entity_type": "quotation",
+   "raw": "51400064000040008000000000000064",
+   "found": "51400064-0000-4000-8000-000000000064"
+  },
+  {
+   "entity_type": "quotation",
+   "raw": "urn:uuid:51400064-0000-4000-8000-000000000064",
+   "found": "51400064-0000-4000-8000-000000000064"
+  },
+  {
+   "entity_type": "payroll_run",
+   "raw": "514000F6-0000-4000-8000-0000000000F6",
+   "found": "514000f6-0000-4000-8000-0000000000f6"
+  },
+  {
+   "entity_type": "invoice",
+   "raw": "514003e7-0000-4000-8000-0000000003e7",
+   "found": null
+  },
+  {
+   "entity_type": "expense",
+   "raw": "",
+   "found": null
+  }
+ ],
+ "adapters": [
+  {
+   "entity_type": "quotation",
+   "label": "Quotation",
+   "link_template": "/sales/quotations/{id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "sales_contract",
+   "label": "Contract",
+   "link_template": "/sales/contracts?contract={id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "invoice",
+   "label": "Invoice",
+   "link_template": "/finance/invoices/{id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "expense",
+   "label": "Expense claim",
+   "link_template": "/finance/expenses?expense={id}",
+   "submittable_statuses": [
+    "pending",
+    "rejected"
+   ]
+  },
+  {
+   "entity_type": "purchase_order",
+   "label": "Purchase order",
+   "link_template": "/vendor-mgmt/purchase-orders?po={id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "contractor_request",
+   "label": "Contractor request",
+   "link_template": "/vendor-mgmt/contractor-requests?request={id}",
+   "submittable_statuses": [
+    "pending_approval",
+    "rejected"
+   ]
+  },
+  {
+   "entity_type": "work_order",
+   "label": "Work order",
+   "link_template": "/vendor-mgmt/work-orders?wo={id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "vendor_invoice",
+   "label": "Vendor invoice",
+   "link_template": "/vendor-mgmt/invoices?invoice={id}",
+   "submittable_statuses": [
+    "submitted",
+    "rejected"
+   ]
+  },
+  {
+   "entity_type": "marketing_content",
+   "label": "Content",
+   "link_template": "/marketing/content?item={id}",
+   "submittable_statuses": [
+    "planned",
+    "in_progress",
+    "review"
+   ]
+  },
+  {
+   "entity_type": "hiring_request",
+   "label": "Headcount request",
+   "link_template": "/hr/hiring?request={id}",
+   "submittable_statuses": [
+    "pending_approval",
+    "on_hold"
+   ]
+  },
+  {
+   "entity_type": "offer_letter",
+   "label": "Offer letter",
+   "link_template": "/hr/offer-letters/{id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "sop_article",
+   "label": "SOP",
+   "link_template": "/knowledge/articles/{id}",
+   "submittable_statuses": [
+    "draft",
+    "review"
+   ]
+  },
+  {
+   "entity_type": "payroll_run",
+   "label": "Payroll run",
+   "link_template": "/hr/payroll?run={id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "sales_document",
+   "label": "Solution Proposal",
+   "link_template": "/sales/proposals/{id}",
+   "submittable_statuses": [
+    "draft",
+    "review"
+   ]
+  },
+  {
+   "entity_type": "bom",
+   "label": "Bill of materials",
+   "link_template": "/manufacturing/products?bom={id}",
+   "submittable_statuses": [
+    "draft"
+   ]
+  },
+  {
+   "entity_type": "library_document_version",
+   "label": "Document version",
+   "link_template": "/knowledge/documents?version={id}",
+   "submittable_statuses": [
+    "draft",
+    "pending_approval"
+   ]
+  }
+ ],
+ "unknown": [
+  {
+   "entity_type": "nope",
+   "status": 400,
+   "detail": "Unknown document type: 'nope'"
+  },
+  {
+   "entity_type": "it's",
+   "status": 400,
+   "detail": "Unknown document type: \"it's\""
+  },
+  {
+   "entity_type": "Quotation",
+   "status": 400,
+   "detail": "Unknown document type: 'Quotation'"
+  },
+  {
+   "entity_type": "",
+   "status": 400,
+   "detail": "Unknown document type: ''"
+  }
+ ],
+ "terms": [
+  {
+   "in": null,
+   "out": null
+  },
+  {
+   "in": {},
+   "out": null
+  },
+  {
+   "in": [],
+   "out": null
+  },
+  {
+   "in": "",
+   "out": null
+  },
+  {
+   "in": 0,
+   "out": null
+  },
+  {
+   "in": {
+    "net_days": 30
+   },
+   "out": 30
+  },
+  {
+   "in": {
+    "net_days": "45"
+   },
+   "out": 45
+  },
+  {
+   "in": {
+    "net_days": " 7 "
+   },
+   "out": 7
+  },
+  {
+   "in": {
+    "net_days": "x"
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "net_days": 12.9
+   },
+   "out": 12
+  },
+  {
+   "in": {
+    "net_days": true
+   },
+   "out": 1
+  },
+  {
+   "in": {
+    "net_days": null,
+    "text": "NET30"
+   },
+   "out": 30
+  },
+  {
+   "in": {
+    "net_days": ""
+   },
+   "out": null
+  },
+  {
+   "in": {
+    "net_days": [
+     1
+    ],
+    "text": "net 15"
+   },
+   "out": 15
+  },
+  {
+   "in": {
+    "text": "Net-60 / 14 days / 90 DAYS"
+   },
+   "out": 90
+  },
+  {
+   "in": {
+    "text": "net:  5"
+   },
+   "out": 5
+  },
+  {
+   "in": {
+    "a": "1000 days",
+    "b": "2 day"
+   },
+   "out": 2
+  },
+  {
+   "in": "NET 30",
+   "out": 30
+  },
+  {
+   "in": "30 days",
+   "out": 30
+  },
+  {
+   "in": "net",
+   "out": null
+  },
+  {
+   "in": [
+    "net 10",
+    "20 days"
+   ],
+   "out": 20
+  },
+  {
+   "in": {
+    "text": "net 12"
+   },
+   "out": 12
+  },
+  {
+   "in": {
+    "text": "٣٠ days"
+   },
+   "out": 30
+  },
+  {
+   "in": {
+    "x": 1.5,
+    "y": null,
+    "z": {
+     "k": "net 9"
+    }
+   },
+   "out": 9
+  },
+  {
+   "in": {
+    "text": "NET 1234"
+   },
+   "out": 123
+  },
+  {
+   "in": 45,
+   "out": null
+  },
+  {
+   "in": 45.5,
+   "out": null
+  },
+  {
+   "in": {
+    "net_days": "1_000"
+   },
+   "out": 1000
+  },
+  {
+   "in": {
+    "net_days": false
+   },
+   "out": 0
+  }
+ ],
+ "policies_dump": "[{\"entity_type\": \"quotation\", \"name\": \"Quotation approval\", \"sop_reference\": null, \"description\": \"Catalog items at list price with no discount are approved automatically; the Owner approves every other quotation.\", \"preconditions\": [{\"rule\": \"missing_discount_type\", \"message\": \"Every discounted line must state its discount type (volume, bundle, loyalty, multi-year SaaS or Owner exception).\"}], \"signature_flow\": \"none\", \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": true, \"requires_login\": false, \"token_ttl_days\": 365, \"sla_hours\": 24, \"whatsapp_escalate_above_base\": 200000000, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 24, \"condition\": {\"rule\": \"not_catalog_list_price\"}}]}, {\"entity_type\": \"sales_document\", \"name\": \"Solution Proposal approval\", \"sop_reference\": null, \"description\": \"The Owner approves every Solution Proposal; any edit after approval needs approval again. The approval is the signature stamp, and the QR on every page proves it.\", \"signature_flow\": \"none\", \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": true, \"requires_login\": false, \"token_ttl_days\": 365, \"sla_hours\": 24, \"whatsapp_escalate_above_base\": 0, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 24}]}, {\"entity_type\": \"invoice\", \"name\": \"Invoice approval\", \"sop_reference\": null, \"description\": \"The Owner approves every invoice (and every credit note) before it is sent.\", \"signature_flow\": \"none\", \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": true, \"requires_login\": false, \"token_ttl_days\": 365, \"sla_hours\": 24, \"whatsapp_escalate_above_base\": 150000000, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 24}]}, {\"entity_type\": \"sales_contract\", \"name\": \"Contract approval\", \"sop_reference\": null, \"description\": \"The Owner reviews every contract before it goes to the customer's authorized signatory.\", \"signature_flow\": \"counterparty\", \"signer_role\": \"owner\", \"sign_deadline_days\": 5, \"max_extension_days\": 10, \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": true, \"requires_login\": false, \"token_ttl_days\": 1095, \"sla_hours\": 48, \"steps\": [{\"sequence\": 1, \"name\": \"Owner review\", \"approver_mode\": \"owner\", \"sla_hours\": 48}]}, {\"entity_type\": \"purchase_order\", \"name\": \"Purchase order approval\", \"sop_reference\": null, \"description\": \"Manufacturing Lead approves up to 5M (base currency); the Owner above that. 10M+ needs two vendor quotes.\", \"preconditions\": [{\"rule\": \"missing_vendor_quotes\", \"value\": {\"min_amount_base\": 10000000, \"min_quotes\": 2}, \"message\": \"Purchases of 10,000,000 (base currency) or more need at least 2 vendor quotes (an RFQ with two responses, or two quote files attached).\"}], \"signature_flow\": \"none\", \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": true, \"requires_login\": false, \"token_ttl_days\": 365, \"sla_hours\": 72, \"whatsapp_escalate_above_base\": 5000000, \"steps\": [{\"sequence\": 1, \"name\": \"Manufacturing Lead approval\", \"approver_mode\": \"role\", \"role_slug\": \"team_lead\", \"department\": \"Manufacturing\", \"sla_hours\": 24, \"condition\": {\"not\": {\"rule\": \"amount_gt_base\", \"value\": 5000000}}}, {\"sequence\": 2, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 72, \"condition\": {\"rule\": \"amount_gt_base\", \"value\": 5000000}}]}, {\"entity_type\": \"bom\", \"name\": \"Bill of materials approval\", \"sop_reference\": null, \"description\": \"The Manufacturing Lead approves a bill of materials; the Owner too when one unit costs more than 25M (base currency). Production uses only an approved BOM.\", \"sla_hours\": 72, \"steps\": [{\"sequence\": 1, \"name\": \"Manufacturing Lead approval\", \"approver_mode\": \"role\", \"role_slug\": \"team_lead\", \"department\": \"Manufacturing\", \"sla_hours\": 48}, {\"sequence\": 2, \"name\": \"Owner approval (high unit cost)\", \"approver_mode\": \"owner\", \"sla_hours\": 72, \"condition\": {\"rule\": \"amount_gt_base\", \"value\": 25000000}}]}, {\"entity_type\": \"contractor_request\", \"name\": \"Contractor request approval\", \"sop_reference\": null, \"description\": \"The Owner authorizes every external contractor engagement before any commitment.\", \"sla_hours\": 120, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 120}]}, {\"entity_type\": \"work_order\", \"name\": \"Work order issuance\", \"sop_reference\": null, \"description\": \"A work order must link an Owner-approved contractor request; value above the approved estimate needs the Owner.\", \"preconditions\": [{\"rule\": \"missing_approved_contractor_request\", \"message\": \"A work order must link an Owner-approved contractor request.\"}], \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": true, \"requires_login\": false, \"token_ttl_days\": 365, \"sla_hours\": 24, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval (above approved estimate)\", \"approver_mode\": \"owner\", \"sla_hours\": 24, \"condition\": {\"rule\": \"above_cr_estimate\"}}]}, {\"entity_type\": \"vendor_invoice\", \"name\": \"Vendor / contractor invoice approval\", \"sop_reference\": null, \"description\": \"< 5M Finance Admin; 5\\u201325M Finance Admin + PM/Dept Head; 25\\u201375M Owner; > 75M Owner with WO/PO evidence.\", \"preconditions\": [{\"rule\": \"missing_closed_wo_po\", \"message\": \"Finance processes no invoice without a closed, approved work order or purchase order.\"}], \"sla_hours\": 72, \"whatsapp_escalate_above_base\": 25000000, \"steps\": [{\"sequence\": 1, \"name\": \"Finance Admin review\", \"approver_mode\": \"role\", \"role_slug\": \"finance_admin\", \"allow_self_approval\": true, \"sla_hours\": 48, \"condition\": {\"not\": {\"rule\": \"amount_gt_base\", \"value\": 25000000}}}, {\"sequence\": 2, \"name\": \"PM / Dept Head confirmation\", \"approver_mode\": \"snapshot_user\", \"snapshot_user_key\": \"responsible_user_id\", \"sla_hours\": 48, \"condition\": {\"all\": [{\"rule\": \"amount_gte_base\", \"value\": 5000000}, {\"not\": {\"rule\": \"amount_gt_base\", \"value\": 25000000}}]}}, {\"sequence\": 3, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 72, \"condition\": {\"rule\": \"amount_gt_base\", \"value\": 25000000}}]}, {\"entity_type\": \"expense\", \"name\": \"Expense claim approval\", \"sop_reference\": null, \"description\": \"Line manager, then Finance Admin; the Owner too above 2M per claim or 1.5M per item (base currency).\", \"preconditions\": [{\"rule\": \"flag_missing_above_base\", \"value\": {\"amount_base\": 500000, \"flag\": \"pre_approved\"}, \"message\": \"Expenses above 500,000 (base currency) need manager pre-approval before they are incurred; confirm pre-approval when submitting.\"}], \"sla_hours\": 72, \"steps\": [{\"sequence\": 1, \"name\": \"Line manager approval\", \"approver_mode\": \"manager\", \"sla_hours\": 72}, {\"sequence\": 2, \"name\": \"Finance Admin review\", \"approver_mode\": \"role\", \"role_slug\": \"finance_admin\", \"sla_hours\": 48}, {\"sequence\": 3, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 48, \"condition\": {\"any\": [{\"rule\": \"amount_gt_base\", \"value\": 2000000}, {\"rule\": \"single_line_gt_base\", \"value\": 1500000}, {\"rule\": \"fx_rate_missing\"}]}}]}, {\"entity_type\": \"marketing_content\", \"name\": \"External content approval\", \"sop_reference\": null, \"description\": \"Technical content gets an R&D Lead review and customer references a PM review before the Owner approves.\", \"sla_hours\": 48, \"steps\": [{\"sequence\": 1, \"name\": \"R&D Lead technical review\", \"approver_mode\": \"role\", \"role_slug\": \"team_lead\", \"department\": \"R&D\", \"sla_hours\": 48, \"condition\": {\"rule\": \"content_type_in\", \"value\": [\"blog\", \"case_study\", \"whitepaper\", \"datasheet\"]}}, {\"sequence\": 2, \"name\": \"PM review of customer references\", \"approver_mode\": \"role\", \"role_slug\": \"project_manager\", \"sla_hours\": 48, \"condition\": {\"rule\": \"flag_set\", \"value\": \"customer_reference\"}}, {\"sequence\": 3, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 24}]}, {\"entity_type\": \"hiring_request\", \"name\": \"Headcount approval\", \"sop_reference\": null, \"description\": \"The Owner approves every headcount request.\", \"sla_hours\": 72, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 72}]}, {\"entity_type\": \"offer_letter\", \"name\": \"Offer letter approval\", \"sop_reference\": null, \"description\": \"The Owner decides the offer; HR issues it; the candidate accepts within 5 business days.\", \"signature_flow\": \"counterparty\", \"signer_role\": \"owner\", \"sign_deadline_days\": 5, \"max_extension_days\": 0, \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": false, \"requires_login\": true, \"token_ttl_days\": 180, \"sla_hours\": 24, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 24}]}, {\"entity_type\": \"sop_article\", \"name\": \"SOP publication approval\", \"sop_reference\": \"Knowledge base\", \"description\": \"The Owner approves an SOP before it is published. Author/Owner signing stays in the KB flow.\", \"qr_enabled\": true, \"view_scope\": \"metadata_document\", \"allow_download\": false, \"requires_login\": false, \"token_ttl_days\": 730, \"sla_hours\": 72, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 72}]}, {\"entity_type\": \"payroll_run\", \"name\": \"Payroll run approval\", \"sop_reference\": \"HR payroll\", \"description\": \"The Owner approves each monthly payroll run before it is paid.\", \"sla_hours\": 48, \"steps\": [{\"sequence\": 1, \"name\": \"Owner approval\", \"approver_mode\": \"owner\", \"sla_hours\": 48}]}]",
+ "discount_allowances_dump": "[]"
+}

@@ -1,0 +1,59 @@
+[
+ {
+  "text": "{\"matches\": true, \"problems\": []}",
+  "verdict": {
+   "matches": true,
+   "problems": []
+  }
+ },
+ {
+  "text": "{\"matches\": false, \"problems\": [\"no base\", \"too tall\"]}",
+  "verdict": {
+   "matches": false,
+   "problems": [
+    "no base",
+    "too tall"
+   ]
+  }
+ },
+ {
+  "text": "{\"matches\": 1, \"problems\": null}",
+  "verdict": {
+   "matches": true,
+   "problems": []
+  }
+ },
+ {
+  "text": "{\"problems\": \"ab\"}",
+  "verdict": {
+   "matches": false,
+   "problems": [
+    "a",
+    "b"
+   ]
+  }
+ },
+ {
+  "text": "",
+  "verdict": {
+   "matches": false,
+   "problems": []
+  }
+ },
+ {
+  "text": "nonsense",
+  "verdict": {
+   "matches": false,
+   "problems": [
+    "the check gave no readable answer"
+   ]
+  }
+ },
+ {
+  "text": "{\"matches\": \"yes\"}",
+  "verdict": {
+   "matches": true,
+   "problems": []
+  }
+ }
+]

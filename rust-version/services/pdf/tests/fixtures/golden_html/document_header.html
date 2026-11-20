@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+/* Same stylesheet as the web "Download" (frontend/src/lib/print.ts BASE_STYLES) so a verified PDF
+   looks exactly like the document staff print. Keep the two in sync. */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;max-width:800px;margin:0 auto;padding:0 32px 40px;color:#1a1a1a;line-height:1.7;font-size:14px}
+img.letterhead{width:100%;display:block;margin-bottom:0}
+.letterhead-divider{border-top:2px solid #1f4e79;margin-bottom:22px}
+.doc-title{font-family:Arial,sans-serif;font-size:26px;font-weight:900;color:#1f4e79;letter-spacing:0.5px;margin-bottom:4px}
+.doc-number{font-family:'Courier New',monospace;font-size:13px;color:#555;letter-spacing:0.5px}
+.doc-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:20px;padding-bottom:14px;border-bottom:1px solid #e5e7eb}
+.doc-meta{font-family:Arial,sans-serif;font-size:12px;color:#666}
+.doc-meta strong{color:#222;display:inline-block;width:80px}
+.customer-block{background:#f9fafb;border:1px solid #e5e7eb;border-radius:8px;padding:14px 18px;margin-bottom:20px;font-family:Arial,sans-serif;font-size:13px}
+.customer-block .label{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:#9ca3af;font-weight:700;margin-bottom:6px}
+.customer-block .name{font-size:16px;font-weight:800;color:#111;margin-bottom:2px}
+.customer-block .detail{color:#555;font-size:12px}
+table.items{width:100%;border-collapse:collapse;margin-bottom:16px;font-size:13px}
+table.items thead th{background:#f3f4f6;padding:8px 12px;text-align:left;font-family:Arial,sans-serif;font-weight:700;font-size:11px;text-transform:uppercase;letter-spacing:0.5px;color:#374151;border-bottom:2px solid #e5e7eb}
+table.items thead th.right{text-align:right}
+table.items tbody td{padding:10px 12px;border-bottom:1px solid #f3f4f6;vertical-align:top}
+table.items tbody td.right{text-align:right;font-family:'Courier New',monospace}
+table.items tbody tr:last-child td{border-bottom:none}
+.sku{font-size:10px;color:#9ca3af;font-family:'Courier New',monospace;margin-bottom:2px}
+.totals{margin-left:auto;width:260px;font-size:13px;font-family:Arial,sans-serif}
+.totals .row{display:flex;justify-content:space-between;padding:5px 0;color:#555}
+.totals .row.total{font-weight:900;font-size:16px;color:#111;border-top:2px solid #111;margin-top:6px;padding-top:8px}
+.totals .row.discount{color:#f97316}
+.totals .row.tax{color:#3b82f6}
+.totals .row.paid{color:#16a34a}
+.totals .row.outstanding{font-weight:700;color:#dc2626;font-size:14px;border-top:1px solid #fecaca;padding-top:6px;margin-top:4px}
+.section-title{font-family:Arial,sans-serif;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#9ca3af;margin-bottom:8px;margin-top:24px}
+.notes{font-size:13px;color:#555;line-height:1.7}
+.notes ul{list-style:disc;padding-left:20px;margin:4px 0}
+.notes ol{list-style:decimal;padding-left:20px;margin:4px 0}
+.notes a{color:#1f4e79;text-decoration:underline}
+.notes p{margin:4px 0}
+.notes .plain{white-space:pre-line}
+.status-badge{display:inline-block;padding:3px 10px;border-radius:20px;font-family:Arial,sans-serif;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.5px}
+.status-paid{background:#dcfce7;color:#16a34a}
+.status-sent{background:#dbeafe;color:#1d4ed8}
+.status-overdue{background:#fee2e2;color:#dc2626}
+.status-draft{background:#f1f5f9;color:#475569}
+.payment-history{margin-top:20px}
+.payment-row{display:flex;justify-content:space-between;padding:8px 12px;border-radius:6px;background:#f9fafb;margin-bottom:4px;font-size:12px;font-family:Arial,sans-serif}
+.payment-row .amount{font-weight:700;color:#16a34a}
+.signature-block{margin-top:40px;display:flex;justify-content:flex-end;gap:40px;page-break-inside:avoid}
+.signature-block.multi{justify-content:space-between}
+.signature-inner{text-align:center;font-family:Arial,sans-serif;font-size:12px;color:#555;width:220px}
+.signature-role{font-size:11px;color:#9ca3af}
+.signature-line{border-top:1px solid #9ca3af;margin-bottom:6px;margin-top:48px}
+.signature-name{font-weight:700;color:#111;font-size:13px}
+.signature-title{font-size:11px;color:#9ca3af}
+/* Invisible marker the e-signature flow searches for to place the signature field. */
+.sig-anchor{font-size:4pt;line-height:4pt;height:4pt;color:#ffffff;text-align:left}
+.sig-anchor + .signature-line{margin-top:44px}
+/* Our side of the document: the approval stands for the signature, proven by the QR on every page. */
+.approval-stamp{margin-top:10px;border:1.5px solid #1f4e79;border-radius:6px;padding:8px 10px;text-align:center;color:#1f4e79}
+.stamp-head{font-size:10px;font-weight:700;letter-spacing:1.2px}
+.stamp-name{font-weight:700;color:#111;font-size:13px;margin-top:5px}
+.stamp-title{font-size:11px;color:#6b7280}
+.stamp-date{font-size:11px;color:#374151;margin-top:2px}
+.stamp-verify{font-size:9px;color:#9ca3af;margin-top:5px}
+.footer-note{margin-top:32px;padding-top:12px;border-top:1px solid #e5e7eb;font-size:11px;color:#9ca3af;font-family:Arial,sans-serif;text-align:center}
+.approval-row{page-break-inside:avoid}
+/* Never strand a heading at the bottom of a page: keep it with what follows. */
+.section-title{page-break-after:avoid;break-after:avoid}
+.keep-together{page-break-inside:avoid;break-inside:avoid}
+@media print{
+  body{padding:0;max-width:100%}
+}
+</style>
+</head>
+<body>
+
+
+<div class="doc-header">
+  <div>
+    <div class="doc-title">WORK ORDER</div>
+    <div class="doc-number">WO-7</div>
+    
+    
+  </div>
+  <div style="text-align:right">
+    
+    <div class="doc-meta">
+      <div><strong>Site:</strong> Warehouse 3</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<table class="items">
+  <thead>
+    <tr><th>Task</th><th class="right">Qty</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Install</td><td class="right">1</td></tr>
+  </tbody>
+</table>
+
+
+
+
+
+<div class="signature-block">
+  <div class="signature-inner">
+    
+    
+    <div class="signature-line"></div>
+    <div class="signature-name">Sam Taylor</div>
+    <div class="signature-title">Supervisor</div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

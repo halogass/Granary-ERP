@@ -1,0 +1,2883 @@
+[
+ {
+  "name": "ant_simple_haiku",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "You are Nary.\n\n[[cache-break]]\n\nCustomer: Bob",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Hello"
+     }
+    ],
+    "temperature": 0.3
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [{\"type\": \"text\", \"text\": \"Hello Mr \\u2014 how are you?\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 900, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 900, \"ephemeral_1h_input_tokens\": 0}}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "218"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"Hello\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"You are Nary.\",\"cache_control\":{\"type\":\"ephemeral\"}},{\"type\":\"text\",\"text\":\"Customer: Bob\"}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "Hello Mr — how are you?",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 900,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_tools_sonnet_1h",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-sonnet-5-5",
+   "kwargs": {
+    "system": "Stable rules.\n\n[[cache-break]]\n\n",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Find leads for Globex Corp — café ☕"
+     },
+     {
+      "role": "assistant",
+      "content": "Let me look.",
+      "tool_calls": [
+       {
+        "name": "search_records",
+        "args": {
+         "entity": "lead",
+         "limit": 5
+        },
+        "id": "toolu_A"
+       },
+       {
+        "name": "noop",
+        "args": {}
+       }
+      ]
+     },
+     {
+      "role": "tool",
+      "name": "search_records",
+      "tool_call_id": "toolu_A",
+      "content": {
+       "rows": [
+        {
+         "name": "Globex Corp",
+         "value": 1.5,
+         "when": "2026-10-01"
+        }
+       ],
+       "ünï": "ç"
+      }
+     },
+     {
+      "role": "tool",
+      "name": "noop",
+      "id": "toolu_1",
+      "content": "done",
+      "is_error": true
+     },
+     {
+      "role": "user",
+      "content": "Thanks, now draft the reply."
+     }
+    ],
+    "tools": [
+     {
+      "name": "search_records",
+      "description": "Search CRM records — leads, deals.",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "entity": {
+         "type": "string",
+         "enum": [
+          "lead",
+          "deal"
+         ],
+         "description": "What to search"
+        },
+        "filters": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "properties": {
+           "field": {
+            "type": "string"
+           }
+          }
+         }
+        },
+        "limit": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "entity"
+       ]
+      }
+     },
+     {
+      "name": "propose_reply",
+      "description": "Propose a reply.",
+      "strict": true,
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "text": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "text"
+       ]
+      }
+     },
+     {
+      "name": "noop",
+      "description": "No arguments."
+     }
+    ],
+    "effort": "high",
+    "cache_ttl": "1h",
+    "max_tokens": 8000
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-sonnet-5-5\", \"content\": [{\"type\": \"thinking\", \"thinking\": \"The user wants a reply.\", \"signature\": \"sig-abc==\"}, {\"type\": \"text\", \"text\": \"Drafting.\"}, {\"type\": \"tool_use\", \"id\": \"toolu_B\", \"name\": \"propose_reply\", \"input\": {\"text\": \"Hello \\u2014 Mr\"}}], \"stop_reason\": \"tool_use\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 3000, \"cache_creation_input_tokens\": 500, \"cache_creation\": {\"ephemeral_5m_input_tokens\": 0, \"ephemeral_1h_input_tokens\": 500}}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "1582"
+    },
+    "body": "{\"max_tokens\":8000,\"messages\":[{\"role\":\"user\",\"content\":\"Find leads for Globex Corp — café ☕\"},{\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"Let me look.\"},{\"type\":\"tool_use\",\"id\":\"toolu_A\",\"name\":\"search_records\",\"input\":{\"entity\":\"lead\",\"limit\":5}},{\"type\":\"tool_use\",\"id\":\"toolu_1\",\"name\":\"noop\",\"input\":{}}]},{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"tool_use_id\":\"toolu_A\",\"content\":\"{\\\"rows\\\": [{\\\"name\\\": \\\"Globex Corp\\\", \\\"value\\\": 1.5, \\\"when\\\": \\\"2026-10-01\\\"}], \\\"ünï\\\": \\\"ç\\\"}\"},{\"type\":\"tool_result\",\"tool_use_id\":\"toolu_1\",\"content\":\"done\",\"is_error\":true}]},{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"Thanks, now draft the reply.\",\"cache_control\":{\"type\":\"ephemeral\",\"ttl\":\"1h\"}}]}],\"model\":\"claude-sonnet-5-5\",\"fallbacks\":\"default\",\"output_config\":{\"effort\":\"high\"},\"system\":[{\"type\":\"text\",\"text\":\"Stable rules.\",\"cache_control\":{\"type\":\"ephemeral\",\"ttl\":\"1h\"}}],\"tool_choice\":{\"type\":\"auto\"},\"tools\":[{\"name\":\"search_records\",\"description\":\"Search CRM records — leads, deals.\",\"input_schema\":{\"type\":\"object\",\"properties\":{\"entity\":{\"type\":\"string\",\"enum\":[\"lead\",\"deal\"],\"description\":\"What to search\"},\"filters\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"field\":{\"type\":\"string\"}}}},\"limit\":{\"type\":\"integer\"}},\"required\":[\"entity\"]}},{\"name\":\"propose_reply\",\"description\":\"Propose a reply.\",\"input_schema\":{\"type\":\"object\",\"properties\":{\"text\":{\"type\":\"string\"}},\"required\":[\"text\"],\"additionalProperties\":false},\"strict\":true},{\"name\":\"noop\",\"description\":\"No arguments.\",\"input_schema\":{\"type\":\"object\",\"properties\":{}}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "Drafting.",
+    "tool_calls": [
+     {
+      "name": "propose_reply",
+      "args": {
+       "text": "Hello — Mr"
+      },
+      "id": "toolu_B"
+     }
+    ],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "tool_use",
+    "refusal_category": null,
+    "model_used": "claude-sonnet-5-5",
+    "cache_write_1h_tokens": 500,
+    "cache_read_tokens": 3000,
+    "cache_write_tokens": 500,
+    "raw_content": [
+     {
+      "signature": "sig-abc==",
+      "thinking": "The user wants a reply.",
+      "type": "thinking"
+     },
+     {
+      "text": "Drafting.",
+      "type": "text"
+     },
+     {
+      "id": "toolu_B",
+      "input": {
+       "text": "Hello — Mr"
+      },
+      "name": "propose_reply",
+      "type": "tool_use"
+     }
+    ]
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_replay_none_schema_opus",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-opus-5-5",
+   "kwargs": {
+    "system": "Only stable",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Draft it"
+     },
+     {
+      "role": "assistant",
+      "content": "",
+      "raw_content": [
+       {
+        "type": "thinking",
+        "thinking": "The user wants a reply.",
+        "signature": "sig-abc=="
+       },
+       {
+        "type": "text",
+        "text": "Drafting."
+       },
+       {
+        "type": "tool_use",
+        "id": "toolu_B",
+        "name": "propose_reply",
+        "input": {
+         "text": "Hello — Mr"
+        }
+       }
+      ]
+     },
+     {
+      "role": "tool",
+      "name": "propose_reply",
+      "tool_call_id": "toolu_B",
+      "content": [
+       {
+        "type": "text",
+        "text": "proposed"
+       }
+      ]
+     },
+     {
+      "role": "system",
+      "content": "Context wall: stop here."
+     },
+     {
+      "role": "user",
+      "content": [
+       {
+        "type": "text",
+        "text": "And?"
+       },
+       {
+        "type": "text",
+        "text": ""
+       }
+      ]
+     }
+    ],
+    "tools": [
+     {
+      "name": "search_records",
+      "description": "Search CRM records — leads, deals.",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "entity": {
+         "type": "string",
+         "enum": [
+          "lead",
+          "deal"
+         ],
+         "description": "What to search"
+        },
+        "filters": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "properties": {
+           "field": {
+            "type": "string"
+           }
+          }
+         }
+        },
+        "limit": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "entity"
+       ]
+      }
+     }
+    ],
+    "allow_tool_calls": false,
+    "effort": "low",
+    "response_schema": {
+     "type": "object",
+     "properties": {
+      "ok": {
+       "type": "boolean"
+      }
+     },
+     "required": [
+      "ok"
+     ],
+     "additionalProperties": false
+    }
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-sonnet-5-5\", \"content\": [{\"type\": \"text\", \"text\": \"{\\\"ok\\\": true}\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "1271"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"Draft it\"},{\"role\":\"assistant\",\"content\":[{\"type\":\"thinking\",\"thinking\":\"The user wants a reply.\",\"signature\":\"sig-abc==\"},{\"type\":\"text\",\"text\":\"Drafting.\"},{\"type\":\"tool_use\",\"id\":\"toolu_B\",\"name\":\"propose_reply\",\"input\":{\"text\":\"Hello — Mr\"}}]},{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"tool_use_id\":\"toolu_B\",\"content\":[{\"type\":\"text\",\"text\":\"proposed\"}]}]},{\"role\":\"system\",\"content\":\"Context wall: stop here.\"},{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"And?\"},{\"type\":\"text\",\"text\":\"\"}]}],\"model\":\"claude-opus-5-5\",\"fallbacks\":\"default\",\"output_config\":{\"effort\":\"low\",\"format\":{\"type\":\"json_schema\",\"schema\":{\"type\":\"object\",\"properties\":{\"ok\":{\"type\":\"boolean\"}},\"required\":[\"ok\"],\"additionalProperties\":false}}},\"system\":[{\"type\":\"text\",\"text\":\"Only stable\",\"cache_control\":{\"type\":\"ephemeral\"}}],\"tool_choice\":{\"type\":\"none\"},\"tools\":[{\"name\":\"search_records\",\"description\":\"Search CRM records — leads, deals.\",\"input_schema\":{\"type\":\"object\",\"properties\":{\"entity\":{\"type\":\"string\",\"enum\":[\"lead\",\"deal\"],\"description\":\"What to search\"},\"filters\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"field\":{\"type\":\"string\"}}}},\"limit\":{\"type\":\"integer\"}},\"required\":[\"entity\"]}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "{\"ok\": true}",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-sonnet-5-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_no_cache_fable",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-fable-1",
+   "kwargs": {
+    "system": "\n\n[[cache-break]]\n\nOnly dynamic",
+    "messages": [
+     {
+      "role": "user",
+      "content": "a"
+     },
+     {
+      "role": "assistant",
+      "content": "b"
+     },
+     {
+      "role": "user",
+      "content": "c"
+     }
+    ],
+    "cache": false
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-fable-1\", \"content\": [{\"type\": \"text\", \"text\": \"ok\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "249"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"a\"},{\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"b\"}]},{\"role\":\"user\",\"content\":\"c\"}],\"model\":\"claude-fable-1\",\"fallbacks\":\"default\",\"system\":[{\"type\":\"text\",\"text\":\"Only dynamic\"}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-fable-1",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_conversation_marks_last_user",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "   ",
+    "messages": [
+     {
+      "role": "user",
+      "content": "first"
+     },
+     {
+      "role": "assistant",
+      "content": "second"
+     },
+     {
+      "role": "user",
+      "content": "third"
+     },
+     {
+      "role": "assistant",
+      "content": ""
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [{\"type\": \"text\", \"text\": \"ok\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "312"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"first\"},{\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"second\"}]},{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"third\",\"cache_control\":{\"type\":\"ephemeral\"}}]},{\"role\":\"assistant\",\"content\":[{\"type\":\"text\",\"text\":\"\"}]}],\"model\":\"claude-haiku-5\"}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_odd_history",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "S\n\n[[cache-break]]\n\n   ",
+    "messages": [
+     {
+      "content": "no role"
+     },
+     {
+      "role": "user",
+      "content": null
+     },
+     {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+       {
+        "name": "noop",
+        "id": ""
+       }
+      ]
+     },
+     {
+      "role": "tool",
+      "content": null
+     },
+     {
+      "role": "tool",
+      "content": [],
+      "tool_call_id": "t2"
+     },
+     {
+      "role": "tool",
+      "content": [
+       {
+        "type": "text",
+        "text": "a"
+       },
+       "b"
+      ],
+      "id": "t3"
+     },
+     {
+      "role": "tool",
+      "content": 3.25
+     },
+     {
+      "role": "weird",
+      "content": "w"
+     },
+     {
+      "role": "user",
+      "content": [
+       {
+        "type": "image",
+        "source": {
+         "type": "url",
+         "url": "http://x"
+        }
+       }
+      ]
+     }
+    ],
+    "cache_ttl": "1h"
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [{\"type\": \"text\", \"text\": \"a\"}, {\"type\": \"text\", \"text\": \"b\"}, {\"type\": \"tool_use\", \"id\": \"t9\", \"name\": \"x\", \"input\": {\"k\": null}, \"caller\": {\"type\": \"direct\"}, \"extra_field\": 1}, {\"type\": \"server_tool_use\", \"id\": \"s1\", \"name\": \"web_search\", \"input\": {}}, {\"type\": \"fallback\", \"from\": {\"model\": \"a\"}, \"to\": {\"model\": \"b\"}, \"trigger\": \"refusal\", \"note\": null}], \"stop_reason\": \"tool_use\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "764"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"no role\"},{\"role\":\"user\",\"content\":\"\"},{\"role\":\"assistant\",\"content\":[{\"type\":\"tool_use\",\"id\":\"toolu_0\",\"name\":\"noop\",\"input\":{}}]},{\"role\":\"user\",\"content\":[{\"type\":\"tool_result\",\"tool_use_id\":\"\",\"content\":\"null\"},{\"type\":\"tool_result\",\"tool_use_id\":\"t2\",\"content\":[]},{\"type\":\"tool_result\",\"tool_use_id\":\"t3\",\"content\":\"[{\\\"type\\\": \\\"text\\\", \\\"text\\\": \\\"a\\\"}, \\\"b\\\"]\"},{\"type\":\"tool_result\",\"tool_use_id\":\"\",\"content\":\"3.25\"}]},{\"role\":\"user\",\"content\":\"w\"},{\"role\":\"user\",\"content\":[{\"type\":\"image\",\"source\":{\"type\":\"url\",\"url\":\"http://x\"},\"cache_control\":{\"type\":\"ephemeral\",\"ttl\":\"1h\"}}]}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"S\",\"cache_control\":{\"type\":\"ephemeral\",\"ttl\":\"1h\"}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ab",
+    "tool_calls": [
+     {
+      "name": "x",
+      "args": {
+       "k": null
+      },
+      "id": "t9"
+     }
+    ],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "tool_use",
+    "refusal_category": null,
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": [
+     {
+      "text": "a",
+      "type": "text"
+     },
+     {
+      "text": "b",
+      "type": "text"
+     },
+     {
+      "id": "t9",
+      "caller": {
+       "type": "direct"
+      },
+      "input": {
+       "k": null
+      },
+      "name": "x",
+      "type": "tool_use",
+      "extra_field": 1
+     },
+     {
+      "id": "s1",
+      "input": {},
+      "name": "web_search",
+      "type": "server_tool_use"
+     },
+     {
+      "type": "fallback",
+      "from": {
+       "model": "a"
+      },
+      "to": {
+       "model": "b"
+      },
+      "trigger": "refusal"
+     }
+    ]
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_refusal",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "bad"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [], \"stop_reason\": \"refusal\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}, \"stop_details\": {\"type\": \"refusal\", \"category\": \"cyber\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "165"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"bad\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "refusal",
+    "refusal_category": "cyber",
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_refusal_no_details",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "bad"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [{\"type\": \"text\", \"text\": \"partial\"}], \"stop_reason\": \"refusal\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "165"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"bad\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "refusal",
+    "refusal_category": null,
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_stream_32k",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-sonnet-5-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "write a lot"
+     }
+    ],
+    "tools": [
+     {
+      "name": "search_records",
+      "description": "Search CRM records — leads, deals.",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "entity": {
+         "type": "string",
+         "enum": [
+          "lead",
+          "deal"
+         ],
+         "description": "What to search"
+        },
+        "filters": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "properties": {
+           "field": {
+            "type": "string"
+           }
+          }
+         }
+        },
+        "limit": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "entity"
+       ]
+      }
+     }
+    ],
+    "max_tokens": 32000
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "text/event-stream"
+    },
+    "event: message_start\ndata: {\"type\": \"message_start\", \"message\": {\"id\": \"msg_s\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-sonnet-5-5\", \"content\": [], \"stop_reason\": null, \"stop_sequence\": null, \"usage\": {\"input_tokens\": 50, \"output_tokens\": 1, \"cache_read_input_tokens\": 10, \"cache_creation_input_tokens\": 0}}}\n\nevent: content_block_start\ndata: {\"type\": \"content_block_start\", \"index\": 0, \"content_block\": {\"type\": \"thinking\", \"thinking\": \"\", \"signature\": \"\"}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 0, \"delta\": {\"type\": \"thinking_delta\", \"thinking\": \"Hmm \"}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 0, \"delta\": {\"type\": \"thinking_delta\", \"thinking\": \"ok.\"}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 0, \"delta\": {\"type\": \"signature_delta\", \"signature\": \"SIG\"}}\n\nevent: content_block_stop\ndata: {\"type\": \"content_block_stop\", \"index\": 0}\n\nevent: ping\ndata: {\"type\": \"ping\"}\n\nevent: content_block_start\ndata: {\"type\": \"content_block_start\", \"index\": 1, \"content_block\": {\"type\": \"text\", \"text\": \"\"}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 1, \"delta\": {\"type\": \"text_delta\", \"text\": \"Long \"}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 1, \"delta\": {\"type\": \"text_delta\", \"text\": \"answer \\u2615\"}}\n\nevent: content_block_stop\ndata: {\"type\": \"content_block_stop\", \"index\": 1}\n\nevent: content_block_start\ndata: {\"type\": \"content_block_start\", \"index\": 2, \"content_block\": {\"type\": \"tool_use\", \"id\": \"toolu_S\", \"name\": \"search_records\", \"input\": {}}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 2, \"delta\": {\"type\": \"input_json_delta\", \"partial_json\": \"{\\\"entity\\\": \"}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 2, \"delta\": {\"type\": \"input_json_delta\", \"partial_json\": \"\\\"lead\\\"}\"}}\n\nevent: content_block_stop\ndata: {\"type\": \"content_block_stop\", \"index\": 2}\n\nevent: message_delta\ndata: {\"type\": \"message_delta\", \"delta\": {\"stop_reason\": \"tool_use\", \"stop_sequence\": null}, \"usage\": {\"output_tokens\": 300}}\n\nevent: message_stop\ndata: {\"type\": \"message_stop\"}\n\n"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "x-stainless-helper-method": "stream",
+     "x-stainless-stream-helper": "beta.messages",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "603"
+    },
+    "body": "{\"max_tokens\":32000,\"messages\":[{\"role\":\"user\",\"content\":\"write a lot\"}],\"model\":\"claude-sonnet-5-5\",\"fallbacks\":\"default\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}],\"tools\":[{\"name\":\"search_records\",\"description\":\"Search CRM records — leads, deals.\",\"input_schema\":{\"type\":\"object\",\"properties\":{\"entity\":{\"type\":\"string\",\"enum\":[\"lead\",\"deal\"],\"description\":\"What to search\"},\"filters\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"field\":{\"type\":\"string\"}}}},\"limit\":{\"type\":\"integer\"}},\"required\":[\"entity\"]}}],\"tool_choice\":{\"type\":\"auto\"},\"stream\":true}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "Long answer ☕",
+    "tool_calls": [
+     {
+      "name": "search_records",
+      "args": {
+       "entity": "lead"
+      },
+      "id": "toolu_S"
+     }
+    ],
+    "prompt_tokens": 50,
+    "completion_tokens": 300,
+    "reasoning": "",
+    "stop_reason": "tool_use",
+    "refusal_category": null,
+    "model_used": "claude-sonnet-5-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 10,
+    "cache_write_tokens": 0,
+    "raw_content": [
+     {
+      "signature": "SIG",
+      "thinking": "Hmm ok.",
+      "type": "thinking"
+     },
+     {
+      "text": "Long answer ☕",
+      "type": "text"
+     },
+     {
+      "id": "toolu_S",
+      "input": {
+       "entity": "lead"
+      },
+      "name": "search_records",
+      "type": "tool_use"
+     }
+    ]
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_stream_haiku_text",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ],
+    "max_tokens": 16001
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "text/event-stream"
+    },
+    "event: message_start\ndata: {\"type\": \"message_start\", \"message\": {\"id\": \"msg_s2\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [], \"stop_reason\": null, \"stop_sequence\": null, \"usage\": {\"input_tokens\": 7, \"output_tokens\": 1}}}\n\nevent: content_block_start\ndata: {\"type\": \"content_block_start\", \"index\": 0, \"content_block\": {\"type\": \"text\", \"text\": \"\"}}\n\nevent: content_block_delta\ndata: {\"type\": \"content_block_delta\", \"index\": 0, \"delta\": {\"type\": \"text_delta\", \"text\": \"Hi\"}}\n\nevent: content_block_stop\ndata: {\"type\": \"content_block_stop\", \"index\": 0}\n\nevent: message_delta\ndata: {\"type\": \"message_delta\", \"delta\": {\"stop_reason\": \"end_turn\", \"stop_sequence\": null}, \"usage\": {\"output_tokens\": 2}}\n\nevent: message_stop\ndata: {\"type\": \"message_stop\"}\n\n"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "x-stainless-helper-method": "stream",
+     "x-stainless-stream-helper": "messages",
+     "content-length": "102"
+    },
+    "body": "{\"max_tokens\":16001,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"stream\":true}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "Hi",
+    "tool_calls": [],
+    "prompt_tokens": 7,
+    "completion_tokens": 2,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_file_pdf",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "claude-sonnet-5-5",
+   "kwargs": {
+    "prompt": "Read this",
+    "file_b64": "JVBERi0xLjQgZmFrZSBwZGYgYnl0ZXM=",
+    "mime_type": "application/pdf",
+    "system": "Transcribe.\n\n[[cache-break]]\n\nDoc 1",
+    "effort": "medium",
+    "temperature": 0.1
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-sonnet-5-5\", \"content\": [{\"type\": \"text\", \"text\": \"# Title \\u2014 sub\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "418"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":[{\"type\":\"document\",\"source\":{\"type\":\"base64\",\"media_type\":\"application/pdf\",\"data\":\"JVBERi0xLjQgZmFrZSBwZGYgYnl0ZXM=\"}},{\"type\":\"text\",\"text\":\"Read this\"}]}],\"model\":\"claude-sonnet-5-5\",\"fallbacks\":\"default\",\"output_config\":{\"effort\":\"medium\"},\"system\":[{\"type\":\"text\",\"text\":\"Transcribe.\",\"cache_control\":{\"type\":\"ephemeral\"}},{\"type\":\"text\",\"text\":\"Doc 1\"}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "# Title — sub",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-sonnet-5-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_file_png",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "claude-sonnet-5-5",
+   "kwargs": {
+    "prompt": "Read this",
+    "file_b64": "iVBORw0KGgpmYWtlaW1hZ2U=",
+    "mime_type": "image/png",
+    "system": "Transcribe.\n\n[[cache-break]]\n\nDoc 1",
+    "effort": "medium",
+    "temperature": 0.1
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-sonnet-5-5\", \"content\": [{\"type\": \"text\", \"text\": \"# Title \\u2014 sub\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "401"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":[{\"type\":\"image\",\"source\":{\"type\":\"base64\",\"media_type\":\"image/png\",\"data\":\"iVBORw0KGgpmYWtlaW1hZ2U=\"}},{\"type\":\"text\",\"text\":\"Read this\"}]}],\"model\":\"claude-sonnet-5-5\",\"fallbacks\":\"default\",\"output_config\":{\"effort\":\"medium\"},\"system\":[{\"type\":\"text\",\"text\":\"Transcribe.\",\"cache_control\":{\"type\":\"ephemeral\"}},{\"type\":\"text\",\"text\":\"Doc 1\"}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "# Title — sub",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-sonnet-5-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_file_txt",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "claude-sonnet-5-5",
+   "kwargs": {
+    "prompt": "Read this",
+    "file_b64": "UGxhaW4gdGV4dCDigJQgw7xuw69jb2RlCg==",
+    "mime_type": "text/csv",
+    "system": "Transcribe.\n\n[[cache-break]]\n\nDoc 1",
+    "effort": "medium",
+    "temperature": 0.1
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-sonnet-5-5\", \"content\": [{\"type\": \"text\", \"text\": \"# Title \\u2014 sub\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "405"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":[{\"type\":\"document\",\"source\":{\"type\":\"text\",\"media_type\":\"text/plain\",\"data\":\"Plain text — ünïcode\\n\"}},{\"type\":\"text\",\"text\":\"Read this\"}]}],\"model\":\"claude-sonnet-5-5\",\"fallbacks\":\"default\",\"output_config\":{\"effort\":\"medium\"},\"system\":[{\"type\":\"text\",\"text\":\"Transcribe.\",\"cache_control\":{\"type\":\"ephemeral\"}},{\"type\":\"text\",\"text\":\"Doc 1\"}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "# Title — sub",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-sonnet-5-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_file_zip",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "claude-sonnet-5-5",
+   "kwargs": {
+    "prompt": "Read this",
+    "file_b64": "iVBORw0KGgpmYWtlaW1hZ2U=",
+    "mime_type": "application/zip",
+    "system": "Transcribe.\n\n[[cache-break]]\n\nDoc 1",
+    "effort": "medium",
+    "temperature": 0.1
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-sonnet-5-5\", \"content\": [{\"type\": \"text\", \"text\": \"# Title \\u2014 sub\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [],
+  "outcome": {
+   "error": {
+    "class": "ValueError",
+    "status": null,
+    "str": "Claude can't read application/zip files directly; send a PDF, image or text file.",
+    "friendly": "The AI request failed: Claude can't read application/zip files directly; send a PDF, image or text file."
+   }
+  },
+  "unused_responses": 1
+ },
+ {
+  "name": "ant_400",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    400,
+    {
+     "content-type": "application/json"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"invalid_request_error\", \"message\": \"messages: roles must alternate\"}, \"request_id\": \"req_1\"}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "1",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "BadRequestError",
+    "status": 400,
+    "str": "Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'messages: roles must alternate'}, 'request_id': 'req_1'}",
+    "friendly": "The AI provider returned an error (400): messages: roles must alternate"
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_400_no_message",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    400,
+    {
+     "content-type": "application/json"
+    },
+    "{\"type\": \"error\", \"detail\": \"odd\"}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "BadRequestError",
+    "status": 400,
+    "str": "Error code: 400 - {'type': 'error', 'detail': 'odd'}",
+    "friendly": "The AI provider returned an error (400): Error code: 400 - {'type': 'error', 'detail': 'odd'}"
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_401",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    401,
+    {
+     "content-type": "application/json"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"authentication_error\", \"message\": \"invalid x-api-key\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "AuthenticationError",
+    "status": 401,
+    "str": "Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'invalid x-api-key'}}",
+    "friendly": "The AI provider rejected the API key. Check it in Settings → Nary & AI → Providers & keys."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_404",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-nope",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    404,
+    {
+     "content-type": "application/json"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"not_found_error\", \"message\": \"model\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "160"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-nope\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "NotFoundError",
+    "status": 404,
+    "str": "Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model'}}",
+    "friendly": "Model 'claude-nope' was not found on this provider. Pick another model in Settings → Nary & AI → Model per job."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_429_exhausted",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    429,
+    {
+     "content-type": "application/json",
+     "retry-after-ms": "5"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"rate_limit_error\", \"message\": \"slow down\"}}"
+   ],
+   [
+    429,
+    {
+     "content-type": "application/json",
+     "retry-after-ms": "5"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"rate_limit_error\", \"message\": \"slow down\"}}"
+   ],
+   [
+    429,
+    {
+     "content-type": "application/json",
+     "retry-after-ms": "5"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"rate_limit_error\", \"message\": \"slow down\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   },
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "1",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   },
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "2",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "RateLimitError",
+    "status": 429,
+    "str": "Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': 'slow down'}}",
+    "friendly": "The AI provider is rate limiting us or the account is out of credit. Try again shortly."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_529_then_ok",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-sonnet-5-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    529,
+    {
+     "content-type": "application/json",
+     "retry-after": "0.01"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"overloaded_error\", \"message\": \"Overloaded\"}}"
+   ],
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-opus-5-5\", \"content\": [{\"type\": \"text\", \"text\": \"ok\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "188"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-sonnet-5-5\",\"fallbacks\":\"default\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   },
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages?beta=true",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "1",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "anthropic-beta": "server-side-fallback-2026-07-01",
+     "content-length": "188"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-sonnet-5-5\",\"fallbacks\":\"default\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-opus-5-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_529_should_retry_false",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    529,
+    {
+     "content-type": "application/json",
+     "x-should-retry": "false"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"overloaded_error\", \"message\": \"Overloaded\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "OverloadedError",
+    "status": 529,
+    "str": "Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}}",
+    "friendly": "The AI provider is overloaded right now. Try again shortly."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_500_html",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    500,
+    {
+     "content-type": "text/html",
+     "x-should-retry": "false"
+    },
+    "<html>Bad gateway</html>"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "InternalServerError",
+    "status": 500,
+    "str": "<html>Bad gateway</html>",
+    "friendly": "The AI provider returned an error (500): <html>Bad gateway</html>"
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_409_retry_then_ok",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    409,
+    {
+     "content-type": "application/json",
+     "retry-after-ms": "1"
+    },
+    "{\"type\": \"error\", \"error\": {\"type\": \"x\", \"message\": \"lock\"}}"
+   ],
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [{\"type\": \"text\", \"text\": \"ok\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   },
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "1",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_no_key",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": null
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [],
+  "requests": [],
+  "outcome": {
+   "error": {
+    "class": "AIError",
+    "status": 400,
+    "str": "400: No Anthropic API key. Set it in Settings → Nary & AI → Providers & keys.",
+    "friendly": "No Anthropic API key. Set it in Settings → Nary & AI → Providers & keys."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_explicit_base_url",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "k2",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "claude-haiku-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [{\"type\": \"text\", \"text\": \"ok\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic-explicit/v1/messages",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "600",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "k2",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "163"
+    },
+    "body": "{\"max_tokens\":16000,\"messages\":[{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"claude-haiku-5\",\"system\":[{\"type\":\"text\",\"text\":\"s\",\"cache_control\":{\"type\":\"ephemeral\"}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 120,
+    "completion_tokens": 45,
+    "reasoning": "",
+    "stop_reason": "end_turn",
+    "refusal_category": null,
+    "model_used": "claude-haiku-5",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_list_models",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "list_models"
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"data\": [{\"id\": \"claude-sonnet-5-5\", \"type\": \"model\"}, {\"id\": \"claude-haiku-5\", \"type\": \"model\"}], \"has_more\": true, \"first_id\": \"claude-sonnet-5-5\", \"last_id\": \"claude-haiku-5\"}"
+   ],
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"data\": [{\"id\": \"claude-opus-5-5\", \"type\": \"model\"}], \"has_more\": false, \"first_id\": \"claude-opus-5-5\", \"last_id\": \"claude-opus-5-5\"}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "GET",
+    "path": "/anthropic/v1/models",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01"
+    },
+    "body": ""
+   },
+   {
+    "method": "GET",
+    "path": "/anthropic/v1/models?after_id=claude-haiku-5",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01"
+    },
+    "body": ""
+   }
+  ],
+  "outcome": {
+   "models": {
+    "chat": [
+     "claude-haiku-5",
+     "claude-opus-5-5",
+     "claude-sonnet-5-5"
+    ],
+    "embedding": []
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_build_request",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "build_request",
+   "model": "claude-opus-5-5",
+   "kwargs": {
+    "system": "A\n\n[[cache-break]]\n\nB",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Find leads for Globex Corp — café ☕"
+     },
+     {
+      "role": "assistant",
+      "content": "Let me look.",
+      "tool_calls": [
+       {
+        "name": "search_records",
+        "args": {
+         "entity": "lead",
+         "limit": 5
+        },
+        "id": "toolu_A"
+       },
+       {
+        "name": "noop",
+        "args": {}
+       }
+      ]
+     },
+     {
+      "role": "tool",
+      "name": "search_records",
+      "tool_call_id": "toolu_A",
+      "content": {
+       "rows": [
+        {
+         "name": "Globex Corp",
+         "value": 1.5,
+         "when": "2026-10-01"
+        }
+       ],
+       "ünï": "ç"
+      }
+     },
+     {
+      "role": "tool",
+      "name": "noop",
+      "id": "toolu_1",
+      "content": "done",
+      "is_error": true
+     },
+     {
+      "role": "user",
+      "content": "Thanks, now draft the reply."
+     }
+    ],
+    "tools": [
+     {
+      "name": "search_records",
+      "description": "Search CRM records — leads, deals.",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "entity": {
+         "type": "string",
+         "enum": [
+          "lead",
+          "deal"
+         ],
+         "description": "What to search"
+        },
+        "filters": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "properties": {
+           "field": {
+            "type": "string"
+           }
+          }
+         }
+        },
+        "limit": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "entity"
+       ]
+      }
+     },
+     {
+      "name": "propose_reply",
+      "description": "Propose a reply.",
+      "strict": true,
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "text": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "text"
+       ]
+      }
+     },
+     {
+      "name": "noop",
+      "description": "No arguments."
+     }
+    ],
+    "effort": "max",
+    "max_tokens": 1000,
+    "cache_ttl": "5m"
+   }
+  },
+  "responses": [],
+  "requests": [],
+  "outcome": {
+   "body": {
+    "model": "claude-opus-5-5",
+    "max_tokens": 1000,
+    "messages": [
+     {
+      "role": "user",
+      "content": "Find leads for Globex Corp — café ☕"
+     },
+     {
+      "role": "assistant",
+      "content": [
+       {
+        "type": "text",
+        "text": "Let me look."
+       },
+       {
+        "type": "tool_use",
+        "id": "toolu_A",
+        "name": "search_records",
+        "input": {
+         "entity": "lead",
+         "limit": 5
+        }
+       },
+       {
+        "type": "tool_use",
+        "id": "toolu_1",
+        "name": "noop",
+        "input": {}
+       }
+      ]
+     },
+     {
+      "role": "user",
+      "content": [
+       {
+        "type": "tool_result",
+        "tool_use_id": "toolu_A",
+        "content": "{\"rows\": [{\"name\": \"Globex Corp\", \"value\": 1.5, \"when\": \"2026-10-01\"}], \"ünï\": \"ç\"}"
+       },
+       {
+        "type": "tool_result",
+        "tool_use_id": "toolu_1",
+        "content": "done",
+        "is_error": true
+       }
+      ]
+     },
+     {
+      "role": "user",
+      "content": [
+       {
+        "type": "text",
+        "text": "Thanks, now draft the reply.",
+        "cache_control": {
+         "type": "ephemeral"
+        }
+       }
+      ]
+     }
+    ],
+    "system": [
+     {
+      "type": "text",
+      "text": "A",
+      "cache_control": {
+       "type": "ephemeral"
+      }
+     },
+     {
+      "type": "text",
+      "text": "B"
+     }
+    ],
+    "tools": [
+     {
+      "name": "search_records",
+      "description": "Search CRM records — leads, deals.",
+      "input_schema": {
+       "type": "object",
+       "properties": {
+        "entity": {
+         "type": "string",
+         "enum": [
+          "lead",
+          "deal"
+         ],
+         "description": "What to search"
+        },
+        "filters": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "properties": {
+           "field": {
+            "type": "string"
+           }
+          }
+         }
+        },
+        "limit": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "entity"
+       ]
+      }
+     },
+     {
+      "name": "propose_reply",
+      "description": "Propose a reply.",
+      "input_schema": {
+       "type": "object",
+       "properties": {
+        "text": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "text"
+       ],
+       "additionalProperties": false
+      },
+      "strict": true
+     },
+     {
+      "name": "noop",
+      "description": "No arguments.",
+      "input_schema": {
+       "type": "object",
+       "properties": {}
+      }
+     }
+    ],
+    "tool_choice": {
+     "type": "auto"
+    },
+    "output_config": {
+     "effort": "max"
+    },
+    "betas": [
+     "server-side-fallback-2026-07-01"
+    ],
+    "fallbacks": "default"
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_submit_batch",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "submit_batch",
+   "requests": [
+    [
+     "c1",
+     {
+      "model": "claude-haiku-5",
+      "max_tokens": 100,
+      "messages": [
+       {
+        "role": "user",
+        "content": "hi"
+       }
+      ]
+     }
+    ],
+    [
+     "c2",
+     {
+      "model": "claude-sonnet-5-5",
+      "max_tokens": 100,
+      "messages": [
+       {
+        "role": "user",
+        "content": "hi"
+       }
+      ],
+      "betas": [
+       "server-side-fallback-2026-07-01"
+      ],
+      "fallbacks": "default"
+     }
+    ]
+   ]
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msgbatch_1\", \"type\": \"message_batch\", \"processing_status\": \"in_progress\", \"request_counts\": {\"processing\": 2, \"succeeded\": 0, \"errored\": 0, \"canceled\": 0, \"expired\": 0}, \"created_at\": \"2026-10-15T00:00:00Z\", \"expires_at\": \"2026-10-16T00:00:00Z\", \"ended_at\": null, \"cancel_initiated_at\": null, \"archived_at\": null, \"results_url\": null}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/anthropic/v1/messages/batches",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01",
+     "content-length": "249"
+    },
+    "body": "{\"requests\":[{\"custom_id\":\"c1\",\"params\":{\"model\":\"claude-haiku-5\",\"max_tokens\":100,\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}]}},{\"custom_id\":\"c2\",\"params\":{\"model\":\"claude-sonnet-5-5\",\"max_tokens\":100,\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}]}}]}"
+   }
+  ],
+  "outcome": {
+   "batch_id": "msgbatch_1"
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_batch_status",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "batch_status",
+   "batch_id": "msgbatch_1"
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msgbatch_1\", \"type\": \"message_batch\", \"processing_status\": \"ended\", \"request_counts\": {\"processing\": 0, \"succeeded\": 1, \"errored\": 1, \"canceled\": 0, \"expired\": 0}, \"created_at\": \"2026-10-15T00:00:00Z\", \"expires_at\": \"2026-10-16T00:00:00Z\", \"ended_at\": \"2026-10-15T01:00:00Z\", \"cancel_initiated_at\": null, \"archived_at\": null, \"results_url\": \"{{BASE}}/anthropic/v1/messages/batches/msgbatch_1/results\"}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "GET",
+    "path": "/anthropic/v1/messages/batches/msgbatch_1",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01"
+    },
+    "body": ""
+   }
+  ],
+  "outcome": {
+   "status": "ended"
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ant_collect_batch",
+  "provider": {
+   "kind": "anthropic",
+   "api_key": "sk-ant-test"
+  },
+  "call": {
+   "method": "collect_batch",
+   "batch_id": "msgbatch_1"
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"msgbatch_1\", \"type\": \"message_batch\", \"processing_status\": \"ended\", \"request_counts\": {\"processing\": 0, \"succeeded\": 1, \"errored\": 1, \"canceled\": 0, \"expired\": 0}, \"created_at\": \"2026-10-15T00:00:00Z\", \"expires_at\": \"2026-10-16T00:00:00Z\", \"ended_at\": \"2026-10-15T01:00:00Z\", \"cancel_initiated_at\": null, \"archived_at\": null, \"results_url\": \"{{BASE}}/anthropic/v1/messages/batches/msgbatch_1/results\"}"
+   ],
+   [
+    200,
+    {
+     "content-type": "application/binary"
+    },
+    "{\"custom_id\": \"c2\", \"result\": {\"type\": \"succeeded\", \"message\": {\"id\": \"msg_01\", \"type\": \"message\", \"role\": \"assistant\", \"model\": \"claude-haiku-5\", \"content\": [{\"type\": \"text\", \"text\": \"Result \\u2014 one\"}], \"stop_reason\": \"end_turn\", \"stop_sequence\": null, \"usage\": {\"input_tokens\": 120, \"output_tokens\": 45, \"cache_read_input_tokens\": 0, \"cache_creation_input_tokens\": 0}}}}\n{\"custom_id\": \"c1\", \"result\": {\"type\": \"errored\", \"error\": {\"type\": \"error\", \"error\": {\"type\": \"invalid_request_error\", \"message\": \"bad\"}}}}\n{\"custom_id\": \"c3\", \"result\": {\"type\": \"expired\"}}\n"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "GET",
+    "path": "/anthropic/v1/messages/batches/msgbatch_1",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/json",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01"
+    },
+    "body": ""
+   },
+   {
+    "method": "GET",
+    "path": "/anthropic/v1/messages/batches/msgbatch_1/results",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "x-stainless-timeout": "NOT_GIVEN",
+     "x-stainless-retry-count": "0",
+     "x-stainless-read-timeout": "600",
+     "accept": "application/binary",
+     "user-agent": "AsyncAnthropic/Python 1.13.0",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.13.0",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "x-api-key": "sk-ant-test",
+     "x-stainless-async": "async:asyncio",
+     "anthropic-version": "2023-06-01"
+    },
+    "body": ""
+   }
+  ],
+  "outcome": {
+   "items": [
+    [
+     "c2",
+     {
+      "text": "Result — one",
+      "tool_calls": [],
+      "prompt_tokens": 120,
+      "completion_tokens": 45,
+      "reasoning": "",
+      "stop_reason": "end_turn",
+      "refusal_category": null,
+      "model_used": "claude-haiku-5",
+      "cache_write_1h_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_write_tokens": 0,
+      "raw_content": null
+     }
+    ],
+    [
+     "c1",
+     "errored"
+    ],
+    [
+     "c3",
+     "expired"
+    ]
+   ]
+  },
+  "unused_responses": 0
+ }
+]

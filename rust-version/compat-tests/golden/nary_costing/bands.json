@@ -1,0 +1,747 @@
+[
+ {
+  "raw": {
+   "hardware": {
+    "label": "Hardware",
+    "target": 25,
+    "floor": 15,
+    "families": [
+     "laptop",
+     "monitor"
+    ]
+   },
+   "project_services": {
+    "label": "Project services",
+    "target": "45",
+    "floor": "35",
+    "families": [
+     "services"
+    ]
+   },
+   "custom_ai": {
+    "target": 55.5,
+    "floor": 40,
+    "families": "custom_ai,analytics_kit"
+   }
+  },
+  "table": [
+   [
+    "hardware",
+    "Hardware",
+    "25",
+    "15"
+   ],
+   [
+    "project_services",
+    "Project services",
+    "45",
+    "35"
+   ],
+   [
+    "custom_ai",
+    "custom_ai",
+    "55.5",
+    "40"
+   ]
+  ],
+  "category_for": {
+   "None": null,
+   "": null,
+   "laptop": "hardware",
+   "monitor": "hardware",
+   "services": "project_services",
+   "custom_ai": "custom_ai",
+   "analytics": "custom_ai",
+   "f1": null,
+   "f2": null,
+   "x": null,
+   "zzz": null
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "label": "",
+    "target": 10,
+    "floor": 10,
+    "families": {
+     "x": 1
+    }
+   }
+  },
+  "table": [
+   [
+    "a",
+    "a",
+    "10",
+    "10"
+   ]
+  ],
+  "category_for": {
+   "None": null,
+   "": null,
+   "laptop": null,
+   "monitor": null,
+   "services": null,
+   "custom_ai": null,
+   "analytics": null,
+   "f1": null,
+   "f2": null,
+   "x": "a",
+   "zzz": null
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": 10,
+    "floor": 11
+   }
+  },
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": 100,
+    "floor": 1
+   }
+  },
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": 99.99,
+    "floor": -1
+   }
+  },
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' 'a' needs 0 ≤ floor ≤ target < 100. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": 10
+   }
+  },
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": {
+   "a": "x"
+  },
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": [],
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": {},
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": null,
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' is empty. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": "text",
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": [
+   {
+    "a": 1
+   }
+  ],
+  "table_error": {
+   "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+  },
+  "category_for": {
+   "None": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "laptop": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "monitor": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "services": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "custom_ai": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "analytics": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f1": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "f2": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "x": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   },
+   "zzz": {
+    "setting_error": "Setting 'sales.margins' must be {category: {label, target, floor, families}}. Set it in Settings → Sales & CRM → Pricing & payment terms."
+   }
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": null,
+    "floor": null,
+    "families": null
+   }
+  },
+  "table": [
+   [
+    "a",
+    "a",
+    "0",
+    "0"
+   ]
+  ],
+  "category_for": {
+   "None": null,
+   "": null,
+   "laptop": null,
+   "monitor": null,
+   "services": null,
+   "custom_ai": null,
+   "analytics": null,
+   "f1": null,
+   "f2": null,
+   "x": null,
+   "zzz": null
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": "abc",
+    "floor": 1
+   }
+  },
+  "table_error": {
+   "error": "InvalidOperation"
+  },
+  "category_for": {
+   "None": {
+    "error": "InvalidOperation"
+   },
+   "": {
+    "error": "InvalidOperation"
+   },
+   "laptop": {
+    "error": "InvalidOperation"
+   },
+   "monitor": {
+    "error": "InvalidOperation"
+   },
+   "services": {
+    "error": "InvalidOperation"
+   },
+   "custom_ai": {
+    "error": "InvalidOperation"
+   },
+   "analytics": {
+    "error": "InvalidOperation"
+   },
+   "f1": {
+    "error": "InvalidOperation"
+   },
+   "f2": {
+    "error": "InvalidOperation"
+   },
+   "x": {
+    "error": "InvalidOperation"
+   },
+   "zzz": {
+    "error": "InvalidOperation"
+   }
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": true,
+    "floor": 1
+   }
+  },
+  "table_error": {
+   "error": "InvalidOperation"
+  },
+  "category_for": {
+   "None": {
+    "error": "InvalidOperation"
+   },
+   "": {
+    "error": "InvalidOperation"
+   },
+   "laptop": {
+    "error": "InvalidOperation"
+   },
+   "monitor": {
+    "error": "InvalidOperation"
+   },
+   "services": {
+    "error": "InvalidOperation"
+   },
+   "custom_ai": {
+    "error": "InvalidOperation"
+   },
+   "analytics": {
+    "error": "InvalidOperation"
+   },
+   "f1": {
+    "error": "InvalidOperation"
+   },
+   "f2": {
+    "error": "InvalidOperation"
+   },
+   "x": {
+    "error": "InvalidOperation"
+   },
+   "zzz": {
+    "error": "InvalidOperation"
+   }
+  }
+ },
+ {
+  "raw": {
+   "z": {
+    "label": 7,
+    "target": "50.00",
+    "floor": "12.345",
+    "families": [
+     "f1"
+    ]
+   },
+   "y": {
+    "label": "Y",
+    "target": 1,
+    "floor": 0,
+    "families": [
+     "f1",
+     "f2"
+    ]
+   }
+  },
+  "table": [
+   [
+    "z",
+    7,
+    "50.00",
+    "12.345"
+   ],
+   [
+    "y",
+    "Y",
+    "1",
+    "0"
+   ]
+  ],
+  "category_for": {
+   "None": null,
+   "": null,
+   "laptop": null,
+   "monitor": null,
+   "services": null,
+   "custom_ai": null,
+   "analytics": null,
+   "f1": "z",
+   "f2": "y",
+   "x": null,
+   "zzz": null
+  }
+ },
+ {
+  "raw": {
+   "a": {
+    "target": 10,
+    "floor": 5,
+    "families": 3
+   }
+  },
+  "table": [
+   [
+    "a",
+    "a",
+    "10",
+    "5"
+   ]
+  ],
+  "category_for": {
+   "None": null,
+   "": null,
+   "laptop": {
+    "error": "TypeError"
+   },
+   "monitor": {
+    "error": "TypeError"
+   },
+   "services": {
+    "error": "TypeError"
+   },
+   "custom_ai": {
+    "error": "TypeError"
+   },
+   "analytics": {
+    "error": "TypeError"
+   },
+   "f1": {
+    "error": "TypeError"
+   },
+   "f2": {
+    "error": "TypeError"
+   },
+   "x": {
+    "error": "TypeError"
+   },
+   "zzz": {
+    "error": "TypeError"
+   }
+  }
+ }
+]

@@ -1,0 +1,1088 @@
+[
+ {
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>ACME &quot;Tech&quot;</strong> &middot; hello@granary.test</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>ACME &quot;Tech&quot;</strong> &middot; hello@granary.test</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "plain",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "plain",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>ACME &quot;Tech&quot;</strong> &middot; hello@granary.test</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>ACME &quot;Tech&quot;</strong> &middot; hello@granary.test</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "plain",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    "{{email}}"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "{{first_name}}"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "sig": "plain",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>ACME &quot;Tech&quot;</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>ACME &quot;Tech&quot;</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "plain",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "plain",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>Your Company</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>Your Company</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "plain",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "sig": "plain",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [],
+  "sig": "",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>Your Company</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [],
+  "sig": "",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>Your Company</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [],
+  "sig": "plain",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [],
+  "sig": "plain",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "sig": "",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>Ünïcødé 李</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Ünïcødé 李.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">Line1\nLine2</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Ünïcødé 李.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "sig": "",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>Ünïcødé 李</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Ünïcødé 李.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">Line1\nLine2</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Ünïcødé 李.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Ünïcødé 李.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">Line1\nLine2</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Ünïcødé 李.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Ünïcødé 李.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">Line1\nLine2</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Ünïcødé 李.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "sig": "plain",
+  "preview": false,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Ünïcødé 李.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">Line1\nLine2</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Ünïcødé 李.\n  </p>\n</td></tr>"
+ },
+ {
+  "ctx": [
+   [
+    "company_name",
+    "Ünïcødé 李"
+   ],
+   [
+    "unsubscribe_url",
+    ""
+   ],
+   [
+    "company_address",
+    "Line1\nLine2"
+   ]
+  ],
+  "sig": "plain",
+  "preview": true,
+  "out": "<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Ünïcødé 李.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">Line1\nLine2</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Ünïcødé 李.\n  </p>\n</td></tr>"
+ }
+]

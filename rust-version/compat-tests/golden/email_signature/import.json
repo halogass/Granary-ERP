@@ -1,0 +1,531 @@
+[
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"  {B}/logo.png  \"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br>",
+  "imported": 1,
+  "problems": [],
+  "rows": [
+   {
+    "filename": "logo.png",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/logo.png",
+    "file_size": 9,
+    "source_url": "{B}/logo.png"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/logo.png",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/logo.png\"><br><img alt=\"a\" src=\"  {B}/logo.png  \"><br><img alt=\"a\" src=\"HTTPS://\"><br><img alt=\"a\" src=\"{B}/noctype\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"HTTPS://\"><br><img alt=\"a\" src=\"{B}/noctype\"><br>",
+  "imported": 1,
+  "problems": [
+   "{B}/noctype: not an image (unknown)",
+   "HTTPS://: UnsupportedProtocol",
+   "{B}/noctype: not an image (unknown)"
+  ],
+  "rows": [
+   {
+    "filename": "logo.png",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/logo.png",
+    "file_size": 9,
+    "source_url": "{B}/logo.png"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/logo.png",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"{B}/img/photo.jpg\"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br>",
+  "imported": 1,
+  "problems": [
+   "{B}/err500.png: HTTP 500",
+   "{B}/noctype: not an image (unknown)",
+   "{B}/err500.png: HTTP 500"
+  ],
+  "rows": [
+   {
+    "filename": "photo.jpg",
+    "mime_type": "image/jpeg",
+    "object_key": "email-signature/{UUID}/photo.jpg",
+    "file_size": 8,
+    "source_url": "{B}/img/photo.jpg"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/photo.jpg",
+    "data": "/9ggcGhvdG8=",
+    "length": 8,
+    "content_type": "image/jpeg"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"{B}/err500.png\"><br>",
+  "out": "<img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"{B}/err500.png\"><br>",
+  "imported": 0,
+  "problems": [
+   "http://127.0.0.1:1/refused.png: ConnectError",
+   "{B}/err500.png: HTTP 500"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/logo.png?v=2\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"{B}/dir/\"><br><img alt=\"a\" src=\"{B}/img/photo.jpg\"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET1}\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET2}\"><br>",
+  "imported": 3,
+  "problems": [
+   "http://127.0.0.1:1/refused.png: ConnectError"
+  ],
+  "rows": [
+   {
+    "filename": "logo.png",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/logo.png",
+    "file_size": 9,
+    "source_url": "{B}/logo.png?v=2"
+   },
+   {
+    "filename": "image",
+    "mime_type": "image/svg+xml",
+    "object_key": "email-signature/{UUID}/image",
+    "file_size": 6,
+    "source_url": "{B}/dir/"
+   },
+   {
+    "filename": "photo.jpg",
+    "mime_type": "image/jpeg",
+    "object_key": "email-signature/{UUID}/photo.jpg",
+    "file_size": 8,
+    "source_url": "{B}/img/photo.jpg"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/logo.png",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   },
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/image",
+    "data": "PHN2Zy8+",
+    "length": 6,
+    "content_type": "image/svg+xml"
+   },
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/photo.jpg",
+    "data": "/9ggcGhvdG8=",
+    "length": 8,
+    "content_type": "image/jpeg"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/x\"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/x\"><br>",
+  "imported": 0,
+  "problems": [],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/img/photo.jpg\"><br><img alt=\"a\" src=\"ftp://x.test/a.png\"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"ftp://x.test/a.png\"><br>",
+  "imported": 1,
+  "problems": [
+   "ftp://x.test/a.png: unsupported URL scheme"
+  ],
+  "rows": [
+   {
+    "filename": "photo.jpg",
+    "mime_type": "image/jpeg",
+    "object_key": "email-signature/{UUID}/photo.jpg",
+    "file_size": 8,
+    "source_url": "{B}/img/photo.jpg"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/photo.jpg",
+    "data": "/9ggcGhvdG8=",
+    "length": 8,
+    "content_type": "image/jpeg"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"  {B}/logo.png  \"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br>",
+  "imported": 1,
+  "problems": [
+   "{B}/err500.png: HTTP 500"
+  ],
+  "rows": [
+   {
+    "filename": "logo.png",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/logo.png",
+    "file_size": 9,
+    "source_url": "{B}/logo.png"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/logo.png",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/redirect\"><br><img alt=\"a\" src=\"cid:a\"><br><img alt=\"a\" src=\"{B}/img/photo.jpg\"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"cid:a\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET1}\"><br>",
+  "imported": 2,
+  "problems": [],
+  "rows": [
+   {
+    "filename": "redirect",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/redirect",
+    "file_size": 9,
+    "source_url": "{B}/redirect"
+   },
+   {
+    "filename": "photo.jpg",
+    "mime_type": "image/jpeg",
+    "object_key": "email-signature/{UUID}/photo.jpg",
+    "file_size": 8,
+    "source_url": "{B}/img/photo.jpg"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/redirect",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   },
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/photo.jpg",
+    "data": "/9ggcGhvdG8=",
+    "length": 8,
+    "content_type": "image/jpeg"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/logo.png\"><br><img alt=\"a\" src=\"{B}/big.png\"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"{B}/big.png\"><br>",
+  "imported": 1,
+  "problems": [
+   "{B}/big.png: larger than 5 MB"
+  ],
+  "rows": [
+   {
+    "filename": "logo.png",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/logo.png",
+    "file_size": 9,
+    "source_url": "{B}/logo.png"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/logo.png",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/redirect\"><br><img alt=\"a\" src=\"{B}/dir/\"><br><img alt=\"a\" src=\"HTTPS://\"><br><img alt=\"a\" src=\"{B}/logo.png\"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET1}\"><br><img alt=\"a\" src=\"HTTPS://\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET2}\"><br>",
+  "imported": 3,
+  "problems": [
+   "HTTPS://: UnsupportedProtocol"
+  ],
+  "rows": [
+   {
+    "filename": "redirect",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/redirect",
+    "file_size": 9,
+    "source_url": "{B}/redirect"
+   },
+   {
+    "filename": "image",
+    "mime_type": "image/svg+xml",
+    "object_key": "email-signature/{UUID}/image",
+    "file_size": 6,
+    "source_url": "{B}/dir/"
+   },
+   {
+    "filename": "logo.png",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/logo.png",
+    "file_size": 9,
+    "source_url": "{B}/logo.png"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/redirect",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   },
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/image",
+    "data": "PHN2Zy8+",
+    "length": 6,
+    "content_type": "image/svg+xml"
+   },
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/logo.png",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   }
+  ]
+ },
+ {
+  "store_fails": false,
+  "html": "<img alt=\"a\" src=\"{B}/dir/\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"\"><br><img alt=\"a\" src=\"  {B}/logo.png  \"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"{B}/page.html\"><br>",
+  "out": "<img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET0}\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/{ASSET1}\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"{B}/page.html\"><br>",
+  "imported": 2,
+  "problems": [
+   "http://127.0.0.1:1/refused.png: ConnectError",
+   "http://127.0.0.1:1/refused.png: ConnectError",
+   "{B}/page.html: not an image (text/html)"
+  ],
+  "rows": [
+   {
+    "filename": "image",
+    "mime_type": "image/svg+xml",
+    "object_key": "email-signature/{UUID}/image",
+    "file_size": 6,
+    "source_url": "{B}/dir/"
+   },
+   {
+    "filename": "logo.png",
+    "mime_type": "image/png",
+    "object_key": "email-signature/{UUID}/logo.png",
+    "file_size": 9,
+    "source_url": "{B}/logo.png"
+   }
+  ],
+  "puts": [
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/image",
+    "data": "PHN2Zy8+",
+    "length": 6,
+    "content_type": "image/svg+xml"
+   },
+   {
+    "bucket": "granary-assets",
+    "key": "email-signature/{UUID}/logo.png",
+    "data": "iVBORyBsb2dv",
+    "length": 9,
+    "content_type": "image/png"
+   }
+  ]
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"{B}/logo.png?v=2\"><br><img alt=\"a\" src=\"{B}/logo.png\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/logo.png?v=2\"><br><img alt=\"a\" src=\"{B}/logo.png\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/logo.png?v=2: storage failed (S3Error)",
+   "{B}/logo.png: storage failed (S3Error)"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"//cdn.test/a.png\"><br><img alt=\"a\" src=\"{B}/logo.png\"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"  {B}/logo.png  \"><br>",
+  "out": "<img alt=\"a\" src=\"//cdn.test/a.png\"><br><img alt=\"a\" src=\"{B}/logo.png\"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"  {B}/logo.png  \"><br>",
+  "imported": 0,
+  "problems": [
+   "//cdn.test/a.png: unsupported URL scheme",
+   "{B}/logo.png: storage failed (S3Error)",
+   "{B}/noctype: not an image (unknown)",
+   "{B}/logo.png: storage failed (S3Error)"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"  {B}/logo.png  \"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/page.html\"><br>",
+  "out": "<img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"  {B}/logo.png  \"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/page.html\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/logo.png: storage failed (S3Error)",
+   "{B}/noctype: not an image (unknown)",
+   "{B}/page.html: not an image (text/html)"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/img/photo.jpg\"><br><img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"cid:a\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/img/photo.jpg\"><br><img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"cid:a\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/noctype: not an image (unknown)",
+   "{B}/img/photo.jpg: storage failed (S3Error)",
+   "{B}/err500.png: HTTP 500",
+   "http://127.0.0.1:1/refused.png: ConnectError"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"cid:a\"><br><img alt=\"a\" src=\"//cdn.test/a.png\"><br><img alt=\"a\" src=\"cid:a\"><br>",
+  "out": "<img alt=\"a\" src=\"cid:a\"><br><img alt=\"a\" src=\"//cdn.test/a.png\"><br><img alt=\"a\" src=\"cid:a\"><br>",
+  "imported": 0,
+  "problems": [
+   "//cdn.test/a.png: unsupported URL scheme"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"\"><br>",
+  "out": "<img alt=\"a\" src=\"\"><br>",
+  "imported": 0,
+  "problems": [],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"{B}/logo.png\"><br><img alt=\"a\" src=\"{B}/redirect\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/logo.png\"><br><img alt=\"a\" src=\"{B}/redirect\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/logo.png: storage failed (S3Error)",
+   "{B}/redirect: storage failed (S3Error)"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"  {B}/logo.png  \"><br><img alt=\"a\" src=\"{B}/logo.png?v=2\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"{B}/redirect\"><br><img alt=\"a\" src=\"{B}/longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong.png\"><br><img alt=\"a\" src=\"//cdn.test/a.png\"><br>",
+  "out": "<img alt=\"a\" src=\"  {B}/logo.png  \"><br><img alt=\"a\" src=\"{B}/logo.png?v=2\"><br><img alt=\"a\" src=\"http://127.0.0.1:1/refused.png\"><br><img alt=\"a\" src=\"{B}/redirect\"><br><img alt=\"a\" src=\"{B}/longlonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglonglong.png\"><br><img alt=\"a\" src=\"//cdn.test/a.png\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/logo.png: storage failed (S3Error)",
+   "{B}/logo.png?v=2: storage failed (S3Error)",
+   "http://127.0.0.1:1/refused.png: ConnectError",
+   "{B}/redirect: storage failed (S3Error)",
+   "{B}/longlonglonglonglonglonglonglonglongl: HTTP 404",
+   "//cdn.test/a.png: unsupported URL scheme"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"{B}/redirect\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/redirect\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/redirect: storage failed (S3Error)"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/x\"><br><img alt=\"a\" src=\"cid:a\"><br><img alt=\"a\" src=\"//cdn.test/a.png\"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/redirect\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/err500.png\"><br><img alt=\"a\" src=\"/api/v1/email/signature/assets/x\"><br><img alt=\"a\" src=\"cid:a\"><br><img alt=\"a\" src=\"//cdn.test/a.png\"><br><img alt=\"a\" src=\"{B}/noctype\"><br><img alt=\"a\" src=\"{B}/redirect\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/err500.png: HTTP 500",
+   "//cdn.test/a.png: unsupported URL scheme",
+   "{B}/noctype: not an image (unknown)",
+   "{B}/redirect: storage failed (S3Error)"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"{B}/dir/\"><br><img alt=\"a\" src=\"ftp://x.test/a.png\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/dir/\"><br><img alt=\"a\" src=\"ftp://x.test/a.png\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/dir/: storage failed (S3Error)",
+   "ftp://x.test/a.png: unsupported URL scheme"
+  ],
+  "rows": [],
+  "puts": []
+ },
+ {
+  "store_fails": true,
+  "html": "<img alt=\"a\" src=\"{B}/img/photo.jpg\"><br><img alt=\"a\" src=\"{B}/logo.png?v=2\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"{B}/dir/\"><br><img alt=\"a\" src=\"{B}/dir/\"><br>",
+  "out": "<img alt=\"a\" src=\"{B}/img/photo.jpg\"><br><img alt=\"a\" src=\"{B}/logo.png?v=2\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"data:image/png;base64,AA==\"><br><img alt=\"a\" src=\"{B}/dir/\"><br><img alt=\"a\" src=\"{B}/dir/\"><br>",
+  "imported": 0,
+  "problems": [
+   "{B}/img/photo.jpg: storage failed (S3Error)",
+   "{B}/logo.png?v=2: storage failed (S3Error)",
+   "{B}/dir/: storage failed (S3Error)",
+   "{B}/dir/: storage failed (S3Error)"
+  ],
+  "rows": [],
+  "puts": []
+ }
+]

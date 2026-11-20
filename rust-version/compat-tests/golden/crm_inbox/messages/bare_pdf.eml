@@ -1,0 +1,10 @@
+Message-ID: <scan@office.test>
+From: scanner@office.test
+To: hello@acme.test
+Subject: Scan
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="scan.pdf"
+MIME-Version: 1.0
+
+JVBERi0xLjQgc2Nhbm5lZCBwYWdl

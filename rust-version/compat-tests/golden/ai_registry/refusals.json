@@ -1,0 +1,18 @@
+[
+ {
+  "category": null,
+  "out": "The model declined this request. Rephrase it, or handle it without AI."
+ },
+ {
+  "category": "",
+  "out": "The model declined this request. Rephrase it, or handle it without AI."
+ },
+ {
+  "category": "cyber",
+  "out": "The model declined this request (cyber). Rephrase it, or handle it without AI."
+ },
+ {
+  "category": "general_harms",
+  "out": "The model declined this request (general_harms). Rephrase it, or handle it without AI."
+ }
+]

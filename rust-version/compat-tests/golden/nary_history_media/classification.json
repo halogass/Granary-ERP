@@ -1,0 +1,240 @@
+[
+ {
+  "result": {
+   "text": "{\"business\": true, \"reason\": \"quote\"}",
+   "stop_reason": ""
+  },
+  "outputs_in": null,
+  "read_status": "classified",
+  "error": null,
+  "classification": "business",
+  "outputs": {
+   "classify_reason": "quote"
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": true, \"reason\": \"quote\"}",
+   "stop_reason": ""
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "classified",
+  "error": null,
+  "classification": "business",
+  "outputs": {
+   "saved_on_phone": true,
+   "classify_reason": "quote"
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": false, \"reason\": \"social\"}",
+   "stop_reason": ""
+  },
+  "outputs_in": null,
+  "read_status": "skipped",
+  "error": null,
+  "classification": "not_business",
+  "outputs": {
+   "classify_reason": "social"
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": false, \"reason\": \"social\"}",
+   "stop_reason": ""
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "skipped",
+  "error": null,
+  "classification": "not_business",
+  "outputs": {
+   "saved_on_phone": true,
+   "classify_reason": "social"
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": 1}",
+   "stop_reason": ""
+  },
+  "outputs_in": null,
+  "read_status": "classified",
+  "error": null,
+  "classification": "business",
+  "outputs": {
+   "classify_reason": null
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": 1}",
+   "stop_reason": ""
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "classified",
+  "error": null,
+  "classification": "business",
+  "outputs": {
+   "saved_on_phone": true,
+   "classify_reason": null
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": \"\"}",
+   "stop_reason": ""
+  },
+  "outputs_in": null,
+  "read_status": "skipped",
+  "error": null,
+  "classification": "not_business",
+  "outputs": {
+   "classify_reason": null
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": \"\"}",
+   "stop_reason": ""
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "skipped",
+  "error": null,
+  "classification": "not_business",
+  "outputs": {
+   "saved_on_phone": true,
+   "classify_reason": null
+  }
+ },
+ {
+  "result": {
+   "text": "not json",
+   "stop_reason": ""
+  },
+  "outputs_in": null,
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": null
+ },
+ {
+  "result": {
+   "text": "not json",
+   "stop_reason": ""
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": {
+   "saved_on_phone": true
+  }
+ },
+ {
+  "result": {
+   "text": "",
+   "stop_reason": ""
+  },
+  "outputs_in": null,
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": null
+ },
+ {
+  "result": {
+   "text": "",
+   "stop_reason": ""
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": {
+   "saved_on_phone": true
+  }
+ },
+ {
+  "result": {
+   "error": "errored"
+  },
+  "outputs_in": null,
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": null
+ },
+ {
+  "result": {
+   "error": "errored"
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": {
+   "saved_on_phone": true
+  }
+ },
+ {
+  "result": null,
+  "outputs_in": null,
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": null
+ },
+ {
+  "result": null,
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": {
+   "saved_on_phone": true
+  }
+ },
+ {
+  "result": {
+   "text": "{\"business\": true}",
+   "stop_reason": "refusal"
+  },
+  "outputs_in": null,
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": null
+ },
+ {
+  "result": {
+   "text": "{\"business\": true}",
+   "stop_reason": "refusal"
+  },
+  "outputs_in": {
+   "saved_on_phone": true
+  },
+  "read_status": "failed",
+  "error": "the classification could not be read",
+  "classification": null,
+  "outputs": {
+   "saved_on_phone": true
+  }
+ }
+]

@@ -1,0 +1,4084 @@
+{
+ "attribution": [
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "first_referrer": "http://[::1]/",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/#?utm_source=frag",
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": "android-app://com.google",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "referrer": "android-app://com.google",
+     "referrer_host": "android-app://com.google",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "?utm_x=1",
+    "first_referrer": "httpx",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "?utm_x=1",
+     "referrer": "httpx",
+     "timezone": "Asia/Riyadh",
+     "utm_x": "1"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "message": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[::1]:8080/?utm_source=v6",
+     "utm_source": "v6"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "",
+    "message": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "referrer": "http://Google.COM/search",
+     "referrer_host": "google.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "first_referrer": "http://[::1]/",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/#?utm_source=frag",
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "referrer": "https://",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://[bad/?utm_source=x",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[bad/?utm_source=x",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[::1]:8080/?utm_source=v6",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "v6"
+    }
+   }
+  },
+  {
+   "fields": {
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "message": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "first_referrer": "  ",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_medium=%C3",
+     "utm_medium": "�"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+    "message": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+     "utm_campaign": "€uro%zz%4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[1.2.3.4]/?utm_source=v4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "httpx",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+     "referrer": "httpx",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "z"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "landing_page": "?utm_x=1",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "?utm_x=1",
+     "utm_x": "1"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+    "first_referrer": "android-app://com.google",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+     "referrer": "android-app://com.google",
+     "referrer_host": "android-app://com.google",
+     "utm_campaign": "€uro%zz%4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "referrer": "https://",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "  https://a.b/?utm_content=sp ace",
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "  https://a.b/?utm_content=sp ace",
+     "referrer": "https://",
+     "timezone": "Asia/Riyadh",
+     "utm_content": "sp ace"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  "
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "z"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "first_referrer": "android-app://com.google",
+    "timezone": "Asia/Riyadh",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+     "referrer": "android-app://com.google",
+     "referrer_host": "android-app://com.google",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "t"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "//host/?utm_source=s",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "//host/?utm_source=s",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "s"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "message": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "https://[1.2.3.4]/?utm_source=v4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_source=&utm_medium=m",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_source=&utm_medium=m",
+     "utm_medium": "m"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://example.com/?utm_source=chatgpt.com",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://example.com/?utm_source=chatgpt.com",
+     "utm_source": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "first_referrer": "google",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "referrer": "google",
+     "referrer_host": "google"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "first_referrer": "google",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "referrer": "google",
+     "referrer_host": "google",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": "https://chatgpt.com/",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "first_referrer": "httpx",
+    "message": "",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_medium=%C3",
+     "referrer": "httpx",
+     "utm_medium": "�"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+     "utm_source": "t"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "first_referrer": "(direct)",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "referrer": "(direct)"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "first_referrer": "https://chatgpt.com/",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+     "utm_source": "g",
+     "utm_medium": "cpc"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+     "referrer": "https://",
+     "utm_source": "t"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "https://a.b/#?utm_source=frag"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "  ",
+    "message": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[::1]:8080/?utm_source=v6",
+     "utm_source": "v6"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": "(direct)",
+    "timezone": "",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "referrer": "(direct)"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "(direct)",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+     "referrer": "(direct)",
+     "utm_source": "z"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://chatgpt.com/",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "first_referrer": "  ",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp"
+    }
+   }
+  },
+  {
+   "fields": {
+    "timezone": "",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "message": "a\n\nb"
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "//host/?utm_source=s",
+    "first_referrer": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "//host/?utm_source=s",
+     "utm_source": "s"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "?utm_x=1",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "?utm_x=1",
+     "referrer": "http://Google.COM/search",
+     "referrer_host": "google.com",
+     "timezone": "Asia/Riyadh",
+     "utm_x": "1"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "referrer": "https://",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "landing_page": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[::1]:8080/?utm_source=v6",
+     "utm_source": "v6"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://example.com/?utm_source=chatgpt.com",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://example.com/?utm_source=chatgpt.com",
+     "utm_source": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "  ",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "message": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+     "utm_source": "g",
+     "utm_medium": "cpc"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "first_referrer": "  ",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "landing_page": "https://[1.2.3.4]/?utm_source=v4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "referrer": "https://"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "first_referrer": "https://",
+    "message": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "referrer": "https://"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "first_referrer": "google",
+    "timezone": "",
+    "message": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+     "referrer": "google",
+     "referrer_host": "google",
+     "utm_source": "g",
+     "utm_medium": "cpc"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "landing_page": "  https://a.b/?utm_content=sp ace",
+    "first_referrer": "https://chatgpt.com/",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "  https://a.b/?utm_content=sp ace",
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com",
+     "utm_content": "sp ace"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=é",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_source=é",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "é"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "first_referrer": "  ",
+    "timezone": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+     "utm_source": "g",
+     "utm_medium": "cpc"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "first_referrer": "",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=&utm_medium=m",
+    "first_referrer": "  ",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_source=&utm_medium=m",
+     "utm_medium": "m"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "first_referrer": "(direct)",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+     "referrer": "(direct)",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "a b"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=é",
+    "first_referrer": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_source=é",
+     "utm_source": "é"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "referrer": "https://"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_term",
+    "timezone": "Asia/Riyadh",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_term",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[1.2.3.4]/?utm_source=v4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "?utm_x=1",
+    "first_referrer": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "?utm_x=1",
+     "utm_x": "1"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": "https://chatgpt.com/"
+   },
+   "out": {
+    "ok": {
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "Asia/Riyadh"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "first_referrer": ""
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "first_referrer": "https://user:pw@Host.example:8443/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+     "referrer": "https://user:pw@Host.example:8443/x",
+     "referrer_host": "user:pw@host.example:8443",
+     "utm_source": "a b"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "//host/?utm_source=s",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "//host/?utm_source=s",
+     "utm_source": "s"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[bad/?utm_source=x",
+    "first_referrer": "https://chatgpt.com/"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[bad/?utm_source=x",
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "mailto:x?utm_source=m",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "mailto:x?utm_source=m",
+     "utm_source": "m"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "mailto:x?utm_source=m",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "mailto:x?utm_source=m",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "m"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "",
+    "timezone": "",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_term",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_term",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://[bad/?utm_source=x",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[bad/?utm_source=x",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/#?utm_source=frag",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "message": "a\n\nb"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "android-app://com.google",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+     "referrer": "android-app://com.google",
+     "referrer_host": "android-app://com.google",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "z"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "referrer": "https://chatgpt.com/",
+     "referrer_host": "chatgpt.com"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+     "referrer": "http://Google.COM/search",
+     "referrer_host": "google.com",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "a b"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "first_referrer": "(direct)",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "referrer": "(direct)",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "first_referrer": "google",
+    "timezone": "",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/#?utm_source=frag",
+     "referrer": "google",
+     "referrer_host": "google"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "message": "",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+     "utm_source": "a b"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "first_referrer": "https://",
+    "message": "  hello  "
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+     "referrer": "https://",
+     "utm_source": "t"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "timezone": "",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "  ",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "  hello  "
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+     "referrer": "https://"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "first_referrer": "https://user:pw@Host.example:8443/x",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/?utm_medium=%C3",
+     "referrer": "https://user:pw@Host.example:8443/x",
+     "referrer_host": "user:pw@host.example:8443",
+     "utm_medium": "�"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+     "referrer": "https://",
+     "utm_source": "z"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "first_referrer": "(direct)",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+     "referrer": "(direct)",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "g",
+     "utm_medium": "cpc"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+     "timezone": "Asia/Riyadh",
+     "utm_campaign": "€uro%zz%4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "http://[::1]/",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[::1]:8080/?utm_source=v6",
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "v6"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "first_referrer": "",
+    "message": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {}
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "first_referrer": "http://[::1]/",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "referrer": "http://[::1]/",
+     "referrer_host": "[::1]"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[bad/?utm_source=x",
+    "timezone": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[bad/?utm_source=x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[v1.x]/?utm_source=fut",
+     "utm_source": "fut"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+     "timezone": "Asia/Riyadh",
+     "utm_source": "a b"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://[bad/?utm_source=x",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[bad/?utm_source=x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[1.2.3.4]/?utm_source=v4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "http://[bad/",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "err": "ValueError"
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "first_referrer": "http://[bad/",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": {
+    "err": "ValueError"
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "from_page": "https://example.com/x",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "timezone": "Asia/Riyadh",
+    "request_type": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://a.b/#?utm_source=frag",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "referrer": "http://Google.COM/search",
+     "referrer_host": "google.com",
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_term",
+    "first_referrer": "",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "https://a.b/?utm_term"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "form": "whatsapp",
+     "landing_page": "https://a.b/?utm_medium=%C3",
+     "utm_medium": "�"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  "
+   },
+   "out": {
+    "ok": {
+     "timezone": "Asia/Riyadh"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "from_page": "https://example.com/x"
+    }
+   }
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_term",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": {
+    "ok": {
+     "form": "web3forms",
+     "landing_page": "https://a.b/?utm_term"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "google",
+    "message": "  hello  "
+   },
+   "out": {
+    "ok": {
+     "from_page": "https://example.com/x",
+     "landing_page": "https://[::1]:8080/?utm_source=v6",
+     "referrer": "google",
+     "referrer_host": "google",
+     "utm_source": "v6"
+    }
+   }
+  },
+  {
+   "fields": {
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "message": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "https://[1.2.3.4]/?utm_source=v4"
+    }
+   }
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "?utm_x=1",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": {
+    "ok": {
+     "landing_page": "?utm_x=1",
+     "utm_x": "1"
+    }
+   }
+  }
+ ],
+ "utm": [
+  {
+   "url": "",
+   "out": {}
+  },
+  {
+   "url": "https://example.com/?utm_source=chatgpt.com",
+   "out": {
+    "utm_source": "chatgpt.com"
+   }
+  },
+  {
+   "url": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+   "out": {
+    "utm_source": "g",
+    "utm_medium": "cpc"
+   }
+  },
+  {
+   "url": "https://a.b/?utm_source=&utm_medium=m",
+   "out": {
+    "utm_medium": "m"
+   }
+  },
+  {
+   "url": "https://a.b/?utm_source=a+b&utm_source=c",
+   "out": {
+    "utm_source": "a b"
+   }
+  },
+  {
+   "url": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+   "out": {
+    "utm_campaign": "€uro%zz%4"
+   }
+  },
+  {
+   "url": "https://a.b/?utm_term",
+   "out": {}
+  },
+  {
+   "url": "?utm_x=1",
+   "out": {
+    "utm_x": "1"
+   }
+  },
+  {
+   "url": "//host/?utm_source=s",
+   "out": {
+    "utm_source": "s"
+   }
+  },
+  {
+   "url": "https://[::1]:8080/?utm_source=v6",
+   "out": {
+    "utm_source": "v6"
+   }
+  },
+  {
+   "url": "https://[bad/?utm_source=x",
+   "out": {}
+  },
+  {
+   "url": "https://[v1.x]/?utm_source=fut",
+   "out": {
+    "utm_source": "fut"
+   }
+  },
+  {
+   "url": "https://[1.2.3.4]/?utm_source=v4",
+   "out": {}
+  },
+  {
+   "url": "mailto:x?utm_source=m",
+   "out": {
+    "utm_source": "m"
+   }
+  },
+  {
+   "url": "https://a.b/#?utm_source=frag",
+   "out": {}
+  },
+  {
+   "url": "  https://a.b/?utm_content=sp ace",
+   "out": {
+    "utm_content": "sp ace"
+   }
+  },
+  {
+   "url": "https://a.b/?utm_medium=%C3",
+   "out": {
+    "utm_medium": "�"
+   }
+  },
+  {
+   "url": "https://a.b/?a=1&&utm_source=z&utm_source",
+   "out": {
+    "utm_source": "z"
+   }
+  },
+  {
+   "url": "https://a.b/?utm_source=é",
+   "out": {
+    "utm_source": "é"
+   }
+  },
+  {
+   "url": "h\tttps://a.b/?utm_\nsource=t",
+   "out": {
+    "utm_source": "t"
+   }
+  }
+ ],
+ "with_config": [
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "first_referrer": "http://[::1]/",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "first_referrer": "android-app://com.google",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "?utm_x=1",
+    "first_referrer": "httpx",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "message": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "",
+    "message": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "first_referrer": "http://[::1]/",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Request type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://[bad/?utm_source=x",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "a\n\nb\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "message": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "first_referrer": "  ",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Request type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+    "message": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Request type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "httpx",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Request type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "landing_page": "?utm_x=1",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+    "first_referrer": "android-app://com.google",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "  https://a.b/?utm_content=sp ace",
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nRequest type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  "
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "first_referrer": "android-app://com.google",
+    "timezone": "Asia/Riyadh",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "//host/?utm_source=s",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "message": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_source=&utm_medium=m",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://example.com/?utm_source=chatgpt.com",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "first_referrer": "google",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "first_referrer": "google",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb"
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "first_referrer": "https://chatgpt.com/",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "first_referrer": "httpx",
+    "message": "",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "first_referrer": "(direct)",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "first_referrer": "https://chatgpt.com/",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f"
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "a\n\nb\n\nRequest type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "  ",
+    "message": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "first_referrer": "(direct)",
+    "timezone": "",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "(direct)",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://chatgpt.com/",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "first_referrer": "  ",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "timezone": "",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "message": "a\n\nb"
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "//host/?utm_source=s",
+    "first_referrer": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "?utm_x=1",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "a\n\nb\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "landing_page": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://example.com/?utm_source=chatgpt.com",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "  ",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "message": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "first_referrer": "  ",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "https://",
+    "timezone": "",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Request type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "first_referrer": "https://",
+    "message": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "first_referrer": "google",
+    "timezone": "",
+    "message": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "landing_page": "  https://a.b/?utm_content=sp ace",
+    "first_referrer": "https://chatgpt.com/",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=é",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "first_referrer": "  ",
+    "timezone": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "first_referrer": "",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=&utm_medium=m",
+    "first_referrer": "  ",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "first_referrer": "(direct)",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=é",
+    "first_referrer": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_term",
+    "timezone": "Asia/Riyadh",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "?utm_x=1",
+    "first_referrer": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "first_referrer": "https://chatgpt.com/"
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "Asia/Riyadh"
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "first_referrer": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "first_referrer": "https://user:pw@Host.example:8443/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "a\n\nb\n\nRequest type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "//host/?utm_source=s",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[bad/?utm_source=x",
+    "first_referrer": "https://chatgpt.com/"
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "http://[::1]/",
+    "timezone": "",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "mailto:x?utm_source=m",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "mailto:x?utm_source=m",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Request type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "",
+    "timezone": "",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_term",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "landing_page": "https://[bad/?utm_source=x",
+    "first_referrer": "",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "message": "a\n\nb"
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "android-app://com.google",
+    "timezone": "Asia/Riyadh",
+    "message": "",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "first_referrer": "https://chatgpt.com/",
+    "timezone": "",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "a\n\nb\n\nRequest type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "first_referrer": "(direct)",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "first_referrer": "google",
+    "timezone": "",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "message": "",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "a\n\nb\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "h\tttps://a.b/?utm_\nsource=t",
+    "first_referrer": "https://",
+    "message": "  hello  "
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "timezone": "",
+    "message": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "first_referrer": "  ",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "  hello  "
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "first_referrer": "https://user:pw@Host.example:8443/x",
+    "timezone": "",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "https://",
+    "timezone": "",
+    "message": "",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://a.b/p?utm_source=g&utm_medium=cpc&x=1#f",
+    "first_referrer": "(direct)",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "timezone": "",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://a.b/?utm_campaign=%E2%82%ACuro%zz%4",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "timezone": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "",
+    "message": "a\n\nb"
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "a\n\nb",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "http://[::1]/",
+    "timezone": "Asia/Riyadh",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "first_referrer": "",
+    "message": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "first_referrer": "http://[::1]/",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[bad/?utm_source=x",
+    "timezone": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[v1.x]/?utm_source=fut",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nRequest type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?utm_source=a+b&utm_source=c",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "landing_page": "https://[bad/?utm_source=x",
+    "timezone": "",
+    "message": "  hello  ",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "Configuration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "landing_page": "https://a.b/?a=1&&utm_source=z&utm_source",
+    "first_referrer": "http://[bad/",
+    "timezone": "Asia/Riyadh",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "first_referrer": "http://[bad/",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote"
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "https://example.com/x",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "timezone": "",
+    "message": "a\n\nb",
+    "request_type": ""
+   },
+   "out": "a\n\nb"
+  },
+  {
+   "fields": {
+    "submission_source": "",
+    "from_page": "",
+    "landing_page": "https://a.b/#?utm_source=frag",
+    "timezone": "Asia/Riyadh",
+    "request_type": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": "{\"units\": 3}"
+   },
+   "out": "hello\n\nRequest type: quote\n\nConfiguration chosen on the website: {\"units\": 3}"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "first_referrer": "http://Google.COM/search",
+    "timezone": "Asia/Riyadh",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_term",
+    "first_referrer": "",
+    "message": "  hello  ",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "hello\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "whatsapp",
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_medium=%C3",
+    "pricing_config": ""
+   },
+   "out": null
+  },
+  {
+   "fields": {
+    "landing_page": "",
+    "timezone": "Asia/Riyadh",
+    "message": "  hello  "
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "https://example.com/x",
+    "request_type": "quote"
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "submission_source": "web3forms",
+    "from_page": "",
+    "landing_page": "https://a.b/?utm_term",
+    "message": "a\n\nb",
+    "request_type": "quote"
+   },
+   "out": "a\n\nb\n\nRequest type: quote"
+  },
+  {
+   "fields": {
+    "from_page": "https://example.com/x",
+    "landing_page": "https://[::1]:8080/?utm_source=v6",
+    "first_referrer": "google",
+    "message": "  hello  "
+   },
+   "out": "hello"
+  },
+  {
+   "fields": {
+    "landing_page": "https://[1.2.3.4]/?utm_source=v4",
+    "timezone": "",
+    "message": "",
+    "request_type": "quote",
+    "pricing_config": ""
+   },
+   "out": "Request type: quote"
+  },
+  {
+   "fields": {
+    "from_page": "",
+    "landing_page": "?utm_x=1",
+    "message": "  hello  ",
+    "request_type": "",
+    "pricing_config": ""
+   },
+   "out": "hello"
+  }
+ ]
+}

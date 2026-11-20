@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="{{language}}">
+<head>
+<meta charset="UTF-8">
+<style>
+/* Solution Proposal (Nary Phase 4), in a classic consulting style: Arial, maroon
+   headings, bordered tables with a rose or maroon header row, a cover with the reference table, the
+   header and the verified footer (QR, reference, revision, page) on every page. Every html block was
+   sanitised by the backend; images are data: URIs. */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,'Liberation Sans',Helvetica,sans-serif;color:#1D2733;line-height:1.55;font-size:11.5pt;padding:0 2mm}
+.cover{min-height:240mm;page-break-after:always;break-after:page}
+/* 23 Oct 2026: the cover letterhead has the quotation's width and place (Owner): 169 mm, centred, which puts it
+   20.5 mm from the left edge as on the quotation (document.html: 800px column, 32px padding, 12 mm margins).
+   Edge to edge clipped the letterhead's own text. It keeps its aspect ratio. */
+img.letterhead{width:169mm;max-width:100%;height:auto;display:block;margin:0 auto 2mm}
+.letterhead-divider{border-top:1.2px solid #7A1F2B;margin:0 0 14mm}
+.kicker{font-size:10pt;letter-spacing:2px;font-weight:700;color:#5A6672;text-transform:uppercase;margin-bottom:3mm}
+h1.title{font-size:25pt;line-height:1.2;color:#7A1F2B;font-weight:700;margin-bottom:3mm}
+.subtitle{font-size:13pt;color:#5A6672;margin-bottom:10mm}
+table{width:100%;border-collapse:collapse;margin:3mm 0 4mm;font-size:10pt;page-break-inside:auto}
+tr{page-break-inside:avoid;break-inside:avoid}
+th,td{border:1px solid #D9C9CC;padding:2.2mm 2.8mm;text-align:left;vertical-align:top}
+table.cover-table td.label{width:32%;background:#F8F1F1;color:#444}
+table.data thead th{background:#7A1F2B;color:#fff;font-weight:700}
+table.data tbody tr:nth-child(even) td{background:#FBF7F7}
+table.data td.num,table.data th.num{text-align:right;white-space:nowrap}
+table.data tr.total td{font-weight:700;background:#F4E6E8}
+table.kv td.label{width:34%;background:#F8F1F1;color:#444;font-weight:700}
+h2{font-size:15pt;color:#7A1F2B;margin:7mm 0 2.5mm;page-break-after:avoid;break-after:avoid}
+h3{font-size:12pt;color:#7A1F2B;margin:4.5mm 0 1.8mm;page-break-after:avoid;break-after:avoid}
+p{margin:0 0 2.6mm}
+ul,ol{margin:0 0 3mm 6mm}
+li{margin:0 0 1.2mm}
+strong,b{color:#1D2733}
+a{color:#7A1F2B}
+.status-included{color:#1E6B3A;font-weight:700}
+.status-optional_custom{color:#8A5A00;font-weight:700}
+.status-not_in_scope{color:#6B7280;font-weight:700}
+.status-to_confirm{color:#1D4E89;font-weight:700}
+figure{margin:4mm 0 5mm;text-align:center;page-break-inside:avoid;break-inside:avoid}
+figure img{max-width:100%;max-height:150mm;border:1px solid #E6DADC}
+figcaption{font-size:9.5pt;color:#5A6672;margin-top:1.5mm}
+figure.fig img{border:0;width:100%;max-height:200mm}
+figure.fig-half{display:inline-block;width:47.5%;margin:4mm 1% 5mm;vertical-align:top}
+.fig-source{font-size:8pt;color:#7A8591;margin-top:.6mm}
+.legend{font-size:9.5pt;color:#5A6672;margin-bottom:2mm}
+.note{font-size:9.5pt;color:#5A6672}
+.commercial-note{font-size:9.5pt;color:#5A6672;margin-top:1mm}
+.stamp-wrap{display:flex;justify-content:flex-end;margin-top:10mm;page-break-inside:avoid;break-inside:avoid}
+.approval-stamp{border:1.5px solid #7A1F2B;border-radius:5px;padding:3mm 4mm;text-align:center;color:#7A1F2B;width:62mm}
+.stamp-head{font-size:8pt;font-weight:700;letter-spacing:1.2px}
+.stamp-name{font-weight:700;color:#111;font-size:10.5pt;margin-top:1.5mm}
+.stamp-title{font-size:9pt;color:#6b7280}
+.stamp-date{font-size:9pt;color:#374151;margin-top:.6mm}
+.stamp-verify{font-size:7.5pt;color:#9ca3af;margin-top:1.4mm}
+.draft-mark{position:fixed;top:40%;left:0;right:0;text-align:center;font-size:72pt;color:rgba(122,31,43,0.07);transform:rotate(-24deg);font-weight:700;z-index:-1}
+</style>
+</head>
+<body>
+{{#if draft}}<div class="draft-mark">{{labels.draft}}</div>{{/if}}
+
+<section class="cover">
+  {{#if company.letterhead_url}}<img class="letterhead" src="{{company.letterhead_url}}" alt="{{company.company_trade}}" />{{/if}}
+  <div class="letterhead-divider"></div>
+  <div class="kicker">{{labels.kind}}</div>
+  <h1 class="title">{{title}}</h1>
+  {{#if subtitle}}<div class="subtitle">{{subtitle}}</div>{{/if}}
+  <table class="cover-table">
+    {{#each cover_rows}}<tr><td class="label">{{this.[0]}}</td><td>{{this.[1]}}</td></tr>{{/each}}
+  </table>
+</section>
+
+{{#each sections}}
+<section class="section">
+  <h2>{{number}}. {{title}}</h2>
+  {{#each blocks}}
+    {{#if heading}}<h3>{{heading}}</h3>{{/if}}
+    {{#if html}}<div class="text">{{{html}}}</div>{{/if}}
+    {{#if kv}}
+    <table class="kv">{{#each kv}}<tr><td class="label">{{this.[0]}}</td><td>{{this.[1]}}</td></tr>{{/each}}</table>
+    {{/if}}
+    {{#if table}}
+    <table class="data">
+      <thead><tr>{{#each table.columns}}<th class="{{#if this.num}}num{{/if}}">{{this.label}}</th>{{/each}}</tr></thead>
+      <tbody>{{#each table.rows}}<tr class="{{#if this.total}}total{{/if}}">{{#each this.cells}}<td class="{{#if this.num}}num{{/if}}">{{this.text}}</td>{{/each}}</tr>{{/each}}</tbody>
+    </table>
+    {{/if}}
+    {{#if coverage}}
+    {{#if coverage.legend}}<p class="legend">{{coverage.legend}}</p>{{/if}}
+    <table class="data">
+      <thead><tr><th>{{@root.labels.requirement}}</th><th style="width:22%">{{@root.labels.status}}</th><th>{{@root.labels.notes}}</th></tr></thead>
+      <tbody>{{#each coverage.rows}}<tr><td>{{requirement}}</td><td class="status-{{status}}">{{status_label}}</td><td>{{notes}}</td></tr>{{/each}}</tbody>
+    </table>
+    {{/if}}
+    {{#if image}}
+    <figure{{#if image.half}} class="fig-half"{{/if}}><img src="{{image.src}}" alt="{{image.caption}}" />{{#if image.caption}}<figcaption>{{image.caption}}</figcaption>{{/if}}</figure>
+    {{/if}}
+    {{#if figure}}
+    <figure class="fig{{#if figure.half}} fig-half{{/if}}"><img src="{{figure.src}}" alt="{{figure.caption}}" /><figcaption>{{figure.caption}}{{#if figure.source}}<div class="fig-source">{{figure.source}}</div>{{/if}}</figcaption></figure>
+    {{/if}}
+    {{#if commercial}}
+    <table class="data">
+      <thead><tr>{{#each commercial.columns}}<th class="{{#if this.num}}num{{/if}}">{{this.label}}</th>{{/each}}</tr></thead>
+      <tbody>{{#each commercial.rows}}<tr class="{{#if this.total}}total{{/if}}">{{#each this.cells}}<td class="{{#if this.num}}num{{/if}}">{{this.text}}</td>{{/each}}</tr>{{/each}}</tbody>
+    </table>
+    {{#each commercial.notes}}<p class="commercial-note">{{this}}</p>{{/each}}
+    {{/if}}
+    {{#if stamp}}
+    <div class="stamp-wrap">
+      {{#if stamp.approval}}
+      <div class="approval-stamp">
+        <div class="stamp-head">{{@root.labels.approved}}</div>
+        <div class="stamp-name">{{stamp.approval.name}}</div>
+        {{#if stamp.approval.title}}<div class="stamp-title">{{stamp.approval.title}}</div>{{/if}}
+        {{#if stamp.approval.date}}<div class="stamp-date">{{stamp.approval.date}}</div>{{/if}}
+        <div class="stamp-verify">{{@root.labels.verify}}</div>
+      </div>
+      {{else}}
+      <div class="approval-stamp"><div class="stamp-head">{{@root.labels.awaiting}}</div></div>
+      {{/if}}
+    </div>
+    {{/if}}
+  {{/each}}
+</section>
+{{/each}}
+</body>
+</html>

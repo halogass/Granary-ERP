@@ -1,0 +1,2542 @@
+[
+ {
+  "country": "",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Tokyo"
+ },
+ {
+  "country": "",
+  "company_tz": "Europe/London",
+  "result": "Europe/London"
+ },
+ {
+  "country": "AD",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Andorra"
+ },
+ {
+  "country": "AD",
+  "company_tz": "Europe/London",
+  "result": "Europe/Andorra"
+ },
+ {
+  "country": "AE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Dubai"
+ },
+ {
+  "country": "AE",
+  "company_tz": "Europe/London",
+  "result": "Asia/Dubai"
+ },
+ {
+  "country": "AF",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Kabul"
+ },
+ {
+  "country": "AF",
+  "company_tz": "Europe/London",
+  "result": "Asia/Kabul"
+ },
+ {
+  "country": "AG",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Antigua"
+ },
+ {
+  "country": "AG",
+  "company_tz": "Europe/London",
+  "result": "America/Antigua"
+ },
+ {
+  "country": "AI",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Anguilla"
+ },
+ {
+  "country": "AI",
+  "company_tz": "Europe/London",
+  "result": "America/Anguilla"
+ },
+ {
+  "country": "AL",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Tirane"
+ },
+ {
+  "country": "AL",
+  "company_tz": "Europe/London",
+  "result": "Europe/Tirane"
+ },
+ {
+  "country": "AM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Yerevan"
+ },
+ {
+  "country": "AM",
+  "company_tz": "Europe/London",
+  "result": "Asia/Yerevan"
+ },
+ {
+  "country": "AO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Luanda"
+ },
+ {
+  "country": "AO",
+  "company_tz": "Europe/London",
+  "result": "Africa/Luanda"
+ },
+ {
+  "country": "AQ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Antarctica/McMurdo"
+ },
+ {
+  "country": "AQ",
+  "company_tz": "Europe/London",
+  "result": "Antarctica/McMurdo"
+ },
+ {
+  "country": "AR",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Argentina/Buenos_Aires"
+ },
+ {
+  "country": "AR",
+  "company_tz": "Europe/London",
+  "result": "America/Argentina/Buenos_Aires"
+ },
+ {
+  "country": "AS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Pago_Pago"
+ },
+ {
+  "country": "AS",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Pago_Pago"
+ },
+ {
+  "country": "AT",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Vienna"
+ },
+ {
+  "country": "AT",
+  "company_tz": "Europe/London",
+  "result": "Europe/Vienna"
+ },
+ {
+  "country": "AU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Australia/Lord_Howe"
+ },
+ {
+  "country": "AU",
+  "company_tz": "Europe/London",
+  "result": "Australia/Lord_Howe"
+ },
+ {
+  "country": "AW",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Aruba"
+ },
+ {
+  "country": "AW",
+  "company_tz": "Europe/London",
+  "result": "America/Aruba"
+ },
+ {
+  "country": "AX",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Mariehamn"
+ },
+ {
+  "country": "AX",
+  "company_tz": "Europe/London",
+  "result": "Europe/Mariehamn"
+ },
+ {
+  "country": "AZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Baku"
+ },
+ {
+  "country": "AZ",
+  "company_tz": "Europe/London",
+  "result": "Asia/Baku"
+ },
+ {
+  "country": "BA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Sarajevo"
+ },
+ {
+  "country": "BA",
+  "company_tz": "Europe/London",
+  "result": "Europe/Sarajevo"
+ },
+ {
+  "country": "BB",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Barbados"
+ },
+ {
+  "country": "BB",
+  "company_tz": "Europe/London",
+  "result": "America/Barbados"
+ },
+ {
+  "country": "BD",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Dhaka"
+ },
+ {
+  "country": "BD",
+  "company_tz": "Europe/London",
+  "result": "Asia/Dhaka"
+ },
+ {
+  "country": "BE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Brussels"
+ },
+ {
+  "country": "BE",
+  "company_tz": "Europe/London",
+  "result": "Europe/Brussels"
+ },
+ {
+  "country": "BF",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Ouagadougou"
+ },
+ {
+  "country": "BF",
+  "company_tz": "Europe/London",
+  "result": "Africa/Ouagadougou"
+ },
+ {
+  "country": "BG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Sofia"
+ },
+ {
+  "country": "BG",
+  "company_tz": "Europe/London",
+  "result": "Europe/Sofia"
+ },
+ {
+  "country": "BH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Bahrain"
+ },
+ {
+  "country": "BH",
+  "company_tz": "Europe/London",
+  "result": "Asia/Bahrain"
+ },
+ {
+  "country": "BI",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Bujumbura"
+ },
+ {
+  "country": "BI",
+  "company_tz": "Europe/London",
+  "result": "Africa/Bujumbura"
+ },
+ {
+  "country": "BJ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Porto-Novo"
+ },
+ {
+  "country": "BJ",
+  "company_tz": "Europe/London",
+  "result": "Africa/Porto-Novo"
+ },
+ {
+  "country": "BL",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/St_Barthelemy"
+ },
+ {
+  "country": "BL",
+  "company_tz": "Europe/London",
+  "result": "America/St_Barthelemy"
+ },
+ {
+  "country": "BM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Atlantic/Bermuda"
+ },
+ {
+  "country": "BM",
+  "company_tz": "Europe/London",
+  "result": "Atlantic/Bermuda"
+ },
+ {
+  "country": "BN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Brunei"
+ },
+ {
+  "country": "BN",
+  "company_tz": "Europe/London",
+  "result": "Asia/Brunei"
+ },
+ {
+  "country": "BO",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/La_Paz"
+ },
+ {
+  "country": "BO",
+  "company_tz": "Europe/London",
+  "result": "America/La_Paz"
+ },
+ {
+  "country": "BQ",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Kralendijk"
+ },
+ {
+  "country": "BQ",
+  "company_tz": "Europe/London",
+  "result": "America/Kralendijk"
+ },
+ {
+  "country": "BR",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Noronha"
+ },
+ {
+  "country": "BR",
+  "company_tz": "Europe/London",
+  "result": "America/Noronha"
+ },
+ {
+  "country": "BS",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Nassau"
+ },
+ {
+  "country": "BS",
+  "company_tz": "Europe/London",
+  "result": "America/Nassau"
+ },
+ {
+  "country": "BT",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Thimphu"
+ },
+ {
+  "country": "BT",
+  "company_tz": "Europe/London",
+  "result": "Asia/Thimphu"
+ },
+ {
+  "country": "BW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Gaborone"
+ },
+ {
+  "country": "BW",
+  "company_tz": "Europe/London",
+  "result": "Africa/Gaborone"
+ },
+ {
+  "country": "BY",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Minsk"
+ },
+ {
+  "country": "BY",
+  "company_tz": "Europe/London",
+  "result": "Europe/Minsk"
+ },
+ {
+  "country": "BZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Belize"
+ },
+ {
+  "country": "BZ",
+  "company_tz": "Europe/London",
+  "result": "America/Belize"
+ },
+ {
+  "country": "CA",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/St_Johns"
+ },
+ {
+  "country": "CA",
+  "company_tz": "Europe/London",
+  "result": "America/St_Johns"
+ },
+ {
+  "country": "CC",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Cocos"
+ },
+ {
+  "country": "CC",
+  "company_tz": "Europe/London",
+  "result": "Indian/Cocos"
+ },
+ {
+  "country": "CD",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Kinshasa"
+ },
+ {
+  "country": "CD",
+  "company_tz": "Europe/London",
+  "result": "Africa/Kinshasa"
+ },
+ {
+  "country": "CF",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Bangui"
+ },
+ {
+  "country": "CF",
+  "company_tz": "Europe/London",
+  "result": "Africa/Bangui"
+ },
+ {
+  "country": "CG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Brazzaville"
+ },
+ {
+  "country": "CG",
+  "company_tz": "Europe/London",
+  "result": "Africa/Brazzaville"
+ },
+ {
+  "country": "CH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Zurich"
+ },
+ {
+  "country": "CH",
+  "company_tz": "Europe/London",
+  "result": "Europe/Zurich"
+ },
+ {
+  "country": "CI",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Abidjan"
+ },
+ {
+  "country": "CI",
+  "company_tz": "Europe/London",
+  "result": "Africa/Abidjan"
+ },
+ {
+  "country": "CK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Rarotonga"
+ },
+ {
+  "country": "CK",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Rarotonga"
+ },
+ {
+  "country": "CL",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Santiago"
+ },
+ {
+  "country": "CL",
+  "company_tz": "Europe/London",
+  "result": "America/Santiago"
+ },
+ {
+  "country": "CM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Douala"
+ },
+ {
+  "country": "CM",
+  "company_tz": "Europe/London",
+  "result": "Africa/Douala"
+ },
+ {
+  "country": "CN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Shanghai"
+ },
+ {
+  "country": "CN",
+  "company_tz": "Europe/London",
+  "result": "Asia/Shanghai"
+ },
+ {
+  "country": "CO",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Bogota"
+ },
+ {
+  "country": "CO",
+  "company_tz": "Europe/London",
+  "result": "America/Bogota"
+ },
+ {
+  "country": "CR",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Costa_Rica"
+ },
+ {
+  "country": "CR",
+  "company_tz": "Europe/London",
+  "result": "America/Costa_Rica"
+ },
+ {
+  "country": "CU",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Havana"
+ },
+ {
+  "country": "CU",
+  "company_tz": "Europe/London",
+  "result": "America/Havana"
+ },
+ {
+  "country": "CV",
+  "company_tz": "Asia/Tokyo",
+  "result": "Atlantic/Cape_Verde"
+ },
+ {
+  "country": "CV",
+  "company_tz": "Europe/London",
+  "result": "Atlantic/Cape_Verde"
+ },
+ {
+  "country": "CW",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Curacao"
+ },
+ {
+  "country": "CW",
+  "company_tz": "Europe/London",
+  "result": "America/Curacao"
+ },
+ {
+  "country": "CX",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Christmas"
+ },
+ {
+  "country": "CX",
+  "company_tz": "Europe/London",
+  "result": "Indian/Christmas"
+ },
+ {
+  "country": "CY",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Nicosia"
+ },
+ {
+  "country": "CY",
+  "company_tz": "Europe/London",
+  "result": "Asia/Nicosia"
+ },
+ {
+  "country": "CZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Prague"
+ },
+ {
+  "country": "CZ",
+  "company_tz": "Europe/London",
+  "result": "Europe/Prague"
+ },
+ {
+  "country": "DE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Berlin"
+ },
+ {
+  "country": "DE",
+  "company_tz": "Europe/London",
+  "result": "Europe/Berlin"
+ },
+ {
+  "country": "DJ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Djibouti"
+ },
+ {
+  "country": "DJ",
+  "company_tz": "Europe/London",
+  "result": "Africa/Djibouti"
+ },
+ {
+  "country": "DK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Copenhagen"
+ },
+ {
+  "country": "DK",
+  "company_tz": "Europe/London",
+  "result": "Europe/Copenhagen"
+ },
+ {
+  "country": "DM",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Dominica"
+ },
+ {
+  "country": "DM",
+  "company_tz": "Europe/London",
+  "result": "America/Dominica"
+ },
+ {
+  "country": "DO",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Santo_Domingo"
+ },
+ {
+  "country": "DO",
+  "company_tz": "Europe/London",
+  "result": "America/Santo_Domingo"
+ },
+ {
+  "country": "DZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Algiers"
+ },
+ {
+  "country": "DZ",
+  "company_tz": "Europe/London",
+  "result": "Africa/Algiers"
+ },
+ {
+  "country": "EC",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Guayaquil"
+ },
+ {
+  "country": "EC",
+  "company_tz": "Europe/London",
+  "result": "America/Guayaquil"
+ },
+ {
+  "country": "EE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Tallinn"
+ },
+ {
+  "country": "EE",
+  "company_tz": "Europe/London",
+  "result": "Europe/Tallinn"
+ },
+ {
+  "country": "EG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Cairo"
+ },
+ {
+  "country": "EG",
+  "company_tz": "Europe/London",
+  "result": "Africa/Cairo"
+ },
+ {
+  "country": "EH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/El_Aaiun"
+ },
+ {
+  "country": "EH",
+  "company_tz": "Europe/London",
+  "result": "Africa/El_Aaiun"
+ },
+ {
+  "country": "ER",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Asmara"
+ },
+ {
+  "country": "ER",
+  "company_tz": "Europe/London",
+  "result": "Africa/Asmara"
+ },
+ {
+  "country": "ES",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Madrid"
+ },
+ {
+  "country": "ES",
+  "company_tz": "Europe/London",
+  "result": "Europe/Madrid"
+ },
+ {
+  "country": "ET",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Addis_Ababa"
+ },
+ {
+  "country": "ET",
+  "company_tz": "Europe/London",
+  "result": "Africa/Addis_Ababa"
+ },
+ {
+  "country": "FI",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Helsinki"
+ },
+ {
+  "country": "FI",
+  "company_tz": "Europe/London",
+  "result": "Europe/Helsinki"
+ },
+ {
+  "country": "FJ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Fiji"
+ },
+ {
+  "country": "FJ",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Fiji"
+ },
+ {
+  "country": "FK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Atlantic/Stanley"
+ },
+ {
+  "country": "FK",
+  "company_tz": "Europe/London",
+  "result": "Atlantic/Stanley"
+ },
+ {
+  "country": "FM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Chuuk"
+ },
+ {
+  "country": "FM",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Chuuk"
+ },
+ {
+  "country": "FO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Atlantic/Faroe"
+ },
+ {
+  "country": "FO",
+  "company_tz": "Europe/London",
+  "result": "Atlantic/Faroe"
+ },
+ {
+  "country": "FR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Paris"
+ },
+ {
+  "country": "FR",
+  "company_tz": "Europe/London",
+  "result": "Europe/Paris"
+ },
+ {
+  "country": "GA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Libreville"
+ },
+ {
+  "country": "GA",
+  "company_tz": "Europe/London",
+  "result": "Africa/Libreville"
+ },
+ {
+  "country": "GB",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/London"
+ },
+ {
+  "country": "GB",
+  "company_tz": "Europe/London",
+  "result": "Europe/London"
+ },
+ {
+  "country": "GD",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Grenada"
+ },
+ {
+  "country": "GD",
+  "company_tz": "Europe/London",
+  "result": "America/Grenada"
+ },
+ {
+  "country": "GE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Tbilisi"
+ },
+ {
+  "country": "GE",
+  "company_tz": "Europe/London",
+  "result": "Asia/Tbilisi"
+ },
+ {
+  "country": "GF",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Cayenne"
+ },
+ {
+  "country": "GF",
+  "company_tz": "Europe/London",
+  "result": "America/Cayenne"
+ },
+ {
+  "country": "GG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Guernsey"
+ },
+ {
+  "country": "GG",
+  "company_tz": "Europe/London",
+  "result": "Europe/Guernsey"
+ },
+ {
+  "country": "GH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Accra"
+ },
+ {
+  "country": "GH",
+  "company_tz": "Europe/London",
+  "result": "Africa/Accra"
+ },
+ {
+  "country": "GI",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Gibraltar"
+ },
+ {
+  "country": "GI",
+  "company_tz": "Europe/London",
+  "result": "Europe/Gibraltar"
+ },
+ {
+  "country": "GL",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Nuuk"
+ },
+ {
+  "country": "GL",
+  "company_tz": "Europe/London",
+  "result": "America/Nuuk"
+ },
+ {
+  "country": "GM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Banjul"
+ },
+ {
+  "country": "GM",
+  "company_tz": "Europe/London",
+  "result": "Africa/Banjul"
+ },
+ {
+  "country": "GN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Conakry"
+ },
+ {
+  "country": "GN",
+  "company_tz": "Europe/London",
+  "result": "Africa/Conakry"
+ },
+ {
+  "country": "GP",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Guadeloupe"
+ },
+ {
+  "country": "GP",
+  "company_tz": "Europe/London",
+  "result": "America/Guadeloupe"
+ },
+ {
+  "country": "GQ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Malabo"
+ },
+ {
+  "country": "GQ",
+  "company_tz": "Europe/London",
+  "result": "Africa/Malabo"
+ },
+ {
+  "country": "GR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Athens"
+ },
+ {
+  "country": "GR",
+  "company_tz": "Europe/London",
+  "result": "Europe/Athens"
+ },
+ {
+  "country": "GS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Atlantic/South_Georgia"
+ },
+ {
+  "country": "GS",
+  "company_tz": "Europe/London",
+  "result": "Atlantic/South_Georgia"
+ },
+ {
+  "country": "GT",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Guatemala"
+ },
+ {
+  "country": "GT",
+  "company_tz": "Europe/London",
+  "result": "America/Guatemala"
+ },
+ {
+  "country": "GU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Guam"
+ },
+ {
+  "country": "GU",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Guam"
+ },
+ {
+  "country": "GW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Bissau"
+ },
+ {
+  "country": "GW",
+  "company_tz": "Europe/London",
+  "result": "Africa/Bissau"
+ },
+ {
+  "country": "GY",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Guyana"
+ },
+ {
+  "country": "GY",
+  "company_tz": "Europe/London",
+  "result": "America/Guyana"
+ },
+ {
+  "country": "HK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Hong_Kong"
+ },
+ {
+  "country": "HK",
+  "company_tz": "Europe/London",
+  "result": "Asia/Hong_Kong"
+ },
+ {
+  "country": "HN",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Tegucigalpa"
+ },
+ {
+  "country": "HN",
+  "company_tz": "Europe/London",
+  "result": "America/Tegucigalpa"
+ },
+ {
+  "country": "HR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Zagreb"
+ },
+ {
+  "country": "HR",
+  "company_tz": "Europe/London",
+  "result": "Europe/Zagreb"
+ },
+ {
+  "country": "HT",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Port-au-Prince"
+ },
+ {
+  "country": "HT",
+  "company_tz": "Europe/London",
+  "result": "America/Port-au-Prince"
+ },
+ {
+  "country": "HU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Budapest"
+ },
+ {
+  "country": "HU",
+  "company_tz": "Europe/London",
+  "result": "Europe/Budapest"
+ },
+ {
+  "country": "ID",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Jakarta"
+ },
+ {
+  "country": "ID",
+  "company_tz": "Europe/London",
+  "result": "Asia/Jakarta"
+ },
+ {
+  "country": "IE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Dublin"
+ },
+ {
+  "country": "IE",
+  "company_tz": "Europe/London",
+  "result": "Europe/Dublin"
+ },
+ {
+  "country": "IL",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Jerusalem"
+ },
+ {
+  "country": "IL",
+  "company_tz": "Europe/London",
+  "result": "Asia/Jerusalem"
+ },
+ {
+  "country": "IM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Isle_of_Man"
+ },
+ {
+  "country": "IM",
+  "company_tz": "Europe/London",
+  "result": "Europe/Isle_of_Man"
+ },
+ {
+  "country": "IN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Kolkata"
+ },
+ {
+  "country": "IN",
+  "company_tz": "Europe/London",
+  "result": "Asia/Kolkata"
+ },
+ {
+  "country": "IO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Chagos"
+ },
+ {
+  "country": "IO",
+  "company_tz": "Europe/London",
+  "result": "Indian/Chagos"
+ },
+ {
+  "country": "IQ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Baghdad"
+ },
+ {
+  "country": "IQ",
+  "company_tz": "Europe/London",
+  "result": "Asia/Baghdad"
+ },
+ {
+  "country": "IR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Tehran"
+ },
+ {
+  "country": "IR",
+  "company_tz": "Europe/London",
+  "result": "Asia/Tehran"
+ },
+ {
+  "country": "IS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Atlantic/Reykjavik"
+ },
+ {
+  "country": "IS",
+  "company_tz": "Europe/London",
+  "result": "Atlantic/Reykjavik"
+ },
+ {
+  "country": "IT",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Rome"
+ },
+ {
+  "country": "IT",
+  "company_tz": "Europe/London",
+  "result": "Europe/Rome"
+ },
+ {
+  "country": "JE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Jersey"
+ },
+ {
+  "country": "JE",
+  "company_tz": "Europe/London",
+  "result": "Europe/Jersey"
+ },
+ {
+  "country": "JM",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Jamaica"
+ },
+ {
+  "country": "JM",
+  "company_tz": "Europe/London",
+  "result": "America/Jamaica"
+ },
+ {
+  "country": "JO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Amman"
+ },
+ {
+  "country": "JO",
+  "company_tz": "Europe/London",
+  "result": "Asia/Amman"
+ },
+ {
+  "country": "JP",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Tokyo"
+ },
+ {
+  "country": "JP",
+  "company_tz": "Europe/London",
+  "result": "Asia/Tokyo"
+ },
+ {
+  "country": "KE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Nairobi"
+ },
+ {
+  "country": "KE",
+  "company_tz": "Europe/London",
+  "result": "Africa/Nairobi"
+ },
+ {
+  "country": "KG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Bishkek"
+ },
+ {
+  "country": "KG",
+  "company_tz": "Europe/London",
+  "result": "Asia/Bishkek"
+ },
+ {
+  "country": "KH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Phnom_Penh"
+ },
+ {
+  "country": "KH",
+  "company_tz": "Europe/London",
+  "result": "Asia/Phnom_Penh"
+ },
+ {
+  "country": "KI",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Tarawa"
+ },
+ {
+  "country": "KI",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Tarawa"
+ },
+ {
+  "country": "KM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Comoro"
+ },
+ {
+  "country": "KM",
+  "company_tz": "Europe/London",
+  "result": "Indian/Comoro"
+ },
+ {
+  "country": "KN",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/St_Kitts"
+ },
+ {
+  "country": "KN",
+  "company_tz": "Europe/London",
+  "result": "America/St_Kitts"
+ },
+ {
+  "country": "KP",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Pyongyang"
+ },
+ {
+  "country": "KP",
+  "company_tz": "Europe/London",
+  "result": "Asia/Pyongyang"
+ },
+ {
+  "country": "KR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Seoul"
+ },
+ {
+  "country": "KR",
+  "company_tz": "Europe/London",
+  "result": "Asia/Seoul"
+ },
+ {
+  "country": "KW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Kuwait"
+ },
+ {
+  "country": "KW",
+  "company_tz": "Europe/London",
+  "result": "Asia/Kuwait"
+ },
+ {
+  "country": "KY",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Cayman"
+ },
+ {
+  "country": "KY",
+  "company_tz": "Europe/London",
+  "result": "America/Cayman"
+ },
+ {
+  "country": "KZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Almaty"
+ },
+ {
+  "country": "KZ",
+  "company_tz": "Europe/London",
+  "result": "Asia/Almaty"
+ },
+ {
+  "country": "LA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Vientiane"
+ },
+ {
+  "country": "LA",
+  "company_tz": "Europe/London",
+  "result": "Asia/Vientiane"
+ },
+ {
+  "country": "LB",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Beirut"
+ },
+ {
+  "country": "LB",
+  "company_tz": "Europe/London",
+  "result": "Asia/Beirut"
+ },
+ {
+  "country": "LC",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/St_Lucia"
+ },
+ {
+  "country": "LC",
+  "company_tz": "Europe/London",
+  "result": "America/St_Lucia"
+ },
+ {
+  "country": "LI",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Vaduz"
+ },
+ {
+  "country": "LI",
+  "company_tz": "Europe/London",
+  "result": "Europe/Vaduz"
+ },
+ {
+  "country": "LK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Colombo"
+ },
+ {
+  "country": "LK",
+  "company_tz": "Europe/London",
+  "result": "Asia/Colombo"
+ },
+ {
+  "country": "LR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Monrovia"
+ },
+ {
+  "country": "LR",
+  "company_tz": "Europe/London",
+  "result": "Africa/Monrovia"
+ },
+ {
+  "country": "LS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Maseru"
+ },
+ {
+  "country": "LS",
+  "company_tz": "Europe/London",
+  "result": "Africa/Maseru"
+ },
+ {
+  "country": "LT",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Vilnius"
+ },
+ {
+  "country": "LT",
+  "company_tz": "Europe/London",
+  "result": "Europe/Vilnius"
+ },
+ {
+  "country": "LU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Luxembourg"
+ },
+ {
+  "country": "LU",
+  "company_tz": "Europe/London",
+  "result": "Europe/Luxembourg"
+ },
+ {
+  "country": "LV",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Riga"
+ },
+ {
+  "country": "LV",
+  "company_tz": "Europe/London",
+  "result": "Europe/Riga"
+ },
+ {
+  "country": "LY",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Tripoli"
+ },
+ {
+  "country": "LY",
+  "company_tz": "Europe/London",
+  "result": "Africa/Tripoli"
+ },
+ {
+  "country": "MA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Casablanca"
+ },
+ {
+  "country": "MA",
+  "company_tz": "Europe/London",
+  "result": "Africa/Casablanca"
+ },
+ {
+  "country": "MC",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Monaco"
+ },
+ {
+  "country": "MC",
+  "company_tz": "Europe/London",
+  "result": "Europe/Monaco"
+ },
+ {
+  "country": "MD",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Chisinau"
+ },
+ {
+  "country": "MD",
+  "company_tz": "Europe/London",
+  "result": "Europe/Chisinau"
+ },
+ {
+  "country": "ME",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Podgorica"
+ },
+ {
+  "country": "ME",
+  "company_tz": "Europe/London",
+  "result": "Europe/Podgorica"
+ },
+ {
+  "country": "MF",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Marigot"
+ },
+ {
+  "country": "MF",
+  "company_tz": "Europe/London",
+  "result": "America/Marigot"
+ },
+ {
+  "country": "MG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Antananarivo"
+ },
+ {
+  "country": "MG",
+  "company_tz": "Europe/London",
+  "result": "Indian/Antananarivo"
+ },
+ {
+  "country": "MH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Majuro"
+ },
+ {
+  "country": "MH",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Majuro"
+ },
+ {
+  "country": "MK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Skopje"
+ },
+ {
+  "country": "MK",
+  "company_tz": "Europe/London",
+  "result": "Europe/Skopje"
+ },
+ {
+  "country": "ML",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Bamako"
+ },
+ {
+  "country": "ML",
+  "company_tz": "Europe/London",
+  "result": "Africa/Bamako"
+ },
+ {
+  "country": "MM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Yangon"
+ },
+ {
+  "country": "MM",
+  "company_tz": "Europe/London",
+  "result": "Asia/Yangon"
+ },
+ {
+  "country": "MN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Ulaanbaatar"
+ },
+ {
+  "country": "MN",
+  "company_tz": "Europe/London",
+  "result": "Asia/Ulaanbaatar"
+ },
+ {
+  "country": "MO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Macau"
+ },
+ {
+  "country": "MO",
+  "company_tz": "Europe/London",
+  "result": "Asia/Macau"
+ },
+ {
+  "country": "MP",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Saipan"
+ },
+ {
+  "country": "MP",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Saipan"
+ },
+ {
+  "country": "MQ",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Martinique"
+ },
+ {
+  "country": "MQ",
+  "company_tz": "Europe/London",
+  "result": "America/Martinique"
+ },
+ {
+  "country": "MR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Nouakchott"
+ },
+ {
+  "country": "MR",
+  "company_tz": "Europe/London",
+  "result": "Africa/Nouakchott"
+ },
+ {
+  "country": "MS",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Montserrat"
+ },
+ {
+  "country": "MS",
+  "company_tz": "Europe/London",
+  "result": "America/Montserrat"
+ },
+ {
+  "country": "MT",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Malta"
+ },
+ {
+  "country": "MT",
+  "company_tz": "Europe/London",
+  "result": "Europe/Malta"
+ },
+ {
+  "country": "MU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Mauritius"
+ },
+ {
+  "country": "MU",
+  "company_tz": "Europe/London",
+  "result": "Indian/Mauritius"
+ },
+ {
+  "country": "MV",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Maldives"
+ },
+ {
+  "country": "MV",
+  "company_tz": "Europe/London",
+  "result": "Indian/Maldives"
+ },
+ {
+  "country": "MW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Blantyre"
+ },
+ {
+  "country": "MW",
+  "company_tz": "Europe/London",
+  "result": "Africa/Blantyre"
+ },
+ {
+  "country": "MX",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Mexico_City"
+ },
+ {
+  "country": "MX",
+  "company_tz": "Europe/London",
+  "result": "America/Mexico_City"
+ },
+ {
+  "country": "MY",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Kuala_Lumpur"
+ },
+ {
+  "country": "MY",
+  "company_tz": "Europe/London",
+  "result": "Asia/Kuala_Lumpur"
+ },
+ {
+  "country": "MZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Maputo"
+ },
+ {
+  "country": "MZ",
+  "company_tz": "Europe/London",
+  "result": "Africa/Maputo"
+ },
+ {
+  "country": "NA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Windhoek"
+ },
+ {
+  "country": "NA",
+  "company_tz": "Europe/London",
+  "result": "Africa/Windhoek"
+ },
+ {
+  "country": "NC",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Noumea"
+ },
+ {
+  "country": "NC",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Noumea"
+ },
+ {
+  "country": "NE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Niamey"
+ },
+ {
+  "country": "NE",
+  "company_tz": "Europe/London",
+  "result": "Africa/Niamey"
+ },
+ {
+  "country": "NF",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Norfolk"
+ },
+ {
+  "country": "NF",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Norfolk"
+ },
+ {
+  "country": "NG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Lagos"
+ },
+ {
+  "country": "NG",
+  "company_tz": "Europe/London",
+  "result": "Africa/Lagos"
+ },
+ {
+  "country": "NI",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Managua"
+ },
+ {
+  "country": "NI",
+  "company_tz": "Europe/London",
+  "result": "America/Managua"
+ },
+ {
+  "country": "NL",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Amsterdam"
+ },
+ {
+  "country": "NL",
+  "company_tz": "Europe/London",
+  "result": "Europe/Amsterdam"
+ },
+ {
+  "country": "NO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Oslo"
+ },
+ {
+  "country": "NO",
+  "company_tz": "Europe/London",
+  "result": "Europe/Oslo"
+ },
+ {
+  "country": "NP",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Kathmandu"
+ },
+ {
+  "country": "NP",
+  "company_tz": "Europe/London",
+  "result": "Asia/Kathmandu"
+ },
+ {
+  "country": "NR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Nauru"
+ },
+ {
+  "country": "NR",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Nauru"
+ },
+ {
+  "country": "NU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Niue"
+ },
+ {
+  "country": "NU",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Niue"
+ },
+ {
+  "country": "NZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Auckland"
+ },
+ {
+  "country": "NZ",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Auckland"
+ },
+ {
+  "country": "OM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Muscat"
+ },
+ {
+  "country": "OM",
+  "company_tz": "Europe/London",
+  "result": "Asia/Muscat"
+ },
+ {
+  "country": "PA",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Panama"
+ },
+ {
+  "country": "PA",
+  "company_tz": "Europe/London",
+  "result": "America/Panama"
+ },
+ {
+  "country": "PE",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Lima"
+ },
+ {
+  "country": "PE",
+  "company_tz": "Europe/London",
+  "result": "America/Lima"
+ },
+ {
+  "country": "PF",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Tahiti"
+ },
+ {
+  "country": "PF",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Tahiti"
+ },
+ {
+  "country": "PG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Port_Moresby"
+ },
+ {
+  "country": "PG",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Port_Moresby"
+ },
+ {
+  "country": "PH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Manila"
+ },
+ {
+  "country": "PH",
+  "company_tz": "Europe/London",
+  "result": "Asia/Manila"
+ },
+ {
+  "country": "PK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Karachi"
+ },
+ {
+  "country": "PK",
+  "company_tz": "Europe/London",
+  "result": "Asia/Karachi"
+ },
+ {
+  "country": "PL",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Warsaw"
+ },
+ {
+  "country": "PL",
+  "company_tz": "Europe/London",
+  "result": "Europe/Warsaw"
+ },
+ {
+  "country": "PM",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Miquelon"
+ },
+ {
+  "country": "PM",
+  "company_tz": "Europe/London",
+  "result": "America/Miquelon"
+ },
+ {
+  "country": "PN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Pitcairn"
+ },
+ {
+  "country": "PN",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Pitcairn"
+ },
+ {
+  "country": "PR",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Puerto_Rico"
+ },
+ {
+  "country": "PR",
+  "company_tz": "Europe/London",
+  "result": "America/Puerto_Rico"
+ },
+ {
+  "country": "PS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Gaza"
+ },
+ {
+  "country": "PS",
+  "company_tz": "Europe/London",
+  "result": "Asia/Gaza"
+ },
+ {
+  "country": "PT",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Lisbon"
+ },
+ {
+  "country": "PT",
+  "company_tz": "Europe/London",
+  "result": "Europe/Lisbon"
+ },
+ {
+  "country": "PW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Palau"
+ },
+ {
+  "country": "PW",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Palau"
+ },
+ {
+  "country": "PY",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Asuncion"
+ },
+ {
+  "country": "PY",
+  "company_tz": "Europe/London",
+  "result": "America/Asuncion"
+ },
+ {
+  "country": "QA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Qatar"
+ },
+ {
+  "country": "QA",
+  "company_tz": "Europe/London",
+  "result": "Asia/Qatar"
+ },
+ {
+  "country": "RE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Reunion"
+ },
+ {
+  "country": "RE",
+  "company_tz": "Europe/London",
+  "result": "Indian/Reunion"
+ },
+ {
+  "country": "RO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Bucharest"
+ },
+ {
+  "country": "RO",
+  "company_tz": "Europe/London",
+  "result": "Europe/Bucharest"
+ },
+ {
+  "country": "RS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Belgrade"
+ },
+ {
+  "country": "RS",
+  "company_tz": "Europe/London",
+  "result": "Europe/Belgrade"
+ },
+ {
+  "country": "RU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Kaliningrad"
+ },
+ {
+  "country": "RU",
+  "company_tz": "Europe/London",
+  "result": "Europe/Kaliningrad"
+ },
+ {
+  "country": "RW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Kigali"
+ },
+ {
+  "country": "RW",
+  "company_tz": "Europe/London",
+  "result": "Africa/Kigali"
+ },
+ {
+  "country": "SA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Riyadh"
+ },
+ {
+  "country": "SA",
+  "company_tz": "Europe/London",
+  "result": "Asia/Riyadh"
+ },
+ {
+  "country": "SB",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Guadalcanal"
+ },
+ {
+  "country": "SB",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Guadalcanal"
+ },
+ {
+  "country": "SC",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Mahe"
+ },
+ {
+  "country": "SC",
+  "company_tz": "Europe/London",
+  "result": "Indian/Mahe"
+ },
+ {
+  "country": "SD",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Khartoum"
+ },
+ {
+  "country": "SD",
+  "company_tz": "Europe/London",
+  "result": "Africa/Khartoum"
+ },
+ {
+  "country": "SE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Stockholm"
+ },
+ {
+  "country": "SE",
+  "company_tz": "Europe/London",
+  "result": "Europe/Stockholm"
+ },
+ {
+  "country": "SG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Singapore"
+ },
+ {
+  "country": "SG",
+  "company_tz": "Europe/London",
+  "result": "Asia/Singapore"
+ },
+ {
+  "country": "SH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Atlantic/St_Helena"
+ },
+ {
+  "country": "SH",
+  "company_tz": "Europe/London",
+  "result": "Atlantic/St_Helena"
+ },
+ {
+  "country": "SI",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Ljubljana"
+ },
+ {
+  "country": "SI",
+  "company_tz": "Europe/London",
+  "result": "Europe/Ljubljana"
+ },
+ {
+  "country": "SJ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Arctic/Longyearbyen"
+ },
+ {
+  "country": "SJ",
+  "company_tz": "Europe/London",
+  "result": "Arctic/Longyearbyen"
+ },
+ {
+  "country": "SK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Bratislava"
+ },
+ {
+  "country": "SK",
+  "company_tz": "Europe/London",
+  "result": "Europe/Bratislava"
+ },
+ {
+  "country": "SL",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Freetown"
+ },
+ {
+  "country": "SL",
+  "company_tz": "Europe/London",
+  "result": "Africa/Freetown"
+ },
+ {
+  "country": "SM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/San_Marino"
+ },
+ {
+  "country": "SM",
+  "company_tz": "Europe/London",
+  "result": "Europe/San_Marino"
+ },
+ {
+  "country": "SN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Dakar"
+ },
+ {
+  "country": "SN",
+  "company_tz": "Europe/London",
+  "result": "Africa/Dakar"
+ },
+ {
+  "country": "SO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Mogadishu"
+ },
+ {
+  "country": "SO",
+  "company_tz": "Europe/London",
+  "result": "Africa/Mogadishu"
+ },
+ {
+  "country": "SR",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Paramaribo"
+ },
+ {
+  "country": "SR",
+  "company_tz": "Europe/London",
+  "result": "America/Paramaribo"
+ },
+ {
+  "country": "SS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Juba"
+ },
+ {
+  "country": "SS",
+  "company_tz": "Europe/London",
+  "result": "Africa/Juba"
+ },
+ {
+  "country": "ST",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Sao_Tome"
+ },
+ {
+  "country": "ST",
+  "company_tz": "Europe/London",
+  "result": "Africa/Sao_Tome"
+ },
+ {
+  "country": "SV",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/El_Salvador"
+ },
+ {
+  "country": "SV",
+  "company_tz": "Europe/London",
+  "result": "America/El_Salvador"
+ },
+ {
+  "country": "SX",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Lower_Princes"
+ },
+ {
+  "country": "SX",
+  "company_tz": "Europe/London",
+  "result": "America/Lower_Princes"
+ },
+ {
+  "country": "SY",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Damascus"
+ },
+ {
+  "country": "SY",
+  "company_tz": "Europe/London",
+  "result": "Asia/Damascus"
+ },
+ {
+  "country": "SZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Mbabane"
+ },
+ {
+  "country": "SZ",
+  "company_tz": "Europe/London",
+  "result": "Africa/Mbabane"
+ },
+ {
+  "country": "TC",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Grand_Turk"
+ },
+ {
+  "country": "TC",
+  "company_tz": "Europe/London",
+  "result": "America/Grand_Turk"
+ },
+ {
+  "country": "TD",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Ndjamena"
+ },
+ {
+  "country": "TD",
+  "company_tz": "Europe/London",
+  "result": "Africa/Ndjamena"
+ },
+ {
+  "country": "TF",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Kerguelen"
+ },
+ {
+  "country": "TF",
+  "company_tz": "Europe/London",
+  "result": "Indian/Kerguelen"
+ },
+ {
+  "country": "TG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Lome"
+ },
+ {
+  "country": "TG",
+  "company_tz": "Europe/London",
+  "result": "Africa/Lome"
+ },
+ {
+  "country": "TH",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Bangkok"
+ },
+ {
+  "country": "TH",
+  "company_tz": "Europe/London",
+  "result": "Asia/Bangkok"
+ },
+ {
+  "country": "TJ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Dushanbe"
+ },
+ {
+  "country": "TJ",
+  "company_tz": "Europe/London",
+  "result": "Asia/Dushanbe"
+ },
+ {
+  "country": "TK",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Fakaofo"
+ },
+ {
+  "country": "TK",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Fakaofo"
+ },
+ {
+  "country": "TL",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Dili"
+ },
+ {
+  "country": "TL",
+  "company_tz": "Europe/London",
+  "result": "Asia/Dili"
+ },
+ {
+  "country": "TM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Ashgabat"
+ },
+ {
+  "country": "TM",
+  "company_tz": "Europe/London",
+  "result": "Asia/Ashgabat"
+ },
+ {
+  "country": "TN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Tunis"
+ },
+ {
+  "country": "TN",
+  "company_tz": "Europe/London",
+  "result": "Africa/Tunis"
+ },
+ {
+  "country": "TO",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Tongatapu"
+ },
+ {
+  "country": "TO",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Tongatapu"
+ },
+ {
+  "country": "TR",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Istanbul"
+ },
+ {
+  "country": "TR",
+  "company_tz": "Europe/London",
+  "result": "Europe/Istanbul"
+ },
+ {
+  "country": "TT",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Port_of_Spain"
+ },
+ {
+  "country": "TT",
+  "company_tz": "Europe/London",
+  "result": "America/Port_of_Spain"
+ },
+ {
+  "country": "TV",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Funafuti"
+ },
+ {
+  "country": "TV",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Funafuti"
+ },
+ {
+  "country": "TW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Taipei"
+ },
+ {
+  "country": "TW",
+  "company_tz": "Europe/London",
+  "result": "Asia/Taipei"
+ },
+ {
+  "country": "TZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Dar_es_Salaam"
+ },
+ {
+  "country": "TZ",
+  "company_tz": "Europe/London",
+  "result": "Africa/Dar_es_Salaam"
+ },
+ {
+  "country": "UA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Simferopol"
+ },
+ {
+  "country": "UA",
+  "company_tz": "Europe/London",
+  "result": "Europe/Simferopol"
+ },
+ {
+  "country": "UG",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Kampala"
+ },
+ {
+  "country": "UG",
+  "company_tz": "Europe/London",
+  "result": "Africa/Kampala"
+ },
+ {
+  "country": "UM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Midway"
+ },
+ {
+  "country": "UM",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Midway"
+ },
+ {
+  "country": "US",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/New_York"
+ },
+ {
+  "country": "US",
+  "company_tz": "Europe/London",
+  "result": "America/New_York"
+ },
+ {
+  "country": "UY",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Montevideo"
+ },
+ {
+  "country": "UY",
+  "company_tz": "Europe/London",
+  "result": "America/Montevideo"
+ },
+ {
+  "country": "UZ",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Samarkand"
+ },
+ {
+  "country": "UZ",
+  "company_tz": "Europe/London",
+  "result": "Asia/Samarkand"
+ },
+ {
+  "country": "VA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Europe/Vatican"
+ },
+ {
+  "country": "VA",
+  "company_tz": "Europe/London",
+  "result": "Europe/Vatican"
+ },
+ {
+  "country": "VC",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/St_Vincent"
+ },
+ {
+  "country": "VC",
+  "company_tz": "Europe/London",
+  "result": "America/St_Vincent"
+ },
+ {
+  "country": "VE",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Caracas"
+ },
+ {
+  "country": "VE",
+  "company_tz": "Europe/London",
+  "result": "America/Caracas"
+ },
+ {
+  "country": "VG",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/Tortola"
+ },
+ {
+  "country": "VG",
+  "company_tz": "Europe/London",
+  "result": "America/Tortola"
+ },
+ {
+  "country": "VI",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/St_Thomas"
+ },
+ {
+  "country": "VI",
+  "company_tz": "Europe/London",
+  "result": "America/St_Thomas"
+ },
+ {
+  "country": "VN",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Ho_Chi_Minh"
+ },
+ {
+  "country": "VN",
+  "company_tz": "Europe/London",
+  "result": "Asia/Ho_Chi_Minh"
+ },
+ {
+  "country": "VU",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Efate"
+ },
+ {
+  "country": "VU",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Efate"
+ },
+ {
+  "country": "WF",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Wallis"
+ },
+ {
+  "country": "WF",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Wallis"
+ },
+ {
+  "country": "WS",
+  "company_tz": "Asia/Tokyo",
+  "result": "Pacific/Apia"
+ },
+ {
+  "country": "WS",
+  "company_tz": "Europe/London",
+  "result": "Pacific/Apia"
+ },
+ {
+  "country": "XX",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Tokyo"
+ },
+ {
+  "country": "XX",
+  "company_tz": "Europe/London",
+  "result": "Europe/London"
+ },
+ {
+  "country": "YE",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Aden"
+ },
+ {
+  "country": "YE",
+  "company_tz": "Europe/London",
+  "result": "Asia/Aden"
+ },
+ {
+  "country": "YT",
+  "company_tz": "Asia/Tokyo",
+  "result": "Indian/Mayotte"
+ },
+ {
+  "country": "YT",
+  "company_tz": "Europe/London",
+  "result": "Indian/Mayotte"
+ },
+ {
+  "country": "Z",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Tokyo"
+ },
+ {
+  "country": "Z",
+  "company_tz": "Europe/London",
+  "result": "Europe/London"
+ },
+ {
+  "country": "ZA",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Johannesburg"
+ },
+ {
+  "country": "ZA",
+  "company_tz": "Europe/London",
+  "result": "Africa/Johannesburg"
+ },
+ {
+  "country": "ZM",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Lusaka"
+ },
+ {
+  "country": "ZM",
+  "company_tz": "Europe/London",
+  "result": "Africa/Lusaka"
+ },
+ {
+  "country": "ZW",
+  "company_tz": "Asia/Tokyo",
+  "result": "Africa/Harare"
+ },
+ {
+  "country": "ZW",
+  "company_tz": "Europe/London",
+  "result": "Africa/Harare"
+ },
+ {
+  "country": "id",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Jakarta"
+ },
+ {
+  "country": "id",
+  "company_tz": "Europe/London",
+  "result": "Asia/Jakarta"
+ },
+ {
+  "country": "sa",
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Riyadh"
+ },
+ {
+  "country": "sa",
+  "company_tz": "Europe/London",
+  "result": "Asia/Riyadh"
+ },
+ {
+  "country": "us",
+  "company_tz": "Asia/Tokyo",
+  "result": "America/New_York"
+ },
+ {
+  "country": "us",
+  "company_tz": "Europe/London",
+  "result": "America/New_York"
+ },
+ {
+  "country": null,
+  "company_tz": "Asia/Tokyo",
+  "result": "Asia/Tokyo"
+ },
+ {
+  "country": null,
+  "company_tz": "Europe/London",
+  "result": "Europe/London"
+ }
+]

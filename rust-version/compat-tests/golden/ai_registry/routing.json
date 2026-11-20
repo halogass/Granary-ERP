@@ -1,0 +1,3210 @@
+[
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "assistant",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "chat",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": 2000,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "odd",
+  "route": {
+   "job": "odd",
+   "provider": "anthropic",
+   "model": "m",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "floaty",
+  "route": {
+   "job": "floaty",
+   "provider": "openai",
+   "model": "gpt-4o",
+   "effort": null,
+   "max_tokens": 1234,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "empty",
+  "route": {
+   "job": "empty",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "nulls",
+  "route": {
+   "job": "nulls",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "numeric",
+  "route": {
+   "job": "numeric",
+   "provider": "5",
+   "model": "7",
+   "effort": 3,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "embedding",
+  "route": {
+   "job": "embedding",
+   "provider": "gemini",
+   "model": "gemini-embedding-001",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "ds",
+  "route": {
+   "job": "ds",
+   "provider": "deepseek",
+   "model": "deepseek-chat",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "ol",
+  "route": {
+   "job": "ol",
+   "provider": "ollama",
+   "model": "llama3",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": true
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}"
+  },
+  "job": "unknown_job",
+  "route": {
+   "job": "unknown_job",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "assistant",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "chat",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": 2000,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "odd",
+  "route": {
+   "job": "odd",
+   "provider": "anthropic",
+   "model": "m",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "floaty",
+  "route": {
+   "job": "floaty",
+   "provider": "openai",
+   "model": "gpt-4o",
+   "effort": null,
+   "max_tokens": 1234,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "empty",
+  "route": {
+   "job": "empty",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nulls",
+  "route": {
+   "job": "nulls",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "numeric",
+  "route": {
+   "job": "numeric",
+   "provider": "5",
+   "model": "7",
+   "effort": 3,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "embedding",
+  "route": {
+   "job": "embedding",
+   "provider": "gemini",
+   "model": "gemini-embedding-001",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ds",
+  "route": {
+   "job": "ds",
+   "provider": "deepseek",
+   "model": "deepseek-chat",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ol",
+  "route": {
+   "job": "ol",
+   "provider": "ollama",
+   "model": "llama3",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": true
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "unknown_job",
+  "route": {
+   "job": "unknown_job",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "assistant",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "chat",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": 2000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "odd",
+  "route": {
+   "job": "odd",
+   "provider": "anthropic",
+   "model": "m",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "floaty",
+  "route": {
+   "job": "floaty",
+   "provider": "openai",
+   "model": "gpt-4o",
+   "effort": null,
+   "max_tokens": 1234,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "empty",
+  "route": {
+   "job": "empty",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nulls",
+  "route": {
+   "job": "nulls",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "numeric",
+  "route": {
+   "job": "numeric",
+   "provider": "5",
+   "model": "7",
+   "effort": 3,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "embedding",
+  "route": {
+   "job": "embedding",
+   "provider": "gemini",
+   "model": "gemini-embedding-001",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ds",
+  "route": {
+   "job": "ds",
+   "provider": "deepseek",
+   "model": "deepseek-chat",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ol",
+  "route": {
+   "job": "ol",
+   "provider": "ollama",
+   "model": "llama3",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": true
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "unknown_job",
+  "route": {
+   "job": "unknown_job",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "assistant",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "chat",
+  "route": {
+   "job": "assistant",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": "high",
+   "max_tokens": 16000,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": 2000,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "odd",
+  "route": {
+   "job": "odd",
+   "provider": "anthropic",
+   "model": "m",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "floaty",
+  "route": {
+   "job": "floaty",
+   "provider": "openai",
+   "model": "gpt-4o",
+   "effort": null,
+   "max_tokens": 1234,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "empty",
+  "route": {
+   "job": "empty",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nulls",
+  "route": {
+   "job": "nulls",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "numeric",
+  "route": {
+   "job": "numeric",
+   "provider": "5",
+   "model": "7",
+   "effort": 3,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "embedding",
+  "route": {
+   "job": "embedding",
+   "provider": "gemini",
+   "model": "gemini-embedding-001",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ds",
+  "route": {
+   "job": "ds",
+   "provider": "deepseek",
+   "model": "deepseek-chat",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ol",
+  "route": {
+   "job": "ol",
+   "provider": "ollama",
+   "model": "llama3",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": true
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "unknown_job",
+  "route": {
+   "job": "unknown_job",
+   "provider": "anthropic",
+   "model": "claude-opus-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "5m"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": "1h"
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'assistant' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "scoring",
+  "route": {
+   "job": "scoring",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "effort": null,
+   "max_tokens": null,
+   "cache_ttl": null
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'odd' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'floaty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'empty' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nulls' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'noprov' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'nomodel' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'numeric' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'embedding' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ds' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'ol' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "{\"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\"}}",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job.",
+   "str": "400: No AI route for 'unknown_job' (and no 'default' route). Add it to ai.routing in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "[1, 2]",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job.",
+   "str": "400: Setting 'ai.routing' must be a JSON object of job → route. Fix it in Settings → Nary & AI → Model per job."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "5m"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "1h"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "assistant",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "chat",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "scoring",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "odd",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "floaty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "empty",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nulls",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "noprov",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "nomodel",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "numeric",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "embedding",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ds",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "ol",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": "not json",
+   "ai.cache.default_ttl": "2h"
+  },
+  "job": "unknown_job",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not valid JSON. Fix it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {},
+  "job": "x",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not set. Set it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not set. Set it in Settings → Nary & AI."
+  },
+  "ready": false
+ },
+ {
+  "cfg": {
+   "ai.routing": ""
+  },
+  "job": "x",
+  "error": {
+   "class": "AIError",
+   "status": 400,
+   "detail": "Setting 'ai.routing' is not set. Set it in Settings → Nary & AI.",
+   "str": "400: Setting 'ai.routing' is not set. Set it in Settings → Nary & AI."
+  },
+  "ready": false
+ }
+]

@@ -1,0 +1,8 @@
+# Paths (regular expressions) the content check skips: complete world tables where every country and zone
+# is listed, and lock files.
+^rust-version/crates/compat/src/text/unicode_tables\.rs$
+^rust-version/crates/services/src/nary/meetings\.rs$
+^rust-version/compat-tests/golden/nary_meetings/customer_tz\.json$
+^frontend/package-lock\.json$
+^rust-version/Cargo\.lock$
+^frontend/public/pdf\.worker\.min\.mjs$

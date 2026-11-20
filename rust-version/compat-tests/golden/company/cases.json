@@ -1,0 +1,895 @@
+[
+ {
+  "rows": [],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_name",
+    "Example Initech Ltd"
+   ],
+   [
+    "company_trade_name",
+    "Example"
+   ],
+   [
+    "company_email",
+    "info@example.test"
+   ],
+   [
+    "company_phone",
+    "+81 3 555"
+   ],
+   [
+    "company_website",
+    "https://example.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street\nTokyo"
+   ],
+   [
+    "company_rd_office",
+    "Kyoto"
+   ],
+   [
+    "company.letterhead_image",
+    "/api/v1/files/lh.png"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Example"
+   ],
+   [
+    "company_legal",
+    "Example Initech Ltd"
+   ],
+   [
+    "company_trade",
+    "Example"
+   ],
+   [
+    "company_email",
+    "info@example.test"
+   ],
+   [
+    "company_phone",
+    "+81 3 555"
+   ],
+   [
+    "company_website",
+    "https://example.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street\nTokyo"
+   ],
+   [
+    "company_rd_office",
+    "Kyoto"
+   ],
+   [
+    "letterhead_url",
+    "/api/v1/files/lh.png"
+   ],
+   [
+    "app_url",
+    "https://example.test"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_name",
+    null
+   ],
+   [
+    "company_trade_name",
+    null
+   ],
+   [
+    "company_email",
+    null
+   ],
+   [
+    "company_phone",
+    null
+   ],
+   [
+    "company_website",
+    null
+   ],
+   [
+    "company_address",
+    null
+   ],
+   [
+    "company_rd_office",
+    null
+   ],
+   [
+    "company.letterhead_image",
+    null
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_trade_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "company.letterhead_image",
+    ""
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_name",
+    "Only Legal Ltd"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Only Legal Ltd"
+   ],
+   [
+    "company_legal",
+    "Only Legal Ltd"
+   ],
+   [
+    "company_trade",
+    "Only Legal Ltd"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_trade_name",
+    "Only Trade"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Only Trade"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Only Trade"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_trade_name",
+    ""
+   ],
+   [
+    "company_name",
+    "Legal Fallback Ltd"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Legal Fallback Ltd"
+   ],
+   [
+    "company_legal",
+    "Legal Fallback Ltd"
+   ],
+   [
+    "company_trade",
+    "Legal Fallback Ltd"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_trade_name",
+    null
+   ],
+   [
+    "company_name",
+    null
+   ],
+   [
+    "company_email",
+    " "
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    " "
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_website",
+    "http://x.test"
+   ],
+   [
+    "company_phone",
+    "0312"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    "0312"
+   ],
+   [
+    "company_website",
+    "http://x.test"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "http://x.test"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_name",
+    "First"
+   ],
+   [
+    "company_name",
+    "Second"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Second"
+   ],
+   [
+    "company_legal",
+    "Second"
+   ],
+   [
+    "company_trade",
+    "Second"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_name",
+    "First"
+   ],
+   [
+    "company_name",
+    ""
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_name",
+    "Ünïcødé Ltd — №5"
+   ],
+   [
+    "company_address",
+    "  spaced  "
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Ünïcødé Ltd — №5"
+   ],
+   [
+    "company_legal",
+    "Ünïcødé Ltd — №5"
+   ],
+   [
+    "company_trade",
+    "Ünïcødé Ltd — №5"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    "  spaced  "
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company_letterhead_image",
+    "wrong key"
+   ],
+   [
+    "company.letterhead_image",
+    "right"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    "hello@example.com"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    "right"
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "unrelated",
+    "x"
+   ],
+   [
+    "company_email",
+    "e@x.test"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Your Company"
+   ],
+   [
+    "company_legal",
+    "Your Company Ltd"
+   ],
+   [
+    "company_trade",
+    "Your Company"
+   ],
+   [
+    "company_email",
+    "e@x.test"
+   ],
+   [
+    "company_phone",
+    ""
+   ],
+   [
+    "company_website",
+    "https://example.com"
+   ],
+   [
+    "company_address",
+    ""
+   ],
+   [
+    "company_rd_office",
+    ""
+   ],
+   [
+    "letterhead_url",
+    ""
+   ],
+   [
+    "app_url",
+    "https://example.com"
+   ]
+  ]
+ },
+ {
+  "rows": [
+   [
+    "company.letterhead_image",
+    "/api/v1/files/lh.png"
+   ],
+   [
+    "company_rd_office",
+    "Kyoto"
+   ],
+   [
+    "company_address",
+    "1 Main Street\nTokyo"
+   ],
+   [
+    "company_website",
+    "https://example.test"
+   ],
+   [
+    "company_phone",
+    "+81 3 555"
+   ],
+   [
+    "company_email",
+    "info@example.test"
+   ],
+   [
+    "company_trade_name",
+    "Example"
+   ],
+   [
+    "company_name",
+    "Example Initech Ltd"
+   ]
+  ],
+  "result": [
+   [
+    "company_name",
+    "Example"
+   ],
+   [
+    "company_legal",
+    "Example Initech Ltd"
+   ],
+   [
+    "company_trade",
+    "Example"
+   ],
+   [
+    "company_email",
+    "info@example.test"
+   ],
+   [
+    "company_phone",
+    "+81 3 555"
+   ],
+   [
+    "company_website",
+    "https://example.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street\nTokyo"
+   ],
+   [
+    "company_rd_office",
+    "Kyoto"
+   ],
+   [
+    "letterhead_url",
+    "/api/v1/files/lh.png"
+   ],
+   [
+    "app_url",
+    "https://example.test"
+   ]
+  ]
+ }
+]

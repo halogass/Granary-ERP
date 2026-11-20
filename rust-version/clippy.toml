@@ -1,0 +1,6 @@
+# Clippy configuration for the workspace (ci.sh runs clippy with -D warnings).
+#
+# Database rows are read as tuples whose types mirror the SELECT column list (sqlx `query_as`), as the Python
+# code reads `row[0], row[1], ...`; naming a type alias for every query would only move the column list away
+# from its SQL. The default threshold (250) flags most of them, so it is raised.
+type-complexity-threshold = 1000

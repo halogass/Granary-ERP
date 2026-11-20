@@ -1,0 +1,385 @@
+[
+ {
+  "answer": "Per the warranty claims SOP, do X.",
+  "candidates": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "2",
+    "title": "Lead Qualification (BANT)",
+    "slug": "l"
+   },
+   {
+    "type": "sop",
+    "id": "3",
+    "title": "",
+    "slug": "e"
+   },
+   {
+    "type": "sop",
+    "id": "4",
+    "title": null
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ],
+  "out": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   }
+  ]
+ },
+ {
+  "answer": "See Lead qualification bant and onboarding.",
+  "candidates": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "2",
+    "title": "Lead Qualification (BANT)",
+    "slug": "l"
+   },
+   {
+    "type": "sop",
+    "id": "3",
+    "title": "",
+    "slug": "e"
+   },
+   {
+    "type": "sop",
+    "id": "4",
+    "title": null
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ],
+  "out": [
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   }
+  ]
+ },
+ {
+  "answer": "",
+  "candidates": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "2",
+    "title": "Lead Qualification (BANT)",
+    "slug": "l"
+   },
+   {
+    "type": "sop",
+    "id": "3",
+    "title": "",
+    "slug": "e"
+   },
+   {
+    "type": "sop",
+    "id": "4",
+    "title": null
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ],
+  "out": []
+ },
+ {
+  "answer": "nothing",
+  "candidates": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "2",
+    "title": "Lead Qualification (BANT)",
+    "slug": "l"
+   },
+   {
+    "type": "sop",
+    "id": "3",
+    "title": "",
+    "slug": "e"
+   },
+   {
+    "type": "sop",
+    "id": "4",
+    "title": null
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ],
+  "out": []
+ },
+ {
+  "answer": "goods delivery express applies",
+  "candidates": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "2",
+    "title": "Lead Qualification (BANT)",
+    "slug": "l"
+   },
+   {
+    "type": "sop",
+    "id": "3",
+    "title": "",
+    "slug": "e"
+   },
+   {
+    "type": "sop",
+    "id": "4",
+    "title": null
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ],
+  "out": [
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ]
+ },
+ {
+  "answer": "WARRANTY-CLAIMS",
+  "candidates": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "2",
+    "title": "Lead Qualification (BANT)",
+    "slug": "l"
+   },
+   {
+    "type": "sop",
+    "id": "3",
+    "title": "",
+    "slug": "e"
+   },
+   {
+    "type": "sop",
+    "id": "4",
+    "title": null
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ],
+  "out": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   }
+  ]
+ },
+ {
+  "answer": "Ünïcode warranty claims",
+  "candidates": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   },
+   {
+    "type": "sop",
+    "id": "2",
+    "title": "Lead Qualification (BANT)",
+    "slug": "l"
+   },
+   {
+    "type": "sop",
+    "id": "3",
+    "title": "",
+    "slug": "e"
+   },
+   {
+    "type": "sop",
+    "id": "4",
+    "title": null
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": null,
+    "title": "Onboarding"
+   },
+   {
+    "type": "sop",
+    "id": "5",
+    "title": "Goods Delivery—Express"
+   }
+  ],
+  "out": [
+   {
+    "type": "sop",
+    "id": "1",
+    "title": "Warranty Claims",
+    "slug": "w"
+   }
+  ]
+ }
+]

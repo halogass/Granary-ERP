@@ -1,0 +1,1130 @@
+{
+ "config": {
+  "JWT_SECRET_KEY": "test-jwt-secret-key-at-least-32-characters-long",
+  "APP_SECRET_KEY": "test-app-secret-key-at-least-32-characters-long",
+  "TURN_SECRET": "test-turn-secret-for-golden-fixtures",
+  "DEMO_SIGNING_KEY": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+  "DEMO_ANDROID_SIGNING_KEY": "ZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXp7fH1+f4CBgoM=",
+  "JWT_ALGORITHM": "HS256",
+  "JWT_ACCESS_TOKEN_EXPIRE_MINUTES": 60,
+  "JWT_REFRESH_TOKEN_EXPIRE_DAYS": 30
+ },
+ "confirm": [
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": null,
+   "value": "6a6fd5e9cd81c110e742f18e"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": null,
+   "value": "9ffa8a3ddd5240c37b2dee24"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {},
+   "value": "6a6fd5e9cd81c110e742f18e"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {},
+   "value": "9ffa8a3ddd5240c37b2dee24"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": [],
+   "value": "6a6fd5e9cd81c110e742f18e"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": [],
+   "value": "9ffa8a3ddd5240c37b2dee24"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": 0,
+   "value": "6a6fd5e9cd81c110e742f18e"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": 0,
+   "value": "9ffa8a3ddd5240c37b2dee24"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": "",
+   "value": "6a6fd5e9cd81c110e742f18e"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": "",
+   "value": "9ffa8a3ddd5240c37b2dee24"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": false,
+   "value": "6a6fd5e9cd81c110e742f18e"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": false,
+   "value": "9ffa8a3ddd5240c37b2dee24"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {
+    "amount": 1500000,
+    "note": "Ünïcode ☃"
+   },
+   "value": "cda2d22a2568c87d924ae88c"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {
+    "amount": 1500000,
+    "note": "Ünïcode ☃"
+   },
+   "value": "7506ad8dc96bb0cbc2140bcd"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {
+    "b": [
+     1,
+     2.5,
+     null,
+     true
+    ],
+    "a": {
+     "z": 1e+16,
+     "y": 0.0001,
+     "x": 1e-05
+    }
+   },
+   "value": "49192276d9b779c860d99940"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {
+    "b": [
+     1,
+     2.5,
+     null,
+     true
+    ],
+    "a": {
+     "z": 1e+16,
+     "y": 0.0001,
+     "x": 1e-05
+    }
+   },
+   "value": "026b897f853b53440030652a"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {
+    "price": 12.0,
+    "qty": 3,
+    "nested": {
+     "k": "v\n\"q\""
+    }
+   },
+   "value": "11088c79fe066f5909c2f6cc"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {
+    "price": 12.0,
+    "qty": 3,
+    "nested": {
+     "k": "v\n\"q\""
+    }
+   },
+   "value": "a59318663b2668440ade84d3"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": [
+    3,
+    2,
+    1
+   ],
+   "value": "e93c75d82de5e2be1fad5c8b"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": [
+    3,
+    2,
+    1
+   ],
+   "value": "db769d402f62000ec430b613"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": "text",
+   "value": "a71643a8b9a828c57d3b4452"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": "text",
+   "value": "e02f1db602777f0d8e97f51b"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": 7,
+   "value": "5012e61b9305841ce3beb8c0"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": 7,
+   "value": "2c417be49101089207bf9870"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": 1.5,
+   "value": "1a896d746ef110847b747408"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": 1.5,
+   "value": "84e36387f671278b52cff2db"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": true,
+   "value": "1f32ee2c94d5d5f1bc020953"
+  },
+  {
+   "secret": "test-jwt-secret-key-at-least-32-characters-long",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": true,
+   "value": "56729e393e38c0ef604b38b7"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": null,
+   "value": "2591ad7c7b64d14dd56eb100"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": null,
+   "value": "00d32afcb054a16af0192f2b"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {},
+   "value": "2591ad7c7b64d14dd56eb100"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {},
+   "value": "00d32afcb054a16af0192f2b"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": [],
+   "value": "2591ad7c7b64d14dd56eb100"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": [],
+   "value": "00d32afcb054a16af0192f2b"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": 0,
+   "value": "2591ad7c7b64d14dd56eb100"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": 0,
+   "value": "00d32afcb054a16af0192f2b"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": "",
+   "value": "2591ad7c7b64d14dd56eb100"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": "",
+   "value": "00d32afcb054a16af0192f2b"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": false,
+   "value": "2591ad7c7b64d14dd56eb100"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": false,
+   "value": "00d32afcb054a16af0192f2b"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {
+    "amount": 1500000,
+    "note": "Ünïcode ☃"
+   },
+   "value": "e01b81a3268cc7525d11448b"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {
+    "amount": 1500000,
+    "note": "Ünïcode ☃"
+   },
+   "value": "133151c2e19b154ac6f4e261"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {
+    "b": [
+     1,
+     2.5,
+     null,
+     true
+    ],
+    "a": {
+     "z": 1e+16,
+     "y": 0.0001,
+     "x": 1e-05
+    }
+   },
+   "value": "312d508a212cc6b12941ce0e"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {
+    "b": [
+     1,
+     2.5,
+     null,
+     true
+    ],
+    "a": {
+     "z": 1e+16,
+     "y": 0.0001,
+     "x": 1e-05
+    }
+   },
+   "value": "4b5f537264318808399a24b3"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": {
+    "price": 12.0,
+    "qty": 3,
+    "nested": {
+     "k": "v\n\"q\""
+    }
+   },
+   "value": "8c7bf94eaa9594b752d99aab"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": {
+    "price": 12.0,
+    "qty": 3,
+    "nested": {
+     "k": "v\n\"q\""
+    }
+   },
+   "value": "ae9faa98ad6409618ecba46f"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": [
+    3,
+    2,
+    1
+   ],
+   "value": "144aea66fe8d7d5658447b9a"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": [
+    3,
+    2,
+    1
+   ],
+   "value": "925a323e5150151948648e9d"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": "text",
+   "value": "848b009dcb960abd7ed8f0aa"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": "text",
+   "value": "b68ef8bca82c23474e3cffed"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": 7,
+   "value": "254c99409173c4116ed47242"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": 7,
+   "value": "bbef05ee3b5dc43cb5d15199"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": 1.5,
+   "value": "73a25fe7ebe32f2c29b9cfa0"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": 1.5,
+   "value": "28773c00e75743ece0449c38"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "approve",
+   "edited": true,
+   "value": "5838d52c2375769c5ad1e1d6"
+  },
+  {
+   "secret": "",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "card_id": "card-42",
+   "decision": "reject",
+   "edited": true,
+   "value": "905fe84e208eb9224a2396e1"
+  }
+ ],
+ "cards": [
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "issued": 1760000000,
+   "version": "32aad45590f5c5bb5b4e19916335c5eb782deb06692946e1f1c9364e656fbe30",
+   "sign": "3cd8ef5cd92432853921162a",
+   "code": "1760000000.3cd8ef5cd92432853921162a"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "issued": 0,
+   "version": "32aad45590f5c5bb5b4e19916335c5eb782deb06692946e1f1c9364e656fbe30",
+   "sign": "93e8558f1d952275209c3bd2",
+   "code": "0.93e8558f1d952275209c3bd2"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "issued": 1999999999,
+   "version": "32aad45590f5c5bb5b4e19916335c5eb782deb06692946e1f1c9364e656fbe30",
+   "sign": "0c26e819821591484b18eef5",
+   "code": "1999999999.0c26e819821591484b18eef5"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "action": "lead.merge",
+    "args": {
+     "into": "x",
+     "from": [
+      "y",
+      "z"
+     ]
+    },
+    "summary": "Merge ☃ 日本"
+   },
+   "issued": 1760000000,
+   "version": "8b38e368f4e52ff1dd87e4fc3fa77aa35b20c352493d50286d6d4c593fa35a06",
+   "sign": "e0af2fb0e968b122eec4671d",
+   "code": "1760000000.e0af2fb0e968b122eec4671d"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "action": "lead.merge",
+    "args": {
+     "into": "x",
+     "from": [
+      "y",
+      "z"
+     ]
+    },
+    "summary": "Merge ☃ 日本"
+   },
+   "issued": 0,
+   "version": "8b38e368f4e52ff1dd87e4fc3fa77aa35b20c352493d50286d6d4c593fa35a06",
+   "sign": "be07366ae4dc6f0310ba39fd",
+   "code": "0.be07366ae4dc6f0310ba39fd"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "action": "lead.merge",
+    "args": {
+     "into": "x",
+     "from": [
+      "y",
+      "z"
+     ]
+    },
+    "summary": "Merge ☃ 日本"
+   },
+   "issued": 1999999999,
+   "version": "8b38e368f4e52ff1dd87e4fc3fa77aa35b20c352493d50286d6d4c593fa35a06",
+   "sign": "515137dc7f954a91c0e0fd66",
+   "code": "1999999999.515137dc7f954a91c0e0fd66"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "status": "applied",
+    "action": "x"
+   },
+   "issued": 1760000000,
+   "version": "5fa8c057b4bb01b97a1678123102dd38a5cfc4e209ae7f02be247e65f4ae85d6",
+   "sign": "21b2cb18a23ba4481cffbe3c",
+   "code": "1760000000.21b2cb18a23ba4481cffbe3c"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "status": "applied",
+    "action": "x"
+   },
+   "issued": 0,
+   "version": "5fa8c057b4bb01b97a1678123102dd38a5cfc4e209ae7f02be247e65f4ae85d6",
+   "sign": "7b1c6c1a58627e8d42feaa48",
+   "code": "0.7b1c6c1a58627e8d42feaa48"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "status": "applied",
+    "action": "x"
+   },
+   "issued": 1999999999,
+   "version": "5fa8c057b4bb01b97a1678123102dd38a5cfc4e209ae7f02be247e65f4ae85d6",
+   "sign": "748d987f1bbcc023858ef32a",
+   "code": "1999999999.748d987f1bbcc023858ef32a"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {},
+   "issued": 1760000000,
+   "version": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+   "sign": "7bd1f4dfcfe58f2d5902f578",
+   "code": "1760000000.7bd1f4dfcfe58f2d5902f578"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {},
+   "issued": 0,
+   "version": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+   "sign": "f10d973508c9dc022bcc673f",
+   "code": "0.f10d973508c9dc022bcc673f"
+  },
+  {
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {},
+   "issued": 1999999999,
+   "version": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+   "sign": "1d86c8c54fb9981c7efe7414",
+   "code": "1999999999.1d86c8c54fb9981c7efe7414"
+  }
+ ],
+ "checks": [
+  {
+   "name": "good",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000000.3cd8ef5cd92432853921162a",
+   "now": 1760000100.5,
+   "minutes": 10,
+   "result": null
+  },
+  {
+   "name": "good again (used)",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000000.3cd8ef5cd92432853921162a",
+   "now": 1760000100.5,
+   "minutes": 10,
+   "result": "used"
+  },
+  {
+   "name": "exactly at limit",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000001.057a4bab57731f887f31aacc",
+   "now": 1760000601.0,
+   "minutes": 10,
+   "result": null
+  },
+  {
+   "name": "just past limit",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000002.2768856682c90e1202ed1e4f",
+   "now": 1760000602.25,
+   "minutes": 10,
+   "result": "expired"
+  },
+  {
+   "name": "issued in the future",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760009999.a3fe5ce520b0b9c3c0e73472",
+   "now": 1760000000.0,
+   "minutes": 10,
+   "result": null
+  },
+  {
+   "name": "bad sig",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000000.000000000000000000000000",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "changed"
+  },
+  {
+   "name": "no dot",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000000",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "changed"
+  },
+  {
+   "name": "non-int issued",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "abc.52821bbac0bd9963cd725b4d",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "changed"
+  },
+  {
+   "name": "empty",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "changed"
+  },
+  {
+   "name": "none",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": null,
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "changed"
+  },
+  {
+   "name": "plus and zeros issued",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "+01760000000.3cd8ef5cd92432853921162a",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "used"
+  },
+  {
+   "name": "underscore issued",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1_760_000_000.3cd8ef5cd92432853921162a",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "used"
+  },
+  {
+   "name": "spaces issued",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": " 1760000000 .3cd8ef5cd92432853921162a",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "used"
+  },
+  {
+   "name": "other proposal version",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000000.271f00f50d294ead8ac4b71a",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "changed"
+  },
+  {
+   "name": "other user",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000000.8f8b59eaf60e9c7329afae1b",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "changed"
+  },
+  {
+   "name": "volatile change keeps code",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "proposal": {
+    "proposal_id": "p1",
+    "status": "pending",
+    "result": null,
+    "action": "invoice.create",
+    "args": {
+     "amount": 1000,
+     "currency": "JPY",
+     "lines": [
+      {
+       "sku": "A",
+       "qty": 2
+      }
+     ]
+    }
+   },
+   "code": "1760000000.3cd8ef5cd92432853921162a",
+   "now": 1760000100.0,
+   "minutes": 10,
+   "result": "used"
+  }
+ ]
+}

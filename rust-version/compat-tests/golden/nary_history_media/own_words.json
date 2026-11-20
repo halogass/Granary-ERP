@@ -1,0 +1,282 @@
+[
+ {
+  "body": null,
+  "out": ""
+ },
+ {
+  "body": "",
+  "out": ""
+ },
+ {
+  "body": "  Hi Bob,\n\nThanks.\n\nOn Mon, 1 Jan 2026 Bob wrote:\n> hello",
+  "out": "Hi Bob,\n\nThanks."
+ },
+ {
+  "body": "Hello\r\nOn Monday Bob wrote:\nquoted",
+  "out": "Hello"
+ },
+ {
+  "body": "a\n-----Original Message-----\nb",
+  "out": "a"
+ },
+ {
+  "body": " > quoted first",
+  "out": ""
+ },
+ {
+  "body": "line1 line2\u000bline3",
+  "out": "line1\nline2\nline3"
+ },
+ {
+  "body": "On Monday\nwrote: no",
+  "out": "On Monday\nwrote: no"
+ },
+ {
+  "body": "On x wrote:",
+  "out": ""
+ },
+ {
+  "body": "\t  text  \n\n",
+  "out": "text"
+ },
+ {
+  "body": "we -----Original Message-----Onsir  \nwrote:On On> > \r\n\nwe\n\r\nwrote:\n -----Original Message-----\nOn\n>",
+  "out": "we -----Original Message-----Onsir  \nwrote:On On> > \n\nwe\n\nwrote:"
+ },
+ {
+  "body": "> wrote:\n-----Original Message----- wrote:\r\n\n-----Original Message----- we ",
+  "out": ""
+ },
+ {
+  "body": "On\nAtwrites:wrote:  Atus\n>On AtAt  On",
+  "out": "On\nAtwrites:wrote:  Atus"
+ },
+ {
+  "body": "  \r\n >\n\n\n",
+  "out": ""
+ },
+ {
+  "body": "wrote:\nsir\nsir\n-----Original Message-----wrote:\nOnwrote: wrote:\nwrote:\n>\n-----Original Message-----\n On  ",
+  "out": "wrote:\nsir\nsir"
+ },
+ {
+  "body": "we-----Original Message-----\n\nOn >\nwe\n-----Original Message-----  >\n\r\n\nOn On  \n-----Original Message----------Original Message----- wrote: > ",
+  "out": "we-----Original Message-----\n\nOn >\nwe"
+ },
+ {
+  "body": "-----Original Message-----we \n\nwrote: \n wrote:wrote: >\nAtus > mr\r\n\nOn\nwrote:\nOn wrote:\n  On\n",
+  "out": ""
+ },
+ {
+  "body": "-----Original Message-----\nwrote:ussir mr \r\n\n ",
+  "out": ""
+ },
+ {
+  "body": "mr\n>-----Original Message-----wrote: we -----Original Message-----\n\r\n On \r\nOn\n  we\n",
+  "out": "mr"
+ },
+ {
+  "body": "  On -----Original Message-----\n   \nOn -----Original Message-----  \n-----Original Message-----On\n \r\n\r\n \n\n\r\n ",
+  "out": "On -----Original Message-----\n   \nOn -----Original Message-----"
+ },
+ {
+  "body": ">\n-----Original Message-----wrote: On\n ",
+  "out": ""
+ },
+ {
+  "body": "On-----Original Message-----\nOn\n\r\n> On sirus-----Original Message-----\n>we mr On On On mr\n ",
+  "out": "On-----Original Message-----\nOn"
+ },
+ {
+  "body": "\n mr >wrote: On\r\n\nOn -----Original Message----- On mr\nwrote:\nwe\nsir\nOn\nwrote:On\n\r\n wrote: \r\n\n",
+  "out": "mr >wrote: On\n\nOn -----Original Message----- On mr\nwrote:\nwe\nsir\nOn\nwrote:On\n\n wrote:"
+ },
+ {
+  "body": "wrote: wrote:\nwrote:  wrote:On\n-----Original Message-----\nAtsir On\nOn\n \n-----Original Message-----On",
+  "out": "wrote: wrote:\nwrote:  wrote:On"
+ },
+ {
+  "body": "-----Original Message----- -----Original Message-----\n\n we\nwrote:\nsir wrote:\n \n\n\r\n-----Original Message----- -----Original Message-----\r\n On\n>",
+  "out": ""
+ },
+ {
+  "body": "wrote:\nwrote: >wrote:\n\n",
+  "out": "wrote:\nwrote: >wrote:"
+ },
+ {
+  "body": "On-----Original Message-----On wrote:\nOn ",
+  "out": "On-----Original Message-----On wrote:\nOn"
+ },
+ {
+  "body": "\r\n\n-----Original Message----->we Onus\nwrote:\nwe wrote:\nAtsir",
+  "out": ""
+ },
+ {
+  "body": ">\nwe\n",
+  "out": ""
+ },
+ {
+  "body": "wrote:On  \n",
+  "out": "wrote:On"
+ },
+ {
+  "body": ">\n\n   \n\n  On On\nOn \r\n>\n",
+  "out": ""
+ },
+ {
+  "body": "\r\n we\n-----Original Message-----> On\r\nsir wrote:wrote: -----Original Message----- \r\n\r\n \nwrote: Onwrote: > -----Original Message-----\n\r\n \n",
+  "out": "we"
+ },
+ {
+  "body": " \nwrote: On\r\n\n\n wrote:\r\n\nwrote:we ",
+  "out": "wrote: On\n\n\n wrote:\n\nwrote:we"
+ },
+ {
+  "body": "mr\n > we   wrote:\r\n\n\r\n\n-----Original Message-----\n> \r\n\r\nwrote:\n-----Original Message-----\nOn \n\n>",
+  "out": "mr"
+ },
+ {
+  "body": "we \r\n\nsir >> -----Original Message-----On",
+  "out": "we \n\nsir >> -----Original Message-----On"
+ },
+ {
+  "body": "mr\n",
+  "out": "mr"
+ },
+ {
+  "body": "  -----Original Message-----\nsir ",
+  "out": ""
+ },
+ {
+  "body": "\nwrote:>",
+  "out": "wrote:>"
+ },
+ {
+  "body": "-----Original Message-----\n",
+  "out": ""
+ },
+ {
+  "body": "> > wrote:mr On \n-----Original Message-----wrote:\n\n\nOn",
+  "out": ""
+ },
+ {
+  "body": "On we\nwrote: wrote:\n",
+  "out": "On we\nwrote: wrote:"
+ },
+ {
+  "body": "we usus wrote: we \r\n \r\n we\n  wrote: we\n-----Original Message----- sirus ",
+  "out": "we usus wrote: we \n \n we\n  wrote: we"
+ },
+ {
+  "body": "wrote:we wrote: wrote: \r\n we ",
+  "out": "wrote:we wrote: wrote: \n we"
+ },
+ {
+  "body": "Onwrote:\nOn\nwe wrote: On\n\n\nOn\n  wrote:\nOn\nOn   On\n",
+  "out": "Onwrote:\nOn\nwe wrote: On\n\n\nOn\n  wrote:\nOn\nOn   On"
+ },
+ {
+  "body": "we\n\r\n wrote:sirAt On\n>\n  wrote:wrote:  sirwrites: \r\n\n\n",
+  "out": "we\n\n wrote:sirAt On"
+ },
+ {
+  "body": "On\n",
+  "out": "On"
+ },
+ {
+  "body": "wrote:\nwe we \nAtOn\nOn>\n>\nwe mr\nsir wrote:mr ",
+  "out": "wrote:\nwe we \nAtOn\nOn>"
+ },
+ {
+  "body": "we",
+  "out": "we"
+ },
+ {
+  "body": "-----Original Message----- ",
+  "out": ""
+ },
+ {
+  "body": "mr -----Original Message-----Atwrote:\nwrote:   -----Original Message-----On\n\nwrote: wrote:-----Original Message----- >\n-----Original Message-----wrote:-----Original Message-----\n>",
+  "out": "mr -----Original Message-----Atwrote:\nwrote:   -----Original Message-----On\n\nwrote: wrote:-----Original Message----- >"
+ },
+ {
+  "body": "On\n>\nOn\nsir wrote:\n mr\n>\n>\nOn\n",
+  "out": "On"
+ },
+ {
+  "body": "-----Original Message----- wrote:\nsir   On \r\nOn wrote:\n  Onsir\nOn ",
+  "out": ""
+ },
+ {
+  "body": "-----Original Message-----\nwrote:\n",
+  "out": ""
+ },
+ {
+  "body": "wrote:On-----Original Message----- >wrote:\n",
+  "out": "wrote:On-----Original Message----- >wrote:"
+ },
+ {
+  "body": "mr wrote:\r\n\n> On mr\nOn>\nOn wrote: \r\n On\r\nwe -----Original Message----------Original Message-----\n",
+  "out": "mr wrote:"
+ },
+ {
+  "body": "wrote: wrote:\nOn On\n wrote:\n>\n\n\n\r\n\nOn \n \r\n -----Original Message----- wrote: \r\n\nOn> ",
+  "out": "wrote: wrote:\nOn On\n wrote:"
+ },
+ {
+  "body": "wrote: -----Original Message-----On >On\n On On -----Original Message-----we wrote:On > On ",
+  "out": "wrote: -----Original Message-----On >On"
+ },
+ {
+  "body": " wrote: ",
+  "out": "wrote:"
+ },
+ {
+  "body": "On-----Original Message----- we\n\r\n\n\r\n \n we  > wrote: mr\nwrote:\n-----Original Message----->   > we On\n",
+  "out": "On-----Original Message----- we\n\n\n\n \n we  > wrote: mr\nwrote:"
+ },
+ {
+  "body": "wrote:",
+  "out": "wrote:"
+ },
+ {
+  "body": ">\n mr \r\n wrote:On wrote:\n> \n\n\n>\n-----Original Message-----\n> ",
+  "out": ""
+ },
+ {
+  "body": "wrote:\n-----Original Message-----\n> ",
+  "out": "wrote:"
+ },
+ {
+  "body": "  ",
+  "out": ""
+ },
+ {
+  "body": "wrote: wrote: -----Original Message-----\nsir\n-----Original Message----- mr\r\n\nwrote: ",
+  "out": "wrote: wrote: -----Original Message-----\nsir"
+ },
+ {
+  "body": "> >\nsir\n-----Original Message----- wrote:mr\nwrote:\n \n\n-----Original Message----- On \r\n On",
+  "out": ""
+ },
+ {
+  "body": "wrote:\n",
+  "out": "wrote:"
+ },
+ {
+  "body": "On\r\n",
+  "out": "On"
+ },
+ {
+  "body": "  On\nsir> wrote:On -----Original Message----- \n\nOn\n \n",
+  "out": "On\nsir> wrote:On -----Original Message----- \n\nOn"
+ },
+ {
+  "body": "wrote:\r\n ",
+  "out": "wrote:"
+ },
+ {
+  "body": "mr   > \r\nOn wrote:wrote:\nOn>-----Original Message----- On\n -----Original Message----- \n",
+  "out": "mr   >"
+ }
+]

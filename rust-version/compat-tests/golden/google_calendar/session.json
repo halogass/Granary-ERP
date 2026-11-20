@@ -1,0 +1,346 @@
+{
+ "secret": "GOCSPX-a+b/c~d*e f&g=h",
+ "client_id": "cid.apps.googleusercontent.com",
+ "busy": [
+  {
+   "start": "2026-10-20T03:00:00Z",
+   "end": "2026-10-20T04:30:00Z"
+  },
+  {
+   "start": "2026-10-21T10:00:00+07:00",
+   "end": "2026-10-21T11:00:00.5+07:00"
+  }
+ ],
+ "steps": [
+  {
+   "step": "status_before",
+   "result": {
+    "account": "calendar@example.com",
+    "status": "not_connected",
+    "last_error": null,
+    "credentials_set": true,
+    "redirect_uri": "https://erp.example.com/api/v1/nary/google/callback"
+   },
+   "requests": []
+  },
+  {
+   "step": "free_busy_not_connected",
+   "result": {
+    "status": 409,
+    "detail": "Google Calendar is not connected (Nary → Meetings → Connect Google)."
+   },
+   "requests": []
+  },
+  {
+   "step": "start_connect",
+   "result": "http://google.fake/auth?client_id=cid.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Ferp.example.com%2Fapi%2Fv1%2Fnary%2Fgoogle%2Fcallback&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.freebusy+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcalendar.events&access_type=offline&prompt=consent&include_granted_scopes=true&login_hint=calendar%40example.com&state={state}",
+   "requests": []
+  },
+  {
+   "step": "finish_connect_stale",
+   "result": {
+    "status": 400,
+    "detail": "This Google sign-in link is stale. Start again from Nary → Meetings."
+   },
+   "requests": []
+  },
+  {
+   "step": "finish_connect",
+   "result": {
+    "status": "connected",
+    "scopes": "calendar",
+    "oauth_state": null
+   },
+   "requests": [
+    {
+     "method": "POST",
+     "path": "/token",
+     "query": "",
+     "authorization": null,
+     "content_type": "application/x-www-form-urlencoded",
+     "body": "code=4%2F0Ab_x~y%2Az+q%2Br&client_id=cid.apps.googleusercontent.com&client_secret=GOCSPX-a%2Bb%2Fc~d%2Ae+f%26g%3Dh&redirect_uri=https%3A%2F%2Ferp.example.com%2Fapi%2Fv1%2Fnary%2Fgoogle%2Fcallback&grant_type=authorization_code"
+    }
+   ]
+  },
+  {
+   "step": "finish_connect_again",
+   "result": {
+    "status": 400,
+    "detail": "This Google sign-in link is stale. Start again from Nary → Meetings."
+   },
+   "requests": []
+  },
+  {
+   "step": "status_connected",
+   "result": {
+    "account": "calendar@example.com",
+    "status": "connected",
+    "last_error": null,
+    "credentials_set": true,
+    "redirect_uri": "https://erp.example.com/api/v1/nary/google/callback"
+   },
+   "requests": []
+  },
+  {
+   "step": "free_busy",
+   "result": [
+    [
+     "2026-10-20T03:00:00+00:00",
+     "2026-10-20T04:30:00+00:00"
+    ],
+    [
+     "2026-10-21T10:00:00+07:00",
+     "2026-10-21T11:00:00.500000+07:00"
+    ]
+   ],
+   "requests": [
+    {
+     "method": "POST",
+     "path": "/calendar/v3/freeBusy",
+     "query": "",
+     "authorization": "Bearer at-1",
+     "content_type": "application/json",
+     "body": "{\"timeMin\":\"2026-10-20T02:00:00.123456+00:00\",\"timeMax\":\"2026-10-27T00:00:00+00:00\",\"items\":[{\"id\":\"primary\"}]}"
+    }
+   ]
+  },
+  {
+   "step": "free_busy_refreshed",
+   "result": null,
+   "requests": [
+    {
+     "method": "POST",
+     "path": "/token",
+     "query": "",
+     "authorization": null,
+     "content_type": "application/x-www-form-urlencoded",
+     "body": "client_id=cid.apps.googleusercontent.com&client_secret=GOCSPX-a%2Bb%2Fc~d%2Ae+f%26g%3Dh&refresh_token=rt-new&grant_type=refresh_token"
+    },
+    {
+     "method": "POST",
+     "path": "/calendar/v3/freeBusy",
+     "query": "",
+     "authorization": "Bearer at-2",
+     "content_type": "application/json",
+     "body": "{\"timeMin\":\"2026-10-20T02:00:00.123456+00:00\",\"timeMax\":\"2026-10-27T00:00:00+00:00\",\"items\":[{\"id\":\"primary\"}]}"
+    }
+   ]
+  },
+  {
+   "step": "create_event",
+   "result": {
+    "id": "evt1",
+    "meet_link": "https://meet.google.com/abc-evt1",
+    "html_link": "https://calendar.google.com/evt1"
+   },
+   "requests": [
+    {
+     "method": "POST",
+     "path": "/calendar/v3/calendars/primary/events",
+     "query": "conferenceDataVersion=1&sendUpdates=all",
+     "authorization": "Bearer at-2",
+     "content_type": "application/json",
+     "body": "{\"summary\":\"Meeting ✓ \\\"demo\\\" <Acme>\",\"description\":\"Line 1\\nLine 2 \\\\ é\",\"start\":{\"dateTime\":\"2026-10-20T02:00:00.123456+00:00\"},\"end\":{\"dateTime\":\"2026-10-20T03:00:00.123456+00:00\"},\"attendees\":[{\"email\":\"a@x.com\"},{\"email\":\"b@y.com\"}],\"conferenceData\":{\"createRequest\":{\"requestId\":\"{request_id}\",\"conferenceSolutionKey\":{\"type\":\"hangoutsMeet\"}}}}"
+    }
+   ]
+  },
+  {
+   "step": "create_event_alone",
+   "result": {
+    "id": "evt2",
+    "meet_link": "https://meet.google.com/v-evt2",
+    "html_link": "https://calendar.google.com/evt2"
+   },
+   "requests": [
+    {
+     "method": "POST",
+     "path": "/calendar/v3/calendars/primary/events",
+     "query": "conferenceDataVersion=1&sendUpdates=none",
+     "authorization": "Bearer at-2",
+     "content_type": "application/json",
+     "body": "{\"summary\":\"Solo\",\"description\":\"\",\"start\":{\"dateTime\":\"2026-10-27T00:00:00+00:00\"},\"end\":{\"dateTime\":\"2026-10-27T00:30:00+00:00\"},\"attendees\":[],\"conferenceData\":{\"createRequest\":{\"requestId\":\"{request_id}\",\"conferenceSolutionKey\":{\"type\":\"hangoutsMeet\"}}}}"
+    }
+   ]
+  },
+  {
+   "step": "add_attendees",
+   "result": [
+    "a@x.com",
+    "b@y.com",
+    "c@z.com",
+    "d@w.com"
+   ],
+   "requests": [
+    {
+     "method": "GET",
+     "path": "/calendar/v3/calendars/primary/events/evt1",
+     "query": "",
+     "authorization": "Bearer at-2",
+     "content_type": null,
+     "body": ""
+    },
+    {
+     "method": "PATCH",
+     "path": "/calendar/v3/calendars/primary/events/evt1",
+     "query": "sendUpdates=all",
+     "authorization": "Bearer at-2",
+     "content_type": "application/json",
+     "body": "{\"attendees\":[{\"email\":\"a@x.com\",\"responseStatus\":\"needsAction\"},{\"email\":\"b@y.com\",\"responseStatus\":\"needsAction\"},{\"email\":\"c@z.com\"},{\"email\":\"d@w.com\"}]}"
+    }
+   ]
+  },
+  {
+   "step": "get_event",
+   "result": {
+    "id": "evt1",
+    "status": "confirmed",
+    "attendees": [
+     {
+      "email": "a@x.com",
+      "responseStatus": "needsAction"
+     },
+     {
+      "email": "b@y.com",
+      "responseStatus": "needsAction"
+     },
+     {
+      "email": "c@z.com",
+      "responseStatus": "needsAction"
+     },
+     {
+      "email": "d@w.com",
+      "responseStatus": "needsAction"
+     }
+    ]
+   },
+   "requests": [
+    {
+     "method": "GET",
+     "path": "/calendar/v3/calendars/primary/events/evt1",
+     "query": "",
+     "authorization": "Bearer at-2",
+     "content_type": null,
+     "body": ""
+    }
+   ]
+  },
+  {
+   "step": "cancel_event",
+   "result": null,
+   "requests": [
+    {
+     "method": "DELETE",
+     "path": "/calendar/v3/calendars/primary/events/evt1",
+     "query": "sendUpdates=all",
+     "authorization": "Bearer at-2",
+     "content_type": null,
+     "body": ""
+    }
+   ]
+  },
+  {
+   "step": "get_event_deleted",
+   "result": null,
+   "requests": [
+    {
+     "method": "GET",
+     "path": "/calendar/v3/calendars/primary/events/evt1",
+     "query": "",
+     "authorization": "Bearer at-2",
+     "content_type": null,
+     "body": ""
+    }
+   ]
+  },
+  {
+   "step": "cancel_event_again",
+   "result": null,
+   "requests": [
+    {
+     "method": "DELETE",
+     "path": "/calendar/v3/calendars/primary/events/evt1",
+     "query": "sendUpdates=all",
+     "authorization": "Bearer at-2",
+     "content_type": null,
+     "body": ""
+    }
+   ]
+  },
+  {
+   "step": "add_attendees_deleted",
+   "result": {
+    "status": 502,
+    "detail": "Google Calendar: 410 {\"error\":{\"message\":\"Resource has been deleted\"}}"
+   },
+   "requests": [
+    {
+     "method": "GET",
+     "path": "/calendar/v3/calendars/primary/events/evt1",
+     "query": "",
+     "authorization": "Bearer at-2",
+     "content_type": null,
+     "body": ""
+    }
+   ]
+  },
+  {
+   "step": "free_busy_other_calendar",
+   "result": [
+    [
+     "2026-10-20T03:00:00+00:00",
+     "2026-10-20T04:30:00+00:00"
+    ],
+    [
+     "2026-10-21T10:00:00+07:00",
+     "2026-10-21T11:00:00.500000+07:00"
+    ]
+   ],
+   "requests": [
+    {
+     "method": "POST",
+     "path": "/calendar/v3/freeBusy",
+     "query": "",
+     "authorization": "Bearer at-2",
+     "content_type": "application/json",
+     "body": "{\"timeMin\":\"2026-10-20T02:00:00.123456+00:00\",\"timeMax\":\"2026-10-27T00:00:00+00:00\",\"items\":[{\"id\":\"team@group.calendar.google.com\"}]}"
+    }
+   ]
+  },
+  {
+   "step": "refresh_failed",
+   "result": {
+    "status": 502,
+    "detail": "Google token refresh failed: {\"error\":\"server_error\"}"
+   },
+   "requests": [
+    {
+     "method": "POST",
+     "path": "/token",
+     "query": "",
+     "authorization": null,
+     "content_type": "application/x-www-form-urlencoded",
+     "body": "client_id=cid.apps.googleusercontent.com&client_secret=GOCSPX-a%2Bb%2Fc~d%2Ae+f%26g%3Dh&refresh_token=rt-new&grant_type=refresh_token"
+    }
+   ]
+  },
+  {
+   "step": "start_connect_no_credentials",
+   "result": {
+    "status": 400,
+    "detail": "Setting 'nary.google.client_id' and the client secret must be set before connecting Google. Set it in Settings → Nary & AI → Meetings."
+   },
+   "requests": []
+  },
+  {
+   "step": "status_no_credentials",
+   "result": {
+    "account": "calendar@example.com",
+    "status": "not_connected",
+    "last_error": null,
+    "credentials_set": false,
+    "redirect_uri": "https://erp.example.com/api/v1/nary/google/callback"
+   },
+   "requests": []
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+Message-ID: <m02@acme.test>
+From: "Bob, Acme" <bob@acme.test>
+To: hello@acme.test, ops@acme.test
+Cc: =?utf-8?q?J=C3=B6rg?= <jorg@acme.test>
+Subject: =?utf-8?q?Hello_from_Acme_=E2=9C=93?=
+Date: Mon, 12 Oct 2026 08:00:00 +0700
+Reply-To: Sales <SALES@acme.test>
+Content-Type: text/html; charset=utf-8
+
+<p>Hi <b>team</b></p>

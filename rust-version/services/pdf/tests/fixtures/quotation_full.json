@@ -1,0 +1,159 @@
+{
+ "template": "quotation",
+ "data": {
+  "company": {
+   "trade_name": "Your Company Ltd",
+   "legal_name": "Your Company Limited",
+   "address": "1 Example Street, Springfield 12345",
+   "email": "sales@example.com",
+   "website": "example.com",
+   "tax_id": "TAX-0000-0001",
+   "registration_no": "REG-0000-0001",
+   "signatory": "Alex Owner",
+   "signatory_title": "Chief Executive Officer",
+   "logo_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAAwCAIAAAAZy+Y5AAAAxklEQVR42u3XsQ0CUQwFwV8ERRBfOcQURqmkSEcFb0faxPFIln0e1/ve8/XRRucvMOkd4N8B9jgw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6VNbWTXpU74wC9jHI7EtDXhcGvA4NuBxacDj0oDHsQGPSwMelwY8jg14XBrwuDTgcWzA49KAx6UBj2MDHpcGPC4NeBwb8Lg04HFpwOPYX1B1IDgfFH8DAAAAAElFTkSuQmCC"
+  },
+  "full_number": "QUO/2026/10/0007",
+  "revision": 2,
+  "customer": {
+   "company_name": "Northwind Traders",
+   "contact_name": "Casey",
+   "address": "Springfield",
+   "email": "casey@northwind.example.com"
+  },
+  "issued_date": "2026-10-01",
+  "valid_until": "October 31, 2026",
+  "currency": "USD",
+  "deal_reference": "DEAL-88",
+  "items": [
+   {
+    "description": "Business laptop item 1 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 1,
+    "unit": "unit",
+    "unit_price": 44700,
+    "discount_pct": 0,
+    "line_total": 44700.0
+   },
+   {
+    "description": "Business laptop item 2 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": 2.5,
+    "unit": "unit",
+    "unit_price": 1234.567,
+    "discount_pct": 5,
+    "line_total": 2932.21
+   },
+   {
+    "description": "Business laptop item 3 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 10,
+    "unit": "unit",
+    "unit_price": 0.125,
+    "discount_pct": 12.5,
+    "line_total": 1.25
+   },
+   {
+    "description": "Business laptop item 4 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": "3",
+    "unit": "unit",
+    "unit_price": "99.995",
+    "discount_pct": 0,
+    "line_total": "299.985"
+   },
+   {
+    "description": "Business laptop item 5 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 0.333,
+    "unit": "unit",
+    "unit_price": 10000000.0,
+    "discount_pct": 5,
+    "line_total": 100000000.0
+   },
+   {
+    "description": "Business laptop item 6 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": 1,
+    "unit": "unit",
+    "unit_price": 44700,
+    "discount_pct": 12.5,
+    "line_total": 44700.0
+   },
+   {
+    "description": "Business laptop item 7 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 2.5,
+    "unit": "unit",
+    "unit_price": 1234.567,
+    "discount_pct": 0,
+    "line_total": 2932.21
+   },
+   {
+    "description": "Business laptop item 8 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": 10,
+    "unit": "unit",
+    "unit_price": 0.125,
+    "discount_pct": 5,
+    "line_total": 1.25
+   },
+   {
+    "description": "Business laptop item 9 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": "3",
+    "unit": "unit",
+    "unit_price": "99.995",
+    "discount_pct": 12.5,
+    "line_total": "299.985"
+   },
+   {
+    "description": "Business laptop item 10 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": 0.333,
+    "unit": "unit",
+    "unit_price": 10000000.0,
+    "discount_pct": 0,
+    "line_total": 100000000.0
+   },
+   {
+    "description": "Business laptop item 11 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 1,
+    "unit": "unit",
+    "unit_price": 44700,
+    "discount_pct": 5,
+    "line_total": 44700.0
+   },
+   {
+    "description": "Business laptop item 12 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": 2.5,
+    "unit": "unit",
+    "unit_price": 1234.567,
+    "discount_pct": 12.5,
+    "line_total": 2932.21
+   }
+  ],
+  "subtotal": 50000,
+  "discount_amount": 2500.5,
+  "currency_symbol": "$",
+  "thousands_sep": ",",
+  "decimal_sep": ".",
+  "tax_lines": [
+   {
+    "name": "VAT",
+    "rate": 11,
+    "amount": 5224.94
+   }
+  ],
+  "grand_total": 52724.44,
+  "payment_terms": {
+   "down_payment": "30% on order",
+   "upon_delivery": "60% on delivery",
+   "net_days": 30
+  },
+  "shipping_terms": "DAP site",
+  "notes": "<p><strong>Scope:</strong> 15 laptops, <em>Support Plus</em>.</p><ul><li>Warranty 1 year</li></ul>"
+ }
+}

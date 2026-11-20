@@ -1,0 +1,1047 @@
+[
+ {
+  "name": "quotation.create_draft",
+  "pattern": "quotation.*",
+  "match": true
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "[pq]*",
+  "match": true
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "[!q]*",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "quotation.create_draft",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "quotation.*",
+  "match": true
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "*.send",
+  "match": true
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "[pq]*",
+  "match": true
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "[!q]*",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "**.send",
+  "match": true
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "quotation.send",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "mcp.crm_write",
+  "match": true
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "mcp.crm_write",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "*.send",
+  "match": true
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "**.send",
+  "match": true
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "reengagement.send",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "lead.?pen_returning",
+  "match": true
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "lead.open_returning",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "[pq]*",
+  "match": true
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "proforma.raise",
+  "match": true
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "proforma.raise",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "a.b",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "a.b",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "a.b",
+  "match": true
+ },
+ {
+  "name": "a.b",
+  "pattern": "a?b",
+  "match": true
+ },
+ {
+  "name": "a.b",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "[a-c].b",
+  "match": true
+ },
+ {
+  "name": "a.b",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "a.b",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "x",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "x",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "x",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "[!q]*",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "",
+  "match": true
+ },
+ {
+  "name": "",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "meeting.[[]x]",
+  "match": true
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "meeting.[x]",
+  "pattern": "[!]",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "quotation.*",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "*",
+  "match": true
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "mcp.crm_write",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "*.send",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "lead.?pen_returning",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "[pq]*",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "[!q]*",
+  "match": true
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "*[",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "[]]*",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "meeting.[[]x]",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "a.b",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "a?b",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "**.send",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "proforma.raise",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "[a-c].b",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "[c-a].b",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "x*y",
+  "match": false
+ },
+ {
+  "name": "rates.propose_update",
+  "pattern": "[!]",
+  "match": false
+ }
+]

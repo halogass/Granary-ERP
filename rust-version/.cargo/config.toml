@@ -1,0 +1,7 @@
+[env]
+# Each database test thread holds an app, a pool and a fresh database: cap them so a full test run fits in a
+# modest amount of RAM. A value already set in the environment wins (no `force`).
+RUST_TEST_THREADS = "4"
+# Test threads get 2 MiB of stack by default; the Nary inbound pipeline is one deep future in a debug build and
+# can pass that (stack overflow in nary_platform_db / nary_p2_whatsapp). 8 MiB per test thread.
+RUST_MIN_STACK = "8388608"

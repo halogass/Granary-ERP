@@ -1,0 +1,161 @@
+[
+ {
+  "fn": "active",
+  "value": null,
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "[]",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "[\"usd\", \"jpy\"]",
+  "out": [
+   "USD",
+   "JPY"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "[\"EUR\"]",
+  "out": [
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "not json",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "{\"a\": 1}",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "\"JPY\"",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "[1, 2]",
+  "error": "AttributeError"
+ },
+ {
+  "fn": "active",
+  "value": "[\"sgd\", \"jpy\", \"cny\", \"gbp\"]",
+  "out": [
+   "SGD",
+   "JPY",
+   "CNY",
+   "GBP"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "null",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "  ",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "[\"Usd\"]",
+  "out": [
+   "USD"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "NaN",
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ },
+ {
+  "fn": "active",
+  "value": "[\"ß\"]",
+  "out": [
+   "SS"
+  ]
+ },
+ {
+  "fn": "functional",
+  "value": null,
+  "out": "USD"
+ },
+ {
+  "fn": "functional",
+  "value": "",
+  "out": "USD"
+ },
+ {
+  "fn": "functional",
+  "value": "usd",
+  "out": "USD"
+ },
+ {
+  "fn": "functional",
+  "value": "JPY",
+  "out": "JPY"
+ },
+ {
+  "fn": "functional",
+  "value": "eur ",
+  "out": "EUR "
+ },
+ {
+  "fn": "functional",
+  "value": "jpy",
+  "out": "JPY"
+ },
+ {
+  "fn": "functional_missing",
+  "value": null,
+  "out": "USD"
+ },
+ {
+  "fn": "active_missing",
+  "value": null,
+  "out": [
+   "USD",
+   "EUR"
+  ]
+ }
+]

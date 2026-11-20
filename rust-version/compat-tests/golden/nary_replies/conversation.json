@@ -1,0 +1,3122 @@
+[
+ {
+  "chat": null,
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a customer"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a customer"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a customer"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a customer"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": null,
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "email",
+   "chat_id": null,
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Bob"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Bob"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Bob"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Bob"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "Bob",
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "818123@c.us"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "818123@c.us"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "818123@c.us"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "818123@c.us"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": "",
+   "phone": null
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "+818123"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "+818123"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": null,
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": null,
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "+818123"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "+818123"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": null,
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Lead A"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": "Lead A"
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": null,
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a lead"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": "Deal B"
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "Deal B"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": null,
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": null
+  },
+  "label": "a deal"
+ },
+ {
+  "chat": {
+   "chat_id": "818123@c.us",
+   "display_name": null,
+   "phone": "+818123"
+  },
+  "contact": {
+   "id": "11111111-2222-3333-4444-555555555555"
+  },
+  "lead": {
+   "title": ""
+  },
+  "deal": {
+   "title": ""
+  },
+  "thread": "99999999-8888-7777-6666-555555555555",
+  "payload": {
+   "channel": "whatsapp",
+   "chat_id": "818123@c.us",
+   "text": "Hello, thank you",
+   "contact_id": "11111111-2222-3333-4444-555555555555",
+   "thread_id": "99999999-8888-7777-6666-555555555555"
+  },
+  "label": "a deal"
+ }
+]

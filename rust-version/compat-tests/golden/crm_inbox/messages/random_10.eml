@@ -1,0 +1,15 @@
+Reply-To: )	13 Oct 2026 10.20.30 +0590=?bogus?q?x?=, Doe <
+Content-ID: 1.0 x*=bogus''y  Doe>
+References: boundary="=_b" 
+Content-Type: multipart/mixed; boundary=Q
+
+--Q
+Content-Type: text/plain; charset=utf-8
+
+café
+--Q
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<i>x=3Dy</i>
+--Q--

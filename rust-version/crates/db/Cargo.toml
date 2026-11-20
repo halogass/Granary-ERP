@@ -1,0 +1,32 @@
+[package]
+license.workspace = true
+name = "granary-db"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "granary-migrate"
+path = "src/bin/granary-migrate.rs"
+
+[[bin]]
+name = "granary-seed"
+path = "src/bin/granary-seed.rs"
+
+[dependencies]
+granary-compat.workspace = true
+chrono-tz.workspace = true
+once_cell.workspace = true
+regex.workspace = true
+tokio.workspace = true
+sqlx.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+rust_decimal.workspace = true
+chrono.workspace = true
+uuid.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+sha2.workspace = true
+hex.workspace = true

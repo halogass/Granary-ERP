@@ -1,0 +1,443 @@
+{
+ "template": "document",
+ "data": {
+  "company": {
+   "letterhead_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAABaCAIAAADrU7+pAAABxElEQVR42u3VoQ0AIAADQcZhJqZjREKCZwEEBkMvOVVZ86W2fmnMBQCfKfchlEYAPgzhcVVHAKJDqI4ACKE0AiCE6giAEKojAEIojQAIoToCIITqCIAQSiMAQqiOAAihOgIghNIIgBCqIwBCqI7qCCCE0iiNAEKojuoIIITqqI4AQog0Aggh6ggghKgjgBAijQBCiDoCCCHqCCCESCOAEKKOAEKIOgIIIdIIIISoI4AQoo4AQog0Aggh6uhAQAhRR3UEhBBplEZACFFHdQSEENQREEKQRkAIQR0BIQR1BIQQpBEQQlBHQAhBHQEhBGkEhBDUERBCUEdACEEaASEEdQSEENQREEKQRkAIQR3VESEE1FEdEUJAGqURIQTUUR0RQgB1RAgBpBEhBFBHhBBAHRFCAGlECAHUESEEUEeEEEAaEUIAdUQIAdQRIQSQRoQQQB0RQgB1RAgBpFEahRBAHdVRCAHUUR2FEEAapVEIAVBHIQRAHYUQAGkUQgDUUQgBUEchBEAahRAAdRRCANRRCAGQRiEEQB2FEAB1FEIApFEIAVBHIQRAHV/UUQgBiE6jEAIQXUchBCC6jkIIQHQahRCA6DpupKw/fwxwAlIAAAAASUVORK5CYII="
+  },
+  "doc_title": "QUOTATION",
+  "number": "QUO/2026/10/0009",
+  "subtitle": "Rev. 1",
+  "reference": "Ref: DEAL-91",
+  "status_label": "Approved",
+  "status_class": "status-approved",
+  "meta": [
+   {
+    "label": "Date",
+    "value": "19 October 2026"
+   },
+   {
+    "label": "Valid until",
+    "value": "18 November 2026"
+   }
+  ],
+  "customer": {
+   "label": "Bill to",
+   "name": "Acme Ltd",
+   "details": [
+    "42 Sample Road",
+    "Springfield 12345",
+    "Tax ID 12-3456789"
+   ]
+  },
+  "intro": "Thank you for the opportunity.\nThe offer below follows our call.",
+  "columns": [
+   {
+    "label": "Description"
+   },
+   {
+    "label": "Qty",
+    "right": true
+   },
+   {
+    "label": "Unit price",
+    "right": true
+   },
+   {
+    "label": "Amount",
+    "right": true
+   }
+  ],
+  "rows": [
+   [
+    {
+     "title": "Business laptop 14-inch / line 1",
+     "sku": "LAP-14-0",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "",
+     "note": "Ships in 3 weeks\nOn-site setup",
+     "indent": false
+    },
+    {
+     "text": "1",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 2",
+     "sku": "LAP-14-1",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "12-month support plan",
+     "note": "",
+     "indent": false
+    },
+    {
+     "text": "2",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 2,980.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 3",
+     "sku": "LAP-14-2",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "",
+     "note": "",
+     "indent": false
+    },
+    {
+     "text": "3",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 4,470.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 4",
+     "sku": "LAP-14-3",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "12-month support plan",
+     "note": "Ships in 3 weeks\nOn-site setup",
+     "indent": true
+    },
+    {
+     "text": "4",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 5,960.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 5",
+     "sku": "LAP-14-4",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "",
+     "note": "",
+     "indent": false
+    },
+    {
+     "text": "5",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 7,450.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 6",
+     "sku": "LAP-14-5",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "12-month support plan",
+     "note": "",
+     "indent": false
+    },
+    {
+     "text": "6",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 8,940.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 7",
+     "sku": "LAP-14-6",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "",
+     "note": "Ships in 3 weeks\nOn-site setup",
+     "indent": false
+    },
+    {
+     "text": "7",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 10,430.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 8",
+     "sku": "LAP-14-7",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "12-month support plan",
+     "note": "",
+     "indent": true
+    },
+    {
+     "text": "8",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 11,920.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 9",
+     "sku": "LAP-14-8",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "",
+     "note": "",
+     "indent": false
+    },
+    {
+     "text": "9",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 13,410.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 10",
+     "sku": "LAP-14-9",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "12-month support plan",
+     "note": "Ships in 3 weeks\nOn-site setup",
+     "indent": false
+    },
+    {
+     "text": "10",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 14,900.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 11",
+     "sku": "LAP-14-10",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "",
+     "note": "",
+     "indent": false
+    },
+    {
+     "text": "11",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 16,390.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 12",
+     "sku": "LAP-14-11",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "12-month support plan",
+     "note": "",
+     "indent": true
+    },
+    {
+     "text": "12",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 17,880.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 13",
+     "sku": "LAP-14-12",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "",
+     "note": "Ships in 3 weeks\nOn-site setup",
+     "indent": false
+    },
+    {
+     "text": "13",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 19,370.00",
+     "right": true,
+     "strong": false
+    }
+   ],
+   [
+    {
+     "title": "Business laptop 14-inch / line 14",
+     "sku": "LAP-14-13",
+     "sub": "16 GB RAM, 512 GB SSD",
+     "term": "12-month support plan",
+     "note": "",
+     "indent": false
+    },
+    {
+     "text": "14",
+     "right": true
+    },
+    {
+     "text": "USD 1,490.00",
+     "right": true
+    },
+    {
+     "text": "USD 20,860.00",
+     "right": true,
+     "strong": true
+    }
+   ]
+  ],
+  "totals": [
+   {
+    "kind": "",
+    "label": "Subtotal",
+    "value": "USD 156,450.00"
+   },
+   {
+    "kind": "tax",
+    "label": "VAT 20%",
+    "value": "USD 31,290.00"
+   },
+   {
+    "kind": "grand",
+    "label": "Total",
+    "value": "USD 187,740.00"
+   }
+  ],
+  "payments": [
+   {
+    "label": "Down payment 30%",
+    "amount": "USD 56,322.00"
+   }
+  ],
+  "sections": [
+   {
+    "title": "Terms",
+    "html": "<p>Payment <strong>30/60/10</strong>.</p><ol><li>Delivery 6 weeks</li></ol>"
+   },
+   {
+    "title": "Notes",
+    "text": "Plain text\nwith lines."
+   }
+  ],
+  "approvals": [
+   {
+    "step": "Sales manager",
+    "name": "Riley Chen",
+    "date": "18 Oct 2026"
+   },
+   {
+    "step": "Owner",
+    "name": "Alex Owner"
+   }
+  ],
+  "signatures": [
+   {
+    "role": "For Your Company Ltd",
+    "approval": {
+     "name": "Alex Owner",
+     "title": "Owner",
+     "date": "19 October 2026"
+    }
+   },
+   {
+    "role": "For the customer",
+    "anchor": "[[sig:customer]]",
+    "name": "Jordan Lee",
+    "title": "Director"
+   }
+  ],
+  "multi_signature": true,
+  "footer_note": "Prices exclude shipping."
+ },
+ "footer": {
+  "qr_data_uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAgElEQVR42rXWyQ2AMAxE0em/aZA4REHBwfb8uIB38C49cdGhEbA727B7gtaaEdhlaUV1hF2K1r77YNenlZkZ2HVo5Scddnu0qvsJdqt0MWtpul7oHN3qzQTdHac/2tgAW9pbWjFt79mAJk7DFw1ds4XmDvCbRn+GiabfnEPv06BvBVnTnVAjjh4AAAAASUVORK5CYII=",
+  "title": "QUOTATION QUO/2026/10/0009",
+  "line": "Verify at https://erp.example.com/v/AbC123",
+  "code": "Code: K7Q-2M9"
+ }
+}

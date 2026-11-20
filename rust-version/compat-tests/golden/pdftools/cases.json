@@ -1,0 +1,2060 @@
+{
+ "zoom": 1.5,
+ "cases": [
+  {
+   "name": "case0",
+   "input": "anchors.pdf",
+   "ops": [
+    {
+     "op": "insert_image",
+     "rect": [
+      88.59999999999994,
+      606.24,
+      172.8000000000001,
+      639.9200000000001
+     ],
+     "image": "sig.png",
+     "page": 1
+    },
+    {
+     "op": "draw_line",
+     "p1": [
+      47.6,
+      639.9200000000001
+     ],
+     "p2": [
+      213.8,
+      639.9200000000001
+     ],
+     "color": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "width": 0.3,
+     "page": 1
+    },
+    {
+     "op": "insert_textbox",
+     "rect": [
+      47.6,
+      640.4200000000001,
+      213.8,
+      673.6
+     ],
+     "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST",
+     "fontsize": 6.5,
+     "color": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fontname": "helv",
+     "align": 0,
+     "page": 1
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      215.8,
+      616.9200000000001,
+      261.8,
+      662.9200000000001
+     ],
+     "image": "qr.png",
+     "page": 1
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      374.19999999999993,
+      606.24,
+      458.4000000000001,
+      639.9200000000001
+     ],
+     "image": "sig.png",
+     "page": 1
+    },
+    {
+     "op": "draw_line",
+     "p1": [
+      333.20000000000005,
+      639.9200000000001
+     ],
+     "p2": [
+      499.4,
+      639.9200000000001
+     ],
+     "color": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "width": 0.3,
+     "page": 1
+    },
+    {
+     "op": "insert_textbox",
+     "rect": [
+      333.20000000000005,
+      640.4200000000001,
+      499.4,
+      673.6
+     ],
+     "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST",
+     "fontsize": 6.5,
+     "color": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fontname": "helv",
+     "align": 0,
+     "page": 1
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      501.4,
+      616.9200000000001,
+      547.4,
+      662.9200000000001
+     ],
+     "image": "qr.png",
+     "page": 1
+    }
+   ],
+   "results": [
+    null,
+    null,
+    0.41999999999995197,
+    null,
+    null,
+    null,
+    0.41999999999995197,
+    null
+   ],
+   "streams": {
+    "1": [
+     "\nq\nBT\n1 0 0 1 72 142 Tm\n/helv 5 Tf [<5b5b5349472d315d5d>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 320 142 Tm\n/helv 5 Tf [<5b5b5349472d325d5d>]TJ\nET\nQ\n",
+     "\nq\n84.19998 0 0 33.679993 88.600006 202.08002 cm\n/fzImg0 Do\nQ\n",
+     "\nq\n47.6 202.08002 m\n213.8 202.08002 l\n.3 w\n.75 .75 .75 RG S\nQ\n",
+     "\nq\nBT\n1 0 0 1 47.6 195.34 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<49443a2033663163326239652d386432612d346331312d396130652d356236663765386439633061>]TJ\n1 0 0 1 47.6 187.852 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<526561736f6e3a20417574686f72697a6564206279>]TJ\n1 0 0 1 47.6 180.364 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<3c7369676e657240746573742e6c6f63616c3e>]TJ\n1 0 0 1 47.6 172.876 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<4f63746f6265722031342c20323032362030333a323520504d204a5354>]TJ\nET\nQ\n",
+     "\nq\n45.999985 0 0 46 215.79999 179.08002 cm\n/fzImg1 Do\nQ\n",
+     "\nq\n84.19998 0 0 33.679993 374.2 202.08002 cm\n/fzImg2 Do\nQ\n",
+     "\nq\n333.2 202.08002 m\n499.4 202.08002 l\n.3 w\n.75 .75 .75 RG S\nQ\n",
+     "\nq\nBT\n1 0 0 1 333.2 195.34 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<49443a2033663163326239652d386432612d346331312d396130652d356236663765386439633061>]TJ\n1 0 0 1 333.2 187.852 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<526561736f6e3a20417574686f72697a6564206279>]TJ\n1 0 0 1 333.2 180.364 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<3c7369676e657240746573742e6c6f63616c3e>]TJ\n1 0 0 1 333.2 172.876 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<4f63746f6265722031342c20323032362030333a323520504d204a5354>]TJ\nET\nQ\n",
+     "\nq\n46.00003 0 0 46 501.40002 179.08002 cm\n/fzImg3 Do\nQ\n"
+    ]
+   },
+   "flat_text": [
+    "",
+    "[[SIG-1]]\n[[SIG-2]]\nID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST\nID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST\n"
+   ],
+   "renders": [
+    "case0_p0.png",
+    "case0_p1.png"
+   ]
+  },
+  {
+   "name": "case1",
+   "input": "text.pdf",
+   "ops": [
+    {
+     "op": "insert_image",
+     "rect": [
+      131.62500000000006,
+      505.20000000000005,
+      236.87499999999994,
+      547.3
+     ],
+     "image": "sig.png",
+     "page": 0
+    },
+    {
+     "op": "draw_line",
+     "p1": [
+      59.5,
+      547.3
+     ],
+     "p2": [
+      309.0,
+      547.3
+     ],
+     "color": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "width": 0.3,
+     "page": 0
+    },
+    {
+     "op": "insert_textbox",
+     "rect": [
+      59.5,
+      547.8,
+      309.0,
+      589.4
+     ],
+     "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST",
+     "fontsize": 6.5,
+     "color": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fontname": "helv",
+     "align": 0,
+     "page": 0
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      311.0,
+      524.3,
+      357.0,
+      570.3
+     ],
+     "image": "qr.png",
+     "page": 0
+    },
+    {
+     "op": "insert_textbox",
+     "page": 0,
+     "rect": [
+      59.5,
+      631.5,
+      238.0,
+      665.1800000000001
+     ],
+     "text": "Bob Sanders",
+     "fontsize": 10,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "align": 0
+    },
+    {
+     "op": "insert_textbox",
+     "page": 0,
+     "rect": [
+      267.75,
+      631.5,
+      327.25,
+      656.76
+     ],
+     "text": "X",
+     "fontsize": 12,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "align": 1
+    },
+    {
+     "op": "insert_image",
+     "page": 0,
+     "rect": [
+      393.625,
+      631.5,
+      498.875,
+      673.5999999999999
+     ],
+     "image": "sig.png"
+    },
+    {
+     "op": "insert_textbox",
+     "page": 1,
+     "rect": [
+      122.4,
+      158.4,
+      275.40000000000003,
+      198.0
+     ],
+     "text": "14/10/2026",
+     "fontsize": 10,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "align": 0
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      252.30000000000015,
+      712.8000000000002,
+      311.6999999999998,
+      736.56
+     ],
+     "image": "sig.png",
+     "page": 1
+    },
+    {
+     "op": "draw_line",
+     "p1": [
+      30.6,
+      736.56
+     ],
+     "p2": [
+      533.4,
+      736.56
+     ],
+     "color": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "width": 0.3,
+     "page": 1
+    },
+    {
+     "op": "insert_textbox",
+     "rect": [
+      30.6,
+      737.06,
+      533.4,
+      760.3199999999999
+     ],
+     "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST",
+     "fontsize": 4.927966101694902,
+     "color": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fontname": "helv",
+     "align": 0,
+     "page": 1
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      535.4,
+      713.56,
+      581.4,
+      759.56
+     ],
+     "image": "qr.png",
+     "page": 1
+    }
+   ],
+   "results": [
+    null,
+    null,
+    8.840000000000025,
+    null,
+    19.280000000000065,
+    7.979999999999993,
+    null,
+    25.199999999999996,
+    null,
+    null,
+    -1.5769491525423156,
+    null
+   ],
+   "streams": {
+    "0": [
+     "\nq\nBT\n1 0 0 1 72 770 Tm\n/hebo 14 Tf [<51756f746174696f6e2051554f2d323032362d30392d30303030372d31>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 742 Tm\n/helv 11 Tf [<436166e9206372e86d6520fc626572206e61ef766520b720b720312c3235302c303030>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 712 Tm\n/tiro 10 Tf [<4c696e65206f6e65>]TJ\n0 -13.339999 TD\n[<4c696e652074776f>]TJ\nT* [<4c696e652074687265652077697468202020737061636573>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 642 Tm\n/cour 9 Tf [<436f757269657220746578742030313233343536373839>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 612 Tm\n/helv 11 Tf [<57617272616e747920666f72207468652041636d652050686f6e65206973203234206d6f6e74687320696e636c7564696e672070617274732e>]TJ\nET\nQ\n      ",
+     "\nq\n105.24994 0 0 42.099976 131.62503 294.7 cm\n/fzImg0 Do\nQ\n",
+     "\nq\n59.5 294.7 m\n309 294.7 l\n.3 w\n.75 .75 .75 RG S\nQ\n",
+     "\nq\nBT\n1 0 0 1 59.5 287.96 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<49443a2033663163326239652d386432612d346331312d396130652d356236663765386439633061>]TJ\n1 0 0 1 59.5 280.472 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<526561736f6e3a20417574686f72697a6564206279>]TJ\n1 0 0 1 59.5 272.984 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<3c7369676e657240746573742e6c6f63616c3e>]TJ\n1 0 0 1 59.5 265.496 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<4f63746f6265722031342c20323032362030333a323520504d204a5354>]TJ\nET\nQ\n",
+     "\nq\n46 0 0 46 311 271.7 cm\n/fzImg1 Do\nQ\n",
+     "\nq\nBT\n1 0 0 1 59.5 200.9 Tm /helv 10 Tf 0 0 0 RG 0 0 0 rg [<426f622053616e64657273>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 293.498 198.98 Tm /helv 12 Tf 0 0 0 RG 0 0 0 rg [<58>]TJ\nET\nQ\n",
+     "\nq\n105.24994 0 0 42.099976 393.62503 168.40002 cm\n/fzImg2 Do\nQ\n"
+    ],
+    "1": [
+     "\nq\nBT\n1 0 0 1 50 742 Tm\n/helv 12 Tf [<5365636f6e6420706167652c206c65747465722073697a65>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 50 42 Tm\n/helv 8 Tf [<426f74746f6d205b5b5349472d315d5d20616e63686f72>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 122.4 624 Tm /helv 10 Tf 0 0 0 RG 0 0 0 rg [<31342f31302f32303236>]TJ\nET\nQ\n",
+     "\nq\n59.40001 0 0 23.760004 252.29999 55.440006 cm\n/fzImg0 Do\nQ\n",
+     "\nq\n30.6 55.44 m\n533.4 55.44 l\n.3 w\n.75 .75 .75 RG S\nQ\n",
+     "\nq\n46 0 0 46 535.4 32.440002 cm\n/fzImg1 Do\nQ\n"
+    ]
+   },
+   "flat_text": [
+    "Quotation QUO-2026-09-00007-1\nCafé crème über naïve · · 1,250,000\nLine one\nLine two\nLine three with   spaces\nCourier text 0123456789\nWarranty for the Acme Phone is 24 months including parts.\nID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST\nBob Sanders\nX\n",
+    "Second page, letter size\nBottom [[SIG-1]] anchor\n14/10/2026\n"
+   ],
+   "renders": [
+    "case1_p0.png",
+    "case1_p1.png"
+   ]
+  },
+  {
+   "name": "case2",
+   "input": "image.pdf",
+   "ops": [
+    {
+     "op": "insert_image",
+     "rect": [
+      121.09999999999995,
+      336.80000000000007,
+      247.40000000000003,
+      387.32000000000005
+     ],
+     "image": "sig.png",
+     "page": 0
+    },
+    {
+     "op": "draw_line",
+     "p1": [
+      89.25,
+      387.32000000000005
+     ],
+     "p2": [
+      279.25,
+      387.32000000000005
+     ],
+     "color": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "width": 0.3,
+     "page": 0
+    },
+    {
+     "op": "insert_textbox",
+     "rect": [
+      89.25,
+      387.82000000000005,
+      279.25,
+      437.84000000000003
+     ],
+     "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST",
+     "fontsize": 6.5,
+     "color": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fontname": "helv",
+     "align": 0,
+     "page": 0
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      281.25,
+      364.32000000000005,
+      327.25,
+      410.32000000000005
+     ],
+     "image": "qr.png",
+     "page": 0
+    },
+    {
+     "op": "insert_image",
+     "page": 0,
+     "rect": [
+      425.2,
+      42.099999999999994,
+      467.3,
+      210.5
+     ],
+     "image": "tall.png"
+    }
+   ],
+   "results": [
+    null,
+    null,
+    17.259999999999984,
+    null,
+    null
+   ],
+   "streams": {
+    "0": [
+     "\nq\n200 0 0 150 100 592 cm\n/fzImg0 Do\nQ\n",
+     "\nq\nBT\n1 0 0 1 100 562 Tm\n/helv 12 Tf [<496d6167652063617074696f6e>]TJ\nET\nQ\n",
+     "\nq\n126.299995 0 0 50.519997 121.100006 454.68 cm\n/fzImg1 Do\nQ\n",
+     "\nq\n89.25 454.68 m\n279.25 454.68 l\n.3 w\n.75 .75 .75 RG S\nQ\n",
+     "\nq\nBT\n1 0 0 1 89.25 447.94 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<49443a2033663163326239652d386432612d346331312d396130652d356236663765386439633061>]TJ\n1 0 0 1 89.25 440.452 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<526561736f6e3a20417574686f72697a6564206279>]TJ\n1 0 0 1 89.25 432.964 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<3c7369676e657240746573742e6c6f63616c3e>]TJ\n1 0 0 1 89.25 425.476 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<4f63746f6265722031342c20323032362030333a323520504d204a5354>]TJ\nET\nQ\n",
+     "\nq\n46 0 0 46 281.25 431.68 cm\n/fzImg2 Do\nQ\n",
+     "\nq\n42.099976 0 0 168.3999 425.2 631.50006 cm\n/fzImg3 Do\nQ\n"
+    ]
+   },
+   "flat_text": [
+    "Image caption\nID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST\n"
+   ],
+   "renders": [
+    "case2_p0.png"
+   ]
+  },
+  {
+   "name": "case3",
+   "input": "cropped.pdf",
+   "ops": [
+    {
+     "op": "insert_image",
+     "rect": [
+      137.07500000000002,
+      231.0,
+      233.32500000000002,
+      269.5
+     ],
+     "image": "sig.png",
+     "page": 0
+    },
+    {
+     "op": "draw_line",
+     "p1": [
+      104.60000000000001,
+      269.5
+     ],
+     "p2": [
+      265.8,
+      269.5
+     ],
+     "color": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "width": 0.3,
+     "page": 0
+    },
+    {
+     "op": "insert_textbox",
+     "rect": [
+      104.60000000000001,
+      270.0,
+      265.8,
+      308.0
+     ],
+     "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST",
+     "fontsize": 6.5,
+     "color": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fontname": "helv",
+     "align": 0,
+     "page": 0
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      267.8,
+      246.5,
+      313.8,
+      292.5
+     ],
+     "image": "qr.png",
+     "page": 0
+    },
+    {
+     "op": "insert_textbox",
+     "page": 0,
+     "rect": [
+      104.60000000000001,
+      385.0,
+      418.40000000000003,
+      408.1
+     ],
+     "text": "Cropped value é€",
+     "fontsize": 10,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "align": 0
+    }
+   ],
+   "results": [
+    null,
+    null,
+    5.240000000000002,
+    null,
+    8.700000000000022
+   ],
+   "streams": {
+    "0": [
+     "\nq\nBT\n1 0 0 1 72 722 Tm\n/helv 12 Tf [<43726f7070656420706167652074657874>]TJ\nET\nQ\n",
+     "\nq\n96.25 0 0 38.5 173.07501 536.5 cm\n/fzImg0 Do\nQ\n",
+     "\nq\n140.6 536.5 m\n301.8 536.5 l\n.3 w\n.75 .75 .75 RG S\nQ\n",
+     "\nq\nBT\n1 0 0 1 140.6 529.76 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<49443a2033663163326239652d386432612d346331312d396130652d356236663765386439633061>]TJ\n1 0 0 1 140.6 522.272 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<526561736f6e3a20417574686f72697a6564206279>]TJ\n1 0 0 1 140.6 514.784 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<3c7369676e657240746573742e6c6f63616c3e>]TJ\n1 0 0 1 140.6 507.296 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<4f63746f6265722031342c20323032362030333a323520504d204a5354>]TJ\nET\nQ\n",
+     "\nq\n46 0 0 46 303.8 513.5 cm\n/fzImg1 Do\nQ\n",
+     "\nq\nBT\n1 0 0 1 140.6 411.4 Tm /helv 10 Tf 0 0 0 RG 0 0 0 rg [<43726f707065642076616c756520e93f>]TJ\nET\nQ\n"
+    ]
+   },
+   "flat_text": [
+    "Cropped page text\nID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST\nCropped value é?\n"
+   ],
+   "renders": [
+    "case3_p0.png"
+   ]
+  },
+  {
+   "name": "case4",
+   "input": "unbalanced.pdf",
+   "ops": [
+    {
+     "op": "insert_image",
+     "rect": [
+      101.875,
+      84.19999999999999,
+      207.125,
+      126.30000000000001
+     ],
+     "image": "sig.png",
+     "page": 0
+    },
+    {
+     "op": "draw_line",
+     "p1": [
+      59.5,
+      126.30000000000001
+     ],
+     "p2": [
+      249.5,
+      126.30000000000001
+     ],
+     "color": [
+      0.75,
+      0.75,
+      0.75
+     ],
+     "width": 0.3,
+     "page": 0
+    },
+    {
+     "op": "insert_textbox",
+     "rect": [
+      59.5,
+      126.80000000000001,
+      249.5,
+      168.4
+     ],
+     "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST",
+     "fontsize": 6.5,
+     "color": [
+      0.2,
+      0.2,
+      0.2
+     ],
+     "fontname": "helv",
+     "align": 0,
+     "page": 0
+    },
+    {
+     "op": "insert_image",
+     "rect": [
+      251.5,
+      103.30000000000001,
+      297.5,
+      149.3
+     ],
+     "image": "qr.png",
+     "page": 0
+    }
+   ],
+   "results": [
+    null,
+    null,
+    8.839999999999996,
+    null
+   ],
+   "streams": {
+    "0": [
+     "\nq\nBT\n1 0 0 1 72 770 Tm\n/helv 12 Tf [<556e62616c616e636564>]TJ\nET\nQ\n\nq 1 0 0 1 10 10 cm\n",
+     "\nq\n105.24994 0 0 42.099976 101.87503 715.7 cm\n/fzImg0 Do\nQ\n",
+     "\nq\n59.5 715.7 m\n249.5 715.7 l\n.3 w\n.75 .75 .75 RG S\nQ\n",
+     "\nq\nBT\n1 0 0 1 59.5 708.96 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<49443a2033663163326239652d386432612d346331312d396130652d356236663765386439633061>]TJ\n1 0 0 1 59.5 701.472 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<526561736f6e3a20417574686f72697a6564206279>]TJ\n1 0 0 1 59.5 693.984 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<3c7369676e657240746573742e6c6f63616c3e>]TJ\n1 0 0 1 59.5 686.496 Tm /helv 6.5 Tf .2 .2 .2 RG .2 .2 .2 rg [<4f63746f6265722031342c20323032362030333a323520504d204a5354>]TJ\nET\nQ\n",
+     "\nq\n46 0 0 46 251.5 692.7 cm\n/fzImg1 Do\nQ\n"
+    ]
+   },
+   "flat_text": [
+    "Unbalanced\nID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a\nReason: Authorized by\n<signer@test.local>\nOctober 14, 2026 03:25 PM JST\n"
+   ],
+   "renders": [
+    "case4_p0.png"
+   ]
+  },
+  {
+   "name": "case5",
+   "input": "text.pdf",
+   "ops": [
+    {
+     "op": "insert_textbox",
+     "page": 0,
+     "rect": [
+      29.75,
+      42.1,
+      47.6,
+      50.519999999999996
+     ],
+     "text": "This text is far too long to fit in a tiny box at size ten",
+     "fontsize": 10,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "align": 0
+    },
+    {
+     "op": "insert_textbox",
+     "page": 0,
+     "rect": [
+      416.5,
+      715.6999999999999,
+      565.25,
+      799.9
+     ],
+     "text": "Centered and wrapped words that keep going on",
+     "fontsize": 10,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "align": 0
+    },
+    {
+     "op": "insert_textbox",
+     "page": 0,
+     "rect": [
+      416.5,
+      421.0,
+      565.25,
+      437.84000000000003
+     ],
+     "text": "X",
+     "fontsize": 12,
+     "color": [
+      0,
+      0,
+      0
+     ],
+     "align": 1
+    }
+   ],
+   "results": [
+    -173.98000000000002,
+    57.80000000000005,
+    -0.43999999999996575
+   ],
+   "streams": {
+    "0": [
+     "\nq\nBT\n1 0 0 1 72 770 Tm\n/hebo 14 Tf [<51756f746174696f6e2051554f2d323032362d30392d30303030372d31>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 742 Tm\n/helv 11 Tf [<436166e9206372e86d6520fc626572206e61ef766520b720b720312c3235302c303030>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 712 Tm\n/tiro 10 Tf [<4c696e65206f6e65>]TJ\n0 -13.339999 TD\n[<4c696e652074776f>]TJ\nT* [<4c696e652074687265652077697468202020737061636573>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 642 Tm\n/cour 9 Tf [<436f757269657220746578742030313233343536373839>]TJ\nET\nQ\n",
+     "\nq\nBT\n1 0 0 1 72 612 Tm\n/helv 11 Tf [<57617272616e747920666f72207468652041636d652050686f6e65206973203234206d6f6e74687320696e636c7564696e672070617274732e>]TJ\nET\nQ\n      ",
+     "\nq\nBT\n1 0 0 1 416.5 116.7 Tm /helv 10 Tf 0 0 0 RG 0 0 0 rg [<43656e746572656420616e64207772617070656420776f726473>]TJ\n1 0 0 1 416.5 105.18 Tm /helv 10 Tf 0 0 0 RG 0 0 0 rg [<74686174206b65657020676f696e67206f6e>]TJ\nET\nQ\n"
+    ]
+   },
+   "flat_text": [
+    "Quotation QUO-2026-09-00007-1\nCafé crème über naïve · · 1,250,000\nLine one\nLine two\nLine three with   spaces\nCourier text 0123456789\nWarranty for the Acme Phone is 24 months including parts.\nCentered and wrapped words\nthat keep going on\n",
+    "Second page, letter size\nBottom [[SIG-1]] anchor\n"
+   ],
+   "renders": [
+    "case5_p0.png",
+    "case5_p1.png"
+   ]
+  }
+ ],
+ "extraction": {
+  "anchors.pdf": {
+   "page_count": 2,
+   "rects": [
+    [
+     0.0,
+     0.0,
+     595.0,
+     842.0
+    ],
+    [
+     0.0,
+     0.0,
+     595.0,
+     842.0
+    ]
+   ],
+   "text": [
+    "",
+    "[[SIG-1]]\n[[SIG-2]]\n"
+   ],
+   "search": {
+    "[[SIG-1]]": [
+     [],
+     [
+      [
+       72.0,
+       694.6249997615814,
+       90.61999978065491,
+       701.494999974966
+      ]
+     ]
+    ],
+    "[[SIG-2]]": [
+     [],
+     [
+      [
+       320.0,
+       694.6249997615814,
+       338.6199997806549,
+       701.494999974966
+      ]
+     ]
+    ],
+    "sig-1": [
+     [],
+     [
+      [
+       74.77999997138977,
+       694.6249997615814,
+       87.83999982357025,
+       701.494999974966
+      ]
+     ]
+    ],
+    "Line two": [
+     [],
+     []
+    ],
+    "line   three": [
+     [],
+     []
+    ],
+    "Phone is 24": [
+     [],
+     []
+    ],
+    "café": [
+     [],
+     []
+    ],
+    "nothing here": [
+     [],
+     []
+    ],
+    "e": [
+     [],
+     []
+    ]
+   }
+  },
+  "text.pdf": {
+   "page_count": 2,
+   "rects": [
+    [
+     0.0,
+     0.0,
+     595.0,
+     842.0
+    ],
+    [
+     0.0,
+     0.0,
+     612.0,
+     792.0
+    ]
+   ],
+   "text": [
+    "Quotation QUO-2026-09-00007-1\nCafé crème über naïve · · 1,250,000\nLine one\nLine two\nLine three with   spaces\nCourier text 0123456789\nWarranty for the Acme Phone is 24 months including parts.\n",
+    "Second page, letter size\nBottom [[SIG-1]] anchor\n"
+   ],
+   "search": {
+    "[[SIG-1]]": [
+     [],
+     [
+      [
+       77.56799983978271,
+       741.3999996185303,
+       107.35999967956543,
+       752.3919999599457
+      ]
+     ]
+    ],
+    "[[SIG-2]]": [
+     [],
+     []
+    ],
+    "sig-1": [
+     [],
+     [
+      [
+       82.01599979400635,
+       741.3999996185303,
+       102.91199974822999,
+       752.3919999599457
+      ]
+     ]
+    ],
+    "Line two": [
+     [
+      [
+       72.0,
+       132.58999852316288,
+       107.83000040054321,
+       146.32999894993213
+      ]
+     ],
+     []
+    ],
+    "line   three": [
+     [
+      [
+       72.0,
+       145.92999772207645,
+       112.82000011444092,
+       159.6699981488457
+      ]
+     ],
+     []
+    ],
+    "Phone is 24": [
+     [
+      [
+       185.09100198745728,
+       218.17499947547913,
+       243.18200284576415,
+       233.2889999449253
+      ]
+     ],
+     []
+    ],
+    "café": [
+     [
+      [
+       72.0,
+       88.17499947547913,
+       95.23200017547607,
+       103.28899994492531
+      ]
+     ],
+     []
+    ],
+    "nothing here": [
+     [],
+     []
+    ],
+    "e": [
+     [
+      [
+       122.7320008277893,
+       88.17499947547913,
+       128.8480008277893,
+       103.28899994492531
+      ],
+      [
+       144.13800144195557,
+       88.17499947547913,
+       150.25400144195555,
+       103.28899994492531
+      ],
+      [
+       177.7650022506714,
+       88.17499947547913,
+       183.88100225067137,
+       103.28899994492531
+      ],
+      [
+       85.89000010490417,
+       119.24999952316284,
+       90.33000010490417,
+       132.9899999499321
+      ],
+      [
+       102.83000016212463,
+       119.24999952316284,
+       107.27000016212463,
+       132.9899999499321
+      ],
+      [
+       85.89000010490417,
+       132.58999852316288,
+       90.33000010490417,
+       146.32999894993213
+      ],
+      [
+       85.89000010490417,
+       145.92999772207645,
+       90.33000010490417,
+       159.6699981488457
+      ],
+      [
+       103.94000005722046,
+       145.92999772207645,
+       112.82000011444092,
+       159.6699981488457
+      ],
+      [
+       158.37000036239624,
+       145.92999772207645,
+       162.81000036239624,
+       159.6699981488457
+      ],
+      [
+       99.00000047683716,
+       190.32499957084656,
+       104.40000047683716,
+       202.6909999549389
+      ],
+      [
+       120.60000085830688,
+       190.32499957084656,
+       126.00000085830689,
+       202.6909999549389
+      ],
+      [
+       144.74300146102905,
+       218.17499947547913,
+       150.85900146102904,
+       233.2889999449253
+      ],
+      [
+       175.91700172424316,
+       218.17499947547913,
+       182.03300172424315,
+       233.2889999449253
+      ],
+      [
+       210.77600240707397,
+       218.17499947547913,
+       216.89200240707396,
+       233.2889999449253
+      ]
+     ],
+     [
+      [
+       58.00399971008301,
+       37.09999942779541,
+       64.675999710083,
+       53.58799993991852
+      ],
+      [
+       114.04399919509888,
+       37.09999942779541,
+       120.71599919509887,
+       53.58799993991852
+      ],
+      [
+       130.05199909210205,
+       37.09999942779541,
+       136.72399909210205,
+       53.58799993991852
+      ],
+      [
+       143.39599895477295,
+       37.09999942779541,
+       150.06799895477295,
+       53.58799993991852
+      ],
+      [
+       172.0639989376068,
+       37.09999942779541,
+       178.7359989376068,
+       53.58799993991852
+      ]
+     ]
+    ]
+   }
+  },
+  "image.pdf": {
+   "page_count": 1,
+   "rects": [
+    [
+     0.0,
+     0.0,
+     595.0,
+     842.0
+    ]
+   ],
+   "text": [
+    "Image caption\n"
+   ],
+   "search": {
+    "[[SIG-1]]": [
+     []
+    ],
+    "[[SIG-2]]": [
+     []
+    ],
+    "sig-1": [
+     []
+    ],
+    "Line two": [
+     []
+    ],
+    "line   three": [
+     []
+    ],
+    "Phone is 24": [
+     []
+    ],
+    "café": [
+     []
+    ],
+    "nothing here": [
+     []
+    ],
+    "e": [
+     [
+      [
+       126.67600011825562,
+       267.0999994277954,
+       133.3480001182556,
+       283.5879999399185
+      ]
+     ]
+    ]
+   }
+  },
+  "cropped.pdf": {
+   "page_count": 1,
+   "rects": [
+    [
+     0.0,
+     0.0,
+     523.0,
+     770.0
+    ]
+   ],
+   "text": [
+    "Cropped page text\n"
+   ],
+   "search": {
+    "[[SIG-1]]": [
+     []
+    ],
+    "[[SIG-2]]": [
+     []
+    ],
+    "sig-1": [
+     []
+    ],
+    "Line two": [
+     []
+    ],
+    "line   three": [
+     []
+    ],
+    "Phone is 24": [
+     []
+    ],
+    "café": [
+     []
+    ],
+    "nothing here": [
+     []
+    ],
+    "e": [
+     [
+      [
+       68.67599940299988,
+       71.09999942779541,
+       75.34799940299987,
+       87.58799993991852
+      ],
+      [
+       105.37199902534485,
+       71.09999942779541,
+       112.04399902534485,
+       87.58799993991852
+      ],
+      [
+       118.71599888801575,
+       71.09999942779541,
+       125.38799888801574,
+       87.58799993991852
+      ]
+     ]
+    ]
+   }
+  },
+  "unbalanced.pdf": {
+   "page_count": 1,
+   "rects": [
+    [
+     0.0,
+     0.0,
+     595.0,
+     842.0
+    ]
+   ],
+   "text": [
+    "Unbalanced\n"
+   ],
+   "search": {
+    "[[SIG-1]]": [
+     []
+    ],
+    "[[SIG-2]]": [
+     []
+    ],
+    "sig-1": [
+     []
+    ],
+    "Line two": [
+     []
+    ],
+    "line   three": [
+     []
+    ],
+    "Phone is 24": [
+     []
+    ],
+    "café": [
+     []
+    ],
+    "nothing here": [
+     []
+    ],
+    "e": [
+     [
+      [
+       122.68799924850464,
+       59.09999942779541,
+       129.35999924850464,
+       75.58799993991852
+      ]
+     ]
+    ]
+   }
+  }
+ },
+ "lengths": [
+  {
+   "text": "",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 0.0
+  },
+  {
+   "text": "",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 0.0
+  },
+  {
+   "text": "Hello",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 14.80699998140335
+  },
+  {
+   "text": "Hello",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 9.392193988204003
+  },
+  {
+   "text": "Hello",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 25.057999968528748
+  },
+  {
+   "text": "Hello",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 14.44300001859665
+  },
+  {
+   "text": "Hello",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 9.161306011795999
+  },
+  {
+   "text": "Hello",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 24.442000031471252
+  },
+  {
+   "text": "Hello",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 19.500000774860382
+  },
+  {
+   "text": "Hello",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 12.369000491499902
+  },
+  {
+   "text": "Hello",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 33.000001311302185
+  },
+  {
+   "text": "Hello",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 15.892499953508377
+  },
+  {
+   "text": "Hello",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 10.080734970510006
+  },
+  {
+   "text": "Hello",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 26.89499992132187
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 129.71399903297424
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 82.27858738660812
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 219.51599836349487
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 117.5005005300045
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 74.53147133618593
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 198.8470008969307
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 156.00000619888306
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 98.95200393199922
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 264.0000104904175
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 133.3084992468357
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 84.5586065222621
+  },
+  {
+   "text": "ID: 3f1c2b9e-8d2a-4c11-9a0e-5b6f7e8d9c0a",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 225.59899872541428
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 57.53799960017204
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 36.496795746386056
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 97.37199932336807
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 52.49400022625923
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 33.29734814351797
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 88.83600038290024
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 74.10000294446945
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 47.002201867699625
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 125.4000049829483
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 61.61349982023239
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 39.08191688597203
+  },
+  {
+   "text": "<signer@test.local>",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 104.2689996957779
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 93.2164993584156
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 59.127942593038085
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 157.7509989142418
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 84.5
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 53.599000000000004
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 143.0
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 113.10000449419022
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 71.74020285069943
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 191.40000760555267
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 95.7384994328022
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 60.727666640222076
+  },
+  {
+   "text": "October 14, 2026 03:25 PM JST",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 162.0189990401268
+  },
+  {
+   "text": "Café crème",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 26.37049987912178
+  },
+  {
+   "text": "Café crème",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 16.727010923326016
+  },
+  {
+   "text": "Café crème",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 44.62699979543686
+  },
+  {
+   "text": "Café crème",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 23.094500213861465
+  },
+  {
+   "text": "Café crème",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 14.649019135653974
+  },
+  {
+   "text": "Café crème",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 39.0830003619194
+  },
+  {
+   "text": "Café crème",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 31.20000123977661
+  },
+  {
+   "text": "Café crème",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 19.790400786399843
+  },
+  {
+   "text": "Café crème",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 52.800002098083496
+  },
+  {
+   "text": "Café crème",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 27.455999851226807
+  },
+  {
+   "text": "Café crème",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 17.41555190563202
+  },
+  {
+   "text": "Café crème",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 46.46399974822998
+  },
+  {
+   "text": "€ 100",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 9.034999907016754
+  },
+  {
+   "text": "€ 100",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 5.730969941020012
+  },
+  {
+   "text": "€ 100",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 15.289999842643738
+  },
+  {
+   "text": "€ 100",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 8.125
+  },
+  {
+   "text": "€ 100",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 5.1537500000000005
+  },
+  {
+   "text": "€ 100",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 13.75
+  },
+  {
+   "text": "€ 100",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 11.70000046491623
+  },
+  {
+   "text": "€ 100",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 7.421400294899941
+  },
+  {
+   "text": "€ 100",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 19.80000078678131
+  },
+  {
+   "text": "€ 100",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 9.034999907016754
+  },
+  {
+   "text": "€ 100",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 5.730969941020012
+  },
+  {
+   "text": "€ 100",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 15.289999842643738
+  },
+  {
+   "text": "—dash",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 8.670999944210052
+  },
+  {
+   "text": "—dash",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 5.500081964612008
+  },
+  {
+   "text": "—dash",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 14.673999905586243
+  },
+  {
+   "text": "—dash",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 7.403499990701675
+  },
+  {
+   "text": "—dash",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 4.696096994102001
+  },
+  {
+   "text": "—dash",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 12.528999984264374
+  },
+  {
+   "text": "—dash",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 11.70000046491623
+  },
+  {
+   "text": "—dash",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 7.421400294899941
+  },
+  {
+   "text": "—dash",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 19.80000078678131
+  },
+  {
+   "text": "—dash",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 9.392499953508377
+  },
+  {
+   "text": "—dash",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 5.957734970510006
+  },
+  {
+   "text": "—dash",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 15.894999921321869
+  },
+  {
+   "text": "naïve x",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 17.705999851226807
+  },
+  {
+   "text": "naïve x",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 11.23105190563202
+  },
+  {
+   "text": "naïve x",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 29.96399974822998
+  },
+  {
+   "text": "naïve x",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 15.704000055789948
+  },
+  {
+   "text": "naïve x",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 9.961168035387994
+  },
+  {
+   "text": "naïve x",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 26.576000094413757
+  },
+  {
+   "text": "naïve x",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 23.40000092983246
+  },
+  {
+   "text": "naïve x",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 14.842800589799882
+  },
+  {
+   "text": "naïve x",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 39.60000157356262
+  },
+  {
+   "text": "naïve x",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 18.42749986052513
+  },
+  {
+   "text": "naïve x",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 11.688704911530019
+  },
+  {
+   "text": "naïve x",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 31.184999763965607
+  },
+  {
+   "text": "中文 text",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 12.284999907016754
+  },
+  {
+   "text": "中文 text",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 7.792469941020013
+  },
+  {
+   "text": "中文 text",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 20.789999842643738
+  },
+  {
+   "text": "中文 text",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 11.375
+  },
+  {
+   "text": "中文 text",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 7.21525
+  },
+  {
+   "text": "中文 text",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 19.25
+  },
+  {
+   "text": "中文 text",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 19.500000774860382
+  },
+  {
+   "text": "中文 text",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 12.369000491499902
+  },
+  {
+   "text": "中文 text",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 33.000001311302185
+  },
+  {
+   "text": "中文 text",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 13.363999962806702
+  },
+  {
+   "text": "中文 text",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 8.476887976408005
+  },
+  {
+   "text": "中文 text",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 22.615999937057495
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "helv",
+   "fontsize": 6.5,
+   "length": 47.332999646663666
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "helv",
+   "fontsize": 4.123,
+   "length": 30.023685775876046
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "helv",
+   "fontsize": 11,
+   "length": 80.1019994020462
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "tiro",
+   "fontsize": 6.5,
+   "length": 40.07250013947487
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "tiro",
+   "fontsize": 4.123,
+   "length": 25.418295088469982
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "tiro",
+   "fontsize": 11,
+   "length": 67.8150002360344
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "cour",
+   "fontsize": 6.5,
+   "length": 58.500002324581146
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "cour",
+   "fontsize": 4.123,
+   "length": 37.107001474499704
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "cour",
+   "fontsize": 11,
+   "length": 99.00000393390656
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "hebo",
+   "fontsize": 6.5,
+   "length": 50.57649973034859
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "hebo",
+   "fontsize": 4.123,
+   "length": 32.08106282895804
+  },
+  {
+   "text": "tabs\tand spaces",
+   "fontname": "hebo",
+   "fontsize": 11,
+   "length": 85.59099954366684
+  }
+ ],
+ "subsets": [
+  {
+   "first": 0,
+   "last": 0,
+   "page_count": 1,
+   "text": [
+    "Quotation QUO-2026-09-00007-1\nCafé crème über naïve · · 1,250,000\nLine one\nLine two\nLine three with   spaces\nCourier text 0123456789\nWarranty for the Acme Phone is 24 months including parts.\n"
+   ]
+  },
+  {
+   "first": 1,
+   "last": 1,
+   "page_count": 1,
+   "text": [
+    "Second page, letter size\nBottom [[SIG-1]] anchor\n"
+   ]
+  },
+  {
+   "first": 0,
+   "last": 1,
+   "page_count": 2,
+   "text": [
+    "Quotation QUO-2026-09-00007-1\nCafé crème über naïve · · 1,250,000\nLine one\nLine two\nLine three with   spaces\nCourier text 0123456789\nWarranty for the Acme Phone is 24 months including parts.\n",
+    "Second page, letter size\nBottom [[SIG-1]] anchor\n"
+   ]
+  }
+ ],
+ "open_errors": {
+  "garbage": "Failed to open stream",
+  "empty": "Cannot open empty stream.",
+  "pdf_header_only": "Failed to open stream"
+ },
+ "pymupdf": "1.24.14",
+ "mupdf": "1.24.11"
+}

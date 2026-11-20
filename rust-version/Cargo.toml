@@ -1,0 +1,60 @@
+[workspace]
+resolver = "2"
+members = ["crates/compat", "crates/core", "crates/db", "crates/services", "crates/api", "crates/worker", "services/pdf", "services/signal", "services/research", "services/face"]
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+publish = false
+license = "MIT OR Apache-2.0"
+
+[workspace.dependencies]
+tokio = { version = "1", features = ["full"] }
+axum = { version = "0.8", features = ["macros", "ws", "multipart"] }
+tower = "0.5"
+tower-http = { version = "0.6", features = ["cors", "trace"] }
+sqlx = { version = "0.8", default-features = false, features = ["runtime-tokio", "tls-rustls", "postgres", "uuid", "chrono", "json", "rust_decimal", "macros", "migrate"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order", "arbitrary_precision"] }
+rust_decimal = { version = "1", features = ["serde-with-str", "maths"] }
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = "0.10"
+uuid = { version = "1", features = ["v4", "serde"] }
+thiserror = "2"
+anyhow = "1"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
+sha2 = "0.10"
+sha1 = "0.10"
+hmac = "0.12"
+base64 = "0.22"
+rand = "0.8"
+hex = "0.4"
+jsonwebtoken = "9"
+bcrypt = "0.15"
+fernet = "0.2"
+redis = { version = "0.27", features = ["tokio-comp", "connection-manager"] }
+reqwest = { version = "0.12", default-features = false, features = ["json", "rustls-tls", "multipart", "stream"] }
+fancy-regex = "0.14"
+regex = "1"
+once_cell = "1"
+
+granary-compat = { path = "crates/compat" }
+granary-core = { path = "crates/core" }
+granary-db = { path = "crates/db" }
+granary-services = { path = "crates/services" }
+
+[profile.dev]
+# Line tables only: file/line in backtraces, no variable info. Keeps target/ small (disk is the bottleneck).
+debug = "line-tables-only"
+
+[profile.dev.package."*"]
+# Third-party crates need no debug info at all.
+debug = false
+
+[profile.test]
+debug = "line-tables-only"
+
+# NUMERIC zero keeps its scale (vendor/README.md).
+[patch.crates-io]
+sqlx-postgres = { path = "vendor/sqlx-postgres" }

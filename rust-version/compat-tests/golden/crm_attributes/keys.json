@@ -1,0 +1,70 @@
+[
+ {
+  "key": "abc",
+  "ok": "abc"
+ },
+ {
+  "key": "a",
+  "ok": "a"
+ },
+ {
+  "key": "a_1",
+  "ok": "a_1"
+ },
+ {
+  "key": "A",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "1a",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "_a",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "a-b",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "ok": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+ },
+ {
+  "key": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "abc\n",
+  "ok": "abc\n"
+ },
+ {
+  "key": "abc\n\n",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "ab c",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "é",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "a١",
+  "err": "key must be lowercase letters, digits and underscores, starting with a letter"
+ },
+ {
+  "key": "tier_x1",
+  "ok": "tier_x1"
+ },
+ {
+  "key": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n",
+  "ok": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n"
+ }
+]

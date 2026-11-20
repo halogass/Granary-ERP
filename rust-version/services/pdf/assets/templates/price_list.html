@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!-- doclib A2: the internal price list (data built by granary_services::doc_library::price_list). -->
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;max-width:800px;margin:0 auto;padding:0 32px 40px;color:#1a1a1a;line-height:1.5;font-size:12px}
+img.letterhead{width:100%;display:block;margin-bottom:0}
+.letterhead-divider{border-top:2px solid #1f4e79;margin-bottom:22px}
+.head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:18px;padding-bottom:12px;border-bottom:1px solid #e5e7eb}
+.title{font-size:24px;font-weight:900;color:#1f4e79;letter-spacing:0.5px}
+.company{font-size:11px;color:#555;margin-top:4px}
+.company .name{font-size:13px;font-weight:700;color:#111}
+.meta{text-align:right;font-size:11px;color:#555}
+.internal{display:inline-block;border:1.5px solid #1f4e79;color:#1f4e79;border-radius:4px;padding:2px 10px;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:6px}
+.currency{font-size:16px;font-weight:800;color:#111;margin:22px 0 6px;padding-bottom:4px;border-bottom:2px solid #111;page-break-after:avoid;break-after:avoid}
+.family{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#6b7280;margin:14px 0 4px;page-break-after:avoid;break-after:avoid}
+table{width:100%;border-collapse:collapse;margin-bottom:6px;table-layout:fixed}
+col.c-product{width:52%}col.c-terms{width:28%}col.c-price{width:20%}
+td{overflow-wrap:anywhere}
+thead th{background:#f3f4f6;padding:6px 10px;text-align:left;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:0.5px;color:#374151;border-bottom:2px solid #e5e7eb}
+thead th.right{text-align:right}
+tbody td{padding:7px 10px;border-bottom:1px solid #f3f4f6;vertical-align:top}
+tbody tr{page-break-inside:avoid;break-inside:avoid}
+td.price{text-align:right;font-family:'Courier New',monospace;font-weight:700}
+.sku{font-size:10px;color:#9ca3af;font-family:'Courier New',monospace}
+.name{font-weight:600;color:#111}
+.sub{color:#555;font-size:11px}
+.note{color:#777;font-size:10px;white-space:pre-line;margin-top:2px}
+.foot{margin-top:28px;padding-top:10px;border-top:1px solid #e5e7eb;font-size:10px;color:#9ca3af;text-align:center}
+</style>
+</head>
+<body>
+{{#if company.letterhead_url}}
+<img class="letterhead" src="{{company.letterhead_url}}" alt="Company letterhead" /><div class="letterhead-divider"></div>
+{{/if}}
+<div class="head">
+  <div>
+    <div class="title">{{title}}</div>
+    <div class="company">
+      <div class="name">{{company.trade_name}}</div>
+      {{#if company.legal_name}}<div>{{company.legal_name}}</div>{{/if}}
+      {{#if company.address}}<div>{{company.address}}</div>{{/if}}
+      {{#if company.website}}<div>{{company.email}} {{company.website}}</div>{{/if}}
+    </div>
+  </div>
+  <div class="meta">
+    <div class="internal">{{internal_mark}}</div>
+    <div>Generated {{generated_on}}</div>
+    <div>List prices valid on {{effective_date}}</div>
+  </div>
+</div>
+{{#each sections}}
+<div class="currency">Prices in {{currency}}</div>
+{{#each families}}
+<div class="family">{{family}}</div>
+<table>
+  <colgroup><col class="c-product"><col class="c-terms"><col class="c-price"></colgroup>
+  <thead><tr><th>Product</th><th>Terms</th><th class="right">List price</th></tr></thead>
+  <tbody>
+    {{#each items}}
+    <tr>
+      <td><div class="name">{{name}}</div><div class="sku">{{sku}}</div>{{#if description}}<div class="sub">{{description}}</div>{{/if}}{{#if note}}<div class="note">{{note}}</div>{{/if}}</td>
+      <td class="sub">{{terms}}</td>
+      <td class="price">{{price}}</td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+{{/each}}
+{{/each}}
+<div class="foot">Internal: list prices before discounts and taxes, generated from the ERP catalog. Do not send to customers.</div>
+</body>
+</html>

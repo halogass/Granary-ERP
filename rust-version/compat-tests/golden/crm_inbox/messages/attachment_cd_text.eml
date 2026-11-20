@@ -1,0 +1,16 @@
+Content-Type: multipart/mixed; boundary=B
+
+--B
+Content-Type: text/plain
+Content-Disposition: attachment
+
+not the body
+--B
+Content-Type: text/plain
+
+the body
+--B
+Content-Type: text/plain; name="n.txt"
+
+named
+--B--

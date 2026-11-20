@@ -1,0 +1,474 @@
+[
+ {
+  "payload": {
+   "chatId": "818123456789@c.us"
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "818123456789@c.us",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "818123456789@c.us",
+   "isGroup": false
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "818123456789@c.us",
+   "isGroup": 0
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "818123456789@c.us",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "818123456789@c.us",
+   "isGroup": ""
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "818123456789@c.us",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "12036304@g.us"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "12036304@g.us",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "12036304@g.us",
+   "isGroup": false
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "12036304@g.us",
+   "isGroup": 0
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "12036304@g.us",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "12036304@g.us",
+   "isGroup": ""
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "12036304@g.us",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@broadcast"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@broadcast",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@broadcast",
+   "isGroup": false
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@broadcast",
+   "isGroup": 0
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@broadcast",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@broadcast",
+   "isGroup": ""
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@broadcast",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "1203@newsletter"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "1203@newsletter",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "1203@newsletter",
+   "isGroup": false
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "1203@newsletter",
+   "isGroup": 0
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "1203@newsletter",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "1203@newsletter",
+   "isGroup": ""
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "1203@newsletter",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "123@lid"
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "123@lid",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "123@lid",
+   "isGroup": false
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "123@lid",
+   "isGroup": 0
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "123@lid",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "123@lid",
+   "isGroup": ""
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "123@lid",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": ""
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "",
+   "isGroup": false
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "",
+   "isGroup": 0
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "",
+   "isGroup": ""
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {},
+  "is_group": false
+ },
+ {
+  "payload": {
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "isGroup": false
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "isGroup": 0
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "isGroup": ""
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": 628123
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": 628123,
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": 628123,
+   "isGroup": false
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": 628123,
+   "isGroup": 0
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": 628123,
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": 628123,
+   "isGroup": ""
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": 628123,
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@c.us"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@c.us",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@c.us",
+   "isGroup": false
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@c.us",
+   "isGroup": 0
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@c.us",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@c.us",
+   "isGroup": ""
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "status@c.us",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "x@broadcast.foo"
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "x@broadcast.foo",
+   "isGroup": true
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "x@broadcast.foo",
+   "isGroup": false
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "x@broadcast.foo",
+   "isGroup": 0
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "x@broadcast.foo",
+   "isGroup": 1
+  },
+  "is_group": true
+ },
+ {
+  "payload": {
+   "chatId": "x@broadcast.foo",
+   "isGroup": ""
+  },
+  "is_group": false
+ },
+ {
+  "payload": {
+   "chatId": "x@broadcast.foo",
+   "isGroup": "yes"
+  },
+  "is_group": true
+ }
+]

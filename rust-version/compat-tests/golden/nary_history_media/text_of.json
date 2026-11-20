@@ -1,0 +1,1022 @@
+[
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "chat",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": true
+  },
+  "text": "Hello mr\n[chat description] A laptop on a desk\n[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": null,
+   "type": "chat",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": false
+  },
+  "text": "[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "location",
+   "location": null,
+   "has_media": false
+  },
+  "text": "[location description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": null,
+   "media_description": null,
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "Hello mr\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "location",
+   "location": null,
+   "has_media": true
+  },
+  "text": "[location description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "ptt",
+   "location": null,
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "",
+   "type": "location",
+   "location": {},
+   "has_media": false
+  },
+  "text": "multi\nline"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": null,
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "",
+   "media_description": null,
+   "type": "location",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": "",
+   "media_description": null,
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "Hello mr\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": "",
+   "media_description": "A laptop on a desk",
+   "type": "image",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": true
+  },
+  "text": "Hello mr\n[image description] A laptop on a desk\n[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "",
+   "media_description": null,
+   "type": "image",
+   "location": null,
+   "has_media": false
+  },
+  "text": ""
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "hello, I have a question",
+   "media_description": null,
+   "type": "ptt",
+   "location": {},
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "",
+   "type": "image",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "hello, I have a question",
+   "media_description": "A laptop on a desk",
+   "type": "image",
+   "location": null,
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question\n[image description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": null,
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "",
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "multi\nline\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "",
+   "media_description": "",
+   "type": "chat",
+   "location": {},
+   "has_media": false
+  },
+  "text": "multi\nline"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "",
+   "media_description": null,
+   "type": "image",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": false
+  },
+  "text": "[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "hello, I have a question",
+   "media_description": null,
+   "type": "image",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": false
+  },
+  "text": "[voice note] hello, I have a question\n[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "",
+   "media_description": "A laptop on a desk",
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "[image description] A laptop on a desk\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": null,
+   "media_description": null,
+   "type": "image",
+   "location": {},
+   "has_media": true
+  },
+  "text": "[image, not readable]"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": null,
+   "type": "location",
+   "location": {},
+   "has_media": true
+  },
+  "text": "multi\nline"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "hello, I have a question",
+   "media_description": "A laptop on a desk",
+   "type": "location",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question\n[location description] A laptop on a desk\n[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": null,
+   "type": "ptt",
+   "location": {},
+   "has_media": false
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "",
+   "media_description": "",
+   "type": "image",
+   "location": {},
+   "has_media": false
+  },
+  "text": "multi\nline"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": "",
+   "media_description": null,
+   "type": "document",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "Hello mr\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "Hello mr\n[voice note] hello, I have a question\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "location",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": false
+  },
+  "text": "[voice note] hello, I have a question\n[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": null,
+   "type": "location",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": true
+  },
+  "text": "[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": "",
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "",
+   "media_description": "A laptop on a desk",
+   "type": "chat",
+   "location": null,
+   "has_media": true
+  },
+  "text": "multi\nline\n[chat description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": null,
+   "type": "location",
+   "location": null,
+   "has_media": true
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "",
+   "type": "document",
+   "location": null,
+   "has_media": false
+  },
+  "text": "multi\nline"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": null,
+   "media_description": "",
+   "type": "ptt",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": true
+  },
+  "text": "[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[image description] A laptop on a desk\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": "",
+   "media_description": "A laptop on a desk",
+   "type": "chat",
+   "location": {},
+   "has_media": true
+  },
+  "text": "Hello mr\n[chat description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": null,
+   "type": "image",
+   "location": {},
+   "has_media": true
+  },
+  "text": "[image, not readable]"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": null,
+   "type": "document",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": null,
+   "media_description": "",
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": null,
+   "type": "image",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": null,
+   "media_description": null,
+   "type": "ptt",
+   "location": null,
+   "has_media": true
+  },
+  "text": "Hello mr"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "ptt",
+   "location": null,
+   "has_media": false
+  },
+  "text": "multi\nline\n[ptt description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "",
+   "media_description": "",
+   "type": "ptt",
+   "location": null,
+   "has_media": true
+  },
+  "text": "multi\nline"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "",
+   "media_description": "",
+   "type": "chat",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": "",
+   "type": "location",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": false
+  },
+  "text": "[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": "",
+   "type": "chat",
+   "location": null,
+   "has_media": false
+  },
+  "text": ""
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": "",
+   "type": "location",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": true
+  },
+  "text": "[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": "A laptop on a desk",
+   "type": "ptt",
+   "location": {},
+   "has_media": false
+  },
+  "text": "[ptt description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "hello, I have a question",
+   "media_description": null,
+   "type": "location",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question\n[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": "",
+   "type": "chat",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "[voice note] hello, I have a question\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "",
+   "type": "location",
+   "location": {},
+   "has_media": false
+  },
+  "text": "multi\nline"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "",
+   "media_description": "",
+   "type": "location",
+   "location": {},
+   "has_media": false
+  },
+  "text": ""
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "location",
+   "location": null,
+   "has_media": false
+  },
+  "text": "multi\nline\n[location description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": null,
+   "media_description": null,
+   "type": "image",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": false
+  },
+  "text": "[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "hello, I have a question",
+   "media_description": "A laptop on a desk",
+   "type": "image",
+   "location": null,
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question\n[image description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "document",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[document description] A laptop on a desk\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": null,
+   "type": "chat",
+   "location": null,
+   "has_media": false
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "chat",
+   "location": {},
+   "has_media": false
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question"
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": "hello, I have a question",
+   "media_description": "A laptop on a desk",
+   "type": "ptt",
+   "location": {},
+   "has_media": false
+  },
+  "text": "[voice note] hello, I have a question\n[ptt description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": "",
+   "type": "ptt",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": true
+  },
+  "text": "[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "location",
+   "location": null,
+   "has_media": true
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "hello, I have a question",
+   "media_description": "A laptop on a desk",
+   "type": "document",
+   "location": null,
+   "has_media": true
+  },
+  "text": "[voice note] hello, I have a question\n[document description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "",
+   "media_description": "A laptop on a desk",
+   "type": "ptt",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": true
+  },
+  "text": "[ptt description] A laptop on a desk\n[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": "",
+   "type": "chat",
+   "location": null,
+   "has_media": false
+  },
+  "text": ""
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": null,
+   "media_description": null,
+   "type": "chat",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "Hello mr\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "ptt",
+   "location": {},
+   "has_media": false
+  },
+  "text": "multi\nline\n[ptt description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": "",
+   "media_description": null,
+   "type": "ptt",
+   "location": {},
+   "has_media": false
+  },
+  "text": "Hello mr"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": null,
+   "media_description": null,
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": "A laptop on a desk",
+   "type": "document",
+   "location": null,
+   "has_media": false
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question\n[document description] A laptop on a desk"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "document",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": false
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": null,
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": null,
+   "media_description": "",
+   "type": "location",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": false
+  },
+  "text": "Hello mr\n[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": null,
+   "media_description": null,
+   "type": "ptt",
+   "location": null,
+   "has_media": false
+  },
+  "text": ""
+ },
+ {
+  "msg": {
+   "body": null,
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "image",
+   "location": {
+    "description": "Harbor",
+    "latitude": 1,
+    "longitude": 2.5
+   },
+   "has_media": true
+  },
+  "text": "[image description] A laptop on a desk\n[location pin] Harbor (1, 2.5)"
+ },
+ {
+  "msg": {
+   "body": "multi\nline",
+   "transcript": "hello, I have a question",
+   "media_description": "",
+   "type": "ptt",
+   "location": {
+    "description": null,
+    "latitude": null
+   },
+   "has_media": true
+  },
+  "text": "multi\nline\n[voice note] hello, I have a question\n[location pin]  (None, None)"
+ },
+ {
+  "msg": {
+   "body": "",
+   "transcript": "",
+   "media_description": null,
+   "type": "chat",
+   "location": {
+    "latitude": 35.6,
+    "longitude": 139.7671
+   },
+   "has_media": true
+  },
+  "text": "[location pin]  (35.6, 139.7671)"
+ },
+ {
+  "msg": {
+   "body": "Hello mr",
+   "transcript": null,
+   "media_description": "A laptop on a desk",
+   "type": "ptt",
+   "location": {},
+   "has_media": false
+  },
+  "text": "Hello mr\n[ptt description] A laptop on a desk"
+ }
+]

@@ -1,0 +1,6002 @@
+[
+ {
+  "text": "[Name]\nRegards,\nYours faithfully,",
+  "closing": false,
+  "out": "[Name]\nRegards,\nYours faithfully,"
+ },
+ {
+  "text": "[Name]\nRegards,\nYours faithfully,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\r\n\u001c\r\nNary,Acme Ltd\r\r\nWe look forward to your reply.\r\nNary Acme Ltd\r\nNary,Acme Ltd\r\n\n ",
+  "closing": false,
+  "out": "Sincerely,\r\n\u001c\r\nNary,Acme Ltd\r\r\nWe look forward to your reply.\r\nNary Acme Ltd"
+ },
+ {
+  "text": "Sincerely,\r\n\u001c\r\nNary,Acme Ltd\r\r\nWe look forward to your reply.\r\nNary Acme Ltd\r\nNary,Acme Ltd\r\n\n ",
+  "closing": true,
+  "out": "Sincerely,\r\n\u001c\r\nNary,Acme Ltd\r\r\nWe look forward to your reply.\r\nNary Acme Ltd"
+ },
+ {
+  "text": "Yours faithfully\nRegards,\r\nThank you.\n",
+  "closing": false,
+  "out": "Yours faithfully\nRegards,\r\nThank you."
+ },
+ {
+  "text": "Yours faithfully\nRegards,\r\nThank you.\n",
+  "closing": true,
+  "out": "Yours faithfully\nRegards,\r\nThank you."
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\n",
+  "closing": false,
+  "out": "Warmest regards"
+ },
+ {
+  "text": "Warmest regards\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm  regards\nSincerely,\nacme ltd \n",
+  "closing": false,
+  "out": "Warm  regards\nSincerely,"
+ },
+ {
+  "text": "Warm  regards\nSincerely,\nacme ltd \n",
+  "closing": true,
+  "out": "Warm  regards"
+ },
+ {
+  "text": "Cheers!\n\nAcme Ltd\n\nHello Mr John,\n\nNary,Acme Ltd\r\n\nWarm  regards\n\nNary\r\n\nRegards,",
+  "closing": false,
+  "out": "Cheers!\n\nAcme Ltd\n\nHello Mr John,\n\nNary,Acme Ltd\r\n\nWarm  regards\n\nNary\r\n\nRegards,"
+ },
+ {
+  "text": "Cheers!\n\nAcme Ltd\n\nHello Mr John,\n\nNary,Acme Ltd\r\n\nWarm  regards\n\nNary\r\n\nRegards,",
+  "closing": true,
+  "out": "Cheers!\n\nAcme Ltd\n\nHello Mr John,\n\nNary,Acme Ltd\r\n\nWarm  regards"
+ },
+ {
+  "text": "line\twith tab\n",
+  "closing": false,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "line\twith tab\n",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\nWarm regards,\n \nacme ltd \nNary\u001c\n—\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": false,
+  "out": "\nWarm regards,\n \nacme ltd \nNary\u001c\n—\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "\nWarm regards,\n \nacme ltd \nNary\u001c\n—\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": true,
+  "out": "\nWarm regards,\n \nacme ltd \nNary\u001c\n—\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\nNary - acme ltd  ",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\nNary - acme ltd  ",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "— Nary\n\nBest\n\nWarm  regards\n\nWe look forward to your reply.\n\nWarm regards,",
+  "closing": false,
+  "out": "— Nary\n\nBest\n\nWarm  regards\n\nWe look forward to your reply.\n\nWarm regards,"
+ },
+ {
+  "text": "— Nary\n\nBest\n\nWarm  regards\n\nWe look forward to your reply.\n\nWarm regards,",
+  "closing": true,
+  "out": "— Nary\n\nBest\n\nWarm  regards\n\nWe look forward to your reply."
+ },
+ {
+  "text": "[name]\n\n  \n\nline\twith tab\n\nNary\u001c\n",
+  "closing": false,
+  "out": "[name]\n\n  \n\nline\twith tab"
+ },
+ {
+  "text": "[name]\n\n  \n\nline\twith tab\n\nNary\u001c\n",
+  "closing": true,
+  "out": "[name]\n\n  \n\nline\twith tab"
+ },
+ {
+  "text": "Yours faithfully,\n\nNary Acme Ltd\n\nWe look forward to your reply.\n\n ",
+  "closing": false,
+  "out": "Yours faithfully,\n\nNary Acme Ltd\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Yours faithfully,\n\nNary Acme Ltd\n\nWe look forward to your reply.\n\n ",
+  "closing": true,
+  "out": "Yours faithfully,\n\nNary Acme Ltd\n\nWe look forward to your reply."
+ },
+ {
+  "text": "— Nary\né ü ñ 😀\né ü ñ 😀\n\u001c\n\n ",
+  "closing": false,
+  "out": "— Nary\né ü ñ 😀\né ü ñ 😀"
+ },
+ {
+  "text": "— Nary\né ü ñ 😀\né ü ñ 😀\n\u001c\n\n ",
+  "closing": true,
+  "out": "— Nary\né ü ñ 😀\né ü ñ 😀"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,",
+  "closing": false,
+  "out": "Sincerely,"
+ },
+ {
+  "text": "Sincerely,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n\nSincerely,\n\nWarmest regards",
+  "closing": false,
+  "out": "Nary·Acme Ltd\n\nSincerely,\n\nWarmest regards"
+ },
+ {
+  "text": "Nary·Acme Ltd\n\nSincerely,\n\nWarmest regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "With regards\nKind regards.\nNary·Acme Ltd\nnary  ",
+  "closing": false,
+  "out": "With regards\nKind regards."
+ },
+ {
+  "text": "With regards\nKind regards.\nNary·Acme Ltd\nnary  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\u001c  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\u001c  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " Regards  \r\nKind regards.\r\n\u001c\r\nYours faithfully,\r\nThank you.\r\n— Nary  ",
+  "closing": false,
+  "out": " Regards  \r\nKind regards.\r\n\u001c\r\nYours faithfully,\r\nThank you."
+ },
+ {
+  "text": " Regards  \r\nKind regards.\r\n\u001c\r\nYours faithfully,\r\nThank you.\r\n— Nary  ",
+  "closing": true,
+  "out": " Regards  \r\nKind regards.\r\n\u001c\r\nYours faithfully,\r\nThank you."
+ },
+ {
+  "text": "Nary\r\nBest regards,\n— Nary\nNary,Acme Ltd\r\nNary\n",
+  "closing": false,
+  "out": "Nary\r\nBest regards,"
+ },
+ {
+  "text": "Nary\r\nBest regards,\n— Nary\nNary,Acme Ltd\r\nNary\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards\nThank you.\n",
+  "closing": false,
+  "out": "Regards\nThank you."
+ },
+ {
+  "text": "Regards\nThank you.\n",
+  "closing": true,
+  "out": "Regards\nThank you."
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\nNARY , Acme Ltd\nThank you.\n\u001c\n",
+  "closing": false,
+  "out": "Warmest regards\nNARY , Acme Ltd\nThank you."
+ },
+ {
+  "text": "Warmest regards\nNARY , Acme Ltd\nThank you.\n\u001c\n",
+  "closing": true,
+  "out": "Warmest regards\nNARY , Acme Ltd\nThank you."
+ },
+ {
+  "text": "With regards\r\nNary, Acme Ltd\r\nRegards\r\nBest\r\n\r\nRegards,\r\r\nSincerely,  ",
+  "closing": false,
+  "out": "With regards\r\nNary, Acme Ltd\r\nRegards\r\nBest\r\n\r\nRegards,\r\r\nSincerely,"
+ },
+ {
+  "text": "With regards\r\nNary, Acme Ltd\r\nRegards\r\nBest\r\n\r\nRegards,\r\r\nSincerely,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thank you.",
+  "closing": false,
+  "out": "Thank you."
+ },
+ {
+  "text": "Thank you.",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "Sincerely,  ",
+  "closing": false,
+  "out": "Sincerely,"
+ },
+ {
+  "text": "Sincerely,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards, Nary\nNARY , Acme Ltd\nRegards\n",
+  "closing": false,
+  "out": "Best regards, Nary\nNARY , Acme Ltd\nRegards"
+ },
+ {
+  "text": "Best regards, Nary\nNARY , Acme Ltd\nRegards\n",
+  "closing": true,
+  "out": "Best regards, Nary"
+ },
+ {
+  "text": "    ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "    ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[Name]\n\nNARY , Acme Ltd\n\nNary\u001c\n\nRegards,\r\n\n\t\n\nNary·Acme Ltd\n\n_— Nary, GRANARY_\n",
+  "closing": false,
+  "out": "[Name]\n\nNARY , Acme Ltd\n\nNary\u001c\n\nRegards,"
+ },
+ {
+  "text": "[Name]\n\nNARY , Acme Ltd\n\nNary\u001c\n\nRegards,\r\n\n\t\n\nNary·Acme Ltd\n\n_— Nary, GRANARY_\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\r\nline\twith tab\r\né ü ñ 😀",
+  "closing": false,
+  "out": "Acme Ltd\r\nline\twith tab\r\né ü ñ 😀"
+ },
+ {
+  "text": "Acme Ltd\r\nline\twith tab\r\né ü ñ 😀",
+  "closing": true,
+  "out": "Acme Ltd\r\nline\twith tab\r\né ü ñ 😀"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "best regards\nHello Mr John,\nThank you.\nBest\n  \nbest regards\n\t  ",
+  "closing": false,
+  "out": "best regards\nHello Mr John,\nThank you.\nBest\n  \nbest regards"
+ },
+ {
+  "text": "best regards\nHello Mr John,\nThank you.\nBest\n  \nbest regards\n\t  ",
+  "closing": true,
+  "out": "best regards\nHello Mr John,\nThank you."
+ },
+ {
+  "text": "Yours faithfully\n",
+  "closing": false,
+  "out": "Yours faithfully"
+ },
+ {
+  "text": "Yours faithfully\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Yours faithfully,\n\nWith regards\n\nNary\n\nWe look forward to your reply.\n\n\u001c\n\n_— Nary, GRANARY_\n\nWarmest regards\n\n ",
+  "closing": false,
+  "out": "Yours faithfully,\n\nWith regards\n\nNary\n\nWe look forward to your reply.\n\n\u001c\n\n_— Nary, GRANARY_\n\nWarmest regards"
+ },
+ {
+  "text": "Yours faithfully,\n\nWith regards\n\nNary\n\nWe look forward to your reply.\n\n\u001c\n\n_— Nary, GRANARY_\n\nWarmest regards\n\n ",
+  "closing": true,
+  "out": "Yours faithfully,\n\nWith regards\n\nNary\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Best regards,\n\n ",
+  "closing": false,
+  "out": "Best regards,"
+ },
+ {
+  "text": "Best regards,\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\r\n\u001c\r\nAcme Ltd\r\nline\twith tab\r\nWarmest regards",
+  "closing": false,
+  "out": "Regards,\r\n\u001c\r\nAcme Ltd\r\nline\twith tab\r\nWarmest regards"
+ },
+ {
+  "text": "Regards,\r\n\u001c\r\nAcme Ltd\r\nline\twith tab\r\nWarmest regards",
+  "closing": true,
+  "out": "Regards,\r\n\u001c\r\nAcme Ltd\r\nline\twith tab"
+ },
+ {
+  "text": "Cheers!\n— Nary",
+  "closing": false,
+  "out": "Cheers!"
+ },
+ {
+  "text": "Cheers!\n— Nary",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[NAME] \r\nThanks,\r\nNARY , Acme Ltd\r\nKind regards.\r\n— Nary\n",
+  "closing": false,
+  "out": "[NAME] \r\nThanks,\r\nNARY , Acme Ltd\r\nKind regards."
+ },
+ {
+  "text": "[NAME] \r\nThanks,\r\nNARY , Acme Ltd\r\nKind regards.\r\n— Nary\n",
+  "closing": true,
+  "out": "[NAME] \r\nThanks,"
+ },
+ {
+  "text": "acme ltd \r\nbest regards\r\nNary - acme ltd\r\nWarmest regards\r\nKind regards.\r\nThank you.\r\nNary\u001c\n",
+  "closing": false,
+  "out": "acme ltd \r\nbest regards\r\nNary - acme ltd\r\nWarmest regards\r\nKind regards.\r\nThank you."
+ },
+ {
+  "text": "acme ltd \r\nbest regards\r\nNary - acme ltd\r\nWarmest regards\r\nKind regards.\r\nThank you.\r\nNary\u001c\n",
+  "closing": true,
+  "out": "acme ltd \r\nbest regards\r\nNary - acme ltd\r\nWarmest regards\r\nKind regards.\r\nThank you."
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Hello Mr John,  ",
+  "closing": false,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Hello Mr John,  ",
+  "closing": true,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Sincerely,\n[name]\nRegards\nAcme Ltd\né ü ñ 😀\nNary\u001c\n\n ",
+  "closing": false,
+  "out": "Sincerely,\n[name]\nRegards\nAcme Ltd\né ü ñ 😀"
+ },
+ {
+  "text": "Sincerely,\n[name]\nRegards\nAcme Ltd\né ü ñ 😀\nNary\u001c\n\n ",
+  "closing": true,
+  "out": "Sincerely,\n[name]\nRegards\nAcme Ltd\né ü ñ 😀"
+ },
+ {
+  "text": "Warm regards,\n\nNary·Acme Ltd\n\n— Nary\n\nSincerely,\n\n \n\nNary\u001c\n\n[name]",
+  "closing": false,
+  "out": "Warm regards,\n\nNary·Acme Ltd\n\n— Nary\n\nSincerely,"
+ },
+ {
+  "text": "Warm regards,\n\nNary·Acme Ltd\n\n— Nary\n\nSincerely,\n\n \n\nNary\u001c\n\n[name]",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "—\r\nWarm  regards\r\nRegards,",
+  "closing": false,
+  "out": "—\r\nWarm  regards\r\nRegards,"
+ },
+ {
+  "text": "—\r\nWarm  regards\r\nRegards,",
+  "closing": true,
+  "out": "—\r\nWarm  regards"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm  regards\r\n[Name]\r\nYours faithfully,\r\n \r\n— Nary\r\nBest regards, Nary\n",
+  "closing": false,
+  "out": "Warm  regards\r\n[Name]\r\nYours faithfully,\r\n \r\n— Nary\r\nBest regards, Nary"
+ },
+ {
+  "text": "Warm  regards\r\n[Name]\r\nYours faithfully,\r\n \r\n— Nary\r\nBest regards, Nary\n",
+  "closing": true,
+  "out": "Warm  regards\r\n[Name]\r\nYours faithfully,\r\n \r\n— Nary\r\nBest regards, Nary"
+ },
+ {
+  "text": "  \n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\nYours faithfully",
+  "closing": false,
+  "out": "NARY , Acme Ltd\nYours faithfully"
+ },
+ {
+  "text": "NARY , Acme Ltd\nYours faithfully",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\n\nWe look forward to your reply.\n\n ",
+  "closing": false,
+  "out": "Thanks,\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Thanks,\n\nWe look forward to your reply.\n\n ",
+  "closing": true,
+  "out": "Thanks,\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Regards,\n\nBest regards, Nary\n\nacme ltd \n",
+  "closing": false,
+  "out": "Regards,\n\nBest regards, Nary"
+ },
+ {
+  "text": "Regards,\n\nBest regards, Nary\n\nacme ltd \n",
+  "closing": true,
+  "out": "Regards,\n\nBest regards, Nary"
+ },
+ {
+  "text": "Yours faithfully\n\nBest regards,\n\nBest\n\n[Name]\n\né ü ñ 😀\n\n[Name]\n\nBest regards,\n\n ",
+  "closing": false,
+  "out": "Yours faithfully\n\nBest regards,\n\nBest\n\n[Name]\n\né ü ñ 😀\n\n[Name]\n\nBest regards,"
+ },
+ {
+  "text": "Yours faithfully\n\nBest regards,\n\nBest\n\n[Name]\n\né ü ñ 😀\n\n[Name]\n\nBest regards,\n\n ",
+  "closing": true,
+  "out": "Yours faithfully\n\nBest regards,\n\nBest\n\n[Name]\n\né ü ñ 😀"
+ },
+ {
+  "text": "Cheers!\r\né ü ñ 😀",
+  "closing": false,
+  "out": "Cheers!\r\né ü ñ 😀"
+ },
+ {
+  "text": "Cheers!\r\né ü ñ 😀",
+  "closing": true,
+  "out": "Cheers!\r\né ü ñ 😀"
+ },
+ {
+  "text": "é ü ñ 😀\r\nRegards,\r\nAcme Ltd\r\n\t  ",
+  "closing": false,
+  "out": "é ü ñ 😀\r\nRegards,"
+ },
+ {
+  "text": "é ü ñ 😀\r\nRegards,\r\nAcme Ltd\r\n\t  ",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": " Regards  \n\n ",
+  "closing": false,
+  "out": " Regards"
+ },
+ {
+  "text": " Regards  \n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "line\twith tab\nHello Mr John,\nWarm regards,\nNary, Acme Ltd\n \nKind regards.\n Regards  ",
+  "closing": false,
+  "out": "line\twith tab\nHello Mr John,\nWarm regards,\nNary, Acme Ltd\n \nKind regards.\n Regards"
+ },
+ {
+  "text": "line\twith tab\nHello Mr John,\nWarm regards,\nNary, Acme Ltd\n \nKind regards.\n Regards  ",
+  "closing": true,
+  "out": "line\twith tab\nHello Mr John,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nNary, Acme Ltd\n\nNary,Acme Ltd\r\n\nNary\r\n\nNary\u001c\n\nRegards,  ",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\n\nNary, Acme Ltd\n\nNary,Acme Ltd\r\n\nNary\r\n\nNary\u001c\n\nRegards,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nNary, Acme Ltd\n\nNary,Acme Ltd\r\n\nNary\r\n\nNary\u001c\n\nRegards,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\n\nCheers!\n\n\n\n ",
+  "closing": false,
+  "out": "\t\n\nCheers!"
+ },
+ {
+  "text": "\t\n\nCheers!\n\n\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,",
+  "closing": false,
+  "out": "Sincerely,"
+ },
+ {
+  "text": "Sincerely,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best\n\nKind regards.",
+  "closing": false,
+  "out": "Best\n\nKind regards."
+ },
+ {
+  "text": "Best\n\nKind regards.",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\n\nThanks,\n\n[name]\n\n\t\n\nbest regards\n\nWith regards",
+  "closing": false,
+  "out": "NARY , Acme Ltd\n\nThanks,\n\n[name]\n\n\t\n\nbest regards\n\nWith regards"
+ },
+ {
+  "text": "NARY , Acme Ltd\n\nThanks,\n\n[name]\n\n\t\n\nbest regards\n\nWith regards",
+  "closing": true,
+  "out": "NARY , Acme Ltd\n\nThanks,"
+ },
+ {
+  "text": "nary\nNary\u001c\nNary, Acme Ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "nary\nNary\u001c\nNary, Acme Ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\r\nBest regards, Nary\n",
+  "closing": false,
+  "out": "Acme Ltd\r\nBest regards, Nary"
+ },
+ {
+  "text": "Acme Ltd\r\nBest regards, Nary\n",
+  "closing": true,
+  "out": "Acme Ltd\r\nBest regards, Nary"
+ },
+ {
+  "text": "\nNary·Acme Ltd\nYours faithfully,\nWith regards\nNary Acme Ltd\n\t\n_— Nary, GRANARY_\n",
+  "closing": false,
+  "out": "\nNary·Acme Ltd\nYours faithfully,\nWith regards\nNary Acme Ltd"
+ },
+ {
+  "text": "\nNary·Acme Ltd\nYours faithfully,\nWith regards\nNary Acme Ltd\n\t\n_— Nary, GRANARY_\n",
+  "closing": true,
+  "out": "\nNary·Acme Ltd\nYours faithfully,\nWith regards\nNary Acme Ltd"
+ },
+ {
+  "text": "Kind regards.\nBest regards, Nary\n— Nary\nNary,Acme Ltd\r\nThanks,\nNary, Acme Ltd\n[name]\n",
+  "closing": false,
+  "out": "Kind regards.\nBest regards, Nary\n— Nary\nNary,Acme Ltd\r\nThanks,"
+ },
+ {
+  "text": "Kind regards.\nBest regards, Nary\n— Nary\nNary,Acme Ltd\r\nThanks,\nNary, Acme Ltd\n[name]\n",
+  "closing": true,
+  "out": "Kind regards.\nBest regards, Nary\n— Nary\nNary,Acme Ltd\r\nThanks,"
+ },
+ {
+  "text": "With regards\nNary  ",
+  "closing": false,
+  "out": "With regards"
+ },
+ {
+  "text": "With regards\nNary  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm  regards\n\n ",
+  "closing": false,
+  "out": "Warm  regards"
+ },
+ {
+  "text": "Warm  regards\n\n ",
+  "closing": true,
+  "out": "Warm  regards"
+ },
+ {
+  "text": "\t\r\nbest regards",
+  "closing": false,
+  "out": "\t\r\nbest regards"
+ },
+ {
+  "text": "\t\r\nbest regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\r\n\n Regards  \n\nRegards,\n\n_— Nary, GRANARY_  ",
+  "closing": false,
+  "out": "Nary\r\n\n Regards  \n\nRegards,"
+ },
+ {
+  "text": "Nary\r\n\n Regards  \n\nRegards,\n\n_— Nary, GRANARY_  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "With regards\n\nThanks,\nCheers!\n\n ",
+  "closing": false,
+  "out": "With regards\n\nThanks,\nCheers!"
+ },
+ {
+  "text": "With regards\n\nThanks,\nCheers!\n\n ",
+  "closing": true,
+  "out": "With regards\n\nThanks,"
+ },
+ {
+  "text": "Nary\u001c\nWarm regards,\nWe look forward to your reply.\nKind regards.\n\t  ",
+  "closing": false,
+  "out": "Nary\u001c\nWarm regards,\nWe look forward to your reply.\nKind regards."
+ },
+ {
+  "text": "Nary\u001c\nWarm regards,\nWe look forward to your reply.\nKind regards.\n\t  ",
+  "closing": true,
+  "out": "Nary\u001c\nWarm regards,\nWe look forward to your reply."
+ },
+ {
+  "text": "  \r\nNary·Acme Ltd\r\nBest regards,\r\nNary - acme ltd\r\nThank you.\r\n—\n\n ",
+  "closing": false,
+  "out": "  \r\nNary·Acme Ltd\r\nBest regards,\r\nNary - acme ltd\r\nThank you."
+ },
+ {
+  "text": "  \r\nNary·Acme Ltd\r\nBest regards,\r\nNary - acme ltd\r\nThank you.\r\n—\n\n ",
+  "closing": true,
+  "out": "  \r\nNary·Acme Ltd\r\nBest regards,\r\nNary - acme ltd\r\nThank you."
+ },
+ {
+  "text": "  \n\nbest regards\n\nWe look forward to your reply.\n",
+  "closing": false,
+  "out": "  \n\nbest regards\n\nWe look forward to your reply."
+ },
+ {
+  "text": "  \n\nbest regards\n\nWe look forward to your reply.\n",
+  "closing": true,
+  "out": "  \n\nbest regards\n\nWe look forward to your reply."
+ },
+ {
+  "text": "We look forward to your reply.\n\n[name]\n\n \n\nacme ltd \n\nline\twith tab\n\n\u001c\n",
+  "closing": false,
+  "out": "We look forward to your reply.\n\n[name]\n\n \n\nacme ltd \n\nline\twith tab"
+ },
+ {
+  "text": "We look forward to your reply.\n\n[name]\n\n \n\nacme ltd \n\nline\twith tab\n\n\u001c\n",
+  "closing": true,
+  "out": "We look forward to your reply.\n\n[name]\n\n \n\nacme ltd \n\nline\twith tab"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\r\nThanks,\r\nNary\r\n[NAME] \n\n ",
+  "closing": false,
+  "out": "Thanks,\r\nThanks,"
+ },
+ {
+  "text": "Thanks,\r\nThanks,\r\nNary\r\n[NAME] \n\n ",
+  "closing": true,
+  "out": "Thanks,\r\nThanks,"
+ },
+ {
+  "text": "Nary\u001c\nWarm regards!\nNary\u001c\nCheers!\n\n ",
+  "closing": false,
+  "out": "Nary\u001c\nWarm regards!\nNary\u001c\nCheers!"
+ },
+ {
+  "text": "Nary\u001c\nWarm regards!\nNary\u001c\nCheers!\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " \r\nbest regards",
+  "closing": false,
+  "out": " \r\nbest regards"
+ },
+ {
+  "text": " \r\nbest regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards,\n\u001c\n[name]\nWarm regards!\nYours faithfully",
+  "closing": false,
+  "out": "Best regards,\n\u001c\n[name]\nWarm regards!\nYours faithfully"
+ },
+ {
+  "text": "Best regards,\n\u001c\n[name]\nWarm regards!\nYours faithfully",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\nRegards,\r\né ü ñ 😀\nNary·Acme Ltd\nThank you.\nNary - acme ltd\n\n ",
+  "closing": false,
+  "out": "Thanks,\nRegards,\r\né ü ñ 😀\nNary·Acme Ltd\nThank you."
+ },
+ {
+  "text": "Thanks,\nRegards,\r\né ü ñ 😀\nNary·Acme Ltd\nThank you.\nNary - acme ltd\n\n ",
+  "closing": true,
+  "out": "Thanks,\nRegards,\r\né ü ñ 😀\nNary·Acme Ltd\nThank you."
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nThanks,\r\nNary Acme Ltd\r\n[NAME] \r\n\n",
+  "closing": false,
+  "out": "NARY , Acme Ltd\r\nThanks,\r\nNary Acme Ltd"
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nThanks,\r\nNary Acme Ltd\r\n[NAME] \r\n\n",
+  "closing": true,
+  "out": "NARY , Acme Ltd\r\nThanks,\r\nNary Acme Ltd"
+ },
+ {
+  "text": "— Nary\r\nWe look forward to your reply.\r\nYours faithfully\r\nBest regards, Nary\r\n—\r\nRegards,\r\r\nRegards,\r\n\n ",
+  "closing": false,
+  "out": "— Nary\r\nWe look forward to your reply.\r\nYours faithfully\r\nBest regards, Nary\r\n—\r\nRegards,\r\r\nRegards,"
+ },
+ {
+  "text": "— Nary\r\nWe look forward to your reply.\r\nYours faithfully\r\nBest regards, Nary\r\n—\r\nRegards,\r\r\nRegards,\r\n\n ",
+  "closing": true,
+  "out": "— Nary\r\nWe look forward to your reply.\r\nYours faithfully\r\nBest regards, Nary"
+ },
+ {
+  "text": "Nary\n\n  \n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary\n\n  \n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\r\n[NAME] \r\nWarmest regards\r\nnary\r\nline\twith tab\r\nWe look forward to your reply.\r\nWarmest regards\n",
+  "closing": false,
+  "out": "\r\n[NAME] \r\nWarmest regards\r\nnary\r\nline\twith tab\r\nWe look forward to your reply.\r\nWarmest regards"
+ },
+ {
+  "text": "\r\n[NAME] \r\nWarmest regards\r\nnary\r\nline\twith tab\r\nWe look forward to your reply.\r\nWarmest regards\n",
+  "closing": true,
+  "out": "\r\n[NAME] \r\nWarmest regards\r\nnary\r\nline\twith tab\r\nWe look forward to your reply."
+ },
+ {
+  "text": "acme ltd \n\nNary, Acme Ltd\n\nWarm regards,\n\n—\n\n—\n\nNARY , Acme Ltd\n\nWarm  regards\n\n ",
+  "closing": false,
+  "out": "acme ltd \n\nNary, Acme Ltd\n\nWarm regards,\n\n—\n\n—\n\nNARY , Acme Ltd\n\nWarm  regards"
+ },
+ {
+  "text": "acme ltd \n\nNary, Acme Ltd\n\nWarm regards,\n\n—\n\n—\n\nNARY , Acme Ltd\n\nWarm  regards\n\n ",
+  "closing": true,
+  "out": "acme ltd \n\nNary, Acme Ltd\n\nWarm regards,\n\n—\n\n—\n\nNARY , Acme Ltd\n\nWarm  regards"
+ },
+ {
+  "text": "Hello Mr John,\n\n ",
+  "closing": false,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Hello Mr John,\n\n ",
+  "closing": true,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Thank you.\n\n ",
+  "closing": false,
+  "out": "Thank you."
+ },
+ {
+  "text": "Thank you.\n\n ",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "line\twith tab\nCheers!\nNary - acme ltd\nacme ltd \n\n ",
+  "closing": false,
+  "out": "line\twith tab\nCheers!"
+ },
+ {
+  "text": "line\twith tab\nCheers!\nNary - acme ltd\nacme ltd \n\n ",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "— Nary\n\nNary\n\nThank you.\n\nNary\u001c\n\nYours faithfully",
+  "closing": false,
+  "out": "— Nary\n\nNary\n\nThank you.\n\nNary\u001c\n\nYours faithfully"
+ },
+ {
+  "text": "— Nary\n\nNary\n\nThank you.\n\nNary\u001c\n\nYours faithfully",
+  "closing": true,
+  "out": "— Nary\n\nNary\n\nThank you."
+ },
+ {
+  "text": "[Name]\n\n_— Nary, GRANARY_\n\n\u001c\n\nNary\u001c\n\nWith regards\n",
+  "closing": false,
+  "out": "[Name]\n\n_— Nary, GRANARY_\n\n\u001c\n\nNary\u001c\n\nWith regards"
+ },
+ {
+  "text": "[Name]\n\n_— Nary, GRANARY_\n\n\u001c\n\nNary\u001c\n\nWith regards\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\nSincerely,\nYours faithfully,\nAcme Ltd  ",
+  "closing": false,
+  "out": "Nary - acme ltd\nSincerely,\nYours faithfully,"
+ },
+ {
+  "text": "Nary - acme ltd\nSincerely,\nYours faithfully,\nAcme Ltd  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Cheers!\r\n\u001c\r\n Regards  \r\nCheers!",
+  "closing": false,
+  "out": "Cheers!\r\n\u001c\r\n Regards  \r\nCheers!"
+ },
+ {
+  "text": "Cheers!\r\n\u001c\r\n Regards  \r\nCheers!",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards,\n\nNary\r\n\n—\n\né ü ñ 😀\n\nSincerely,\n\nThanks,\n\nWarm regards!",
+  "closing": false,
+  "out": "Warm regards,\n\nNary\r\n\n—\n\né ü ñ 😀\n\nSincerely,\n\nThanks,\n\nWarm regards!"
+ },
+ {
+  "text": "Warm regards,\n\nNary\r\n\n—\n\né ü ñ 😀\n\nSincerely,\n\nThanks,\n\nWarm regards!",
+  "closing": true,
+  "out": "Warm regards,\n\nNary\r\n\n—\n\né ü ñ 😀\n\nSincerely,\n\nThanks,"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nacme ltd \n\nWith regards\n\n[Name]  ",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nacme ltd \n\nWith regards"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nacme ltd \n\nWith regards\n\n[Name]  ",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "— Nary\n\nNary - acme ltd\n\nNARY , Acme Ltd\n\n—\n\nnary",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "— Nary\n\nNary - acme ltd\n\nNARY , Acme Ltd\n\n—\n\nnary",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " \nNary Acme Ltd\n\n ",
+  "closing": false,
+  "out": " \nNary Acme Ltd"
+ },
+ {
+  "text": " \nNary Acme Ltd\n\n ",
+  "closing": true,
+  "out": " \nNary Acme Ltd"
+ },
+ {
+  "text": "Cheers!  ",
+  "closing": false,
+  "out": "Cheers!"
+ },
+ {
+  "text": "Cheers!  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm  regards\nnary\nNary,Acme Ltd\r\n— Nary\nYours faithfully",
+  "closing": false,
+  "out": "Warm  regards\nnary\nNary,Acme Ltd\r\n— Nary\nYours faithfully"
+ },
+ {
+  "text": "Warm  regards\nnary\nNary,Acme Ltd\r\n— Nary\nYours faithfully",
+  "closing": true,
+  "out": "Warm  regards"
+ },
+ {
+  "text": "We look forward to your reply.\n\nNary·Acme Ltd\n\nRegards,\r\n\n<b>bold</b> & \"quoted\" 'single'\n",
+  "closing": false,
+  "out": "We look forward to your reply.\n\nNary·Acme Ltd\n\nRegards,\r\n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "We look forward to your reply.\n\nNary·Acme Ltd\n\nRegards,\r\n\n<b>bold</b> & \"quoted\" 'single'\n",
+  "closing": true,
+  "out": "We look forward to your reply.\n\nNary·Acme Ltd\n\nRegards,\r\n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Nary - acme ltd\r\nWarmest regards\r\n\t\r\n  \r\n  ",
+  "closing": false,
+  "out": "Nary - acme ltd\r\nWarmest regards"
+ },
+ {
+  "text": "Nary - acme ltd\r\nWarmest regards\r\n\t\r\n  \r\n  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "   ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "   ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "_— Nary, GRANARY_\r\nThank you.\r\nKind regards.\r\nYours faithfully\r\n<b>bold</b> & \"quoted\" 'single'\r\nAcme Ltd\r\nBest regards,\n\n ",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\r\nThank you.\r\nKind regards.\r\nYours faithfully\r\n<b>bold</b> & \"quoted\" 'single'\r\nAcme Ltd\r\nBest regards,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\r\nThank you.\r\nKind regards.\r\nYours faithfully\r\n<b>bold</b> & \"quoted\" 'single'\r\nAcme Ltd\r\nBest regards,\n\n ",
+  "closing": true,
+  "out": "_— Nary, GRANARY_\r\nThank you.\r\nKind regards.\r\nYours faithfully\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Best\n[NAME] \nWe look forward to your reply.\n[Name]",
+  "closing": false,
+  "out": "Best\n[NAME] \nWe look forward to your reply."
+ },
+ {
+  "text": "Best\n[NAME] \nWe look forward to your reply.\n[Name]",
+  "closing": true,
+  "out": "Best\n[NAME] \nWe look forward to your reply."
+ },
+ {
+  "text": "Regards\n\n Regards  \n\nNary·Acme Ltd\n\nKind regards.\n\n\t\n\n ",
+  "closing": false,
+  "out": "Regards\n\n Regards  \n\nNary·Acme Ltd\n\nKind regards."
+ },
+ {
+  "text": "Regards\n\n Regards  \n\nNary·Acme Ltd\n\nKind regards.\n\n\t\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  \n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  \n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards!\n\nbest regards\n\nThanks,\n\né ü ñ 😀  ",
+  "closing": false,
+  "out": "Warm regards!\n\nbest regards\n\nThanks,\n\né ü ñ 😀"
+ },
+ {
+  "text": "Warm regards!\n\nbest regards\n\nThanks,\n\né ü ñ 😀  ",
+  "closing": true,
+  "out": "Warm regards!\n\nbest regards\n\nThanks,\n\né ü ñ 😀"
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[Name]\r\nBest regards, Nary\r\n_— Nary, GRANARY_\r\nNary\r\n—  ",
+  "closing": false,
+  "out": "[Name]\r\nBest regards, Nary"
+ },
+ {
+  "text": "[Name]\r\nBest regards, Nary\r\n_— Nary, GRANARY_\r\nNary\r\n—  ",
+  "closing": true,
+  "out": "[Name]\r\nBest regards, Nary"
+ },
+ {
+  "text": "Thanks,",
+  "closing": false,
+  "out": "Thanks,"
+ },
+ {
+  "text": "Thanks,",
+  "closing": true,
+  "out": "Thanks,"
+ },
+ {
+  "text": "\t\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\t\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[NAME] \n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[NAME] \n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Cheers!\n\nWith regards\n\nRegards,\n\nNary Acme Ltd\n\n ",
+  "closing": false,
+  "out": "Cheers!\n\nWith regards\n\nRegards,\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Cheers!\n\nWith regards\n\nRegards,\n\nNary Acme Ltd\n\n ",
+  "closing": true,
+  "out": "Cheers!\n\nWith regards\n\nRegards,\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Warmest regards\nNary\nRegards,\r\nacme ltd \nThank you.  ",
+  "closing": false,
+  "out": "Warmest regards\nNary\nRegards,\r\nacme ltd \nThank you."
+ },
+ {
+  "text": "Warmest regards\nNary\nRegards,\r\nacme ltd \nThank you.  ",
+  "closing": true,
+  "out": "Warmest regards\nNary\nRegards,\r\nacme ltd \nThank you."
+ },
+ {
+  "text": "Regards,\n\n[Name]\n\n ",
+  "closing": false,
+  "out": "Regards,"
+ },
+ {
+  "text": "Regards,\n\n[Name]\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards,",
+  "closing": false,
+  "out": "Best regards,"
+ },
+ {
+  "text": "Best regards,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Cheers!\n\nWarm  regards\n\nNARY , Acme Ltd\n\nNary - acme ltd\n\nline\twith tab\n\n— Nary",
+  "closing": false,
+  "out": "Cheers!\n\nWarm  regards\n\nNARY , Acme Ltd\n\nNary - acme ltd\n\nline\twith tab"
+ },
+ {
+  "text": "Cheers!\n\nWarm  regards\n\nNARY , Acme Ltd\n\nNary - acme ltd\n\nline\twith tab\n\n— Nary",
+  "closing": true,
+  "out": "Cheers!\n\nWarm  regards\n\nNARY , Acme Ltd\n\nNary - acme ltd\n\nline\twith tab"
+ },
+ {
+  "text": "\u001c\n\n<b>bold</b> & \"quoted\" 'single'\n\n \n\nacme ltd \n\n[NAME] \n\n—\n\nYours faithfully,  ",
+  "closing": false,
+  "out": "\u001c\n\n<b>bold</b> & \"quoted\" 'single'\n\n \n\nacme ltd \n\n[NAME] \n\n—\n\nYours faithfully,"
+ },
+ {
+  "text": "\u001c\n\n<b>bold</b> & \"quoted\" 'single'\n\n \n\nacme ltd \n\n[NAME] \n\n—\n\nYours faithfully,  ",
+  "closing": true,
+  "out": "\u001c\n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "best regards\n\nNary, Acme Ltd\n\n\t\n",
+  "closing": false,
+  "out": "best regards"
+ },
+ {
+  "text": "best regards\n\nNary, Acme Ltd\n\n\t\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Hello Mr John,\r\n[Name]\r\nNARY , Acme Ltd\r\n\u001c\r\n\u001c",
+  "closing": false,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Hello Mr John,\r\n[Name]\r\nNARY , Acme Ltd\r\n\u001c\r\n\u001c",
+  "closing": true,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Best\n\nBest regards,\n",
+  "closing": false,
+  "out": "Best\n\nBest regards,"
+ },
+ {
+  "text": "Best\n\nBest regards,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "acme ltd \n\nWarmest regards\n\n Regards  \n\nKind regards.\n\nNary - acme ltd\n\n[NAME]   ",
+  "closing": false,
+  "out": "acme ltd \n\nWarmest regards\n\n Regards  \n\nKind regards."
+ },
+ {
+  "text": "acme ltd \n\nWarmest regards\n\n Regards  \n\nKind regards.\n\nNary - acme ltd\n\n[NAME]   ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "We look forward to your reply.\n\n ",
+  "closing": false,
+  "out": "We look forward to your reply."
+ },
+ {
+  "text": "We look forward to your reply.\n\n ",
+  "closing": true,
+  "out": "We look forward to your reply."
+ },
+ {
+  "text": "—\nWarm regards!\nWarm regards!\nYours faithfully",
+  "closing": false,
+  "out": "—\nWarm regards!\nWarm regards!\nYours faithfully"
+ },
+ {
+  "text": "—\nWarm regards!\nWarm regards!\nYours faithfully",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards,\n\nWe look forward to your reply.\n\n \n\n\n\n—\n",
+  "closing": false,
+  "out": "Warm regards,\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Warm regards,\n\nWe look forward to your reply.\n\n \n\n\n\n—\n",
+  "closing": true,
+  "out": "Warm regards,\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Nary, Acme Ltd\nNary\u001c\n\n Regards  \nNary,Acme Ltd\r\nAcme Ltd\nNary,Acme Ltd\r\n\n ",
+  "closing": false,
+  "out": "Nary, Acme Ltd\nNary\u001c\n\n Regards"
+ },
+ {
+  "text": "Nary, Acme Ltd\nNary\u001c\n\n Regards  \nNary,Acme Ltd\r\nAcme Ltd\nNary,Acme Ltd\r\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards, Nary\r\n \r\nSincerely,\r\nNary,Acme Ltd\r\r\nCheers!\r\n[Name]\r\n   ",
+  "closing": false,
+  "out": "Best regards, Nary\r\n \r\nSincerely,\r\nNary,Acme Ltd\r\r\nCheers!"
+ },
+ {
+  "text": "Best regards, Nary\r\n \r\nSincerely,\r\nNary,Acme Ltd\r\r\nCheers!\r\n[Name]\r\n   ",
+  "closing": true,
+  "out": "Best regards, Nary"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary, Acme Ltd\n\nnary\n\nacme ltd \n\nline\twith tab\n\nRegards,\n\nWarm  regards\n\nNARY , Acme Ltd",
+  "closing": false,
+  "out": "Nary, Acme Ltd\n\nnary\n\nacme ltd \n\nline\twith tab\n\nRegards,\n\nWarm  regards"
+ },
+ {
+  "text": "Nary, Acme Ltd\n\nnary\n\nacme ltd \n\nline\twith tab\n\nRegards,\n\nWarm  regards\n\nNARY , Acme Ltd",
+  "closing": true,
+  "out": "Nary, Acme Ltd\n\nnary\n\nacme ltd \n\nline\twith tab\n\nRegards,\n\nWarm  regards"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\n\nSincerely,\n",
+  "closing": false,
+  "out": "\t\n\nSincerely,"
+ },
+ {
+  "text": "\t\n\nSincerely,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\r\nRegards,",
+  "closing": false,
+  "out": "\t\r\nRegards,"
+ },
+ {
+  "text": "\t\r\nRegards,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[NAME] \n\nline\twith tab\n\nYours faithfully,\n\nThanks,\n\nRegards,\n\n[name]  ",
+  "closing": false,
+  "out": "[NAME] \n\nline\twith tab\n\nYours faithfully,\n\nThanks,\n\nRegards,"
+ },
+ {
+  "text": "[NAME] \n\nline\twith tab\n\nYours faithfully,\n\nThanks,\n\nRegards,\n\n[name]  ",
+  "closing": true,
+  "out": "[NAME] \n\nline\twith tab\n\nYours faithfully,\n\nThanks,"
+ },
+ {
+  "text": "\r\nAcme Ltd\r\n— Nary\r\n\u001c\r\nRegards\r\n \r\n Regards    ",
+  "closing": false,
+  "out": "\r\nAcme Ltd\r\n— Nary\r\n\u001c\r\nRegards\r\n \r\n Regards"
+ },
+ {
+  "text": "\r\nAcme Ltd\r\n— Nary\r\n\u001c\r\nRegards\r\n \r\n Regards    ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "—\n\nBest regards, Nary",
+  "closing": false,
+  "out": "—\n\nBest regards, Nary"
+ },
+ {
+  "text": "—\n\nBest regards, Nary",
+  "closing": true,
+  "out": "—\n\nBest regards, Nary"
+ },
+ {
+  "text": "   ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "   ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards,\n",
+  "closing": false,
+  "out": "Warm regards,"
+ },
+ {
+  "text": "Warm regards,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "nary\r\nNary",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "nary\r\nNary",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "— Nary\r\nNary\r\r\n\r\nacme ltd \n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "— Nary\r\nNary\r\r\n\r\nacme ltd \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\nBest regards,\n— Nary\nNary·Acme Ltd\n\n ",
+  "closing": false,
+  "out": "Nary·Acme Ltd\nBest regards,"
+ },
+ {
+  "text": "Nary·Acme Ltd\nBest regards,\n— Nary\nNary·Acme Ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary,Acme Ltd\r\r\nNary - acme ltd\r\n[name]\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary,Acme Ltd\r\r\nNary - acme ltd\r\n[name]\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nNary\u001c\n\nYours faithfully,",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\n\nNary\u001c\n\nYours faithfully,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nNary\u001c\n\nYours faithfully,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[name]\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[name]\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "best regards\n\nKind regards.\nNary\r\nYours faithfully\n\n ",
+  "closing": false,
+  "out": "best regards\n\nKind regards.\nNary\r\nYours faithfully"
+ },
+ {
+  "text": "best regards\n\nKind regards.\nNary\r\nYours faithfully\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards, Nary\n\nbest regards\n\n ",
+  "closing": false,
+  "out": "Best regards, Nary\n\nbest regards"
+ },
+ {
+  "text": "Best regards, Nary\n\nbest regards\n\n ",
+  "closing": true,
+  "out": "Best regards, Nary"
+ },
+ {
+  "text": "Nary - acme ltd\n\nThank you.\n\nRegards,\n\n ",
+  "closing": false,
+  "out": "Nary - acme ltd\n\nThank you.\n\nRegards,"
+ },
+ {
+  "text": "Nary - acme ltd\n\nThank you.\n\nRegards,\n\n ",
+  "closing": true,
+  "out": "Nary - acme ltd\n\nThank you."
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nKind regards.\r\n—\r\nKind regards.\r\n<b>bold</b> & \"quoted\" 'single'",
+  "closing": false,
+  "out": "NARY , Acme Ltd\r\nKind regards.\r\n—\r\nKind regards.\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nKind regards.\r\n—\r\nKind regards.\r\n<b>bold</b> & \"quoted\" 'single'",
+  "closing": true,
+  "out": "NARY , Acme Ltd\r\nKind regards.\r\n—\r\nKind regards.\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "\t\n\nNARY , Acme Ltd\n\n_— Nary, GRANARY_\n\nWarm  regards\n\nCheers!\n",
+  "closing": false,
+  "out": "\t\n\nNARY , Acme Ltd\n\n_— Nary, GRANARY_\n\nWarm  regards\n\nCheers!"
+ },
+ {
+  "text": "\t\n\nNARY , Acme Ltd\n\n_— Nary, GRANARY_\n\nWarm  regards\n\nCheers!\n",
+  "closing": true,
+  "out": "\t\n\nNARY , Acme Ltd\n\n_— Nary, GRANARY_\n\nWarm  regards"
+ },
+ {
+  "text": "Regards\n\n ",
+  "closing": false,
+  "out": "Regards"
+ },
+ {
+  "text": "Regards\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "We look forward to your reply.\n\n Regards  \n\nWe look forward to your reply.\n\n—\n\n Regards  \n\nNary\r\n\né ü ñ 😀",
+  "closing": false,
+  "out": "We look forward to your reply.\n\n Regards  \n\nWe look forward to your reply.\n\n—\n\n Regards  \n\nNary\r\n\né ü ñ 😀"
+ },
+ {
+  "text": "We look forward to your reply.\n\n Regards  \n\nWe look forward to your reply.\n\n—\n\n Regards  \n\nNary\r\n\né ü ñ 😀",
+  "closing": true,
+  "out": "We look forward to your reply.\n\n Regards  \n\nWe look forward to your reply.\n\n—\n\n Regards  \n\nNary\r\n\né ü ñ 😀"
+ },
+ {
+  "text": "Best\n\nThanks,\n\nWe look forward to your reply.\n\n\n\nbest regards\n\nWarmest regards\n",
+  "closing": false,
+  "out": "Best\n\nThanks,\n\nWe look forward to your reply.\n\n\n\nbest regards\n\nWarmest regards"
+ },
+ {
+  "text": "Best\n\nThanks,\n\nWe look forward to your reply.\n\n\n\nbest regards\n\nWarmest regards\n",
+  "closing": true,
+  "out": "Best\n\nThanks,\n\nWe look forward to your reply."
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\nBest\r\nHello Mr John,\r\nBest\r\nYours faithfully\n\n ",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\r\nBest\r\nHello Mr John,\r\nBest\r\nYours faithfully"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\nBest\r\nHello Mr John,\r\nBest\r\nYours faithfully\n\n ",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'\r\nBest\r\nHello Mr John,"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\n\nKind regards.\n",
+  "closing": false,
+  "out": "Acme Ltd\n\nKind regards."
+ },
+ {
+  "text": "Acme Ltd\n\nKind regards.\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " \n\nWith regards\n\n\t  ",
+  "closing": false,
+  "out": " \n\nWith regards"
+ },
+ {
+  "text": " \n\nWith regards\n\n\t  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "nary\r\nNary\u001c",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "nary\r\nNary\u001c",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards",
+  "closing": false,
+  "out": "Warmest regards"
+ },
+ {
+  "text": "Warmest regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\r\nYours faithfully,\r\nCheers!\n",
+  "closing": false,
+  "out": "Warmest regards\r\nYours faithfully,\r\nCheers!"
+ },
+ {
+  "text": "Warmest regards\r\nYours faithfully,\r\nCheers!\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Hello Mr John,\n\n\n\nWith regards\n\nBest regards, Nary  ",
+  "closing": false,
+  "out": "Hello Mr John,\n\n\n\nWith regards\n\nBest regards, Nary"
+ },
+ {
+  "text": "Hello Mr John,\n\n\n\nWith regards\n\nBest regards, Nary  ",
+  "closing": true,
+  "out": "Hello Mr John,\n\n\n\nWith regards\n\nBest regards, Nary"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\r\n\nnary\n\nNary, Acme Ltd\n\n \n\nKind regards.\n",
+  "closing": false,
+  "out": "Nary\r\n\nnary\n\nNary, Acme Ltd\n\n \n\nKind regards."
+ },
+ {
+  "text": "Nary\r\n\nnary\n\nNary, Acme Ltd\n\n \n\nKind regards.\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Cheers!\nAcme Ltd\nThanks,\nNary, Acme Ltd\nRegards\nBest regards,\nBest regards, Nary  ",
+  "closing": false,
+  "out": "Cheers!\nAcme Ltd\nThanks,\nNary, Acme Ltd\nRegards\nBest regards,\nBest regards, Nary"
+ },
+ {
+  "text": "Cheers!\nAcme Ltd\nThanks,\nNary, Acme Ltd\nRegards\nBest regards,\nBest regards, Nary  ",
+  "closing": true,
+  "out": "Cheers!\nAcme Ltd\nThanks,\nNary, Acme Ltd\nRegards\nBest regards,\nBest regards, Nary"
+ },
+ {
+  "text": "best regards\nSincerely,\nbest regards\n\n ",
+  "closing": false,
+  "out": "best regards\nSincerely,\nbest regards"
+ },
+ {
+  "text": "best regards\nSincerely,\nbest regards\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards\n Regards  \nYours faithfully",
+  "closing": false,
+  "out": "Regards\n Regards  \nYours faithfully"
+ },
+ {
+  "text": "Regards\n Regards  \nYours faithfully",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "line\twith tab\n\n\u001c\n\nThanks,\n\n[name]\n\n[Name]\n\n ",
+  "closing": false,
+  "out": "line\twith tab\n\n\u001c\n\nThanks,"
+ },
+ {
+  "text": "line\twith tab\n\n\u001c\n\nThanks,\n\n[name]\n\n[Name]\n\n ",
+  "closing": true,
+  "out": "line\twith tab\n\n\u001c\n\nThanks,"
+ },
+ {
+  "text": "Acme Ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\n\n  \n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\n\n  \n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\n",
+  "closing": false,
+  "out": "Sincerely,"
+ },
+ {
+  "text": "Sincerely,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards,\n\n  \n\nSincerely,\n\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": false,
+  "out": "Warm regards,\n\n  \n\nSincerely,\n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Warm regards,\n\n  \n\nSincerely,\n\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": true,
+  "out": "Warm regards,\n\n  \n\nSincerely,\n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Nary, Acme Ltd\n\nbest regards\n\nNary\r\n\nWarm regards,\n\nYours faithfully",
+  "closing": false,
+  "out": "Nary, Acme Ltd\n\nbest regards\n\nNary\r\n\nWarm regards,\n\nYours faithfully"
+ },
+ {
+  "text": "Nary, Acme Ltd\n\nbest regards\n\nNary\r\n\nWarm regards,\n\nYours faithfully",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\r\r\nYours faithfully,\r\nSincerely,\r\nWe look forward to your reply.\r\nNary, Acme Ltd",
+  "closing": false,
+  "out": "Nary\r\r\nYours faithfully,\r\nSincerely,\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Nary\r\r\nYours faithfully,\r\nSincerely,\r\nWe look forward to your reply.\r\nNary, Acme Ltd",
+  "closing": true,
+  "out": "Nary\r\r\nYours faithfully,\r\nSincerely,\r\nWe look forward to your reply."
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\nBest regards, Nary  ",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\r\nBest regards, Nary"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\nBest regards, Nary  ",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'\r\nBest regards, Nary"
+ },
+ {
+  "text": "Nary, Acme Ltd\r\nThank you.\r\nNary - acme ltd",
+  "closing": false,
+  "out": "Nary, Acme Ltd\r\nThank you."
+ },
+ {
+  "text": "Nary, Acme Ltd\r\nThank you.\r\nNary - acme ltd",
+  "closing": true,
+  "out": "Nary, Acme Ltd\r\nThank you."
+ },
+ {
+  "text": " Regards  \n\nRegards,\n\n ",
+  "closing": false,
+  "out": " Regards  \n\nRegards,"
+ },
+ {
+  "text": " Regards  \n\nRegards,\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm  regards\n\nWith regards\n\n— Nary\n\n[NAME] \n\nWarm regards,\n\n Regards    ",
+  "closing": false,
+  "out": "Warm  regards\n\nWith regards\n\n— Nary\n\n[NAME] \n\nWarm regards,\n\n Regards"
+ },
+ {
+  "text": "Warm  regards\n\nWith regards\n\n— Nary\n\n[NAME] \n\nWarm regards,\n\n Regards    ",
+  "closing": true,
+  "out": "Warm  regards"
+ },
+ {
+  "text": "line\twith tab\n\n\u001c\n\nbest regards\n\nBest regards,\n\nNARY , Acme Ltd\n\nRegards\n",
+  "closing": false,
+  "out": "line\twith tab\n\n\u001c\n\nbest regards\n\nBest regards,\n\nNARY , Acme Ltd\n\nRegards"
+ },
+ {
+  "text": "line\twith tab\n\n\u001c\n\nbest regards\n\nBest regards,\n\nNARY , Acme Ltd\n\nRegards\n",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "Thank you.\n\n  \n\nYours faithfully",
+  "closing": false,
+  "out": "Thank you.\n\n  \n\nYours faithfully"
+ },
+ {
+  "text": "Thank you.\n\n  \n\nYours faithfully",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "Nary Acme Ltd\r\n[NAME] \r\nNary·Acme Ltd",
+  "closing": false,
+  "out": "Nary Acme Ltd"
+ },
+ {
+  "text": "Nary Acme Ltd\r\n[NAME] \r\nNary·Acme Ltd",
+  "closing": true,
+  "out": "Nary Acme Ltd"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\n\n ",
+  "closing": false,
+  "out": "Thanks,"
+ },
+ {
+  "text": "Thanks,\n\n ",
+  "closing": true,
+  "out": "Thanks,"
+ },
+ {
+  "text": "Nary Acme Ltd\n\nnary\n\né ü ñ 😀  ",
+  "closing": false,
+  "out": "Nary Acme Ltd\n\nnary\n\né ü ñ 😀"
+ },
+ {
+  "text": "Nary Acme Ltd\n\nnary\n\né ü ñ 😀  ",
+  "closing": true,
+  "out": "Nary Acme Ltd\n\nnary\n\né ü ñ 😀"
+ },
+ {
+  "text": " \n\n\n\n Regards    ",
+  "closing": false,
+  "out": " \n\n\n\n Regards"
+ },
+ {
+  "text": " \n\n\n\n Regards    ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\n[NAME] \nnary\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary\n[NAME] \nnary\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\r\nBest regards, Nary\r\nbest regards\r\nNary\u001c\n",
+  "closing": false,
+  "out": "\t\r\nBest regards, Nary\r\nbest regards"
+ },
+ {
+  "text": "\t\r\nBest regards, Nary\r\nbest regards\r\nNary\u001c\n",
+  "closing": true,
+  "out": "\t\r\nBest regards, Nary"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\nCheers!\n—\nline\twith tab\n_— Nary, GRANARY_\n\t\nNARY , Acme Ltd\n",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\nCheers!\n—\nline\twith tab"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\nCheers!\n—\nline\twith tab\n_— Nary, GRANARY_\n\t\nNARY , Acme Ltd\n",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'\nCheers!\n—\nline\twith tab"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "é ü ñ 😀\n\nWarmest regards\n\n ",
+  "closing": false,
+  "out": "é ü ñ 😀\n\nWarmest regards"
+ },
+ {
+  "text": "é ü ñ 😀\n\nWarmest regards\n\n ",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[name]\r\nYours faithfully,\r\nNary\u001c\r\nThanks,\r\nNary,Acme Ltd\r\r\n\r\nWarm regards,\n",
+  "closing": false,
+  "out": "[name]\r\nYours faithfully,\r\nNary\u001c\r\nThanks,\r\nNary,Acme Ltd\r\r\n\r\nWarm regards,"
+ },
+ {
+  "text": "[name]\r\nYours faithfully,\r\nNary\u001c\r\nThanks,\r\nNary,Acme Ltd\r\r\n\r\nWarm regards,\n",
+  "closing": true,
+  "out": "[name]\r\nYours faithfully,\r\nNary\u001c\r\nThanks,"
+ },
+ {
+  "text": "Thank you.",
+  "closing": false,
+  "out": "Thank you."
+ },
+ {
+  "text": "Thank you.",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "We look forward to your reply.\n\n  \n\n  \n\nacme ltd \n\nThank you.\n",
+  "closing": false,
+  "out": "We look forward to your reply.\n\n  \n\n  \n\nacme ltd \n\nThank you."
+ },
+ {
+  "text": "We look forward to your reply.\n\n  \n\n  \n\nacme ltd \n\nThank you.\n",
+  "closing": true,
+  "out": "We look forward to your reply.\n\n  \n\n  \n\nacme ltd \n\nThank you."
+ },
+ {
+  "text": "Hello Mr John,\n\nHello Mr John,\n\nThank you.\n\nCheers!\n\nNary·Acme Ltd\n\nThanks,\n\nacme ltd ",
+  "closing": false,
+  "out": "Hello Mr John,\n\nHello Mr John,\n\nThank you.\n\nCheers!\n\nNary·Acme Ltd\n\nThanks,"
+ },
+ {
+  "text": "Hello Mr John,\n\nHello Mr John,\n\nThank you.\n\nCheers!\n\nNary·Acme Ltd\n\nThanks,\n\nacme ltd ",
+  "closing": true,
+  "out": "Hello Mr John,\n\nHello Mr John,\n\nThank you.\n\nCheers!\n\nNary·Acme Ltd\n\nThanks,"
+ },
+ {
+  "text": "Hello Mr John,\n\nnary\n\nKind regards.\n\nNary, Acme Ltd\n\nbest regards\n\n ",
+  "closing": false,
+  "out": "Hello Mr John,\n\nnary\n\nKind regards.\n\nNary, Acme Ltd\n\nbest regards"
+ },
+ {
+  "text": "Hello Mr John,\n\nnary\n\nKind regards.\n\nNary, Acme Ltd\n\nbest regards\n\n ",
+  "closing": true,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nRegards\n\n \n\n— Nary\n\nWarmest regards\n\nWith regards\n\nNARY , Acme Ltd",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\n\nRegards\n\n \n\n— Nary\n\nWarmest regards\n\nWith regards"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nRegards\n\n \n\n— Nary\n\nWarmest regards\n\nWith regards\n\nNARY , Acme Ltd",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\n\nWarm regards,\n\nline\twith tab\n\nThank you.\n\n ",
+  "closing": false,
+  "out": "Sincerely,\n\nWarm regards,\n\nline\twith tab\n\nThank you."
+ },
+ {
+  "text": "Sincerely,\n\nWarm regards,\n\nline\twith tab\n\nThank you.\n\n ",
+  "closing": true,
+  "out": "Sincerely,\n\nWarm regards,\n\nline\twith tab\n\nThank you."
+ },
+ {
+  "text": "Nary - acme ltd\r\n Regards    ",
+  "closing": false,
+  "out": "Nary - acme ltd\r\n Regards"
+ },
+ {
+  "text": "Nary - acme ltd\r\n Regards    ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards,\n",
+  "closing": false,
+  "out": "Best regards,"
+ },
+ {
+  "text": "Best regards,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\n\t\r\n— Nary\r\nWith regards\r\n\u001c\r\nKind regards.",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\r\n\t\r\n— Nary\r\nWith regards\r\n\u001c\r\nKind regards."
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\n\t\r\n— Nary\r\nWith regards\r\n\u001c\r\nKind regards.",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "  \nYours faithfully,\n<b>bold</b> & \"quoted\" 'single'\nBest\nRegards  ",
+  "closing": false,
+  "out": "  \nYours faithfully,\n<b>bold</b> & \"quoted\" 'single'\nBest\nRegards"
+ },
+ {
+  "text": "  \nYours faithfully,\n<b>bold</b> & \"quoted\" 'single'\nBest\nRegards  ",
+  "closing": true,
+  "out": "  \nYours faithfully,\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Cheers!\nWe look forward to your reply.\n<b>bold</b> & \"quoted\" 'single'\nNary - acme ltd\nKind regards.\n",
+  "closing": false,
+  "out": "Cheers!\nWe look forward to your reply.\n<b>bold</b> & \"quoted\" 'single'\nNary - acme ltd\nKind regards."
+ },
+ {
+  "text": "Cheers!\nWe look forward to your reply.\n<b>bold</b> & \"quoted\" 'single'\nNary - acme ltd\nKind regards.\n",
+  "closing": true,
+  "out": "Cheers!\nWe look forward to your reply.\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "é ü ñ 😀\r\nnary\r\nbest regards\r\n_— Nary, GRANARY_\n",
+  "closing": false,
+  "out": "é ü ñ 😀\r\nnary\r\nbest regards"
+ },
+ {
+  "text": "é ü ñ 😀\r\nnary\r\nbest regards\r\n_— Nary, GRANARY_\n",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "[Name]\n\nYours faithfully\n\n  \n\nThank you.\n\nNary\r",
+  "closing": false,
+  "out": "[Name]\n\nYours faithfully\n\n  \n\nThank you."
+ },
+ {
+  "text": "[Name]\n\nYours faithfully\n\n  \n\nThank you.\n\nNary\r",
+  "closing": true,
+  "out": "[Name]\n\nYours faithfully\n\n  \n\nThank you."
+ },
+ {
+  "text": "\u001c\nRegards,\r",
+  "closing": false,
+  "out": "\u001c\nRegards,"
+ },
+ {
+  "text": "\u001c\nRegards,\r",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " Regards  \nNary - acme ltd\n—\nWarmest regards",
+  "closing": false,
+  "out": " Regards  \nNary - acme ltd\n—\nWarmest regards"
+ },
+ {
+  "text": " Regards  \nNary - acme ltd\n—\nWarmest regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Yours faithfully\n",
+  "closing": false,
+  "out": "Yours faithfully"
+ },
+ {
+  "text": "Yours faithfully\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Kind regards.\n Regards  \n Regards  \n",
+  "closing": false,
+  "out": "Kind regards.\n Regards  \n Regards"
+ },
+ {
+  "text": "Kind regards.\n Regards  \n Regards  \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\n\n Regards  \n\nNary, Acme Ltd\n\nline\twith tab\n\nNary\u001c\n",
+  "closing": false,
+  "out": "Nary\u001c\n\n Regards  \n\nNary, Acme Ltd\n\nline\twith tab"
+ },
+ {
+  "text": "Nary\u001c\n\n Regards  \n\nNary, Acme Ltd\n\nline\twith tab\n\nNary\u001c\n",
+  "closing": true,
+  "out": "Nary\u001c\n\n Regards  \n\nNary, Acme Ltd\n\nline\twith tab"
+ },
+ {
+  "text": "nary\n\nYours faithfully\n\n[Name]\n\nYours faithfully  ",
+  "closing": false,
+  "out": "nary\n\nYours faithfully\n\n[Name]\n\nYours faithfully"
+ },
+ {
+  "text": "nary\n\nYours faithfully\n\n[Name]\n\nYours faithfully  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\r\nWarm regards!  ",
+  "closing": false,
+  "out": "Nary - acme ltd\r\nWarm regards!"
+ },
+ {
+  "text": "Nary - acme ltd\r\nWarm regards!  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "_— Nary, GRANARY_\r\n[NAME] \r\nYours faithfully,  ",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\r\n[NAME] \r\nYours faithfully,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\r\n[NAME] \r\nYours faithfully,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "line\twith tab\né ü ñ 😀\nWarmest regards\n Regards  \nAcme Ltd\n\n ",
+  "closing": false,
+  "out": "line\twith tab\né ü ñ 😀\nWarmest regards\n Regards"
+ },
+ {
+  "text": "line\twith tab\né ü ñ 😀\nWarmest regards\n Regards  \nAcme Ltd\n\n ",
+  "closing": true,
+  "out": "line\twith tab\né ü ñ 😀"
+ },
+ {
+  "text": " \n\nNARY , Acme Ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": " \n\nNARY , Acme Ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary Acme Ltd\nNARY , Acme Ltd\nNary\nNary - acme ltd\nSincerely,\nWe look forward to your reply.\nThanks,",
+  "closing": false,
+  "out": "Nary Acme Ltd\nNARY , Acme Ltd\nNary\nNary - acme ltd\nSincerely,\nWe look forward to your reply.\nThanks,"
+ },
+ {
+  "text": "Nary Acme Ltd\nNARY , Acme Ltd\nNary\nNary - acme ltd\nSincerely,\nWe look forward to your reply.\nThanks,",
+  "closing": true,
+  "out": "Nary Acme Ltd\nNARY , Acme Ltd\nNary\nNary - acme ltd\nSincerely,\nWe look forward to your reply.\nThanks,"
+ },
+ {
+  "text": "Nary\n\nAcme Ltd\n\nThank you.\n\n\u001c\n\n—\n\nNary - acme ltd\n",
+  "closing": false,
+  "out": "Nary\n\nAcme Ltd\n\nThank you."
+ },
+ {
+  "text": "Nary\n\nAcme Ltd\n\nThank you.\n\n\u001c\n\n—\n\nNary - acme ltd\n",
+  "closing": true,
+  "out": "Nary\n\nAcme Ltd\n\nThank you."
+ },
+ {
+  "text": "Nary Acme Ltd\r\nNary\n",
+  "closing": false,
+  "out": "Nary Acme Ltd"
+ },
+ {
+  "text": "Nary Acme Ltd\r\nNary\n",
+  "closing": true,
+  "out": "Nary Acme Ltd"
+ },
+ {
+  "text": "Sincerely,\r\nYours faithfully,\n",
+  "closing": false,
+  "out": "Sincerely,\r\nYours faithfully,"
+ },
+ {
+  "text": "Sincerely,\r\nYours faithfully,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\n\nWe look forward to your reply.\n\n ",
+  "closing": false,
+  "out": "Thanks,\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Thanks,\n\nWe look forward to your reply.\n\n ",
+  "closing": true,
+  "out": "Thanks,\n\nWe look forward to your reply."
+ },
+ {
+  "text": "  \r\nnary\r\nHello Mr John,\n\n ",
+  "closing": false,
+  "out": "  \r\nnary\r\nHello Mr John,"
+ },
+ {
+  "text": "  \r\nnary\r\nHello Mr John,\n\n ",
+  "closing": true,
+  "out": "  \r\nnary\r\nHello Mr John,"
+ },
+ {
+  "text": " \n[Name]\nCheers!\n_— Nary, GRANARY_  ",
+  "closing": false,
+  "out": " \n[Name]\nCheers!"
+ },
+ {
+  "text": " \n[Name]\nCheers!\n_— Nary, GRANARY_  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " Regards  ",
+  "closing": false,
+  "out": " Regards"
+ },
+ {
+  "text": " Regards  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thank you.\r\nWarm regards!\r\nbest regards\r\n—\r\n  ",
+  "closing": false,
+  "out": "Thank you.\r\nWarm regards!\r\nbest regards"
+ },
+ {
+  "text": "Thank you.\r\nWarm regards!\r\nbest regards\r\n—\r\n  ",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "Hello Mr John,\r\nKind regards.\r\nYours faithfully,\r\nWe look forward to your reply.\r\n[NAME] \r\nBest regards,\n\n ",
+  "closing": false,
+  "out": "Hello Mr John,\r\nKind regards.\r\nYours faithfully,\r\nWe look forward to your reply.\r\n[NAME] \r\nBest regards,"
+ },
+ {
+  "text": "Hello Mr John,\r\nKind regards.\r\nYours faithfully,\r\nWe look forward to your reply.\r\n[NAME] \r\nBest regards,\n\n ",
+  "closing": true,
+  "out": "Hello Mr John,\r\nKind regards.\r\nYours faithfully,\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Yours faithfully,\nBest regards,\nNary\nNary, Acme Ltd\nCheers!\n\n ",
+  "closing": false,
+  "out": "Yours faithfully,\nBest regards,\nNary\nNary, Acme Ltd\nCheers!"
+ },
+ {
+  "text": "Yours faithfully,\nBest regards,\nNary\nNary, Acme Ltd\nCheers!\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\u001c\nacme ltd \nWith regards\n\n ",
+  "closing": false,
+  "out": "\u001c\nacme ltd \nWith regards"
+ },
+ {
+  "text": "\u001c\nacme ltd \nWith regards\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "best regards\n\nNary Acme Ltd\n\n[name]\n\nThank you.\n",
+  "closing": false,
+  "out": "best regards\n\nNary Acme Ltd\n\n[name]\n\nThank you."
+ },
+ {
+  "text": "best regards\n\nNary Acme Ltd\n\n[name]\n\nThank you.\n",
+  "closing": true,
+  "out": "best regards\n\nNary Acme Ltd\n\n[name]\n\nThank you."
+ },
+ {
+  "text": " Regards  ",
+  "closing": false,
+  "out": " Regards"
+ },
+ {
+  "text": " Regards  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "— Nary  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "— Nary  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nbest regards\r\nacme ltd \r\n_— Nary, GRANARY_\r\nHello Mr John,",
+  "closing": false,
+  "out": "Nary - acme ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nbest regards\r\nacme ltd \r\n_— Nary, GRANARY_\r\nHello Mr John,"
+ },
+ {
+  "text": "Nary - acme ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nbest regards\r\nacme ltd \r\n_— Nary, GRANARY_\r\nHello Mr John,",
+  "closing": true,
+  "out": "Nary - acme ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nbest regards\r\nacme ltd \r\n_— Nary, GRANARY_\r\nHello Mr John,"
+ },
+ {
+  "text": "Warmest regards",
+  "closing": false,
+  "out": "Warmest regards"
+ },
+ {
+  "text": "Warmest regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[NAME] ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[NAME] ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "    ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "    ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " \né ü ñ 😀",
+  "closing": false,
+  "out": " \né ü ñ 😀"
+ },
+ {
+  "text": " \né ü ñ 😀",
+  "closing": true,
+  "out": " \né ü ñ 😀"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\r\nNary - acme ltd\r\nCheers!\r\nNary\r\n  \r\n  \n",
+  "closing": false,
+  "out": "Regards,\r\nNary - acme ltd\r\nCheers!"
+ },
+ {
+  "text": "Regards,\r\nNary - acme ltd\r\nCheers!\r\nNary\r\n  \r\n  \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\r\n\u001c\r\nBest regards, Nary\r\n[name]\r\nNary, Acme Ltd\n",
+  "closing": false,
+  "out": "Warmest regards\r\n\u001c\r\nBest regards, Nary"
+ },
+ {
+  "text": "Warmest regards\r\n\u001c\r\nBest regards, Nary\r\n[name]\r\nNary, Acme Ltd\n",
+  "closing": true,
+  "out": "Warmest regards\r\n\u001c\r\nBest regards, Nary"
+ },
+ {
+  "text": "Nary - acme ltd\n  \nThank you.\n\n ",
+  "closing": false,
+  "out": "Nary - acme ltd\n  \nThank you."
+ },
+ {
+  "text": "Nary - acme ltd\n  \nThank you.\n\n ",
+  "closing": true,
+  "out": "Nary - acme ltd\n  \nThank you."
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "best regards\r\n\t\r\nThanks,\n",
+  "closing": false,
+  "out": "best regards\r\n\t\r\nThanks,"
+ },
+ {
+  "text": "best regards\r\n\t\r\nThanks,\n",
+  "closing": true,
+  "out": "best regards\r\n\t\r\nThanks,"
+ },
+ {
+  "text": "  \nAcme Ltd\n Regards  \n_— Nary, GRANARY_\n\nWith regards\nWarmest regards\n",
+  "closing": false,
+  "out": "  \nAcme Ltd\n Regards  \n_— Nary, GRANARY_\n\nWith regards\nWarmest regards"
+ },
+ {
+  "text": "  \nAcme Ltd\n Regards  \n_— Nary, GRANARY_\n\nWith regards\nWarmest regards\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\r\nBest\r\nline\twith tab\r\nWe look forward to your reply.\r\n[NAME] \r\nWarm regards,\n\n ",
+  "closing": false,
+  "out": "Warmest regards\r\nBest\r\nline\twith tab\r\nWe look forward to your reply.\r\n[NAME] \r\nWarm regards,"
+ },
+ {
+  "text": "Warmest regards\r\nBest\r\nline\twith tab\r\nWe look forward to your reply.\r\n[NAME] \r\nWarm regards,\n\n ",
+  "closing": true,
+  "out": "Warmest regards\r\nBest\r\nline\twith tab\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Nary - acme ltd\nline\twith tab\nNary\r\n",
+  "closing": false,
+  "out": "Nary - acme ltd\nline\twith tab"
+ },
+ {
+  "text": "Nary - acme ltd\nline\twith tab\nNary\r\n",
+  "closing": true,
+  "out": "Nary - acme ltd\nline\twith tab"
+ },
+ {
+  "text": "Nary\u001c\nWarm regards!\n— Nary\nAcme Ltd\nHello Mr John,\nThanks,\n",
+  "closing": false,
+  "out": "Nary\u001c\nWarm regards!\n— Nary\nAcme Ltd\nHello Mr John,\nThanks,"
+ },
+ {
+  "text": "Nary\u001c\nWarm regards!\n— Nary\nAcme Ltd\nHello Mr John,\nThanks,\n",
+  "closing": true,
+  "out": "Nary\u001c\nWarm regards!\n— Nary\nAcme Ltd\nHello Mr John,\nThanks,"
+ },
+ {
+  "text": "acme ltd \r\nWarm regards!\r\nHello Mr John,\r\nNary\u001c\r\nSincerely,\n\n ",
+  "closing": false,
+  "out": "acme ltd \r\nWarm regards!\r\nHello Mr John,\r\nNary\u001c\r\nSincerely,"
+ },
+ {
+  "text": "acme ltd \r\nWarm regards!\r\nHello Mr John,\r\nNary\u001c\r\nSincerely,\n\n ",
+  "closing": true,
+  "out": "acme ltd \r\nWarm regards!\r\nHello Mr John,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\nThanks,\n\n ",
+  "closing": false,
+  "out": "Nary,Acme Ltd\r\n\nThanks,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\nThanks,\n\n ",
+  "closing": true,
+  "out": "Nary,Acme Ltd\r\n\nThanks,"
+ },
+ {
+  "text": "[Name]\n\nSincerely,\n\n— Nary\n\nacme ltd \n\n[name]\n\n ",
+  "closing": false,
+  "out": "[Name]\n\nSincerely,"
+ },
+ {
+  "text": "[Name]\n\nSincerely,\n\n— Nary\n\nacme ltd \n\n[name]\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards!\n\nline\twith tab\n\nNary\r\n",
+  "closing": false,
+  "out": "Warm regards!\n\nline\twith tab"
+ },
+ {
+  "text": "Warm regards!\n\nline\twith tab\n\nNary\r\n",
+  "closing": true,
+  "out": "Warm regards!\n\nline\twith tab"
+ },
+ {
+  "text": "Thank you.\nBest\n—\nNary\u001c\nNary\nnary\n\n ",
+  "closing": false,
+  "out": "Thank you.\nBest"
+ },
+ {
+  "text": "Thank you.\nBest\n—\nNary\u001c\nNary\nnary\n\n ",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\r\n  \r\n_— Nary, GRANARY_\r\nWarm  regards\r\nWarm regards,  ",
+  "closing": false,
+  "out": "Warmest regards\r\n  \r\n_— Nary, GRANARY_\r\nWarm  regards\r\nWarm regards,"
+ },
+ {
+  "text": "Warmest regards\r\n  \r\n_— Nary, GRANARY_\r\nWarm  regards\r\nWarm regards,  ",
+  "closing": true,
+  "out": "Warmest regards\r\n  \r\n_— Nary, GRANARY_\r\nWarm  regards"
+ },
+ {
+  "text": "—\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "—\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " Regards  \n\n— Nary\n\n ",
+  "closing": false,
+  "out": " Regards"
+ },
+ {
+  "text": " Regards  \n\n— Nary\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Yours faithfully,  ",
+  "closing": false,
+  "out": "Yours faithfully,"
+ },
+ {
+  "text": "Yours faithfully,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Cheers!\nRegards,\r\n",
+  "closing": false,
+  "out": "Cheers!\nRegards,"
+ },
+ {
+  "text": "Cheers!\nRegards,\r\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n\nYours faithfully\n\nline\twith tab\n",
+  "closing": false,
+  "out": "Nary·Acme Ltd\n\nYours faithfully\n\nline\twith tab"
+ },
+ {
+  "text": "Nary·Acme Ltd\n\nYours faithfully\n\nline\twith tab\n",
+  "closing": true,
+  "out": "Nary·Acme Ltd\n\nYours faithfully\n\nline\twith tab"
+ },
+ {
+  "text": "line\twith tab\n\nWarmest regards",
+  "closing": false,
+  "out": "line\twith tab\n\nWarmest regards"
+ },
+ {
+  "text": "line\twith tab\n\nWarmest regards",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": " \nline\twith tab\nWarm  regards",
+  "closing": false,
+  "out": " \nline\twith tab\nWarm  regards"
+ },
+ {
+  "text": " \nline\twith tab\nWarm  regards",
+  "closing": true,
+  "out": " \nline\twith tab\nWarm  regards"
+ },
+ {
+  "text": "[Name]\n\u001c\nNary\nCheers!\nline\twith tab\nWarm regards,\n\n ",
+  "closing": false,
+  "out": "[Name]\n\u001c\nNary\nCheers!\nline\twith tab\nWarm regards,"
+ },
+ {
+  "text": "[Name]\n\u001c\nNary\nCheers!\nline\twith tab\nWarm regards,\n\n ",
+  "closing": true,
+  "out": "[Name]\n\u001c\nNary\nCheers!\nline\twith tab"
+ },
+ {
+  "text": "Nary·Acme Ltd\r\nRegards,\r\n  \n",
+  "closing": false,
+  "out": "Nary·Acme Ltd\r\nRegards,"
+ },
+ {
+  "text": "Nary·Acme Ltd\r\nRegards,\r\n  \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Kind regards.\n\nNary - acme ltd\n",
+  "closing": false,
+  "out": "Kind regards."
+ },
+ {
+  "text": "Kind regards.\n\nNary - acme ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  \r\nKind regards.\r\nYours faithfully,\r\n[name]\r\nCheers!\r\nBest  ",
+  "closing": false,
+  "out": "  \r\nKind regards.\r\nYours faithfully,\r\n[name]\r\nCheers!\r\nBest"
+ },
+ {
+  "text": "  \r\nKind regards.\r\nYours faithfully,\r\n[name]\r\nCheers!\r\nBest  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "_— Nary, GRANARY_\n Regards  \n Regards  \n<b>bold</b> & \"quoted\" 'single'\n—",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\n Regards  \n Regards  \n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n Regards  \n Regards  \n<b>bold</b> & \"quoted\" 'single'\n—",
+  "closing": true,
+  "out": "_— Nary, GRANARY_\n Regards  \n Regards  \n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Nary Acme Ltd\n\nNary\u001c\n\nNary - acme ltd\n\nThanks,\n\n  ",
+  "closing": false,
+  "out": "Nary Acme Ltd\n\nNary\u001c\n\nNary - acme ltd\n\nThanks,"
+ },
+ {
+  "text": "Nary Acme Ltd\n\nNary\u001c\n\nNary - acme ltd\n\nThanks,\n\n  ",
+  "closing": true,
+  "out": "Nary Acme Ltd\n\nNary\u001c\n\nNary - acme ltd\n\nThanks,"
+ },
+ {
+  "text": "NARY , Acme Ltd\n\nNary\u001c\n\nRegards,\n\nKind regards.\n\n\u001c\n\n ",
+  "closing": false,
+  "out": "NARY , Acme Ltd\n\nNary\u001c\n\nRegards,\n\nKind regards."
+ },
+ {
+  "text": "NARY , Acme Ltd\n\nNary\u001c\n\nRegards,\n\nKind regards.\n\n\u001c\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "With regards\r\n—\r\nRegards  ",
+  "closing": false,
+  "out": "With regards\r\n—\r\nRegards"
+ },
+ {
+  "text": "With regards\r\n—\r\nRegards  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\n[Name]  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\n[Name]  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards!  ",
+  "closing": false,
+  "out": "Warm regards!"
+ },
+ {
+  "text": "Warm regards!  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best\r\nThanks,\r\nSincerely,\r\nCheers!  ",
+  "closing": false,
+  "out": "Best\r\nThanks,\r\nSincerely,\r\nCheers!"
+ },
+ {
+  "text": "Best\r\nThanks,\r\nSincerely,\r\nCheers!  ",
+  "closing": true,
+  "out": "Best\r\nThanks,"
+ },
+ {
+  "text": "Thanks,\n\nNARY , Acme Ltd\n\n   ",
+  "closing": false,
+  "out": "Thanks,"
+ },
+ {
+  "text": "Thanks,\n\nNARY , Acme Ltd\n\n   ",
+  "closing": true,
+  "out": "Thanks,"
+ },
+ {
+  "text": "Nary\u001c\r\nThank you.\r\n\t\r\nNary Acme Ltd\r\nNary - acme ltd\r\n[Name]\r\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": false,
+  "out": "Nary\u001c\r\nThank you.\r\n\t\r\nNary Acme Ltd\r\nNary - acme ltd\r\n[Name]\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Nary\u001c\r\nThank you.\r\n\t\r\nNary Acme Ltd\r\nNary - acme ltd\r\n[Name]\r\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": true,
+  "out": "Nary\u001c\r\nThank you.\r\n\t\r\nNary Acme Ltd\r\nNary - acme ltd\r\n[Name]\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n\nRegards,\n\n ",
+  "closing": false,
+  "out": "Nary·Acme Ltd\n\nRegards,"
+ },
+ {
+  "text": "Nary·Acme Ltd\n\nRegards,\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n_— Nary, GRANARY_\nnary\nAcme Ltd  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n_— Nary, GRANARY_\nnary\nAcme Ltd  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "—\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "—\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[name]\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[name]\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary, Acme Ltd\nNARY , Acme Ltd\nNary\né ü ñ 😀\nWarm  regards\n\n ",
+  "closing": false,
+  "out": "Nary, Acme Ltd\nNARY , Acme Ltd\nNary\né ü ñ 😀\nWarm  regards"
+ },
+ {
+  "text": "Nary, Acme Ltd\nNARY , Acme Ltd\nNary\né ü ñ 😀\nWarm  regards\n\n ",
+  "closing": true,
+  "out": "Nary, Acme Ltd\nNARY , Acme Ltd\nNary\né ü ñ 😀\nWarm  regards"
+ },
+ {
+  "text": "Yours faithfully\n\nWith regards\n\nBest regards,\n\nRegards,\r\n\nThanks,",
+  "closing": false,
+  "out": "Yours faithfully\n\nWith regards\n\nBest regards,\n\nRegards,\r\n\nThanks,"
+ },
+ {
+  "text": "Yours faithfully\n\nWith regards\n\nBest regards,\n\nRegards,\r\n\nThanks,",
+  "closing": true,
+  "out": "Yours faithfully\n\nWith regards\n\nBest regards,\n\nRegards,\r\n\nThanks,"
+ },
+ {
+  "text": "With regards",
+  "closing": false,
+  "out": "With regards"
+ },
+ {
+  "text": "With regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\nNary\r\nNary\u001c\nWarm regards,\nThanks,\nRegards,\r\nHello Mr John,",
+  "closing": false,
+  "out": "Regards,\nNary\r\nNary\u001c\nWarm regards,\nThanks,\nRegards,\r\nHello Mr John,"
+ },
+ {
+  "text": "Regards,\nNary\r\nNary\u001c\nWarm regards,\nThanks,\nRegards,\r\nHello Mr John,",
+  "closing": true,
+  "out": "Regards,\nNary\r\nNary\u001c\nWarm regards,\nThanks,\nRegards,\r\nHello Mr John,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nnary",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nnary",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " Regards  \n\nYours faithfully,",
+  "closing": false,
+  "out": " Regards  \n\nYours faithfully,"
+ },
+ {
+  "text": " Regards  \n\nYours faithfully,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "—\r\n \r\nNary,Acme Ltd\r\r\nWith regards\r\nacme ltd \r\nSincerely,\r\n\t",
+  "closing": false,
+  "out": "—\r\n \r\nNary,Acme Ltd\r\r\nWith regards\r\nacme ltd \r\nSincerely,"
+ },
+ {
+  "text": "—\r\n \r\nNary,Acme Ltd\r\r\nWith regards\r\nacme ltd \r\nSincerely,\r\n\t",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "best regards\r\nnary\n\n ",
+  "closing": false,
+  "out": "best regards"
+ },
+ {
+  "text": "best regards\r\nnary\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "acme ltd \nCheers!",
+  "closing": false,
+  "out": "acme ltd \nCheers!"
+ },
+ {
+  "text": "acme ltd \nCheers!",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\nNary,Acme Ltd\r\nSincerely,\n  \n",
+  "closing": false,
+  "out": "Warmest regards\nNary,Acme Ltd\r\nSincerely,"
+ },
+ {
+  "text": "Warmest regards\nNary,Acme Ltd\r\nSincerely,\n  \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards,\r\nRegards",
+  "closing": false,
+  "out": "Best regards,\r\nRegards"
+ },
+ {
+  "text": "Best regards,\r\nRegards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards, Nary\nCheers!\nKind regards.",
+  "closing": false,
+  "out": "Best regards, Nary\nCheers!\nKind regards."
+ },
+ {
+  "text": "Best regards, Nary\nCheers!\nKind regards.",
+  "closing": true,
+  "out": "Best regards, Nary"
+ },
+ {
+  "text": "Cheers!\n[NAME] \nacme ltd \n Regards  \nNary\n— Nary\nYours faithfully,",
+  "closing": false,
+  "out": "Cheers!\n[NAME] \nacme ltd \n Regards  \nNary\n— Nary\nYours faithfully,"
+ },
+ {
+  "text": "Cheers!\n[NAME] \nacme ltd \n Regards  \nNary\n— Nary\nYours faithfully,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Cheers!\n\nacme ltd \n\nKind regards.\n\nBest regards, Nary\n\n ",
+  "closing": false,
+  "out": "Cheers!\n\nacme ltd \n\nKind regards.\n\nBest regards, Nary"
+ },
+ {
+  "text": "Cheers!\n\nacme ltd \n\nKind regards.\n\nBest regards, Nary\n\n ",
+  "closing": true,
+  "out": "Cheers!\n\nacme ltd \n\nKind regards.\n\nBest regards, Nary"
+ },
+ {
+  "text": "Best\nYours faithfully",
+  "closing": false,
+  "out": "Best\nYours faithfully"
+ },
+ {
+  "text": "Best\nYours faithfully",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\r\nline\twith tab\r\nThanks,\r\nNary\u001c\r\nSincerely,\r\nWith regards\r\nNary Acme Ltd",
+  "closing": false,
+  "out": "Nary\u001c\r\nline\twith tab\r\nThanks,\r\nNary\u001c\r\nSincerely,\r\nWith regards\r\nNary Acme Ltd"
+ },
+ {
+  "text": "Nary\u001c\r\nline\twith tab\r\nThanks,\r\nNary\u001c\r\nSincerely,\r\nWith regards\r\nNary Acme Ltd",
+  "closing": true,
+  "out": "Nary\u001c\r\nline\twith tab\r\nThanks,\r\nNary\u001c\r\nSincerely,\r\nWith regards\r\nNary Acme Ltd"
+ },
+ {
+  "text": "Nary\u001c\r\nNary\u001c\r\nacme ltd \r\n \r\nBest regards, Nary\n",
+  "closing": false,
+  "out": "Nary\u001c\r\nNary\u001c\r\nacme ltd \r\n \r\nBest regards, Nary"
+ },
+ {
+  "text": "Nary\u001c\r\nNary\u001c\r\nacme ltd \r\n \r\nBest regards, Nary\n",
+  "closing": true,
+  "out": "Nary\u001c\r\nNary\u001c\r\nacme ltd \r\n \r\nBest regards, Nary"
+ },
+ {
+  "text": "—\r\nYours faithfully,\r\n\r\n[name]\r\nHello Mr John,\n",
+  "closing": false,
+  "out": "—\r\nYours faithfully,\r\n\r\n[name]\r\nHello Mr John,"
+ },
+ {
+  "text": "—\r\nYours faithfully,\r\n\r\n[name]\r\nHello Mr John,\n",
+  "closing": true,
+  "out": "—\r\nYours faithfully,\r\n\r\n[name]\r\nHello Mr John,"
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nWarm  regards\r\nRegards,\r\nNary\u001c  ",
+  "closing": false,
+  "out": "NARY , Acme Ltd\r\nWarm  regards\r\nRegards,"
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nWarm  regards\r\nRegards,\r\nNary\u001c  ",
+  "closing": true,
+  "out": "NARY , Acme Ltd\r\nWarm  regards"
+ },
+ {
+  "text": "best regards\n\nNary Acme Ltd\n\n ",
+  "closing": false,
+  "out": "best regards\n\nNary Acme Ltd"
+ },
+ {
+  "text": "best regards\n\nNary Acme Ltd\n\n ",
+  "closing": true,
+  "out": "best regards\n\nNary Acme Ltd"
+ },
+ {
+  "text": "line\twith tab  ",
+  "closing": false,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "line\twith tab  ",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "best regards\r\nnary  ",
+  "closing": false,
+  "out": "best regards"
+ },
+ {
+  "text": "best regards\r\nnary  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\n\nThanks,\n\nWarm regards,\n\nKind regards.\n\nNary Acme Ltd\n\n ",
+  "closing": false,
+  "out": "Warmest regards\n\nThanks,\n\nWarm regards,\n\nKind regards.\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Warmest regards\n\nThanks,\n\nWarm regards,\n\nKind regards.\n\nNary Acme Ltd\n\n ",
+  "closing": true,
+  "out": "Warmest regards\n\nThanks,\n\nWarm regards,\n\nKind regards.\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Nary\r\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary\r\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\nRegards\nRegards\n",
+  "closing": false,
+  "out": "NARY , Acme Ltd\nRegards\nRegards"
+ },
+ {
+  "text": "NARY , Acme Ltd\nRegards\nRegards\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards!\r\n<b>bold</b> & \"quoted\" 'single'\r\n\n",
+  "closing": false,
+  "out": "Warm regards!\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Warm regards!\r\n<b>bold</b> & \"quoted\" 'single'\r\n\n",
+  "closing": true,
+  "out": "Warm regards!\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Warmest regards\r\nYours faithfully,",
+  "closing": false,
+  "out": "Warmest regards\r\nYours faithfully,"
+ },
+ {
+  "text": "Warmest regards\r\nYours faithfully,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " Regards  \nNary,Acme Ltd\r",
+  "closing": false,
+  "out": " Regards"
+ },
+ {
+  "text": " Regards  \nNary,Acme Ltd\r",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\nHello Mr John,\n—",
+  "closing": false,
+  "out": "\nHello Mr John,"
+ },
+ {
+  "text": "\nHello Mr John,\n—",
+  "closing": true,
+  "out": "\nHello Mr John,"
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary, Acme Ltd\n\nRegards,\n\nNary,Acme Ltd\r\n\nAcme Ltd\n",
+  "closing": false,
+  "out": "Nary, Acme Ltd\n\nRegards,"
+ },
+ {
+  "text": "Nary, Acme Ltd\n\nRegards,\n\nNary,Acme Ltd\r\n\nAcme Ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\nThank you.\nThanks,\n\n ",
+  "closing": false,
+  "out": "Nary·Acme Ltd\nThank you.\nThanks,"
+ },
+ {
+  "text": "Nary·Acme Ltd\nThank you.\nThanks,\n\n ",
+  "closing": true,
+  "out": "Nary·Acme Ltd\nThank you.\nThanks,"
+ },
+ {
+  "text": "Regards  ",
+  "closing": false,
+  "out": "Regards"
+ },
+ {
+  "text": "Regards  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\r\nCheers!\r\nNary,Acme Ltd\r\r\nbest regards\r\nNary Acme Ltd\n\n ",
+  "closing": false,
+  "out": "Regards,\r\nCheers!\r\nNary,Acme Ltd\r\r\nbest regards\r\nNary Acme Ltd"
+ },
+ {
+  "text": "Regards,\r\nCheers!\r\nNary,Acme Ltd\r\r\nbest regards\r\nNary Acme Ltd\n\n ",
+  "closing": true,
+  "out": "Regards,\r\nCheers!\r\nNary,Acme Ltd\r\r\nbest regards\r\nNary Acme Ltd"
+ },
+ {
+  "text": "[Name]  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[Name]  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[name]\nRegards,\r\n[Name]\nYours faithfully,\n\n ",
+  "closing": false,
+  "out": "[name]\nRegards,\r\n[Name]\nYours faithfully,"
+ },
+ {
+  "text": "[name]\nRegards,\r\n[Name]\nYours faithfully,\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Yours faithfully,\n\nNary\r\n\n \n",
+  "closing": false,
+  "out": "Yours faithfully,"
+ },
+ {
+  "text": "Yours faithfully,\n\nNary\r\n\n \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards,\n\nbest regards",
+  "closing": false,
+  "out": "Warm regards,\n\nbest regards"
+ },
+ {
+  "text": "Warm regards,\n\nbest regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\r\nWarm  regards\r\n \r\nNary·Acme Ltd\r\nline\twith tab",
+  "closing": false,
+  "out": "Thanks,\r\nWarm  regards\r\n \r\nNary·Acme Ltd\r\nline\twith tab"
+ },
+ {
+  "text": "Thanks,\r\nWarm  regards\r\n \r\nNary·Acme Ltd\r\nline\twith tab",
+  "closing": true,
+  "out": "Thanks,\r\nWarm  regards\r\n \r\nNary·Acme Ltd\r\nline\twith tab"
+ },
+ {
+  "text": "line\twith tab\r\nWarm  regards\n\n ",
+  "closing": false,
+  "out": "line\twith tab\r\nWarm  regards"
+ },
+ {
+  "text": "line\twith tab\r\nWarm  regards\n\n ",
+  "closing": true,
+  "out": "line\twith tab\r\nWarm  regards"
+ },
+ {
+  "text": "Nary Acme Ltd\nThanks,\nSincerely,\n—\nNary,Acme Ltd\r",
+  "closing": false,
+  "out": "Nary Acme Ltd\nThanks,\nSincerely,"
+ },
+ {
+  "text": "Nary Acme Ltd\nThanks,\nSincerely,\n—\nNary,Acme Ltd\r",
+  "closing": true,
+  "out": "Nary Acme Ltd\nThanks,"
+ },
+ {
+  "text": "[NAME] \nWarm regards,\n[name]\n Regards  \n Regards  \nNary Acme Ltd\nNary - acme ltd",
+  "closing": false,
+  "out": "[NAME] \nWarm regards,\n[name]\n Regards  \n Regards  \nNary Acme Ltd"
+ },
+ {
+  "text": "[NAME] \nWarm regards,\n[name]\n Regards  \n Regards  \nNary Acme Ltd\nNary - acme ltd",
+  "closing": true,
+  "out": "[NAME] \nWarm regards,\n[name]\n Regards  \n Regards  \nNary Acme Ltd"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "best regards\n\nNary\r\n\n[NAME] \n\n\t\n\n[name]\n\nacme ltd ",
+  "closing": false,
+  "out": "best regards"
+ },
+ {
+  "text": "best regards\n\nNary\r\n\n[NAME] \n\n\t\n\n[name]\n\nacme ltd ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Yours faithfully\n\n \n\n_— Nary, GRANARY_\n\nHello Mr John,\n\n ",
+  "closing": false,
+  "out": "Yours faithfully\n\n \n\n_— Nary, GRANARY_\n\nHello Mr John,"
+ },
+ {
+  "text": "Yours faithfully\n\n \n\n_— Nary, GRANARY_\n\nHello Mr John,\n\n ",
+  "closing": true,
+  "out": "Yours faithfully\n\n \n\n_— Nary, GRANARY_\n\nHello Mr John,"
+ },
+ {
+  "text": "Best regards, Nary\n\u001c\nNary\r\nWe look forward to your reply.\nline\twith tab\nNary, Acme Ltd\nWarm regards,\n",
+  "closing": false,
+  "out": "Best regards, Nary\n\u001c\nNary\r\nWe look forward to your reply.\nline\twith tab\nNary, Acme Ltd\nWarm regards,"
+ },
+ {
+  "text": "Best regards, Nary\n\u001c\nNary\r\nWe look forward to your reply.\nline\twith tab\nNary, Acme Ltd\nWarm regards,\n",
+  "closing": true,
+  "out": "Best regards, Nary\n\u001c\nNary\r\nWe look forward to your reply.\nline\twith tab"
+ },
+ {
+  "text": " \n\nHello Mr John,\n\nYours faithfully,\n\n    ",
+  "closing": false,
+  "out": " \n\nHello Mr John,\n\nYours faithfully,"
+ },
+ {
+  "text": " \n\nHello Mr John,\n\nYours faithfully,\n\n    ",
+  "closing": true,
+  "out": " \n\nHello Mr John,"
+ },
+ {
+  "text": "Warm regards,\nRegards,\r\nWarmest regards\nYours faithfully,\n",
+  "closing": false,
+  "out": "Warm regards,\nRegards,\r\nWarmest regards\nYours faithfully,"
+ },
+ {
+  "text": "Warm regards,\nRegards,\r\nWarmest regards\nYours faithfully,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Kind regards.\nacme ltd \n Regards  \n[NAME] \nRegards,\r\nWarm regards,\nWarm regards!\n",
+  "closing": false,
+  "out": "Kind regards.\nacme ltd \n Regards  \n[NAME] \nRegards,\r\nWarm regards,\nWarm regards!"
+ },
+ {
+  "text": "Kind regards.\nacme ltd \n Regards  \n[NAME] \nRegards,\r\nWarm regards,\nWarm regards!\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards, Nary\n\nYours faithfully\n\nnary\n\nWe look forward to your reply.  ",
+  "closing": false,
+  "out": "Best regards, Nary\n\nYours faithfully\n\nnary\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Best regards, Nary\n\nYours faithfully\n\nnary\n\nWe look forward to your reply.  ",
+  "closing": true,
+  "out": "Best regards, Nary\n\nYours faithfully\n\nnary\n\nWe look forward to your reply."
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\nWarmest regards\nWarm regards,\nNary\nYours faithfully\nYours faithfully\nCheers!\n",
+  "closing": false,
+  "out": "\nWarmest regards\nWarm regards,\nNary\nYours faithfully\nYours faithfully\nCheers!"
+ },
+ {
+  "text": "\nWarmest regards\nWarm regards,\nNary\nYours faithfully\nYours faithfully\nCheers!\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nNary, Acme Ltd\r\nYours faithfully\r\nYours faithfully,\r\nKind regards.\r\nWarm  regards\r\né ü ñ 😀",
+  "closing": false,
+  "out": "NARY , Acme Ltd\r\nNary, Acme Ltd\r\nYours faithfully\r\nYours faithfully,\r\nKind regards.\r\nWarm  regards\r\né ü ñ 😀"
+ },
+ {
+  "text": "NARY , Acme Ltd\r\nNary, Acme Ltd\r\nYours faithfully\r\nYours faithfully,\r\nKind regards.\r\nWarm  regards\r\né ü ñ 😀",
+  "closing": true,
+  "out": "NARY , Acme Ltd\r\nNary, Acme Ltd\r\nYours faithfully\r\nYours faithfully,\r\nKind regards.\r\nWarm  regards\r\né ü ñ 😀"
+ },
+ {
+  "text": "Warm  regards\n\nWarm regards,\n\nWith regards\n\n— Nary\n\n \n\nYours faithfully\n\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": false,
+  "out": "Warm  regards\n\nWarm regards,\n\nWith regards\n\n— Nary\n\n \n\nYours faithfully\n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Warm  regards\n\nWarm regards,\n\nWith regards\n\n— Nary\n\n \n\nYours faithfully\n\n<b>bold</b> & \"quoted\" 'single'\n\n ",
+  "closing": true,
+  "out": "Warm  regards\n\nWarm regards,\n\nWith regards\n\n— Nary\n\n \n\nYours faithfully\n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Warmest regards\n\nWarm regards!\n\n \n\n[Name]\n\n_— Nary, GRANARY_\n\n ",
+  "closing": false,
+  "out": "Warmest regards\n\nWarm regards!"
+ },
+ {
+  "text": "Warmest regards\n\nWarm regards!\n\n \n\n[Name]\n\n_— Nary, GRANARY_\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " \n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": " \n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[Name]\r\n_— Nary, GRANARY_\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[Name]\r\n_— Nary, GRANARY_\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "We look forward to your reply.\n",
+  "closing": false,
+  "out": "We look forward to your reply."
+ },
+ {
+  "text": "We look forward to your reply.\n",
+  "closing": true,
+  "out": "We look forward to your reply."
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nThanks,\nNary - acme ltd\n",
+  "closing": false,
+  "out": "Nary,Acme Ltd\r\nThanks,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nThanks,\nNary - acme ltd\n",
+  "closing": true,
+  "out": "Nary,Acme Ltd\r\nThanks,"
+ },
+ {
+  "text": "Thank you.\n\nNary - acme ltd\n\nWarmest regards",
+  "closing": false,
+  "out": "Thank you.\n\nNary - acme ltd\n\nWarmest regards"
+ },
+ {
+  "text": "Thank you.\n\nNary - acme ltd\n\nWarmest regards",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\nNary - acme ltd\n\nNary - acme ltd\n\nWarm regards!\n\nKind regards.\n\n  \n\nBest regards, Nary\n\n ",
+  "closing": false,
+  "out": "Nary,Acme Ltd\r\n\nNary - acme ltd\n\nNary - acme ltd\n\nWarm regards!\n\nKind regards.\n\n  \n\nBest regards, Nary"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\nNary - acme ltd\n\nNary - acme ltd\n\nWarm regards!\n\nKind regards.\n\n  \n\nBest regards, Nary\n\n ",
+  "closing": true,
+  "out": "Nary,Acme Ltd\r\n\nNary - acme ltd\n\nNary - acme ltd\n\nWarm regards!\n\nKind regards.\n\n  \n\nBest regards, Nary"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\r\nNary, Acme Ltd\r\nWith regards\r\n\r\nNary\u001c\r\nNary\r\nNary, Acme Ltd  ",
+  "closing": false,
+  "out": "Nary - acme ltd\r\nNary, Acme Ltd\r\nWith regards"
+ },
+ {
+  "text": "Nary - acme ltd\r\nNary, Acme Ltd\r\nWith regards\r\n\r\nNary\u001c\r\nNary\r\nNary, Acme Ltd  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "nary\r\nWarmest regards\r\nCheers!\r\nNary·Acme Ltd",
+  "closing": false,
+  "out": "nary\r\nWarmest regards\r\nCheers!"
+ },
+ {
+  "text": "nary\r\nWarmest regards\r\nCheers!\r\nNary·Acme Ltd",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "é ü ñ 😀\n\n[name]\n\nYours faithfully,  ",
+  "closing": false,
+  "out": "é ü ñ 😀\n\n[name]\n\nYours faithfully,"
+ },
+ {
+  "text": "é ü ñ 😀\n\n[name]\n\nYours faithfully,  ",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "line\twith tab\r\nRegards,\r\nHello Mr John,\r\nbest regards\r\n<b>bold</b> & \"quoted\" 'single'\r\n[name]\r\nRegards,\r\n",
+  "closing": false,
+  "out": "line\twith tab\r\nRegards,\r\nHello Mr John,\r\nbest regards\r\n<b>bold</b> & \"quoted\" 'single'\r\n[name]\r\nRegards,"
+ },
+ {
+  "text": "line\twith tab\r\nRegards,\r\nHello Mr John,\r\nbest regards\r\n<b>bold</b> & \"quoted\" 'single'\r\n[name]\r\nRegards,\r\n",
+  "closing": true,
+  "out": "line\twith tab\r\nRegards,\r\nHello Mr John,\r\nbest regards\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Kind regards.\nThank you.\nSincerely,\nBest\nRegards,\nNary,Acme Ltd\r\nnary  ",
+  "closing": false,
+  "out": "Kind regards.\nThank you.\nSincerely,\nBest\nRegards,"
+ },
+ {
+  "text": "Kind regards.\nThank you.\nSincerely,\nBest\nRegards,\nNary,Acme Ltd\r\nnary  ",
+  "closing": true,
+  "out": "Kind regards.\nThank you."
+ },
+ {
+  "text": "Nary\n\nWarm  regards\n\nBest regards,\n\n_— Nary, GRANARY_\n\nHello Mr John,\n\nNary,Acme Ltd\r",
+  "closing": false,
+  "out": "Nary\n\nWarm  regards\n\nBest regards,\n\n_— Nary, GRANARY_\n\nHello Mr John,"
+ },
+ {
+  "text": "Nary\n\nWarm  regards\n\nBest regards,\n\n_— Nary, GRANARY_\n\nHello Mr John,\n\nNary,Acme Ltd\r",
+  "closing": true,
+  "out": "Nary\n\nWarm  regards\n\nBest regards,\n\n_— Nary, GRANARY_\n\nHello Mr John,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\nNary\u001c\n\nNary - acme ltd\n\nNary\u001c\n\n[name]\n\nNary·Acme Ltd",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\nNary\u001c\n\nNary - acme ltd\n\nNary\u001c\n\n[name]\n\nNary·Acme Ltd",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\n\nHello Mr John,\n\n\n\nKind regards.\n\nHello Mr John,\n\n ",
+  "closing": false,
+  "out": "Regards,\n\nHello Mr John,\n\n\n\nKind regards.\n\nHello Mr John,"
+ },
+ {
+  "text": "Regards,\n\nHello Mr John,\n\n\n\nKind regards.\n\nHello Mr John,\n\n ",
+  "closing": true,
+  "out": "Regards,\n\nHello Mr John,\n\n\n\nKind regards.\n\nHello Mr John,"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thank you.\r\nBest\r\nnary\r\nNary - acme ltd\r\n[NAME] \n\n ",
+  "closing": false,
+  "out": "Thank you.\r\nBest"
+ },
+ {
+  "text": "Thank you.\r\nBest\r\nnary\r\nNary - acme ltd\r\n[NAME] \n\n ",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\n\nline\twith tab\n\nAcme Ltd\n\nWe look forward to your reply.",
+  "closing": false,
+  "out": "Sincerely,\n\nline\twith tab\n\nAcme Ltd\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Sincerely,\n\nline\twith tab\n\nAcme Ltd\n\nWe look forward to your reply.",
+  "closing": true,
+  "out": "Sincerely,\n\nline\twith tab\n\nAcme Ltd\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Hello Mr John,\n\n ",
+  "closing": false,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Hello Mr John,\n\n ",
+  "closing": true,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "— Nary\n \nline\twith tab\nYours faithfully,\nNary - acme ltd\nWith regards\nAcme Ltd  ",
+  "closing": false,
+  "out": "— Nary\n \nline\twith tab\nYours faithfully,\nNary - acme ltd\nWith regards"
+ },
+ {
+  "text": "— Nary\n \nline\twith tab\nYours faithfully,\nNary - acme ltd\nWith regards\nAcme Ltd  ",
+  "closing": true,
+  "out": "— Nary\n \nline\twith tab"
+ },
+ {
+  "text": "—\r\nRegards\r\nAcme Ltd\r\nnary\r\nRegards,  ",
+  "closing": false,
+  "out": "—\r\nRegards\r\nAcme Ltd\r\nnary\r\nRegards,"
+ },
+ {
+  "text": "—\r\nRegards\r\nAcme Ltd\r\nnary\r\nRegards,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "— Nary\r\nThanks,\r\n \r\nHello Mr John,\r\n\u001c\r\nBest regards, Nary\n",
+  "closing": false,
+  "out": "— Nary\r\nThanks,\r\n \r\nHello Mr John,\r\n\u001c\r\nBest regards, Nary"
+ },
+ {
+  "text": "— Nary\r\nThanks,\r\n \r\nHello Mr John,\r\n\u001c\r\nBest regards, Nary\n",
+  "closing": true,
+  "out": "— Nary\r\nThanks,\r\n \r\nHello Mr John,\r\n\u001c\r\nBest regards, Nary"
+ },
+ {
+  "text": " Regards  \n\nacme ltd \n\n<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nRegards,\n\n—\n\nKind regards.\n",
+  "closing": false,
+  "out": " Regards  \n\nacme ltd \n\n<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nRegards,\n\n—\n\nKind regards."
+ },
+ {
+  "text": " Regards  \n\nacme ltd \n\n<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nRegards,\n\n—\n\nKind regards.\n",
+  "closing": true,
+  "out": " Regards  \n\nacme ltd \n\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Cheers!\n\nSincerely,\n\nNary\r\n\nNary - acme ltd\n\nNary,Acme Ltd\r\n\nbest regards\n\n[name]\n",
+  "closing": false,
+  "out": "Cheers!\n\nSincerely,\n\nNary\r\n\nNary - acme ltd\n\nNary,Acme Ltd\r\n\nbest regards"
+ },
+ {
+  "text": "Cheers!\n\nSincerely,\n\nNary\r\n\nNary - acme ltd\n\nNary,Acme Ltd\r\n\nbest regards\n\n[name]\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  \r\n[name]\r\nBest\r\né ü ñ 😀\r\nNary - acme ltd\r\nWith regards\n",
+  "closing": false,
+  "out": "  \r\n[name]\r\nBest\r\né ü ñ 😀\r\nNary - acme ltd\r\nWith regards"
+ },
+ {
+  "text": "  \r\n[name]\r\nBest\r\né ü ñ 😀\r\nNary - acme ltd\r\nWith regards\n",
+  "closing": true,
+  "out": "  \r\n[name]\r\nBest\r\né ü ñ 😀"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "line\twith tab\r\nWarm regards,\r\nThank you.\r\nYours faithfully\r\nNARY , Acme Ltd\r\n\t\n",
+  "closing": false,
+  "out": "line\twith tab\r\nWarm regards,\r\nThank you.\r\nYours faithfully"
+ },
+ {
+  "text": "line\twith tab\r\nWarm regards,\r\nThank you.\r\nYours faithfully\r\nNARY , Acme Ltd\r\n\t\n",
+  "closing": true,
+  "out": "line\twith tab\r\nWarm regards,\r\nThank you."
+ },
+ {
+  "text": "\n  \n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n  \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best\r\nYours faithfully\r\nWarmest regards\r\n[NAME] \n",
+  "closing": false,
+  "out": "Best\r\nYours faithfully\r\nWarmest regards"
+ },
+ {
+  "text": "Best\r\nYours faithfully\r\nWarmest regards\r\n[NAME] \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\t\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[NAME]   ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[NAME]   ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\n\t\nNary Acme Ltd  ",
+  "closing": false,
+  "out": "Nary\n\t\nNary Acme Ltd"
+ },
+ {
+  "text": "Nary\n\t\nNary Acme Ltd  ",
+  "closing": true,
+  "out": "Nary\n\t\nNary Acme Ltd"
+ },
+ {
+  "text": "Best\r\n[Name]\r\nWith regards\r\nAcme Ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nWe look forward to your reply.  ",
+  "closing": false,
+  "out": "Best\r\n[Name]\r\nWith regards\r\nAcme Ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Best\r\n[Name]\r\nWith regards\r\nAcme Ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nWe look forward to your reply.  ",
+  "closing": true,
+  "out": "Best\r\n[Name]\r\nWith regards\r\nAcme Ltd\r\n<b>bold</b> & \"quoted\" 'single'\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Warm regards!\nline\twith tab\nBest regards,\nRegards,\n \nRegards,\nRegards",
+  "closing": false,
+  "out": "Warm regards!\nline\twith tab\nBest regards,\nRegards,\n \nRegards,\nRegards"
+ },
+ {
+  "text": "Warm regards!\nline\twith tab\nBest regards,\nRegards,\n \nRegards,\nRegards",
+  "closing": true,
+  "out": "Warm regards!\nline\twith tab"
+ },
+ {
+  "text": "Regards,\r\nline\twith tab\r\nBest regards,\r\n  \r\n[Name]",
+  "closing": false,
+  "out": "Regards,\r\nline\twith tab\r\nBest regards,"
+ },
+ {
+  "text": "Regards,\r\nline\twith tab\r\nBest regards,\r\n  \r\n[Name]",
+  "closing": true,
+  "out": "Regards,\r\nline\twith tab"
+ },
+ {
+  "text": "Best regards,\nHello Mr John,\n",
+  "closing": false,
+  "out": "Best regards,\nHello Mr John,"
+ },
+ {
+  "text": "Best regards,\nHello Mr John,\n",
+  "closing": true,
+  "out": "Best regards,\nHello Mr John,"
+ },
+ {
+  "text": "—\n\nWith regards\n\n\u001c\n\nWarm regards,\n\nBest regards,  ",
+  "closing": false,
+  "out": "—\n\nWith regards\n\n\u001c\n\nWarm regards,\n\nBest regards,"
+ },
+ {
+  "text": "—\n\nWith regards\n\n\u001c\n\nWarm regards,\n\nBest regards,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "— Nary\r\nRegards,\r",
+  "closing": false,
+  "out": "— Nary\r\nRegards,"
+ },
+ {
+  "text": "— Nary\r\nRegards,\r",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards,\nRegards,\nNARY , Acme Ltd",
+  "closing": false,
+  "out": "Warm regards,\nRegards,"
+ },
+ {
+  "text": "Warm regards,\nRegards,\nNARY , Acme Ltd",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " \nNary - acme ltd\nYours faithfully  ",
+  "closing": false,
+  "out": " \nNary - acme ltd\nYours faithfully"
+ },
+ {
+  "text": " \nNary - acme ltd\nYours faithfully  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thank you.\nBest  ",
+  "closing": false,
+  "out": "Thank you.\nBest"
+ },
+ {
+  "text": "Thank you.\nBest  ",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "Thank you.\r\nCheers!\r\n\n\n ",
+  "closing": false,
+  "out": "Thank you.\r\nCheers!"
+ },
+ {
+  "text": "Thank you.\r\nCheers!\r\n\n\n ",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": " Regards  \n_— Nary, GRANARY_\nNary Acme Ltd\nHello Mr John,\nline\twith tab",
+  "closing": false,
+  "out": " Regards  \n_— Nary, GRANARY_\nNary Acme Ltd\nHello Mr John,\nline\twith tab"
+ },
+ {
+  "text": " Regards  \n_— Nary, GRANARY_\nNary Acme Ltd\nHello Mr John,\nline\twith tab",
+  "closing": true,
+  "out": " Regards  \n_— Nary, GRANARY_\nNary Acme Ltd\nHello Mr John,\nline\twith tab"
+ },
+ {
+  "text": "—\n[name]\nRegards,\n",
+  "closing": false,
+  "out": "—\n[name]\nRegards,"
+ },
+ {
+  "text": "—\n[name]\nRegards,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[NAME] \n\u001c\nnary\nWarm regards!\nWarm regards!\nThank you.\nYours faithfully,",
+  "closing": false,
+  "out": "[NAME] \n\u001c\nnary\nWarm regards!\nWarm regards!\nThank you.\nYours faithfully,"
+ },
+ {
+  "text": "[NAME] \n\u001c\nnary\nWarm regards!\nWarm regards!\nThank you.\nYours faithfully,",
+  "closing": true,
+  "out": "[NAME] \n\u001c\nnary\nWarm regards!\nWarm regards!\nThank you."
+ },
+ {
+  "text": "Warmest regards\n\nThanks,\n\nNary - acme ltd\n\nWarmest regards\n\n_— Nary, GRANARY_\n\nWith regards\n",
+  "closing": false,
+  "out": "Warmest regards\n\nThanks,\n\nNary - acme ltd\n\nWarmest regards\n\n_— Nary, GRANARY_\n\nWith regards"
+ },
+ {
+  "text": "Warmest regards\n\nThanks,\n\nNary - acme ltd\n\nWarmest regards\n\n_— Nary, GRANARY_\n\nWith regards\n",
+  "closing": true,
+  "out": "Warmest regards\n\nThanks,"
+ },
+ {
+  "text": "[name]\né ü ñ 😀\nWarm regards!\nSincerely,\nYours faithfully,\n— Nary",
+  "closing": false,
+  "out": "[name]\né ü ñ 😀\nWarm regards!\nSincerely,\nYours faithfully,"
+ },
+ {
+  "text": "[name]\né ü ñ 😀\nWarm regards!\nSincerely,\nYours faithfully,\n— Nary",
+  "closing": true,
+  "out": "[name]\né ü ñ 😀"
+ },
+ {
+  "text": "Nary\r\n\r\nline\twith tab\r\nNary\r\nThank you.\r\n[name]\n",
+  "closing": false,
+  "out": "Nary\r\n\r\nline\twith tab\r\nNary\r\nThank you."
+ },
+ {
+  "text": "Nary\r\n\r\nline\twith tab\r\nNary\r\nThank you.\r\n[name]\n",
+  "closing": true,
+  "out": "Nary\r\n\r\nline\twith tab\r\nNary\r\nThank you."
+ },
+ {
+  "text": "Acme Ltd\nnary\n\u001c\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\nnary\n\u001c\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards!\r\nWith regards\r\nWarmest regards\r\n \r\n  \r\nRegards,\r\r\n—",
+  "closing": false,
+  "out": "Warm regards!\r\nWith regards\r\nWarmest regards\r\n \r\n  \r\nRegards,"
+ },
+ {
+  "text": "Warm regards!\r\nWith regards\r\nWarmest regards\r\n \r\n  \r\nRegards,\r\r\n—",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "nary\nBest\nNARY , Acme Ltd\nnary\nKind regards.\nNary\u001c\n_— Nary, GRANARY_\n",
+  "closing": false,
+  "out": "nary\nBest\nNARY , Acme Ltd\nnary\nKind regards."
+ },
+ {
+  "text": "nary\nBest\nNARY , Acme Ltd\nnary\nKind regards.\nNary\u001c\n_— Nary, GRANARY_\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "nary\n\n  \n\nnary\n\nNary\u001c\n\nRegards\n\n ",
+  "closing": false,
+  "out": "nary\n\n  \n\nnary\n\nNary\u001c\n\nRegards"
+ },
+ {
+  "text": "nary\n\n  \n\nnary\n\nNary\u001c\n\nRegards\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\nKind regards.\nNary\r\nBest\nWarm regards,\nacme ltd \nacme ltd ",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\nKind regards.\nNary\r\nBest\nWarm regards,"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\nKind regards.\nNary\r\nBest\nWarm regards,\nacme ltd \nacme ltd ",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thank you.\n\n_— Nary, GRANARY_\n\n  \n\nWarmest regards\n\nSincerely,\n\nYours faithfully,\n\nHello Mr John,",
+  "closing": false,
+  "out": "Thank you.\n\n_— Nary, GRANARY_\n\n  \n\nWarmest regards\n\nSincerely,\n\nYours faithfully,\n\nHello Mr John,"
+ },
+ {
+  "text": "Thank you.\n\n_— Nary, GRANARY_\n\n  \n\nWarmest regards\n\nSincerely,\n\nYours faithfully,\n\nHello Mr John,",
+  "closing": true,
+  "out": "Thank you.\n\n_— Nary, GRANARY_\n\n  \n\nWarmest regards\n\nSincerely,\n\nYours faithfully,\n\nHello Mr John,"
+ },
+ {
+  "text": "Thanks,\r\n[Name]\r\nNary\r\r\n<b>bold</b> & \"quoted\" 'single'",
+  "closing": false,
+  "out": "Thanks,\r\n[Name]\r\nNary\r\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Thanks,\r\n[Name]\r\nNary\r\r\n<b>bold</b> & \"quoted\" 'single'",
+  "closing": true,
+  "out": "Thanks,\r\n[Name]\r\nNary\r\r\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "nary\nNary Acme Ltd\né ü ñ 😀\n\n ",
+  "closing": false,
+  "out": "nary\nNary Acme Ltd\né ü ñ 😀"
+ },
+ {
+  "text": "nary\nNary Acme Ltd\né ü ñ 😀\n\n ",
+  "closing": true,
+  "out": "nary\nNary Acme Ltd\né ü ñ 😀"
+ },
+ {
+  "text": "With regards\r\nnary\r\n<b>bold</b> & \"quoted\" 'single'\r\né ü ñ 😀",
+  "closing": false,
+  "out": "With regards\r\nnary\r\n<b>bold</b> & \"quoted\" 'single'\r\né ü ñ 😀"
+ },
+ {
+  "text": "With regards\r\nnary\r\n<b>bold</b> & \"quoted\" 'single'\r\né ü ñ 😀",
+  "closing": true,
+  "out": "With regards\r\nnary\r\n<b>bold</b> & \"quoted\" 'single'\r\né ü ñ 😀"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Kind regards.\n\nThank you.\n\n\t\n\nNary - acme ltd\n\n\t\n\nBest regards,\n\n[Name]\n",
+  "closing": false,
+  "out": "Kind regards.\n\nThank you.\n\n\t\n\nNary - acme ltd\n\n\t\n\nBest regards,"
+ },
+ {
+  "text": "Kind regards.\n\nThank you.\n\n\t\n\nNary - acme ltd\n\n\t\n\nBest regards,\n\n[Name]\n",
+  "closing": true,
+  "out": "Kind regards.\n\nThank you."
+ },
+ {
+  "text": "Best regards,\nSincerely,",
+  "closing": false,
+  "out": "Best regards,\nSincerely,"
+ },
+ {
+  "text": "Best regards,\nSincerely,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\n\nNary - acme ltd\n\n \n\n\t\n\nNary·Acme Ltd\n\n ",
+  "closing": false,
+  "out": "Sincerely,"
+ },
+ {
+  "text": "Sincerely,\n\nNary - acme ltd\n\n \n\n\t\n\nNary·Acme Ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\n[name]\n[Name]\n—\nacme ltd \n\t",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\t\n[name]\n[Name]\n—\nacme ltd \n\t",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "—\n\nRegards,\n\nThanks,\n",
+  "closing": false,
+  "out": "—\n\nRegards,\n\nThanks,"
+ },
+ {
+  "text": "—\n\nRegards,\n\nThanks,\n",
+  "closing": true,
+  "out": "—\n\nRegards,\n\nThanks,"
+ },
+ {
+  "text": "é ü ñ 😀\nRegards,\nHello Mr John,\nbest regards\n",
+  "closing": false,
+  "out": "é ü ñ 😀\nRegards,\nHello Mr John,\nbest regards"
+ },
+ {
+  "text": "é ü ñ 😀\nRegards,\nHello Mr John,\nbest regards\n",
+  "closing": true,
+  "out": "é ü ñ 😀\nRegards,\nHello Mr John,"
+ },
+ {
+  "text": "Kind regards.\r\nKind regards.\r\nBest\r\nRegards",
+  "closing": false,
+  "out": "Kind regards.\r\nKind regards.\r\nBest\r\nRegards"
+ },
+ {
+  "text": "Kind regards.\r\nKind regards.\r\nBest\r\nRegards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[name]\nRegards,\r\nNary\nNary, Acme Ltd\né ü ñ 😀\n\n ",
+  "closing": false,
+  "out": "[name]\nRegards,\r\nNary\nNary, Acme Ltd\né ü ñ 😀"
+ },
+ {
+  "text": "[name]\nRegards,\r\nNary\nNary, Acme Ltd\né ü ñ 😀\n\n ",
+  "closing": true,
+  "out": "[name]\nRegards,\r\nNary\nNary, Acme Ltd\né ü ñ 😀"
+ },
+ {
+  "text": "Nary\nHello Mr John,\nNary - acme ltd\n",
+  "closing": false,
+  "out": "Nary\nHello Mr John,"
+ },
+ {
+  "text": "Nary\nHello Mr John,\nNary - acme ltd\n",
+  "closing": true,
+  "out": "Nary\nHello Mr John,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nNARY , Acme Ltd\nYours faithfully\n \nSincerely,\nSincerely,\nNary,Acme Ltd\r  ",
+  "closing": false,
+  "out": "Nary,Acme Ltd\r\nNARY , Acme Ltd\nYours faithfully\n \nSincerely,\nSincerely,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nNARY , Acme Ltd\nYours faithfully\n \nSincerely,\nSincerely,\nNary,Acme Ltd\r  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\n\nNary,Acme Ltd\r\n\nNary,Acme Ltd\r\n\nBest\n\n ",
+  "closing": false,
+  "out": "Acme Ltd\n\nNary,Acme Ltd\r\n\nNary,Acme Ltd\r\n\nBest"
+ },
+ {
+  "text": "Acme Ltd\n\nNary,Acme Ltd\r\n\nNary,Acme Ltd\r\n\nBest\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Yours faithfully,\r\nAcme Ltd\r\n[NAME] \n\n ",
+  "closing": false,
+  "out": "Yours faithfully,"
+ },
+ {
+  "text": "Yours faithfully,\r\nAcme Ltd\r\n[NAME] \n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "NARY , Acme Ltd\n\nNary Acme Ltd\nNary·Acme Ltd\n\nThank you.\n\n ",
+  "closing": false,
+  "out": "NARY , Acme Ltd\n\nNary Acme Ltd\nNary·Acme Ltd\n\nThank you."
+ },
+ {
+  "text": "NARY , Acme Ltd\n\nNary Acme Ltd\nNary·Acme Ltd\n\nThank you.\n\n ",
+  "closing": true,
+  "out": "NARY , Acme Ltd\n\nNary Acme Ltd\nNary·Acme Ltd\n\nThank you."
+ },
+ {
+  "text": "Regards,\n\nHello Mr John,\n\nNary\r\n\n   ",
+  "closing": false,
+  "out": "Regards,\n\nHello Mr John,"
+ },
+ {
+  "text": "Regards,\n\nHello Mr John,\n\nNary\r\n\n   ",
+  "closing": true,
+  "out": "Regards,\n\nHello Mr John,"
+ },
+ {
+  "text": "Regards\n\n—\n\nNary,Acme Ltd\r\n\nBest regards,\n",
+  "closing": false,
+  "out": "Regards\n\n—\n\nNary,Acme Ltd\r\n\nBest regards,"
+ },
+ {
+  "text": "Regards\n\n—\n\nNary,Acme Ltd\r\n\nBest regards,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\r\nRegards,\r\nWith regards\r\nBest regards, Nary\r\n Regards  \n\n ",
+  "closing": false,
+  "out": "\t\r\nRegards,\r\nWith regards\r\nBest regards, Nary\r\n Regards"
+ },
+ {
+  "text": "\t\r\nRegards,\r\nWith regards\r\nBest regards, Nary\r\n Regards  \n\n ",
+  "closing": true,
+  "out": "\t\r\nRegards,\r\nWith regards\r\nBest regards, Nary"
+ },
+ {
+  "text": "Nary\u001c\r\nNary - acme ltd\r\n_— Nary, GRANARY_\r\nBest  ",
+  "closing": false,
+  "out": "Nary\u001c\r\nNary - acme ltd\r\n_— Nary, GRANARY_\r\nBest"
+ },
+ {
+  "text": "Nary\u001c\r\nNary - acme ltd\r\n_— Nary, GRANARY_\r\nBest  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\n[Name]\n",
+  "closing": false,
+  "out": "Sincerely,"
+ },
+ {
+  "text": "Sincerely,\n[Name]\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "We look forward to your reply.\nAcme Ltd\nKind regards.\nNary - acme ltd\nWarmest regards\n[NAME] \n_— Nary, GRANARY_\n",
+  "closing": false,
+  "out": "We look forward to your reply.\nAcme Ltd\nKind regards.\nNary - acme ltd\nWarmest regards"
+ },
+ {
+  "text": "We look forward to your reply.\nAcme Ltd\nKind regards.\nNary - acme ltd\nWarmest regards\n[NAME] \n_— Nary, GRANARY_\n",
+  "closing": true,
+  "out": "We look forward to your reply."
+ },
+ {
+  "text": "Acme Ltd\n\n<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nNary Acme Ltd\n\nWarm regards,\n\nCheers!",
+  "closing": false,
+  "out": "Acme Ltd\n\n<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nNary Acme Ltd\n\nWarm regards,\n\nCheers!"
+ },
+ {
+  "text": "Acme Ltd\n\n<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nNary Acme Ltd\n\nWarm regards,\n\nCheers!",
+  "closing": true,
+  "out": "Acme Ltd\n\n<b>bold</b> & \"quoted\" 'single'\n\n\u001c\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Nary, Acme Ltd\r\n_— Nary, GRANARY_\r\nHello Mr John,\r\n— Nary\r\nYours faithfully\n\n ",
+  "closing": false,
+  "out": "Nary, Acme Ltd\r\n_— Nary, GRANARY_\r\nHello Mr John,\r\n— Nary\r\nYours faithfully"
+ },
+ {
+  "text": "Nary, Acme Ltd\r\n_— Nary, GRANARY_\r\nHello Mr John,\r\n— Nary\r\nYours faithfully\n\n ",
+  "closing": true,
+  "out": "Nary, Acme Ltd\r\n_— Nary, GRANARY_\r\nHello Mr John,"
+ },
+ {
+  "text": "Regards,\n\n—\n\nline\twith tab\n\n— Nary\n\n\n\nThanks,\n\n ",
+  "closing": false,
+  "out": "Regards,\n\n—\n\nline\twith tab\n\n— Nary\n\n\n\nThanks,"
+ },
+ {
+  "text": "Regards,\n\n—\n\nline\twith tab\n\n— Nary\n\n\n\nThanks,\n\n ",
+  "closing": true,
+  "out": "Regards,\n\n—\n\nline\twith tab\n\n— Nary\n\n\n\nThanks,"
+ },
+ {
+  "text": "é ü ñ 😀\n\nNary, Acme Ltd\n\n_— Nary, GRANARY_\n\nWarmest regards\n\nNary Acme Ltd\n\n    ",
+  "closing": false,
+  "out": "é ü ñ 😀\n\nNary, Acme Ltd\n\n_— Nary, GRANARY_\n\nWarmest regards\n\nNary Acme Ltd"
+ },
+ {
+  "text": "é ü ñ 😀\n\nNary, Acme Ltd\n\n_— Nary, GRANARY_\n\nWarmest regards\n\nNary Acme Ltd\n\n    ",
+  "closing": true,
+  "out": "é ü ñ 😀\n\nNary, Acme Ltd\n\n_— Nary, GRANARY_\n\nWarmest regards\n\nNary Acme Ltd"
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Hello Mr John,\r\nThank you.\r\nWe look forward to your reply.\r\n  \r\nWarm regards!\r\nAcme Ltd",
+  "closing": false,
+  "out": "Hello Mr John,\r\nThank you.\r\nWe look forward to your reply.\r\n  \r\nWarm regards!"
+ },
+ {
+  "text": "Hello Mr John,\r\nThank you.\r\nWe look forward to your reply.\r\n  \r\nWarm regards!\r\nAcme Ltd",
+  "closing": true,
+  "out": "Hello Mr John,\r\nThank you.\r\nWe look forward to your reply."
+ },
+ {
+  "text": "  \r\nThanks,\r\nnary\n",
+  "closing": false,
+  "out": "  \r\nThanks,"
+ },
+ {
+  "text": "  \r\nThanks,\r\nnary\n",
+  "closing": true,
+  "out": "  \r\nThanks,"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary - acme ltd\n— Nary\nWarm  regards\n\n ",
+  "closing": false,
+  "out": "Nary - acme ltd\n— Nary\nWarm  regards"
+ },
+ {
+  "text": "Nary - acme ltd\n— Nary\nWarm  regards\n\n ",
+  "closing": true,
+  "out": "Nary - acme ltd\n— Nary\nWarm  regards"
+ },
+ {
+  "text": "\u001c\r\nBest regards, Nary\r\nThanks,\n\n ",
+  "closing": false,
+  "out": "\u001c\r\nBest regards, Nary\r\nThanks,"
+ },
+ {
+  "text": "\u001c\r\nBest regards, Nary\r\nThanks,\n\n ",
+  "closing": true,
+  "out": "\u001c\r\nBest regards, Nary\r\nThanks,"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\n\n_— Nary, GRANARY_\n\nHello Mr John,\n\nRegards\n",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\n\n_— Nary, GRANARY_\n\nHello Mr John,\n\nRegards"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\n\n_— Nary, GRANARY_\n\nHello Mr John,\n\nRegards\n",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'\n\n_— Nary, GRANARY_\n\nHello Mr John,"
+ },
+ {
+  "text": "Nary Acme Ltd\n<b>bold</b> & \"quoted\" 'single'  ",
+  "closing": false,
+  "out": "Nary Acme Ltd\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Nary Acme Ltd\n<b>bold</b> & \"quoted\" 'single'  ",
+  "closing": true,
+  "out": "Nary Acme Ltd\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Nary\u001c\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n  \n\nHello Mr John,  ",
+  "closing": false,
+  "out": "\n\n  \n\nHello Mr John,"
+ },
+ {
+  "text": "\n\n  \n\nHello Mr John,  ",
+  "closing": true,
+  "out": "\n\n  \n\nHello Mr John,"
+ },
+ {
+  "text": "— Nary\nSincerely,\nWarm regards!\n \nWarm regards!\nRegards,  ",
+  "closing": false,
+  "out": "— Nary\nSincerely,\nWarm regards!\n \nWarm regards!\nRegards,"
+ },
+ {
+  "text": "— Nary\nSincerely,\nWarm regards!\n \nWarm regards!\nRegards,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\r\n[NAME] \r\nNary Acme Ltd  ",
+  "closing": false,
+  "out": "Thanks,\r\n[NAME] \r\nNary Acme Ltd"
+ },
+ {
+  "text": "Thanks,\r\n[NAME] \r\nNary Acme Ltd  ",
+  "closing": true,
+  "out": "Thanks,\r\n[NAME] \r\nNary Acme Ltd"
+ },
+ {
+  "text": "[NAME] \n_— Nary, GRANARY_\n   ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[NAME] \n_— Nary, GRANARY_\n   ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards,\n\nRegards\n\nSincerely,\n\nWarm regards,  ",
+  "closing": false,
+  "out": "Best regards,\n\nRegards\n\nSincerely,\n\nWarm regards,"
+ },
+ {
+  "text": "Best regards,\n\nRegards\n\nSincerely,\n\nWarm regards,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "nary\nHello Mr John,\nNary·Acme Ltd\né ü ñ 😀\nRegards,\r\né ü ñ 😀",
+  "closing": false,
+  "out": "nary\nHello Mr John,\nNary·Acme Ltd\né ü ñ 😀\nRegards,\r\né ü ñ 😀"
+ },
+ {
+  "text": "nary\nHello Mr John,\nNary·Acme Ltd\né ü ñ 😀\nRegards,\r\né ü ñ 😀",
+  "closing": true,
+  "out": "nary\nHello Mr John,\nNary·Acme Ltd\né ü ñ 😀\nRegards,\r\né ü ñ 😀"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nThanks,",
+  "closing": false,
+  "out": "Nary,Acme Ltd\r\nThanks,"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\nThanks,",
+  "closing": true,
+  "out": "Nary,Acme Ltd\r\nThanks,"
+ },
+ {
+  "text": "Yours faithfully\n\nBest regards,\n",
+  "closing": false,
+  "out": "Yours faithfully\n\nBest regards,"
+ },
+ {
+  "text": "Yours faithfully\n\nBest regards,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "acme ltd \r\nNary Acme Ltd\r\nWarm regards,\r\nNary·Acme Ltd\r\n_— Nary, GRANARY_\r\nNary,Acme Ltd\r",
+  "closing": false,
+  "out": "acme ltd \r\nNary Acme Ltd\r\nWarm regards,"
+ },
+ {
+  "text": "acme ltd \r\nNary Acme Ltd\r\nWarm regards,\r\nNary·Acme Ltd\r\n_— Nary, GRANARY_\r\nNary,Acme Ltd\r",
+  "closing": true,
+  "out": "acme ltd \r\nNary Acme Ltd"
+ },
+ {
+  "text": "é ü ñ 😀  ",
+  "closing": false,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "é ü ñ 😀  ",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "—\r\n[name]\r\nbest regards\r\nWe look forward to your reply.\n",
+  "closing": false,
+  "out": "—\r\n[name]\r\nbest regards\r\nWe look forward to your reply."
+ },
+ {
+  "text": "—\r\n[name]\r\nbest regards\r\nWe look forward to your reply.\n",
+  "closing": true,
+  "out": "—\r\n[name]\r\nbest regards\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Nary·Acme Ltd\r\nNary Acme Ltd\r\nCheers!",
+  "closing": false,
+  "out": "Nary·Acme Ltd\r\nNary Acme Ltd\r\nCheers!"
+ },
+ {
+  "text": "Nary·Acme Ltd\r\nNary Acme Ltd\r\nCheers!",
+  "closing": true,
+  "out": "Nary·Acme Ltd\r\nNary Acme Ltd"
+ },
+ {
+  "text": "nary\n\nbest regards\n\nNary, Acme Ltd\n\nWarmest regards\n\n— Nary\n\nline\twith tab\n\nYours faithfully,\n\n ",
+  "closing": false,
+  "out": "nary\n\nbest regards\n\nNary, Acme Ltd\n\nWarmest regards\n\n— Nary\n\nline\twith tab\n\nYours faithfully,"
+ },
+ {
+  "text": "nary\n\nbest regards\n\nNary, Acme Ltd\n\nWarmest regards\n\n— Nary\n\nline\twith tab\n\nYours faithfully,\n\n ",
+  "closing": true,
+  "out": "nary\n\nbest regards\n\nNary, Acme Ltd\n\nWarmest regards\n\n— Nary\n\nline\twith tab"
+ },
+ {
+  "text": "line\twith tab\nNary\r\n\n ",
+  "closing": false,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "line\twith tab\nNary\r\n\n ",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n[name]\né ü ñ 😀",
+  "closing": false,
+  "out": "Nary,Acme Ltd\r\n[name]\né ü ñ 😀"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n[name]\né ü ñ 😀",
+  "closing": true,
+  "out": "Nary,Acme Ltd\r\n[name]\né ü ñ 😀"
+ },
+ {
+  "text": "Best regards, Nary\r\n\t\r\nWith regards\r\n[NAME] \r\n—\r\nNary\r\nRegards,\r\n\n ",
+  "closing": false,
+  "out": "Best regards, Nary\r\n\t\r\nWith regards\r\n[NAME] \r\n—\r\nNary\r\nRegards,"
+ },
+ {
+  "text": "Best regards, Nary\r\n\t\r\nWith regards\r\n[NAME] \r\n—\r\nNary\r\nRegards,\r\n\n ",
+  "closing": true,
+  "out": "Best regards, Nary"
+ },
+ {
+  "text": "Cheers!\r\n[name]\r\nNary Acme Ltd\r\nWarm regards,",
+  "closing": false,
+  "out": "Cheers!\r\n[name]\r\nNary Acme Ltd\r\nWarm regards,"
+ },
+ {
+  "text": "Cheers!\r\n[name]\r\nNary Acme Ltd\r\nWarm regards,",
+  "closing": true,
+  "out": "Cheers!\r\n[name]\r\nNary Acme Ltd"
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[name]\n\n \n\n\t\n\nWe look forward to your reply.",
+  "closing": false,
+  "out": "[name]\n\n \n\n\t\n\nWe look forward to your reply."
+ },
+ {
+  "text": "[name]\n\n \n\n\t\n\nWe look forward to your reply.",
+  "closing": true,
+  "out": "[name]\n\n \n\n\t\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Acme Ltd\n\nNARY , Acme Ltd\n\nWarmest regards\n\nNary,Acme Ltd\r  ",
+  "closing": false,
+  "out": "Acme Ltd\n\nNARY , Acme Ltd\n\nWarmest regards"
+ },
+ {
+  "text": "Acme Ltd\n\nNARY , Acme Ltd\n\nWarmest regards\n\nNary,Acme Ltd\r  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards, Nary\nNary\nNary\r\n— Nary\n[Name]\nWarm regards!\n",
+  "closing": false,
+  "out": "Best regards, Nary\nNary\nNary\r\n— Nary\n[Name]\nWarm regards!"
+ },
+ {
+  "text": "Best regards, Nary\nNary\nNary\r\n— Nary\n[Name]\nWarm regards!\n",
+  "closing": true,
+  "out": "Best regards, Nary"
+ },
+ {
+  "text": "\u001c\n\nacme ltd \n\nBest regards,\n",
+  "closing": false,
+  "out": "\u001c\n\nacme ltd \n\nBest regards,"
+ },
+ {
+  "text": "\u001c\n\nacme ltd \n\nBest regards,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thanks,\r\nacme ltd \r\n[name]\r\n Regards  ",
+  "closing": false,
+  "out": "Thanks,\r\nacme ltd \r\n[name]\r\n Regards"
+ },
+ {
+  "text": "Thanks,\r\nacme ltd \r\n[name]\r\n Regards  ",
+  "closing": true,
+  "out": "Thanks,"
+ },
+ {
+  "text": "Hello Mr John,\r\nWith regards\r\nNARY , Acme Ltd\r\n— Nary  ",
+  "closing": false,
+  "out": "Hello Mr John,\r\nWith regards"
+ },
+ {
+  "text": "Hello Mr John,\r\nWith regards\r\nNARY , Acme Ltd\r\n— Nary  ",
+  "closing": true,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "é ü ñ 😀\r\nKind regards.\r\n    ",
+  "closing": false,
+  "out": "é ü ñ 😀\r\nKind regards."
+ },
+ {
+  "text": "é ü ñ 😀\r\nKind regards.\r\n    ",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "Hello Mr John,\r\nNARY , Acme Ltd\n",
+  "closing": false,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "Hello Mr John,\r\nNARY , Acme Ltd\n",
+  "closing": true,
+  "out": "Hello Mr John,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n_— Nary, GRANARY_\nHello Mr John,\n\n ",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\n_— Nary, GRANARY_\nHello Mr John,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n_— Nary, GRANARY_\nHello Mr John,\n\n ",
+  "closing": true,
+  "out": "_— Nary, GRANARY_\n_— Nary, GRANARY_\nHello Mr John,"
+ },
+ {
+  "text": "Nary, Acme Ltd\nWith regards\nNary - acme ltd\nNary - acme ltd",
+  "closing": false,
+  "out": "Nary, Acme Ltd\nWith regards"
+ },
+ {
+  "text": "Nary, Acme Ltd\nWith regards\nNary - acme ltd\nNary - acme ltd",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "acme ltd \r\n \n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "acme ltd \r\n \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\n\nNary - acme ltd\n\nNary Acme Ltd\n\nNary Acme Ltd\n\nRegards,\r\n\n ",
+  "closing": false,
+  "out": "\t\n\nNary - acme ltd\n\nNary Acme Ltd\n\nNary Acme Ltd\n\nRegards,"
+ },
+ {
+  "text": "\t\n\nNary - acme ltd\n\nNary Acme Ltd\n\nNary Acme Ltd\n\nRegards,\r\n\n ",
+  "closing": true,
+  "out": "\t\n\nNary - acme ltd\n\nNary Acme Ltd\n\nNary Acme Ltd"
+ },
+ {
+  "text": "line\twith tab\nThank you.\nBest\nNary\u001c\nRegards,\nline\twith tab  ",
+  "closing": false,
+  "out": "line\twith tab\nThank you.\nBest\nNary\u001c\nRegards,\nline\twith tab"
+ },
+ {
+  "text": "line\twith tab\nThank you.\nBest\nNary\u001c\nRegards,\nline\twith tab  ",
+  "closing": true,
+  "out": "line\twith tab\nThank you.\nBest\nNary\u001c\nRegards,\nline\twith tab"
+ },
+ {
+  "text": "Warm  regards\nNARY , Acme Ltd\n[NAME] \nThank you.",
+  "closing": false,
+  "out": "Warm  regards\nNARY , Acme Ltd\n[NAME] \nThank you."
+ },
+ {
+  "text": "Warm  regards\nNARY , Acme Ltd\n[NAME] \nThank you.",
+  "closing": true,
+  "out": "Warm  regards\nNARY , Acme Ltd\n[NAME] \nThank you."
+ },
+ {
+  "text": "Warmest regards\r\nWarm regards!\r\n Regards  \r\n—\r\nHello Mr John,\r\nWe look forward to your reply.  ",
+  "closing": false,
+  "out": "Warmest regards\r\nWarm regards!\r\n Regards  \r\n—\r\nHello Mr John,\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Warmest regards\r\nWarm regards!\r\n Regards  \r\n—\r\nHello Mr John,\r\nWe look forward to your reply.  ",
+  "closing": true,
+  "out": "Warmest regards\r\nWarm regards!\r\n Regards  \r\n—\r\nHello Mr John,\r\nWe look forward to your reply."
+ },
+ {
+  "text": "Thank you.\r\nBest\n",
+  "closing": false,
+  "out": "Thank you.\r\nBest"
+ },
+ {
+  "text": "Thank you.\r\nBest\n",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "é ü ñ 😀\nWarm regards!\nNary\r\nBest regards,\n  \n[Name]\n",
+  "closing": false,
+  "out": "é ü ñ 😀\nWarm regards!\nNary\r\nBest regards,"
+ },
+ {
+  "text": "é ü ñ 😀\nWarm regards!\nNary\r\nBest regards,\n  \n[Name]\n",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "best regards\n\nSincerely,\n\nRegards,\r\n\nWarmest regards\n\nKind regards.\n\nBest\n\n ",
+  "closing": false,
+  "out": "best regards\n\nSincerely,\n\nRegards,\r\n\nWarmest regards\n\nKind regards.\n\nBest"
+ },
+ {
+  "text": "best regards\n\nSincerely,\n\nRegards,\r\n\nWarmest regards\n\nKind regards.\n\nBest\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "line\twith tab\n\nNary\r\n\nWith regards\n\nnary\n\nYours faithfully,\n\nWarm regards!\n\nSincerely,  ",
+  "closing": false,
+  "out": "line\twith tab\n\nNary\r\n\nWith regards\n\nnary\n\nYours faithfully,\n\nWarm regards!\n\nSincerely,"
+ },
+ {
+  "text": "line\twith tab\n\nNary\r\n\nWith regards\n\nnary\n\nYours faithfully,\n\nWarm regards!\n\nSincerely,  ",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "best regards\n\nNary·Acme Ltd\n\nAcme Ltd\n\nThank you.\n\nline\twith tab\n\nWarm  regards",
+  "closing": false,
+  "out": "best regards\n\nNary·Acme Ltd\n\nAcme Ltd\n\nThank you.\n\nline\twith tab\n\nWarm  regards"
+ },
+ {
+  "text": "best regards\n\nNary·Acme Ltd\n\nAcme Ltd\n\nThank you.\n\nline\twith tab\n\nWarm  regards",
+  "closing": true,
+  "out": "best regards\n\nNary·Acme Ltd\n\nAcme Ltd\n\nThank you.\n\nline\twith tab\n\nWarm  regards"
+ },
+ {
+  "text": "Nary·Acme Ltd\r\n\t",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "Nary·Acme Ltd\r\n\t",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\u001c\nNary\u001c\nacme ltd \n<b>bold</b> & \"quoted\" 'single'\nThanks,\nNary Acme Ltd\nBest\n",
+  "closing": false,
+  "out": "Nary\u001c\nNary\u001c\nacme ltd \n<b>bold</b> & \"quoted\" 'single'\nThanks,\nNary Acme Ltd\nBest"
+ },
+ {
+  "text": "Nary\u001c\nNary\u001c\nacme ltd \n<b>bold</b> & \"quoted\" 'single'\nThanks,\nNary Acme Ltd\nBest\n",
+  "closing": true,
+  "out": "Nary\u001c\nNary\u001c\nacme ltd \n<b>bold</b> & \"quoted\" 'single'\nThanks,\nNary Acme Ltd"
+ },
+ {
+  "text": "Thanks,\r\nAcme Ltd\r\nBest\r\nbest regards\r\n\t\r\n Regards  ",
+  "closing": false,
+  "out": "Thanks,\r\nAcme Ltd\r\nBest\r\nbest regards\r\n\t\r\n Regards"
+ },
+ {
+  "text": "Thanks,\r\nAcme Ltd\r\nBest\r\nbest regards\r\n\t\r\n Regards  ",
+  "closing": true,
+  "out": "Thanks,"
+ },
+ {
+  "text": "Nary\u001c\nNary\r\nBest\nRegards,\nThank you.\nBest regards, Nary",
+  "closing": false,
+  "out": "Nary\u001c\nNary\r\nBest\nRegards,\nThank you.\nBest regards, Nary"
+ },
+ {
+  "text": "Nary\u001c\nNary\r\nBest\nRegards,\nThank you.\nBest regards, Nary",
+  "closing": true,
+  "out": "Nary\u001c\nNary\r\nBest\nRegards,\nThank you.\nBest regards, Nary"
+ },
+ {
+  "text": "Nary·Acme Ltd\n\n—\n\nNary\n\nnary\n\nNary·Acme Ltd\n\nWarmest regards\n\nRegards  ",
+  "closing": false,
+  "out": "Nary·Acme Ltd\n\n—\n\nNary\n\nnary\n\nNary·Acme Ltd\n\nWarmest regards\n\nRegards"
+ },
+ {
+  "text": "Nary·Acme Ltd\n\n—\n\nNary\n\nnary\n\nNary·Acme Ltd\n\nWarmest regards\n\nRegards  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Yours faithfully,\n\u001c",
+  "closing": false,
+  "out": "Yours faithfully,"
+ },
+ {
+  "text": "Yours faithfully,\n\u001c",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": " Regards  \nNary·Acme Ltd\nNARY , Acme Ltd\nWarm regards,\nWarm regards!\nNary\r\nRegards,  ",
+  "closing": false,
+  "out": " Regards  \nNary·Acme Ltd\nNARY , Acme Ltd\nWarm regards,\nWarm regards!\nNary\r\nRegards,"
+ },
+ {
+  "text": " Regards  \nNary·Acme Ltd\nNARY , Acme Ltd\nWarm regards,\nWarm regards!\nNary\r\nRegards,  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards!\r\nRegards,\r\r\nSincerely,\r\n\u001c\r\nYours faithfully,\r\nNary, Acme Ltd\n\n ",
+  "closing": false,
+  "out": "Warm regards!\r\nRegards,\r\r\nSincerely,\r\n\u001c\r\nYours faithfully,"
+ },
+ {
+  "text": "Warm regards!\r\nRegards,\r\r\nSincerely,\r\n\u001c\r\nYours faithfully,\r\nNary, Acme Ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[NAME] \r\n  \r\nAcme Ltd\r\nNary\r\nWarmest regards  ",
+  "closing": false,
+  "out": "[NAME] \r\n  \r\nAcme Ltd\r\nNary\r\nWarmest regards"
+ },
+ {
+  "text": "[NAME] \r\n  \r\nAcme Ltd\r\nNary\r\nWarmest regards  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Hello Mr John,\n\nline\twith tab\n\nCheers!\n\nNary - acme ltd  ",
+  "closing": false,
+  "out": "Hello Mr John,\n\nline\twith tab\n\nCheers!"
+ },
+ {
+  "text": "Hello Mr John,\n\nline\twith tab\n\nCheers!\n\nNary - acme ltd  ",
+  "closing": true,
+  "out": "Hello Mr John,\n\nline\twith tab"
+ },
+ {
+  "text": "[Name]\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[Name]\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thank you.\nRegards\nNary\r\nbest regards\nAcme Ltd\nnary\nnary\n",
+  "closing": false,
+  "out": "Thank you.\nRegards\nNary\r\nbest regards"
+ },
+ {
+  "text": "Thank you.\nRegards\nNary\r\nbest regards\nAcme Ltd\nnary\nnary\n",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\nWarm regards,\r\nSincerely,\r\nWe look forward to your reply.\r\n \r\n Regards    ",
+  "closing": false,
+  "out": "<b>bold</b> & \"quoted\" 'single'\r\nWarm regards,\r\nSincerely,\r\nWe look forward to your reply.\r\n \r\n Regards"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\r\nWarm regards,\r\nSincerely,\r\nWe look forward to your reply.\r\n \r\n Regards    ",
+  "closing": true,
+  "out": "<b>bold</b> & \"quoted\" 'single'\r\nWarm regards,\r\nSincerely,\r\nWe look forward to your reply."
+ },
+ {
+  "text": "_— Nary, GRANARY_\né ü ñ 😀\nWarm regards,\nNary - acme ltd",
+  "closing": false,
+  "out": "_— Nary, GRANARY_\né ü ñ 😀\nWarm regards,"
+ },
+ {
+  "text": "_— Nary, GRANARY_\né ü ñ 😀\nWarm regards,\nNary - acme ltd",
+  "closing": true,
+  "out": "_— Nary, GRANARY_\né ü ñ 😀"
+ },
+ {
+  "text": "Nary Acme Ltd\n\n— Nary\n\nYours faithfully\n\nRegards,\r\n\n ",
+  "closing": false,
+  "out": "Nary Acme Ltd\n\n— Nary\n\nYours faithfully\n\nRegards,"
+ },
+ {
+  "text": "Nary Acme Ltd\n\n— Nary\n\nYours faithfully\n\nRegards,\r\n\n ",
+  "closing": true,
+  "out": "Nary Acme Ltd"
+ },
+ {
+  "text": "— Nary\n\n[name]\n\n\n\n  \n\nNARY , Acme Ltd\n\nNary·Acme Ltd\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "— Nary\n\n[name]\n\n\n\n  \n\nNARY , Acme Ltd\n\nNary·Acme Ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm  regards\né ü ñ 😀\nNary - acme ltd\n\u001c\nKind regards.  ",
+  "closing": false,
+  "out": "Warm  regards\né ü ñ 😀\nNary - acme ltd\n\u001c\nKind regards."
+ },
+ {
+  "text": "Warm  regards\né ü ñ 😀\nNary - acme ltd\n\u001c\nKind regards.  ",
+  "closing": true,
+  "out": "Warm  regards\né ü ñ 😀"
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best\r\nWith regards\r\n ",
+  "closing": false,
+  "out": "Best\r\nWith regards"
+ },
+ {
+  "text": "Best\r\nWith regards\r\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards\r\nAcme Ltd\r\nNary - acme ltd\r\nRegards,\r\nNARY , Acme Ltd\r\nNARY , Acme Ltd",
+  "closing": false,
+  "out": "Regards\r\nAcme Ltd\r\nNary - acme ltd\r\nRegards,"
+ },
+ {
+  "text": "Regards\r\nAcme Ltd\r\nNary - acme ltd\r\nRegards,\r\nNARY , Acme Ltd\r\nNARY , Acme Ltd",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\r\nWarm  regards\n\n ",
+  "closing": false,
+  "out": "Nary\r\nWarm  regards"
+ },
+ {
+  "text": "Nary\r\nWarm  regards\n\n ",
+  "closing": true,
+  "out": "Nary\r\nWarm  regards"
+ },
+ {
+  "text": "Nary\r\r\nKind regards.\r\n[name]  ",
+  "closing": false,
+  "out": "Nary\r\r\nKind regards."
+ },
+ {
+  "text": "Nary\r\r\nKind regards.\r\n[name]  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warm regards,\n\n \n\n  \n\nNary\n\nRegards\n\n ",
+  "closing": false,
+  "out": "Warm regards,\n\n \n\n  \n\nNary\n\nRegards"
+ },
+ {
+  "text": "Warm regards,\n\n \n\n  \n\nNary\n\nRegards\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\r\n\nRegards,\r\n\nNary Acme Ltd\n\n  \n\n ",
+  "closing": false,
+  "out": "Regards,\r\n\nRegards,\r\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Regards,\r\n\nRegards,\r\n\nNary Acme Ltd\n\n  \n\n ",
+  "closing": true,
+  "out": "Regards,\r\n\nRegards,\r\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Warmest regards\n\nBest regards, Nary\n\nBest regards,\n\n[name]\n\nNary Acme Ltd",
+  "closing": false,
+  "out": "Warmest regards\n\nBest regards, Nary\n\nBest regards,\n\n[name]\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Warmest regards\n\nBest regards, Nary\n\nBest regards,\n\n[name]\n\nNary Acme Ltd",
+  "closing": true,
+  "out": "Warmest regards\n\nBest regards, Nary\n\nBest regards,\n\n[name]\n\nNary Acme Ltd"
+ },
+ {
+  "text": "Best regards,\nRegards,\n—\nThanks,\né ü ñ 😀\n\n ",
+  "closing": false,
+  "out": "Best regards,\nRegards,\n—\nThanks,\né ü ñ 😀"
+ },
+ {
+  "text": "Best regards,\nRegards,\n—\nThanks,\né ü ñ 😀\n\n ",
+  "closing": true,
+  "out": "Best regards,\nRegards,\n—\nThanks,\né ü ñ 😀"
+ },
+ {
+  "text": "[Name]\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[Name]\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best\r\nnary\r\n[NAME] \r\nRegards\r\nBest regards, Nary  ",
+  "closing": false,
+  "out": "Best\r\nnary\r\n[NAME] \r\nRegards\r\nBest regards, Nary"
+ },
+ {
+  "text": "Best\r\nnary\r\n[NAME] \r\nRegards\r\nBest regards, Nary  ",
+  "closing": true,
+  "out": "Best\r\nnary\r\n[NAME] \r\nRegards\r\nBest regards, Nary"
+ },
+ {
+  "text": " Regards  \r\nKind regards.  ",
+  "closing": false,
+  "out": " Regards  \r\nKind regards."
+ },
+ {
+  "text": " Regards  \r\nKind regards.  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\r\n<b>bold</b> & \"quoted\" 'single'\r\nNary\u001c\r\nWarm  regards  ",
+  "closing": false,
+  "out": "Sincerely,\r\n<b>bold</b> & \"quoted\" 'single'\r\nNary\u001c\r\nWarm  regards"
+ },
+ {
+  "text": "Sincerely,\r\n<b>bold</b> & \"quoted\" 'single'\r\nNary\u001c\r\nWarm  regards  ",
+  "closing": true,
+  "out": "Sincerely,\r\n<b>bold</b> & \"quoted\" 'single'\r\nNary\u001c\r\nWarm  regards"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Thank you.\r\nNary, Acme Ltd\r\n_— Nary, GRANARY_\r\nNary, Acme Ltd\r\n  ",
+  "closing": false,
+  "out": "Thank you."
+ },
+ {
+  "text": "Thank you.\r\nNary, Acme Ltd\r\n_— Nary, GRANARY_\r\nNary, Acme Ltd\r\n  ",
+  "closing": true,
+  "out": "Thank you."
+ },
+ {
+  "text": "\n\n— Nary\n\nNary\r\n\nNary\u001c\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n— Nary\n\nNary\r\n\nNary\u001c\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "é ü ñ 😀\r\nThanks,\r\nThank you.\r\nnary\r\n[NAME] \r\nHello Mr John,\n\n ",
+  "closing": false,
+  "out": "é ü ñ 😀\r\nThanks,\r\nThank you.\r\nnary\r\n[NAME] \r\nHello Mr John,"
+ },
+ {
+  "text": "é ü ñ 😀\r\nThanks,\r\nThank you.\r\nnary\r\n[NAME] \r\nHello Mr John,\n\n ",
+  "closing": true,
+  "out": "é ü ñ 😀\r\nThanks,\r\nThank you.\r\nnary\r\n[NAME] \r\nHello Mr John,"
+ },
+ {
+  "text": "Acme Ltd\n Regards    ",
+  "closing": false,
+  "out": "Acme Ltd\n Regards"
+ },
+ {
+  "text": "Acme Ltd\n Regards    ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Sincerely,\r\nHello Mr John,\r\nHello Mr John,\r\nNary·Acme Ltd\r\nSincerely,\r\nNary\r  ",
+  "closing": false,
+  "out": "Sincerely,\r\nHello Mr John,\r\nHello Mr John,\r\nNary·Acme Ltd\r\nSincerely,"
+ },
+ {
+  "text": "Sincerely,\r\nHello Mr John,\r\nHello Mr John,\r\nNary·Acme Ltd\r\nSincerely,\r\nNary\r  ",
+  "closing": true,
+  "out": "Sincerely,\r\nHello Mr John,\r\nHello Mr John,"
+ },
+ {
+  "text": "line\twith tab\n\nYours faithfully\n\nKind regards.",
+  "closing": false,
+  "out": "line\twith tab\n\nYours faithfully\n\nKind regards."
+ },
+ {
+  "text": "line\twith tab\n\nYours faithfully\n\nKind regards.",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "\t\r\nBest\r\nCheers!\n\n ",
+  "closing": false,
+  "out": "\t\r\nBest\r\nCheers!"
+ },
+ {
+  "text": "\t\r\nBest\r\nCheers!\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\r\nRegards,\r\nYours faithfully,\r\nRegards\r\nNary\r\nNary Acme Ltd\r\nNary Acme Ltd",
+  "closing": false,
+  "out": "\t\r\nRegards,\r\nYours faithfully,\r\nRegards\r\nNary\r\nNary Acme Ltd\r\nNary Acme Ltd"
+ },
+ {
+  "text": "\t\r\nRegards,\r\nYours faithfully,\r\nRegards\r\nNary\r\nNary Acme Ltd\r\nNary Acme Ltd",
+  "closing": true,
+  "out": "\t\r\nRegards,\r\nYours faithfully,\r\nRegards\r\nNary\r\nNary Acme Ltd\r\nNary Acme Ltd"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\nWith regards\nKind regards.\nThank you.\nYours faithfully,\n\t\n",
+  "closing": false,
+  "out": "Acme Ltd\nWith regards\nKind regards.\nThank you.\nYours faithfully,"
+ },
+ {
+  "text": "Acme Ltd\nWith regards\nKind regards.\nThank you.\nYours faithfully,\n\t\n",
+  "closing": true,
+  "out": "Acme Ltd\nWith regards\nKind regards.\nThank you."
+ },
+ {
+  "text": "\t\r\nThank you.\r\n\t  ",
+  "closing": false,
+  "out": "\t\r\nThank you."
+ },
+ {
+  "text": "\t\r\nThank you.\r\n\t  ",
+  "closing": true,
+  "out": "\t\r\nThank you."
+ },
+ {
+  "text": "Yours faithfully,\r\nNary,Acme Ltd\r\r\n \r\nNary - acme ltd\r\nYours faithfully  ",
+  "closing": false,
+  "out": "Yours faithfully,\r\nNary,Acme Ltd\r\r\n \r\nNary - acme ltd\r\nYours faithfully"
+ },
+ {
+  "text": "Yours faithfully,\r\nNary,Acme Ltd\r\r\n \r\nNary - acme ltd\r\nYours faithfully  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "é ü ñ 😀\r\nThanks,\r\n[NAME] ",
+  "closing": false,
+  "out": "é ü ñ 😀\r\nThanks,"
+ },
+ {
+  "text": "é ü ñ 😀\r\nThanks,\r\n[NAME] ",
+  "closing": true,
+  "out": "é ü ñ 😀\r\nThanks,"
+ },
+ {
+  "text": "\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "é ü ñ 😀\r\nNary - acme ltd\r\n\u001c\r\n \r\nWith regards\n\n ",
+  "closing": false,
+  "out": "é ü ñ 😀\r\nNary - acme ltd\r\n\u001c\r\n \r\nWith regards"
+ },
+ {
+  "text": "é ü ñ 😀\r\nNary - acme ltd\r\n\u001c\r\n \r\nWith regards\n\n ",
+  "closing": true,
+  "out": "é ü ñ 😀"
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "—\n\nYours faithfully\n\nWarm regards,\n\nRegards,\r\n\n ",
+  "closing": false,
+  "out": "—\n\nYours faithfully\n\nWarm regards,\n\nRegards,"
+ },
+ {
+  "text": "—\n\nYours faithfully\n\nWarm regards,\n\nRegards,\r\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\t\n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\t\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards, Nary\n\nline\twith tab\n\nBest regards, Nary\n\nRegards  ",
+  "closing": false,
+  "out": "Best regards, Nary\n\nline\twith tab\n\nBest regards, Nary\n\nRegards"
+ },
+ {
+  "text": "Best regards, Nary\n\nline\twith tab\n\nBest regards, Nary\n\nRegards  ",
+  "closing": true,
+  "out": "Best regards, Nary\n\nline\twith tab\n\nBest regards, Nary"
+ },
+ {
+  "text": "Nary, Acme Ltd\n[name]\nThanks,\nRegards,\nNary  ",
+  "closing": false,
+  "out": "Nary, Acme Ltd\n[name]\nThanks,\nRegards,"
+ },
+ {
+  "text": "Nary, Acme Ltd\n[name]\nThanks,\nRegards,\nNary  ",
+  "closing": true,
+  "out": "Nary, Acme Ltd\n[name]\nThanks,"
+ },
+ {
+  "text": "Nary\u001c\n\nBest\n\nRegards\n\nKind regards.\n\nWe look forward to your reply.\n\nKind regards.  ",
+  "closing": false,
+  "out": "Nary\u001c\n\nBest\n\nRegards\n\nKind regards.\n\nWe look forward to your reply.\n\nKind regards."
+ },
+ {
+  "text": "Nary\u001c\n\nBest\n\nRegards\n\nKind regards.\n\nWe look forward to your reply.\n\nKind regards.  ",
+  "closing": true,
+  "out": "Nary\u001c\n\nBest\n\nRegards\n\nKind regards.\n\nWe look forward to your reply."
+ },
+ {
+  "text": "Acme Ltd\n\nYours faithfully\n\nnary  ",
+  "closing": false,
+  "out": "Acme Ltd\n\nYours faithfully"
+ },
+ {
+  "text": "Acme Ltd\n\nYours faithfully\n\nnary  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "With regards",
+  "closing": false,
+  "out": "With regards"
+ },
+ {
+  "text": "With regards",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\nNary\r\nRegards,\nNARY , Acme Ltd\né ü ñ 😀\nBest regards, Nary\n  \n",
+  "closing": false,
+  "out": "Regards,\nNary\r\nRegards,\nNARY , Acme Ltd\né ü ñ 😀\nBest regards, Nary"
+ },
+ {
+  "text": "Regards,\nNary\r\nRegards,\nNARY , Acme Ltd\né ü ñ 😀\nBest regards, Nary\n  \n",
+  "closing": true,
+  "out": "Regards,\nNary\r\nRegards,\nNARY , Acme Ltd\né ü ñ 😀\nBest regards, Nary"
+ },
+ {
+  "text": "Best regards,\r\n[NAME] \r\nKind regards.\r\nWarm regards!\r\n  \r\nWe look forward to your reply.\r\n \n",
+  "closing": false,
+  "out": "Best regards,\r\n[NAME] \r\nKind regards.\r\nWarm regards!\r\n  \r\nWe look forward to your reply."
+ },
+ {
+  "text": "Best regards,\r\n[NAME] \r\nKind regards.\r\nWarm regards!\r\n  \r\nWe look forward to your reply.\r\n \n",
+  "closing": true,
+  "out": "Best regards,\r\n[NAME] \r\nKind regards.\r\nWarm regards!\r\n  \r\nWe look forward to your reply."
+ },
+ {
+  "text": "",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "line\twith tab\n\n ",
+  "closing": false,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "line\twith tab\n\n ",
+  "closing": true,
+  "out": "line\twith tab"
+ },
+ {
+  "text": "[Name]\r\nWarm regards,\r\nNary\r\r\n\r\nCheers!  ",
+  "closing": false,
+  "out": "[Name]\r\nWarm regards,\r\nNary\r\r\n\r\nCheers!"
+ },
+ {
+  "text": "[Name]\r\nWarm regards,\r\nNary\r\r\n\r\nCheers!  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Warmest regards\r\nNary\r\r\n[name]",
+  "closing": false,
+  "out": "Warmest regards"
+ },
+ {
+  "text": "Warmest regards\r\nNary\r\r\n[name]",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "é ü ñ 😀\n\t\nYours faithfully\n \nHello Mr John,\nWarmest regards",
+  "closing": false,
+  "out": "é ü ñ 😀\n\t\nYours faithfully\n \nHello Mr John,\nWarmest regards"
+ },
+ {
+  "text": "é ü ñ 😀\n\t\nYours faithfully\n \nHello Mr John,\nWarmest regards",
+  "closing": true,
+  "out": "é ü ñ 😀\n\t\nYours faithfully\n \nHello Mr John,"
+ },
+ {
+  "text": "[name]\r\nYours faithfully\r\nWarm regards!  ",
+  "closing": false,
+  "out": "[name]\r\nYours faithfully\r\nWarm regards!"
+ },
+ {
+  "text": "[name]\r\nYours faithfully\r\nWarm regards!  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Acme Ltd\nBest\n_— Nary, GRANARY_\nWarm regards,\nWarmest regards  ",
+  "closing": false,
+  "out": "Acme Ltd\nBest\n_— Nary, GRANARY_\nWarm regards,\nWarmest regards"
+ },
+ {
+  "text": "Acme Ltd\nBest\n_— Nary, GRANARY_\nWarm regards,\nWarmest regards  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "line\twith tab\n\nNary·Acme Ltd\n\né ü ñ 😀\n\n— Nary\n\nWarm  regards\n\nAcme Ltd\n\nRegards\n",
+  "closing": false,
+  "out": "line\twith tab\n\nNary·Acme Ltd\n\né ü ñ 😀\n\n— Nary\n\nWarm  regards\n\nAcme Ltd\n\nRegards"
+ },
+ {
+  "text": "line\twith tab\n\nNary·Acme Ltd\n\né ü ñ 😀\n\n— Nary\n\nWarm  regards\n\nAcme Ltd\n\nRegards\n",
+  "closing": true,
+  "out": "line\twith tab\n\nNary·Acme Ltd\n\né ü ñ 😀\n\n— Nary\n\nWarm  regards"
+ },
+ {
+  "text": "[Name]  ",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "[Name]  ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards,\n\nSincerely,\n\nNary\r\n\n[name]\n\n[NAME] \n",
+  "closing": false,
+  "out": "Best regards,\n\nSincerely,"
+ },
+ {
+  "text": "Best regards,\n\nSincerely,\n\nNary\r\n\n[name]\n\n[NAME] \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards,\r\n \nNary\u001c\nAcme Ltd\nWe look forward to your reply.\nRegards\nNary Acme Ltd",
+  "closing": false,
+  "out": "Regards,\r\n \nNary\u001c\nAcme Ltd\nWe look forward to your reply.\nRegards\nNary Acme Ltd"
+ },
+ {
+  "text": "Regards,\r\n \nNary\u001c\nAcme Ltd\nWe look forward to your reply.\nRegards\nNary Acme Ltd",
+  "closing": true,
+  "out": "Regards,\r\n \nNary\u001c\nAcme Ltd\nWe look forward to your reply.\nRegards\nNary Acme Ltd"
+ },
+ {
+  "text": "Best regards,\r\nNary\r\nBest regards, Nary  ",
+  "closing": false,
+  "out": "Best regards,\r\nNary\r\nBest regards, Nary"
+ },
+ {
+  "text": "Best regards,\r\nNary\r\nBest regards, Nary  ",
+  "closing": true,
+  "out": "Best regards,\r\nNary\r\nBest regards, Nary"
+ },
+ {
+  "text": "é ü ñ 😀\n<b>bold</b> & \"quoted\" 'single'  ",
+  "closing": false,
+  "out": "é ü ñ 😀\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "é ü ñ 😀\n<b>bold</b> & \"quoted\" 'single'  ",
+  "closing": true,
+  "out": "é ü ñ 😀\n<b>bold</b> & \"quoted\" 'single'"
+ },
+ {
+  "text": "Best regards,\n\nBest regards, Nary\n\nNary,Acme Ltd\r\n\nNary\n\n  \n\n ",
+  "closing": false,
+  "out": "Best regards,\n\nBest regards, Nary"
+ },
+ {
+  "text": "Best regards,\n\nBest regards, Nary\n\nNary,Acme Ltd\r\n\nNary\n\n  \n\n ",
+  "closing": true,
+  "out": "Best regards,\n\nBest regards, Nary"
+ },
+ {
+  "text": "Sincerely,\n",
+  "closing": false,
+  "out": "Sincerely,"
+ },
+ {
+  "text": "Sincerely,\n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Regards\nNary,Acme Ltd\r\n \nWarm regards!\nline\twith tab\n\n ",
+  "closing": false,
+  "out": "Regards\nNary,Acme Ltd\r\n \nWarm regards!\nline\twith tab"
+ },
+ {
+  "text": "Regards\nNary,Acme Ltd\r\n \nWarm regards!\nline\twith tab\n\n ",
+  "closing": true,
+  "out": "Regards\nNary,Acme Ltd\r\n \nWarm regards!\nline\twith tab"
+ },
+ {
+  "text": "acme ltd \n",
+  "closing": false,
+  "out": ""
+ },
+ {
+  "text": "acme ltd \n",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "\n\nYours faithfully,\n\n ",
+  "closing": false,
+  "out": "\n\nYours faithfully,"
+ },
+ {
+  "text": "\n\nYours faithfully,\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Best regards,\nNary Acme Ltd\nHello Mr John,\nNary\u001c\nWarm  regards\n\t\nAcme Ltd",
+  "closing": false,
+  "out": "Best regards,\nNary Acme Ltd\nHello Mr John,\nNary\u001c\nWarm  regards"
+ },
+ {
+  "text": "Best regards,\nNary Acme Ltd\nHello Mr John,\nNary\u001c\nWarm  regards\n\t\nAcme Ltd",
+  "closing": true,
+  "out": "Best regards,\nNary Acme Ltd\nHello Mr John,\nNary\u001c\nWarm  regards"
+ },
+ {
+  "text": "Warm regards!\n\nRegards,\r\n\nWarm regards,\n\nBest regards,",
+  "closing": false,
+  "out": "Warm regards!\n\nRegards,\r\n\nWarm regards,\n\nBest regards,"
+ },
+ {
+  "text": "Warm regards!\n\nRegards,\r\n\nWarm regards,\n\nBest regards,",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "Nary\r\nNary,Acme Ltd\r\né ü ñ 😀\nNary\r\nWith regards\n",
+  "closing": false,
+  "out": "Nary\r\nNary,Acme Ltd\r\né ü ñ 😀\nNary\r\nWith regards"
+ },
+ {
+  "text": "Nary\r\nNary,Acme Ltd\r\né ü ñ 😀\nNary\r\nWith regards\n",
+  "closing": true,
+  "out": "Nary\r\nNary,Acme Ltd\r\né ü ñ 😀"
+ },
+ {
+  "text": "\n\nYours faithfully,\n\nNary·Acme Ltd\n\n ",
+  "closing": false,
+  "out": "\n\nYours faithfully,"
+ },
+ {
+  "text": "\n\nYours faithfully,\n\nNary·Acme Ltd\n\n ",
+  "closing": true,
+  "out": ""
+ },
+ {
+  "text": "[Name]\n\nSincerely,\n\nHello Mr John,\n\n_— Nary, GRANARY_\n\n ",
+  "closing": false,
+  "out": "[Name]\n\nSincerely,\n\nHello Mr John,"
+ },
+ {
+  "text": "[Name]\n\nSincerely,\n\nHello Mr John,\n\n_— Nary, GRANARY_\n\n ",
+  "closing": true,
+  "out": "[Name]\n\nSincerely,\n\nHello Mr John,"
+ }
+]

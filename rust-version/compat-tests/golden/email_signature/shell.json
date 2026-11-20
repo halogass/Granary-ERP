@@ -1,0 +1,1252 @@
+[
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{</TABLE >{{　fax\t}}{{\nſkype}}{{ company_address\u001c}}{{company_phone​}}{{\twebsite}}</body></html>",
+  "strip_document_shell": "{{</TABLE >{{　fax\t}}{{\nſkype}}{{ company_address\u001c}}{{company_phone​}}{{\twebsite}}",
+  "to_plain_text": "Sig{{\n{{　fax\t}}\n{{\nſkype}}{{ company_address\n}}{{company_phone​}}{{\twebsite}}"
+ },
+ {
+  "html": "<TITLE>t</TITLE><b>x</b>{name}{{​company_name  }}{{ rd_office }}&copy;<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "<b>x</b>{name}{{​company_name  }}{{ rd_office }}&copy;<metadata>keep</metadata>",
+  "to_plain_text": "tx{name}{{​company_name  }}{{ rd_office }}©keep"
+ },
+ {
+  "html": "<!doctype html>}}{{  email​}}{{ name\t}}<td>{{\nemail  }}{{ {{\u001cdepartment }}{{​x_handle  }}<title>a\nb</title >",
+  "strip_document_shell": "}}{{  email​}}{{ name\t}}<td>{{\nemail  }}{{ {{\u001cdepartment }}{{​x_handle  }}",
+  "to_plain_text": "}}{{  email​}}{{ name\t}}{{\nemail  }}{{\n{{\ndepartment }}{{​x_handle  }}a\nb"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body_x>{name}<b>x</b><br/>{{\tdıv}}",
+  "strip_document_shell": "<body_x>{name}<b>x</b><br/>{{\tdıv}}",
+  "to_plain_text": "{name}x\n{{\tdıv}}"
+ },
+ {
+  "html": "<body>\n&#0;{{\nİd　}}&copy;{{{name}}}&</body><body>second</body>",
+  "strip_document_shell": "&#0;{{\nİd　}}&copy;{{{name}}}&",
+  "to_plain_text": "�{{\nİd　}}©{{{name}}}&second"
+ },
+ {
+  "html": "<tİtle>t</tıtle> </p>{{\ncompany_address}}{{\u001ctitle​}}&#x110000;{{  fax\u001c}}<p>   | ",
+  "strip_document_shell": "</p>{{\ncompany_address}}{{\u001ctitle​}}&#x110000;{{  fax\u001c}}<p>   |",
+  "to_plain_text": "t\n{{\ncompany_address}}{{\ntitle​}}�{{  fax\n}}   |"
+ },
+ {
+  "html": "<TITLE>t</TITLE>{{ company_website}}&#169;{{​address　}}{{ bad-name }}</div>{{\tcity }}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "{{ company_website}}&#169;{{​address　}}{{ bad-name }}</div>{{\tcity }}<metadata>keep</metadata>",
+  "to_plain_text": "t{{ company_website}}©{{​address　}}{{ bad-name }}\n{{\tcity }}keep"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body></body></html>",
+  "strip_document_shell": "",
+  "to_plain_text": "Sig"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<head>  {{website\u001c}}&#x41;{{ rd_office\n}}{{ NAME }}</tr><b>x</b></head><html lang=en>",
+  "strip_document_shell": "{{website\u001c}}&#x41;{{ rd_office\n}}{{ NAME }}</tr><b>x</b>",
+  "to_plain_text": "{{website\n}}A{{ rd_office\n}}{{ NAME }}\nx"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{​company_address\t}}</p>{{　x_handle\n}}{{ company_legal}}\n&\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{​company_address\t}}</p>{{　x_handle\n}}{{ company_legal}}\n&",
+  "to_plain_text": "{{​company_address\t}}\n{{　x_handle\n}}{{ company_legal}}\n&"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<!doctype html>&copy;{{\u001ccompany_address　}}{{\u001ccompany_phone }}<b>x</b>{{​ſkype\u001c}}{{name }}é{{{name}}}{{}}<title>a\nb</title >",
+  "strip_document_shell": "&copy;{{\u001ccompany_address　}}{{\u001ccompany_phone }}<b>x</b>{{​ſkype\u001c}}{{name }}é{{{name}}}{{}}",
+  "to_plain_text": "©{{\ncompany_address　}}{{\ncompany_phone }}x{{​ſkype\n}}{{name }}é{{{name}}}{{}}a\nb"
+ },
+ {
+  "html": "<TITLE>t</TITLE>\u000b<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "<metadata>keep</metadata>",
+  "to_plain_text": "t\nkeep"
+ },
+ {
+  "html": "<bodyx>&{{　x_handle\t}}&#x110000;&#128;\n\r\n | &#x110000;</bodyx>",
+  "strip_document_shell": "<bodyx>&{{　x_handle\t}}&#x110000;&#128;\n\r\n | &#x110000;</bodyx>",
+  "to_plain_text": "&{{　x_handle\t}}�€\n| �"
+ },
+ {
+  "html": "<body_x>{{\nx_handle\u001c}}\r\n",
+  "strip_document_shell": "<body_x>{{\nx_handle\u001c}}",
+  "to_plain_text": "{{\nx_handle\n}}"
+ },
+ {
+  "html": "<body>{{ name\u001c}}&amp\n{{\tKK　}}",
+  "strip_document_shell": "{{ name\u001c}}&amp\n{{\tKK　}}",
+  "to_plain_text": "{{ name\n}}&\n{{\tKK　}}"
+ },
+ {
+  "html": "<body_x>{name}{{\tcompany_website }}{{​rd_office\t}}{{\u001ccompany_website\t}} | ",
+  "strip_document_shell": "<body_x>{name}{{\tcompany_website }}{{​rd_office\t}}{{\u001ccompany_website\t}} |",
+  "to_plain_text": "{name}{{\tcompany_website }}{{​rd_office\t}}{{\ncompany_website\t}} |"
+ },
+ {
+  "html": "<head></head><html lang=en>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{\tcompany_website }}&#x41;{{\u001cfax\t}}{{　9 }}{{  address\n}}</p>{{ office_address }}</body></html>",
+  "strip_document_shell": "{{\tcompany_website }}&#x41;{{\u001cfax\t}}{{　9 }}{{  address\n}}</p>{{ office_address }}",
+  "to_plain_text": "Sig{{\tcompany_website }}A{{\nfax\t}}{{　9 }}{{  address\n}}\n{{ office_address }}"
+ },
+ {
+  "html": "  \n<b>x</b>{{company_phone　}}\n  ",
+  "strip_document_shell": "<b>x</b>{{company_phone　}}",
+  "to_plain_text": "x{{company_phone　}}"
+ },
+ {
+  "html": "<body_x><span style=\"color:red\">{{\tcompany_address\u001c}}{{ mobile​}}{{}}</div><span style=\"color:red\">",
+  "strip_document_shell": "<body_x><span style=\"color:red\">{{\tcompany_address\u001c}}{{ mobile​}}{{}}</div><span style=\"color:red\">",
+  "to_plain_text": "{{\tcompany_address\n}}{{ mobile​}}{{}}"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "  \n\n  ",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{ company_name　}}&#x110000;{{}}{{\ndıv }}{{ fax }}{{\nlinkedin_url }}{{  phone}}\n&#x41;\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{ company_name　}}&#x110000;{{}}{{\ndıv }}{{ fax }}{{\nlinkedin_url }}{{  phone}}\n&#x41;",
+  "to_plain_text": "{{ company_name　}}�{{}}{{\ndıv }}{{ fax }}{{\nlinkedin_url }}{{  phone}}\nA"
+ },
+ {
+  "html": "<body><b>x</b>\r\n{{\u001cNAME}}{{ bad-name }}",
+  "strip_document_shell": "<b>x</b>\r\n{{\u001cNAME}}{{ bad-name }}",
+  "to_plain_text": "x\n{{\nNAME}}{{ bad-name }}"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body></tr><b>x</b>  {{　website }}{{ company_legal }}</body><body>second</body>",
+  "strip_document_shell": "</tr><b>x</b>  {{　website }}{{ company_legal }}",
+  "to_plain_text": "x  {{　website }}{{ company_legal }}second"
+ },
+ {
+  "html": "<head>{{​city\n}}{{\nlinkedin_url　}}</head><html lang=en>",
+  "strip_document_shell": "{{​city\n}}{{\nlinkedin_url　}}",
+  "to_plain_text": "{{​city\n}}{{\nlinkedin_url　}}"
+ },
+ {
+  "html": "<!doctype html>&copy;<title>a\nb</title >",
+  "strip_document_shell": "&copy;",
+  "to_plain_text": "©a\nb"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>&#x41;<p>{{\u001ccity\u001c}}{{\u001ccompany_name​}}&copy;&notit;</body></html>",
+  "strip_document_shell": "&#x41;<p>{{\u001ccity\u001c}}{{\u001ccompany_name​}}&copy;&notit;",
+  "to_plain_text": "SigA{{\ncity\n}}{{\ncompany_name​}}©¬it;"
+ },
+ {
+  "html": "<head></head><html lang=en>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body>{{\tname　}}{{\tName\n}}{{ _ }}{{{name}}}&#128;</body><body>second</body>",
+  "strip_document_shell": "{{\tname　}}{{\tName\n}}{{ _ }}{{{name}}}&#128;",
+  "to_plain_text": "{{\tname　}}{{\tName\n}}{{ _ }}{{{name}}}€second"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body_x>{{ Name\t}}{{  mobile\u001c}}",
+  "strip_document_shell": "<body_x>{{ Name\t}}{{  mobile\u001c}}",
+  "to_plain_text": "{{ Name\t}}{{  mobile\n}}"
+ },
+ {
+  "html": "<body_x>{{{name}}} | {{{name}}}</tr><BR />{name}{{ſkype  }}",
+  "strip_document_shell": "<body_x>{{{name}}} | {{{name}}}</tr><BR />{name}{{ſkype  }}",
+  "to_plain_text": "{{{name}}} | {{{name}}}\n{name}{{ſkype  }}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>&notit;  {{address\n}}{{\n_\u001c}}{{ title　}}&bogus;&#169;",
+  "strip_document_shell": "&notit;  {{address\n}}{{\n_\u001c}}{{ title　}}&bogus;&#169;",
+  "to_plain_text": "t¬it;  {{address\n}}{{\n_\n}}{{ title　}}&bogus;©"
+ },
+ {
+  "html": "<TITLE>t</TITLE>\r\n&#0;&bogus;<br>{{\nſkype}}</p>&copy;&#0;</tr><meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&#0;&bogus;<br>{{\nſkype}}</p>&copy;&#0;</tr><metadata>keep</metadata>",
+  "to_plain_text": "t\n�&bogus;\n{{\nſkype}}\n©�\nkeep"
+ },
+ {
+  "html": "<TITLE>t</TITLE>&bogus;{{  company_email  }}&#169;<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&bogus;{{  company_email  }}&#169;<metadata>keep</metadata>",
+  "to_plain_text": "t&bogus;{{  company_email  }}©keep"
+ },
+ {
+  "html": "<bodyx>{{\noffice_address\t}} <td>{{　Name  }}&amp{{\na1_b2 }}</bodyx>",
+  "strip_document_shell": "<bodyx>{{\noffice_address\t}} <td>{{　Name  }}&amp{{\na1_b2 }}</bodyx>",
+  "to_plain_text": "{{\noffice_address\t}}\n{{　Name  }}&{{\na1_b2 }}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>",
+  "strip_document_shell": "",
+  "to_plain_text": "t"
+ },
+ {
+  "html": "<bodý>&amp<img src=\"https://x.test/a.png\">{{  company_website\u001c}}<BR />&#x110000;<td>{{  position\t}}{{\ncompany_name\u001c}}</body>",
+  "strip_document_shell": "&amp<img src=\"https://x.test/a.png\">{{  company_website\u001c}}<BR />&#x110000;<td>{{  position\t}}{{\ncompany_name\u001c}}",
+  "to_plain_text": "&{{  company_website\n}}\n�{{  position\t}}{{\ncompany_name\n}}"
+ },
+ {
+  "html": "</TABLE >{{　KK }}&#169;&notit; | {{\tKK  }}{{ ſkype\t}}",
+  "strip_document_shell": "</TABLE >{{　KK }}&#169;&notit; | {{\tKK  }}{{ ſkype\t}}",
+  "to_plain_text": "{{　KK }}©¬it; | {{\tKK  }}{{ ſkype\t}}"
+ },
+ {
+  "html": "<body>&amp;</body><body>second</body>",
+  "strip_document_shell": "&amp;",
+  "to_plain_text": "&second"
+ },
+ {
+  "html": "<!doctype html>{{  phone​}}{{ company_phone }}{{ city}}<p>&#169;{{\u001crd_office  }}&#x41;{{  fax }}{{{name}}}<title>a\nb</title >",
+  "strip_document_shell": "{{  phone​}}{{ company_phone }}{{ city}}<p>&#169;{{\u001crd_office  }}&#x41;{{  fax }}{{{name}}}",
+  "to_plain_text": "{{  phone​}}{{ company_phone }}{{ city}}©{{\nrd_office  }}A{{  fax }}{{{name}}}a\nb"
+ },
+ {
+  "html": "<bodyx>{{​website }}\r\n {{}}</bodyx>",
+  "strip_document_shell": "<bodyx>{{​website }}\r\n {{}}</bodyx>",
+  "to_plain_text": "{{​website }}\n{{}}"
+ },
+ {
+  "html": "<bodý>{{\nwebsite​}}{{\tlinkedin_url  }}&copy;{{  a1_b2　}}<BR /><br/>{{\noffice_address }}</body>",
+  "strip_document_shell": "{{\nwebsite​}}{{\tlinkedin_url  }}&copy;{{  a1_b2　}}<BR /><br/>{{\noffice_address }}",
+  "to_plain_text": "{{\nwebsite​}}{{\tlinkedin_url  }}©{{  a1_b2　}}\n{{\noffice_address }}"
+ },
+ {
+  "html": "<bodý>{{  city​}}&notit;{{​office_address\t}}{{　company_name​}}<td>{{</body>",
+  "strip_document_shell": "{{  city​}}&notit;{{​office_address\t}}{{　company_name​}}<td>{{",
+  "to_plain_text": "{{  city​}}¬it;{{​office_address\t}}{{　company_name​}}{{"
+ },
+ {
+  "html": "<body_x><img src=\"https://x.test/a.png\"></tr>&#128;&amp",
+  "strip_document_shell": "<body_x><img src=\"https://x.test/a.png\"></tr>&#128;&amp",
+  "to_plain_text": "€&"
+ },
+ {
+  "html": "<bodý></body>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body_x>{{}}\u000b{{\u001clinkedin_url​}} | <br>{{}}{{　position\t}}{{ company_phone\u001c}}{{",
+  "strip_document_shell": "<body_x>{{}}\u000b{{\u001clinkedin_url​}} | <br>{{}}{{　position\t}}{{ company_phone\u001c}}{{",
+  "to_plain_text": "{{}}\n{{\nlinkedin_url​}} |\n{{}}{{　position\t}}{{ company_phone\n}}{{"
+ },
+ {
+  "html": "<body><img src=\"https://x.test/a.png\">&#x110000;{{  rd_office  }}</div>",
+  "strip_document_shell": "<img src=\"https://x.test/a.png\">&#x110000;{{  rd_office  }}</div>",
+  "to_plain_text": "�{{  rd_office  }}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{​name }}</TABLE >{{\u001ccompany_name\t}}{{ position\t}}",
+  "strip_document_shell": "{{​name }}</TABLE >{{\u001ccompany_name\t}}{{ position\t}}",
+  "to_plain_text": "t{{​name }}\n{{\ncompany_name\t}}{{ position\t}}"
+ },
+ {
+  "html": "<!doctype html>&#x110000;&amp;<br/><span style=\"color:red\">&#169;<title>a\nb</title >",
+  "strip_document_shell": "&#x110000;&amp;<br/><span style=\"color:red\">&#169;",
+  "to_plain_text": "�&\n©a\nb"
+ },
+ {
+  "html": "<body>{{​company_name  }}{{​linkedin_url}}{{\nwebsite}}\r\n}}&bogus;&bogus;</body><body>second</body>",
+  "strip_document_shell": "{{​company_name  }}{{​linkedin_url}}{{\nwebsite}}\r\n}}&bogus;&bogus;",
+  "to_plain_text": "{{​company_name  }}{{​linkedin_url}}{{\nwebsite}}\n}}&bogus;\n&bogus;second"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<tİtle>t</tıtle>\r\n\r\n&&copy;{{company_address }}{{\nemail\n}}é{{  phone\n}}",
+  "strip_document_shell": "&&copy;{{company_address }}{{\nemail\n}}é{{  phone\n}}",
+  "to_plain_text": "t\n&©{{company_address }}{{\nemail\n}}é{{  phone\n}}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n&copy;}}<img src=\"https://x.test/a.png\">\n</BODY >\n</HTML>",
+  "strip_document_shell": "&copy;}}<img src=\"https://x.test/a.png\">",
+  "to_plain_text": "©}}"
+ },
+ {
+  "html": "  \n\n  ",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{​company_address\u001c}}</tr>{{{name}}}{{ x_handle　}}{{ linkedin_url\t}}",
+  "strip_document_shell": "{{​company_address\u001c}}</tr>{{{name}}}{{ x_handle　}}{{ linkedin_url\t}}",
+  "to_plain_text": "t{{​company_address\n}}\n{{{name}}}{{ x_handle　}}{{ linkedin_url\t}}"
+ },
+ {
+  "html": "<body>{{email }}{{\tName}}{{​x_handle }}{{company_phone\n}}&#x110000;{{  _ }}{{ linkedin_url  }}<img src=\"https://x.test/a.png\"> | </body><body>second</body>",
+  "strip_document_shell": "{{email }}{{\tName}}{{​x_handle }}{{company_phone\n}}&#x110000;{{  _ }}{{ linkedin_url  }}<img src=\"https://x.test/a.png\"> |",
+  "to_plain_text": "{{email }}{{\tName}}{{​x_handle }}{{company_phone\n}}�{{  _ }}{{ linkedin_url  }} | second"
+ },
+ {
+  "html": "<head>{{\tphone }}</head><html lang=en>",
+  "strip_document_shell": "{{\tphone }}",
+  "to_plain_text": "{{\tphone }}"
+ },
+ {
+  "html": "<bodyx>&#x41;<td>{{ ſkype }}&amp;{{  company_name }}&#x110000;</bodyx>",
+  "strip_document_shell": "<bodyx>&#x41;<td>{{ ſkype }}&amp;{{  company_name }}&#x110000;</bodyx>",
+  "to_plain_text": "A{{ ſkype }}&{{  company_name }}�"
+ },
+ {
+  "html": "<body_x>}}&#x110000;",
+  "strip_document_shell": "<body_x>}}&#x110000;",
+  "to_plain_text": "}}�"
+ },
+ {
+  "html": "<bodyx></span>{{</bodyx>",
+  "strip_document_shell": "<bodyx></span>{{</bodyx>",
+  "to_plain_text": "{{"
+ },
+ {
+  "html": "<bodyx>{{_ }}</bodyx>",
+  "strip_document_shell": "<bodyx>{{_ }}</bodyx>",
+  "to_plain_text": "{{_ }}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{\tcompany_phone\n}}\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{\tcompany_phone\n}}",
+  "to_plain_text": "{{\tcompany_phone\n}}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{{name}}}{{  a1_b2 }}{{​name }}",
+  "strip_document_shell": "{{{name}}}{{  a1_b2 }}{{​name }}",
+  "to_plain_text": "t{{{name}}}{{  a1_b2 }}{{​name }}"
+ },
+ {
+  "html": "<TITLE>t</TITLE>&#0;&notit;{{  company_name​}}&#x110000;{{\nwebsite​}}</span>{{\ntitle  }}{{\u001cfax  }}&#0;<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&#0;&notit;{{  company_name​}}&#x110000;{{\nwebsite​}}</span>{{\ntitle  }}{{\u001cfax  }}&#0;<metadata>keep</metadata>",
+  "to_plain_text": "t�¬it;{{  company_name​}}�{{\nwebsite​}}{{\ntitle  }}{{\nfax  }}�keep"
+ },
+ {
+  "html": "<body>&#x110000;&#128;&#x41;</div>{{　company_name\n}}{{  linkedin_url}}{{\nposition​}}{{​NAME\t}}{{\u001ccompany_name\t}}",
+  "strip_document_shell": "&#x110000;&#128;&#x41;</div>{{　company_name\n}}{{  linkedin_url}}{{\nposition​}}{{​NAME\t}}{{\u001ccompany_name\t}}",
+  "to_plain_text": "�€A\n{{　company_name\n}}{{  linkedin_url}}{{\nposition​}}{{​NAME\t}}{{\ncompany_name\t}}"
+ },
+ {
+  "html": "{{​rd_office}}{{​NAME\n}}</span><td>",
+  "strip_document_shell": "{{​rd_office}}{{​NAME\n}}</span><td>",
+  "to_plain_text": "{{​rd_office}}{{​NAME\n}}"
+ },
+ {
+  "html": "<TITLE>t</TITLE>&bogus;&#0;<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&bogus;&#0;<metadata>keep</metadata>",
+  "to_plain_text": "t\n&bogus;�keep"
+ },
+ {
+  "html": "<body_x>",
+  "strip_document_shell": "<body_x>",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{\u001clinkedin_url​}}</span>{{\u001cwebsite\n}}&amp;<BR />{{ phone\t}}é{{　department }}{{}}",
+  "strip_document_shell": "{{\u001clinkedin_url​}}</span>{{\u001cwebsite\n}}&amp;<BR />{{ phone\t}}é{{　department }}{{}}",
+  "to_plain_text": "t{{\nlinkedin_url​}}{{\nwebsite\n}}&\n{{ phone\t}}é{{　department }}{{}}"
+ },
+ {
+  "html": "<body_x>{{  NAME }}{{title\t}}",
+  "strip_document_shell": "<body_x>{{  NAME }}{{title\t}}",
+  "to_plain_text": "{{  NAME }}{{title\t}}"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>é&#169;{{ ſkype　}}{{\tposition }}{{ bad-name }}&#x110000;&amp</body></html>",
+  "strip_document_shell": "é&#169;{{ ſkype　}}{{\tposition }}{{ bad-name }}&#x110000;&amp",
+  "to_plain_text": "Sigé©{{ ſkype　}}{{\tposition }}{{ bad-name }}�&"
+ },
+ {
+  "html": "<head>{{  _\n}}{{ İd​}}{{ title}}</head><html lang=en>",
+  "strip_document_shell": "{{  _\n}}{{ İd​}}{{ title}}",
+  "to_plain_text": "{{  _\n}}{{ İd​}}{{ title}}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n\n</BODY >\n</HTML>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "{{Name }}{{  name }}{{dıv\t}}{{　İd\t}}<br>",
+  "strip_document_shell": "{{Name }}{{  name }}{{dıv\t}}{{　İd\t}}<br>",
+  "to_plain_text": "{{Name }}{{  name }}{{dıv\t}}{{　İd\t}}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{  city\n}}</div>{{}}{name}<img src=\"https://x.test/a.png\"><span style=\"color:red\"><span style=\"color:red\">{{\u001cNAME }}\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{  city\n}}</div>{{}}{name}<img src=\"https://x.test/a.png\"><span style=\"color:red\"><span style=\"color:red\">{{\u001cNAME }}",
+  "to_plain_text": "{{  city\n}}\n{{}}{name}{{\nNAME }}"
+ },
+ {
+  "html": "  \n{{ address\t}}&#169;{{​company_website\t}}<td>&amp;&#0;</tr>\n  ",
+  "strip_document_shell": "{{ address\t}}&#169;{{​company_website\t}}<td>&amp;&#0;</tr>",
+  "to_plain_text": "{{ address\t}}©{{​company_website\t}}&�"
+ },
+ {
+  "html": "<body><td>{{ name\t}}  ",
+  "strip_document_shell": "<td>{{ name\t}}",
+  "to_plain_text": "{{ name\t}}"
+ },
+ {
+  "html": "<body>{{ position}}{{\ncity }}<b>x</b>&amp;</body><body>second</body>",
+  "strip_document_shell": "{{ position}}{{\ncity }}<b>x</b>&amp;",
+  "to_plain_text": "{{ position}}{{\ncity }}x&second"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<head></p>{{\u001cName\u001c}}<p>{{  company_email }}</p>&bogus;&#128;</head><html lang=en>",
+  "strip_document_shell": "</p>{{\u001cName\u001c}}<p>{{  company_email }}</p>&bogus;&#128;",
+  "to_plain_text": "{{\nName\n}}{{  company_email }}\n&bogus;€"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body></body></html>",
+  "strip_document_shell": "",
+  "to_plain_text": "Sig"
+ },
+ {
+  "html": "<bodyx></p>{{  website }}&{{​dıv\u001c}}&#128;</bodyx>",
+  "strip_document_shell": "<bodyx></p>{{  website }}&{{​dıv\u001c}}&#128;</bodyx>",
+  "to_plain_text": "{{  website }}&{{​dıv\n}}€"
+ },
+ {
+  "html": "<body></body><body>second</body>",
+  "strip_document_shell": "",
+  "to_plain_text": "second"
+ },
+ {
+  "html": "<body><img src=\"https://x.test/a.png\">&#x41;{{ ſkype\u001c}} | <img src=\"https://x.test/a.png\"></body><body>second</body>",
+  "strip_document_shell": "<img src=\"https://x.test/a.png\">&#x41;{{ ſkype\u001c}} | <img src=\"https://x.test/a.png\">",
+  "to_plain_text": "A{{ ſkype\n}} | second"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body></tr>&#169;<td></div>\u000b</p>{{ title }}{{\ncompany_legal​}}</body></html>",
+  "strip_document_shell": "</tr>&#169;<td></div>\u000b</p>{{ title }}{{\ncompany_legal​}}",
+  "to_plain_text": "Sig\n©\n{{ title }}{{\ncompany_legal​}}"
+ },
+ {
+  "html": "<!doctype html> | {{​email​}}&bogus;{{\tcompany_email\n}}é  <td><title>a\nb</title >",
+  "strip_document_shell": "| {{​email​}}&bogus;{{\tcompany_email\n}}é  <td>",
+  "to_plain_text": "| {{​email​}}&bogus;{{\tcompany_email\n}}é  a\nb"
+ },
+ {
+  "html": "<body>{{İd }}{{\u001ccity\n}}<br>{{company_address\u001c}}{{ KK\u001c}}<br/>",
+  "strip_document_shell": "{{İd }}{{\u001ccity\n}}<br>{{company_address\u001c}}{{ KK\u001c}}<br/>",
+  "to_plain_text": "{{İd }}{{\ncity\n}}\n{{company_address\n}}{{ KK\n}}"
+ },
+ {
+  "html": "<body>{{\tſkype　}}\u000b&amp;<b>x</b>{{​company_name　}} | \n",
+  "strip_document_shell": "{{\tſkype　}}\u000b&amp;<b>x</b>{{​company_name　}} |",
+  "to_plain_text": "{{\tſkype　}}\n&x{{​company_name　}} |"
+ },
+ {
+  "html": "<tİtle>t</tıtle>",
+  "strip_document_shell": "",
+  "to_plain_text": "t"
+ },
+ {
+  "html": "<head><b>x</b><img src=\"https://x.test/a.png\">{{phone\n}}&#169;</head><html lang=en>",
+  "strip_document_shell": "<b>x</b><img src=\"https://x.test/a.png\">{{phone\n}}&#169;",
+  "to_plain_text": "x{{phone\n}}©"
+ },
+ {
+  "html": "<bodý>{{ dıv  }}{{　KK\t}}{{​title }}<br>\n{{  company_legal　}}</body>",
+  "strip_document_shell": "{{ dıv  }}{{　KK\t}}{{​title }}<br>\n{{  company_legal　}}",
+  "to_plain_text": "{{ dıv  }}{{　KK\t}}{{​title }}\n{{  company_legal　}}"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body><img src=\"https://x.test/a.png\"></body></html>",
+  "strip_document_shell": "<img src=\"https://x.test/a.png\">",
+  "to_plain_text": "Sig"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{\u001ccompany_name\n}}{{　a1_b2　}}{{{name}}}</p>{{city​}}<br>&amp;\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{\u001ccompany_name\n}}{{　a1_b2　}}{{{name}}}</p>{{city​}}<br>&amp;",
+  "to_plain_text": "{{\ncompany_name\n}}{{　a1_b2　}}{{{name}}}\n{{city​}}\n&"
+ },
+ {
+  "html": "<bodyx>{{  fax　}}{{　address\n}}</bodyx>",
+  "strip_document_shell": "<bodyx>{{  fax　}}{{　address\n}}</bodyx>",
+  "to_plain_text": "{{  fax　}}{{　address\n}}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{Name  }}",
+  "strip_document_shell": "{{Name  }}",
+  "to_plain_text": "t{{Name  }}"
+ },
+ {
+  "html": "<body>\n{{\noffice_address\t}}{{\nx_handle\u001c}}{{\tcompany_name}}&<b>x</b></body><body>second</body>",
+  "strip_document_shell": "{{\noffice_address\t}}{{\nx_handle\u001c}}{{\tcompany_name}}&<b>x</b>",
+  "to_plain_text": "{{\noffice_address\t}}{{\nx_handle\n}}{{\tcompany_name}}&xsecond"
+ },
+ {
+  "html": "<head></span></head><html lang=en>",
+  "strip_document_shell": "</span>",
+  "to_plain_text": ""
+ },
+ {
+  "html": "  \n\n  ",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body><b>x</b>{{ company_name　}}{{\ncity\n}}&copy;&notit; </div>&#169;{{ bad-name }}",
+  "strip_document_shell": "<b>x</b>{{ company_name　}}{{\ncity\n}}&copy;&notit; </div>&#169;{{ bad-name }}",
+  "to_plain_text": "x{{ company_name　}}{{\ncity\n}}©¬it;\n©{{ bad-name }}"
+ },
+ {
+  "html": "<head>{{  company_name　}}<br></head><html lang=en>",
+  "strip_document_shell": "{{  company_name　}}<br>",
+  "to_plain_text": "{{  company_name　}}"
+ },
+ {
+  "html": "<body>{name}{{\tİd  }}{{ _  }}{{ rd_office\u001c}}</span>{{\u001crd_office }}<img src=\"https://x.test/a.png\">é",
+  "strip_document_shell": "{name}{{\tİd  }}{{ _  }}{{ rd_office\u001c}}</span>{{\u001crd_office }}<img src=\"https://x.test/a.png\">é",
+  "to_plain_text": "{name}{{\tİd  }}{{ _  }}{{ rd_office\n}}{{\nrd_office }}é"
+ },
+ {
+  "html": "<TITLE>t</TITLE>{{\tfax\u001c}}&</TABLE >{{a1_b2}}}}&copy;{{\nNAME}}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "{{\tfax\u001c}}&</TABLE >{{a1_b2}}}}&copy;{{\nNAME}}<metadata>keep</metadata>",
+  "to_plain_text": "t{{\tfax\n}}&\n{{a1_b2}}}}©{{\nNAME}}keep"
+ },
+ {
+  "html": "<!doctype html>&{{\nwebsite\u001c}}{{\tcompany_phone  }}<BR />{{ title\n}}{{name  }} | <br/><title>a\nb</title >",
+  "strip_document_shell": "&{{\nwebsite\u001c}}{{\tcompany_phone  }}<BR />{{ title\n}}{{name  }} | <br/>",
+  "to_plain_text": "&{{\nwebsite\n}}{{\tcompany_phone  }}\n{{ title\n}}{{name  }} |\na\nb"
+ },
+ {
+  "html": "<bodyx></bodyx>",
+  "strip_document_shell": "<bodyx></bodyx>",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<head><b>x</b>&bogus;</head><html lang=en>",
+  "strip_document_shell": "<b>x</b>&bogus;",
+  "to_plain_text": "x&bogus;"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "  \n{{\tNAME }}  \r\n}}  &amp;{{　position  }}\n  ",
+  "strip_document_shell": "{{\tNAME }}  \r\n}}  &amp;{{　position  }}",
+  "to_plain_text": "{{\tNAME }}\n}}  &{{　position  }}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{　website　}}{{ fax\n}}<br/>",
+  "strip_document_shell": "{{　website　}}{{ fax\n}}<br/>",
+  "to_plain_text": "t{{　website　}}{{ fax\n}}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n<span style=\"color:red\">{{rd_office  }}{{​position  }}\n</BODY >\n</HTML>",
+  "strip_document_shell": "<span style=\"color:red\">{{rd_office  }}{{​position  }}",
+  "to_plain_text": "{{rd_office  }}{{​position  }}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{\u001cemail }}<img src=\"https://x.test/a.png\">{{\nwebsite  }}<br>&#x110000;&bogus;{{​_  }}",
+  "strip_document_shell": "{{\u001cemail }}<img src=\"https://x.test/a.png\">{{\nwebsite  }}<br>&#x110000;&bogus;{{​_  }}",
+  "to_plain_text": "t{{\nemail }}{{\nwebsite  }}\n�&bogus;{{​_  }}"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{　name }}&#128;</span>&#128;<img src=\"https://x.test/a.png\"><br>{{​title}}&</body></html>",
+  "strip_document_shell": "{{　name }}&#128;</span>&#128;<img src=\"https://x.test/a.png\"><br>{{​title}}&",
+  "to_plain_text": "Sig{{　name }}€€\n{{​title}}&"
+ },
+ {
+  "html": "<!doctype html>{{  office_address​}}{{ title }}{{ x_handle\t}}{{ bad-name }}{{  _　}}{name}<title>a\nb</title >",
+  "strip_document_shell": "{{  office_address​}}{{ title }}{{ x_handle\t}}{{ bad-name }}{{  _　}}{name}",
+  "to_plain_text": "{{  office_address​}}{{ title }}{{ x_handle\t}}{{ bad-name }}{{  _　}}{name}a\nb"
+ },
+ {
+  "html": "<!doctype html>{{ email\n}}<BR />{{  company_legal }}  <title>a\nb</title >",
+  "strip_document_shell": "{{ email\n}}<BR />{{  company_legal }}",
+  "to_plain_text": "{{ email\n}}\n{{  company_legal }}  a\nb"
+ },
+ {
+  "html": "<bodyx><p>{{ mobile　}}{{\nſkype  }}{{\nmobile }}</bodyx>",
+  "strip_document_shell": "<bodyx><p>{{ mobile　}}{{\nſkype  }}{{\nmobile }}</bodyx>",
+  "to_plain_text": "{{ mobile　}}{{\nſkype  }}{{\nmobile }}"
+ },
+ {
+  "html": "<TITLE>t</TITLE><meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "<metadata>keep</metadata>",
+  "to_plain_text": "tkeep"
+ },
+ {
+  "html": "<body></tr></TABLE >",
+  "strip_document_shell": "</tr></TABLE >",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodyx><br/>{{ mobile}}{{　9​}}{{ bad-name }}&bogus;{{　position\t}}é</bodyx>",
+  "strip_document_shell": "<bodyx><br/>{{ mobile}}{{　9​}}{{ bad-name }}&bogus;{{　position\t}}é</bodyx>",
+  "to_plain_text": "{{ mobile}}{{　9​}}{{ bad-name }}&bogus;{{　position\t}}\né"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{\u001cName  }}</div> }}",
+  "strip_document_shell": "{{\u001cName  }}</div> }}",
+  "to_plain_text": "t{{\nName  }}\n}}"
+ },
+ {
+  "html": "<!doctype html>&{{\temail }}<title>a\nb</title >",
+  "strip_document_shell": "&{{\temail }}",
+  "to_plain_text": "&{{\temail }}a\nb"
+ },
+ {
+  "html": "<body><b>x</b>\u000b{{}}</body><body>second</body>",
+  "strip_document_shell": "<b>x</b>\u000b{{}}",
+  "to_plain_text": "x\n{{}}second"
+ },
+ {
+  "html": "<bodý>{{　department}}</body>",
+  "strip_document_shell": "{{　department}}",
+  "to_plain_text": "{{　department}}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{}}",
+  "strip_document_shell": "{{}}",
+  "to_plain_text": "t{{}}"
+ },
+ {
+  "html": "<body_x>{{{name}}}{{\tcity  }}</TABLE ><img src=\"https://x.test/a.png\">}}é",
+  "strip_document_shell": "<body_x>{{{name}}}{{\tcity  }}</TABLE ><img src=\"https://x.test/a.png\">}}é",
+  "to_plain_text": "{{{name}}}{{\tcity  }}\n}}é"
+ },
+ {
+  "html": "<bodyx></TABLE ></bodyx>",
+  "strip_document_shell": "<bodyx></TABLE ></bodyx>",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodyx>{{\nİd　}}</bodyx>",
+  "strip_document_shell": "<bodyx>{{\nİd　}}</bodyx>",
+  "to_plain_text": "{{\nİd　}}"
+ },
+ {
+  "html": "<body>{{\u001ccompany_legal　}}{{\tmobile​}}<p>{{ dıv​}}\u000b{{ name}}</TABLE >  | </body><body>second</body>",
+  "strip_document_shell": "{{\u001ccompany_legal　}}{{\tmobile​}}<p>{{ dıv​}}\u000b{{ name}}</TABLE >  |",
+  "to_plain_text": "{{\ncompany_legal　}}{{\tmobile​}}{{ dıv​}}\n{{ name}}\n| second"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n<span style=\"color:red\"><p>{{　KK　}}{{a1_b2 }}\n</BODY >\n</HTML>",
+  "strip_document_shell": "<span style=\"color:red\"><p>{{　KK　}}{{a1_b2 }}",
+  "to_plain_text": "{{　KK　}}{{a1_b2 }}"
+ },
+ {
+  "html": "<bodý>&amp{{{name}}}<img src=\"https://x.test/a.png\"></TABLE > </body>",
+  "strip_document_shell": "&amp{{{name}}}<img src=\"https://x.test/a.png\"></TABLE >",
+  "to_plain_text": "&{{{name}}}"
+ },
+ {
+  "html": "<body_x>\n{name} ",
+  "strip_document_shell": "<body_x>\n{name}",
+  "to_plain_text": "{name}"
+ },
+ {
+  "html": "<body>&#x110000;{{website　}}&#128;\n {{\tNAME}}{{\nKK}}<span style=\"color:red\"></body><body>second</body>",
+  "strip_document_shell": "&#x110000;{{website　}}&#128;\n {{\tNAME}}{{\nKK}}<span style=\"color:red\">",
+  "to_plain_text": "�{{website　}}€\n{{\tNAME}}{{\nKK}}second"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body></body></html>",
+  "strip_document_shell": "",
+  "to_plain_text": "Sig"
+ },
+ {
+  "html": "<body>}}{{ company_phone　}}&#x110000;",
+  "strip_document_shell": "}}{{ company_phone　}}&#x110000;",
+  "to_plain_text": "}}{{ company_phone　}}�"
+ },
+ {
+  "html": "<head>\u000b</head><html lang=en>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<tİtle>t</tıtle>\r\n{{　linkedin_url　}}<br>{{​address }}<img src=\"https://x.test/a.png\">\u000b ",
+  "strip_document_shell": "{{　linkedin_url　}}<br>{{​address }}<img src=\"https://x.test/a.png\">",
+  "to_plain_text": "t\n{{　linkedin_url　}}\n{{​address }}"
+ },
+ {
+  "html": "<body></tr>",
+  "strip_document_shell": "</tr>",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<TITLE>t</TITLE>{{\tcompany_name\u001c}}</tr>&{{​NAME\t}}&#169;<p>{{  phone  }}</p>{{\u001ccompany_legal　}}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "{{\tcompany_name\u001c}}</tr>&{{​NAME\t}}&#169;<p>{{  phone  }}</p>{{\u001ccompany_legal　}}<metadata>keep</metadata>",
+  "to_plain_text": "t{{\tcompany_name\n}}\n&{{​NAME\t}}©{{  phone  }}\n{{\ncompany_legal　}}keep"
+ },
+ {
+  "html": "\u000b{{　x_handle  }}&#0;&#x110000;{{ office_address​}}",
+  "strip_document_shell": "{{　x_handle  }}&#0;&#x110000;{{ office_address​}}",
+  "to_plain_text": "{{　x_handle  }}��{{ office_address​}}"
+ },
+ {
+  "html": "<head>{{ address​}}{{name\n}}{{\u001cName}}{name}}}{{\ncompany_website\n}}{{　_}}</head><html lang=en>",
+  "strip_document_shell": "{{ address​}}{{name\n}}{{\u001cName}}{name}}}{{\ncompany_website\n}}{{　_}}",
+  "to_plain_text": "{{ address​}}{{name\n}}{{\nName}}{name}}}{{\ncompany_website\n}}{{　_}}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>",
+  "strip_document_shell": "",
+  "to_plain_text": "t"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{\trd_office }}{{　email }}\r\n{{  <br/><BR />{{ company_email\u001c}}",
+  "strip_document_shell": "{{\trd_office }}{{　email }}\r\n{{  <br/><BR />{{ company_email\u001c}}",
+  "to_plain_text": "t{{\trd_office }}{{　email }}\n{{\n{{ company_email\n}}"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodyx>{{\nſkype　}}</p></tr>&bogus;{{  fax}}{{​_  }}</bodyx>",
+  "strip_document_shell": "<bodyx>{{\nſkype　}}</p></tr>&bogus;{{  fax}}{{​_  }}</bodyx>",
+  "to_plain_text": "{{\nſkype　}}\n&bogus;{{  fax}}{{​_  }}"
+ },
+ {
+  "html": "<body>{{　company_address\n}}{{​Name }}&#128;{{ bad-name }}&amp</body><body>second</body>",
+  "strip_document_shell": "{{　company_address\n}}{{​Name }}&#128;{{ bad-name }}&amp",
+  "to_plain_text": "{{　company_address\n}}{{​Name }}€{{ bad-name }}&second"
+ },
+ {
+  "html": "<bodý>\u000b</span><td>&{{\nİd}}{{}}{{\temail }}{{ website}}</body>",
+  "strip_document_shell": "</span><td>&{{\nİd}}{{}}{{\temail }}{{ website}}",
+  "to_plain_text": "&{{\nİd}}{{}}{{\temail }}{{ website}}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{ bad-name }}{{\tcompany_website  }}&notit;{{\tname\t}}",
+  "strip_document_shell": "{{ bad-name }}{{\tcompany_website  }}&notit;{{\tname\t}}",
+  "to_plain_text": "t{{ bad-name }}{{\tcompany_website  }}¬it;{{\tname\t}}"
+ },
+ {
+  "html": "<body>{{\u001coffice_address​}}</body><body>second</body>",
+  "strip_document_shell": "{{\u001coffice_address​}}",
+  "to_plain_text": "{{\noffice_address​}}second"
+ },
+ {
+  "html": "  \n\n  ",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<TITLE>t</TITLE>{{ address}}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "{{ address}}<metadata>keep</metadata>",
+  "to_plain_text": "t{{ address}}keep"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{​name\u001c}}{{\ta1_b2　}}{{  office_address }}&amp</body></html>",
+  "strip_document_shell": "{{​name\u001c}}{{\ta1_b2　}}{{  office_address }}&amp",
+  "to_plain_text": "Sig{{​name\n}}{{\ta1_b2　}}{{  office_address }}&"
+ },
+ {
+  "html": "<body_x>{{ website　}} &notit;",
+  "strip_document_shell": "<body_x>{{ website　}} &notit;",
+  "to_plain_text": "{{ website　}}\n¬it;"
+ },
+ {
+  "html": "<body>{{ name​}}</p>",
+  "strip_document_shell": "{{ name​}}</p>",
+  "to_plain_text": "{{ name​}}"
+ },
+ {
+  "html": "<TITLE>t</TITLE>{{​city }}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "{{​city }}<metadata>keep</metadata>",
+  "to_plain_text": "t{{​city }}keep"
+ },
+ {
+  "html": "<tİtle>t</tıtle>\n",
+  "strip_document_shell": "",
+  "to_plain_text": "t"
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{​company_legal\u001c}} | {{\u001cposition\n}}",
+  "strip_document_shell": "{{​company_legal\u001c}} | {{\u001cposition\n}}",
+  "to_plain_text": "t{{​company_legal\n}} | {{\nposition\n}}"
+ },
+ {
+  "html": "<bodý><img src=\"https://x.test/a.png\"></body>",
+  "strip_document_shell": "<img src=\"https://x.test/a.png\">",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body></tr>{{​Name }}{{​company_address  }}&amp{{İd  }}&notit;",
+  "strip_document_shell": "</tr>{{​Name }}{{​company_address  }}&amp{{İd  }}&notit;",
+  "to_plain_text": "{{​Name }}{{​company_address  }}&{{İd  }}¬it;"
+ },
+ {
+  "html": "<TITLE>t</TITLE>&bogus;\u000b<b>x</b>{{\t_　}}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&bogus;\u000b<b>x</b>{{\t_　}}<metadata>keep</metadata>",
+  "to_plain_text": "t&bogus;\nx{{\t_　}}keep"
+ },
+ {
+  "html": "<head>{{\u001ccompany_address　}}<p></head><html lang=en>",
+  "strip_document_shell": "{{\u001ccompany_address　}}<p>",
+  "to_plain_text": "{{\ncompany_address　}}"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "{{  company_website​}}{{ department\u001c}}<td>",
+  "strip_document_shell": "{{  company_website​}}{{ department\u001c}}<td>",
+  "to_plain_text": "{{  company_website​}}{{ department\n}}"
+ },
+ {
+  "html": "  \n\n  ",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<body_x>{{​position\u001c}}<p>{{\ndıv\u001c}}{{​NAME  }}\r\n{{​linkedin_url\u001c}}{{　department\t}}",
+  "strip_document_shell": "<body_x>{{​position\u001c}}<p>{{\ndıv\u001c}}{{​NAME  }}\r\n{{​linkedin_url\u001c}}{{　department\t}}",
+  "to_plain_text": "{{​position\n}}{{\ndıv\n}}{{​NAME  }}\n{{​linkedin_url\n}}{{　department\t}}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n&notit;\u000b{name}&#169;<span style=\"color:red\">\n{{ email  }}{{\u001cdıv }}\n</BODY >\n</HTML>",
+  "strip_document_shell": "&notit;\u000b{name}&#169;<span style=\"color:red\">\n{{ email  }}{{\u001cdıv }}",
+  "to_plain_text": "¬it;\n{name}©\n{{ email  }}{{\ndıv }}"
+ },
+ {
+  "html": "  \n\n  ",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<TITLE>t</TITLE>{{ address  }}</div>&bogus;{{company_name\n}}{{　İd​}}<BR /><BR /></tr>&bogus;<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "{{ address  }}</div>&bogus;{{company_name\n}}{{　İd​}}<BR /><BR /></tr>&bogus;<metadata>keep</metadata>",
+  "to_plain_text": "t{{ address  }}\n&bogus;{{company_name\n}}{{　İd​}}\n&bogus;keep"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n<br>é{{\u001ccompany_website\t}}&amp;\n</BODY >\n</HTML>",
+  "strip_document_shell": "<br>é{{\u001ccompany_website\t}}&amp;",
+  "to_plain_text": "é{{\ncompany_website\t}}&"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{name\n}}</TABLE > <BR /></body></html>",
+  "strip_document_shell": "{{name\n}}</TABLE > <BR />",
+  "to_plain_text": "Sig{{name\n}}"
+ },
+ {
+  "html": "<head>{{\u001crd_office  }}&amp;{{phone}}{{  department }}\n{{ office_address}}{{a1_b2  }}</head><html lang=en>",
+  "strip_document_shell": "{{\u001crd_office  }}&amp;{{phone}}{{  department }}\n{{ office_address}}{{a1_b2  }}",
+  "to_plain_text": "{{\nrd_office  }}&{{phone}}{{  department }}\n{{ office_address}}{{a1_b2  }}"
+ },
+ {
+  "html": "<head><td>{{\u001caddress }}</head><html lang=en>",
+  "strip_document_shell": "<td>{{\u001caddress }}",
+  "to_plain_text": "{{\naddress }}"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body></p><BR />}}{{ address\t}}{{　office_address }}</body></html>",
+  "strip_document_shell": "</p><BR />}}{{ address\t}}{{　office_address }}",
+  "to_plain_text": "Sig\n}}{{ address\t}}{{　office_address }}"
+ },
+ {
+  "html": "  \n{{\nlinkedin_url\n}}{{\noffice_address\n}}{{\nfax​}}\n  ",
+  "strip_document_shell": "{{\nlinkedin_url\n}}{{\noffice_address\n}}{{\nfax​}}",
+  "to_plain_text": "{{\nlinkedin_url\n}}{{\noffice_address\n}}{{\nfax​}}"
+ },
+ {
+  "html": "<bodyx></span>{{\nKK }}{{\tdepartment\u001c}}</bodyx>",
+  "strip_document_shell": "<bodyx></span>{{\nKK }}{{\tdepartment\u001c}}</bodyx>",
+  "to_plain_text": "{{\nKK }}{{\tdepartment\n}}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n\n</BODY >\n</HTML>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<tİtle>t</tıtle>{{}}<td>",
+  "strip_document_shell": "{{}}<td>",
+  "to_plain_text": "t{{}}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{​rd_office\u001c}} &#x110000;&#128;\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{​rd_office\u001c}} &#x110000;&#128;",
+  "to_plain_text": "{{​rd_office\n}}\n�€"
+ },
+ {
+  "html": "<body_x>",
+  "strip_document_shell": "<body_x>",
+  "to_plain_text": ""
+ },
+ {
+  "html": "  \n\n  ",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodyx>{{}}{{\u001cemail　}}&#0;</bodyx>",
+  "strip_document_shell": "<bodyx>{{}}{{\u001cemail　}}&#0;</bodyx>",
+  "to_plain_text": "{{}}{{\nemail　}}�"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{ address }}{{dıv​}}&copy;{{ bad-name }}{{ x_handle​}}\n</TABLE ></body></html>",
+  "strip_document_shell": "{{ address }}{{dıv​}}&copy;{{ bad-name }}{{ x_handle​}}\n</TABLE >",
+  "to_plain_text": "Sig{{ address }}{{dıv​}}©{{ bad-name }}{{ x_handle​}}"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body></body></html>",
+  "strip_document_shell": "",
+  "to_plain_text": "Sig"
+ },
+ {
+  "html": "<body>{{ a1_b2 }}&#x110000;</body><body>second</body>",
+  "strip_document_shell": "{{ a1_b2 }}&#x110000;",
+  "to_plain_text": "{{ a1_b2 }}�second"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<head>&notit;<td></head><html lang=en>",
+  "strip_document_shell": "&notit;<td>",
+  "to_plain_text": "¬it;"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{\tname\n}}é\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{\tname\n}}é",
+  "to_plain_text": "{{\tname\n}}é"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodyx></p>{name}{{{name}}}&#169;<br>{{ city\t}}}} | </bodyx>",
+  "strip_document_shell": "<bodyx></p>{name}{{{name}}}&#169;<br>{{ city\t}}}} | </bodyx>",
+  "to_plain_text": "{name}{{{name}}}©\n{{ city\t}}}} |"
+ },
+ {
+  "html": "<body><BR />&#0;<b>x</b> &notit;&#169;&</body><body>second</body>",
+  "strip_document_shell": "<BR />&#0;<b>x</b> &notit;&#169;&",
+  "to_plain_text": "�x\n¬it;©&second"
+ },
+ {
+  "html": "<bodyx>{{}}</bodyx>",
+  "strip_document_shell": "<bodyx>{{}}</bodyx>",
+  "to_plain_text": "{{}}"
+ },
+ {
+  "html": "<!doctype html>{{ bad-name }}<span style=\"color:red\">&bogus;{{\u001ca1_b2 }}{{\ndıv​}}{{ſkype\u001c}}<img src=\"https://x.test/a.png\">\u000b{{ mobile  }}<title>a\nb</title >",
+  "strip_document_shell": "{{ bad-name }}<span style=\"color:red\">&bogus;{{\u001ca1_b2 }}{{\ndıv​}}{{ſkype\u001c}}<img src=\"https://x.test/a.png\">\u000b{{ mobile  }}",
+  "to_plain_text": "{{ bad-name }}&bogus;{{\na1_b2 }}{{\ndıv​}}{{ſkype\n}}\n{{ mobile  }}a\nb"
+ },
+ {
+  "html": "<body>&amp;{{ bad-name }}{{　mobile\u001c}}&copy;<br>",
+  "strip_document_shell": "&amp;{{ bad-name }}{{　mobile\u001c}}&copy;<br>",
+  "to_plain_text": "&{{ bad-name }}{{　mobile\n}}©"
+ },
+ {
+  "html": "  \n{{\tcompany_phone​}}&#128;{{\na1_b2  }}{{​position}}{{ company_legal}}{{\u001cſkype　}}</TABLE >{{\ncompany_website}}\n  ",
+  "strip_document_shell": "{{\tcompany_phone​}}&#128;{{\na1_b2  }}{{​position}}{{ company_legal}}{{\u001cſkype　}}</TABLE >{{\ncompany_website}}",
+  "to_plain_text": "{{\tcompany_phone​}}€{{\na1_b2  }}{{​position}}{{ company_legal}}{{\nſkype　}}\n{{\ncompany_website}}"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n&bogus;&#x41;<span style=\"color:red\">{{company_name }}{{  x_handle​}}{{  NAME  }}</tr>{{\u001cwebsite}}\n</BODY >\n</HTML>",
+  "strip_document_shell": "&bogus;&#x41;<span style=\"color:red\">{{company_name }}{{  x_handle​}}{{  NAME  }}</tr>{{\u001cwebsite}}",
+  "to_plain_text": "&bogus;A{{company_name }}{{  x_handle​}}{{  NAME  }}\n{{\nwebsite}}"
+ },
+ {
+  "html": "<!doctype html></p>&notit;\n\n<title>a\nb</title >",
+  "strip_document_shell": "</p>&notit;",
+  "to_plain_text": "¬it;\na\nb"
+ },
+ {
+  "html": "<head>{{ city　}}{{</head><html lang=en>",
+  "strip_document_shell": "{{ city　}}{{",
+  "to_plain_text": "{{ city　}}{{"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{ email}}&#x41;{{​city\u001c}}&#x41;\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{ email}}&#x41;{{​city\u001c}}&#x41;",
+  "to_plain_text": "{{ email}}A{{​city\n}}A"
+ },
+ {
+  "html": "<bodý></body>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodý>{{  company_phone\t}}{{\u001c_\u001c}}&#0;{{ bad-name }}&amp</body>",
+  "strip_document_shell": "{{  company_phone\t}}{{\u001c_\u001c}}&#0;{{ bad-name }}&amp",
+  "to_plain_text": "{{  company_phone\t}}{{\n_\n}}�{{ bad-name }}&"
+ },
+ {
+  "html": "  \n{{ rd_office\t}}</p><br/>{{phone  }}{{\ndıv​}}\n  ",
+  "strip_document_shell": "{{ rd_office\t}}</p><br/>{{phone  }}{{\ndıv​}}",
+  "to_plain_text": "{{ rd_office\t}}\n{{phone  }}{{\ndıv​}}"
+ },
+ {
+  "html": "<body> }}<b>x</b>{{\u001ca1_b2\n}}{{\noffice_address }}{{ fax\t}}{{ x_handle​}}{{ 9​}}{{​phone\u001c}}",
+  "strip_document_shell": "}}<b>x</b>{{\u001ca1_b2\n}}{{\noffice_address }}{{ fax\t}}{{ x_handle​}}{{ 9​}}{{​phone\u001c}}",
+  "to_plain_text": "}}x{{\na1_b2\n}}{{\noffice_address }}{{ fax\t}}{{ x_handle​}}{{ 9​}}{{​phone\n}}"
+ },
+ {
+  "html": "<body>{{  department\n}}<BR />{{  city\t}}&copy;{{  fax  }}  <img src=\"https://x.test/a.png\">&amp;&#128;",
+  "strip_document_shell": "{{  department\n}}<BR />{{  city\t}}&copy;{{  fax  }}  <img src=\"https://x.test/a.png\">&amp;&#128;",
+  "to_plain_text": "{{  department\n}}\n{{  city\t}}©{{  fax  }}  &€"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{\u001cſkype }}{{KK}} | <b>x</b>{{\tfax  }}</body></html>",
+  "strip_document_shell": "{{\u001cſkype }}{{KK}} | <b>x</b>{{\tfax  }}",
+  "to_plain_text": "Sig{{\nſkype }}{{KK}} | x{{\tfax  }}"
+ },
+ {
+  "html": "<body_x>&&amp;<br>&#0;<br/> | {{ website　}}",
+  "strip_document_shell": "<body_x>&&amp;<br>&#0;<br/> | {{ website　}}",
+  "to_plain_text": "&&\n�\n| {{ website　}}"
+ },
+ {
+  "html": "<tİtle>t</tıtle>é",
+  "strip_document_shell": "é",
+  "to_plain_text": "té"
+ },
+ {
+  "html": "<TITLE>t</TITLE>&#128;&#x41;{{\nname  }}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&#128;&#x41;{{\nname  }}<metadata>keep</metadata>",
+  "to_plain_text": "t€A{{\nname  }}keep"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{\twebsite }}</body></html>",
+  "strip_document_shell": "{{\twebsite }}",
+  "to_plain_text": "Sig{{\twebsite }}"
+ },
+ {
+  "html": "",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodý>{{ company_name }}&#x41;<b>x</b></p></body>",
+  "strip_document_shell": "{{ company_name }}&#x41;<b>x</b></p>",
+  "to_plain_text": "{{ company_name }}Ax"
+ },
+ {
+  "html": "<TITLE>t</TITLE>&amp;{{ website\n}}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&amp;{{ website\n}}<metadata>keep</metadata>",
+  "to_plain_text": "t&{{ website\n}}keep"
+ },
+ {
+  "html": "  \n<BR />&#x41;{{  {{ bad-name }}{{​company_name\n}}<td>\r\n&#0;\n  ",
+  "strip_document_shell": "<BR />&#x41;{{  {{ bad-name }}{{​company_name\n}}<td>\r\n&#0;",
+  "to_plain_text": "A{{  {{ bad-name }}{{​company_name\n}}\n�"
+ },
+ {
+  "html": "<body>&copy;{{​İd　}}</div><b>x</b>",
+  "strip_document_shell": "&copy;{{​İd　}}</div><b>x</b>",
+  "to_plain_text": "©{{​İd　}}\nx"
+ },
+ {
+  "html": "<body_x>  ",
+  "strip_document_shell": "<body_x>",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{  department\u001c}}{{company_address  }}</span></body></html>",
+  "strip_document_shell": "{{  department\u001c}}{{company_address  }}</span>",
+  "to_plain_text": "Sig{{  department\n}}{{company_address  }}"
+ },
+ {
+  "html": "<body></body><body>second</body>",
+  "strip_document_shell": "",
+  "to_plain_text": "second"
+ },
+ {
+  "html": "<head></head><html lang=en>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<TITLE>t</TITLE>  &bogus;{{\ncompany_website }}{{\ncompany_address​}}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "&bogus;{{\ncompany_website }}{{\ncompany_address​}}<metadata>keep</metadata>",
+  "to_plain_text": "t  &bogus;{{\ncompany_website }}{{\ncompany_address​}}keep"
+ },
+ {
+  "html": "<body_x> </TABLE >",
+  "strip_document_shell": "<body_x> </TABLE >",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>&#x110000;</body></html>",
+  "strip_document_shell": "&#x110000;",
+  "to_plain_text": "Sig�"
+ },
+ {
+  "html": "<body_x>{name}&&notit;",
+  "strip_document_shell": "<body_x>{name}&&notit;",
+  "to_plain_text": "{name}&¬it;"
+ },
+ {
+  "html": "<body>\n\u000b",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "\r\n",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{  company_legal }}\n<img src=\"https://x.test/a.png\"></body></html>",
+  "strip_document_shell": "{{  company_legal }}\n<img src=\"https://x.test/a.png\">",
+  "to_plain_text": "Sig{{  company_legal }}"
+ },
+ {
+  "html": "<head><img src=\"https://x.test/a.png\">&#128;</head><html lang=en>",
+  "strip_document_shell": "<img src=\"https://x.test/a.png\">&#128;",
+  "to_plain_text": "€"
+ },
+ {
+  "html": "<body>&#0;</tr></TABLE >&{{\naddress }}{{\tcompany_phone\t}}<td></body><body>second</body>",
+  "strip_document_shell": "&#0;</tr></TABLE >&{{\naddress }}{{\tcompany_phone\t}}<td>",
+  "to_plain_text": "�\n&{{\naddress }}{{\tcompany_phone\t}}second"
+ },
+ {
+  "html": "  \n{{  phone\n}}\r\n&notit;\n  ",
+  "strip_document_shell": "{{  phone\n}}\r\n&notit;",
+  "to_plain_text": "{{  phone\n}}\n¬it;"
+ },
+ {
+  "html": "<body_x>{{​mobile  }}{{\ncity\t}}{{ bad-name }}",
+  "strip_document_shell": "<body_x>{{​mobile  }}{{\ncity\t}}{{ bad-name }}",
+  "to_plain_text": "{{​mobile  }}{{\ncity\t}}{{ bad-name }}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n\n</BODY >\n</HTML>",
+  "strip_document_shell": "",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<TITLE>t</TITLE>{{email​}}<meta name=x><metadata>keep</metadata>",
+  "strip_document_shell": "{{email​}}<metadata>keep</metadata>",
+  "to_plain_text": "t{{email​}}keep"
+ },
+ {
+  "html": "  \n&copy;{{\u001cname  }}</tr></div>{{email　}}\n  ",
+  "strip_document_shell": "&copy;{{\u001cname  }}</tr></div>{{email　}}",
+  "to_plain_text": "©{{\nname  }}\n{{email　}}"
+ },
+ {
+  "html": "<body>{{　linkedin_url​}}{{  Name}}{{ dıv }}{{\tcompany_legal}}{{　NAME​}}</body><body>second</body>",
+  "strip_document_shell": "{{　linkedin_url​}}{{  Name}}{{ dıv }}{{\tcompany_legal}}{{　NAME​}}",
+  "to_plain_text": "{{　linkedin_url​}}{{  Name}}{{ dıv }}{{\tcompany_legal}}{{　NAME​}}second"
+ },
+ {
+  "html": "<head>{{  email\t}}&copy;&bogus;<img src=\"https://x.test/a.png\">{{dıv​}}\r\n{{\tname\u001c}}</span>{{　company_email }}</head><html lang=en>",
+  "strip_document_shell": "{{  email\t}}&copy;&bogus;<img src=\"https://x.test/a.png\">{{dıv​}}\r\n{{\tname\u001c}}</span>{{　company_email }}",
+  "to_plain_text": "{{  email\t}}©&bogus;{{dıv​}}\n{{\tname\n}}{{　company_email }}"
+ },
+ {
+  "html": "<html><head><title>Sig</title><meta charset=\"utf-8\"></head><body>{{_\u001c}}</p>\r\n&bogus;&amp<br></tr>{name}</body></html>",
+  "strip_document_shell": "{{_\u001c}}</p>\r\n&bogus;&amp<br></tr>{name}",
+  "to_plain_text": "Sig{{_\n}}\n&bogus;\n&\n{name}"
+ },
+ {
+  "html": "<!DOCTYPE html>\n<HTML>\n<BODY class=\"a\">\n{{_}}</span></TABLE >{{　company_address​}}{{{name}}}{{\tcompany_email }}</p>{{​fax  }}\n</BODY >\n</HTML>",
+  "strip_document_shell": "{{_}}</span></TABLE >{{　company_address​}}{{{name}}}{{\tcompany_email }}</p>{{​fax  }}",
+  "to_plain_text": "{{_}}\n{{　company_address​}}{{{name}}}{{\tcompany_email }}\n{{​fax  }}"
+ },
+ {
+  "html": "<bodý><span style=\"color:red\"></body>",
+  "strip_document_shell": "<span style=\"color:red\">",
+  "to_plain_text": ""
+ },
+ {
+  "html": "<bodý>{{　x_handle\t}}&#169;}}{{ bad-name }}{{ phone\n}}{{office_address}}</body>",
+  "strip_document_shell": "{{　x_handle\t}}&#169;}}{{ bad-name }}{{ phone\n}}{{office_address}}",
+  "to_plain_text": "{{　x_handle\t}}©}}{{ bad-name }}{{ phone\n}}{{office_address}}"
+ },
+ {
+  "html": "<body_x></tr>&amp&#169;{{\tcity\n}}",
+  "strip_document_shell": "<body_x></tr>&amp&#169;{{\tcity\n}}",
+  "to_plain_text": "&©{{\tcity\n}}"
+ }
+]

@@ -1,0 +1,179 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  rust-lint:
+    name: Rust (fmt, clippy)
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      CARGO_INCREMENTAL: "0"
+      CARGO_TERM_COLOR: always
+    defaults:
+      run:
+        working-directory: rust-version
+    steps:
+      - uses: actions/checkout@v4
+      - name: System packages
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libturbojpeg0-dev
+      # Pinned: the toolchain the code is checked with. Bump it on purpose (new clippy lints arrive with each release).
+      - uses: dtolnay/rust-toolchain@1.99.0
+        with:
+          components: rustfmt, clippy
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: rust-version
+          key: lint
+      - name: Format
+        run: cargo fmt --all -- --check
+      - name: Clippy
+        run: cargo clippy --workspace --all-targets -- -D warnings
+
+  rust-tests:
+    # Every integration test links the whole backend (150-300 MB each), so the suite is split over four runners
+    # and each runs its share one test target at a time (scripts/ci-rust-tests.sh).
+    name: Rust tests (${{ matrix.shard }}/4)
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: granary
+          POSTGRES_PASSWORD: granarytest
+          POSTGRES_DB: granary_test
+        ports: ["55433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U granary" --health-interval 5s --health-timeout 5s --health-retries 20
+      redis:
+        image: redis:7-alpine
+        ports: ["56380:6379"]
+        options: >-
+          --health-cmd "redis-cli ping" --health-interval 5s --health-timeout 5s --health-retries 20
+      # the IMAP and SMTP tests' mail server (any login, any password)
+      greenmail:
+        image: greenmail/standalone:2.1.2
+        env:
+          GREENMAIL_OPTS: -Dgreenmail.setup.test.all -Dgreenmail.hostname=0.0.0.0 -Dgreenmail.auth.disabled
+        ports: ["53025:3025", "53143:3143"]
+    env:
+      CARGO_INCREMENTAL: "0"
+      CARGO_TERM_COLOR: always
+      # no debug info in CI: smaller binaries and faster links (panic messages keep file and line)
+      CARGO_PROFILE_DEV_DEBUG: "0"
+      CARGO_PROFILE_TEST_DEBUG: "0"
+      SHARD: ${{ matrix.shard }}
+      SHARDS: "4"
+      # the documented test environment (compat-tests/env.test.sh, CONTRIBUTING.md): the tests expect these addresses
+      DATABASE_URL: postgres://granary:granarytest@127.0.0.1:55433/granary_test
+      TEST_DATABASE_URL: postgres://granary:granarytest@127.0.0.1:55433/granary_test
+      TEST_PG_ADMIN_URL: postgres://granary:granarytest@127.0.0.1:55433/postgres
+      REDIS_URL: redis://127.0.0.1:56380/0
+      CELERY_BROKER_URL: redis://127.0.0.1:56380/1
+      JWT_SECRET_KEY: test-jwt-secret-key-at-least-32-characters-long
+      APP_SECRET_KEY: test-app-secret-key-at-least-32-characters-long
+      SECRET_KEY: test-app-secret-key-at-least-32-characters-long
+      WHATSAPP_SERVICE_TOKEN: test-wa-token
+      ENVIRONMENT: test
+      POSTGRES_PASSWORD: granarytest
+      SUPERADMIN_PASSWORD: test-superadmin-password-1234
+      MINIO_SECRET_KEY: test-minio-secret
+      RUST_TEST_THREADS: "4"
+    defaults:
+      run:
+        working-directory: rust-version
+    steps:
+      - uses: actions/checkout@v4
+      - name: Free disk space
+        # the runner's preinstalled toolkits Granary doesn't use (about 30 GB)
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /usr/local/.ghcup /opt/hostedtoolcache/CodeQL
+          df -h /
+      - name: System packages
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libturbojpeg0-dev
+      - name: Redis for the API tests
+        # their own Redis (databases 42-63), so they never collide with the services tests'; a service
+        # container can't take the --databases argument, so it starts here
+        run: docker run -d --name granary-test-redis-api -p 127.0.0.1:56381:6379 redis:7-alpine redis-server --databases 64 --save "" --appendonly no
+      - uses: dtolnay/rust-toolchain@1.99.0
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: rust-version
+          key: tests
+          # one shard saves the cache; the others reuse it
+          save-if: ${{ matrix.shard == 1 }}
+      - name: Warm up Chromium
+        # the PDF tests start Chromium; its first start on a fresh runner (font cache) can pass their 30 s limit
+        run: |
+          for c in chromium chromium-browser google-chrome google-chrome-stable; do
+            if command -v "$c" >/dev/null; then timeout 120 "$c" --headless=new --no-sandbox --disable-gpu --dump-dom about:blank >/dev/null 2>&1 || true; break; fi
+          done
+      - name: Tests
+        run: bash ../scripts/ci-rust-tests.sh
+
+  frontend:
+    name: Frontend (types, lint, tests)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - name: Types
+        run: npx tsc --noEmit -p .
+      - name: Lint
+        run: npx eslint src
+      - name: Tests
+        run: npx vitest run
+
+  hygiene:
+    name: Hygiene (content, secrets, licences, attribution)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Content denylist and commit attribution
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            RANGE="${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }}"
+          else
+            RANGE="HEAD"
+          fi
+          python3 scripts/hygiene.py --commits "$RANGE"
+      - name: Secret scan (gitleaks)
+        env:
+          GITLEAKS_VERSION: 8.30.1
+          GITLEAKS_SHA256: 551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb
+        run: |
+          curl -sSLo gl.tgz "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+          echo "${GITLEAKS_SHA256}  gl.tgz" | sha256sum -c -
+          tar -xzf gl.tgz gitleaks
+          ./gitleaks dir . --config .gitleaks.toml --no-banner --exit-code 1
+      # Pinned: the toolchain the code is checked with. Bump it on purpose (new clippy lints arrive with each release).
+      - uses: dtolnay/rust-toolchain@1.99.0
+      - name: Dependency licences (cargo-deny)
+        working-directory: rust-version
+        run: |
+          cargo install cargo-deny --locked --version 0.20.2
+          cargo deny check licenses

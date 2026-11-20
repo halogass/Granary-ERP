@@ -1,0 +1,48 @@
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture1;
+ d=web3forms.com; b=FIXTURE
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture2;
+ d=amazonses.com; b=FIXTURE
+From: Web Form <notify+ayhhmp@web3forms.com>
+To: hello@example.com
+Subject: New Contact Us Submit [whatsapp]: Acme Garments Inc
+Date: Fri, 02 Oct 2026 06:28:13 +0000
+Message-ID: <0100-fixture-noemail-0005@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3575330249134230365=="
+
+--===============3575330249134230365==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+name  : Daniel Reyes
+email  : 
+phone  : +639171234567
+company  : Acme Garments Inc
+interested_in  : general
+message  : To Whom It May Concern,
+
+My name is Daniel Reyes, Operations Manager at Acme Garments Inc. We are interested in an inventory tracking system for our warehouse.
+
+Would your team be available to visit our warehouse and discuss how it could support our stock counts? Please let us know your available dates so we can arrange a meeting.
+
+Thank you, and I look forward to your response.
+
+Best regards,  
+Daniel Reyes  
+Operations Manager  
+Acme Garments Inc
+WhatsApp: +639171234567
+from_page  : https://www.example.com/case-studies/warehouse-inventory/
+submission_source  : whatsapp
+timezone  : Asia/Bangkok
+landing_page  : https://www.example.com/case-studies/warehouse-inventory/
+first_referrer  : (direct)
+
+--===============3575330249134230365==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body><p>New form submission</p><p>company: Acme Garments Inc</p></body></html>
+
+--===============3575330249134230365==--

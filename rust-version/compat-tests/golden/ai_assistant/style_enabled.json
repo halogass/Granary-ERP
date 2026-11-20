@@ -1,0 +1,42 @@
+[
+ {
+  "in": {},
+  "out": true
+ },
+ {
+  "in": {
+   "ai.no_em_dash": "true"
+  },
+  "out": true
+ },
+ {
+  "in": {
+   "ai.no_em_dash": "TRUE"
+  },
+  "out": true
+ },
+ {
+  "in": {
+   "ai.no_em_dash": "false"
+  },
+  "out": false
+ },
+ {
+  "in": {
+   "ai.no_em_dash": ""
+  },
+  "out": true
+ },
+ {
+  "in": {
+   "ai.no_em_dash": null
+  },
+  "out": true
+ },
+ {
+  "in": {
+   "ai.no_em_dash": "yes"
+  },
+  "out": false
+ }
+]

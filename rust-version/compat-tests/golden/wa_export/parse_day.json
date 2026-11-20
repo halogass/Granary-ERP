@@ -1,0 +1,6104 @@
+[
+ {
+  "tz": "Asia/Tokyo",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00+09:00",
+   "ts": 1798642800.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59+09:00",
+   "ts": 1798729199.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00+09:00",
+   "ts": 1709132400.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59+09:00",
+   "ts": 1709218799.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+09:00",
+   "ts": 1767538800.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+09:00",
+   "ts": 1767625199.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+09:00",
+   "ts": 1767538800.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+09:00",
+   "ts": 1767625199.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00+09:18:59",
+   "ts": -62135630339.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59+09:18:59",
+   "ts": -62135543940.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00+09:00",
+   "ts": 253402182000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59+09:00",
+   "ts": 253402268399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00+09:00",
+   "ts": 1791558000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59+09:00",
+   "ts": 1791644399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00+09:00",
+   "ts": 1772895600.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59+09:00",
+   "ts": 1772981999.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00+09:00",
+   "ts": 1793458800.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59+09:00",
+   "ts": 1793545199.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00+09:00",
+   "ts": 1774710000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59+09:00",
+   "ts": 1774796399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00+09:00",
+   "ts": 1792854000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59+09:00",
+   "ts": 1792940399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00+09:00",
+   "ts": 1791039600.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59+09:00",
+   "ts": 1791125999.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00+09:00",
+   "ts": 1775314800.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59+09:00",
+   "ts": 1775401199.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00+09:00",
+   "ts": 1541257200.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59+09:00",
+   "ts": 1541343599.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00+09:00",
+   "ts": 1774537200.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59+09:00",
+   "ts": 1774623599.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00+09:00",
+   "ts": 1793286000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59+09:00",
+   "ts": 1793372399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+09:00",
+   "ts": 1785510000.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+09:00",
+   "ts": 1785596399.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+09:00",
+   "ts": 1767538800.0
+  }
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+09:00",
+   "ts": 1767625199.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00+00:00",
+   "ts": 1798675200.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59+00:00",
+   "ts": 1798761599.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00+00:00",
+   "ts": 1709164800.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59+00:00",
+   "ts": 1709251199.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+00:00",
+   "ts": 1767571200.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+00:00",
+   "ts": 1767657599.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+00:00",
+   "ts": 1767571200.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+00:00",
+   "ts": 1767657599.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00+00:00",
+   "ts": -62135596800.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59+00:00",
+   "ts": -62135510401.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00+00:00",
+   "ts": 253402214400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59+00:00",
+   "ts": 253402300799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00+00:00",
+   "ts": 1791590400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59+00:00",
+   "ts": 1791676799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00+00:00",
+   "ts": 1772928000.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59+00:00",
+   "ts": 1773014399.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00+00:00",
+   "ts": 1793491200.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59+00:00",
+   "ts": 1793577599.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00+00:00",
+   "ts": 1774742400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59+00:00",
+   "ts": 1774828799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00+00:00",
+   "ts": 1792886400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59+00:00",
+   "ts": 1792972799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00+00:00",
+   "ts": 1791072000.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59+00:00",
+   "ts": 1791158399.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00+00:00",
+   "ts": 1775347200.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59+00:00",
+   "ts": 1775433599.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00+00:00",
+   "ts": 1541289600.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59+00:00",
+   "ts": 1541375999.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00+00:00",
+   "ts": 1774569600.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59+00:00",
+   "ts": 1774655999.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00+00:00",
+   "ts": 1793318400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59+00:00",
+   "ts": 1793404799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+00:00",
+   "ts": 1785542400.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+00:00",
+   "ts": 1785628799.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+00:00",
+   "ts": 1767571200.0
+  }
+ },
+ {
+  "tz": "UTC",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+00:00",
+   "ts": 1767657599.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00-05:00",
+   "ts": 1798693200.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59-05:00",
+   "ts": 1798779599.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00-05:00",
+   "ts": 1709182800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59-05:00",
+   "ts": 1709269199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00-05:00",
+   "ts": 1767589200.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59-05:00",
+   "ts": 1767675599.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00-05:00",
+   "ts": 1767589200.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59-05:00",
+   "ts": 1767675599.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00-04:56:02",
+   "ts": -62135579038.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59-04:56:02",
+   "ts": -62135492639.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00-05:00",
+   "ts": 253402232400.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59-05:00",
+   "ts": 253402318799.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00-04:00",
+   "ts": 1791604800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59-04:00",
+   "ts": 1791691199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00-05:00",
+   "ts": 1772946000.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59-04:00",
+   "ts": 1773028799.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00-04:00",
+   "ts": 1793505600.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59-05:00",
+   "ts": 1793595599.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00-04:00",
+   "ts": 1774756800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59-04:00",
+   "ts": 1774843199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00-04:00",
+   "ts": 1792900800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59-04:00",
+   "ts": 1792987199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00-04:00",
+   "ts": 1791086400.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59-04:00",
+   "ts": 1791172799.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00-04:00",
+   "ts": 1775361600.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59-04:00",
+   "ts": 1775447999.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00-04:00",
+   "ts": 1541304000.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59-05:00",
+   "ts": 1541393999.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00-04:00",
+   "ts": 1774584000.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59-04:00",
+   "ts": 1774670399.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00-04:00",
+   "ts": 1793332800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59-04:00",
+   "ts": 1793419199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-04:00",
+   "ts": 1785556800.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-04:00",
+   "ts": 1785643199.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00-05:00",
+   "ts": 1767589200.0
+  }
+ },
+ {
+  "tz": "America/New_York",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59-05:00",
+   "ts": 1767675599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00-03:00",
+   "ts": 1798686000.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59-03:00",
+   "ts": 1798772399.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00-03:00",
+   "ts": 1709175600.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59-03:00",
+   "ts": 1709261999.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00-03:00",
+   "ts": 1767582000.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59-03:00",
+   "ts": 1767668399.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00-03:00",
+   "ts": 1767582000.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59-03:00",
+   "ts": 1767668399.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00-03:06:28",
+   "ts": -62135585612.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59-03:06:28",
+   "ts": -62135499213.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00-03:00",
+   "ts": 253402225200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59-03:00",
+   "ts": 253402311599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00-03:00",
+   "ts": 1791601200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59-03:00",
+   "ts": 1791687599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00-03:00",
+   "ts": 1772938800.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59-03:00",
+   "ts": 1773025199.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00-03:00",
+   "ts": 1793502000.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59-03:00",
+   "ts": 1793588399.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00-03:00",
+   "ts": 1774753200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59-03:00",
+   "ts": 1774839599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00-03:00",
+   "ts": 1792897200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59-03:00",
+   "ts": 1792983599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00-03:00",
+   "ts": 1791082800.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59-03:00",
+   "ts": 1791169199.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00-03:00",
+   "ts": 1775358000.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59-03:00",
+   "ts": 1775444399.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00-03:00",
+   "ts": 1541300400.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59-02:00",
+   "ts": 1541383199.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00-03:00",
+   "ts": 1774580400.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59-03:00",
+   "ts": 1774666799.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00-03:00",
+   "ts": 1793329200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59-03:00",
+   "ts": 1793415599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00-03:00",
+   "ts": 1785553200.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59-03:00",
+   "ts": 1785639599.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00-03:00",
+   "ts": 1767582000.0
+  }
+ },
+ {
+  "tz": "America/Sao_Paulo",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59-03:00",
+   "ts": 1767668399.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00+00:00",
+   "ts": 1798675200.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59+00:00",
+   "ts": 1798761599.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00+00:00",
+   "ts": 1709164800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59+00:00",
+   "ts": 1709251199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+00:00",
+   "ts": 1767571200.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+00:00",
+   "ts": 1767657599.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+00:00",
+   "ts": 1767571200.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+00:00",
+   "ts": 1767657599.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00-00:01:15",
+   "ts": -62135596725.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59-00:01:15",
+   "ts": -62135510326.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00+00:00",
+   "ts": 253402214400.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59+00:00",
+   "ts": 253402300799.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00+01:00",
+   "ts": 1791586800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59+01:00",
+   "ts": 1791673199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00+00:00",
+   "ts": 1772928000.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59+00:00",
+   "ts": 1773014399.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00+00:00",
+   "ts": 1793491200.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59+00:00",
+   "ts": 1793577599.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00+00:00",
+   "ts": 1774742400.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59+01:00",
+   "ts": 1774825199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00+01:00",
+   "ts": 1792882800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59+00:00",
+   "ts": 1792972799.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00+01:00",
+   "ts": 1791068400.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59+01:00",
+   "ts": 1791154799.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00+01:00",
+   "ts": 1775343600.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59+01:00",
+   "ts": 1775429999.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00+00:00",
+   "ts": 1541289600.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59+00:00",
+   "ts": 1541375999.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00+00:00",
+   "ts": 1774569600.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59+00:00",
+   "ts": 1774655999.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00+00:00",
+   "ts": 1793318400.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59+00:00",
+   "ts": 1793404799.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+01:00",
+   "ts": 1785538800.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+01:00",
+   "ts": 1785625199.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+00:00",
+   "ts": 1767571200.0
+  }
+ },
+ {
+  "tz": "Europe/London",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+00:00",
+   "ts": 1767657599.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00+05:30",
+   "ts": 1798655400.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59+05:30",
+   "ts": 1798741799.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00+05:30",
+   "ts": 1709145000.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59+05:30",
+   "ts": 1709231399.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+05:30",
+   "ts": 1767551400.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+05:30",
+   "ts": 1767637799.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+05:30",
+   "ts": 1767551400.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+05:30",
+   "ts": 1767637799.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00+05:53:28",
+   "ts": -62135618008.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59+05:53:28",
+   "ts": -62135531609.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00+05:30",
+   "ts": 253402194600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59+05:30",
+   "ts": 253402280999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00+05:30",
+   "ts": 1791570600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59+05:30",
+   "ts": 1791656999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00+05:30",
+   "ts": 1772908200.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59+05:30",
+   "ts": 1772994599.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00+05:30",
+   "ts": 1793471400.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59+05:30",
+   "ts": 1793557799.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00+05:30",
+   "ts": 1774722600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59+05:30",
+   "ts": 1774808999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00+05:30",
+   "ts": 1792866600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59+05:30",
+   "ts": 1792952999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00+05:30",
+   "ts": 1791052200.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59+05:30",
+   "ts": 1791138599.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00+05:30",
+   "ts": 1775327400.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59+05:30",
+   "ts": 1775413799.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00+05:30",
+   "ts": 1541269800.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59+05:30",
+   "ts": 1541356199.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00+05:30",
+   "ts": 1774549800.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59+05:30",
+   "ts": 1774636199.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00+05:30",
+   "ts": 1793298600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59+05:30",
+   "ts": 1793384999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+05:30",
+   "ts": 1785522600.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+05:30",
+   "ts": 1785608999.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+05:30",
+   "ts": 1767551400.0
+  }
+ },
+ {
+  "tz": "Asia/Kolkata",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+05:30",
+   "ts": 1767637799.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00+13:45",
+   "ts": 1798625700.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59+13:45",
+   "ts": 1798712099.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00+13:45",
+   "ts": 1709115300.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59+13:45",
+   "ts": 1709201699.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+13:45",
+   "ts": 1767521700.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+13:45",
+   "ts": 1767608099.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+13:45",
+   "ts": 1767521700.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+13:45",
+   "ts": 1767608099.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00+12:13:48",
+   "ts": -62135640828.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59+12:13:48",
+   "ts": -62135554429.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00+13:45",
+   "ts": 253402164900.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59+13:45",
+   "ts": 253402251299.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00+13:45",
+   "ts": 1791540900.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59+13:45",
+   "ts": 1791627299.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00+13:45",
+   "ts": 1772878500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59+13:45",
+   "ts": 1772964899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00+13:45",
+   "ts": 1793441700.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59+13:45",
+   "ts": 1793528099.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00+13:45",
+   "ts": 1774692900.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59+13:45",
+   "ts": 1774779299.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00+13:45",
+   "ts": 1792836900.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59+13:45",
+   "ts": 1792923299.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00+13:45",
+   "ts": 1791022500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59+13:45",
+   "ts": 1791108899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00+13:45",
+   "ts": 1775297700.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59+12:45",
+   "ts": 1775387699.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00+13:45",
+   "ts": 1541240100.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59+13:45",
+   "ts": 1541326499.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00+13:45",
+   "ts": 1774520100.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59+13:45",
+   "ts": 1774606499.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00+13:45",
+   "ts": 1793268900.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59+13:45",
+   "ts": 1793355299.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+12:45",
+   "ts": 1785496500.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+12:45",
+   "ts": 1785582899.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+13:45",
+   "ts": 1767521700.0
+  }
+ },
+ {
+  "tz": "Pacific/Chatham",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+13:45",
+   "ts": 1767608099.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00+02:00",
+   "ts": 1798668000.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59+02:00",
+   "ts": 1798754399.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00+02:00",
+   "ts": 1709157600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59+02:00",
+   "ts": 1709243999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+02:00",
+   "ts": 1767564000.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+02:00",
+   "ts": 1767650399.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+02:00",
+   "ts": 1767564000.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+02:00",
+   "ts": 1767650399.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00+02:22",
+   "ts": -62135605320.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59+02:22",
+   "ts": -62135518921.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00+02:00",
+   "ts": 253402207200.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59+02:00",
+   "ts": 253402293599.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00+03:00",
+   "ts": 1791579600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59+03:00",
+   "ts": 1791665999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00+02:00",
+   "ts": 1772920800.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59+02:00",
+   "ts": 1773007199.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00+02:00",
+   "ts": 1793484000.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59+02:00",
+   "ts": 1793570399.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00+02:00",
+   "ts": 1774735200.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59+03:00",
+   "ts": 1774817999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00+02:00",
+   "ts": 1792879200.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59+02:00",
+   "ts": 1792965599.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00+03:00",
+   "ts": 1791061200.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59+03:00",
+   "ts": 1791147599.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00+03:00",
+   "ts": 1775336400.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59+03:00",
+   "ts": 1775422799.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00+02:00",
+   "ts": 1541282400.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59+02:00",
+   "ts": 1541368799.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00+02:00",
+   "ts": 1774562400.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59+02:00",
+   "ts": 1774648799.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00+02:00",
+   "ts": 1793311200.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59+02:00",
+   "ts": 1793397599.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+03:00",
+   "ts": 1785531600.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+03:00",
+   "ts": 1785617999.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+02:00",
+   "ts": 1767564000.0
+  }
+ },
+ {
+  "tz": "Asia/Beirut",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+02:00",
+   "ts": 1767650399.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": null,
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": null,
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": " ",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": " ",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": " 2026-08-01 ",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": " 2026-08-01 ",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-01T10:00:00Z",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-01T10:00:00Z",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-8-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-8-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-1",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-1",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-8-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-8-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-12-31",
+  "end": false,
+  "out": {
+   "iso": "2026-12-31T00:00:00+11:00",
+   "ts": 1798635600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-12-31",
+  "end": true,
+  "out": {
+   "iso": "2026-12-31T23:59:59+11:00",
+   "ts": 1798721999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-02-29",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-02-29",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2024-02-29",
+  "end": false,
+  "out": {
+   "iso": "2024-02-29T00:00:00+11:00",
+   "ts": 1709125200.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2024-02-29",
+  "end": true,
+  "out": {
+   "iso": "2024-02-29T23:59:59+11:00",
+   "ts": 1709211599.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-13-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-13-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-00-10",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-00-10",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01-00",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01-00",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01-32",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01-32",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-1-35",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-1-35",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+11:00",
+   "ts": 1767531600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-01- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+11:00",
+   "ts": 1767617999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-1- 5",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+11:00",
+   "ts": 1767531600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-1- 5",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+11:00",
+   "ts": 1767617999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "0000-01-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "0000-01-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "0001-01-01",
+  "end": false,
+  "out": {
+   "iso": "0001-01-01T00:00:00+10:36:20",
+   "ts": -62135634980.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "0001-01-01",
+  "end": true,
+  "out": {
+   "iso": "0001-01-01T23:59:59+10:36:20",
+   "ts": -62135548581.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "9999-12-31",
+  "end": false,
+  "out": {
+   "iso": "9999-12-31T00:00:00+11:00",
+   "ts": 253402174800.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "9999-12-31",
+  "end": true,
+  "out": {
+   "iso": "9999-12-31T23:59:59+11:00",
+   "ts": 253402261199.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "２０２６-０８-０１",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "２０２６-０８-０１",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "٢٠٢٦-08-01",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "٢٠٢٦-08-01",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026/08/01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026/08/01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "26-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "26-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "abcd-ef-gh",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "abcd-ef-gh",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-110-5",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-110-5",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-11-5x",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-11-5x",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-10abc",
+  "end": false,
+  "out": {
+   "iso": "2026-10-10T00:00:00+11:00",
+   "ts": 1791550800.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-10abc",
+  "end": true,
+  "out": {
+   "iso": "2026-10-10T23:59:59+11:00",
+   "ts": 1791637199.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-03-08",
+  "end": false,
+  "out": {
+   "iso": "2026-03-08T00:00:00+11:00",
+   "ts": 1772888400.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-03-08",
+  "end": true,
+  "out": {
+   "iso": "2026-03-08T23:59:59+11:00",
+   "ts": 1772974799.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-11-01",
+  "end": false,
+  "out": {
+   "iso": "2026-11-01T00:00:00+11:00",
+   "ts": 1793451600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-11-01",
+  "end": true,
+  "out": {
+   "iso": "2026-11-01T23:59:59+11:00",
+   "ts": 1793537999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-03-29",
+  "end": false,
+  "out": {
+   "iso": "2026-03-29T00:00:00+11:00",
+   "ts": 1774702800.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-03-29",
+  "end": true,
+  "out": {
+   "iso": "2026-03-29T23:59:59+11:00",
+   "ts": 1774789199.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-25",
+  "end": false,
+  "out": {
+   "iso": "2026-10-25T00:00:00+11:00",
+   "ts": 1792846800.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-25",
+  "end": true,
+  "out": {
+   "iso": "2026-10-25T23:59:59+11:00",
+   "ts": 1792933199.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-04",
+  "end": false,
+  "out": {
+   "iso": "2026-10-04T00:00:00+10:30",
+   "ts": 1791034200.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-04",
+  "end": true,
+  "out": {
+   "iso": "2026-10-04T23:59:59+11:00",
+   "ts": 1791118799.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-04-05",
+  "end": false,
+  "out": {
+   "iso": "2026-04-05T00:00:00+11:00",
+   "ts": 1775307600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-04-05",
+  "end": true,
+  "out": {
+   "iso": "2026-04-05T23:59:59+10:30",
+   "ts": 1775395799.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2018-11-04",
+  "end": false,
+  "out": {
+   "iso": "2018-11-04T00:00:00+11:00",
+   "ts": 1541250000.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2018-11-04",
+  "end": true,
+  "out": {
+   "iso": "2018-11-04T23:59:59+11:00",
+   "ts": 1541336399.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-03-27",
+  "end": false,
+  "out": {
+   "iso": "2026-03-27T00:00:00+11:00",
+   "ts": 1774530000.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-03-27",
+  "end": true,
+  "out": {
+   "iso": "2026-03-27T23:59:59+11:00",
+   "ts": 1774616399.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-30",
+  "end": false,
+  "out": {
+   "iso": "2026-10-30T00:00:00+11:00",
+   "ts": 1793278800.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-10-30",
+  "end": true,
+  "out": {
+   "iso": "2026-10-30T23:59:59+11:00",
+   "ts": 1793365199.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "x2026-08-01",
+  "end": false,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "x2026-08-01",
+  "end": true,
+  "out": null
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-01\n",
+  "end": false,
+  "out": {
+   "iso": "2026-08-01T00:00:00+10:30",
+   "ts": 1785504600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "2026-08-01\n",
+  "end": true,
+  "out": {
+   "iso": "2026-08-01T23:59:59+10:30",
+   "ts": 1785590999.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "\t2026-01-05",
+  "end": false,
+  "out": {
+   "iso": "2026-01-05T00:00:00+11:00",
+   "ts": 1767531600.0
+  }
+ },
+ {
+  "tz": "Australia/Lord_Howe",
+  "in": "\t2026-01-05",
+  "end": true,
+  "out": {
+   "iso": "2026-01-05T23:59:59+11:00",
+   "ts": 1767617999.0
+  }
+ }
+]

@@ -1,0 +1,327 @@
+# The Rust stack (since the switch from Python/Node, Oct 2026): backend, worker, beat, pdf, face, signal and
+# research run images built from rust-version/Dockerfile. Each of them has a FIXED image name:
+#
+#   granary-rust-api:latest       backend, worker, beat (one image, three commands)
+#   granary-rust-pdf:latest       pdf
+#   granary-rust-face:latest      face
+#   granary-rust-signal:latest    signal
+#   granary-rust-research:latest  research
+#
+# Production does NOT compile Rust (the server is too small): the images are built on a bigger machine
+# (`docker compose build backend pdf face signal research`) and streamed to the server with
+# `docker save ... | gzip | ssh <server> 'gunzip | docker load'`; the server then runs `docker compose up -d`
+# WITHOUT --build, which starts the loaded images as they are. `pull_policy: never`: Compose never tries Docker
+# Hub for these names. NOTE: if one of the images is MISSING, a plain `up -d` falls back to building it (Compose
+# builds a missing image that has a build section, whatever the pull policy), so on the server check them first:
+#   docker image inspect granary-rust-api:latest granary-rust-pdf:latest granary-rust-face:latest \
+#     granary-rust-signal:latest granary-rust-research:latest >/dev/null && docker compose up -d
+# (`docker compose up -d --no-build` fails instead of building, too.) The build sections stay so that
+# `docker compose up -d --build` still works on a machine with enough RAM.
+x-rust-api-build: &rust-api-build
+  context: ./rust-version
+  dockerfile: Dockerfile
+  target: api
+
+services:
+  # ─── PostgreSQL ─────────────────────────────────────────────────────────────
+  db:
+    # pgvector image = stock Postgres 16 + the `vector` extension (data-dir compatible with
+    # the previous postgres:16-alpine). Enables embeddings for the AI features.
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-granary}
+      POSTGRES_USER: ${POSTGRES_USER:-granary}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    # Load pg_stat_statements (run `CREATE EXTENSION pg_stat_statements;` once) and
+    # raise max_connections to accommodate the API, the worker and the beat pools.
+    command:
+      - "postgres"
+      - "-c"
+      - "shared_preload_libraries=pg_stat_statements"
+      - "-c"
+      - "pg_stat_statements.track=all"
+      - "-c"
+      - "max_connections=200"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+    # No public port — backend reaches DB via internal Docker network only
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-granary} -d ${POSTGRES_DB:-granary}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      # Don't count failures during the first-boot initdb (slow on a loaded host)
+      # toward the retry budget — avoids spurious "db is unhealthy" on a fresh volume.
+      start_period: 90s
+
+  # ─── Redis ──────────────────────────────────────────────────────────────────
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    # A password (REDIS_PASSWORD, generate a long random value); REDIS_URL and CELERY_BROKER_URL in .env carry it
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD:?set REDIS_PASSWORD}
+    environment:
+      - REDISCLI_AUTH=${REDIS_PASSWORD}
+    volumes:
+      - redis_data:/data
+    # No public port — internal Docker network only
+    healthcheck:
+      # CMD-SHELL + grep: `redis-cli ping` prints the error reply and can still
+      # exit 0, so match on PONG rather than trusting the exit code.
+      test: ["CMD-SHELL", "redis-cli ping | grep -q PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      # Redis replays the AOF before it serves commands. On a large appendonlydir
+      # or a host still busy from an image build that replay can outlast the retry
+      # budget and flip the container to "unhealthy", which blocks every service
+      # waiting on `redis: condition: service_healthy`.
+      start_period: 60s
+
+  # ─── Storage: SeaweedFS, S3-compatible object storage ───────────────────────
+  # One container (master + volume + filer + S3 gateway). Granary talks S3 to it and creates its buckets itself
+  # on first use. The credentials come from MINIO_ACCESS_KEY / MINIO_SECRET_KEY (the names date from the earlier
+  # MinIO setup); anonymous readers may only read the public bucket. Pinned: SeaweedFS 4.54.
+  storage:
+    image: chrislusf/seaweedfs@sha256:4b42c212543a0acd4c0e675215ecdcaf62a186ef98def76c7e12701871222d15
+    restart: unless-stopped
+    environment:
+      S3_ACCESS_KEY: ${MINIO_ACCESS_KEY:-granary}
+      S3_SECRET_KEY: ${MINIO_SECRET_KEY}
+      S3_PUBLIC_BUCKET: ${MINIO_BUCKET_PUBLIC:-granary-public}
+    entrypoint: ["/bin/sh", "-c"]
+    command:
+      - |
+        cat > /tmp/s3.json <<EOF
+        {"identities": [
+          {"name": "granary", "credentials": [{"accessKey": "$$S3_ACCESS_KEY", "secretKey": "$$S3_SECRET_KEY"}],
+           "actions": ["Admin", "Read", "Write", "List", "Tagging"]},
+          {"name": "anonymous", "actions": ["Read:$$S3_PUBLIC_BUCKET"]}
+        ]}
+        EOF
+        exec weed server -dir=/data -ip.bind=0.0.0.0 -s3 -s3.port=9000 -s3.config=/tmp/s3.json \
+          -master.volumeSizeLimitMB=1024 -volume.max=0
+    volumes:
+      - storage_data:/data
+    ports:
+      - "127.0.0.1:9000:9000"   # localhost only — nginx proxies /minio/ (read-only) to it
+    healthcheck:
+      test: ["CMD", "wget", "-q", "-O", "/dev/null", "http://127.0.0.1:9000/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # ─── Backend (Rust: granary-api) ───────────────────────────────────────────────
+  backend:
+    build: *rust-api-build
+    image: granary-rust-api:latest
+    pull_policy: never
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    env_file: .env
+    # No source bind-mount — run the baked image (production).
+    volumes:
+      - signing_keys:/keys      # persists the PAdES signing cert (.p12); replace with a CA-issued cert for prod
+    ports:
+      - "127.0.0.1:8000:8000"   # localhost only — system nginx proxies inbound traffic
+    # granary-migrate: applies the pending migrations (one transaction, advisory lock); granary-seed: adds the
+    # default data that is missing (idempotent); granary-api serves :8000 on all cores.
+    command: ["sh", "-c", "granary-migrate && granary-seed && exec granary-api"]
+    environment:
+      # BIND_ADDR wins over a PORT that .env might carry.
+      - BIND_ADDR=0.0.0.0:8000
+    networks: [default, research]
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ─── Worker (Rust: granary-worker; queue = a Redis list) ───────
+  worker:
+    build: *rust-api-build
+    image: granary-rust-api:latest
+    pull_policy: never
+    restart: unless-stopped
+    depends_on:
+      - backend
+      - redis
+    env_file: .env
+    command: ["granary-worker", "worker", "--concurrency", "4"]
+    networks: [default, research]
+
+  # ─── Beat (Rust: granary-worker beat, the job schedule) ────────────────
+  beat:
+    build: *rust-api-build
+    image: granary-rust-api:latest
+    pull_policy: never
+    restart: unless-stopped
+    depends_on:
+      - worker
+    env_file: .env
+    command: ["granary-worker", "beat"]
+
+  # ─── Web research: SearXNG (search) + research service (Moli page reader) ──
+  # Both sit on the `research` network only, shared with backend/worker. The research service
+  # fetches user-supplied company websites, so it must not be able to reach db, redis, storage or
+  # the other sidecars; its own filtering proxy also refuses private addresses.
+  searxng:
+    image: searxng/searxng:2026.9.18-c0042add3
+    restart: unless-stopped
+    environment:
+      - SEARXNG_SECRET=${SEARXNG_SECRET}
+    volumes:
+      - ./infra/searxng:/etc/searxng:ro
+    # No host port — backend reaches it at http://searxng:8080
+    networks: [research]
+
+  research:
+    build:
+      context: ./rust-version
+      dockerfile: Dockerfile
+      target: research
+    image: granary-rust-research:latest
+    pull_policy: never
+    restart: unless-stopped
+    environment:
+      - RESEARCH_SERVICE_TOKEN=${RESEARCH_SERVICE_TOKEN}
+    # No host port — backend reaches it at RESEARCH_SERVICE_URL
+    networks: [research]
+    mem_limit: 1g
+
+
+  # ─── Speech-to-text (faster-whisper on the CPU, Nary) ────────────────────────
+  # Customer WhatsApp voice notes and the Owner's debriefs. Audio never leaves the server. The CPU
+  # share is capped (the server has 4 cores and no GPU); STT_THREADS should match STT_CPUS.
+  stt:
+    build:
+      context: ./services/stt
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      - STT_SERVICE_TOKEN=${STT_SERVICE_TOKEN}
+      - STT_MODEL=${STT_MODEL:-small}
+      - STT_THREADS=${STT_THREADS:-1}
+    volumes:
+      - stt_models:/models
+    # No host port — backend reaches it at STT_SERVICE_URL
+    cpus: ${STT_CPUS:-1.5}
+    mem_limit: 2g
+
+  # ─── PDF Service (Rust + Chromium) ──────────────────────────────────────────
+  # tini (the image entrypoint) reaps Chromium helpers.
+  pdf:
+    build:
+      context: ./rust-version
+      dockerfile: Dockerfile
+      target: pdf
+    image: granary-rust-pdf:latest
+    pull_policy: never
+    restart: unless-stopped
+    # No host port — backend reaches it at PDF_SERVICE_URL over the Docker network
+    # Security 26 Oct: only what it reads (no shared .env); PDF_ASSETS_DIR comes from the image
+    environment:
+      - NODE_ENV=production
+      - PORT=3002
+      - SERVICE_TOKEN=${PDF_SERVICE_TOKEN}
+      - MINIO_ENDPOINT=${MINIO_ENDPOINT:-}
+      - MINIO_PUBLIC_URL=${MINIO_PUBLIC_URL:-}
+      - PDF_ASSET_HOSTS=${PDF_ASSET_HOSTS:-}
+    shm_size: '256mb'
+
+  # ─── Face Engine (Rust + ONNX Runtime; serves the face-api.js browser bundle) ─
+  face:
+    build:
+      context: ./rust-version
+      dockerfile: Dockerfile
+      target: face
+    image: granary-rust-face:latest
+    pull_policy: never
+    restart: unless-stopped
+    # No host port — backend reaches it at FACE_SERVICE_URL; browsers get the engine only through the backend
+    # Security 26 Oct: only what it reads (no shared .env); FACE_API_DIR / FACE_ONNX_DIR come from the image
+    environment:
+      - NODE_ENV=production
+      - PORT=3003
+      - SERVICE_TOKEN=${FACE_SERVICE_TOKEN}
+      - FACE_MAX_CONCURRENT=${FACE_MAX_CONCURRENT:-}
+
+  # ─── WebRTC Signal Service (Rust) ───────────────────────────────────────────
+  signal:
+    build:
+      context: ./rust-version
+      dockerfile: Dockerfile
+      target: signal
+    image: granary-rust-signal:latest
+    pull_policy: never
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3003:3003"   # localhost only — nginx proxies /ws/signal
+    environment:
+      - NODE_ENV=production
+      - PORT=3003
+      # Security 26 Oct: its own key, not the master APP_SECRET_KEY (the backend signs tickets with it)
+      - SERVICE_TOKEN=${SIGNAL_TICKET_KEY:?set SIGNAL_TICKET_KEY}
+    healthcheck:
+      # 127.0.0.1, not localhost: the service binds 0.0.0.0 (IPv4) and "localhost" can resolve to ::1 first.
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:3003/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ─── coturn TURN/STUN Server ─────────────────────────────────────────────────
+  coturn:
+    image: coturn/coturn:latest
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ./infra/coturn/turnserver.conf:/etc/coturn/turnserver.conf:ro
+    command: >
+      -c /etc/coturn/turnserver.conf
+      --use-auth-secret
+      --static-auth-secret=${TURN_SECRET:-change_me_turn_secret}
+      --realm=granary.internal
+      --external-ip=${TURN_EXTERNAL_IP:-auto}
+      --min-port=49152
+      --max-port=65535
+
+  # ─── Frontend (Next.js) ─────────────────────────────────────────────────────
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=${API_URL:-http://localhost:8000}
+        - NEXT_PUBLIC_SIGNAL_URL=${SIGNAL_URL:-ws://localhost:3003}
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "127.0.0.1:3000:3000"   # localhost only — system nginx proxies inbound traffic
+    # Security 26 Oct: only what it reads (no shared .env); NEXTAUTH_SECRET is its own, not the backend's JWT key
+    environment:
+      - NEXTAUTH_URL=${APP_URL:-http://localhost:3000}
+      - NEXTAUTH_SECRET=${NEXTAUTH_SECRET:?set NEXTAUTH_SECRET}
+      - API_URL=${API_URL:-http://backend:8000}
+      - INTERNAL_API_URL=${INTERNAL_API_URL:-http://backend:8000}
+      - INTERNAL_AUTH_TOKEN=${INTERNAL_AUTH_TOKEN:-}
+
+  # Nginx is installed via apt on the host — not managed by Docker Compose.
+  # See infra/nginx/granary.conf for the site configuration and README for setup.
+
+networks:
+  default:
+  research:
+
+volumes:
+  pg_data:
+  redis_data:
+  storage_data:
+  stt_models:
+  signing_keys:

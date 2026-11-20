@@ -1,0 +1,123 @@
+DKIM-Signature: v=1; a=rsa-sha256; s=ivkzbbib4xbxq5r4ggfcfo7x7ivlqcfm;
+ d=web3forms.com; b=FIXTURE
+DKIM-Signature: v=1; a=rsa-sha256; s=224i4yxa5dv7c2xz3womw6peuasteono;
+ d=amazonses.com; b=FIXTURE
+From: ACME Web Form <notify+ayhhmp@web3forms.com>
+To: hello@example.com
+Subject: New Contact Us Submit [whatsapp]: Northwind Garments Pacific Ltd
+Date: Fri, 02 Oct 2026 06:28:13 +0000
+Message-ID: <010001a0fb4c8e73-81f5fa6b-53ff-4803-87da-715135087909-000000@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3575330249134230365=="
+
+--===============3575330249134230365==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+name  : Daniel Reyes
+email  : 
+phone  : +639171234567
+company  : Northwind Garments Pacific Ltd
+interested_in  : general
+message  : To Whom It May Concern,
+
+My name is Daniel Reyes, Operations Manager at Northwind Garments Pacific Ltd. We are interested in exploring a inventory tracking system for our garment warehouse.
+
+Would your team be available to visit our factory to introduce your system and discuss how it could support our production and quantity tracking requirements? Please let us know your available dates so we can arrange a meeting.
+
+Thank you, and I look forward to your response.
+
+Best regards,  
+Daniel Reyes  
+Operations Manager  
+Northwind Garments Pacific Ltd
+WhatsApp: +639171234567
+from_page  : https://example.com/portfolio/warehouse-inventory-system/
+submission_source  : whatsapp
+timezone  : Asia/Bangkok
+landing_page  : https://example.com/portfolio/warehouse-inventory-system/
+first_referrer  : (direct)
+
+--===============3575330249134230365==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Form Submission</title>
+  </head>
+  <body style="background-color: #ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #000000; font-size: 15px; line-height: 1.6; margin: 0; padding: 0;">
+
+        <div style="display:none; font-size:1px; color:#ffffff; line-height:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">New form has been submitted on your website, please open to see details. </div>
+
+    <div style="max-width: 600px; margin: 0 auto; padding: 24px 20px;">
+
+        <p style="margin: 0 0 20px 0; font-size: 15px; color: #000000;">Hello, <br> <br> A new form has been submitted on your website. Details below.</p>
+
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Name</strong>
+          <span style="color: #000000;">Daniel Reyes</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Email</strong>
+          <span style="color: #000000;"></span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Phone</strong>
+          <span style="color: #000000;">+639171234567</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Company</strong>
+          <span style="color: #000000;">Northwind Garments Pacific Ltd</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Interested in</strong>
+          <span style="color: #000000;">general</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Message</strong>
+          <span style="color: #000000;">To Whom It May Concern,<br><br>My name is Daniel Reyes, Operations Manager at Northwind Garments Pacific Ltd. We are interested in exploring a inventory tracking system for our garment warehouse.<br><br>Would your team be available to visit our factory to introduce your system and discuss how it could support our production and quantity tracking requirements? Please let us know your available dates so we can arrange a meeting.<br><br>Thank you, and I look forward to your response.<br><br>Best regards,  <br>Daniel Reyes  <br>Operations Manager  <br>Northwind Garments Pacific Ltd<br>WhatsApp&#x3A; +639171234567</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">From page</strong>
+          <span style="color: #000000;">https&#x3A;&#x2F;&#x2F;example.com&#x2F;portfolio&#x2F;warehouse-inventory-system&#x2F;</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Submission source</strong>
+          <span style="color: #000000;">whatsapp</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Timezone</strong>
+          <span style="color: #000000;">Asia&#x2F;Bangkok</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">Landing page</strong>
+          <span style="color: #000000;">https&#x3A;&#x2F;&#x2F;example.com&#x2F;portfolio&#x2F;warehouse-inventory-system&#x2F;</span>
+        </p>
+        <p style="margin: 0 0 16px 0;">
+          <strong style="color: #000000; display: block; margin-bottom: 3px;">First referrer</strong>
+          <span style="color: #000000;">(direct)</span>
+        </p>
+
+
+      <hr style="border: none; border-top: 1px solid #dddddd; margin: 24px 0 12px 0;" />
+
+      <p style="font-size: 12px; color: #666666; margin: 0 0 4px 0;">
+        Visitor IP: 203.0.113.10. <a style="color:#666666;" href="https://web3forms.com/">Report Spam</a>.
+        Don't want these emails? <a href="https://web3forms.com/" style="color:#666666;">Manage Notifications</a>.
+      </p>
+      <p style="font-size: 12px; color: #666666; margin: 0;">
+        Sent from
+        <a href="https://example.com/" target="_blank" style="color:#666666;">https://example.com/</a>
+        &middot; Powered by <a href="https://web3forms.com/" style="color:#666666;">Web3Forms</a>
+      </p>
+
+    </div>
+  </body>
+</html>
+
+--===============3575330249134230365==--

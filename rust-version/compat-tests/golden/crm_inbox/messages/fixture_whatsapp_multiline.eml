@@ -1,0 +1,176 @@
+DKIM-Signature: v=1; a=rsa-sha256; s=ivkzbbib4xbxq5r4ggfcfo7x7ivlqcfm;
+ d=web3forms.com; b=FIXTURE
+DKIM-Signature: v=1; a=rsa-sha256; s=224i4yxa5dv7c2xz3womw6peuasteono;
+ d=amazonses.com; b=FIXTURE
+From: ACME Web Form <notify+hl2kg2@web3forms.com>
+Reply-To: dave@starktrading-example.com
+To: hello@example.com
+Subject: New Contact Us Submit [whatsapp]: STARKSAFE
+Date: Sat, 03 Oct 2026 10:49:04 +0000
+Message-ID: <010001a10161b94f-d601d41c-7c4d-4d95-99bf-304f9519563c-000000@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6452649499210442530=="
+
+--===============6452649499210442530==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+name  : Dave Stark
+email  : dave@starktrading-example.com
+phone  : +966501234567
+company  : STARKSAFE
+interested_in  : laptop
+message  : We need laptops for a new office of 120 staff and one support pl=
+an for all of them
+1-Hardware
+Business laptops
+Docking stations
+External monitors
+Keyboards and mice
+Laptop bags
+2-Software
+Office suite licences
+Antivirus
+Device management
+Backup service
+3-Setup
+Imaging=E2=80=93standard build
+Account=E2=80=93user mapping
+On-site installation
+Old device disposal
+4-Support
+Next business day repairs
+Spare parts stock
+Loan devices
+Help desk hours
+5-Reporting
+Asset register
+Warranty dates
+Repair history
+Monthly usage report
+from_page  : https://example.com/products/acme-laptop-series/business-lapto=
+p/
+submission_source  : whatsapp
+timezone  : Asia/Riyadh
+landing_page  : https://example.com/products/acme-laptop-series/business-la=
+ptop/?utm_source=3Dchatgpt.com
+first_referrer  : https://chatgpt.com/
+
+--===============6452649499210442530==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html>
+  <head>
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width" />
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8=
+" />
+    <title>Form Submission</title>
+  </head>
+  <body style=3D"background-color: #ffffff; font-family: -apple-system, Bli=
+nkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; color: #=
+000000; font-size: 15px; line-height: 1.6; margin: 0; padding: 0;">
+
+        <div style=3D"display:none; font-size:1px; color:#ffffff; line-heig=
+ht:1px; max-height:0; max-width:0; opacity:0; overflow:hidden;">New form ha=
+s been submitted on your website, please open to see details. </div>
+
+    <div style=3D"max-width: 600px; margin: 0 auto; padding: 24px 20px;">
+
+        <p style=3D"margin: 0 0 20px 0; font-size: 15px; color: #000000;">H=
+ello, <br> <br> A new form has been submitted on your website. Details belo=
+w.</p>
+
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Name</strong>
+          <span style=3D"color: #000000;">Dave Stark</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Email</strong>
+          <span style=3D"color: #000000;">dave@starktrading-example.com</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Phone</strong>
+          <span style=3D"color: #000000;">+966501234567</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Company</strong>
+          <span style=3D"color: #000000;">STARKSAFE</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Interested in</strong>
+          <span style=3D"color: #000000;">laptop</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Message</strong>
+          <span style=3D"color: #000000;">We need laptops for a new office =
+of 120 staff and one support plan for all of them<br>1-Hardware<br>Business=
+ laptops<br>Docking stations<br>External monitors<br>Keyboards and mice<br>=
+Laptop bags<br>2-Software<br>Office suite licences<br>Antivirus<br>Device m=
+anagement<br>Backup service<br>3-Setup<br>Imaging=E2=80=93standard build<br=
+>Account=E2=80=93user mapping<br>On-site installation<br>Old device disposa=
+l<br>4-Support<br>Next business day repairs<br>Spare parts stock<br>Loan de=
+vices<br>Help desk hours<br>5-Reporting<br>Asset register<br>Warranty dates=
+<br>Repair history<br>Monthly usage report</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">From page</strong>
+          <span style=3D"color: #000000;">https&#x3A;&#x2F;&#x2F;example.co=
+m&#x2F;products&#x2F;acme-laptop-series&#x2F;business-laptop&#x2F;</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Submission source</strong>
+          <span style=3D"color: #000000;">whatsapp</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Timezone</strong>
+          <span style=3D"color: #000000;">Asia&#x2F;Riyadh</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">Landing page</strong>
+          <span style=3D"color: #000000;">https&#x3A;&#x2F;&#x2F;example.co=
+m&#x2F;products&#x2F;acme-laptop-series&#x2F;business-laptop&#x2F;?utm_sour=
+ce=3Dchatgpt.com</span>
+        </p>
+        <p style=3D"margin: 0 0 16px 0;">
+          <strong style=3D"color: #000000; display: block; margin-bottom: 3=
+px;">First referrer</strong>
+          <span style=3D"color: #000000;">https&#x3A;&#x2F;&#x2F;chatgpt.co=
+m&#x2F;</span>
+        </p>
+
+
+      <hr style=3D"border: none; border-top: 1px solid #dddddd; margin: 24p=
+x 0 12px 0;" />
+
+      <p style=3D"font-size: 12px; color: #666666; margin: 0 0 4px 0;">
+        Visitor IP: 2001:db8::10. <a style=3D"color:#666666;" href=3D"https=
+://web3forms.com/">Report Spam</a>.
+        Don't want these emails? <a href=3D"https://web3forms.com/" style=
+=3D"color:#666666;">Manage Notifications</a>.
+      </p>
+      <p style=3D"font-size: 12px; color: #666666; margin: 0;">
+        Sent from
+        <a href=3D"https://example.com/" target=3D"_blank" style=3D"color:#=
+666666;">https://example.com/</a>
+        &middot; Powered by <a href=3D"https://web3forms.com/" style=3D"col=
+or:#666666;">Web3Forms</a>
+      </p>
+
+    </div>
+  </body>
+</html>
+
+--===============6452649499210442530==--

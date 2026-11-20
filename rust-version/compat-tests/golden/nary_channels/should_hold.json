@@ -1,0 +1,386 @@
+[
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": false,
+  "released": false,
+  "hold": true
+ },
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "active",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "held",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": false,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": true,
+  "contact": true,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": false,
+  "staff": true,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": false,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": false,
+  "released": true,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": true,
+  "released": false,
+  "hold": false
+ },
+ {
+  "status": "excluded",
+  "is_my_contact": false,
+  "contact": true,
+  "staff": true,
+  "released": true,
+  "hold": false
+ }
+]

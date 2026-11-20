@@ -1,0 +1,4592 @@
+[
+ {
+  "tz": "Asia/Tokyo",
+  "me": "Bob",
+  "them": "Mr Andy",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "revoked",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": false,
+    "media": null
+   },
+   {
+    "id": "m1",
+    "fromMe": false,
+    "timestamp": 1785409600,
+    "type": "unknown_kind",
+    "body": null
+   },
+   {
+    "id": "m2",
+    "fromMe": false,
+    "timestamp": 1785429600,
+    "type": null,
+    "body": "hello mr",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m3",
+    "fromMe": false,
+    "timestamp": 1785516000,
+    "type": "revoked",
+    "body": null,
+    "author": null
+   },
+   {
+    "id": "m4",
+    "fromMe": false,
+    "timestamp": 1785516600,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m5",
+    "fromMe": true,
+    "timestamp": 1785517200,
+    "type": "video",
+    "body": "line1\n\nline3",
+    "author": "Bob"
+   },
+   {
+    "id": "m6",
+    "fromMe": true,
+    "timestamp": 1785520800,
+    "type": "document",
+    "body": "hello mr",
+    "author": "Bob",
+    "hasMedia": true
+   },
+   {
+    "id": "m7",
+    "fromMe": false,
+    "timestamp": 1785524400,
+    "type": "revoked",
+    "body": "tab\there",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m8",
+    "fromMe": false,
+    "timestamp": 1785528000,
+    "type": "vcard",
+    "body": null,
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m9",
+    "fromMe": false,
+    "timestamp": 1785531600,
+    "type": "ptt",
+    "body": "emoji 😀 ok",
+    "author": null
+   },
+   {
+    "id": "m10",
+    "fromMe": false,
+    "timestamp": 1785618000,
+    "type": "chat",
+    "body": "tab\there",
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m11",
+    "fromMe": true,
+    "timestamp": 1785621600,
+    "type": "sticker",
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m12",
+    "fromMe": false,
+    "timestamp": 1785622200,
+    "type": "document",
+    "body": "hello mr",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m13",
+    "fromMe": true,
+    "timestamp": 1785625800,
+    "type": "sticker",
+    "body": ""
+   },
+   {
+    "id": "m14",
+    "fromMe": false,
+    "timestamp": 1785645800,
+    "type": null,
+    "body": "hello mr",
+    "hasMedia": true
+   },
+   {
+    "id": "m15",
+    "fromMe": false,
+    "timestamp": 1785649400,
+    "type": "ptt",
+    "body": "\u001cgroup",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m16",
+    "fromMe": false,
+    "timestamp": 1785735800,
+    "type": "ptt",
+    "body": null
+   },
+   {
+    "id": "m17",
+    "fromMe": false,
+    "timestamp": 1785739400,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "author": null,
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m18",
+    "fromMe": false,
+    "timestamp": 1785825800,
+    "type": "image",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": false,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m19",
+    "fromMe": false,
+    "timestamp": 1785825830,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "media": null
+   },
+   {
+    "id": "m20",
+    "fromMe": false,
+    "timestamp": 1785826430,
+    "type": "vcard",
+    "body": "multi\r\nline x",
+    "author": "Rachel A.",
+    "quoted": {}
+   },
+   {
+    "id": "m21",
+    "fromMe": true,
+    "timestamp": 1785830030,
+    "type": "unknown_kind",
+    "body": "multi\r\nline x",
+    "media": null
+   },
+   {
+    "id": "m22",
+    "fromMe": false,
+    "timestamp": 1785830630,
+    "type": "document",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": true
+   },
+   {
+    "id": "m23",
+    "fromMe": false,
+    "timestamp": 1785834230,
+    "type": "chat",
+    "body": "tab\there",
+    "media": {}
+   },
+   {
+    "id": "m24",
+    "fromMe": true,
+    "timestamp": 1785837830,
+    "type": "location",
+    "body": "  spaced  ",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m25",
+    "fromMe": false,
+    "timestamp": 1785841430,
+    "type": "unknown_kind",
+    "body": "  spaced  ",
+    "hasMedia": true,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m26",
+    "fromMe": true,
+    "timestamp": 1785927830,
+    "type": "video",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m27",
+    "fromMe": false,
+    "timestamp": 1785931430,
+    "type": null,
+    "body": "  spaced  "
+   },
+   {
+    "id": "m28",
+    "fromMe": true,
+    "timestamp": 1785932030,
+    "type": "video",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m29",
+    "fromMe": true,
+    "timestamp": 1785935630,
+    "type": "",
+    "body": ""
+   },
+   {
+    "id": "m30",
+    "fromMe": false,
+    "timestamp": 1785939230,
+    "type": "chat",
+    "body": null
+   },
+   {
+    "id": "m31",
+    "fromMe": true,
+    "timestamp": 1785942830,
+    "type": "unknown_kind",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m32",
+    "fromMe": false,
+    "timestamp": 1785962830,
+    "type": "vcard",
+    "body": "line1\n\nline3",
+    "hasMedia": false,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m33",
+    "fromMe": true,
+    "timestamp": 1785963430,
+    "type": "vcard",
+    "body": "hello mr",
+    "hasMedia": false
+   },
+   {
+    "id": "m34",
+    "fromMe": false,
+    "timestamp": 1785964030,
+    "type": "video",
+    "body": "emoji 😀 ok",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m35",
+    "fromMe": true,
+    "timestamp": 1785964630,
+    "type": "vcard",
+    "body": "emoji 😀 ok",
+    "media": {}
+   },
+   {
+    "id": "m36",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "chat",
+    "body": ""
+   },
+   {
+    "id": "m37",
+    "fromMe": true,
+    "timestamp": 1786051630,
+    "type": "chat",
+    "body": null,
+    "author": ""
+   },
+   {
+    "id": "m38",
+    "fromMe": true,
+    "timestamp": 1786138030,
+    "type": "location",
+    "body": "hello mr"
+   },
+   {
+    "id": "m39",
+    "fromMe": false,
+    "timestamp": 1786158030,
+    "type": null,
+    "body": "emoji 😀 ok",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m40",
+    "fromMe": false,
+    "timestamp": 1786178030,
+    "type": "location",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": true,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m41",
+    "fromMe": true,
+    "timestamp": 1786178060,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "author": "",
+    "hasMedia": false,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m42",
+    "fromMe": false,
+    "timestamp": 1786178090,
+    "type": null,
+    "body": "tab\there",
+    "hasMedia": true
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 1786178690,
+    "type": "location",
+    "body": "line1\n\nline3",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m44",
+    "fromMe": false,
+    "timestamp": 1786178720,
+    "type": "revoked",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m45",
+    "fromMe": true,
+    "timestamp": 1786198720,
+    "type": "video",
+    "body": null,
+    "author": "",
+    "media": {},
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m46",
+    "fromMe": false,
+    "timestamp": 1786199320,
+    "type": "sticker",
+    "body": null
+   },
+   {
+    "id": "m47",
+    "fromMe": false,
+    "timestamp": 1786202920,
+    "type": null,
+    "body": null
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 1786222920,
+    "type": "video",
+    "body": ""
+   },
+   {
+    "id": "m49",
+    "fromMe": true,
+    "timestamp": 1786226520,
+    "type": "document",
+    "body": "hello mr",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m50",
+    "fromMe": false,
+    "timestamp": 1786227120,
+    "type": "image",
+    "body": "hello mr"
+   },
+   {
+    "id": "m51",
+    "fromMe": true,
+    "timestamp": 1786230720,
+    "type": null,
+    "body": null,
+    "author": "Rachel A."
+   },
+   {
+    "id": "m52",
+    "fromMe": false,
+    "timestamp": 1786230750,
+    "type": "image",
+    "body": "hello mr",
+    "media": null,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m53",
+    "fromMe": false,
+    "timestamp": 1786231350,
+    "type": "location",
+    "body": "emoji 😀 ok",
+    "quoted": {}
+   },
+   {
+    "id": "m54",
+    "fromMe": true,
+    "timestamp": 1786231380,
+    "type": "image",
+    "body": "",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m55",
+    "fromMe": false,
+    "timestamp": 1786251380,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786251980,
+    "type": "unknown_kind",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": true
+   },
+   {
+    "id": "m57",
+    "fromMe": true,
+    "timestamp": 1786255580,
+    "type": "sticker",
+    "body": "line1\n\nline3",
+    "author": "Rachel A.",
+    "hasMedia": false
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786256180,
+    "type": "revoked",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m59",
+    "fromMe": false,
+    "timestamp": 1786256210,
+    "type": null,
+    "body": "tab\there"
+   },
+   {
+    "id": "m60",
+    "fromMe": false,
+    "timestamp": 1786276210,
+    "type": "revoked",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m61",
+    "fromMe": false,
+    "timestamp": 1786276810,
+    "type": "vcard",
+    "body": "hello mr",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m62",
+    "fromMe": false,
+    "timestamp": 1786280410,
+    "type": "ptt",
+    "body": "emoji 😀 ok",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m63",
+    "fromMe": true,
+    "timestamp": 1786280440,
+    "type": null,
+    "body": "  spaced  ",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m64",
+    "fromMe": false,
+    "timestamp": 1786280470,
+    "type": "",
+    "body": "emoji 😀 ok",
+    "author": "Bob",
+    "hasMedia": false
+   },
+   {
+    "id": "m65",
+    "fromMe": false,
+    "timestamp": 1786280500,
+    "type": "unknown_kind",
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m66",
+    "fromMe": false,
+    "timestamp": 1786281100,
+    "type": "unknown_kind",
+    "body": null,
+    "author": "Rachel A."
+   },
+   {
+    "id": "m67",
+    "fromMe": false,
+    "timestamp": 1786281130,
+    "type": "revoked",
+    "body": "",
+    "author": "",
+    "media": null,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m68",
+    "fromMe": true,
+    "timestamp": 1786367530,
+    "type": null,
+    "body": "",
+    "author": null,
+    "media": null
+   },
+   {
+    "id": "m69",
+    "fromMe": false,
+    "timestamp": 1786453930,
+    "type": null,
+    "body": "\u001cgroup",
+    "hasMedia": true,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m70",
+    "fromMe": false,
+    "timestamp": 1786457530,
+    "type": "",
+    "body": "line1\n\nline3",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m71",
+    "fromMe": true,
+    "timestamp": 1786461130,
+    "type": "video",
+    "body": "line1\n\nline3",
+    "media": {}
+   },
+   {
+    "id": "m72",
+    "fromMe": false,
+    "timestamp": 1786464730,
+    "type": "sticker",
+    "body": "",
+    "hasMedia": true,
+    "media": {}
+   },
+   {
+    "id": "m73",
+    "fromMe": false,
+    "timestamp": 1786468330,
+    "type": "ptt",
+    "body": "  spaced  ",
+    "author": "",
+    "media": null
+   },
+   {
+    "id": "m74",
+    "fromMe": false,
+    "timestamp": 1786488330,
+    "type": "sticker",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m75",
+    "fromMe": false,
+    "timestamp": 1786508330,
+    "type": "location",
+    "body": "  spaced  ",
+    "author": "Bob",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m76",
+    "fromMe": false,
+    "timestamp": null,
+    "type": null,
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "",
+    "hasMedia": false,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m77",
+    "fromMe": true,
+    "timestamp": 1786528360,
+    "type": "video",
+    "body": "hello mr"
+   },
+   {
+    "id": "m78",
+    "fromMe": false,
+    "timestamp": 1786528960,
+    "type": null,
+    "body": "hello mr",
+    "author": null
+   },
+   {
+    "id": "m79",
+    "fromMe": false,
+    "timestamp": 1786548960,
+    "type": "revoked",
+    "body": "  spaced  ",
+    "author": "Bob"
+   }
+  ],
+  "out": [
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 30 July 2026",
+    "time": "20:06",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 31 July 2026",
+    "time": "01:40",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Saturday, 01 August 2026",
+    "time": "01:40",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:50",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[chat: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "02:00",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "03:00",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "04:00",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "05:00",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[contact card: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:00",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 02 August 2026",
+    "time": "06:00",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "",
+    "time": "07:00",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "group",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:10",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:10",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[attachment]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[voice note: file.pdf]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "Monday, 03 August 2026",
+    "time": "14:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "15:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Tuesday, 04 August 2026",
+    "time": "15:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "15:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "15:53",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "16:53",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "17:03",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "18:03",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "19:03",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[location: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "20:03",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "Wednesday, 05 August 2026",
+    "time": "20:03",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "21:03",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "21:13",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[video: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:13",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "23:13",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 06 August 2026",
+    "time": "00:13",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "05:47",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "05:57",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:07",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:17",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 07 August 2026",
+    "time": "06:27",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Saturday, 08 August 2026",
+    "time": "06:27",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "12:00",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "17:33",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "",
+    "time": "17:34",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "",
+    "time": "17:34",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[attachment]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "17:44",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "17:45",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "23:18",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "23:28",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 09 August 2026",
+    "time": "00:28",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:02",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:02",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:12",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:12",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:12",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "",
+    "time": "08:22",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:23",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:56",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "",
+    "time": "14:06",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "15:06",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "15:16",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "15:16",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "20:50",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "21:00",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:00",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:00",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:01",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:01",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:11",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:12",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "Monday, 10 August 2026",
+    "time": "22:12",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Tuesday, 11 August 2026",
+    "time": "22:12",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[attachment]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "23:12",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Wednesday, 12 August 2026",
+    "time": "00:12",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:12",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "02:12",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:45",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:18",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[location: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "",
+    "time": "18:52",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "19:02",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 13 August 2026",
+    "time": "00:36",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   }
+  ]
+ },
+ {
+  "tz": "America/New_York",
+  "me": "Bob",
+  "them": "Mr Andy",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": true,
+    "timestamp": 1785373200,
+    "type": "vcard",
+    "body": "hello mr",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m1",
+    "fromMe": false,
+    "timestamp": 1785373800,
+    "type": "video",
+    "body": "emoji 😀 ok",
+    "author": null,
+    "quoted": null
+   },
+   {
+    "id": "m2",
+    "fromMe": false,
+    "timestamp": 1785460200,
+    "type": "document",
+    "body": "multi\r\nline x",
+    "media": null
+   },
+   {
+    "id": "m3",
+    "fromMe": true,
+    "timestamp": 1785480200,
+    "type": "revoked",
+    "body": "\u001cgroup",
+    "hasMedia": false,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m4",
+    "fromMe": false,
+    "timestamp": 1785480230,
+    "type": "document",
+    "body": "multi\r\nline x",
+    "hasMedia": true
+   },
+   {
+    "id": "m5",
+    "fromMe": true,
+    "timestamp": 1785483830,
+    "type": "video",
+    "body": "multi\r\nline x",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m6",
+    "fromMe": true,
+    "timestamp": 1785503830,
+    "type": "sticker",
+    "body": "emoji 😀 ok",
+    "author": ""
+   },
+   {
+    "id": "m7",
+    "fromMe": false,
+    "timestamp": 1785507430,
+    "type": "unknown_kind",
+    "body": "\u001cgroup",
+    "hasMedia": false,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m8",
+    "fromMe": false,
+    "timestamp": 1785511030,
+    "type": "ptt",
+    "body": "line1\n\nline3",
+    "author": "Bob",
+    "hasMedia": false
+   },
+   {
+    "id": "m9",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "image",
+    "body": "\u001cgroup",
+    "author": "",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m10",
+    "fromMe": true,
+    "timestamp": 1785534630,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m11",
+    "fromMe": false,
+    "timestamp": 1785621030,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m12",
+    "fromMe": true,
+    "timestamp": 1785621630,
+    "type": "location",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "Bob",
+    "hasMedia": true
+   },
+   {
+    "id": "m13",
+    "fromMe": true,
+    "timestamp": 1785621660,
+    "type": "sticker",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m14",
+    "fromMe": true,
+    "timestamp": 1785641660,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "author": null,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m15",
+    "fromMe": true,
+    "timestamp": 1785661660,
+    "type": "vcard",
+    "body": "tab\there",
+    "hasMedia": false,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m16",
+    "fromMe": false,
+    "timestamp": 1785662260,
+    "type": "ptt",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m17",
+    "fromMe": false,
+    "timestamp": 1785662860,
+    "type": "unknown_kind",
+    "body": "tab\there",
+    "author": "Rachel A.",
+    "hasMedia": true
+   },
+   {
+    "id": "m18",
+    "fromMe": true,
+    "timestamp": 1785666460,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "",
+    "media": {}
+   },
+   {
+    "id": "m19",
+    "fromMe": true,
+    "timestamp": 1785686460,
+    "type": "document",
+    "body": "\u001cgroup",
+    "quoted": {}
+   },
+   {
+    "id": "m20",
+    "fromMe": true,
+    "timestamp": 1785706460,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "hasMedia": true,
+    "quoted": null
+   },
+   {
+    "id": "m21",
+    "fromMe": true,
+    "timestamp": 1785792860,
+    "type": "image",
+    "body": "multi\r\nline x",
+    "hasMedia": true
+   },
+   {
+    "id": "m22",
+    "fromMe": false,
+    "timestamp": 1785812860,
+    "type": "revoked",
+    "body": "line1\n\nline3",
+    "hasMedia": false,
+    "quoted": {}
+   },
+   {
+    "id": "m23",
+    "fromMe": false,
+    "timestamp": 1785816460,
+    "type": "document",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m24",
+    "fromMe": true,
+    "timestamp": 1785816490,
+    "type": "image",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m25",
+    "fromMe": false,
+    "timestamp": 1785902890,
+    "type": "image",
+    "body": "hello mr",
+    "author": "Bob",
+    "hasMedia": false
+   },
+   {
+    "id": "m26",
+    "fromMe": true,
+    "timestamp": 1785902920,
+    "type": "video",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m27",
+    "fromMe": false,
+    "timestamp": 1785903520,
+    "type": "sticker",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m28",
+    "fromMe": true,
+    "timestamp": 1785989920,
+    "type": "chat",
+    "body": "tab\there"
+   },
+   {
+    "id": "m29",
+    "fromMe": false,
+    "timestamp": 1785990520,
+    "type": "chat",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m30",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "document",
+    "body": "multi\r\nline x",
+    "author": "Bob"
+   },
+   {
+    "id": "m31",
+    "fromMe": false,
+    "timestamp": 1786076950,
+    "type": "unknown_kind",
+    "body": "emoji 😀 ok",
+    "author": "",
+    "media": {},
+    "quoted": {}
+   },
+   {
+    "id": "m32",
+    "fromMe": true,
+    "timestamp": 1786077550,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "Bob",
+    "hasMedia": true
+   },
+   {
+    "id": "m33",
+    "fromMe": false,
+    "timestamp": 1786163950,
+    "type": "video",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "Bob"
+   },
+   {
+    "id": "m34",
+    "fromMe": false,
+    "timestamp": 1786164550,
+    "type": "vcard",
+    "body": "tab\there",
+    "author": "Bob",
+    "media": {}
+   },
+   {
+    "id": "m35",
+    "fromMe": false,
+    "timestamp": 1786168150,
+    "type": "vcard",
+    "body": "tab\there"
+   },
+   {
+    "id": "m36",
+    "fromMe": false,
+    "timestamp": 1786168180,
+    "type": "location",
+    "body": "\u001cgroup",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m37",
+    "fromMe": true,
+    "timestamp": 1786254580,
+    "type": "unknown_kind",
+    "body": null,
+    "author": "Rachel A.",
+    "hasMedia": true
+   },
+   {
+    "id": "m38",
+    "fromMe": true,
+    "timestamp": 0,
+    "type": "revoked",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m39",
+    "fromMe": false,
+    "timestamp": 1786275180,
+    "type": "image",
+    "body": null
+   },
+   {
+    "id": "m40",
+    "fromMe": true,
+    "timestamp": 1786275780,
+    "type": "location",
+    "body": "hello mr",
+    "hasMedia": false,
+    "media": null
+   },
+   {
+    "id": "m41",
+    "fromMe": false,
+    "timestamp": 1786295780,
+    "type": "",
+    "body": null,
+    "author": null,
+    "hasMedia": true,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m42",
+    "fromMe": true,
+    "timestamp": 1786382180,
+    "type": "video",
+    "body": "",
+    "author": ""
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 1786382780,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {}
+   },
+   {
+    "id": "m44",
+    "fromMe": false,
+    "timestamp": 1786386380,
+    "type": "revoked",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m45",
+    "fromMe": false,
+    "timestamp": 1786386410,
+    "type": "location",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m46",
+    "fromMe": false,
+    "timestamp": 1786387010,
+    "type": "chat",
+    "body": "",
+    "hasMedia": true
+   },
+   {
+    "id": "m47",
+    "fromMe": false,
+    "timestamp": 1786387040,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "media": null
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 1786390640,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "author": "Bob",
+    "media": null
+   },
+   {
+    "id": "m49",
+    "fromMe": false,
+    "timestamp": 1786394240,
+    "type": "vcard",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m50",
+    "fromMe": false,
+    "timestamp": 1786397840,
+    "type": "chat",
+    "body": "hello mr"
+   },
+   {
+    "id": "m51",
+    "fromMe": false,
+    "timestamp": 1786417840,
+    "type": "vcard",
+    "body": "\u001cgroup",
+    "hasMedia": false,
+    "quoted": {}
+   },
+   {
+    "id": "m52",
+    "fromMe": true,
+    "timestamp": 1786421440,
+    "type": "unknown_kind",
+    "body": "hello mr",
+    "hasMedia": true,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m53",
+    "fromMe": false,
+    "timestamp": 1786425040,
+    "type": "chat",
+    "body": "hello mr",
+    "author": "Bob",
+    "hasMedia": true
+   },
+   {
+    "id": "m54",
+    "fromMe": false,
+    "timestamp": 1786425640,
+    "type": "revoked",
+    "body": ""
+   },
+   {
+    "id": "m55",
+    "fromMe": false,
+    "timestamp": 1786426240,
+    "type": null,
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786426840,
+    "type": "video",
+    "body": "  spaced  ",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m57",
+    "fromMe": false,
+    "timestamp": 1786513240,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "author": "Bob",
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786533240,
+    "type": "vcard",
+    "body": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m59",
+    "fromMe": true,
+    "timestamp": 1786536840,
+    "type": "location",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m60",
+    "fromMe": true,
+    "timestamp": 1786536870,
+    "type": "sticker",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m61",
+    "fromMe": false,
+    "timestamp": 1786536900,
+    "type": "video",
+    "body": null,
+    "hasMedia": false
+   },
+   {
+    "id": "m62",
+    "fromMe": true,
+    "timestamp": 1786537500,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m63",
+    "fromMe": false,
+    "timestamp": 1786623900,
+    "type": "location",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m64",
+    "fromMe": false,
+    "timestamp": 1786710300,
+    "type": "ptt",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m65",
+    "fromMe": false,
+    "timestamp": 1786730300,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m66",
+    "fromMe": false,
+    "timestamp": 1786816700,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "hasMedia": true,
+    "media": null
+   },
+   {
+    "id": "m67",
+    "fromMe": false,
+    "timestamp": 1786817300,
+    "type": "document",
+    "body": "  spaced  ",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m68",
+    "fromMe": true,
+    "timestamp": 1786817330,
+    "type": "sticker",
+    "body": ""
+   },
+   {
+    "id": "m69",
+    "fromMe": false,
+    "timestamp": 1786903730,
+    "type": null,
+    "body": "tab\there",
+    "hasMedia": false
+   },
+   {
+    "id": "m70",
+    "fromMe": true,
+    "timestamp": 1786923730,
+    "type": "vcard",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m71",
+    "fromMe": true,
+    "timestamp": 1787010130,
+    "type": "image",
+    "body": "emoji 😀 ok",
+    "media": {}
+   },
+   {
+    "id": "m72",
+    "fromMe": true,
+    "timestamp": 1787013730,
+    "type": "",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m73",
+    "fromMe": false,
+    "timestamp": 1787014330,
+    "type": "unknown_kind",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m74",
+    "fromMe": false,
+    "timestamp": 1787100730,
+    "type": "document",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m75",
+    "fromMe": true,
+    "timestamp": 1787100760,
+    "type": null,
+    "body": "hello mr",
+    "author": null
+   },
+   {
+    "id": "m76",
+    "fromMe": false,
+    "timestamp": 1787187160,
+    "type": "unknown_kind",
+    "body": "emoji 😀 ok",
+    "author": "Bob"
+   },
+   {
+    "id": "m77",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "location",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": true
+   },
+   {
+    "id": "m78",
+    "fromMe": true,
+    "timestamp": 1787277160,
+    "type": "document",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m79",
+    "fromMe": true,
+    "timestamp": 1787363560,
+    "type": "chat",
+    "body": ""
+   }
+  ],
+  "out": [
+   {
+    "day_separator": "Wednesday, 29 July 2026",
+    "time": "21:00",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "21:10",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 30 July 2026",
+    "time": "21:10",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 31 July 2026",
+    "time": "02:43",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "group",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "",
+    "time": "02:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "03:43",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "09:17",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "10:17",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "11:17",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "17:50",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Saturday, 01 August 2026",
+    "time": "17:50",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "18:00",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "18:01",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "23:34",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 02 August 2026",
+    "time": "05:07",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "05:17",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "05:27",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:27",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "12:01",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "group",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "17:34",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[chat]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Monday, 03 August 2026",
+    "time": "17:34",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "23:07",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Tuesday, 04 August 2026",
+    "time": "00:07",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "00:08",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Wednesday, 05 August 2026",
+    "time": "00:08",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "00:08",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "group",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "00:18",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 06 August 2026",
+    "time": "00:18",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "00:28",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 07 August 2026",
+    "time": "00:29",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "00:39",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[chat]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Saturday, 08 August 2026",
+    "time": "00:39",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "00:49",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:49",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:49",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "group",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 09 August 2026",
+    "time": "01:49",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:33",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:43",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:16",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[attachment]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Monday, 10 August 2026",
+    "time": "13:16",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:26",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:26",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:26",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:36",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[chat]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:37",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "15:37",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "16:37",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "17:37",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "23:10",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Tuesday, 11 August 2026",
+    "time": "00:10",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "",
+    "time": "01:10",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[chat]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:20",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:30",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:40",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "Wednesday, 12 August 2026",
+    "time": "01:40",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "",
+    "time": "07:14",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:14",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:14",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "08:15",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:25",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "Thursday, 13 August 2026",
+    "time": "08:25",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 14 August 2026",
+    "time": "08:25",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:58",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "Saturday, 15 August 2026",
+    "time": "13:58",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[chat]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:08",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:08",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 16 August 2026",
+    "time": "14:08",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "19:42",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Monday, 17 August 2026",
+    "time": "19:42",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "20:42",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "20:52",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Tuesday, 18 August 2026",
+    "time": "20:52",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "20:52",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Wednesday, 19 August 2026",
+    "time": "20:52",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 20 August 2026",
+    "time": "21:52",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 21 August 2026",
+    "time": "21:52",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   }
+  ]
+ },
+ {
+  "tz": "UTC",
+  "me": "Bob",
+  "them": "Mr Andy",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": true,
+    "timestamp": 1785389600,
+    "type": "vcard",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m1",
+    "fromMe": false,
+    "timestamp": 1785393200,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "author": "Bob",
+    "hasMedia": true,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m2",
+    "fromMe": false,
+    "timestamp": 1785393800,
+    "type": "location",
+    "body": "",
+    "hasMedia": true,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m3",
+    "fromMe": false,
+    "timestamp": 1785394400,
+    "type": "chat",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m4",
+    "fromMe": false,
+    "timestamp": 1785395000,
+    "type": "video",
+    "body": "emoji 😀 ok",
+    "media": null,
+    "quoted": null
+   },
+   {
+    "id": "m5",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "",
+    "body": "",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m6",
+    "fromMe": false,
+    "timestamp": 1785395630,
+    "type": "",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "Bob",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m7",
+    "fromMe": false,
+    "timestamp": 1785395660,
+    "type": null,
+    "body": "tab\there",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m8",
+    "fromMe": true,
+    "timestamp": 1785415660,
+    "type": "chat",
+    "body": "",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m9",
+    "fromMe": false,
+    "timestamp": 1785435660,
+    "type": "chat",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m10",
+    "fromMe": true,
+    "timestamp": 1785435690,
+    "type": "sticker",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": true
+   },
+   {
+    "id": "m11",
+    "fromMe": false,
+    "timestamp": 1785436290,
+    "type": "image",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m12",
+    "fromMe": true,
+    "timestamp": 1785456290,
+    "type": "document",
+    "body": "line1\n\nline3",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m13",
+    "fromMe": false,
+    "timestamp": 1785476290,
+    "type": "revoked",
+    "body": "\u001cgroup",
+    "quoted": null
+   },
+   {
+    "id": "m14",
+    "fromMe": false,
+    "timestamp": 1785476890,
+    "type": "ptt",
+    "body": "tab\there"
+   },
+   {
+    "id": "m15",
+    "fromMe": false,
+    "timestamp": 1785477490,
+    "type": "video",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m16",
+    "fromMe": false,
+    "timestamp": 1785563890,
+    "type": "video",
+    "body": ""
+   },
+   {
+    "id": "m17",
+    "fromMe": false,
+    "timestamp": 1785564490,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "author": "Bob"
+   },
+   {
+    "id": "m18",
+    "fromMe": false,
+    "timestamp": 1785650890,
+    "type": "image",
+    "body": "  spaced  ",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m19",
+    "fromMe": false,
+    "timestamp": 1785650920,
+    "type": "chat",
+    "body": "",
+    "media": {}
+   },
+   {
+    "id": "m20",
+    "fromMe": true,
+    "timestamp": 1785737320,
+    "type": "sticker",
+    "body": null
+   },
+   {
+    "id": "m21",
+    "fromMe": true,
+    "timestamp": 1785823720,
+    "type": "chat",
+    "body": "tab\there",
+    "author": "",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m22",
+    "fromMe": true,
+    "timestamp": 1785843720,
+    "type": "chat",
+    "body": "hello mr",
+    "author": "Rachel A.",
+    "media": null
+   },
+   {
+    "id": "m23",
+    "fromMe": true,
+    "timestamp": 1785844320,
+    "type": "",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m24",
+    "fromMe": false,
+    "timestamp": 1785864320,
+    "type": "chat",
+    "body": null,
+    "media": {}
+   },
+   {
+    "id": "m25",
+    "fromMe": true,
+    "timestamp": 1785884320,
+    "type": "location",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m26",
+    "fromMe": true,
+    "timestamp": 1785884350,
+    "type": "sticker",
+    "body": "tab\there",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m27",
+    "fromMe": true,
+    "timestamp": 1785904350,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "author": "Bob"
+   },
+   {
+    "id": "m28",
+    "fromMe": true,
+    "timestamp": 1785924350,
+    "type": "document",
+    "body": "",
+    "quoted": {}
+   },
+   {
+    "id": "m29",
+    "fromMe": true,
+    "timestamp": 1785927950,
+    "type": "location",
+    "body": null,
+    "media": null,
+    "quoted": {}
+   },
+   {
+    "id": "m30",
+    "fromMe": false,
+    "timestamp": 1785931550,
+    "type": "",
+    "body": "line1\n\nline3",
+    "hasMedia": true,
+    "media": {},
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m31",
+    "fromMe": true,
+    "timestamp": 1786017950,
+    "type": "revoked",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m32",
+    "fromMe": false,
+    "timestamp": 1786104350,
+    "type": "revoked",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m33",
+    "fromMe": false,
+    "timestamp": 1786107950,
+    "type": null,
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m34",
+    "fromMe": true,
+    "timestamp": 1786194350,
+    "type": "vcard",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "quoted": null
+   },
+   {
+    "id": "m35",
+    "fromMe": false,
+    "timestamp": 1786194950,
+    "type": "chat",
+    "body": "hello mr",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m36",
+    "fromMe": true,
+    "timestamp": 1786194980,
+    "type": "document",
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m37",
+    "fromMe": true,
+    "timestamp": 1786198580,
+    "type": "revoked",
+    "body": "hello mr",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m38",
+    "fromMe": false,
+    "timestamp": 1786284980,
+    "type": "revoked",
+    "body": "multi\r\nline x",
+    "hasMedia": true,
+    "media": {}
+   },
+   {
+    "id": "m39",
+    "fromMe": false,
+    "timestamp": 1786371380,
+    "type": "",
+    "body": "  spaced  ",
+    "author": "Bob"
+   },
+   {
+    "id": "m40",
+    "fromMe": false,
+    "timestamp": 1786391380,
+    "type": "chat",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m41",
+    "fromMe": true,
+    "timestamp": 1786391410,
+    "type": "",
+    "body": "line1\n\nline3",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m42",
+    "fromMe": false,
+    "timestamp": 1786395010,
+    "type": "",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m43",
+    "fromMe": true,
+    "timestamp": 1786398610,
+    "type": "chat",
+    "body": null,
+    "hasMedia": false
+   },
+   {
+    "id": "m44",
+    "fromMe": true,
+    "timestamp": 1786398640,
+    "type": "revoked",
+    "body": "tab\there",
+    "author": "Rachel A.",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m45",
+    "fromMe": false,
+    "timestamp": 1786485040,
+    "type": "video",
+    "body": "  spaced  ",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m46",
+    "fromMe": false,
+    "timestamp": 1786485070,
+    "type": "ptt",
+    "body": null,
+    "author": "",
+    "media": null
+   },
+   {
+    "id": "m47",
+    "fromMe": false,
+    "timestamp": 1786488670,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "hasMedia": false,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "ptt",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m49",
+    "fromMe": true,
+    "timestamp": 1786578670,
+    "type": "unknown_kind",
+    "body": "\u001cgroup",
+    "media": null
+   },
+   {
+    "id": "m50",
+    "fromMe": false,
+    "timestamp": 1786579270,
+    "type": "",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m51",
+    "fromMe": false,
+    "timestamp": 1786579870,
+    "type": "unknown_kind",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": false,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m52",
+    "fromMe": false,
+    "timestamp": 1786583470,
+    "type": "chat",
+    "body": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m53",
+    "fromMe": true,
+    "timestamp": 1786584070,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m54",
+    "fromMe": true,
+    "timestamp": 1786604070,
+    "type": "video",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "Bob",
+    "hasMedia": true,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m55",
+    "fromMe": false,
+    "timestamp": 1786604100,
+    "type": "unknown_kind",
+    "body": "multi\r\nline x",
+    "author": "",
+    "hasMedia": false
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786690500,
+    "type": "vcard",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "",
+    "media": {}
+   },
+   {
+    "id": "m57",
+    "fromMe": true,
+    "timestamp": 1786690530,
+    "type": "location",
+    "body": "emoji 😀 ok",
+    "media": null,
+    "quoted": null
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786691130,
+    "type": "chat",
+    "body": null
+   },
+   {
+    "id": "m59",
+    "fromMe": false,
+    "timestamp": 1786694730,
+    "type": "sticker",
+    "body": "  spaced  ",
+    "hasMedia": true
+   },
+   {
+    "id": "m60",
+    "fromMe": false,
+    "timestamp": 1786695330,
+    "type": "ptt",
+    "body": "tab\there",
+    "hasMedia": true,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m61",
+    "fromMe": true,
+    "timestamp": 1786781730,
+    "type": "vcard",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m62",
+    "fromMe": true,
+    "timestamp": 1786785330,
+    "type": "vcard",
+    "body": "hello mr",
+    "author": null,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m63",
+    "fromMe": false,
+    "timestamp": 1786871730,
+    "type": "video",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m64",
+    "fromMe": false,
+    "timestamp": 1786872330,
+    "type": "ptt",
+    "body": "tab\there"
+   },
+   {
+    "id": "m65",
+    "fromMe": false,
+    "timestamp": 1786875930,
+    "type": "ptt",
+    "body": "hello mr",
+    "hasMedia": true,
+    "quoted": null
+   },
+   {
+    "id": "m66",
+    "fromMe": false,
+    "timestamp": 1786875960,
+    "type": "revoked",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m67",
+    "fromMe": true,
+    "timestamp": 1786875990,
+    "type": "ptt",
+    "body": null,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m68",
+    "fromMe": true,
+    "timestamp": 1786895990,
+    "type": "revoked",
+    "body": "hello mr",
+    "media": null
+   },
+   {
+    "id": "m69",
+    "fromMe": true,
+    "timestamp": 1786915990,
+    "type": "unknown_kind",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m70",
+    "fromMe": true,
+    "timestamp": 1787002390,
+    "type": "chat",
+    "body": null
+   },
+   {
+    "id": "m71",
+    "fromMe": false,
+    "timestamp": 1787005990,
+    "type": "",
+    "body": "line1\n\nline3",
+    "hasMedia": true
+   },
+   {
+    "id": "m72",
+    "fromMe": false,
+    "timestamp": 1787006590,
+    "type": "image",
+    "body": "emoji 😀 ok",
+    "quoted": {}
+   },
+   {
+    "id": "m73",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": null,
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "Bob"
+   },
+   {
+    "id": "m74",
+    "fromMe": true,
+    "timestamp": 1787093020,
+    "type": "document",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m75",
+    "fromMe": false,
+    "timestamp": 1787113020,
+    "type": "image",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": ""
+   },
+   {
+    "id": "m76",
+    "fromMe": false,
+    "timestamp": 1787199420,
+    "type": "chat",
+    "body": "  spaced  ",
+    "author": null
+   },
+   {
+    "id": "m77",
+    "fromMe": true,
+    "timestamp": 1787219420,
+    "type": "vcard",
+    "body": "emoji 😀 ok",
+    "hasMedia": true,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m78",
+    "fromMe": false,
+    "timestamp": 1787305820,
+    "type": "unknown_kind",
+    "body": "hello mr",
+    "author": null,
+    "hasMedia": false
+   },
+   {
+    "id": "m79",
+    "fromMe": false,
+    "timestamp": 1787306420,
+    "type": "document",
+    "body": "line1\n\nline3",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   }
+  ],
+  "out": [
+   {
+    "day_separator": "Thursday, 30 July 2026",
+    "time": "05:33",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:33",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[chat]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "06:53",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:03",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Rachel A.",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:13",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "07:14",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "12:47",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "18:21",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "18:21",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "18:31",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 31 July 2026",
+    "time": "00:04",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "",
+    "time": "05:38",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "05:48",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "05:58",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Saturday, 01 August 2026",
+    "time": "05:58",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:08",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 02 August 2026",
+    "time": "06:08",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:08",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Monday, 03 August 2026",
+    "time": "06:08",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Tuesday, 04 August 2026",
+    "time": "06:08",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "",
+    "time": "11:42",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "11:52",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "",
+    "time": "17:25",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:58",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "group",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:59",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[sticker: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Wednesday, 05 August 2026",
+    "time": "04:32",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "10:05",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "11:05",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "12:05",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[attachment]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "Thursday, 06 August 2026",
+    "time": "12:05",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 07 August 2026",
+    "time": "12:05",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:05",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Saturday, 08 August 2026",
+    "time": "13:05",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:15",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "13:16",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "group",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "14:16",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 09 August 2026",
+    "time": "14:16",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Monday, 10 August 2026",
+    "time": "14:16",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "19:49",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "19:50",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "20:50",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "group",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "21:50",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "21:50",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "Tuesday, 11 August 2026",
+    "time": "21:50",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[video: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "21:51",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:51",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "[voice note: file.pdf]",
+    "quoted": "quoted text"
+   },
+   {
+    "day_separator": "Wednesday, 12 August 2026",
+    "time": "23:51",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "group",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 13 August 2026",
+    "time": "00:01",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "00:11",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:11",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[chat]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "01:21",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:54",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+   },
+   {
+    "day_separator": "",
+    "time": "06:55",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 14 August 2026",
+    "time": "06:55",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "06:55",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[location]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "07:05",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:05",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "[sticker]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "08:15",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Saturday, 15 August 2026",
+    "time": "08:15",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "multi\r\nline x",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "09:15",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[contact card: file.pdf]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Sunday, 16 August 2026",
+    "time": "09:15",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[video]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "09:25",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "tab\there",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "10:25",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "10:26",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "10:26",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[voice note]",
+    "quoted": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+   },
+   {
+    "day_separator": "",
+    "time": "15:59",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[message deleted]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "21:33",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Monday, 17 August 2026",
+    "time": "21:33",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "",
+    "image": null,
+    "placeholder": "[no content]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:33",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[attachment]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "22:43",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "",
+    "from_me": false,
+    "sender": "Bob",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Tuesday, 18 August 2026",
+    "time": "22:43",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Wednesday, 19 August 2026",
+    "time": "04:17",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "image": null,
+    "placeholder": "[image]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Thursday, 20 August 2026",
+    "time": "04:17",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "spaced",
+    "image": null,
+    "placeholder": "",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "09:50",
+    "from_me": true,
+    "sender": "Bob",
+    "body": "emoji 😀 ok",
+    "image": null,
+    "placeholder": "[contact card]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "Friday, 21 August 2026",
+    "time": "09:50",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "hello mr",
+    "image": null,
+    "placeholder": "[unknown_kind]",
+    "quoted": ""
+   },
+   {
+    "day_separator": "",
+    "time": "10:00",
+    "from_me": false,
+    "sender": "Mr Andy",
+    "body": "line1\n\nline3",
+    "image": null,
+    "placeholder": "[document]",
+    "quoted": ""
+   }
+  ]
+ }
+]

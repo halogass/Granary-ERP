@@ -1,0 +1,1202 @@
+[
+ {
+  "text": " Regards   [Name]\nRegards  hangatline\twith tab  Regards  ",
+  "out": "<p> Regards   [Name]<br>Regards  hangatline\twith tab  Regards  </p>"
+ },
+ {
+  "text": "\n\nNary ",
+  "out": "<p></p><p>Nary </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "  \n\u001c Nary\u001c\n\n\n",
+  "out": "<p>  <br>\u001c Nary\u001c</p><p><br></p>"
+ },
+ {
+  "text": "best regards Warm regards,Thanks,\n\nRegards,\r ",
+  "out": "<p>best regards Warm regards,Thanks,</p><p>Regards,\r </p>"
+ },
+ {
+  "text": "Nary\n",
+  "out": "<p>Nary<br></p>"
+ },
+ {
+  "text": "We look forward to your reply.\n\n\nWarmest regards\n\n\n— Nary\n\n\nThank you.Sincerely,",
+  "out": "<p>We look forward to your reply.</p><p><br>Warmest regards</p><p><br>— Nary</p><p><br>Thank you.Sincerely,</p>"
+ },
+ {
+  "text": "Thank you.\nacme ltd \n",
+  "out": "<p>Thank you.<br>acme ltd <br></p>"
+ },
+ {
+  "text": "Cheers!\n\nBest [NAME] Thank you.\n\n\nWarm  regards\u001c ",
+  "out": "<p>Cheers!</p><p>Best [NAME] Thank you.</p><p><br>Warm  regards\u001c </p>"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\n\n<b>bold</b> & \"quoted\" 'single'\n\n\nWarmest regards\n\n\nCheers!\n\n\nCheers!",
+  "out": "<p>Nary,Acme Ltd\r</p><p><br>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;</p><p><br>Warmest regards</p><p><br>Cheers!</p><p><br>Cheers!</p>"
+ },
+ {
+  "text": "é ü ñ 😀\nNary·Acme Ltd\n\nAcme Ltd\n\nNary\r\n",
+  "out": "<p>é ü ñ 😀<br>Nary·Acme Ltd</p><p>Acme Ltd</p><p>Nary\r<br></p>"
+ },
+ {
+  "text": "Warm  regards Nary\n[name] ",
+  "out": "<p>Warm  regards Nary<br>[name] </p>"
+ },
+ {
+  "text": "é ü ñ 😀\n\n\nBest NARY , Acme Ltd \n\n\n",
+  "out": "<p>é ü ñ 😀</p><p><br>Best NARY , Acme Ltd </p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary Acme Ltd[NAME] ",
+  "out": "<p>Nary Acme Ltd[NAME] </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": " \n_— Nary, GRANARY_Sincerely,\n\n[Name]\nacme ltd  Warmest regards ",
+  "out": "<p> <br>_— Nary, GRANARY_Sincerely,</p><p>[Name]<br>acme ltd  Warmest regards </p>"
+ },
+ {
+  "text": "We look forward to your reply.\nWarm regards!\n\n\t\n\nWe look forward to your reply.\n\n\n",
+  "out": "<p>We look forward to your reply.<br>Warm regards!</p><p>\t</p><p>We look forward to your reply.</p><p><br></p>"
+ },
+ {
+  "text": "[Name] ",
+  "out": "<p>[Name] </p>"
+ },
+ {
+  "text": "—",
+  "out": "<p>—</p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Acme Ltd With regards_— Nary, GRANARY_\n\n\n",
+  "out": "<p>Acme Ltd With regards_— Nary, GRANARY_</p><p><br></p>"
+ },
+ {
+  "text": "Yours faithfully Yours faithfully\n\nWarmest regards  Regards  \n\n\nNary·Acme Ltd",
+  "out": "<p>Yours faithfully Yours faithfully</p><p>Warmest regards  Regards  </p><p><br>Nary·Acme Ltd</p>"
+ },
+ {
+  "text": "acme ltd  With regards\n\n\nAcme Ltd\n\nWarm regards!\n\nAcme Ltd\n",
+  "out": "<p>acme ltd  With regards</p><p><br>Acme Ltd</p><p>Warm regards!</p><p>Acme Ltd<br></p>"
+ },
+ {
+  "text": " Regards    Regards  \nBest regards, Nary\n\n\nacme ltd  Nary, Acme Ltd ",
+  "out": "<p> Regards    Regards  <br>Best regards, Nary</p><p><br>acme ltd  Nary, Acme Ltd </p>"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\n",
+  "out": "<p>_— Nary, GRANARY_</p><p></p>"
+ },
+ {
+  "text": "Warmest regards\n\n\nThanks,",
+  "out": "<p>Warmest regards</p><p><br>Thanks,</p>"
+ },
+ {
+  "text": "Regards,Kind regards.   \n\n",
+  "out": "<p>Regards,Kind regards.   </p><p></p>"
+ },
+ {
+  "text": "acme ltd \n\nWarm  regards\n\n\nacme ltd \nNary\u001c\n\n",
+  "out": "<p>acme ltd </p><p>Warm  regards</p><p><br>acme ltd <br>Nary\u001c</p><p></p>"
+ },
+ {
+  "text": "Warmest regards\n\n\nWarm  regards Nary Hello Mr John, [name]\n\n",
+  "out": "<p>Warmest regards</p><p><br>Warm  regards Nary Hello Mr John, [name]</p><p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "NARY , Acme Ltd\nThank you. Regards,\r\nWarm regards,\n",
+  "out": "<p>NARY , Acme Ltd<br>Thank you. Regards,\r<br>Warm regards,<br></p>"
+ },
+ {
+  "text": "Regards,Acme Ltd\n\n\nNary·Acme Ltd\n\n\nWarm regards!\n\n\n[NAME] \n",
+  "out": "<p>Regards,Acme Ltd</p><p><br>Nary·Acme Ltd</p><p><br>Warm regards!</p><p><br>[NAME] <br></p>"
+ },
+ {
+  "text": "NARY , Acme Ltd \n\nWarm regards, \t\n\n\n",
+  "out": "<p>NARY , Acme Ltd </p><p>Warm regards, \t</p><p><br></p>"
+ },
+ {
+  "text": " Regards   _— Nary, GRANARY_ ",
+  "out": "<p> Regards   _— Nary, GRANARY_ </p>"
+ },
+ {
+  "text": "Yours faithfully\n\n<b>bold</b> & \"quoted\" 'single'\n",
+  "out": "<p>Yours faithfully</p><p>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;<br></p>"
+ },
+ {
+  "text": "Thank you.\n\t",
+  "out": "<p>Thank you.<br>\t</p>"
+ },
+ {
+  "text": "Hello Mr John,\n[Name]\n\n\n",
+  "out": "<p>Hello Mr John,<br>[Name]</p><p><br></p>"
+ },
+ {
+  "text": "  Sincerely,—\n\n\nline\twith tab\n\n\nNary - acme ltd— ",
+  "out": "<p>  Sincerely,—</p><p><br>line\twith tab</p><p><br>Nary - acme ltd— </p>"
+ },
+ {
+  "text": "Nary\nRegards,\n\nNary,Acme Ltd\r\n\n\nAcme Ltd ",
+  "out": "<p>Nary<br>Regards,</p><p>Nary,Acme Ltd\r</p><p><br>Acme Ltd </p>"
+ },
+ {
+  "text": "Best regards,\n\n\nnaryNary Acme LtdSincerely, Yours faithfully,\n\nNary,Acme Ltd\r ",
+  "out": "<p>Best regards,</p><p><br>naryNary Acme LtdSincerely, Yours faithfully,</p><p>Nary,Acme Ltd\r </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Yours faithfully, ",
+  "out": "<p>Yours faithfully, </p>"
+ },
+ {
+  "text": "[NAME]  — Nary\n\nnary\nSincerely,\n\nSincerely,\nline\twith tab",
+  "out": "<p>[NAME]  — Nary</p><p>nary<br>Sincerely,</p><p>Sincerely,<br>line\twith tab</p>"
+ },
+ {
+  "text": "Hello Mr John,\n\n\n  NARY , Acme Ltd\n\nNary, Acme Ltd ",
+  "out": "<p>Hello Mr John,</p><p><br>  NARY , Acme Ltd</p><p>Nary, Acme Ltd </p>"
+ },
+ {
+  "text": "Best\n\n",
+  "out": "<p>Best</p><p></p>"
+ },
+ {
+  "text": "—\nRegards, Regards,\r\n  ",
+  "out": "<p>—<br>Regards, Regards,\r<br>  </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary\r\n Regards  Regards\n",
+  "out": "<p>Nary\r<br> Regards  Regards<br></p>"
+ },
+ {
+  "text": "Acme Ltd\n\né ü ñ 😀\nNary\u001c\nRegards ",
+  "out": "<p>Acme Ltd</p><p>é ü ñ 😀<br>Nary\u001c<br>Regards </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary·Acme LtdBest regards, Nary\nbest regards",
+  "out": "<p>Nary·Acme LtdBest regards, Nary<br>best regards</p>"
+ },
+ {
+  "text": "Nary\u001cHello Mr John,\n\n\n",
+  "out": "<p>Nary\u001cHello Mr John,</p><p><br></p>"
+ },
+ {
+  "text": "Nary, Acme LtdNary,Acme Ltd\rline\twith tab\n\n \t\n\nNary, Acme Ltd\n",
+  "out": "<p>Nary, Acme LtdNary,Acme Ltd\rline\twith tab</p><p> \t</p><p>Nary, Acme Ltd<br></p>"
+ },
+ {
+  "text": "Kind regards.",
+  "out": "<p>Kind regards.</p>"
+ },
+ {
+  "text": "Nary\r\n\n\nNary·Acme Ltd\n\n\u001c\n\n",
+  "out": "<p>Nary\r</p><p><br>Nary·Acme Ltd</p><p>\u001c</p><p></p>"
+ },
+ {
+  "text": "   Nary,Acme Ltd\r   _— Nary, GRANARY_\n\n",
+  "out": "<p>   Nary,Acme Ltd\r   _— Nary, GRANARY_</p><p></p>"
+ },
+ {
+  "text": "nary Best regards, Nary ",
+  "out": "<p>nary Best regards, Nary </p>"
+ },
+ {
+  "text": "Warm  regards\n\n\nNARY , Acme Ltd[name] Warm  regards",
+  "out": "<p>Warm  regards</p><p><br>NARY , Acme Ltd[name] Warm  regards</p>"
+ },
+ {
+  "text": "Best\n\n\nNary\u001c\n\n\nHello Mr John,\n\nWith regards\n",
+  "out": "<p>Best</p><p><br>Nary\u001c</p><p><br>Hello Mr John,</p><p>With regards<br></p>"
+ },
+ {
+  "text": " \n",
+  "out": "<p> <br></p>"
+ },
+ {
+  "text": "Warm regards,line\twith tab ",
+  "out": "<p>Warm regards,line\twith tab </p>"
+ },
+ {
+  "text": "  ",
+  "out": "<p>  </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Thanks, We look forward to your reply.\n\n",
+  "out": "<p>Thanks, We look forward to your reply.</p><p></p>"
+ },
+ {
+  "text": "Best\n\n\n\t\n\nNARY , Acme Ltd ",
+  "out": "<p>Best</p><p><br>\t</p><p>NARY , Acme Ltd </p>"
+ },
+ {
+  "text": "—\n\n\n",
+  "out": "<p>—</p><p><br></p>"
+ },
+ {
+  "text": "line\twith tab\n\n\nSincerely,\n",
+  "out": "<p>line\twith tab</p><p><br>Sincerely,<br></p>"
+ },
+ {
+  "text": "Nary\r\n\nline\twith tab\n\t\n\nYours faithfully\n",
+  "out": "<p>Nary\r</p><p>line\twith tab<br>\t</p><p>Yours faithfully<br></p>"
+ },
+ {
+  "text": "Thank you.\n\nBest regards, Nary\n\n\nWe look forward to your reply.\n\n\nWe look forward to your reply. Cheers!\n\n\nacme ltd \n\n\n",
+  "out": "<p>Thank you.</p><p>Best regards, Nary</p><p><br>We look forward to your reply.</p><p><br>We look forward to your reply. Cheers!</p><p><br>acme ltd </p><p><br></p>"
+ },
+ {
+  "text": "é ü ñ 😀\n\nThanks,\n\n\nThank you. é ü ñ 😀\n\n\n",
+  "out": "<p>é ü ñ 😀</p><p>Thanks,</p><p><br>Thank you. é ü ñ 😀</p><p><br></p>"
+ },
+ {
+  "text": "Nary, Acme LtdThank you.\nNary,Acme Ltd\r\n[NAME] \n",
+  "out": "<p>Nary, Acme LtdThank you.<br>Nary,Acme Ltd\r<br>[NAME] <br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary\n\n\nAcme Ltd",
+  "out": "<p>Nary</p><p><br>Acme Ltd</p>"
+ },
+ {
+  "text": "é ü ñ 😀\n\n\n",
+  "out": "<p>é ü ñ 😀</p><p><br></p>"
+ },
+ {
+  "text": "Acme Ltd\nRegards,  Regards    Regards,\nNary - acme ltd",
+  "out": "<p>Acme Ltd<br>Regards,  Regards    Regards,<br>Nary - acme ltd</p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary - acme ltd\n\n\n",
+  "out": "<p>Nary - acme ltd</p><p><br></p>"
+ },
+ {
+  "text": "Regards,\nNary,Acme Ltd\r\nNary\r\n",
+  "out": "<p>Regards,<br>Nary,Acme Ltd\r<br>Nary\r<br></p>"
+ },
+ {
+  "text": " ",
+  "out": "<p> </p>"
+ },
+ {
+  "text": "Cheers!\n\nNary Acme Ltd Regards,\n\n\nWe look forward to your reply.\n\n\nNary Acme Ltd\n\n\n",
+  "out": "<p>Cheers!</p><p>Nary Acme Ltd Regards,</p><p><br>We look forward to your reply.</p><p><br>Nary Acme Ltd</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Regards,Acme Ltd\n\n\nNary,Acme Ltd\r  best regardsNary,Acme Ltd\r",
+  "out": "<p>Regards,Acme Ltd</p><p><br>Nary,Acme Ltd\r  best regardsNary,Acme Ltd\r</p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Acme Ltd line\twith tab Cheers! Kind regards.\n\n\n",
+  "out": "<p>Acme Ltd line\twith tab Cheers! Kind regards.</p><p><br></p>"
+ },
+ {
+  "text": "\n\n\n Nary - acme ltd",
+  "out": "<p></p><p><br> Nary - acme ltd</p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "\u001cThanks,Best\n\t Warm regards!\n\n\n",
+  "out": "<p>\u001cThanks,Best<br>\t Warm regards!</p><p><br></p>"
+ },
+ {
+  "text": "Yours faithfully,\nNary\u001cNary\u001cKind regards.",
+  "out": "<p>Yours faithfully,<br>Nary\u001cNary\u001cKind regards.</p>"
+ },
+ {
+  "text": "Sincerely,\n\nThank you. [Name]\n\n",
+  "out": "<p>Sincerely,</p><p>Thank you. [Name]</p><p></p>"
+ },
+ {
+  "text": "acme ltd NARY , Acme Ltd\n\u001c\n\n\n",
+  "out": "<p>acme ltd NARY , Acme Ltd<br>\u001c</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": " Regards  ",
+  "out": "<p> Regards  </p>"
+ },
+ {
+  "text": "Nary\n\n\nNary, Acme Ltd Hello Mr John,\n\n[NAME] Thanks,\n\nBest regards, Nary\n\n\n",
+  "out": "<p>Nary</p><p><br>Nary, Acme Ltd Hello Mr John,</p><p>[NAME] Thanks,</p><p>Best regards, Nary</p><p><br></p>"
+ },
+ {
+  "text": "NARY , Acme Ltd \u001c    \n\nNary·Acme Ltd\n\n\n",
+  "out": "<p>NARY , Acme Ltd \u001c    </p><p>Nary·Acme Ltd</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "[NAME] \n\nThank you.\n\n\nBest regards,\n\n  Regards\n\n",
+  "out": "<p>[NAME] </p><p>Thank you.</p><p><br>Best regards,</p><p>  Regards</p><p></p>"
+ },
+ {
+  "text": "Sincerely,— Nary   Regards,\r ",
+  "out": "<p>Sincerely,— Nary   Regards,\r </p>"
+ },
+ {
+  "text": "Nary·Acme Ltd\n[name] With regards\nThank you.\n\nNary",
+  "out": "<p>Nary·Acme Ltd<br>[name] With regards<br>Thank you.</p><p>Nary</p>"
+ },
+ {
+  "text": "Best regards,\n\nRegards, Acme Ltd\n\nNary, Acme Ltd",
+  "out": "<p>Best regards,</p><p>Regards, Acme Ltd</p><p>Nary, Acme Ltd</p>"
+ },
+ {
+  "text": "NARY , Acme Ltd\n\n\nSincerely,\n\nWarmest regards Cheers!<b>bold</b> & \"quoted\" 'single'\n\nnary\n",
+  "out": "<p>NARY , Acme Ltd</p><p><br>Sincerely,</p><p>Warmest regards Cheers!&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;</p><p>nary<br></p>"
+ },
+ {
+  "text": "[name]\n\n[NAME]  Warmest regards — NaryRegards,\rRegards\n",
+  "out": "<p>[name]</p><p>[NAME]  Warmest regards — NaryRegards,\rRegards<br></p>"
+ },
+ {
+  "text": "With regards\n\n\nAcme Ltd",
+  "out": "<p>With regards</p><p><br>Acme Ltd</p>"
+ },
+ {
+  "text": "[name]  \n\n\nWith regardsThank you.\n",
+  "out": "<p>[name]  </p><p><br>With regardsThank you.<br></p>"
+ },
+ {
+  "text": "Kind regards.\n\n\n_— Nary, GRANARY_ ",
+  "out": "<p>Kind regards.</p><p><br>_— Nary, GRANARY_ </p>"
+ },
+ {
+  "text": "Thank you.\nNary·Acme Ltd\n\nWarm  regards\n\n Regards  ",
+  "out": "<p>Thank you.<br>Nary·Acme Ltd</p><p>Warm  regards</p><p> Regards  </p>"
+ },
+ {
+  "text": "Warm  regards\n\n\nNary\u001c\nRegards\n\nSincerely,\n",
+  "out": "<p>Warm  regards</p><p><br>Nary\u001c<br>Regards</p><p>Sincerely,<br></p>"
+ },
+ {
+  "text": "Thank you. Best\nSincerely, Yours faithfully ",
+  "out": "<p>Thank you. Best<br>Sincerely, Yours faithfully </p>"
+ },
+ {
+  "text": "Sincerely,Best regards, Regards\n\n\n",
+  "out": "<p>Sincerely,Best regards, Regards</p><p><br></p>"
+ },
+ {
+  "text": "\t\n\n\nNary - acme ltd Nary\r\nCheers!\n\n\nAcme Ltd Best regards, Nary ",
+  "out": "<p>\t</p><p><br>Nary - acme ltd Nary\r<br>Cheers!</p><p><br>Acme Ltd Best regards, Nary </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Thank you. Nary Acme Ltd",
+  "out": "<p>Thank you. Nary Acme Ltd</p>"
+ },
+ {
+  "text": "Best regards, NaryRegards,\r\n Regards  Thank you. Thank you. ",
+  "out": "<p>Best regards, NaryRegards,\r<br> Regards  Thank you. Thank you. </p>"
+ },
+ {
+  "text": "Regards,\r",
+  "out": "<p>Regards,\r</p>"
+ },
+ {
+  "text": "Regards\n\n\nnary Thanks, Best regards,",
+  "out": "<p>Regards</p><p><br>nary Thanks, Best regards,</p>"
+ },
+ {
+  "text": "Sincerely,\n\nNARY , Acme Ltd\n[name]\nNary,Acme Ltd\rBest\n\n\n Regards   ",
+  "out": "<p>Sincerely,</p><p>NARY , Acme Ltd<br>[name]<br>Nary,Acme Ltd\rBest</p><p><br> Regards   </p>"
+ },
+ {
+  "text": "Nary - acme ltd\n\n\nWarm regards,\n\n",
+  "out": "<p>Nary - acme ltd</p><p><br>Warm regards,</p><p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "[name] ",
+  "out": "<p>[name] </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nNary - acme ltd Yours faithfully\n",
+  "out": "<p>_— Nary, GRANARY_</p><p>Nary - acme ltd Yours faithfully<br></p>"
+ },
+ {
+  "text": "Regards,\r acme ltd  line\twith tab\n\n\n\n\nWarm regards, ",
+  "out": "<p>Regards,\r acme ltd  line\twith tab</p><p></p><p><br>Warm regards, </p>"
+ },
+ {
+  "text": "Kind regards.\nWith regardsWarmest regards ",
+  "out": "<p>Kind regards.<br>With regardsWarmest regards </p>"
+ },
+ {
+  "text": "Nary\u001c\nnary\n[NAME] ",
+  "out": "<p>Nary\u001c<br>nary<br>[NAME] </p>"
+ },
+ {
+  "text": "   Thank you.\nNary·Acme LtdAcme Ltd <b>bold</b> & \"quoted\" 'single'\n",
+  "out": "<p>   Thank you.<br>Nary·Acme LtdAcme Ltd &lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;<br></p>"
+ },
+ {
+  "text": "Sincerely,\nWith regardsWith regardsline\twith tab\n\nNary\n\n\nWarm regards!\n\n\n",
+  "out": "<p>Sincerely,<br>With regardsWith regardsline\twith tab</p><p>Nary</p><p><br>Warm regards!</p><p><br></p>"
+ },
+ {
+  "text": "Hello Mr John,",
+  "out": "<p>Hello Mr John,</p>"
+ },
+ {
+  "text": "Warmest regardsNary·Acme Ltd\nnary Nary - acme ltd\n\n<b>bold</b> & \"quoted\" 'single'\n\n\n",
+  "out": "<p>Warmest regardsNary·Acme Ltd<br>nary Nary - acme ltd</p><p>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;</p><p><br></p>"
+ },
+ {
+  "text": "—NARY , Acme Ltd\nNary\r\nRegards\n\n",
+  "out": "<p>—NARY , Acme Ltd<br>Nary\r<br>Regards</p><p></p>"
+ },
+ {
+  "text": "NARY , Acme LtdKind regards. Warm regards!\n\nbest regards\nWarm regards!\n\n\n",
+  "out": "<p>NARY , Acme LtdKind regards. Warm regards!</p><p>best regards<br>Warm regards!</p><p><br></p>"
+ },
+ {
+  "text": "[name]\n\n\nWarm regards,Warm  regards\n\n",
+  "out": "<p>[name]</p><p><br>Warm regards,Warm  regards</p><p></p>"
+ },
+ {
+  "text": "[name]\n\n\nWarm  regards\n\n\nBest regards, Nary\n\nBest regards, Nary\t\n\n",
+  "out": "<p>[name]</p><p><br>Warm  regards</p><p><br>Best regards, Nary</p><p>Best regards, Nary\t</p><p></p>"
+ },
+ {
+  "text": "   Hello Mr John,\nNary Acme Ltd Regards,",
+  "out": "<p>   Hello Mr John,<br>Nary Acme Ltd Regards,</p>"
+ },
+ {
+  "text": "Nary\u001c_— Nary, GRANARY_\n\nRegards,\r\n[name] Kind regards.\n",
+  "out": "<p>Nary\u001c_— Nary, GRANARY_</p><p>Regards,\r<br>[name] Kind regards.<br></p>"
+ },
+ {
+  "text": "Nary Acme Ltd\nSincerely,  \n\nHello Mr John, Nary·Acme Ltdnara",
+  "out": "<p>Nary Acme Ltd<br>Sincerely,  </p><p>Hello Mr John, Nary·Acme Ltdnara</p>"
+ },
+ {
+  "text": " Regards  \n—\nThank you.\n\nnary\n\n\n<b>bold</b> & \"quoted\" 'single'\n\n",
+  "out": "<p> Regards  <br>—<br>Thank you.</p><p>nary</p><p><br>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;</p><p></p>"
+ },
+ {
+  "text": "Nary - acme ltd\n\n\nline\twith tab\nNary - acme ltd Hello Mr John,Best\n\nBest regards, Nary\n\n\n",
+  "out": "<p>Nary - acme ltd</p><p><br>line\twith tab<br>Nary - acme ltd Hello Mr John,Best</p><p>Best regards, Nary</p><p><br></p>"
+ },
+ {
+  "text": "Warm  regards\n\n\nNary,Acme Ltd\r Nary\n\n\nacme ltd \nWarm  regards ",
+  "out": "<p>Warm  regards</p><p><br>Nary,Acme Ltd\r Nary</p><p><br>acme ltd <br>Warm  regards </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Thanks,\n Regards   ",
+  "out": "<p>Thanks,<br> Regards   </p>"
+ },
+ {
+  "text": "Cheers!\nYours faithfully,\n\nnary\n\n",
+  "out": "<p>Cheers!<br>Yours faithfully,</p><p>nary</p><p></p>"
+ },
+ {
+  "text": "nary\nWarm  regards",
+  "out": "<p>nary<br>Warm  regards</p>"
+ },
+ {
+  "text": "line\twith tab\nThank you.\n\n\u001c\n\nBest regards, Nary Kind regards.\n\n",
+  "out": "<p>line\twith tab<br>Thank you.</p><p>\u001c</p><p>Best regards, Nary Kind regards.</p><p></p>"
+ },
+ {
+  "text": "Regards,\n\n\nRegards,\n\n\n",
+  "out": "<p>Regards,</p><p><br>Regards,</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Warmest regards\n\n  \n\n\nWarm regards, With regardsSalam,\n\n",
+  "out": "<p>Warmest regards</p><p>  </p><p><br>Warm regards, With regardsSalam,</p><p></p>"
+ },
+ {
+  "text": "[name]\n\n\nSincerely,Warm regards, ",
+  "out": "<p>[name]</p><p><br>Sincerely,Warm regards, </p>"
+ },
+ {
+  "text": "é ü ñ 😀\n\n",
+  "out": "<p>é ü ñ 😀</p><p></p>"
+ },
+ {
+  "text": "nary\n\n\nWarm  regards Yours faithfully",
+  "out": "<p>nary</p><p><br>Warm  regards Yours faithfully</p>"
+ },
+ {
+  "text": "[name]\n",
+  "out": "<p>[name]<br></p>"
+ },
+ {
+  "text": "[NAME]  line\twith tab\t \n\n\nNary ",
+  "out": "<p>[NAME]  line\twith tab\t </p><p><br>Nary </p>"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\n",
+  "out": "<p>Nary,Acme Ltd\r</p><p></p>"
+ },
+ {
+  "text": "Yours faithfully\n\n\nRegards,\nNARY , Acme Ltd ",
+  "out": "<p>Yours faithfully</p><p><br>Regards,<br>NARY , Acme Ltd </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "[name]\n\n[name]é ü ñ 😀\nWith regards\n\n",
+  "out": "<p>[name]</p><p>[name]é ü ñ 😀<br>With regards</p><p></p>"
+ },
+ {
+  "text": "We look forward to your reply.\nWarm  regards Regards Best regards, Nary Acme Ltd ",
+  "out": "<p>We look forward to your reply.<br>Warm  regards Regards Best regards, Nary Acme Ltd </p>"
+ },
+ {
+  "text": "Thank you.\nNary\n\n\nWith regards\nYours faithfully,Kind regards.\n\n\n",
+  "out": "<p>Thank you.<br>Nary</p><p><br>With regards<br>Yours faithfully,Kind regards.</p><p><br></p>"
+ },
+ {
+  "text": "Best\n\n\nNary\u001c Regards,\r\n\nbest regards\n\n",
+  "out": "<p>Best</p><p><br>Nary\u001c Regards,\r</p><p>best regards</p><p></p>"
+ },
+ {
+  "text": "acme ltd  best regards\n",
+  "out": "<p>acme ltd  best regards<br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "best regards <b>bold</b> & \"quoted\" 'single'\n",
+  "out": "<p>best regards &lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;<br></p>"
+ },
+ {
+  "text": "Kind regards.\n  \n\nWarmest regards\n\n Regards  \n",
+  "out": "<p>Kind regards.<br>  </p><p>Warmest regards</p><p> Regards  <br></p>"
+ },
+ {
+  "text": "— Nary\n\n\nBest\n Regards     ",
+  "out": "<p>— Nary</p><p><br>Best<br> Regards     </p>"
+ },
+ {
+  "text": "Nary\r —Yours faithfully,\n\t ",
+  "out": "<p>Nary\r —Yours faithfully,<br>\t </p>"
+ },
+ {
+  "text": "Nary\r\nWarmest regardsNary - acme ltd\n\n\u001c\nRegards,\r\nNary\n\n\n",
+  "out": "<p>Nary\r<br>Warmest regardsNary - acme ltd</p><p>\u001c<br>Regards,\r<br>Nary</p><p><br></p>"
+ },
+ {
+  "text": "—\n— Nary\n\n\nWarm regards!\n",
+  "out": "<p>—<br>— Nary</p><p><br>Warm regards!<br></p>"
+ },
+ {
+  "text": "We look forward to your reply.\nHello Mr John,\nRegards\n\n\n",
+  "out": "<p>We look forward to your reply.<br>Hello Mr John,<br>Regards</p><p><br></p>"
+ },
+ {
+  "text": "\n\n\nThank you.\n\n\nYours faithfully,\n\n\n_— Nary, GRANARY_\n\n\nNary,Acme Ltd\r\n\n\u001c",
+  "out": "<p></p><p><br>Thank you.</p><p><br>Yours faithfully,</p><p><br>_— Nary, GRANARY_</p><p><br>Nary,Acme Ltd\r</p><p>\u001c</p>"
+ },
+ {
+  "text": " Regards  \n\nRegards,\r Best\n\nNary - acme ltd\n\nline\twith tab[NAME]  ",
+  "out": "<p> Regards  </p><p>Regards,\r Best</p><p>Nary - acme ltd</p><p>line\twith tab[NAME]  </p>"
+ },
+ {
+  "text": "_— Nary, GRANARY_\nWarm regards,\n\n\n\n\nAcme Ltd ",
+  "out": "<p>_— Nary, GRANARY_<br>Warm regards,</p><p></p><p><br>Acme Ltd </p>"
+ },
+ {
+  "text": "Best Regards\n\n\t\n\n\n",
+  "out": "<p>Best Regards</p><p>\t</p><p><br></p>"
+ },
+ {
+  "text": "NaryBest regards, Naryé ü ñ 😀\n\n[Name]\n\n",
+  "out": "<p>NaryBest regards, Naryé ü ñ 😀</p><p>[Name]</p><p></p>"
+ },
+ {
+  "text": "Acme Ltd Yours faithfully\n—\nWarmest regards\n\n\nNary,Acme Ltd\r\n",
+  "out": "<p>Acme Ltd Yours faithfully<br>—<br>Warmest regards</p><p><br>Nary,Acme Ltd\r<br></p>"
+ },
+ {
+  "text": " Regards   Yours faithfully,Nary\u001c\n\n\n[Name]\nBestNary\n",
+  "out": "<p> Regards   Yours faithfully,Nary\u001c</p><p><br>[Name]<br>BestNary<br></p>"
+ },
+ {
+  "text": "Yours faithfully\n\n Thanks,\nbest regards\nNary - acme ltdNary,Acme Ltd\r\n\n\n",
+  "out": "<p>Yours faithfully</p><p> Thanks,<br>best regards<br>Nary - acme ltdNary,Acme Ltd\r</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "— Nary\nSincerely,\n\n[Name]\n\n\nCheers! ",
+  "out": "<p>— Nary<br>Sincerely,</p><p>[Name]</p><p><br>Cheers! </p>"
+ },
+ {
+  "text": "Kind regards.\n\n",
+  "out": "<p>Kind regards.</p><p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Acme Ltd Cheers! Regards,\nWarmest regards\n",
+  "out": "<p>Acme Ltd Cheers! Regards,<br>Warmest regards<br></p>"
+ },
+ {
+  "text": "Cheers!\né ü ñ 😀\nNary\n\nSincerely, acme ltd \n\n\nWith regards ",
+  "out": "<p>Cheers!<br>é ü ñ 😀<br>Nary</p><p>Sincerely, acme ltd </p><p><br>With regards </p>"
+ },
+ {
+  "text": "Nary\u001c\n\nNary,Acme Ltd\r\n\n\nRegards,\r",
+  "out": "<p>Nary\u001c</p><p>Nary,Acme Ltd\r</p><p><br>Regards,\r</p>"
+ },
+ {
+  "text": " Nary\r [Name]\nNary Acme Ltd\n\n\n",
+  "out": "<p> Nary\r [Name]<br>Nary Acme Ltd</p><p><br></p>"
+ },
+ {
+  "text": "nary\n\n[NAME] \nThanks, Yours faithfully, ",
+  "out": "<p>nary</p><p>[NAME] <br>Thanks, Yours faithfully, </p>"
+ },
+ {
+  "text": "\t \n\nRegards [name]\n\n\n",
+  "out": "<p>\t </p><p>Regards [name]</p><p><br></p>"
+ },
+ {
+  "text": "\u001c\n\n\nNary·Acme Ltd\n\nAcme Ltdé ü ñ 😀\n\n\n",
+  "out": "<p>\u001c</p><p><br>Nary·Acme Ltd</p><p>Acme Ltdé ü ñ 😀</p><p><br></p>"
+ },
+ {
+  "text": "[NAME] \n\n\n\t\n\n\n",
+  "out": "<p>[NAME] </p><p><br>\t</p><p><br></p>"
+ },
+ {
+  "text": " Regards\nRegards \t",
+  "out": "<p> Regards<br>Regards \t</p>"
+ },
+ {
+  "text": "Warm  regards\n\nNary\u001c",
+  "out": "<p>Warm  regards</p><p>Nary\u001c</p>"
+ },
+ {
+  "text": "Acme Ltd",
+  "out": "<p>Acme Ltd</p>"
+ },
+ {
+  "text": "  \nWarm  regards\n\n  \n\n\nline\twith tab ",
+  "out": "<p>  <br>Warm  regards</p><p>  </p><p><br>line\twith tab </p>"
+ },
+ {
+  "text": "\u001c\n\n\nNary Acme Ltd Thanks,\n",
+  "out": "<p>\u001c</p><p><br>Nary Acme Ltd Thanks,<br></p>"
+ },
+ {
+  "text": "[name]\n\nSincerely,\n\n\nThank you.naryacme ltd \n\n\n",
+  "out": "<p>[name]</p><p>Sincerely,</p><p><br>Thank you.naryacme ltd </p><p><br></p>"
+ },
+ {
+  "text": "Sincerely,\n\n\n— NaryWith regards  \n\n\n",
+  "out": "<p>Sincerely,</p><p><br>— NaryWith regards  </p><p><br></p>"
+ },
+ {
+  "text": "Nary, Acme Ltd Warm regards!   \n\n\n",
+  "out": "<p>Nary, Acme Ltd Warm regards!   </p><p><br></p>"
+ },
+ {
+  "text": "NARY , Acme Ltd\n\n\n<b>bold</b> & \"quoted\" 'single' ",
+  "out": "<p>NARY , Acme Ltd</p><p><br>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27; </p>"
+ },
+ {
+  "text": "\u001c ",
+  "out": "<p>\u001c </p>"
+ },
+ {
+  "text": " \n\nNary\racme ltd \n     \nThanks,",
+  "out": "<p> </p><p>Nary\racme ltd <br>     <br>Thanks,</p>"
+ },
+ {
+  "text": "Yours faithfully,\n\n\nWarmest regards ",
+  "out": "<p>Yours faithfully,</p><p><br>Warmest regards </p>"
+ },
+ {
+  "text": "Nary\u001c\n\n[NAME]  best regardsThank you.\n\nWe look forward to your reply.\n\n\n",
+  "out": "<p>Nary\u001c</p><p>[NAME]  best regardsThank you.</p><p>We look forward to your reply.</p><p><br></p>"
+ },
+ {
+  "text": "Sincerely,\n\n\nThanks,\n\n\nacme ltd  Best regards, Nary\n\nBest \u001c ",
+  "out": "<p>Sincerely,</p><p><br>Thanks,</p><p><br>acme ltd  Best regards, Nary</p><p>Best \u001c </p>"
+ },
+ {
+  "text": "é ü ñ 😀\n\n\nRegards,\rYours faithfully,\n\n\nCheers!\n\n\n[Name]\n\n",
+  "out": "<p>é ü ñ 😀</p><p><br>Regards,\rYours faithfully,</p><p><br>Cheers!</p><p><br>[Name]</p><p></p>"
+ },
+ {
+  "text": "Cheers!\nCheers!\nNary - acme ltd\nNary - acme ltd\n",
+  "out": "<p>Cheers!<br>Cheers!<br>Nary - acme ltd<br>Nary - acme ltd<br></p>"
+ },
+ {
+  "text": "Nary\n\nRegards,\n_— Nary, GRANARY_\nRegards\n\n\nWarm regards,\n\n\n",
+  "out": "<p>Nary</p><p>Regards,<br>_— Nary, GRANARY_<br>Regards</p><p><br>Warm regards,</p><p><br></p>"
+ },
+ {
+  "text": "best regards\n\n\n[name] Nary·Acme Ltd ",
+  "out": "<p>best regards</p><p><br>[name] Nary·Acme Ltd </p>"
+ },
+ {
+  "text": "_— Nary, GRANARY_",
+  "out": "<p>_— Nary, GRANARY_</p>"
+ },
+ {
+  "text": "_— Nary, GRANARY_Thank you. Nary, Acme Ltd nary\n\n\nNary - acme ltdThank you.\n",
+  "out": "<p>_— Nary, GRANARY_Thank you. Nary, Acme Ltd nary</p><p><br>Nary - acme ltdThank you.<br></p>"
+ },
+ {
+  "text": "Thank you. Yours faithfully, ",
+  "out": "<p>Thank you. Yours faithfully, </p>"
+ },
+ {
+  "text": "[Name]\n\n\n\t ",
+  "out": "<p>[Name]</p><p><br>\t </p>"
+ },
+ {
+  "text": "\n\nWarm regards!\n\n",
+  "out": "<p></p><p>Warm regards!</p><p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "é ü ñ 😀\n\n  \n\n\n\nWith regards\n\n",
+  "out": "<p>é ü ñ 😀</p><p>  </p><p></p><p>With regards</p><p></p>"
+ },
+ {
+  "text": " \n\n\nYours faithfully,\n\n\nBest regards,",
+  "out": "<p> </p><p><br>Yours faithfully,</p><p><br>Best regards,</p>"
+ },
+ {
+  "text": "nary\n\n[Name]",
+  "out": "<p>nary</p><p>[Name]</p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\nNaryNary\r\n\n \nNary\n— Nary\n\n\n",
+  "out": "<p>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;<br>NaryNary\r</p><p> <br>Nary<br>— Nary</p><p><br></p>"
+ },
+ {
+  "text": "Regards\n\n\n",
+  "out": "<p>Regards</p><p><br></p>"
+ },
+ {
+  "text": " Regards  \n\n— NaryNary·Acme Ltd\nNary, Acme Ltd ",
+  "out": "<p> Regards  </p><p>— NaryNary·Acme Ltd<br>Nary, Acme Ltd </p>"
+ },
+ {
+  "text": "Warmest regards Nary, Acme Ltd\n\n\nAcme Ltd \t\n",
+  "out": "<p>Warmest regards Nary, Acme Ltd</p><p><br>Acme Ltd \t<br></p>"
+ },
+ {
+  "text": "[Name]\n\n\n—\nBest\nNary Acme Ltd\n\n\n",
+  "out": "<p>[Name]</p><p><br>—<br>Best<br>Nary Acme Ltd</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "naryNary  Regards  \n\n\n",
+  "out": "<p>naryNary  Regards  </p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "[Name]\n\n\nBest regards,Nary·Acme Ltd\n\nHello Mr John,\nNary\r ",
+  "out": "<p>[Name]</p><p><br>Best regards,Nary·Acme Ltd</p><p>Hello Mr John,<br>Nary\r </p>"
+ },
+ {
+  "text": "Nary·Acme Ltd Nary\u001c\n\nWarm regards!\nKind regards.\n\n  \n\n",
+  "out": "<p>Nary·Acme Ltd Nary\u001c</p><p>Warm regards!<br>Kind regards.</p><p>  </p><p></p>"
+ },
+ {
+  "text": "[Name] Regards\nCheers!\nWith regards\n\n\n  ",
+  "out": "<p>[Name] Regards<br>Cheers!<br>With regards</p><p><br>  </p>"
+ },
+ {
+  "text": "Nary,Acme Ltd\r Hello Mr John,\n[NAME]  Warm  regards\n",
+  "out": "<p>Nary,Acme Ltd\r Hello Mr John,<br>[NAME]  Warm  regards<br></p>"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\n\n\nThanks,\n\n\nNary Acme Ltd\n\n",
+  "out": "<p>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;</p><p><br>Thanks,</p><p><br>Nary Acme Ltd</p><p></p>"
+ },
+ {
+  "text": "Yours faithfully\nNary Acme LtdRegards,\r\n\n",
+  "out": "<p>Yours faithfully<br>Nary Acme LtdRegards,\r</p><p></p>"
+ },
+ {
+  "text": "Warmest regards\n\n\t\n\n\nWith regards\n Regards  [name]\n\nWith regards\n\n",
+  "out": "<p>Warmest regards</p><p>\t</p><p><br>With regards<br> Regards  [name]</p><p>With regards</p><p></p>"
+ },
+ {
+  "text": " \n\n",
+  "out": "<p> </p><p></p>"
+ },
+ {
+  "text": "nary\n\n\nNary\u001c Regards  \n\nnary\n\n",
+  "out": "<p>nary</p><p><br>Nary\u001c Regards  </p><p>nary</p><p></p>"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\n\n",
+  "out": "<p>Nary,Acme Ltd\r</p><p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Kind regards.\n\nNary - acme ltdNary Acme Ltd\n\nCheers!\n\n\n  Warm regards!\n\n\n",
+  "out": "<p>Kind regards.</p><p>Nary - acme ltdNary Acme Ltd</p><p>Cheers!</p><p><br>  Warm regards!</p><p><br></p>"
+ },
+ {
+  "text": "[NAME] \n\n\n",
+  "out": "<p>[NAME] </p><p><br></p>"
+ },
+ {
+  "text": "We look forward to your reply.\n\nbest regardsRegards\n\nNary, Acme Ltd",
+  "out": "<p>We look forward to your reply.</p><p>best regardsRegards</p><p>Nary, Acme Ltd</p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary,Acme Ltd\r Best regards, Nary\n\n\nacme ltd \n\n\n \n\n\nSincerely,  \n\n\n",
+  "out": "<p>Nary,Acme Ltd\r Best regards, Nary</p><p><br>acme ltd </p><p><br> </p><p><br>Sincerely,  </p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Acme Ltd Yours faithfully\n\n\n",
+  "out": "<p>Acme Ltd Yours faithfully</p><p><br></p>"
+ },
+ {
+  "text": "Thank you.Yours faithfully,\n Regards  \nNary Acme Ltd   \u001c\n",
+  "out": "<p>Thank you.Yours faithfully,<br> Regards  <br>Nary Acme Ltd   \u001c<br></p>"
+ },
+ {
+  "text": " <b>bold</b> & \"quoted\" 'single'\n\n  \n\n\n\n\n\nWarm regards!\n\n",
+  "out": "<p> &lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;</p><p>  </p><p></p><p></p><p>Warm regards!</p><p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "  ",
+  "out": "<p>  </p>"
+ },
+ {
+  "text": "NaryWith regards\n\nBest\nKind regards.\nNary Acme Ltd\n[NAME]  ",
+  "out": "<p>NaryWith regards</p><p>Best<br>Kind regards.<br>Nary Acme Ltd<br>[NAME]  </p>"
+ },
+ {
+  "text": "\u001cbest regards\n\nacme ltd \nWith regards — Nary ",
+  "out": "<p>\u001cbest regards</p><p>acme ltd <br>With regards — Nary </p>"
+ },
+ {
+  "text": "Regards\n\n\n",
+  "out": "<p>Regards</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary, Acme Ltd\n\n— Nary nary\n\n\n—\n\nWarm regards!\n\n\n",
+  "out": "<p>Nary, Acme Ltd</p><p>— Nary nary</p><p><br>—</p><p>Warm regards!</p><p><br></p>"
+ },
+ {
+  "text": "nary\n\n\n—\nNary, Acme Ltd\n\n[name]\n\n\n[NAME]  ",
+  "out": "<p>nary</p><p><br>—<br>Nary, Acme Ltd</p><p>[name]</p><p><br>[NAME]  </p>"
+ },
+ {
+  "text": "Nary\u001c\t Regards,",
+  "out": "<p>Nary\u001c\t Regards,</p>"
+ },
+ {
+  "text": "Nary\n\n\nacme ltd \n\n\nWarmest regards\n\n\nYours faithfully,\n\n— Nary,Acme Ltd\r\n",
+  "out": "<p>Nary</p><p><br>acme ltd </p><p><br>Warmest regards</p><p><br>Yours faithfully,</p><p>— Nary,Acme Ltd\r<br></p>"
+ },
+ {
+  "text": "Regards,\nbest regards\n\n\n\u001c\n\n\n[Name] ",
+  "out": "<p>Regards,<br>best regards</p><p><br>\u001c</p><p><br>[Name] </p>"
+ },
+ {
+  "text": "Warm  regards",
+  "out": "<p>Warm  regards</p>"
+ },
+ {
+  "text": "Nary\r Regards\nline\twith tab\n\n",
+  "out": "<p>Nary\r Regards<br>line\twith tab</p><p></p>"
+ },
+ {
+  "text": "Nary - acme ltd — Nary\n\n_— Nary, GRANARY_\n\nWith regards\n",
+  "out": "<p>Nary - acme ltd — Nary</p><p>_— Nary, GRANARY_</p><p>With regards<br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "\t_— Nary, GRANARY_\nRegards\nRegards,\n\n",
+  "out": "<p>\t_— Nary, GRANARY_<br>Regards<br>Regards,</p><p></p>"
+ },
+ {
+  "text": "Yours faithfully,[Name] Regards,\nline\twith tab\n\n\nNary·Acme Ltd",
+  "out": "<p>Yours faithfully,[Name] Regards,<br>line\twith tab</p><p><br>Nary·Acme Ltd</p>"
+ },
+ {
+  "text": " Yours faithfully ",
+  "out": "<p> Yours faithfully </p>"
+ },
+ {
+  "text": "Warm regards!\n\nWarmest regardsNary\u001cWarm regards,Best regards,Regards,\r",
+  "out": "<p>Warm regards!</p><p>Warmest regardsNary\u001cWarm regards,Best regards,Regards,\r</p>"
+ },
+ {
+  "text": "  \n\n",
+  "out": "<p>  </p><p></p>"
+ },
+ {
+  "text": "Warm regards,\n\nYours faithfully\n\n",
+  "out": "<p>Warm regards,</p><p>Yours faithfully</p><p></p>"
+ },
+ {
+  "text": "Hello Mr John,\n\n",
+  "out": "<p>Hello Mr John,</p><p></p>"
+ },
+ {
+  "text": "Thanks,\n\n\nRegards Nary·Acme Ltd Kind regards.\n\n\n",
+  "out": "<p>Thanks,</p><p><br>Regards Nary·Acme Ltd Kind regards.</p><p><br></p>"
+ },
+ {
+  "text": " Regards  \n\n\nNary\n[name]\n\n<b>bold</b> & \"quoted\" 'single' ",
+  "out": "<p> Regards  </p><p><br>Nary<br>[name]</p><p>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27; </p>"
+ },
+ {
+  "text": "Nary,Acme Ltd\r\u001c\n\nSincerely, Nary Acme Ltd acme ltd _— Nary, GRANARY_\n\n\n",
+  "out": "<p>Nary,Acme Ltd\r\u001c</p><p>Sincerely, Nary Acme Ltd acme ltd _— Nary, GRANARY_</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Nary·Acme Ltd Warm regards!Yours faithfully,\n\nbest regards\n\n\n",
+  "out": "<p>Nary·Acme Ltd Warm regards!Yours faithfully,</p><p>best regards</p><p><br></p>"
+ },
+ {
+  "text": "Hello Mr John,Acme Ltd\n\n\nBest regards, Nary\n\n\n",
+  "out": "<p>Hello Mr John,Acme Ltd</p><p><br>Best regards, Nary</p><p><br></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "Thank you.\n\n\nWarm regards,\n\nWith regards\nWith regards\n\n\n[NAME] ",
+  "out": "<p>Thank you.</p><p><br>Warm regards,</p><p>With regards<br>With regards</p><p><br>[NAME] </p>"
+ },
+ {
+  "text": "nary\n\n\nBest regards, Nary\nWith regards\n\n\nNary Acme Ltd Hello Mr John, ",
+  "out": "<p>nary</p><p><br>Best regards, Nary<br>With regards</p><p><br>Nary Acme Ltd Hello Mr John, </p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "—\n\n\nWe look forward to your reply.\n",
+  "out": "<p>—</p><p><br>We look forward to your reply.<br></p>"
+ },
+ {
+  "text": "Warm  regards\n",
+  "out": "<p>Warm  regards<br></p>"
+ },
+ {
+  "text": "\u001c Thank you. Regards,\r\n\n\nWarm regards,\n\n Regards  \n",
+  "out": "<p>\u001c Thank you. Regards,\r</p><p><br>Warm regards,</p><p> Regards  <br></p>"
+ },
+ {
+  "text": "<b>bold</b> & \"quoted\" 'single'\n\n\nNary\n\nNary\u001c\n\n\n\n\n  ",
+  "out": "<p>&lt;b&gt;bold&lt;/b&gt; &amp; &quot;quoted&quot; &#x27;single&#x27;</p><p><br>Nary</p><p>Nary\u001c</p><p></p><p><br>  </p>"
+ },
+ {
+  "text": "Nary\n— Nary",
+  "out": "<p>Nary<br>— Nary</p>"
+ },
+ {
+  "text": "Best regards,\n\n\n",
+  "out": "<p>Best regards,</p><p><br></p>"
+ },
+ {
+  "text": "Nary\r Thanks,Regards  hangatBest\nNary·Acme Ltd\n\n\nRegards\n\n\n",
+  "out": "<p>Nary\r Thanks,Regards  hangatBest<br>Nary·Acme Ltd</p><p><br>Regards</p><p><br></p>"
+ },
+ {
+  "text": "Cheers!\n\n\n_— Nary, GRANARY_\n\n\nNary·Acme Ltd\n\n\nNary",
+  "out": "<p>Cheers!</p><p><br>_— Nary, GRANARY_</p><p><br>Nary·Acme Ltd</p><p><br>Nary</p>"
+ },
+ {
+  "text": "Warm regards,\nBest Regards  \nBest\nBest regards,\n\n\nNary",
+  "out": "<p>Warm regards,<br>Best Regards  <br>Best<br>Best regards,</p><p><br>Nary</p>"
+ },
+ {
+  "text": "With regards NARY , Acme Ltd\n\n\n[name]Thank you.\n\n",
+  "out": "<p>With regards NARY , Acme Ltd</p><p><br>[name]Thank you.</p><p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "",
+  "out": "<p></p>"
+ },
+ {
+  "text": "NARY , Acme Ltd\nWe look forward to your reply.\n\nWarmest regards\n\nNary\u001c\nRegards\n",
+  "out": "<p>NARY , Acme Ltd<br>We look forward to your reply.</p><p>Warmest regards</p><p>Nary\u001c<br>Regards<br></p>"
+ },
+ {
+  "text": "Nary\u001c nary   \n\nYours faithfully, Warm  regards\n\n",
+  "out": "<p>Nary\u001c nary   </p><p>Yours faithfully, Warm  regards</p><p></p>"
+ },
+ {
+  "text": "Nary\r\n\n_— Nary, GRANARY_\n",
+  "out": "<p>Nary\r</p><p>_— Nary, GRANARY_<br></p>"
+ }
+]

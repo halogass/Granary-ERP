@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; color: #1a1a1a; }
+  .page { padding: 40px 48px; }
+  .frame { border: 3px double #1f4e79; padding: 40px 48px; text-align: center; min-height: 860px; }
+  .letterhead-img { width: 100%; display: block; margin-bottom: 28px; }
+  .issuer { font-size: 15pt; font-weight: 800; letter-spacing: 1px; color: #1f4e79; margin-bottom: 36px; }
+  .title { font-size: 26pt; font-weight: 700; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 8px; }
+  .subtitle { font-size: 10pt; color: #666; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 40px; }
+  .label { font-size: 10pt; color: #666; margin-bottom: 10px; }
+  .holder { font-size: 24pt; font-weight: 700; margin-bottom: 6px; }
+  .company { font-size: 12pt; color: #444; margin-bottom: 32px; }
+  .module { font-size: 16pt; font-weight: 700; color: #1f4e79; margin: 10px 0 40px; }
+  .meta { display: flex; justify-content: center; gap: 48px; font-size: 9.5pt; color: #444; }
+  .meta .k { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .meta .v { font-weight: 600; margin-top: 3px; }
+  .number { font-family: 'Courier New', monospace; }
+  .footer { margin-top: 48px; font-size: 8pt; color: #888; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="frame">
+    {{#if letterhead_url}}
+    <img class="letterhead-img" src="{{letterhead_url}}" alt="Company Letterhead" />
+    {{else}}
+    <div class="issuer">{{company_name}}</div>
+    {{/if}}
+    <div class="title">Certificate</div>
+    <div class="subtitle">of partner training completion</div>
+    <div class="label">This certifies that</div>
+    <div class="holder">{{holder_name}}</div>
+    {{#if partner_company}}<div class="company">{{partner_company}}</div>{{/if}}
+    <div class="label">has completed the training module</div>
+    <div class="module">{{module_title}}</div>
+    <div class="meta">
+      <div><div class="k">Issued</div><div class="v">{{issued_date}}</div></div>
+      {{#if expires_date}}<div><div class="k">Valid until</div><div class="v">{{expires_date}}</div></div>{{/if}}
+      <div><div class="k">Certificate no.</div><div class="v number">{{certificate_number}}</div></div>
+    </div>
+    <div class="footer">{{company_name}}{{#if company_website}} &middot; {{company_website}}{{/if}}</div>
+  </div>
+</div>
+</body>
+</html>

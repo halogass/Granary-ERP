@@ -1,0 +1,7 @@
+From: a@b
+Content-Type: message/rfc822
+
+From: inner@b
+Subject: inner
+
+inner body

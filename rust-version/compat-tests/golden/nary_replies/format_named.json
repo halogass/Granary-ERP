@@ -1,0 +1,46 @@
+[
+ {
+  "template": "Hello {name}, we reply within {reply_window}.",
+  "out": "Hello Bob, we reply within 1 hour."
+ },
+ {
+  "template": "Hi {name}!",
+  "out": "Hi Bob!"
+ },
+ {
+  "template": "{{literal}} {name}",
+  "out": "{literal} Bob"
+ },
+ {
+  "template": "no fields",
+  "out": "no fields"
+ },
+ {
+  "template": "{reply_window}{name}",
+  "out": "1 hourBob"
+ },
+ {
+  "template": "Hello {name:}",
+  "out": "Hello Bob"
+ },
+ {
+  "template": "Hello {name!s}",
+  "out": "Hello Bob"
+ },
+ {
+  "template": "{missing}",
+  "error": "KeyError"
+ },
+ {
+  "template": "a } b",
+  "error": "ValueError"
+ },
+ {
+  "template": "a { b",
+  "error": "ValueError"
+ },
+ {
+  "template": "{0}",
+  "error": "IndexError"
+ }
+]

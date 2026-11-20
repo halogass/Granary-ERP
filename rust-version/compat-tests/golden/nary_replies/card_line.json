@@ -1,0 +1,78 @@
+[
+ {
+  "card": null,
+  "line": ""
+ },
+ {
+  "card": {
+   "status": "pending"
+  },
+  "line": "My reply is ready below; 1 sends it as Nary, or tell me what to change."
+ },
+ {
+  "card": {
+   "status": "scheduled",
+   "result": null
+  },
+  "line": "My reply is ready and goes out in the morning (outside working hours); 1 sends it now."
+ },
+ {
+  "card": {
+   "status": "scheduled",
+   "result": {
+    "when": "at 08:00 tomorrow"
+   }
+  },
+  "line": "My reply is ready and goes out at 08:00 tomorrow (outside working hours); 1 sends it now."
+ },
+ {
+  "card": {
+   "status": "scheduled",
+   "result": {
+    "when": "in 4 minutes",
+    "pacing": true
+   }
+  },
+  "line": "My reply is ready and goes out in 4 minutes; 1 sends it now."
+ },
+ {
+  "card": {
+   "status": "scheduled",
+   "result": {
+    "when": "",
+    "pacing": 0
+   }
+  },
+  "line": "My reply is ready and goes out in the morning (outside working hours); 1 sends it now."
+ },
+ {
+  "card": {
+   "status": "applied"
+  },
+  "line": "I've already replied (Nary → Autonomy lets me send these)."
+ },
+ {
+  "card": {
+   "status": "applying"
+  },
+  "line": "I've already replied (Nary → Autonomy lets me send these)."
+ },
+ {
+  "card": {
+   "status": "shadow"
+  },
+  "line": "I drafted a reply (a draft only: Nary → Autonomy keeps these at Shadow)."
+ },
+ {
+  "card": {
+   "status": "rejected"
+  },
+  "line": ""
+ },
+ {
+  "card": {
+   "status": "failed"
+  },
+  "line": ""
+ }
+]

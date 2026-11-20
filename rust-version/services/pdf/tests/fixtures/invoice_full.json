@@ -1,0 +1,126 @@
+{
+ "template": "invoice",
+ "data": {
+  "company": {
+   "trade_name": "Your Company Ltd",
+   "legal_name": "Your Company Limited",
+   "address": "1 Example Street, Springfield 12345",
+   "email": "sales@example.com",
+   "website": "example.com",
+   "tax_id": "TAX-0000-0001",
+   "registration_no": "REG-0000-0001",
+   "signatory": "Alex Owner",
+   "signatory_title": "Chief Executive Officer",
+   "logo_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAAwCAIAAAAZy+Y5AAAAxklEQVR42u3XsQ0CUQwFwV8ERRBfOcQURqmkSEcFb0faxPFIln0e1/ve8/XRRucvMOkd4N8B9jgw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6Qow6Qow7BAw6VNbWTXpU74wC9jHI7EtDXhcGvA4NuBxacDj0oDHsQGPSwMelwY8jg14XBrwuDTgcWzA49KAx6UBj2MDHpcGPC4NeBwb8Lg04HFpwOPYX1B1IDgfFH8DAAAAAElFTkSuQmCC"
+  },
+  "is_paid": true,
+  "is_overdue": false,
+  "number": "INV/2026/10/00042",
+  "customer": {
+   "company_name": "Acme Ltd",
+   "contact_name": "Jordan Lee",
+   "address": "42 Sample Road\nSpringfield",
+   "tax_id": "TAX-0000-0042",
+   "email": "jordan@acme.example.com"
+  },
+  "invoice_date": "2026-10-19",
+  "due_date": "2026-11-18T10:00:00+07:00",
+  "currency": "EUR",
+  "quotation_number": "QUO-2026-0007",
+  "items": [
+   {
+    "description": "Business laptop item 1 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 1,
+    "unit": "unit",
+    "unit_price": 44700,
+    "discount_pct": 0,
+    "line_total": 44700.0
+   },
+   {
+    "description": "Business laptop item 2 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": 2.5,
+    "unit": "unit",
+    "unit_price": 1234.567,
+    "discount_pct": 5,
+    "line_total": 2932.21
+   },
+   {
+    "description": "Business laptop item 3 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 10,
+    "unit": "unit",
+    "unit_price": 0.125,
+    "discount_pct": 12.5,
+    "line_total": 1.25
+   },
+   {
+    "description": "Business laptop item 4 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": "3",
+    "unit": "unit",
+    "unit_price": "99.995",
+    "discount_pct": 0,
+    "line_total": "299.985"
+   },
+   {
+    "description": "Business laptop item 5 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 0.333,
+    "unit": "unit",
+    "unit_price": 10000000.0,
+    "discount_pct": 5,
+    "line_total": 100000000.0
+   },
+   {
+    "description": "Business laptop item 6 <14-inch> & \"quoted\"",
+    "notes": "Includes setup",
+    "quantity": 1,
+    "unit": "unit",
+    "unit_price": 44700,
+    "discount_pct": 12.5,
+    "line_total": 44700.0
+   },
+   {
+    "description": "Business laptop item 7 <14-inch> & \"quoted\"",
+    "notes": "",
+    "quantity": 2.5,
+    "unit": "unit",
+    "unit_price": 1234.567,
+    "discount_pct": 0,
+    "line_total": 2932.21
+   }
+  ],
+  "subtotal": 123456789.5,
+  "currency_symbol": "EUR ",
+  "thousands_sep": ".",
+  "decimal_sep": ",",
+  "tax_lines": [
+   {
+    "name": "VAT",
+    "rate": 20.0,
+    "amount": 13580246.845,
+    "is_withholding": false
+   },
+   {
+    "name": "Withholding tax",
+    "rate": 2,
+    "amount": -2469135.79,
+    "is_withholding": true
+   }
+  ],
+  "grand_total": 134567900.555,
+  "incoterms": "CIF Rotterdam",
+  "carrier": "Example Freight",
+  "hs_code": "8471.30",
+  "country_of_origin": "Germany",
+  "shipped_from": "Hamburg",
+  "bank": {
+   "name": "Example Bank",
+   "account_name": "Your Company Limited",
+   "account_number": "123-456-7890",
+   "swift": "EXAMPLE1"
+  }
+ }
+}

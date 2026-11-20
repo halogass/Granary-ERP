@@ -1,0 +1,70 @@
+[
+ {
+  "cfg": {
+   "user": "u",
+   "password": "p",
+   "from_name": "Acme Ltd",
+   "from_email": "hello@example.com",
+   "tls": false
+  },
+  "to": [
+   "a@x.test",
+   "Bob <b@x.test>"
+  ],
+  "subject": "Quotation QUO-1 — Corp Globex",
+  "html": "<p>Hello café</p>\n.\n.dot",
+  "attachments": [
+   {
+    "filename": "QUO-1.pdf",
+    "content": "JVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERg=="
+   }
+  ],
+  "headers": [
+   [
+    "Message-ID",
+    "<fixed.1@example.com>"
+   ]
+  ],
+  "transcript": [
+   "EHLO *",
+   "AUTH PLAIN AHUAcA==",
+   "MAIL FROM:<hello@example.com>",
+   "RCPT TO:<a@x.test>",
+   "RCPT TO:<b@x.test>",
+   "DATA",
+   "QUIT"
+  ],
+  "data": "Content-Type: multipart/mixed; boundary=\"===============2650598592029150771==\"\r\nMIME-Version: 1.0\r\nSubject: =?utf-8?q?Quotation_QUO-1_=E2=80=94_Corp_Globex?=\r\nFrom: Acme Ltd <hello@example.com>\r\nTo: a@x.test, Bob <b@x.test>\r\nDate: Fri, 20 Nov 2026 01:35:17 +0700\r\nMessage-ID: <fixed.1@example.com>\r\n\r\n--===============2650598592029150771==\r\nContent-Type: multipart/alternative;\r\n boundary=\"===============1298916839313935069==\"\r\nMIME-Version: 1.0\r\n\r\n--===============1298916839313935069==\r\nContent-Type: text/html; charset=\"utf-8\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\n\r\nPHA+SGVsbG8gY2Fmw6k8L3A+Ci4KLmRvdA==\r\n\r\n--===============1298916839313935069==--\r\n\r\n--===============2650598592029150771==\r\nContent-Type: application/octet-stream; Name=\"QUO-1.pdf\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment; filename=\"QUO-1.pdf\"\r\n\r\nJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYl\r\nUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQ\r\nREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBE\r\nRiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERG\r\nJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYl\r\nUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQ\r\nREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBERiVQREYlUERGJVBE\r\nRg==\r\n\r\n--===============2650598592029150771==--\r\n"
+ },
+ {
+  "cfg": {
+   "user": "",
+   "password": "",
+   "from_name": "Nary",
+   "from_email": "nary@example.com",
+   "tls": false
+  },
+  "to": "c@y.test",
+  "subject": "Hi",
+  "html": "<p>x</p>",
+  "attachments": null,
+  "headers": [
+   [
+    "Message-ID",
+    "<fixed.2@example.com>"
+   ],
+   [
+    "In-Reply-To",
+    "<o@x>"
+   ]
+  ],
+  "transcript": [
+   "EHLO *",
+   "MAIL FROM:<nary@example.com>",
+   "RCPT TO:<c@y.test>",
+   "DATA",
+   "QUIT"
+  ],
+  "data": "Content-Type: multipart/alternative;\r\n boundary=\"===============5327450955304729615==\"\r\nMIME-Version: 1.0\r\nSubject: Hi\r\nFrom: Nary <nary@example.com>\r\nTo: c@y.test\r\nDate: Fri, 20 Nov 2026 01:35:17 +0700\r\nMessage-ID: <fixed.2@example.com>\r\nIn-Reply-To: <o@x>\r\n\r\n--===============5327450955304729615==\r\nContent-Type: text/html; charset=\"utf-8\"\r\nMIME-Version: 1.0\r\nContent-Transfer-Encoding: base64\r\n\r\nPHA+eDwvcD4=\r\n\r\n--===============5327450955304729615==--\r\n"
+ }
+]

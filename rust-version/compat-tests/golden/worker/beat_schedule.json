@@ -1,0 +1,149 @@
+[
+ {
+  "name": "send-invoice-reminders",
+  "task": "app.tasks.send_invoice_reminders",
+  "schedule": 86400.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "poll-crm-inbox",
+  "task": "app.tasks.poll_crm_inbox",
+  "schedule": 120.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "send-scheduled-messages",
+  "task": "app.tasks.send_scheduled_messages",
+  "schedule": 300.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "sync-exchange-rates",
+  "task": "app.tasks.sync_exchange_rates",
+  "schedule": 21600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "sweep-stuck-pdf-imports",
+  "task": "app.tasks.sweep_stuck_pdf_imports",
+  "schedule": 300.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "remind-expiring-signatures",
+  "task": "app.tasks.remind_expiring_signatures",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "remind-overdue-approvals",
+  "task": "app.tasks.remind_overdue_approvals",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "nary-dispatch-events",
+  "task": "app.tasks.nary_dispatch_events",
+  "schedule": 60.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "nary-channels-tick",
+  "task": "app.tasks.nary_channels_tick",
+  "schedule": 60.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "nary-tick",
+  "task": "app.tasks.nary_tick",
+  "schedule": 300.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "nary-playbooks-tick",
+  "task": "app.tasks.nary_playbooks_tick",
+  "schedule": 60.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "fire-due-reminders",
+  "task": "app.tasks.fire_due_reminders",
+  "schedule": 300.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "propose-lead-merges",
+  "task": "app.tasks.propose_lead_merges",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "expire-quotations",
+  "task": "app.tasks.expire_quotations",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "generate-followup-reminders",
+  "task": "app.tasks.generate_followup_reminders",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "weekly-followup-digest",
+  "task": "app.tasks.weekly_followup_digest",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "refresh-stale-ai-fields",
+  "task": "app.tasks.refresh_stale_ai_fields",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "sync-personal-mailboxes",
+  "task": "app.tasks.sync_personal_mailboxes",
+  "schedule": 300.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "nary-style-refresh",
+  "task": "app.tasks.nary_style_refresh",
+  "schedule": 86400.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "erp-guide-sync",
+  "task": "app.tasks.erp_guide_sync",
+  "schedule": 3600.0,
+  "args": [],
+  "kwargs": {}
+ },
+ {
+  "name": "reindex-kb-embeddings",
+  "task": "app.tasks.reindex_kb_embeddings",
+  "schedule": 86400.0,
+  "args": [],
+  "kwargs": {}
+ }
+]

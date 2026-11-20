@@ -1,0 +1,156 @@
+{
+ "config": {
+  "JWT_SECRET_KEY": "test-jwt-secret-key-at-least-32-characters-long",
+  "APP_SECRET_KEY": "test-app-secret-key-at-least-32-characters-long",
+  "TURN_SECRET": "test-turn-secret-for-golden-fixtures",
+  "DEMO_SIGNING_KEY": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+  "DEMO_ANDROID_SIGNING_KEY": "ZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXp7fH1+f4CBgoM=",
+  "JWT_ALGORITHM": "HS256",
+  "JWT_ACCESS_TOKEN_EXPIRE_MINUTES": 60,
+  "JWT_REFRESH_TOKEN_EXPIRE_DAYS": 30
+ },
+ "keys": [
+  {
+   "app_secret_key": "test-app-secret-key-at-least-32-characters-long",
+   "key": "txZz8w6N9Fdh7xgWm6gtYmVGIVnHiF43oDonXUpjyeA="
+  },
+  {
+   "app_secret_key": "short",
+   "key": "-bAHi131ltLqGQEMABu9AJ5lHeLFfo-341XzHrnT9zk="
+  },
+  {
+   "app_secret_key": "ünïcode-secret ☃",
+   "key": "6FBidR9Ab-ek5lOJTNJvFv0zLR-hpljuE0ZkPMWP0bY="
+  },
+  {
+   "app_secret_key": "",
+   "key": "47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU="
+  }
+ ],
+ "fixed": [
+  {
+   "plaintext": "smtp-password",
+   "time": 1760000000,
+   "iv_hex": "000102030405060708090a0b0c0d0e0f",
+   "token": "gAAAAABo53gAAAECAwQFBgcICQoLDA0OD02pIjezLi_PUdO7usBULw_hq8jGr68wdEaYpcsWNvqP2LkMsrdE2OR17W90eDGDHA==",
+   "decrypted": "smtp-password"
+  },
+  {
+   "plaintext": "",
+   "time": 1760000001,
+   "iv_hex": "1112131415161718191a1b1c1d1e1f20",
+   "token": "gAAAAABo53gBERITFBUWFxgZGhscHR4fIG923PQGragB_ppNFMKSea9GRliga1oMW5VpLe_Mk-6D39usNqN50RxL8ncmLwDAcw==",
+   "decrypted": ""
+  },
+  {
+   "plaintext": "Ünïcode ☃ 日本 🎉",
+   "time": 1760000002,
+   "iv_hex": "22232425262728292a2b2c2d2e2f3031",
+   "token": "gAAAAABo53gCIiMkJSYnKCkqKywtLi8wMRS12Awae0oAvwhlY3VI_FAIHkoL6Plab5tz85ZC1yawhuWl9398S0Mb24o7ifRuP097jKPbgb66hDq0aiBy6mU=",
+   "decrypted": "Ünïcode ☃ 日本 🎉"
+  },
+  {
+   "plaintext": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "time": 1760000003,
+   "iv_hex": "333435363738393a3b3c3d3e3f404142",
+   "token": "gAAAAABo53gDMzQ1Njc4OTo7PD0-P0BBQka2LjfQiTouPs1Y-mR3hmVfpqxVBviy4Zw3DKF8sPkCBzfFIvBB_2LE1NFyftMiFtPEcL2guJcvn_SN90lVnH72PbozbPENqTZz-QzD0oMbeLD8Okj6MO2JPjMl9mIUjcwJgkSs0WkXL41v8vra8YZmcJDOqKX-kMpWCrjdSos4Zd4DtB0JOoNbJhQZpXi19Ve8pXctwwA1b_8bbV4ILlU8mDqTlt0y6W-_QSuYBQgLKO8U8Nzl2ZLe9HjE3bnjVc06hu4whug0LAD9Rl8eM0Kdnt8QVdNvvVqI1g7nazUS4WKWhxigCe88Kuu54oWn1OvQZOn3BWipw5bn0RgoTyx17o7HX_XBkzsjGxoL_1Bd06Z9_X-BzlOC7U_zSg9ypzyyb0k_JyJmwYGfvnnGPrVVM0Lf-YCaFmuSdHktqZx2A1ZMwvMyfGR-YNGP2pIVb9Wg9IJhxsw1fYM7QI6hdIZ3B1TH2F9Anwg7l1wOUqyLrgwhBVCMHJItMLKCbKkdXaqmgHPz159vJOWkF7Ve3NIINL7s1NRdKlYdJPcnkJRMFktEoQUUPw4SXY3sPaYVMesVegdC2GuVZIPX9jXeALSDbAkDpdrPMmfXJWXGe2BuV9Jc8J4pmjGuTuNRd3jstzRP3EMjn-1YQPqrO2KgHHWu2bEs6ffdsYjxjxfaGqRTc1U-juftMi72LrPmfb6g9EwFeFYScL5_5ngbMHgDWRSN5uGTwIMQrfR0qzc4hosdrff0lgWfGO1TJHNBPi3pesbs0QKbI6lhQ-u6pKab77ynyUnfpEyCMafXxUiWhgo6_iCp4e7C5TtlWNWYvW8zX2HrxvAZc7S0rcOuxemAPGX2DuohQd7PVz9yGP9U49S_3QMejByXXGwGiCbE3Fx3mG9C4gAI9DCs-CG7GgZ7CMeb4UMLXJMTRG1VswNCorrAdQQbfRy4Z20i9EzSRsVDuzgKHtuiJG9yaCE4gilmLJj3qXeoq8Ml4FzNVodjdj9vYcQKkS-AY7-lh8UcioWsBlbQwsVHWylVf-x1nJPV3ea50gI-RK8LP8IApKjmGnM4O1GcHJg7fZYglOW3RyBkbtzY7YCC3QBnZoxTqIr2HRl5NmAMIJJV3hgcfjnC1PpdjKkLzGcrmMwrncjPQ5sILIybsAL1uWSd8AwmLbkj8Vxtm80A-zx6YcmVt4nWu8ckBY77WBM7yNDZvbwAgf_xQVi_sQX7ip_o00YffYpNZPYzn5jElxDBtIIUflzcxGIff3G7gRgOaESrcgIlX7-M5MyVb39JaTR32PhKf0eC3ev6u5IVY5QK39Vg_0WJhcWmmu4Q-Aq_MDYZMQbn6TTPTqKa2t44b54Qe50BnjKwRiTwYQmR-j2eQ99glPE7JXY0",
+   "decrypted": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  {
+   "plaintext": "glpat-abcdef0123456789",
+   "time": 1760000004,
+   "iv_hex": "4445464748494a4b4c4d4e4f50515253",
+   "token": "gAAAAABo53gEREVGR0hJSktMTU5PUFFSU5jBt8Gxa7Y-ZnG8Mq9hONGtKi_7GT_6S8oTdkatrJyeFsWbubj_u17hp02XoKpGBsyEqtlyKoXs2rLFBn2She0=",
+   "decrypted": "glpat-abcdef0123456789"
+  }
+ ],
+ "python_made": [
+  {
+   "plaintext": "smtp-password",
+   "token": "gAAAAABqzxa99HlbQXbAwl61t6-Z-vdf0Z6m78vrrnL_SLZTs8gT_MGp4I3TozUMPSvhvwnNUtlGl72GbE4uxrMHKPzjiAdAqA==",
+   "via": "email_crypto"
+  },
+  {
+   "plaintext": "",
+   "token": "gAAAAABqzxa9py19pq-dYy7QBIHgdxbI10cyyvld2W4VEN71yV8QUiw70_-LWBF9m4AKwLKjQXqvKF5t8-IGt8Jj7jeCC3FitA==",
+   "via": "email_crypto"
+  },
+  {
+   "plaintext": "Ünïcode ☃ 日本 🎉",
+   "token": "gAAAAABqzxa9nPVDU-eiXMbwjjWiYNAAITDZzLLMBZbp1KroPdhnQ9aAo9kOep9TiglC4Auczybk1DEBCCEyI5ER-VnpXWUCZt9WVBkEaeZqOxhT0XLx8Hw=",
+   "via": "email_crypto"
+  },
+  {
+   "plaintext": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "token": "gAAAAABqzxa9pBiMCT6jU5OjD3aHEAVttoRwctfg1uLAuiuNL-mBdiNQbdg4RzCDCEgQJJR1Co1KkiYV72v5JKgWG002J5Dcb7wFTXRc0dC3KGfz2Bx6_I8YB34LPneBVPHJ_I7r5EQVM5GqMnSCIl6tRdhbfykDVM7Wo1Z8N_KX-axfpPvgrkZXnEcj5fvPA8bdM1xIKmHpSYLp3zvzaUWqrlp-U1iQz7EKY1Ikh6rCWPSp2gWqpXoQifioCarxPamZLLHjNmfl-hLW8E9kGj0F76gFYCR2tnelLarRcWnLFSMlYwVyUyxh4fZdpTqMAX1yEyp0SE5T1258YccE5nRfB0jSvaPZJRtrpAMZS5MADkSSCJGVpj4_-X474MC9M3z3ZWcjRj_fiQfAZygfdhuvxoPJFzbuXTaFrK6XIz_h_Dl7ZsheBCFJScKmVY3DisMxY_BE3jaJWUvWhjNH5YHS3a3KbIm49aQ-NjZtqnhG-E21QNEQx6HFhr1LTxmwGG-AyF7vcu_yqXCfrZ2-QNs-qkbWt2DUz9f7Rj2bZTnVRejJj2v3jql7GJY3ah0_5rRp4L0FuOpcm_OCkQBIOj4dVBAeX6STAYb-8pnbhCM9lGWie2pUexbEv5uMOHg_sS6aXFXikQzCVYlMnXqxEHCTWePy-P1M-a42WuNBNb4OCdWiHze_L2xWvfoMjDF4YV_XpP7yts0dW1QGZCRTthEZT1LbcYXpNMSYkis6aOXeZVxt-xFpy6LyKlY64AEqmCh80LGhwC21UakDtQ9z-VfMBNTKEgDQpCeoO-9Cio3SwJW1xWb3KQHCrAB-m3jM4kKJI0v0DFUvs55nKZNnlaLjnjP6sp04qJTgzOboDSOjTR8CC_HUnwrYJaRin1-00PEi33_61xXXTMKor5VRntoSFRCtbI6ZBHh3RKLZRgN27onEIAJOemmBYYn0a32P0grqO5zXFsnNe1FyZt-1UcvtDpAxGPp8FEMBaAOP4bfQsGmbF9iA4zWEjas7eNnw-Xg3w9cCkLSuCMlCWs15MqbaAJ9kPZoEo9ObQ3f_hjbcWpnZUK909PKgd8jJn0GBoTE6ToEp9kURCwzkNCum5fzPIMGoBDVnojR-Jky9MbSXUFSaGLOG4vONr628byvZqzqGUDeKr7Dbek-ZLM05Nr-8u983D0KxZN4PPjknollJ0NRdsvwXzCPdZy7iea-mhbfwPUmQgHkjyOLx2seWwZgtGTUUmhdg3eq4WM8JKmvKDvuAH6QHW3DGrLEGzIeWvYmVqpWdZpUA9ITkmFm5CAiTpDKK9nHdvLby2Oz8AmkTg4MxwRwDw1tyXzZVsXxAiyizdbg5i8lMjibKNzQKPzGTfGXEQoVhX9LxFqWrvM8NgMBFwCwY8Ssqqd45-LNYQ1jsOMO-0r0C",
+   "via": "email_crypto"
+  },
+  {
+   "plaintext": "glpat-abcdef0123456789",
+   "token": "gAAAAABqzxa9GpG0-rL1tczxNwh6KgvHdwFiXEIRorpg__ktY_i__DtyQ-Pq32uZq8wpO1qJM6teNFe855rKAeye_q3yhhgkILxJO2CD5Br5Z52HYzDjDGU=",
+   "via": "email_crypto"
+  },
+  {
+   "plaintext": "smtp-password",
+   "token": "gAAAAABqzxa9z_gfdRcAtMYfCwNvWaw0XZqLLGZ3_T_nu5ByZ9Flll23frX9kWVrrFRNUajI8xgNy7bCkBKiAdQT6o8f1wuj3Q==",
+   "via": "rnd"
+  },
+  {
+   "plaintext": "",
+   "token": "gAAAAABqzxa9pkDC0448bHfkamvazTSX8Pu88m2-mBbGNqA6Row1ept65njhGZqN-i12XiZ25FpixhdXl6ubIPH6tP6EMWOuIg==",
+   "via": "rnd"
+  }
+ ],
+ "invalid": [
+  {
+   "name": "tampered last char",
+   "token": "gAAAAABqzxa99HlbQXbAwl61t6-Z-vdf0Z6m78vrrnL_SLZTs8gT_MGp4I3TozUMPSvhvwnNUtlGl72GbE4uxrMHKPzjiAdAqAA=",
+   "ok": false,
+   "error": "InvalidToken"
+  },
+  {
+   "name": "wrong key",
+   "token": "gAAAAABqzxa9c-CfvM6C87G9xmtIgc2YE0w_7ArcOXtm2ByZ8q-StaRrbqNRY3BmDm0FeP1go8DHCCPmuzMbrlD8VrbEudmPsA==",
+   "ok": false,
+   "error": "InvalidToken"
+  },
+  {
+   "name": "future timestamp beyond skew",
+   "token": "gAAAAAD0hlcAAAAAAAAAAAAAAAAAAAAAAN8Ao9FKa0fp4sm_Qe_Y8ciLjoc5vdUl4SV4gza3KSH3y54iEheoWYUv0D2Y23m9jQ==",
+   "ok": true,
+   "plaintext": "from the future"
+  },
+  {
+   "name": "not base64",
+   "token": "!!!!",
+   "ok": false,
+   "error": "InvalidToken"
+  },
+  {
+   "name": "empty",
+   "token": "",
+   "ok": false,
+   "error": "InvalidToken"
+  },
+  {
+   "name": "bad version byte",
+   "token": "gQAAAABqzxa99HlbQXbAwl61t6-Z-vdf0Z6m78vrrnL_SLZTs8gT_MGp4I3TozUMPSvhvwnNUtlGl72GbE4uxrMHKPzjiAdAqA==",
+   "ok": false,
+   "error": "InvalidToken"
+  }
+ ],
+ "lenient": [
+  {
+   "name": "padding stripped",
+   "token": "gAAAAABqzxa99HlbQXbAwl61t6-Z-vdf0Z6m78vrrnL_SLZTs8gT_MGp4I3TozUMPSvhvwnNUtlGl72GbE4uxrMHKPzjiAdAqA",
+   "ok": false,
+   "error": "InvalidToken"
+  },
+  {
+   "name": "embedded newline",
+   "token": "gAAAAABqzxa99HlbQXbA\nwl61t6-Z-vdf0Z6m78vrrnL_SLZTs8gT_MGp4I3TozUMPSvhvwnNUtlGl72GbE4uxrMHKPzjiAdAqA==",
+   "ok": true,
+   "plaintext": "smtp-password"
+  }
+ ]
+}

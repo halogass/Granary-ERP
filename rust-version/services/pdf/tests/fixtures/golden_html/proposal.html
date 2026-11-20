@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+/* Solution Proposal (Nary Phase 4), in a classic consulting style: Arial, maroon
+   headings, bordered tables with a rose or maroon header row, a cover with the reference table, the
+   header and the verified footer (QR, reference, revision, page) on every page. Every html block was
+   sanitised by the backend; images are data: URIs. */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,'Liberation Sans',Helvetica,sans-serif;color:#1D2733;line-height:1.55;font-size:11.5pt;padding:0 2mm}
+.cover{min-height:240mm;page-break-after:always;break-after:page}
+/* 23 Oct 2026: the cover letterhead has the quotation's width and place (Owner): 169 mm, centred, which puts it
+   20.5 mm from the left edge as on the quotation (document.html: 800px column, 32px padding, 12 mm margins).
+   Edge to edge clipped the letterhead's own text. It keeps its aspect ratio. */
+img.letterhead{width:169mm;max-width:100%;height:auto;display:block;margin:0 auto 2mm}
+.letterhead-divider{border-top:1.2px solid #7A1F2B;margin:0 0 14mm}
+.kicker{font-size:10pt;letter-spacing:2px;font-weight:700;color:#5A6672;text-transform:uppercase;margin-bottom:3mm}
+h1.title{font-size:25pt;line-height:1.2;color:#7A1F2B;font-weight:700;margin-bottom:3mm}
+.subtitle{font-size:13pt;color:#5A6672;margin-bottom:10mm}
+table{width:100%;border-collapse:collapse;margin:3mm 0 4mm;font-size:10pt;page-break-inside:auto}
+tr{page-break-inside:avoid;break-inside:avoid}
+th,td{border:1px solid #D9C9CC;padding:2.2mm 2.8mm;text-align:left;vertical-align:top}
+table.cover-table td.label{width:32%;background:#F8F1F1;color:#444}
+table.data thead th{background:#7A1F2B;color:#fff;font-weight:700}
+table.data tbody tr:nth-child(even) td{background:#FBF7F7}
+table.data td.num,table.data th.num{text-align:right;white-space:nowrap}
+table.data tr.total td{font-weight:700;background:#F4E6E8}
+table.kv td.label{width:34%;background:#F8F1F1;color:#444;font-weight:700}
+h2{font-size:15pt;color:#7A1F2B;margin:7mm 0 2.5mm;page-break-after:avoid;break-after:avoid}
+h3{font-size:12pt;color:#7A1F2B;margin:4.5mm 0 1.8mm;page-break-after:avoid;break-after:avoid}
+p{margin:0 0 2.6mm}
+ul,ol{margin:0 0 3mm 6mm}
+li{margin:0 0 1.2mm}
+strong,b{color:#1D2733}
+a{color:#7A1F2B}
+.status-included{color:#1E6B3A;font-weight:700}
+.status-optional_custom{color:#8A5A00;font-weight:700}
+.status-not_in_scope{color:#6B7280;font-weight:700}
+.status-to_confirm{color:#1D4E89;font-weight:700}
+figure{margin:4mm 0 5mm;text-align:center;page-break-inside:avoid;break-inside:avoid}
+figure img{max-width:100%;max-height:150mm;border:1px solid #E6DADC}
+figcaption{font-size:9.5pt;color:#5A6672;margin-top:1.5mm}
+figure.fig img{border:0;width:100%;max-height:200mm}
+figure.fig-half{display:inline-block;width:47.5%;margin:4mm 1% 5mm;vertical-align:top}
+.fig-source{font-size:8pt;color:#7A8591;margin-top:.6mm}
+.legend{font-size:9.5pt;color:#5A6672;margin-bottom:2mm}
+.note{font-size:9.5pt;color:#5A6672}
+.commercial-note{font-size:9.5pt;color:#5A6672;margin-top:1mm}
+.stamp-wrap{display:flex;justify-content:flex-end;margin-top:10mm;page-break-inside:avoid;break-inside:avoid}
+.approval-stamp{border:1.5px solid #7A1F2B;border-radius:5px;padding:3mm 4mm;text-align:center;color:#7A1F2B;width:62mm}
+.stamp-head{font-size:8pt;font-weight:700;letter-spacing:1.2px}
+.stamp-name{font-weight:700;color:#111;font-size:10.5pt;margin-top:1.5mm}
+.stamp-title{font-size:9pt;color:#6b7280}
+.stamp-date{font-size:9pt;color:#374151;margin-top:.6mm}
+.stamp-verify{font-size:7.5pt;color:#9ca3af;margin-top:1.4mm}
+.draft-mark{position:fixed;top:40%;left:0;right:0;text-align:center;font-size:72pt;color:rgba(122,31,43,0.07);transform:rotate(-24deg);font-weight:700;z-index:-1}
+</style>
+</head>
+<body>
+<div class="draft-mark">DRAFT</div>
+
+<section class="cover">
+  <img class="letterhead" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAABaCAIAAADrU7+pAAABxElEQVR42u3VoQ0AIAADQcZhJqZjREKCZwEEBkMvOVVZ86W2fmnMBQCfKfchlEYAPgzhcVVHAKJDqI4ACKE0AiCE6giAEKojAEIojQAIoToCIITqCIAQSiMAQqiOAAihOgIghNIIgBCqIwBCqI7qCCCE0iiNAEKojuoIIITqqI4AQog0Aggh6ggghKgjgBAijQBCiDoCCCHqCCCESCOAEKKOAEKIOgIIIdIIIISoI4AQoo4AQog0Aggh6uhAQAhRR3UEhBBplEZACFFHdQSEENQREEKQRkAIQR0BIQR1BIQQpBEQQlBHQAhBHQEhBGkEhBDUERBCUEdACEEaASEEdQSEENQREEKQRkAIQR3VESEE1FEdEUJAGqURIQTUUR0RQgB1RAgBpBEhBFBHhBBAHRFCAGlECAHUESEEUEeEEEAaEUIAdUQIAdQRIQSQRoQQQB0RQgB1RAgBpFEahRBAHdVRCAHUUR2FEEAapVEIAVBHIQRAHYUQAGkUQgDUUQgBUEchBEAahRAAdRRCANRRCAGQRiEEQB2FEAB1FEIApFEIAVBHIQRAHV/UUQgBiE6jEAIQXUchBCC6jkIIQHQahRCA6DpupKw/fwxwAlIAAAAASUVORK5CYII&#x3D;" alt="Your Company Ltd" />
+  <div class="letterhead-divider"></div>
+  <div class="kicker">Solution Proposal</div>
+  <h1 class="title">Laptop Fleet Refresh</h1>
+  <div class="subtitle">15 laptops, support plan, on-site setup</div>
+  <table class="cover-table">
+    <tr><td class="label">Prepared for</td><td>Acme Ltd</td></tr><tr><td class="label">Reference</td><td>PRP-2026-10-00001 Rev. 1</td></tr>
+  </table>
+</section>
+
+<section class="section">
+  <h2>1. Executive Summary</h2>
+    <h3>Why</h3>
+    <div class="text"><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p></div>
+</section>
+<section class="section">
+  <h2>2. Requirement Coverage</h2>
+    
+    
+    <p class="legend">Included &#x3D; in scope.</p>
+    <table class="data">
+      <thead><tr><th>Requirement</th><th style="width:22%">Status</th><th>Notes</th></tr></thead>
+      <tbody><tr><td>Disk encryption</td><td class="status-included">Included</td><td>enabled during setup</td></tr><tr><td>Docking stations</td><td class="status-partial">Partial</td><td>USB-C models only</td></tr><tr><td>Mobile phones</td><td class="status-excluded">Not included</td><td></td></tr></tbody>
+    </table>
+</section>
+<section class="section">
+  <h2>3. Site</h2>
+    
+    
+    <table class="kv"><tr><td class="label">Laptops</td><td>15</td></tr><tr><td class="label">Support</td><td>12 months</td></tr></table>
+    
+    
+    <figure><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMCAIAAAC283GzAAACCElEQVR42u3WsYnDABREQZWtclyiSnBwOLBjPePlRjxQpkAMyz+u13M+Tumujuv98Ud0D6y/F1tKYH3Ywku3wTJdCmGxpQoWXgphsaUKloteFSzTpRCW6VIFy3QphMWWKlh4KYTFlipYLnpVsEyXQlimSxUs06UQFluqYOGlEBZbOrpPu+jBOr/Dy+8Gy3Tp52GZLrDY0iAsvMBiS4OwXPRgmS4NwjJdYJkuDcJiCyy8NAiLLbBc9FqDZbrAMl0ahGW6wGJLg7DwAostDcJy0YNlusDat4UXWKYLLLb0n2HhBRZbYLnoBZbpAst0gWW6BBZbYOEFFlsCy0UPlukCy3QJLNMFFltg4SWw2ALLRQ+W6RJYpgss0wUWWwILL7DYAostvMAyXWCZLrBkusBiCyy8wBJbYLnowTJdYMl0gWW6wGILLOEFFltguejBkukCy3SBZbrAEltg4QUWW2DJRQ+W6QLLdIEl0wUWW2DhNckLLLbAYmuHF1imCyy2dqYLLNMFlnZsgYUXWNqxBZaLHiztTBdYpgss7UwXWGyBpR1eYLEFlnYuerBMF1jamS6wTBdY2rEFFl4XWJqxBRZbCS+wlEwXWEqmCywl0wWWEltgKeEFlhJbYCm56MFSMl1gKZkusJRMF1hKbIGlhBdYSmyBpeSiB0vJdIGlZLrAUjJdYCmxBZYSXk9AlNpk7DnpfQAAAABJRU5ErkJggg&#x3D;&#x3D;" alt="Figure 1: the office floor plan" /><figcaption>Figure 1: the office floor plan</figcaption></figure>
+    
+    
+    <table class="data">
+      <thead><tr><th class="">Team</th><th class="num">Laptops</th></tr></thead>
+      <tbody><tr class=""><td class="">Sales</td><td class="num">4</td></tr><tr class="total"><td class="">Total</td><td class="num">15</td></tr></tbody>
+    </table>
+</section>
+<section class="section">
+  <h2>4. Commercial Summary</h2>
+    
+    
+    <table class="data">
+      <thead><tr><th class="">Item</th><th class="num">Amount</th></tr></thead>
+      <tbody><tr class=""><td class="">LAP-14-1: Business laptop 14-inch</td><td class="num">USD 44,700</td></tr><tr class="total"><td class="">Total</td><td class="num">USD 44,700</td></tr></tbody>
+    </table>
+    <p class="commercial-note">Validity 30 days.</p><p class="commercial-note">Prices in USD.</p>
+</section>
+<section class="section">
+  <h2>5. Approval</h2>
+    
+    
+    <div class="stamp-wrap">
+      <div class="approval-stamp">
+        <div class="stamp-head">APPROVED ELECTRONICALLY</div>
+        <div class="stamp-name">Alex Owner</div>
+        <div class="stamp-title">Owner</div>
+        <div class="stamp-date">11 October 2026</div>
+        <div class="stamp-verify">Verify with the QR code on this page</div>
+      </div>
+    </div>
+    
+    
+    <div class="stamp-wrap">
+      <div class="approval-stamp"><div class="stamp-head">AWAITING APPROVAL</div></div>
+    </div>
+</section>
+</body>
+</html>

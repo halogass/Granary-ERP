@@ -1,0 +1,7 @@
+From: a@b.c
+To: d@e.f
+Subject: multipart_no_boundary
+Content-Type: multipart/mixed
+Content-Transfer-Encoding: 8bit
+
+just text

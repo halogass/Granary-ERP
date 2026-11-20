@@ -1,0 +1,635 @@
+[
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": "heading"
+   },
+   {
+    "type": "spacer",
+    "height": "٤٤"
+   },
+   {
+    "type": "header_image",
+    "url": 0
+   },
+   {
+    "type": "cta_button",
+    "button_color": " navy "
+   },
+   {
+    "type": "spacer",
+    "height": " 33 "
+   },
+   {
+    "type": "spacer"
+   },
+   {
+    "type": "paragraph",
+    "text": "News for {{company}} ({{email}}).\nLine 2\n\nLine 4"
+   },
+   {
+    "type": "spacer",
+    "height": true
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "tracking_id": "tid-0000-0000-0000-000000000000",
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n<tr><td style=\"padding:28px 40px 8px;font-family:Arial, Helvetica, sans-serif;\"><h1 style=\"margin:0;font-size:28px;font-weight:700;color:#111827;line-height:1.3;\"></h1></td></tr>\n<tr><td style=\"height:44px;line-height:44px;font-size:1px;\">&nbsp;</td></tr>\n<tr><td style=\"padding:0;line-height:0;\"><img src=\"#\" alt=\"\" width=\"600\" style=\"display:block;width:100%;max-width:600px;border:0;\"/></td></tr>\n<tr><td style=\"padding:24px 40px;text-align:center;\"><a href=\"#\" style=\"display:inline-block;background:navy;color:#ffffff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;font-family:Arial, Helvetica, sans-serif;\">Click Here</a></td></tr>\n<tr><td style=\"height:33px;line-height:33px;font-size:1px;\">&nbsp;</td></tr>\n<tr><td style=\"height:20px;line-height:20px;font-size:1px;\">&nbsp;</td></tr>\n<tr><td style=\"padding:8px 40px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:15px;line-height:1.7;color:#374151;\">News for Acme &amp; Sons &lt;Ltd&gt; (ann@customer.test).<br/>Line 2<br/><br/>Line 4</p></td></tr>\n<tr><td style=\"height:4px;line-height:4px;font-size:1px;\">&nbsp;</td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0000-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": "spacer",
+    "height": 4
+   },
+   {
+    "type": "cta_button",
+    "button_url": "{{unsubscribe_url}}",
+    "button_color": "red;\" onclick=\"x"
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "tracking_id": "tid-0001-0000-0000-000000000000",
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n<tr><td style=\"height:4px;line-height:4px;font-size:1px;\">&nbsp;</td></tr>\n<tr><td style=\"padding:24px 40px;text-align:center;\"><a href=\"https://app.test/unsubscribe?token=abc&x=\"1\"\" style=\"display:inline-block;background:#1f4e79;color:#ffffff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;font-family:Arial, Helvetica, sans-serif;\">Click Here</a></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0001-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": 3
+   },
+   {
+    "type": "image"
+   },
+   {
+    "type": "cta_button",
+    "button_color": 5
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "tracking_id": "tid-0002-0000-0000-000000000000",
+  "sig": "plain",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n\n<tr><td style=\"padding:16px 40px;text-align:center;\"><img src=\"#\" alt=\"\" style=\"max-width:100%;display:block;margin:0 auto;border-radius:4px;border:0;\"/></td></tr>\n<tr><td style=\"padding:24px 40px;text-align:center;\"><a href=\"#\" style=\"display:inline-block;background:#1f4e79;color:#ffffff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;font-family:Arial, Helvetica, sans-serif;\">Click Here</a></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0002-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": "paragraph"
+   },
+   {
+    "type": "heading",
+    "level": 1.0,
+    "text": "float"
+   },
+   {
+    "type": "code",
+    "text": "<div>{{email}}</div>\n  indented & 'x'"
+   },
+   {
+    "type": "cta_button",
+    "button_url": "{{unsubscribe_url}}",
+    "button_color": "red;\" onclick=\"x"
+   },
+   {
+    "type": "spacer",
+    "height": "30"
+   },
+   {
+    "type": "heading",
+    "level": 1,
+    "text": "Hello {{first_name}}"
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "tracking_id": "tid-0003-0000-0000-000000000000",
+  "sig": "plain",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n<tr><td style=\"padding:8px 40px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:15px;line-height:1.7;color:#374151;\"></p></td></tr>\n<tr><td style=\"padding:28px 40px 8px;font-family:Arial, Helvetica, sans-serif;\"><h1.0 style=\"margin:0;font-size:28px;font-weight:700;color:#111827;line-height:1.3;\">float</h1.0></td></tr>\n<tr><td style=\"padding:8px 40px;\"><pre style=\"background:#f3f4f6;border:1px solid #e5e7eb;border-radius:6px;padding:16px;font-size:13px;overflow-x:auto;margin:0;color:#1f2937;font-family:monospace;\">&lt;div&gt;ann@customer.test&lt;/div&gt;\n  indented &amp; &#x27;x&#x27;</pre></td></tr>\n<tr><td style=\"padding:24px 40px;text-align:center;\"><a href=\"https://app.test/unsubscribe?token=abc&x=\"1\"\" style=\"display:inline-block;background:#1f4e79;color:#ffffff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;font-family:Arial, Helvetica, sans-serif;\">Click Here</a></td></tr>\n<tr><td style=\"height:30px;line-height:30px;font-size:1px;\">&nbsp;</td></tr>\n<tr><td style=\"padding:28px 40px 8px;font-family:Arial, Helvetica, sans-serif;\"><h1 style=\"margin:0;font-size:28px;font-weight:700;color:#111827;line-height:1.3;\">Hello Ann</h1></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0003-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": "cta_button",
+    "label": "",
+    "button_url": ""
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "tracking_id": "tid-0004-0000-0000-000000000000",
+  "sig": "",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n<tr><td style=\"padding:24px 40px;text-align:center;\"><a href=\"#\" style=\"display:inline-block;background:#1f4e79;color:#ffffff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;font-family:Arial, Helvetica, sans-serif;\"></a></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>ACME &quot;Tech&quot;</strong> &middot; hello@granary.test</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0004-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [],
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "tracking_id": "tid-0005-0000-0000-000000000000",
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0005-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": "cta_button",
+    "button_url": "{{unsubscribe_url}}",
+    "button_color": "red;\" onclick=\"x"
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    ""
+   ],
+   [
+    "full_name",
+    ""
+   ],
+   [
+    "company",
+    ""
+   ],
+   [
+    "email",
+    ""
+   ],
+   [
+    "unsubscribe_url",
+    "#"
+   ],
+   [
+    "company_name",
+    ""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "tracking_id": "preview",
+  "sig": "",
+  "preview": true,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n<tr><td style=\"padding:24px 40px;text-align:center;\"><a href=\"#\" style=\"display:inline-block;background:#1f4e79;color:#ffffff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;font-family:Arial, Helvetica, sans-serif;\">Click Here</a></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;\"><p style=\"margin:0;font-size:14px;color:#374151;\"><strong>Your Company</strong></p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from Your Company.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from Your Company.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": "image",
+    "url": "http://img/b.jpg  "
+   },
+   {
+    "type": "code",
+    "text": "<div>{{email}}</div>\n  indented & 'x'"
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    null
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    ""
+   ],
+   [
+    "company_address",
+    ""
+   ]
+  ],
+  "tracking_id": "preview",
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n<tr><td style=\"padding:16px 40px;text-align:center;\"><img src=\"http://img/b.jpg\" alt=\"\" style=\"max-width:100%;display:block;margin:0 auto;border-radius:4px;border:0;\"/></td></tr>\n<tr><td style=\"padding:8px 40px;\"><pre style=\"background:#f3f4f6;border:1px solid #e5e7eb;border-radius:6px;padding:16px;font-size:13px;overflow-x:auto;margin:0;color:#1f2937;font-family:monospace;\">&lt;div&gt;ann@customer.test&lt;/div&gt;\n  indented &amp; &#x27;x&#x27;</pre></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  \n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": 3
+   },
+   {
+    "type": "heading",
+    "level": 2,
+    "text": "Sub <b>"
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "tracking_id": "tid-0008-0000-0000-000000000000",
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n\n<tr><td style=\"padding:28px 40px 8px;font-family:Arial, Helvetica, sans-serif;\"><h2 style=\"margin:0;font-size:20px;font-weight:700;color:#111827;line-height:1.3;\">Sub &lt;b&gt;</h2></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0008-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [],
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "tracking_id": "tid-0009-0000-0000-000000000000",
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0009-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [
+   {
+    "type": "spacer",
+    "height": 4
+   },
+   {
+    "type": "image",
+    "url": "https://img/a.jpg",
+    "alt": "A & B"
+   },
+   {
+    "type": "code"
+   },
+   {
+    "type": "cta_button",
+    "button_color": "url(javascript:x)"
+   },
+   {
+    "type": "code"
+   }
+  ],
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "tracking_id": "preview",
+  "sig": "<p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p>",
+  "preview": true,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n<tr><td style=\"height:4px;line-height:4px;font-size:1px;\">&nbsp;</td></tr>\n<tr><td style=\"padding:16px 40px;text-align:center;\"><img src=\"https://img/a.jpg\" alt=\"A &amp; B\" style=\"max-width:100%;display:block;margin:0 auto;border-radius:4px;border:0;\"/></td></tr>\n<tr><td style=\"padding:8px 40px;\"><pre style=\"background:#f3f4f6;border:1px solid #e5e7eb;border-radius:6px;padding:16px;font-size:13px;overflow-x:auto;margin:0;color:#1f2937;font-family:monospace;\"></pre></td></tr>\n<tr><td style=\"padding:24px 40px;text-align:center;\"><a href=\"#\" style=\"display:inline-block;background:#1f4e79;color:#ffffff;padding:14px 36px;border-radius:8px;text-decoration:none;font-weight:700;font-size:15px;font-family:Arial, Helvetica, sans-serif;\">Click Here</a></td></tr>\n<tr><td style=\"padding:8px 40px;\"><pre style=\"background:#f3f4f6;border:1px solid #e5e7eb;border-radius:6px;padding:16px;font-size:13px;overflow-x:auto;margin:0;color:#1f2937;font-family:monospace;\"></pre></td></tr>\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\"><p class=\"sig\">Best regards,<br>Ann &middot; ann@x</p></td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"#\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n\n</body>\n</html>"
+ },
+ {
+  "api_url": "http://localhost:8000",
+  "blocks": [],
+  "ctx": [
+   [
+    "first_name",
+    "Ann"
+   ],
+   [
+    "full_name",
+    "Ann Tester"
+   ],
+   [
+    "company",
+    "Acme & Sons <Ltd>"
+   ],
+   [
+    "email",
+    "ann@customer.test"
+   ],
+   [
+    "unsubscribe_url",
+    "https://app.test/unsubscribe?token=abc&x=\"1\""
+   ],
+   [
+    "company_name",
+    "ACME \"Tech\""
+   ],
+   [
+    "company_email",
+    "hello@granary.test"
+   ],
+   [
+    "company_address",
+    "1 Main Street <Tokyo>"
+   ]
+  ],
+  "tracking_id": "tid-0011-0000-0000-000000000000",
+  "sig": "plain",
+  "preview": false,
+  "out": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<title>Email</title>\n</head>\n<body style=\"margin:0;padding:0;background:#f4f5f7;\">\n<table role=\"presentation\" width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"background:#f4f5f7;\">\n<tr><td align=\"center\" style=\"padding:40px 16px;\">\n<table role=\"presentation\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\"\n       style=\"width:100%;max-width:600px;background:#ffffff;border-radius:8px;\n              overflow:hidden;border:1px solid #e5e7eb;\">\n\n<tr><td style=\"padding:24px 40px 24px;font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#374151;\">plain</td></tr>\n<tr><td style=\"padding:20px 40px 24px;border-top:1px solid #e5e7eb;text-align:center;font-family:Arial, Helvetica, sans-serif;\">\n  <p style=\"margin:0 0 6px;font-size:12px;line-height:1.6;color:#9ca3af;\">\n    You are receiving this email because you subscribed to updates from ACME &quot;Tech&quot;.\n  </p>\n  <p style=\"margin:0 0 6px;font-size:12px;color:#9ca3af;\">1 Main Street &lt;Tokyo&gt;</p>\n  <p style=\"margin:0;font-size:12px;color:#9ca3af;\">\n    <a href=\"https://app.test/unsubscribe?token=abc&amp;x=&quot;1&quot;\" style=\"color:#6b7280;text-decoration:underline;\">Unsubscribe</a>\n    from all marketing email from ACME &quot;Tech&quot;.\n  </p>\n</td></tr>\n</table>\n</td></tr>\n</table>\n<img src=\"http://localhost:8000/api/v1/marketing/email/track/tid-0011-0000-0000-000000000000\" width=\"1\" height=\"1\" border=\"0\"\n     style=\"display:none;height:0;width:0;overflow:hidden;\" alt=\"\"/>\n</body>\n</html>"
+ }
+]

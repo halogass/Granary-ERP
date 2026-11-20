@@ -1,0 +1,6 @@
+/target
+.venv/
+__pycache__/
+.pytest_cache/
+compat-tests/schema/out/
+compat-tests/rehearsal/out/

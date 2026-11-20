@@ -1,0 +1,21 @@
+Granary
+Copyright (c) 2026 the Granary contributors
+
+Granary is dual-licensed under the MIT License (LICENSE-MIT) or the Apache License,
+Version 2.0 (LICENSE-APACHE), at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for
+inclusion in Granary by you, as defined in the Apache-2.0 license, shall be dual
+licensed as above, without any additional terms or conditions.
+
+Third-party components keep their own licenses: the Rust crates listed in
+rust-version/Cargo.lock and the npm packages listed in frontend/package-lock.json.
+Bundled third-party files under rust-version/vendor/ carry their original license
+notices. Fonts under frontend/ (IBM Plex) are licensed under the SIL Open Font
+License 1.1.
+
+Bundled model files:
+- rust-version/services/face/models/antispoof/*.onnx are converted from Silent-Face-Anti-Spoofing by
+  Minivision (https://github.com/minivision-ai/Silent-Face-Anti-Spoofing), Apache License 2.0.
+- The face detection, landmark and recognition networks are not committed; they are converted at build
+  time from @vladmandic/face-api (MIT), see rust-version/services/face/models/README.md.

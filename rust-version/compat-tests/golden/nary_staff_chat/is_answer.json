@@ -1,0 +1,102 @@
+[
+ {
+  "in": "1",
+  "out": true
+ },
+ {
+  "in": " 1 ",
+  "out": true
+ },
+ {
+  "in": "1 2 3",
+  "out": true
+ },
+ {
+  "in": "1,3",
+  "out": true
+ },
+ {
+  "in": "1, 3",
+  "out": true
+ },
+ {
+  "in": "1 ,3",
+  "out": true
+ },
+ {
+  "in": "1;3",
+  "out": false
+ },
+ {
+  "in": "0",
+  "out": true
+ },
+ {
+  "in": "no",
+  "out": true
+ },
+ {
+  "in": "NO",
+  "out": true
+ },
+ {
+  "in": "Skip",
+  "out": true
+ },
+ {
+  "in": "skip",
+  "out": true
+ },
+ {
+  "in": "cancel",
+  "out": true
+ },
+ {
+  "in": "cancel",
+  "out": true
+ },
+ {
+  "in": "x",
+  "out": false
+ },
+ {
+  "in": "",
+  "out": false
+ },
+ {
+  "in": "12 345",
+  "out": true
+ },
+ {
+  "in": "1  2",
+  "out": true
+ },
+ {
+  "in": "1,,2",
+  "out": false
+ },
+ {
+  "in": "١",
+  "out": true
+ },
+ {
+  "in": "1\t2",
+  "out": false
+ },
+ {
+  "in": "1.",
+  "out": false
+ },
+ {
+  "in": "next",
+  "out": false
+ },
+ {
+  "in": null,
+  "out": false
+ },
+ {
+  "in": "２",
+  "out": true
+ }
+]

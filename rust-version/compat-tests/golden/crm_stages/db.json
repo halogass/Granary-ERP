@@ -1,0 +1,1212 @@
+[
+ {
+  "name": "registry",
+  "setup": [],
+  "ok": {
+   "deal_stages": [
+    {
+     "key": "new",
+     "label": "New",
+     "order": 1,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": 5
+    },
+    {
+     "key": "qualifying",
+     "label": "Qualifying",
+     "order": 2,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": 10
+    },
+    {
+     "key": "discovery",
+     "label": "Discovery",
+     "order": 3,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": 20
+    },
+    {
+     "key": "assessment",
+     "label": "Assessment",
+     "order": 4,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": 35
+    },
+    {
+     "key": "proposal",
+     "label": "Proposal",
+     "order": 5,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": 50
+    },
+    {
+     "key": "contract",
+     "label": "Contract",
+     "order": 6,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": 80
+    },
+    {
+     "key": "won",
+     "label": "Won",
+     "order": 7,
+     "is_closed": true,
+     "is_won": true,
+     "side": false,
+     "probability": 100
+    },
+    {
+     "key": "handover",
+     "label": "Handover",
+     "order": 8,
+     "is_closed": true,
+     "is_won": true,
+     "side": false,
+     "probability": 100
+    },
+    {
+     "key": "onboarding",
+     "label": "Onboarding",
+     "order": 9,
+     "is_closed": true,
+     "is_won": true,
+     "side": false,
+     "probability": 100
+    },
+    {
+     "key": "nurture",
+     "label": "Nurture",
+     "order": 10,
+     "is_closed": false,
+     "is_won": false,
+     "side": true,
+     "probability": 5
+    },
+    {
+     "key": "lost",
+     "label": "Lost",
+     "order": 11,
+     "is_closed": true,
+     "is_won": false,
+     "side": true,
+     "probability": 0
+    },
+    {
+     "key": "disqualified",
+     "label": "Disqualified",
+     "order": 12,
+     "is_closed": true,
+     "is_won": false,
+     "side": true,
+     "probability": 0
+    }
+   ],
+   "lead_statuses": [
+    {
+     "key": "new",
+     "label": "New",
+     "order": 1,
+     "is_closed": false,
+     "is_active": true
+    },
+    {
+     "key": "triaging",
+     "label": "Triaging",
+     "order": 2,
+     "is_closed": false,
+     "is_active": true
+    },
+    {
+     "key": "qualifying",
+     "label": "Qualifying",
+     "order": 3,
+     "is_closed": false,
+     "is_active": true
+    },
+    {
+     "key": "nurture",
+     "label": "Nurture",
+     "order": 4,
+     "is_closed": false,
+     "is_active": false
+    },
+    {
+     "key": "disqualified",
+     "label": "Disqualified",
+     "order": 5,
+     "is_closed": true,
+     "is_active": false
+    },
+    {
+     "key": "promoted",
+     "label": "Promoted",
+     "order": 6,
+     "is_closed": true,
+     "is_active": false
+    }
+   ],
+   "lead_transitions": {
+    "new": [
+     "disqualified",
+     "nurture",
+     "qualifying",
+     "triaging"
+    ],
+    "triaging": [
+     "disqualified",
+     "new",
+     "nurture",
+     "qualifying"
+    ],
+    "qualifying": [
+     "disqualified",
+     "nurture",
+     "triaging"
+    ],
+    "nurture": [
+     "disqualified",
+     "qualifying",
+     "triaging"
+    ],
+    "disqualified": [
+     "new",
+     "nurture"
+    ],
+    "promoted": []
+   },
+   "lead_start_statuses": [
+    "new",
+    "triaging",
+    "qualifying",
+    "nurture"
+   ],
+   "lead_sources": [
+    {
+     "key": "web3forms",
+     "label": "Website form (Web3forms email)"
+    },
+    {
+     "key": "inline_web3forms",
+     "label": "Website inline form (Web3forms email)"
+    },
+    {
+     "key": "whatsapp_direct",
+     "label": "WhatsApp (direct, no form)"
+    },
+    {
+     "key": "whatsapp",
+     "label": "WhatsApp"
+    },
+    {
+     "key": "email",
+     "label": "Email"
+    },
+    {
+     "key": "website_form",
+     "label": "Website form"
+    },
+    {
+     "key": "linkedin",
+     "label": "LinkedIn"
+    },
+    {
+     "key": "founder_network",
+     "label": "Founder network"
+    },
+    {
+     "key": "bizdev_network",
+     "label": "BizDev network"
+    },
+    {
+     "key": "partner_referral",
+     "label": "Partner referral"
+    },
+    {
+     "key": "referral",
+     "label": "Referral"
+    },
+    {
+     "key": "cold_outreach",
+     "label": "Cold outreach"
+    },
+    {
+     "key": "event",
+     "label": "Event"
+    },
+    {
+     "key": "other",
+     "label": "Other"
+    },
+    {
+     "key": "website_inline_form",
+     "label": "Website inline form"
+    }
+   ],
+   "loss_reasons": [
+    {
+     "key": "price_too_expensive",
+     "label": "Price: too expensive",
+     "recontact_months": 6
+    },
+    {
+     "key": "price_budget_eliminated",
+     "label": "Price: budget eliminated",
+     "recontact_months": 3
+    },
+    {
+     "key": "competitor_feature",
+     "label": "Competitor: feature",
+     "recontact_months": 6
+    },
+    {
+     "key": "competitor_relationship",
+     "label": "Competitor: relationship",
+     "recontact_months": 12
+    },
+    {
+     "key": "competitor_reputation",
+     "label": "Competitor: reputation / trust",
+     "recontact_months": 12
+    },
+    {
+     "key": "timeline_we_too_slow",
+     "label": "Timeline: our delivery too slow",
+     "recontact_months": 3
+    },
+    {
+     "key": "timeline_customer_not_ready",
+     "label": "Timeline: customer not ready",
+     "recontact_months": 4
+    },
+    {
+     "key": "scope_mismatch",
+     "label": "Scope mismatch",
+     "recontact_months": 6
+    },
+    {
+     "key": "no_decision",
+     "label": "No decision",
+     "recontact_months": 3
+    },
+    {
+     "key": "lost_contact",
+     "label": "Lost contact",
+     "recontact_months": 12
+    },
+    {
+     "key": "qualification_error",
+     "label": "Qualification error",
+     "recontact_months": null
+    },
+    {
+     "key": "procurement_blocker",
+     "label": "Procurement blocker",
+     "recontact_months": 12
+    }
+   ],
+   "disqualify_reasons": [
+    {
+     "key": "free_or_cheap_seeker",
+     "label": "Looking for a free or very cheap alternative",
+     "recontact_months": null
+    },
+    {
+     "key": "beyond_roadmap",
+     "label": "Needs capabilities beyond our products",
+     "recontact_months": null
+    },
+    {
+     "key": "below_floor_price",
+     "label": "Expects pricing below our floor price",
+     "recontact_months": null
+    },
+    {
+     "key": "payment_risk",
+     "label": "Payment default or bad payment history",
+     "recontact_months": null
+    },
+    {
+     "key": "compliance_geography",
+     "label": "Export control or compliance issue",
+     "recontact_months": null
+    },
+    {
+     "key": "ip_fishing",
+     "label": "Fishing for IP without purchase intent",
+     "recontact_months": null
+    },
+    {
+     "key": "timing_only",
+     "label": "Timing only",
+     "recontact_months": 6
+    },
+    {
+     "key": "not_a_buyer",
+     "label": "Not a buyer (vendor, job seeker, student)",
+     "recontact_months": null
+    },
+    {
+     "key": "no_response",
+     "label": "Never responded",
+     "recontact_months": null
+    },
+    {
+     "key": "duplicate",
+     "label": "Duplicate",
+     "recontact_months": null
+    },
+    {
+     "key": "spam",
+     "label": "Spam",
+     "recontact_months": null
+    }
+   ],
+   "lead_priorities": [
+    {
+     "key": "low",
+     "label": "Low"
+    },
+    {
+     "key": "medium",
+     "label": "Medium"
+    },
+    {
+     "key": "high",
+     "label": "High"
+    },
+    {
+     "key": "urgent",
+     "label": "Urgent"
+    }
+   ],
+   "activity_types": [
+    {
+     "key": "call",
+     "label": "Call"
+    },
+    {
+     "key": "email",
+     "label": "Email"
+    },
+    {
+     "key": "whatsapp",
+     "label": "WhatsApp"
+    },
+    {
+     "key": "meeting",
+     "label": "Meeting"
+    },
+    {
+     "key": "task",
+     "label": "Task"
+    },
+    {
+     "key": "note",
+     "label": "Note"
+    },
+    {
+     "key": "demo",
+     "label": "Demo"
+    }
+   ],
+   "activity_directions": [
+    "inbound",
+    "outbound",
+    "internal"
+   ],
+   "activity_entities": [
+    "lead",
+    "deal",
+    "contact",
+    "organization",
+    "project",
+    "vendor"
+   ]
+  }
+ },
+ {
+  "name": "registry_bad_probs",
+  "setup": [
+   "update system_settings set value = '[1]' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "exc": true
+ },
+ {
+  "name": "registry_empty_probs",
+  "setup": [
+   "update system_settings set value = '{}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "ok": {
+   "deal_stages": [
+    {
+     "key": "new",
+     "label": "New",
+     "order": 1,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "qualifying",
+     "label": "Qualifying",
+     "order": 2,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "discovery",
+     "label": "Discovery",
+     "order": 3,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "assessment",
+     "label": "Assessment",
+     "order": 4,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "proposal",
+     "label": "Proposal",
+     "order": 5,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "contract",
+     "label": "Contract",
+     "order": 6,
+     "is_closed": false,
+     "is_won": false,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "won",
+     "label": "Won",
+     "order": 7,
+     "is_closed": true,
+     "is_won": true,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "handover",
+     "label": "Handover",
+     "order": 8,
+     "is_closed": true,
+     "is_won": true,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "onboarding",
+     "label": "Onboarding",
+     "order": 9,
+     "is_closed": true,
+     "is_won": true,
+     "side": false,
+     "probability": null
+    },
+    {
+     "key": "nurture",
+     "label": "Nurture",
+     "order": 10,
+     "is_closed": false,
+     "is_won": false,
+     "side": true,
+     "probability": null
+    },
+    {
+     "key": "lost",
+     "label": "Lost",
+     "order": 11,
+     "is_closed": true,
+     "is_won": false,
+     "side": true,
+     "probability": null
+    },
+    {
+     "key": "disqualified",
+     "label": "Disqualified",
+     "order": 12,
+     "is_closed": true,
+     "is_won": false,
+     "side": true,
+     "probability": null
+    }
+   ],
+   "lead_statuses": [
+    {
+     "key": "new",
+     "label": "New",
+     "order": 1,
+     "is_closed": false,
+     "is_active": true
+    },
+    {
+     "key": "triaging",
+     "label": "Triaging",
+     "order": 2,
+     "is_closed": false,
+     "is_active": true
+    },
+    {
+     "key": "qualifying",
+     "label": "Qualifying",
+     "order": 3,
+     "is_closed": false,
+     "is_active": true
+    },
+    {
+     "key": "nurture",
+     "label": "Nurture",
+     "order": 4,
+     "is_closed": false,
+     "is_active": false
+    },
+    {
+     "key": "disqualified",
+     "label": "Disqualified",
+     "order": 5,
+     "is_closed": true,
+     "is_active": false
+    },
+    {
+     "key": "promoted",
+     "label": "Promoted",
+     "order": 6,
+     "is_closed": true,
+     "is_active": false
+    }
+   ],
+   "lead_transitions": {
+    "new": [
+     "disqualified",
+     "nurture",
+     "qualifying",
+     "triaging"
+    ],
+    "triaging": [
+     "disqualified",
+     "new",
+     "nurture",
+     "qualifying"
+    ],
+    "qualifying": [
+     "disqualified",
+     "nurture",
+     "triaging"
+    ],
+    "nurture": [
+     "disqualified",
+     "qualifying",
+     "triaging"
+    ],
+    "disqualified": [
+     "new",
+     "nurture"
+    ],
+    "promoted": []
+   },
+   "lead_start_statuses": [
+    "new",
+    "triaging",
+    "qualifying",
+    "nurture"
+   ],
+   "lead_sources": [
+    {
+     "key": "web3forms",
+     "label": "Website form (Web3forms email)"
+    },
+    {
+     "key": "inline_web3forms",
+     "label": "Website inline form (Web3forms email)"
+    },
+    {
+     "key": "whatsapp_direct",
+     "label": "WhatsApp (direct, no form)"
+    },
+    {
+     "key": "whatsapp",
+     "label": "WhatsApp"
+    },
+    {
+     "key": "email",
+     "label": "Email"
+    },
+    {
+     "key": "website_form",
+     "label": "Website form"
+    },
+    {
+     "key": "linkedin",
+     "label": "LinkedIn"
+    },
+    {
+     "key": "founder_network",
+     "label": "Founder network"
+    },
+    {
+     "key": "bizdev_network",
+     "label": "BizDev network"
+    },
+    {
+     "key": "partner_referral",
+     "label": "Partner referral"
+    },
+    {
+     "key": "referral",
+     "label": "Referral"
+    },
+    {
+     "key": "cold_outreach",
+     "label": "Cold outreach"
+    },
+    {
+     "key": "event",
+     "label": "Event"
+    },
+    {
+     "key": "other",
+     "label": "Other"
+    },
+    {
+     "key": "website_inline_form",
+     "label": "Website inline form"
+    }
+   ],
+   "loss_reasons": [
+    {
+     "key": "price_too_expensive",
+     "label": "Price: too expensive",
+     "recontact_months": 6
+    },
+    {
+     "key": "price_budget_eliminated",
+     "label": "Price: budget eliminated",
+     "recontact_months": 3
+    },
+    {
+     "key": "competitor_feature",
+     "label": "Competitor: feature",
+     "recontact_months": 6
+    },
+    {
+     "key": "competitor_relationship",
+     "label": "Competitor: relationship",
+     "recontact_months": 12
+    },
+    {
+     "key": "competitor_reputation",
+     "label": "Competitor: reputation / trust",
+     "recontact_months": 12
+    },
+    {
+     "key": "timeline_we_too_slow",
+     "label": "Timeline: our delivery too slow",
+     "recontact_months": 3
+    },
+    {
+     "key": "timeline_customer_not_ready",
+     "label": "Timeline: customer not ready",
+     "recontact_months": 4
+    },
+    {
+     "key": "scope_mismatch",
+     "label": "Scope mismatch",
+     "recontact_months": 6
+    },
+    {
+     "key": "no_decision",
+     "label": "No decision",
+     "recontact_months": 3
+    },
+    {
+     "key": "lost_contact",
+     "label": "Lost contact",
+     "recontact_months": 12
+    },
+    {
+     "key": "qualification_error",
+     "label": "Qualification error",
+     "recontact_months": null
+    },
+    {
+     "key": "procurement_blocker",
+     "label": "Procurement blocker",
+     "recontact_months": 12
+    }
+   ],
+   "disqualify_reasons": [
+    {
+     "key": "free_or_cheap_seeker",
+     "label": "Looking for a free or very cheap alternative",
+     "recontact_months": null
+    },
+    {
+     "key": "beyond_roadmap",
+     "label": "Needs capabilities beyond our products",
+     "recontact_months": null
+    },
+    {
+     "key": "below_floor_price",
+     "label": "Expects pricing below our floor price",
+     "recontact_months": null
+    },
+    {
+     "key": "payment_risk",
+     "label": "Payment default or bad payment history",
+     "recontact_months": null
+    },
+    {
+     "key": "compliance_geography",
+     "label": "Export control or compliance issue",
+     "recontact_months": null
+    },
+    {
+     "key": "ip_fishing",
+     "label": "Fishing for IP without purchase intent",
+     "recontact_months": null
+    },
+    {
+     "key": "timing_only",
+     "label": "Timing only",
+     "recontact_months": 6
+    },
+    {
+     "key": "not_a_buyer",
+     "label": "Not a buyer (vendor, job seeker, student)",
+     "recontact_months": null
+    },
+    {
+     "key": "no_response",
+     "label": "Never responded",
+     "recontact_months": null
+    },
+    {
+     "key": "duplicate",
+     "label": "Duplicate",
+     "recontact_months": null
+    },
+    {
+     "key": "spam",
+     "label": "Spam",
+     "recontact_months": null
+    }
+   ],
+   "lead_priorities": [
+    {
+     "key": "low",
+     "label": "Low"
+    },
+    {
+     "key": "medium",
+     "label": "Medium"
+    },
+    {
+     "key": "high",
+     "label": "High"
+    },
+    {
+     "key": "urgent",
+     "label": "Urgent"
+    }
+   ],
+   "activity_types": [
+    {
+     "key": "call",
+     "label": "Call"
+    },
+    {
+     "key": "email",
+     "label": "Email"
+    },
+    {
+     "key": "whatsapp",
+     "label": "WhatsApp"
+    },
+    {
+     "key": "meeting",
+     "label": "Meeting"
+    },
+    {
+     "key": "task",
+     "label": "Task"
+    },
+    {
+     "key": "note",
+     "label": "Note"
+    },
+    {
+     "key": "demo",
+     "label": "Demo"
+    }
+   ],
+   "activity_directions": [
+    "inbound",
+    "outbound",
+    "internal"
+   ],
+   "activity_entities": [
+    "lead",
+    "deal",
+    "contact",
+    "organization",
+    "project",
+    "vendor"
+   ]
+  }
+ },
+ {
+  "name": "probability_for:new",
+  "setup": [],
+  "ok": 5
+ },
+ {
+  "name": "probability_for:won",
+  "setup": [],
+  "ok": 100
+ },
+ {
+  "name": "probability_for:lost",
+  "setup": [],
+  "ok": 0
+ },
+ {
+  "name": "probability_for:bogus",
+  "setup": [],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' has no probability for the 'bogus' stage. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "probability_for_value:\"50\"",
+  "setup": [
+   "update system_settings set value = '{\"new\": \"50\"}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "ok": 50
+ },
+ {
+  "name": "probability_for_value:\"x\"",
+  "setup": [
+   "update system_settings set value = '{\"new\": \"x\"}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' has a non-integer probability for 'new'. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "probability_for_value:50.9",
+  "setup": [
+   "update system_settings set value = '{\"new\": 50.9}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "ok": 50
+ },
+ {
+  "name": "probability_for_value:101",
+  "setup": [
+   "update system_settings set value = '{\"new\": 101}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' has a probability outside 0-100 for 'new'. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "probability_for_value:-1",
+  "setup": [
+   "update system_settings set value = '{\"new\": -1}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' has a probability outside 0-100 for 'new'. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "probability_for_value:null",
+  "setup": [
+   "update system_settings set value = '{\"new\": null}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' has a non-integer probability for 'new'. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "probability_for_value:true",
+  "setup": [
+   "update system_settings set value = '{\"new\": true}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "ok": 1
+ },
+ {
+  "name": "probability_for_value:\"7 \"",
+  "setup": [
+   "update system_settings set value = '{\"new\": \"7 \"}' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "ok": 7
+ },
+ {
+  "name": "probability_for_list",
+  "setup": [
+   "update system_settings set value = '[\"new\"]' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' has no probability for the 'new' stage. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "probability_for_unset",
+  "setup": [
+   "update system_settings set value = '  ' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' is not set. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "probability_for_badjson",
+  "setup": [
+   "update system_settings set value = '{x' where key = 'crm.funnel.stage_probabilities'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.stage_probabilities' is not valid JSON. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "validate_reasons:lost:null",
+  "setup": [],
+  "err": "A lost deal needs at least one reason"
+ },
+ {
+  "name": "validate_reasons:lost:\"\"",
+  "setup": [],
+  "err": "A lost deal needs at least one reason"
+ },
+ {
+  "name": "validate_reasons:lost:[]",
+  "setup": [],
+  "err": "A lost deal needs at least one reason"
+ },
+ {
+  "name": "validate_reasons:lost:\"no_decision\"",
+  "setup": [],
+  "ok": [
+   "no_decision"
+  ]
+ },
+ {
+  "name": "validate_reasons:lost:[\"no_decision\", \"\", \"price_too_expensive\", \"no_decision\"]",
+  "setup": [],
+  "ok": [
+   "no_decision",
+   "price_too_expensive"
+  ]
+ },
+ {
+  "name": "validate_reasons:lost:[\"bogus\", \"no_decision\", \"zzz\"]",
+  "setup": [],
+  "err": "Unknown lost reason(s): bogus, zzz. Use one of: competitor_feature, competitor_relationship, competitor_reputation, lost_contact, no_decision, price_budget_eliminated, price_too_expensive, procurement_blocker, qualification_error, scope_mismatch, timeline_customer_not_ready, timeline_we_too_slow"
+ },
+ {
+  "name": "validate_reasons:lost:[null, 0]",
+  "setup": [],
+  "err": "A lost deal needs at least one reason"
+ },
+ {
+  "name": "validate_reasons:lost:{\"no_decision\": 1}",
+  "setup": [],
+  "ok": [
+   "no_decision"
+  ]
+ },
+ {
+  "name": "validate_disqualify_reason",
+  "setup": [],
+  "ok": "spam"
+ },
+ {
+  "name": "reason_picklist_bad",
+  "setup": [
+   "update system_settings set value = '[{\"key\": \"\"}]' where key = 'crm.funnel.loss_reasons'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.loss_reasons' must be a JSON list of {key, label, recontact_months}. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "reason_picklist_obj",
+  "setup": [
+   "update system_settings set value = '{\"key\": \"x\"}' where key = 'crm.funnel.loss_reasons'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.loss_reasons' must be a JSON list of {key, label, recontact_months}. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "validate_lead_source:web3forms",
+  "setup": [],
+  "ok": "web3forms"
+ },
+ {
+  "name": "validate_lead_source:WEB3FORMS",
+  "setup": [],
+  "err": "Unknown lead source 'WEB3FORMS'. Use one of: web3forms, inline_web3forms, whatsapp_direct, whatsapp, email, website_form, linkedin, founder_network, bizdev_network, partner_referral, referral, cold_outreach, event, other, website_inline_form"
+ },
+ {
+  "name": "validate_lead_source:None",
+  "setup": [],
+  "err": "Unknown lead source 'None'. Use one of: web3forms, inline_web3forms, whatsapp_direct, whatsapp, email, website_form, linkedin, founder_network, bizdev_network, partner_referral, referral, cold_outreach, event, other, website_inline_form"
+ },
+ {
+  "name": "validate_lead_source:nope",
+  "setup": [],
+  "err": "Unknown lead source 'nope'. Use one of: web3forms, inline_web3forms, whatsapp_direct, whatsapp, email, website_form, linkedin, founder_network, bizdev_network, partner_referral, referral, cold_outreach, event, other, website_inline_form"
+ },
+ {
+  "name": "validate_lead_source_bad",
+  "setup": [
+   "update system_settings set value = '[{\"key\": \"a\"}, {\"key\": 5}]' where key = 'crm.funnel.lead_sources'"
+  ],
+  "exc": true
+ },
+ {
+  "name": "validate_lead_priority:high",
+  "setup": [],
+  "ok": "high"
+ },
+ {
+  "name": "validate_lead_priority:HIGH",
+  "setup": [],
+  "err": "Unknown lead priority 'HIGH'. Use one of: low, medium, high, urgent"
+ },
+ {
+  "name": "validate_lead_priority:None",
+  "setup": [],
+  "err": "Unknown lead priority 'None'. Use one of: low, medium, high, urgent"
+ },
+ {
+  "name": "validate_activity:{}",
+  "setup": [],
+  "ok": null
+ },
+ {
+  "name": "validate_activity:{\"activity_type\": \"call\"}",
+  "setup": [],
+  "ok": null
+ },
+ {
+  "name": "validate_activity:{\"activity_type\": \"fax\"}",
+  "setup": [],
+  "err": "Unknown activity type 'fax'. Use one of: call, email, whatsapp, meeting, task, note, demo"
+ },
+ {
+  "name": "validate_activity:{\"activity_type\": null}",
+  "setup": [],
+  "err": "Unknown activity type 'None'. Use one of: call, email, whatsapp, meeting, task, note, demo"
+ },
+ {
+  "name": "validate_activity:{\"direction\": \"\"}",
+  "setup": [],
+  "ok": null
+ },
+ {
+  "name": "validate_activity:{\"direction\": null}",
+  "setup": [],
+  "ok": null
+ },
+ {
+  "name": "validate_activity:{\"direction\": \"sideways\"}",
+  "setup": [],
+  "err": "Unknown direction 'sideways'. Use one of: inbound, outbound, internal"
+ },
+ {
+  "name": "validate_activity:{\"direction\": \"inbound\"}",
+  "setup": [],
+  "ok": null
+ },
+ {
+  "name": "validate_activity:{\"entity_type\": \"deal\"}",
+  "setup": [],
+  "ok": null
+ },
+ {
+  "name": "validate_activity:{\"entity_type\": \"invoice\"}",
+  "setup": [],
+  "err": "Unknown entity_type 'invoice'. Use one of: lead, deal, contact, organization, project, vendor"
+ },
+ {
+  "name": "validate_activity:{\"entity_type\": null}",
+  "setup": [],
+  "err": "Unknown entity_type 'None'. Use one of: lead, deal, contact, organization, project, vendor"
+ },
+ {
+  "name": "validate_activity:{\"activity_type\": \"call\", \"direction\": \"x\", \"entity_type\": \"y\"}",
+  "setup": [],
+  "err": "Unknown direction 'x'. Use one of: inbound, outbound, internal"
+ },
+ {
+  "name": "default_lead_owner_id:seed",
+  "setup": [],
+  "ok": "08670745-0985-4940-96cd-4305ebffab83"
+ },
+ {
+  "name": "default_lead_owner_id:mixed",
+  "setup": [
+   "update system_settings set value = ' SALES2@s15.TEST ' where key = 'crm.funnel.default_lead_owner_email'"
+  ],
+  "ok": "00000000-0000-0000-0000-0000000000a2"
+ },
+ {
+  "name": "default_lead_owner_id:inactive",
+  "setup": [
+   "update system_settings set value = 'gone@s15.test' where key = 'crm.funnel.default_lead_owner_email'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.default_lead_owner_email' names no active user ('gone@s15.test'). Set it in Settings → Sales & CRM → Funnel."
+  ]
+ },
+ {
+  "name": "default_lead_owner_id:unset",
+  "setup": [
+   "update system_settings set value = '' where key = 'crm.funnel.default_lead_owner_email'"
+  ],
+  "http": [
+   400,
+   "Setting 'crm.funnel.default_lead_owner_email' is not set. Set it in Settings → Sales & CRM → Funnel."
+  ]
+ }
+]

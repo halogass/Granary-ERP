@@ -1,0 +1,250 @@
+[
+ {
+  "phone": "+818123",
+  "item": {
+   "id": "false_819@c.us_ABC",
+   "body": "hello",
+   "fromMe": false,
+   "timestamp": 1760500000,
+   "type": "chat",
+   "ack": 2
+  },
+  "payload": {
+   "messageId": "false_819@c.us_ABC",
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": "hello",
+   "type": "chat",
+   "timestamp": 1760500000,
+   "hasMedia": false,
+   "ack": 2,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": "+818123",
+   "isGroup": false
+  }
+ },
+ {
+  "phone": "+818123",
+  "item": {
+   "id": "true_819@c.us_DEF",
+   "fromMe": 1,
+   "timestamp": "1760500000",
+   "hasMedia": true,
+   "mediaMeta": {
+    "mimetype": "image/jpeg",
+    "size": 10
+   },
+   "quoted": {
+    "id": "false_819@c.us_Q"
+   }
+  },
+  "payload": {
+   "messageId": "true_819@c.us_DEF",
+   "chatId": "819012@c.us",
+   "fromMe": true,
+   "body": null,
+   "type": "chat",
+   "timestamp": "1760500000",
+   "hasMedia": true,
+   "ack": null,
+   "mediaMeta": {
+    "mimetype": "image/jpeg",
+    "size": 10
+   },
+   "quotedMessageId": "false_819@c.us_Q",
+   "phone": "+818123",
+   "isGroup": false
+  }
+ },
+ {
+  "phone": "+818123",
+  "item": {
+   "id": null,
+   "type": "",
+   "mediaMeta": {},
+   "quoted": null
+  },
+  "payload": {
+   "messageId": null,
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": null,
+   "type": "chat",
+   "timestamp": null,
+   "hasMedia": false,
+   "ack": null,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": "+818123",
+   "isGroup": false
+  }
+ },
+ {
+  "phone": "+818123",
+  "item": {},
+  "payload": {
+   "messageId": null,
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": null,
+   "type": "chat",
+   "timestamp": null,
+   "hasMedia": false,
+   "ack": null,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": "+818123",
+   "isGroup": false
+  }
+ },
+ {
+  "phone": "+818123",
+  "item": {
+   "body": null,
+   "type": "ptt",
+   "hasMedia": 0,
+   "quoted": {
+    "x": 1
+   }
+  },
+  "payload": {
+   "messageId": null,
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": null,
+   "type": "ptt",
+   "timestamp": null,
+   "hasMedia": false,
+   "ack": null,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": "+818123",
+   "isGroup": false
+  }
+ },
+ {
+  "phone": null,
+  "item": {
+   "id": "false_819@c.us_ABC",
+   "body": "hello",
+   "fromMe": false,
+   "timestamp": 1760500000,
+   "type": "chat",
+   "ack": 2
+  },
+  "payload": {
+   "messageId": "false_819@c.us_ABC",
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": "hello",
+   "type": "chat",
+   "timestamp": 1760500000,
+   "hasMedia": false,
+   "ack": 2,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": null,
+   "isGroup": false
+  }
+ },
+ {
+  "phone": null,
+  "item": {
+   "id": "true_819@c.us_DEF",
+   "fromMe": 1,
+   "timestamp": "1760500000",
+   "hasMedia": true,
+   "mediaMeta": {
+    "mimetype": "image/jpeg",
+    "size": 10
+   },
+   "quoted": {
+    "id": "false_819@c.us_Q"
+   }
+  },
+  "payload": {
+   "messageId": "true_819@c.us_DEF",
+   "chatId": "819012@c.us",
+   "fromMe": true,
+   "body": null,
+   "type": "chat",
+   "timestamp": "1760500000",
+   "hasMedia": true,
+   "ack": null,
+   "mediaMeta": {
+    "mimetype": "image/jpeg",
+    "size": 10
+   },
+   "quotedMessageId": "false_819@c.us_Q",
+   "phone": null,
+   "isGroup": false
+  }
+ },
+ {
+  "phone": null,
+  "item": {
+   "id": null,
+   "type": "",
+   "mediaMeta": {},
+   "quoted": null
+  },
+  "payload": {
+   "messageId": null,
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": null,
+   "type": "chat",
+   "timestamp": null,
+   "hasMedia": false,
+   "ack": null,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": null,
+   "isGroup": false
+  }
+ },
+ {
+  "phone": null,
+  "item": {},
+  "payload": {
+   "messageId": null,
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": null,
+   "type": "chat",
+   "timestamp": null,
+   "hasMedia": false,
+   "ack": null,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": null,
+   "isGroup": false
+  }
+ },
+ {
+  "phone": null,
+  "item": {
+   "body": null,
+   "type": "ptt",
+   "hasMedia": 0,
+   "quoted": {
+    "x": 1
+   }
+  },
+  "payload": {
+   "messageId": null,
+   "chatId": "819012@c.us",
+   "fromMe": false,
+   "body": null,
+   "type": "ptt",
+   "timestamp": null,
+   "hasMedia": false,
+   "ack": null,
+   "mediaMeta": null,
+   "quotedMessageId": null,
+   "phone": null,
+   "isGroup": false
+  }
+ }
+]

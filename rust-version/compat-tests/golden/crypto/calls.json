@@ -1,0 +1,184 @@
+{
+ "config": {
+  "JWT_SECRET_KEY": "test-jwt-secret-key-at-least-32-characters-long",
+  "APP_SECRET_KEY": "test-app-secret-key-at-least-32-characters-long",
+  "TURN_SECRET": "test-turn-secret-for-golden-fixtures",
+  "DEMO_SIGNING_KEY": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8=",
+  "DEMO_ANDROID_SIGNING_KEY": "ZGVmZ2hpamtsbW5vcHFyc3R1dnd4eXp7fH1+f4CBgoM=",
+  "JWT_ALGORITHM": "HS256",
+  "JWT_ACCESS_TOKEN_EXPIRE_MINUTES": 60,
+  "JWT_REFRESH_TOKEN_EXPIRE_DAYS": 30
+ },
+ "turn": [
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "ttl": 3600,
+   "now": 1760000000,
+   "username": "1760003600:7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "password": "93ApT4jXd4eW7s/UKfexqWMpxes="
+  },
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "ttl": 60,
+   "now": 1760000000,
+   "username": "1760000060:7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "password": "LMJAsFsQNekpyiW5KPEKV2reqJQ="
+  },
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "guest:ünï",
+   "ttl": 3600,
+   "now": 1760000000,
+   "username": "1760003600:guest:ünï",
+   "password": "qQOYUFdJL3eQRSuoVQO5jHFGf90="
+  },
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "guest:ünï",
+   "ttl": 60,
+   "now": 1760000000,
+   "username": "1760000060:guest:ünï",
+   "password": "dQIJUbhbjJ3F0uT1WFnAXTtNLRs="
+  },
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "ttl": 3600,
+   "now": 1999999999,
+   "username": "2000003599:7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "password": "/aFo7Fcxoffzj1sK0kVGq5aHTDM="
+  },
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "ttl": 60,
+   "now": 1999999999,
+   "username": "2000000059:7d0f6a2e-5b1c-4c3e-9f8a-0123456789ab",
+   "password": "0ytxZL0/srh3DFx4Zqv+ZxGIiT0="
+  },
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "guest:ünï",
+   "ttl": 3600,
+   "now": 1999999999,
+   "username": "2000003599:guest:ünï",
+   "password": "faABgimZsX0FpaHRGqnYcFQnGuY="
+  },
+  {
+   "turn_secret": "test-turn-secret-for-golden-fixtures",
+   "user_id": "guest:ünï",
+   "ttl": 60,
+   "now": 1999999999,
+   "username": "2000000059:guest:ünï",
+   "password": "MElvnOuCR5qhhGgLN84XwzZLG60="
+  }
+ ],
+ "tickets": [
+  {
+   "room": "room_abc-123",
+   "peer": "erp_7d0f6a2e",
+   "host": true,
+   "now": 1760000000,
+   "ttl": 21600,
+   "ticket": "eyJyb29tIjoicm9vbV9hYmMtMTIzIiwicGVlciI6ImVycF83ZDBmNmEyZSIsImhvc3QiOnRydWUsImV4cCI6MTc2MDAyMTYwMH0.04818ZO39u8IwjAuRwxMB9RgnxK4PAXLL4yyvQLGDi4"
+  },
+  {
+   "room": "r",
+   "peer": "guest_ünï☃",
+   "host": false,
+   "now": 1760000000,
+   "ttl": 21600,
+   "ticket": "eyJyb29tIjoiciIsInBlZXIiOiJndWVzdF9cdTAwZmNuXHUwMGVmXHUyNjAzIiwiaG9zdCI6ZmFsc2UsImV4cCI6MTc2MDAyMTYwMH0.gD2BK5Qw-8ho7BYoyA9kmQJXRFnxeXSby25yl2kQxX0"
+  },
+  {
+   "room": "room_abc-123",
+   "peer": "erp_7d0f6a2e",
+   "host": true,
+   "now": 1999999999,
+   "ttl": 21600,
+   "ticket": "eyJyb29tIjoicm9vbV9hYmMtMTIzIiwicGVlciI6ImVycF83ZDBmNmEyZSIsImhvc3QiOnRydWUsImV4cCI6MjAwMDAyMTU5OX0.Q9JtQZ6Px_6_QBWT_3xrxwgSHtxNmYbHV09g2KmbP0I"
+  },
+  {
+   "room": "r",
+   "peer": "guest_ünï☃",
+   "host": false,
+   "now": 1999999999,
+   "ttl": 21600,
+   "ticket": "eyJyb29tIjoiciIsInBlZXIiOiJndWVzdF9cdTAwZmNuXHUwMGVmXHUyNjAzIiwiaG9zdCI6ZmFsc2UsImV4cCI6MjAwMDAyMTU5OX0.u5tTTdKLer2xUCbn6kloNSfCV0J2a7MjrQqe7wmUeS4"
+  }
+ ],
+ "verify": [
+  {
+   "name": "valid",
+   "ticket": "eyJyb29tIjoicm9vbV9hYmMtMTIzIiwicGVlciI6ImVycF83ZDBmNmEyZSIsImhvc3QiOnRydWUsImV4cCI6MTc2MDAyMTYwMH0.04818ZO39u8IwjAuRwxMB9RgnxK4PAXLL4yyvQLGDi4",
+   "now": 1760000100.0,
+   "result": {
+    "room": "room_abc-123",
+    "peer": "erp_7d0f6a2e",
+    "host": true,
+    "exp": 1760021600
+   }
+  },
+  {
+   "name": "expired",
+   "ticket": "eyJyb29tIjoicm9vbV9hYmMtMTIzIiwicGVlciI6ImVycF83ZDBmNmEyZSIsImhvc3QiOnRydWUsImV4cCI6MTc2MDAyMTYwMH0.04818ZO39u8IwjAuRwxMB9RgnxK4PAXLL4yyvQLGDi4",
+   "now": 1760021600.0,
+   "result": null
+  },
+  {
+   "name": "just before expiry",
+   "ticket": "eyJyb29tIjoicm9vbV9hYmMtMTIzIiwicGVlciI6ImVycF83ZDBmNmEyZSIsImhvc3QiOnRydWUsImV4cCI6MTc2MDAyMTYwMH0.04818ZO39u8IwjAuRwxMB9RgnxK4PAXLL4yyvQLGDi4",
+   "now": 1760021599.999,
+   "result": {
+    "room": "room_abc-123",
+    "peer": "erp_7d0f6a2e",
+    "host": true,
+    "exp": 1760021600
+   }
+  },
+  {
+   "name": "bad sig",
+   "ticket": "eyJyb29tIjoicm9vbV9hYmMtMTIzIiwicGVlciI6ImVycF83ZDBmNmEyZSIsImhvc3QiOnRydWUsImV4cCI6MTc2MDAyMTYwMH0.04818ZO39u8IwjAuRwxMB9RgnxK4PAXLL4yyvQLGDiA",
+   "now": 1760000100.0,
+   "result": null
+  },
+  {
+   "name": "no dot",
+   "ticket": "nodot",
+   "now": 1760000100.0,
+   "result": null
+  },
+  {
+   "name": "no exp",
+   "ticket": "eyJyb29tIjoiciJ9.51L1ExRiNncXMAOiheVPi0KPss1DFuIr4b04f09G_Zc",
+   "now": 1760000100.0,
+   "result": null
+  },
+  {
+   "name": "float exp",
+   "ticket": "eyJyb29tIjoiciIsImV4cCI6MTc2MDAwMDEwMC41fQ.3bAwyP7xt7Sv9roSddgpi_JygJdJKRO0w1uNDZSqM5E",
+   "now": 1760000100.0,
+   "result": {
+    "room": "r",
+    "exp": 1760000100.5
+   }
+  },
+  {
+   "name": "bool exp",
+   "ticket": "eyJyb29tIjoiciIsImV4cCI6dHJ1ZX0.GC2C2RXJpEEx1oFQl0MskowMgxLY-47Y8_4ElBsjFE4",
+   "now": 0.5,
+   "result": {
+    "room": "r",
+    "exp": true
+   }
+  },
+  {
+   "name": "payload not json",
+   "ticket": "bm90IGpzb24gYXQgYWxs.nYdJGYsU6u3HADrylQ0feVGaruX_-3oDQn-rcFK5_PU",
+   "now": 1760000100.0,
+   "result": null
+  }
+ ]
+}

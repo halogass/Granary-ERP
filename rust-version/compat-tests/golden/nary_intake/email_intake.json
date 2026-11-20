@@ -1,0 +1,8624 @@
+{
+ "skip_reason": [
+  {
+   "headers": {},
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply@)"
+  },
+  {
+   "headers": {},
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter+id@)"
+  },
+  {
+   "headers": {},
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter.x@)"
+  },
+  {
+   "headers": {},
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply-x@)"
+  },
+  {
+   "headers": {},
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (us1.mailchimp.com)"
+  },
+  {
+   "headers": {},
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (sendgrid.net)"
+  },
+  {
+   "headers": {},
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "mailing list (List-Unsubscribe)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply@)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter+id@)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter.x@)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply-x@)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (us1.mailchimp.com)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (sendgrid.net)"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply@)"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter+id@)"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter.x@)"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply-x@)"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (us1.mailchimp.com)"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (sendgrid.net)"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Precedence: bulk"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply@)"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter+id@)"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter.x@)"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply-x@)"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (us1.mailchimp.com)"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (sendgrid.net)"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "Auto-Submitted: auto-replied"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter+id@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter.x@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply-x@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (us1.mailchimp.com)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (sendgrid.net)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter+id@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter.x@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply-x@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (us1.mailchimp.com)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (sendgrid.net)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter+id@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (newsletter.x@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "automated sender (noreply-x@)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (us1.mailchimp.com)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "skipped domain (sendgrid.net)"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noat",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "@b.com",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "list_headers": [
+     "List-Unsubscribe",
+     "List-Id"
+    ],
+    "precedence": [
+     "bulk",
+     "List"
+    ],
+    "auto_submitted": true,
+    "sender_prefixes": [
+     "noreply",
+     "Newsletter"
+    ],
+    "sender_domains": [
+     "mailchimp.com",
+     "Sendgrid.NET"
+    ]
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "news@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "john@example.com",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noat",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": {},
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@",
+   "rules": {},
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "@b.com",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {},
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "news@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "john@example.com",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noat",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": null,
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@",
+   "rules": null,
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "@b.com",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": null,
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {},
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {},
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {},
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": "<mailto:x@y>"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "List-Unsubscribe": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "list-id": "x"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": " Bulk "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Precedence": "junk"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "auto-replied"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": "no"
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": " NO "
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "news@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter+id@shop.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "newsletter.x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreply-x@a.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noreplyfan@globex.example",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@us1.mailchimp.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@sendgrid.net",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "john@example.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "noat",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": " John@Example.Com ",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "our own domain"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "a@",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": "no sender"
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "@b.com",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  },
+  {
+   "headers": {
+    "Auto-Submitted": ""
+   },
+   "addr": "x@mailchimp.com.evil",
+   "rules": {
+    "auto_submitted": false
+   },
+   "out": null
+  }
+ ],
+ "customer_text": [
+  {
+   "body": "Please send the price.\nMy WhatsApp is 0812 3456 7890\n\nOn Mon, 1 Oct 2026 Acme wrote:\n> Our number +1 555",
+   "out": "Please send the price.\nMy WhatsApp is 0812 3456 7890"
+  },
+  {
+   "body": "",
+   "out": ""
+  },
+  {
+   "body": null,
+   "out": ""
+  },
+  {
+   "body": "> quoted only",
+   "out": ""
+  },
+  {
+   "body": "a\n  > indented quote\nb",
+   "out": "a\nb"
+  },
+  {
+   "body": "Hello\nOn 1 Oct 2026 Acme wrote:\nold",
+   "out": "Hello"
+  },
+  {
+   "body": "x\n-----Original Message-----\ny",
+   "out": "x"
+  },
+  {
+   "body": "x\n  -----Original Message-----  \ny",
+   "out": "x"
+  },
+  {
+   "body": "On wrote:\nkept",
+   "out": "On wrote:\nkept"
+  },
+  {
+   "body": "On  wrote:\ncut",
+   "out": ""
+  },
+  {
+   "body": "On wrote:\nkept",
+   "out": "On wrote:\nkept"
+  },
+  {
+   "body": "x\r\ny On x wrote:\nz",
+   "out": "x\ny"
+  },
+  {
+   "body": "  lead  \n\n",
+   "out": "lead"
+  },
+  {
+   "body": "On x wrote: tail\nk",
+   "out": "On x wrote: tail\nk"
+  },
+  {
+   "body": "x\n\tOn Tue someone wrote:\t \ny",
+   "out": "x"
+  },
+  {
+   "body": "a\u000bb\u001c> c",
+   "out": "a\nb"
+  }
+ ],
+ "split_name": [
+  {
+   "name": null,
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "Rachel",
+    "Wilson X"
+   ]
+  },
+  {
+   "name": null,
+   "email": "john@b.co",
+   "out": [
+    "John",
+    null
+   ]
+  },
+  {
+   "name": null,
+   "email": "a.b.c@x",
+   "out": [
+    "A",
+    "B C"
+   ]
+  },
+  {
+   "name": null,
+   "email": "noat",
+   "out": [
+    "Noat",
+    null
+   ]
+  },
+  {
+   "name": null,
+   "email": "élève.ß@x.co",
+   "out": [
+    "Élève",
+    "Ss"
+   ]
+  },
+  {
+   "name": "",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "Rachel",
+    "Wilson X"
+   ]
+  },
+  {
+   "name": "",
+   "email": "john@b.co",
+   "out": [
+    "John",
+    null
+   ]
+  },
+  {
+   "name": "",
+   "email": "a.b.c@x",
+   "out": [
+    "A",
+    "B C"
+   ]
+  },
+  {
+   "name": "",
+   "email": "noat",
+   "out": [
+    "Noat",
+    null
+   ]
+  },
+  {
+   "name": "",
+   "email": "élève.ß@x.co",
+   "out": [
+    "Élève",
+    "Ss"
+   ]
+  },
+  {
+   "name": "Rachel Wilson",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "Rachel",
+    "Wilson"
+   ]
+  },
+  {
+   "name": "Rachel Wilson",
+   "email": "john@b.co",
+   "out": [
+    "Rachel",
+    "Wilson"
+   ]
+  },
+  {
+   "name": "Rachel Wilson",
+   "email": "a.b.c@x",
+   "out": [
+    "Rachel",
+    "Wilson"
+   ]
+  },
+  {
+   "name": "Rachel Wilson",
+   "email": "noat",
+   "out": [
+    "Rachel",
+    "Wilson"
+   ]
+  },
+  {
+   "name": "Rachel Wilson",
+   "email": "élève.ß@x.co",
+   "out": [
+    "Rachel",
+    "Wilson"
+   ]
+  },
+  {
+   "name": "\"John Sanders\"",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "John",
+    "Sanders"
+   ]
+  },
+  {
+   "name": "\"John Sanders\"",
+   "email": "john@b.co",
+   "out": [
+    "John",
+    "Sanders"
+   ]
+  },
+  {
+   "name": "\"John Sanders\"",
+   "email": "a.b.c@x",
+   "out": [
+    "John",
+    "Sanders"
+   ]
+  },
+  {
+   "name": "\"John Sanders\"",
+   "email": "noat",
+   "out": [
+    "John",
+    "Sanders"
+   ]
+  },
+  {
+   "name": "\"John Sanders\"",
+   "email": "élève.ß@x.co",
+   "out": [
+    "John",
+    "Sanders"
+   ]
+  },
+  {
+   "name": "rachel@x.co",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "Rachel",
+    "Wilson X"
+   ]
+  },
+  {
+   "name": "rachel@x.co",
+   "email": "john@b.co",
+   "out": [
+    "John",
+    null
+   ]
+  },
+  {
+   "name": "rachel@x.co",
+   "email": "a.b.c@x",
+   "out": [
+    "A",
+    "B C"
+   ]
+  },
+  {
+   "name": "rachel@x.co",
+   "email": "noat",
+   "out": [
+    "Noat",
+    null
+   ]
+  },
+  {
+   "name": "rachel@x.co",
+   "email": "élève.ß@x.co",
+   "out": [
+    "Élève",
+    "Ss"
+   ]
+  },
+  {
+   "name": "  Single  ",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "Single",
+    null
+   ]
+  },
+  {
+   "name": "  Single  ",
+   "email": "john@b.co",
+   "out": [
+    "Single",
+    null
+   ]
+  },
+  {
+   "name": "  Single  ",
+   "email": "a.b.c@x",
+   "out": [
+    "Single",
+    null
+   ]
+  },
+  {
+   "name": "  Single  ",
+   "email": "noat",
+   "out": [
+    "Single",
+    null
+   ]
+  },
+  {
+   "name": "  Single  ",
+   "email": "élève.ß@x.co",
+   "out": [
+    "Single",
+    null
+   ]
+  },
+  {
+   "name": "\"",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "Rachel",
+    "Wilson X"
+   ]
+  },
+  {
+   "name": "\"",
+   "email": "john@b.co",
+   "out": [
+    "John",
+    null
+   ]
+  },
+  {
+   "name": "\"",
+   "email": "a.b.c@x",
+   "out": [
+    "A",
+    "B C"
+   ]
+  },
+  {
+   "name": "\"",
+   "email": "noat",
+   "out": [
+    "Noat",
+    null
+   ]
+  },
+  {
+   "name": "\"",
+   "email": "élève.ß@x.co",
+   "out": [
+    "Élève",
+    "Ss"
+   ]
+  },
+  {
+   "name": "A  B",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "A",
+    " B"
+   ]
+  },
+  {
+   "name": "A  B",
+   "email": "john@b.co",
+   "out": [
+    "A",
+    " B"
+   ]
+  },
+  {
+   "name": "A  B",
+   "email": "a.b.c@x",
+   "out": [
+    "A",
+    " B"
+   ]
+  },
+  {
+   "name": "A  B",
+   "email": "noat",
+   "out": [
+    "A",
+    " B"
+   ]
+  },
+  {
+   "name": "A  B",
+   "email": "élève.ß@x.co",
+   "out": [
+    "A",
+    " B"
+   ]
+  },
+  {
+   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y",
+   "email": "rachel.wilson_x@a.co",
+   "out": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y "
+   ]
+  },
+  {
+   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y",
+   "email": "john@b.co",
+   "out": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y "
+   ]
+  },
+  {
+   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y",
+   "email": "a.b.c@x",
+   "out": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y "
+   ]
+  },
+  {
+   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y",
+   "email": "noat",
+   "out": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y "
+   ]
+  },
+  {
+   "name": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y",
+   "email": "élève.ß@x.co",
+   "out": [
+    "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y y "
+   ]
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+[
+ {
+  "in": "One.\n[[next]]\nTwo.\n\n[[NEXT]] Three.",
+  "out": [
+   "One.",
+   "Two.",
+   "Three."
+  ]
+ },
+ {
+  "in": "Just one.",
+  "out": [
+   "Just one."
+  ]
+ },
+ {
+  "in": "",
+  "out": [
+   ""
+  ]
+ },
+ {
+  "in": "[[next]]",
+  "out": [
+   ""
+  ]
+ },
+ {
+  "in": "a[[next]]b",
+  "out": [
+   "a",
+   "b"
+  ]
+ },
+ {
+  "in": "  [[Next]]  ",
+  "out": [
+   ""
+  ]
+ },
+ {
+  "in": "a\n[[next]]\n\n[[next]]\nb",
+  "out": [
+   "a",
+   "b"
+  ]
+ },
+ {
+  "in": "x [[nexT]]y [[next]]",
+  "out": [
+   "x",
+   "y"
+  ]
+ },
+ {
+  "in": " [[next]] z",
+  "out": [
+   "z"
+  ]
+ }
+]

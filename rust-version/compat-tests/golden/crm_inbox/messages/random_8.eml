@@ -1,0 +1,18 @@
+Date: filename*0="a"  .> =?windows-1252?q?=80?= @ <
+Subject: charset=utf-8 [1.2.3.4]>
+References: filename*1="b"Oct 13 2026 10:00 EST13 Oct 2026 10:00 GMT; (nested (c));
+Date: a@b <?=
+Subject: <>  13 Oct 2026 10.20.30 +0590> <a@b.c>,
+Message-ID: \>
+Content-Type: multipart/mixed; boundary=Q
+
+--Q
+Content-Type: text/plain; charset=utf-8
+
+=C3=A9 qp
+--Q
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<i>x=3Dy</i>
+--Q--

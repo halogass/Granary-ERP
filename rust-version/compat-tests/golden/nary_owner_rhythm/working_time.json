@@ -1,0 +1,8943 @@
+[
+ {
+  "wh": {
+   "days": [
+    5,
+    7
+   ],
+   "start": "11:07",
+   "end": "22:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-12T15:22:36.123456+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-07-12T15:22:36.123456+00:00",
+  "add_working_hours": "2026-07-12T15:22:36.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "04:52",
+   "end": "22:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-03T17:08:39+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-03T17:53:00+00:00",
+  "add_working_hours": "2026-10-03T21:53:39+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    6,
+    7
+   ],
+   "start": "17:07",
+   "end": "22:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-01T06:21:23+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-11-01T08:21:00+00:00",
+  "add_working_hours": "2026-11-01T06:21:23+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "start": "09:45",
+   "end": "16:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-02-17T23:16:08.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-02-20T09:46:00+00:00",
+  "add_working_hours": "2026-03-15T11:46:08.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "start": "09:45",
+   "end": "23:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-03T16:28:23+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-10-03T16:28:23+00:00",
+  "add_working_hours": "2026-10-14T10:28:23+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    7
+   ],
+   "start": "04:15",
+   "end": "21:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-28T08:29:38.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-28T17:29:00+00:00",
+  "add_working_hours": "2026-03-28T18:29:38.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "00:00",
+   "end": "06:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-19T12:19:43.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-19T15:04:00+00:00",
+  "add_working_hours": "2026-03-19T12:19:43.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "22:30",
+   "end": "23:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-08-07T12:54:35.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-08-08T12:09:00+00:00",
+  "add_working_hours": "2026-08-18T12:39:35.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "09:52",
+   "end": "11:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-13T12:54:42.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-18T22:54:00+00:00",
+  "add_working_hours": "2026-05-12T13:24:42.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "00:30",
+   "end": "16:15"
+  },
+  "zone": "UTC",
+  "at": "2026-05-30T12:47:11.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-05-31T00:32:00+00:00",
+  "add_working_hours": "2026-05-30T12:47:11.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "05:22",
+   "end": "12:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-18T01:37:37+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-18T09:22:00+00:00",
+  "add_working_hours": "2026-03-18T10:22:37+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "08:45",
+   "end": "14:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-19T12:33:04+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-01-19T23:48:00+00:00",
+  "add_working_hours": "2027-01-22T02:03:04+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    7
+   ],
+   "start": "03:30",
+   "end": "03:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-04T15:19:32+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-04-04T17:04:00+00:00",
+  "add_working_hours": "2026-06-03T15:19:32+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:45",
+   "end": "23:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-08T07:32:35+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-03-08T07:32:35+00:00",
+  "add_working_hours": "2026-03-08T07:32:35+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "13:45",
+   "end": "19:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-02T12:51:11+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-11-03T18:51:00+00:00",
+  "add_working_hours": "2026-11-02T12:51:11+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6
+   ],
+   "start": "00:52",
+   "end": "22:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-29T19:39:22+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-03-29T19:39:22+00:00",
+  "add_working_hours": "2026-03-29T19:39:22+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    7
+   ],
+   "start": "04:00",
+   "end": "07:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-02-07T18:27:43+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-02-07T19:12:00+00:00",
+  "add_working_hours": "2026-02-09T20:12:43+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5
+   ],
+   "start": "02:37",
+   "end": "17:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-05T23:52:43.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-09T20:52:00+00:00",
+  "add_working_hours": "2026-04-17T06:22:43.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5
+   ],
+   "start": "11:00",
+   "end": "13:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-08T08:05:53+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-10T00:05:00+00:00",
+  "add_working_hours": "2026-03-08T08:05:53+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    6,
+    7
+   ],
+   "start": "12:00",
+   "end": "12:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-14T09:28:25+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-04-16T11:13:00+00:00",
+  "add_working_hours": "2026-05-02T11:43:25+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "07:45",
+   "end": "16:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-02-05T05:58:46+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-02-06T22:58:00+00:00",
+  "add_working_hours": "2026-04-06T05:58:46+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:00",
+   "end": "08:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-03T07:10:58+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-04-03T13:10:00+00:00",
+  "add_working_hours": "2026-04-14T17:25:58+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "15:45",
+   "end": "20:00"
+  },
+  "zone": "UTC",
+  "at": "2026-11-21T04:29:59.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-11-21T15:59:00+00:00",
+  "add_working_hours": "2026-11-22T19:44:59.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    6
+   ],
+   "start": "01:52",
+   "end": "09:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-11T09:53:51.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-12T05:53:00+00:00",
+  "add_working_hours": "2026-03-19T08:08:51.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "14:30",
+   "end": "15:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-01-13T03:52:01.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-01-13T08:52:00+00:00",
+  "add_working_hours": "2026-01-13T03:52:01.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "04:45",
+   "end": "08:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-08-02T13:33:51+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-08-03T19:48:00+00:00",
+  "add_working_hours": "2026-08-02T13:33:51+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "02:15",
+   "end": "03:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-21T17:46:50+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-09-21T17:46:50+00:00",
+  "add_working_hours": "2026-11-20T17:46:50+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "13:30",
+   "end": "22:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-07-03T04:43:10+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-03T07:58:00+00:00",
+  "add_working_hours": "2026-07-05T13:58:10+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "00:45",
+   "end": "23:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-08-30T11:29:01+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-08-30T11:29:01+00:00",
+  "add_working_hours": "2026-08-30T12:29:01+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "start": "06:30",
+   "end": "19:15"
+  },
+  "zone": "UTC",
+  "at": "2026-03-29T01:09:37+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T06:39:00+00:00",
+  "add_working_hours": "2026-03-29T10:39:37+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5,
+    7
+   ],
+   "start": "03:37",
+   "end": "17:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-10-25T01:46:43+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-10-25T01:46:43+00:00",
+  "add_working_hours": "2026-10-25T05:46:43+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    6
+   ],
+   "start": "16:22",
+   "end": "17:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-07-11T02:01:05.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-11T15:31:00+00:00",
+  "add_working_hours": "2026-07-11T02:01:05.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5
+   ],
+   "start": "01:15",
+   "end": "23:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-27T03:00:00+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-11-27T03:00:00+00:00",
+  "add_working_hours": "2026-11-27T04:00:00+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "19:00",
+   "end": "19:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-02-15T16:44:26.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-02-16T10:14:00+00:00",
+  "add_working_hours": "2026-02-17T10:44:26.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "11:37",
+   "end": "14:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-17T01:39:25.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-17T05:54:00+00:00",
+  "add_working_hours": "2026-03-26T07:24:25.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5
+   ],
+   "start": "15:15",
+   "end": "17:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-02-18T23:55:15+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-02-19T06:25:00+00:00",
+  "add_working_hours": "2026-04-19T23:55:15+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "07:22",
+   "end": "20:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-07T03:55:06.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-09T22:25:00+00:00",
+  "add_working_hours": "2026-11-28T05:40:06.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4
+   ],
+   "start": "05:37",
+   "end": "17:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-01-28T18:25:30.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-01-28T23:55:00+00:00",
+  "add_working_hours": "2026-01-28T18:25:30.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "07:00",
+   "end": "21:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-03T17:20:48+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-09T20:05:00+00:00",
+  "add_working_hours": "2026-11-27T22:05:48+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "start": "09:15",
+   "end": "16:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-16T09:57:36.123456+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-11-16T09:57:36.123456+00:00",
+  "add_working_hours": "2026-11-17T03:57:36.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    6,
+    7
+   ],
+   "start": "09:45",
+   "end": "16:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-06-26T14:14:15.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-06-27T04:14:00+00:00",
+  "add_working_hours": "2026-06-27T08:14:15.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5
+   ],
+   "start": "08:37",
+   "end": "19:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-07-19T05:39:20+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-21T02:54:00+00:00",
+  "add_working_hours": "2026-07-24T05:54:20+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "05:30",
+   "end": "17:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-08-05T09:20:17.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-08-05T09:35:00+00:00",
+  "add_working_hours": "2026-08-05T17:35:17.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    5
+   ],
+   "start": "02:30",
+   "end": "17:45"
+  },
+  "zone": "UTC",
+  "at": "2026-07-08T00:27:18+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-10T02:42:00+00:00",
+  "add_working_hours": "2026-07-08T00:27:18+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "09:30",
+   "end": "10:30"
+  },
+  "zone": "UTC",
+  "at": "2026-11-19T20:42:05+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-20T09:42:00+00:00",
+  "add_working_hours": "2026-11-24T10:42:05+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "13:37",
+   "end": "15:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-05T13:35:18.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-05T13:50:00+00:00",
+  "add_working_hours": "2026-04-01T13:05:18.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "10:15",
+   "end": "20:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-15T22:14:26+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-17T04:44:00+00:00",
+  "add_working_hours": "2026-04-20T08:14:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    7
+   ],
+   "start": "01:07",
+   "end": "06:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-09-06T11:50:36.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-09-10T05:20:00+00:00",
+  "add_working_hours": "2026-09-13T08:20:36.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4
+   ],
+   "start": "15:30",
+   "end": "19:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-04T16:06:34+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-04-08T06:36:00+00:00",
+  "add_working_hours": "2026-06-03T16:06:34+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    6
+   ],
+   "start": "10:00",
+   "end": "12:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-07T19:57:18+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-10T04:27:00+00:00",
+  "add_working_hours": "2026-12-12T05:57:18+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "01:37",
+   "end": "10:00"
+  },
+  "zone": "UTC",
+  "at": "2026-11-17T19:58:58.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-11-18T01:43:00+00:00",
+  "add_working_hours": "2026-11-18T09:43:58.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "02:15",
+   "end": "22:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-20T15:55:04.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-01-20T17:25:00+00:00",
+  "add_working_hours": "2026-01-26T13:25:04.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:37",
+   "end": "22:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-04T07:16:53.000001+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-11-04T07:16:53.000001+00:00",
+  "add_working_hours": "2026-11-04T07:16:53.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "04:52",
+   "end": "11:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-06-15T12:04:25.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-06-16T04:04:00+00:00",
+  "add_working_hours": "2026-06-16T05:04:25.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "start": "14:52",
+   "end": "20:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-21T21:34:18.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-23T14:04:00+00:00",
+  "add_working_hours": "2026-10-28T18:04:18.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "06:07",
+   "end": "10:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-08-01T03:38:08.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-08-01T05:08:00+00:00",
+  "add_working_hours": "2026-08-01T09:08:08.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    7
+   ],
+   "start": "16:00",
+   "end": "22:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-02-03T10:20:50.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-02-03T21:05:00+00:00",
+  "add_working_hours": "2026-02-03T22:05:50.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:07",
+   "end": "02:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-10-03T16:19:45+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-04T04:19:00+00:00",
+  "add_working_hours": "2026-11-12T07:49:45+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "start": "03:45",
+   "end": "08:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-07-05T00:32:34.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-07-06T17:17:00+00:00",
+  "add_working_hours": "2026-07-07T20:32:34.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    7
+   ],
+   "start": "16:22",
+   "end": "17:45"
+  },
+  "zone": "UTC",
+  "at": "2026-03-29T01:38:47+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T16:23:00+00:00",
+  "add_working_hours": "2026-05-21T17:53:47+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "start": "15:00",
+   "end": "18:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-16T03:36:22.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-17T09:21:00+00:00",
+  "add_working_hours": "2026-03-19T09:36:22.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "16:00",
+   "end": "20:15"
+  },
+  "zone": "UTC",
+  "at": "2027-01-27T19:48:54.123456+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2027-01-27T19:48:54.123456+00:00",
+  "add_working_hours": "2027-01-30T19:18:54.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:30",
+   "end": "17:45"
+  },
+  "zone": "UTC",
+  "at": "2026-04-02T15:03:36.000001+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-04-02T15:03:36.000001+00:00",
+  "add_working_hours": "2026-04-16T16:03:36.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    7
+   ],
+   "start": "09:30",
+   "end": "21:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-02-06T14:49:39.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-02-07T22:34:00+00:00",
+  "add_working_hours": "2026-02-07T23:34:39.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    6,
+    7
+   ],
+   "start": "14:45",
+   "end": "23:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-25T01:16:44+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T03:46:00+00:00",
+  "add_working_hours": "2026-10-25T04:46:44+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "10:22",
+   "end": "17:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-12-22T16:29:38.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-12-28T10:29:00+00:00",
+  "add_working_hours": "2027-02-20T16:29:38.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4
+   ],
+   "start": "10:07",
+   "end": "13:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-12-22T16:25:32.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-12-24T04:25:00+00:00",
+  "add_working_hours": "2027-02-20T16:25:32.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "14:30",
+   "end": "16:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-05-08T05:38:12.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-05-08T13:38:00+00:00",
+  "add_working_hours": "2026-05-08T14:38:12.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "start": "00:52",
+   "end": "01:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-01T10:09:16.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-03T04:54:00+00:00",
+  "add_working_hours": "2026-08-24T05:39:16.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "start": "01:15",
+   "end": "02:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-06-26T19:15:54+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-06-28T16:15:00+00:00",
+  "add_working_hours": "2026-06-28T17:15:54+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "06:45",
+   "end": "09:00"
+  },
+  "zone": "UTC",
+  "at": "2026-02-13T18:47:10.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-02-14T06:47:00+00:00",
+  "add_working_hours": "2026-02-14T07:47:10.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    5,
+    6
+   ],
+   "start": "14:00",
+   "end": "16:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-02-23T21:08:39.123456+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-02-23T21:08:39.123456+00:00",
+  "add_working_hours": "2026-02-28T21:38:39.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6,
+    7
+   ],
+   "start": "09:30",
+   "end": "18:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-13T07:13:45.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-14T14:43:00+00:00",
+  "add_working_hours": "2026-11-14T18:43:45.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "02:00",
+   "end": "07:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-16T12:57:14.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-17T02:12:00+00:00",
+  "add_working_hours": "2026-12-04T04:27:14.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    7
+   ],
+   "start": "00:00",
+   "end": "13:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-07-31T21:16:43.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-08-01T23:01:00+00:00",
+  "add_working_hours": "2026-08-26T06:16:43.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5,
+    6
+   ],
+   "start": "15:22",
+   "end": "21:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-13T01:15:20.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-13T04:30:00+00:00",
+  "add_working_hours": "2026-03-13T01:15:20.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "09:45",
+   "end": "14:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-09-04T22:22:38.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-09-05T04:07:00+00:00",
+  "add_working_hours": "2026-09-07T07:07:38.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "04:45",
+   "end": "13:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-20T06:54:14+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-21T04:54:00+00:00",
+  "add_working_hours": "2026-03-21T05:54:14+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "03:00",
+   "end": "22:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-08-23T01:40:35+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-26T02:10:00+00:00",
+  "add_working_hours": "2026-09-02T07:10:35+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "08:07",
+   "end": "18:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-06-22T09:02:39.123456+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-06-22T09:02:39.123456+00:00",
+  "add_working_hours": "2026-06-25T12:32:39.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "02:45",
+   "end": "16:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-07-21T03:03:21.000001+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-07-21T03:03:21.000001+00:00",
+  "add_working_hours": "2026-07-21T03:03:21.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6,
+    7
+   ],
+   "start": "19:37",
+   "end": "20:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-27T21:30:37.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-01-31T10:45:00+00:00",
+  "add_working_hours": "2026-01-27T21:30:37.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "08:30",
+   "end": "14:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-25T00:53:46+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T08:38:00+00:00",
+  "add_working_hours": "2026-10-25T12:38:46+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    5
+   ],
+   "start": "00:07",
+   "end": "23:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-10-25T01:18:59+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-26T18:33:00+00:00",
+  "add_working_hours": "2026-11-04T00:33:59+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "03:00",
+   "end": "07:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-01-11T22:12:03+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-01-12T08:12:00+00:00",
+  "add_working_hours": "2026-01-13T11:27:03+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "19:15",
+   "end": "21:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-06-09T15:09:39+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-06-16T10:24:00+00:00",
+  "add_working_hours": "2026-07-07T11:39:39+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "start": "02:00",
+   "end": "02:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-09-04T15:38:54.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-09-05T06:08:00+00:00",
+  "add_working_hours": "2026-09-26T06:23:54.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "start": "00:07",
+   "end": "14:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-22T16:14:04+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-09-23T15:14:00+00:00",
+  "add_working_hours": "2026-09-22T16:14:04+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "11:00",
+   "end": "18:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-03T16:54:59+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-10-03T16:54:59+00:00",
+  "add_working_hours": "2026-10-04T13:09:59+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "00:37",
+   "end": "15:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-02-16T20:10:47.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-02-18T13:40:00+00:00",
+  "add_working_hours": "2026-02-18T17:40:47.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "start": "13:15",
+   "end": "23:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-01-04T15:40:18+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-01-06T02:25:00+00:00",
+  "add_working_hours": "2026-01-09T05:55:18+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    7
+   ],
+   "start": "08:30",
+   "end": "13:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-05-02T14:52:22+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-05-03T02:52:00+00:00",
+  "add_working_hours": "2026-05-12T06:52:22+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "05:15",
+   "end": "15:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-12-09T22:26:09.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-12-10T05:26:00+00:00",
+  "add_working_hours": "2026-12-10T06:26:09.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "start": "14:45",
+   "end": "22:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-30T08:03:54+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-11-30T08:03:54+00:00",
+  "add_working_hours": "2026-11-30T12:03:54+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    7
+   ],
+   "start": "11:52",
+   "end": "20:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-10-25T01:57:16+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T06:12:00+00:00",
+  "add_working_hours": "2026-12-06T07:12:16+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "00:15",
+   "end": "08:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-23T22:14:23+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-24T13:29:00+00:00",
+  "add_working_hours": "2026-04-06T20:29:23+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    7
+   ],
+   "start": "11:07",
+   "end": "17:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-12-07T12:32:53.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-12-08T05:32:00+00:00",
+  "add_working_hours": "2026-12-13T07:17:53.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "05:52",
+   "end": "16:45"
+  },
+  "zone": "UTC",
+  "at": "2026-11-29T06:21:16+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-11-29T06:21:16+00:00",
+  "add_working_hours": "2026-12-09T09:36:16+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "07:22",
+   "end": "10:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-15T01:48:27+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-01-15T22:33:00+00:00",
+  "add_working_hours": "2026-01-19T23:03:27+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "04:37",
+   "end": "10:15"
+  },
+  "zone": "UTC",
+  "at": "2026-10-03T16:05:21+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-05T04:50:00+00:00",
+  "add_working_hours": "2026-12-02T16:05:21+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    7
+   ],
+   "start": "07:15",
+   "end": "14:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-08T07:42:54+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-09T20:27:00+00:00",
+  "add_working_hours": "2026-04-12T02:27:54+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "22:00",
+   "end": "23:00"
+  },
+  "zone": "UTC",
+  "at": "2026-05-08T12:14:08.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-05-08T22:14:00+00:00",
+  "add_working_hours": "2026-05-08T23:14:08.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "17:30",
+   "end": "23:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-05T17:20:00.123456+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-10-05T17:20:00.123456+00:00",
+  "add_working_hours": "2026-10-05T21:20:00.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "06:37",
+   "end": "09:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2027-02-03T13:23:44+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2027-02-03T19:38:00+00:00",
+  "add_working_hours": "2027-02-04T20:53:44+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "08:45",
+   "end": "09:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-09T16:17:26.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-10T08:47:00+00:00",
+  "add_working_hours": "2026-12-15T09:02:26.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "08:37",
+   "end": "18:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-12T11:15:12+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2027-01-12T11:15:12+00:00",
+  "add_working_hours": "2027-01-13T09:45:12+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "start": "10:30",
+   "end": "21:00"
+  },
+  "zone": "UTC",
+  "at": "2026-03-07T13:31:35.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-03-08T10:31:00+00:00",
+  "add_working_hours": "2026-03-08T18:31:35.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "start": "10:00",
+   "end": "19:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-05T19:22:35+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-06T09:07:00+00:00",
+  "add_working_hours": "2026-10-09T15:07:35+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "15:00",
+   "end": "20:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-11T16:47:10+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-04-15T09:17:00+00:00",
+  "add_working_hours": "2026-04-15T13:17:10+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    6,
+    7
+   ],
+   "start": "05:15",
+   "end": "21:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-07-17T15:39:19.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-17T18:54:00+00:00",
+  "add_working_hours": "2026-07-17T15:39:19.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "03:37",
+   "end": "21:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-07-02T20:03:22.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-07-03T17:18:00+00:00",
+  "add_working_hours": "2026-07-03T18:18:22.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:45",
+   "end": "11:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-12-22T02:17:02.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-12-23T00:47:00+00:00",
+  "add_working_hours": "2026-12-22T02:17:02.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    5,
+    6
+   ],
+   "start": "11:22",
+   "end": "18:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-06-19T07:30:42.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-06-19T10:30:00+00:00",
+  "add_working_hours": "2026-06-19T11:30:42.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "02:45",
+   "end": "16:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-05-18T06:30:17.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-05-22T17:45:00+00:00",
+  "add_working_hours": "2026-05-30T04:00:17.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "06:37",
+   "end": "19:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-22T11:10:37.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-09-22T21:40:00+00:00",
+  "add_working_hours": "2026-09-23T01:40:37.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:30",
+   "end": "15:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-09-19T01:21:40.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-09-19T03:06:00+00:00",
+  "add_working_hours": "2026-11-15T02:51:40.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:30",
+   "end": "14:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-02T05:28:40+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T13:43:00+00:00",
+  "add_working_hours": "2026-11-29T14:43:40+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "18:30",
+   "end": "23:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-05-17T05:26:12.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-05-17T17:41:00+00:00",
+  "add_working_hours": "2026-06-05T17:56:12.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "04:00",
+   "end": "06:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-02-23T08:38:41.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-02-23T22:23:00+00:00",
+  "add_working_hours": "2026-02-25T00:08:41.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    6
+   ],
+   "start": "05:37",
+   "end": "06:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-29T03:51:20+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-12-01T00:06:00+00:00",
+  "add_working_hours": "2026-12-02T00:21:20+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "14:37",
+   "end": "17:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-04T15:56:12+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-04-04T15:56:12+00:00",
+  "add_working_hours": "2026-04-12T13:56:12+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    6,
+    7
+   ],
+   "start": "08:07",
+   "end": "23:00"
+  },
+  "zone": "UTC",
+  "at": "2026-09-24T01:31:24+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-09-26T08:16:00+00:00",
+  "add_working_hours": "2026-10-05T19:46:24+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "15:15",
+   "end": "22:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-01-07T23:30:40+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-01-09T09:30:00+00:00",
+  "add_working_hours": "2026-01-13T12:30:40+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "10:37",
+   "end": "11:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-19T00:11:11.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-11-21T23:41:00+00:00",
+  "add_working_hours": "2026-11-22T00:41:11.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "04:30",
+   "end": "19:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-08-28T13:37:13+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-09-01T22:52:00+00:00",
+  "add_working_hours": "2026-10-14T10:22:13+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    6
+   ],
+   "start": "08:45",
+   "end": "20:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-22T08:01:33.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-10-24T07:46:00+00:00",
+  "add_working_hours": "2026-10-22T08:01:33.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5
+   ],
+   "start": "02:15",
+   "end": "13:30"
+  },
+  "zone": "UTC",
+  "at": "2026-11-11T03:43:58+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-12T02:28:00+00:00",
+  "add_working_hours": "2026-12-10T12:28:58+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    5,
+    6
+   ],
+   "start": "05:00",
+   "end": "15:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-01-11T18:08:21+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-01-12T23:23:00+00:00",
+  "add_working_hours": "2026-01-11T18:08:21+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "03:45",
+   "end": "19:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-29T02:07:29+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T07:52:00+00:00",
+  "add_working_hours": "2026-04-05T16:22:29+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "11:00",
+   "end": "20:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-04T14:52:09+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-04-04T14:52:09+00:00",
+  "add_working_hours": "2026-06-03T14:52:09+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "15:07",
+   "end": "17:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-10-15T16:33:16.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-22T09:33:00+00:00",
+  "add_working_hours": "2026-10-22T10:33:16.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "10:00",
+   "end": "14:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-08-23T12:22:43.000001+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-08-23T12:22:43.000001+00:00",
+  "add_working_hours": "2026-08-26T09:22:43.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "04:15",
+   "end": "11:00"
+  },
+  "zone": "UTC",
+  "at": "2026-09-14T14:13:57.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-09-15T04:28:00+00:00",
+  "add_working_hours": "2026-09-19T08:13:57.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "18:22",
+   "end": "20:45"
+  },
+  "zone": "UTC",
+  "at": "2026-10-16T10:33:54.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-10-16T18:33:00+00:00",
+  "add_working_hours": "2026-10-16T10:33:54.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    6
+   ],
+   "start": "17:07",
+   "end": "20:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-21T15:36:44.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-21T17:21:00+00:00",
+  "add_working_hours": "2027-01-20T15:36:44.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    5,
+    7
+   ],
+   "start": "11:07",
+   "end": "19:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-28T09:13:40.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-05-01T00:43:00+00:00",
+  "add_working_hours": "2026-05-04T08:43:40.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "04:00",
+   "end": "21:00"
+  },
+  "zone": "UTC",
+  "at": "2026-11-05T18:03:37.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-06T04:03:00+00:00",
+  "add_working_hours": "2026-11-11T19:03:37.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    6
+   ],
+   "start": "01:00",
+   "end": "23:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-08-04T07:15:14+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-08-05T00:00:00+00:00",
+  "add_working_hours": "2026-08-05T01:00:14+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:30",
+   "end": "21:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-10T21:56:54.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-04-11T07:56:00+00:00",
+  "add_working_hours": "2026-04-11T15:56:54.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2
+   ],
+   "start": "00:00",
+   "end": "04:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-02T22:42:19.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-08T15:12:00+00:00",
+  "add_working_hours": "2027-01-01T22:42:19.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "02:00",
+   "end": "11:30"
+  },
+  "zone": "UTC",
+  "at": "2026-08-27T08:30:34.123456+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-08-27T08:30:34.123456+00:00",
+  "add_working_hours": "2026-08-28T07:00:34.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "12:22",
+   "end": "14:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-09-12T00:10:46.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-09-12T16:25:00+00:00",
+  "add_working_hours": "2026-09-13T17:55:46.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "03:00",
+   "end": "05:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-08-18T07:25:23.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-08-19T02:10:00+00:00",
+  "add_working_hours": "2026-08-20T03:25:23.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:45",
+   "end": "07:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-31T01:25:19+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-03-31T01:25:19+00:00",
+  "add_working_hours": "2026-03-31T22:25:19+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "17:15",
+   "end": "22:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-09-28T03:19:31.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-09-30T21:19:00+00:00",
+  "add_working_hours": "2026-09-28T03:19:31.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "11:52",
+   "end": "22:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-18T15:11:33.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2027-01-20T02:56:00+00:00",
+  "add_working_hours": "2027-03-19T15:11:33.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    6
+   ],
+   "start": "02:45",
+   "end": "16:45"
+  },
+  "zone": "UTC",
+  "at": "2026-02-08T10:45:01+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-02-11T02:45:00+00:00",
+  "add_working_hours": "2026-02-11T06:45:01+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "start": "04:07",
+   "end": "17:30"
+  },
+  "zone": "UTC",
+  "at": "2026-08-05T09:50:58+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-08-05T09:50:58+00:00",
+  "add_working_hours": "2026-08-17T17:05:58+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "14:52",
+   "end": "19:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-08-10T01:46:22+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-15T09:16:00+00:00",
+  "add_working_hours": "2026-09-19T10:46:22+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "05:15",
+   "end": "13:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-12T04:04:12.000001+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-01-12T04:04:12.000001+00:00",
+  "add_working_hours": "2026-01-12T04:04:12.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5
+   ],
+   "start": "13:15",
+   "end": "21:00"
+  },
+  "zone": "UTC",
+  "at": "2026-12-31T05:03:42.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2027-01-01T13:18:00+00:00",
+  "add_working_hours": "2026-12-31T05:03:42.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    7
+   ],
+   "start": "02:00",
+   "end": "18:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-09T03:57:33+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-10-11T01:12:00+00:00",
+  "add_working_hours": "2026-10-11T09:12:33+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "09:15",
+   "end": "22:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-08-07T05:27:54+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-08-09T03:42:00+00:00",
+  "add_working_hours": "2026-08-07T05:27:54+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    6
+   ],
+   "start": "17:30",
+   "end": "22:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-02-10T15:22:40+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-02-14T06:37:00+00:00",
+  "add_working_hours": "2026-02-14T10:37:40+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4
+   ],
+   "start": "06:37",
+   "end": "18:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-02-13T11:40:59+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-02-16T19:40:00+00:00",
+  "add_working_hours": "2026-02-17T03:40:59+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "04:22",
+   "end": "13:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-19T17:32:10.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-22T22:47:00+00:00",
+  "add_working_hours": "2026-04-25T04:17:10.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "start": "16:37",
+   "end": "16:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-10-25T02:35:00+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T02:35:00+00:00",
+  "add_working_hours": "2026-12-24T03:35:00+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "07:15",
+   "end": "18:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-01-24T02:33:28+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-01-24T02:33:28+00:00",
+  "add_working_hours": "2026-01-24T06:33:28+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    7
+   ],
+   "start": "02:37",
+   "end": "21:30"
+  },
+  "zone": "UTC",
+  "at": "2026-03-15T21:00:17.000001+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-03-15T21:00:17.000001+00:00",
+  "add_working_hours": "2026-03-16T06:15:17.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "10:22",
+   "end": "11:45"
+  },
+  "zone": "UTC",
+  "at": "2026-02-19T07:15:11+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-02-19T10:30:00+00:00",
+  "add_working_hours": "2026-02-19T11:30:11+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "09:45",
+   "end": "13:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-21T22:36:40.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2027-01-26T00:51:00+00:00",
+  "add_working_hours": "2027-01-21T22:36:40.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "06:15",
+   "end": "08:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-17T01:01:17.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2027-01-17T21:16:00+00:00",
+  "add_working_hours": "2027-01-17T01:01:17.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "start": "04:45",
+   "end": "10:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-08-12T23:19:56.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-08-14T08:49:00+00:00",
+  "add_working_hours": "2026-08-12T23:19:56.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4
+   ],
+   "start": "06:00",
+   "end": "14:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-27T12:41:52.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-30T10:11:00+00:00",
+  "add_working_hours": "2026-03-30T14:11:52.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "15:37",
+   "end": "20:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-08-06T07:44:41+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-08-06T14:44:00+00:00",
+  "add_working_hours": "2026-08-06T18:44:41+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5
+   ],
+   "start": "00:45",
+   "end": "13:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-31T20:23:15.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-04T00:53:00+00:00",
+  "add_working_hours": "2026-11-05T12:38:15.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:37",
+   "end": "19:45"
+  },
+  "zone": "UTC",
+  "at": "2027-01-31T10:50:32+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2027-01-31T13:50:00+00:00",
+  "add_working_hours": "2027-01-31T14:50:32+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:45",
+   "end": "14:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-06-14T04:03:13.123456+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-06-14T04:03:13.123456+00:00",
+  "add_working_hours": "2026-06-14T05:03:13.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "02:45",
+   "end": "21:00"
+  },
+  "zone": "UTC",
+  "at": "2026-01-17T07:55:57.000001+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-01-17T07:55:57.000001+00:00",
+  "add_working_hours": "2026-01-17T08:55:57.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "10:15",
+   "end": "11:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-04T15:34:30+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-04-05T01:19:00+00:00",
+  "add_working_hours": "2026-04-04T15:34:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "start": "01:15",
+   "end": "15:30"
+  },
+  "zone": "UTC",
+  "at": "2026-02-26T20:43:41+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-02-27T01:28:00+00:00",
+  "add_working_hours": "2026-02-27T05:28:41+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2
+   ],
+   "start": "20:00",
+   "end": "21:15"
+  },
+  "zone": "UTC",
+  "at": "2026-06-27T07:42:25+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-06-29T20:12:00+00:00",
+  "add_working_hours": "2026-08-26T07:42:25+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3
+   ],
+   "start": "09:22",
+   "end": "12:15"
+  },
+  "zone": "UTC",
+  "at": "2026-08-07T17:28:06.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-11T09:28:00+00:00",
+  "add_working_hours": "2026-09-02T12:28:06.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "06:15",
+   "end": "08:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-06-05T03:39:19.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-06-05T19:54:00+00:00",
+  "add_working_hours": "2026-06-18T21:54:19.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6
+   ],
+   "start": "04:45",
+   "end": "16:00"
+  },
+  "zone": "UTC",
+  "at": "2026-09-07T11:51:36+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-09-07T11:51:36+00:00",
+  "add_working_hours": "2026-09-14T13:21:36+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    7
+   ],
+   "start": "03:22",
+   "end": "15:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-07T14:00:05.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-04-11T17:00:00+00:00",
+  "add_working_hours": "2026-04-07T14:00:05.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5
+   ],
+   "start": "07:30",
+   "end": "13:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-10-08T17:36:38.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-09T11:36:00+00:00",
+  "add_working_hours": "2026-10-23T12:36:38.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:45",
+   "end": "22:45"
+  },
+  "zone": "UTC",
+  "at": "2026-07-05T18:17:30.000001+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-07-05T18:17:30.000001+00:00",
+  "add_working_hours": "2026-07-06T17:17:30.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "05:37",
+   "end": "08:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-21T05:02:58.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-22T09:47:00+00:00",
+  "add_working_hours": "2026-07-21T05:02:58.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "11:00",
+   "end": "15:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-21T14:51:43.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-22T00:06:00+00:00",
+  "add_working_hours": "2026-12-25T04:06:43.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "start": "04:52",
+   "end": "08:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-25T01:37:40+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-26T04:52:00+00:00",
+  "add_working_hours": "2026-12-14T06:52:40+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "start": "02:22",
+   "end": "07:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-01-21T21:24:10.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-01-22T02:24:00+00:00",
+  "add_working_hours": "2026-01-22T03:24:10.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5
+   ],
+   "start": "03:15",
+   "end": "06:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-02-18T22:51:31+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-02-20T03:21:00+00:00",
+  "add_working_hours": "2026-04-10T03:36:31+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "21:45",
+   "end": "23:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-08-15T14:48:39+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-08-15T16:03:00+00:00",
+  "add_working_hours": "2026-08-20T16:33:39+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "00:00",
+   "end": "07:45"
+  },
+  "zone": "UTC",
+  "at": "2026-05-30T08:27:46.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-06-06T00:12:00+00:00",
+  "add_working_hours": "2026-07-29T08:27:46.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    6,
+    7
+   ],
+   "start": "02:37",
+   "end": "10:15"
+  },
+  "zone": "UTC",
+  "at": "2026-08-01T22:33:40.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-08-02T02:48:00+00:00",
+  "add_working_hours": "2026-08-02T03:48:40.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    7
+   ],
+   "start": "00:15",
+   "end": "07:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-02-03T14:47:40.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-02-04T15:17:00+00:00",
+  "add_working_hours": "2026-02-05T15:47:40.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "12:37",
+   "end": "23:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-05-28T15:01:42+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-05-28T16:46:00+00:00",
+  "add_working_hours": "2026-05-28T20:46:42+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "05:52",
+   "end": "11:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-04T15:14:31+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-04-10T20:59:00+00:00",
+  "add_working_hours": "2026-04-10T21:59:31+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "06:45",
+   "end": "07:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-08-04T21:03:32.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-08-04T21:48:00+00:00",
+  "add_working_hours": "2026-10-03T21:03:32.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "start": "13:30",
+   "end": "23:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-01T05:52:19+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T04:37:00+00:00",
+  "add_working_hours": "2026-11-02T08:37:19+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6,
+    7
+   ],
+   "start": "06:45",
+   "end": "07:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-01-18T17:35:52+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-01-19T01:05:00+00:00",
+  "add_working_hours": "2026-03-19T17:35:52+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "17:00",
+   "end": "23:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-12T17:49:51+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-17T17:04:00+00:00",
+  "add_working_hours": "2026-03-17T18:04:51+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    7
+   ],
+   "start": "03:00",
+   "end": "06:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-25T02:40:20.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T18:10:00+00:00",
+  "add_working_hours": "2026-10-28T18:40:20.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:45",
+   "end": "12:45"
+  },
+  "zone": "UTC",
+  "at": "2026-03-29T02:12:26+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T09:57:00+00:00",
+  "add_working_hours": "2026-03-31T11:57:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "14:30",
+   "end": "18:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-14T00:19:50.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2027-01-14T08:49:00+00:00",
+  "add_working_hours": "2027-01-16T09:04:50.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "08:30",
+   "end": "17:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-30T06:54:14.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-30T08:39:00+00:00",
+  "add_working_hours": "2026-10-30T09:39:14.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "09:00",
+   "end": "15:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-13T02:46:14+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-11-13T09:01:00+00:00",
+  "add_working_hours": "2026-11-14T10:16:14+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "02:15",
+   "end": "13:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-12-26T04:43:15.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-12-28T17:28:00+00:00",
+  "add_working_hours": "2027-01-11T18:58:15.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "07:22",
+   "end": "21:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-29T01:08:22+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-04-04T11:23:00+00:00",
+  "add_working_hours": "2026-03-29T01:08:22+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    7
+   ],
+   "start": "05:45",
+   "end": "22:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-12-25T06:44:22+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-12-27T00:14:00+00:00",
+  "add_working_hours": "2026-12-25T06:44:22+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    6,
+    7
+   ],
+   "start": "00:15",
+   "end": "07:15"
+  },
+  "zone": "UTC",
+  "at": "2026-01-27T09:50:48.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-01-31T00:20:00+00:00",
+  "add_working_hours": "2026-01-27T09:50:48.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "06:45",
+   "end": "20:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-10-25T01:11:32+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-10-28T01:11:00+00:00",
+  "add_working_hours": "2026-10-25T01:11:32+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "start": "06:45",
+   "end": "17:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-03T19:12:15+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-04-05T21:57:00+00:00",
+  "add_working_hours": "2026-04-03T19:12:15+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "start": "09:00",
+   "end": "17:30"
+  },
+  "zone": "UTC",
+  "at": "2026-07-31T20:49:31.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-08-01T09:04:00+00:00",
+  "add_working_hours": "2026-07-31T20:49:31.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "07:00",
+   "end": "20:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-22T00:32:12.000001+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-10-22T00:32:12.000001+00:00",
+  "add_working_hours": "2026-10-22T08:32:12.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5,
+    7
+   ],
+   "start": "18:00",
+   "end": "23:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-08-19T17:26:31.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-21T09:11:00+00:00",
+  "add_working_hours": "2026-08-30T13:11:31.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    5
+   ],
+   "start": "10:00",
+   "end": "19:00"
+  },
+  "zone": "UTC",
+  "at": "2026-10-03T16:39:04+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-05T10:09:00+00:00",
+  "add_working_hours": "2026-10-09T16:09:04+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "01:07",
+   "end": "12:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-07-12T09:51:05.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-13T16:21:00+00:00",
+  "add_working_hours": "2026-07-12T09:51:05.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    7
+   ],
+   "start": "09:37",
+   "end": "22:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-09-17T14:16:25.000001+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-09-17T14:16:25.000001+00:00",
+  "add_working_hours": "2026-10-04T14:16:25.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "start": "11:37",
+   "end": "16:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-21T09:00:08.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-23T00:45:00+00:00",
+  "add_working_hours": "2026-03-23T01:45:08.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "12:00",
+   "end": "22:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-06-20T04:01:19.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-06-20T11:01:00+00:00",
+  "add_working_hours": "2026-06-20T12:01:19.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "09:30",
+   "end": "16:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-01T06:53:36+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T09:38:00+00:00",
+  "add_working_hours": "2026-11-02T13:38:36+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    6
+   ],
+   "start": "06:15",
+   "end": "13:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-13T14:27:08.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-01-16T00:42:00+00:00",
+  "add_working_hours": "2027-01-18T01:42:08.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "04:00",
+   "end": "16:00"
+  },
+  "zone": "Europe/London",
+  "at": "2027-01-19T16:45:36+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2027-01-20T04:00:00+00:00",
+  "add_working_hours": "2027-01-22T16:00:36+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "14:22",
+   "end": "17:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-10-10T15:43:40.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-14T18:28:00+00:00",
+  "add_working_hours": "2026-12-09T16:43:40.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "18:45",
+   "end": "23:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-25T01:10:52+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T07:55:00+00:00",
+  "add_working_hours": "2026-10-25T11:55:52+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6
+   ],
+   "start": "00:15",
+   "end": "06:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-19T00:56:09.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-19T15:26:00+00:00",
+  "add_working_hours": "2026-05-01T19:56:09.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4
+   ],
+   "start": "00:15",
+   "end": "15:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-29T02:06:42+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T23:21:00+00:00",
+  "add_working_hours": "2026-03-30T03:21:42+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    7
+   ],
+   "start": "04:52",
+   "end": "11:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-12-27T17:42:42.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-12-31T23:12:00+00:00",
+  "add_working_hours": "2027-01-10T04:27:42.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "08:52",
+   "end": "22:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-06-17T13:35:10+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-06-21T00:05:00+00:00",
+  "add_working_hours": "2026-06-28T11:05:10+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    7
+   ],
+   "start": "01:45",
+   "end": "19:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-12-30T21:53:17.000001+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-12-30T21:53:17.000001+00:00",
+  "add_working_hours": "2027-01-03T04:08:17.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:45",
+   "end": "08:00"
+  },
+  "zone": "America/New_York",
+  "at": "2027-01-05T14:27:00.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2027-01-06T12:57:00+00:00",
+  "add_working_hours": "2027-03-06T14:27:00.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6
+   ],
+   "start": "12:22",
+   "end": "14:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-29T01:39:24+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-30T03:24:00+00:00",
+  "add_working_hours": "2026-03-31T05:24:24+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "16:00",
+   "end": "21:00"
+  },
+  "zone": "UTC",
+  "at": "2026-10-25T01:58:00+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T16:13:00+00:00",
+  "add_working_hours": "2026-10-25T17:13:00+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "start": "03:07",
+   "end": "12:30"
+  },
+  "zone": "UTC",
+  "at": "2026-07-14T08:19:24+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-07-14T08:19:24+00:00",
+  "add_working_hours": "2026-07-15T07:04:24+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    6
+   ],
+   "start": "03:00",
+   "end": "06:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-25T17:35:07.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-27T03:05:00+00:00",
+  "add_working_hours": "2026-10-27T04:05:07.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "start": "02:37",
+   "end": "15:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-12-03T13:34:52+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-12-03T13:34:52+00:00",
+  "add_working_hours": "2026-12-08T13:04:52+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "06:00",
+   "end": "10:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-05-12T04:24:35.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-05-17T05:09:00+00:00",
+  "add_working_hours": "2026-05-17T06:09:35.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:07",
+   "end": "21:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2027-02-03T01:43:26.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-02-03T22:13:00+00:00",
+  "add_working_hours": "2027-02-04T06:13:26.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "02:45",
+   "end": "16:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-12-26T10:00:50.123456+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-12-26T10:00:50.123456+00:00",
+  "add_working_hours": "2026-12-27T04:30:50.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "start": "04:52",
+   "end": "20:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-04-13T10:10:06.123456+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-04-13T10:10:06.123456+00:00",
+  "add_working_hours": "2026-04-21T14:10:06.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:15",
+   "end": "12:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-06-12T23:54:41.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-06-13T08:24:00+00:00",
+  "add_working_hours": "2026-06-19T11:24:41.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "03:30",
+   "end": "22:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-03T07:53:15.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-05T08:38:00+00:00",
+  "add_working_hours": "2026-03-03T07:53:15.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "07:52",
+   "end": "11:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-03T17:19:26+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-10-04T07:04:00+00:00",
+  "add_working_hours": "2026-10-06T08:34:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "start": "15:22",
+   "end": "20:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-10-21T07:49:19.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-21T19:34:00+00:00",
+  "add_working_hours": "2026-10-28T22:34:19.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:22",
+   "end": "09:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-01T05:59:48+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-01T12:29:00+00:00",
+  "add_working_hours": "2026-11-14T13:44:48+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "05:30",
+   "end": "06:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-04T16:06:56+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-04-05T04:36:00+00:00",
+  "add_working_hours": "2026-04-12T05:36:56+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "start": "00:52",
+   "end": "19:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-10-09T05:08:25+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-10-09T05:08:25+00:00",
+  "add_working_hours": "2026-10-17T10:08:25+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "12:45",
+   "end": "15:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-07-10T09:41:04+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-07-10T11:56:00+00:00",
+  "add_working_hours": "2026-08-15T12:56:04+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    6,
+    7
+   ],
+   "start": "00:30",
+   "end": "19:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-15T17:39:57.123456+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-03-15T17:39:57.123456+00:00",
+  "add_working_hours": "2026-03-28T21:24:57.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4
+   ],
+   "start": "00:52",
+   "end": "22:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-04T16:05:59+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-04-08T00:05:00+00:00",
+  "add_working_hours": "2026-04-08T01:05:59+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "01:45",
+   "end": "11:15"
+  },
+  "zone": "UTC",
+  "at": "2026-10-03T15:48:57+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-10T01:48:00+00:00",
+  "add_working_hours": "2026-10-10T05:48:57+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "20:37",
+   "end": "23:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-29T01:21:26+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-03-29T01:21:26+00:00",
+  "add_working_hours": "2026-04-08T02:51:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    7
+   ],
+   "start": "10:15",
+   "end": "16:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-25T01:13:06+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T01:28:00+00:00",
+  "add_working_hours": "2026-10-25T05:28:06+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "14:37",
+   "end": "23:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-01-09T05:46:58.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-01-09T14:46:00+00:00",
+  "add_working_hours": "2026-01-09T15:46:58.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "03:15",
+   "end": "22:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-15T01:52:41+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-09-15T01:52:41+00:00",
+  "add_working_hours": "2026-09-15T01:52:41+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "00:00",
+   "end": "17:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-14T19:00:11.000001+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-03-14T19:00:11.000001+00:00",
+  "add_working_hours": "2026-03-21T12:30:11.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5
+   ],
+   "start": "08:15",
+   "end": "13:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-17T10:22:19+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-18T23:22:00+00:00",
+  "add_working_hours": "2026-11-05T23:37:19+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5
+   ],
+   "start": "02:45",
+   "end": "16:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-07-24T22:47:16+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-07-28T17:47:00+00:00",
+  "add_working_hours": "2026-07-29T01:47:16+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5,
+    7
+   ],
+   "start": "01:00",
+   "end": "16:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-07-30T20:36:01.123456+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-07-30T20:36:01.123456+00:00",
+  "add_working_hours": "2026-08-02T05:21:01.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "04:00",
+   "end": "16:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-15T19:05:27.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-17T17:05:00+00:00",
+  "add_working_hours": "2026-11-28T03:50:27.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "21:07",
+   "end": "21:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-12-13T15:11:37+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-12-14T02:11:00+00:00",
+  "add_working_hours": "2026-12-20T02:26:37+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    7
+   ],
+   "start": "02:52",
+   "end": "11:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-05-26T07:18:44.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-05-26T21:18:00+00:00",
+  "add_working_hours": "2026-06-03T05:18:44.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6,
+    7
+   ],
+   "start": "20:00",
+   "end": "21:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-29T01:49:02+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T11:04:00+00:00",
+  "add_working_hours": "2026-03-29T12:04:02+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    6
+   ],
+   "start": "08:45",
+   "end": "22:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-15T08:19:51.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-11-16T03:04:00+00:00",
+  "add_working_hours": "2026-11-16T04:04:51.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:15",
+   "end": "10:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-03T17:29:06+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-10-03T22:29:00+00:00",
+  "add_working_hours": "2026-10-07T23:29:06+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:15",
+   "end": "10:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-07-11T12:20:03.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-12T01:35:00+00:00",
+  "add_working_hours": "2026-07-19T04:35:03.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "05:07",
+   "end": "09:30"
+  },
+  "zone": "UTC",
+  "at": "2026-03-24T01:09:19.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-26T05:09:00+00:00",
+  "add_working_hours": "2026-05-23T01:09:19.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    7
+   ],
+   "start": "01:15",
+   "end": "19:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-08-06T18:02:57.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-07T00:17:00+00:00",
+  "add_working_hours": "2026-08-09T06:02:57.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    6,
+    7
+   ],
+   "start": "15:45",
+   "end": "20:30"
+  },
+  "zone": "UTC",
+  "at": "2026-08-25T17:34:32.123456+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-08-25T17:34:32.123456+00:00",
+  "add_working_hours": "2026-10-01T17:49:32.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    6,
+    7
+   ],
+   "start": "03:07",
+   "end": "23:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-08T07:32:03+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-03-08T07:32:03+00:00",
+  "add_working_hours": "2026-03-09T11:17:03+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "05:30",
+   "end": "08:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-02T07:42:32.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T18:42:00+00:00",
+  "add_working_hours": "2026-11-10T21:42:32.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "start": "00:30",
+   "end": "05:15"
+  },
+  "zone": "UTC",
+  "at": "2026-10-03T16:42:45+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-10-04T00:42:00+00:00",
+  "add_working_hours": "2026-10-05T03:57:45+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "14:52",
+   "end": "21:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-04-16T18:57:47.123456+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-04-16T18:57:47.123456+00:00",
+  "add_working_hours": "2026-04-19T21:57:47.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "08:37",
+   "end": "17:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-12-30T05:49:29.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-12-30T13:49:00+00:00",
+  "add_working_hours": "2026-12-30T21:49:29.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "03:45",
+   "end": "05:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-25T01:01:30+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-31T18:46:00+00:00",
+  "add_working_hours": "2026-12-24T01:01:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "05:00",
+   "end": "16:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-28T07:55:58.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-09-28T20:10:00+00:00",
+  "add_working_hours": "2026-09-28T07:55:58.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    6
+   ],
+   "start": "13:37",
+   "end": "21:15"
+  },
+  "zone": "UTC",
+  "at": "2026-04-04T16:35:58+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-04-04T16:35:58+00:00",
+  "add_working_hours": "2026-04-14T18:05:58+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "start": "17:30",
+   "end": "23:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-09-20T17:09:14.000001+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-09-20T17:09:14.000001+00:00",
+  "add_working_hours": "2026-09-21T18:54:14.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "01:30",
+   "end": "12:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-10T14:24:32+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-01-15T16:39:00+00:00",
+  "add_working_hours": "2027-01-16T00:39:32+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    5,
+    7
+   ],
+   "start": "05:00",
+   "end": "09:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-07-08T01:50:10.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-09T04:05:00+00:00",
+  "add_working_hours": "2026-07-17T08:05:10.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5
+   ],
+   "start": "14:30",
+   "end": "22:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-14T08:07:26+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-09-18T05:37:00+00:00",
+  "add_working_hours": "2026-09-18T06:37:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "08:45",
+   "end": "17:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-03T21:50:23.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-04T23:50:00+00:00",
+  "add_working_hours": "2026-04-07T05:50:23.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    7
+   ],
+   "start": "10:07",
+   "end": "20:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-04T12:19:42.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-07-05T14:19:00+00:00",
+  "add_working_hours": "2026-07-05T22:19:42.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    7
+   ],
+   "start": "09:30",
+   "end": "20:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-02-27T04:55:38.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-01T09:40:00+00:00",
+  "add_working_hours": "2026-04-01T09:40:38.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "22:15",
+   "end": "23:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-01T23:04:44.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-05T13:19:00+00:00",
+  "add_working_hours": "2026-10-05T14:19:44.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "19:22",
+   "end": "23:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-17T19:23:40.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-01-18T10:23:00+00:00",
+  "add_working_hours": "2026-01-17T19:23:40.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "04:45",
+   "end": "08:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-02T09:06:46.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2027-01-02T23:06:00+00:00",
+  "add_working_hours": "2027-01-03T23:51:46.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4
+   ],
+   "start": "02:00",
+   "end": "11:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-03T17:34:33+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-06T17:04:00+00:00",
+  "add_working_hours": "2026-11-11T18:04:33+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:52",
+   "end": "05:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-07T14:45:30.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-11-08T06:00:00+00:00",
+  "add_working_hours": "2026-11-09T10:00:30.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "02:52",
+   "end": "12:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-07-01T11:10:31.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-01T21:10:00+00:00",
+  "add_working_hours": "2026-07-16T01:10:31.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    6,
+    7
+   ],
+   "start": "17:45",
+   "end": "18:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-02-01T14:49:14.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-02-02T12:04:00+00:00",
+  "add_working_hours": "2026-02-01T14:49:14.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "12:07",
+   "end": "19:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-25T02:39:34+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-31T03:09:00+00:00",
+  "add_working_hours": "2026-10-31T07:09:34+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "18:00",
+   "end": "22:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-05T17:58:56.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-06T12:28:00+00:00",
+  "add_working_hours": "2026-03-11T15:13:56.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "06:15",
+   "end": "11:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-19T05:21:24.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-19T10:21:00+00:00",
+  "add_working_hours": "2026-03-19T11:21:24.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5,
+    7
+   ],
+   "start": "02:37",
+   "end": "21:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-09T13:08:40+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-10T17:38:00+00:00",
+  "add_working_hours": "2026-11-21T23:53:40+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    6
+   ],
+   "start": "15:30",
+   "end": "22:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-17T12:27:07.123456+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-01-17T12:27:07.123456+00:00",
+  "add_working_hours": "2026-01-24T07:27:07.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    5
+   ],
+   "start": "08:07",
+   "end": "20:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-09-14T00:51:52.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-09-14T21:51:00+00:00",
+  "add_working_hours": "2026-09-15T01:51:52.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    6,
+    7
+   ],
+   "start": "01:37",
+   "end": "15:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-08T07:14:26+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-03-08T07:14:26+00:00",
+  "add_working_hours": "2026-03-08T08:14:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    7
+   ],
+   "start": "17:37",
+   "end": "20:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-09-09T11:24:36+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-09-09T21:39:00+00:00",
+  "add_working_hours": "2026-09-09T22:39:36+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "start": "06:30",
+   "end": "23:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-08T07:30:43+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-08T19:30:00+00:00",
+  "add_working_hours": "2026-03-08T20:30:43+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5
+   ],
+   "start": "05:22",
+   "end": "08:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-02-16T07:26:55.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-02-17T23:41:00+00:00",
+  "add_working_hours": "2026-02-20T00:11:55.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "00:45",
+   "end": "19:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-17T07:57:37+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-03-17T07:57:37+00:00",
+  "add_working_hours": "2026-03-17T07:57:37+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "05:00",
+   "end": "18:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-01T06:06:53+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-11-01T10:06:00+00:00",
+  "add_working_hours": "2026-11-01T06:06:53+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5
+   ],
+   "start": "21:52",
+   "end": "23:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-07-11T17:39:25.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-15T11:24:00+00:00",
+  "add_working_hours": "2026-07-11T17:39:25.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "15:15",
+   "end": "17:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-01-07T09:42:37.000001+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-01-07T09:42:37.000001+00:00",
+  "add_working_hours": "2026-01-20T11:42:37.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    7
+   ],
+   "start": "04:30",
+   "end": "09:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-04T15:28:47+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-04-04T18:13:00+00:00",
+  "add_working_hours": "2026-04-04T15:28:47+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "13:45",
+   "end": "17:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-12-21T21:32:51+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-12-22T04:47:00+00:00",
+  "add_working_hours": "2027-01-24T06:47:51+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "14:45",
+   "end": "15:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-01T06:45:30+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T05:45:00+00:00",
+  "add_working_hours": "2026-11-12T06:15:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "start": "21:45",
+   "end": "23:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-06-03T20:45:49.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-06-04T11:15:00+00:00",
+  "add_working_hours": "2026-06-04T12:15:49.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "01:37",
+   "end": "20:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-02-08T06:17:25.123456+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-02-08T06:17:25.123456+00:00",
+  "add_working_hours": "2026-02-08T06:17:25.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    6
+   ],
+   "start": "11:00",
+   "end": "19:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-07-13T07:01:59+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-07-17T10:01:00+00:00",
+  "add_working_hours": "2026-07-17T11:01:59+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "start": "10:30",
+   "end": "16:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-01T14:34:13+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-09-02T01:34:00+00:00",
+  "add_working_hours": "2026-09-07T04:04:13+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "05:30",
+   "end": "16:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-02-09T17:31:11.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-02-10T10:31:00+00:00",
+  "add_working_hours": "2026-02-10T18:31:11.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "17:52",
+   "end": "22:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-11T20:22:17.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-14T08:52:00+00:00",
+  "add_working_hours": "2026-03-11T20:22:17.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "12:07",
+   "end": "17:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-07-24T15:36:52.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-07-26T11:21:00+00:00",
+  "add_working_hours": "2026-07-26T12:21:52.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2
+   ],
+   "start": "04:07",
+   "end": "11:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-07-17T19:53:01.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-19T22:23:00+00:00",
+  "add_working_hours": "2026-07-17T19:53:01.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    6
+   ],
+   "start": "01:00",
+   "end": "16:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-02T17:04:40.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-05T01:04:00+00:00",
+  "add_working_hours": "2026-03-05T02:04:40.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    6,
+    7
+   ],
+   "start": "13:45",
+   "end": "23:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-05-23T15:41:09.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-05-23T17:56:00+00:00",
+  "add_working_hours": "2026-05-23T21:56:09.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "03:00",
+   "end": "13:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-01-04T02:11:03+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-01-04T08:11:00+00:00",
+  "add_working_hours": "2026-01-04T12:11:03+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "start": "08:15",
+   "end": "18:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-04T05:10:07.123456+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-11-04T05:10:07.123456+00:00",
+  "add_working_hours": "2026-11-04T09:10:07.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5
+   ],
+   "start": "11:45",
+   "end": "19:00"
+  },
+  "zone": "Europe/London",
+  "at": "2027-01-15T07:14:00+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2027-01-15T11:59:00+00:00",
+  "add_working_hours": "2027-01-15T15:59:00+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:15",
+   "end": "13:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-02-16T06:13:22.000001+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-02-16T06:13:22.000001+00:00",
+  "add_working_hours": "2026-02-16T06:13:22.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    6
+   ],
+   "start": "16:30",
+   "end": "17:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-12-16T16:44:59.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-12-18T05:44:00+00:00",
+  "add_working_hours": "2027-01-22T06:14:59.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3
+   ],
+   "start": "04:30",
+   "end": "18:30"
+  },
+  "zone": "Europe/London",
+  "at": "2027-01-10T19:57:19.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2027-01-12T04:42:00+00:00",
+  "add_working_hours": "2027-01-12T08:42:19.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4
+   ],
+   "start": "02:00",
+   "end": "05:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-05-12T15:13:48.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-05-14T01:13:00+00:00",
+  "add_working_hours": "2026-05-18T01:43:48.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    7
+   ],
+   "start": "08:15",
+   "end": "15:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-07-19T19:18:49.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-07-21T21:48:00+00:00",
+  "add_working_hours": "2026-07-19T19:18:49.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "06:45",
+   "end": "09:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-09T11:22:10.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-03-14T10:52:00+00:00",
+  "add_working_hours": "2026-04-04T11:22:10.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "02:07",
+   "end": "03:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-09T05:46:28.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-01-10T17:16:00+00:00",
+  "add_working_hours": "2026-02-10T18:16:28.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "02:00",
+   "end": "05:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-18T22:35:10.000001+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-11-18T22:35:10.000001+00:00",
+  "add_working_hours": "2026-11-19T23:05:10.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "07:15",
+   "end": "10:00"
+  },
+  "zone": "UTC",
+  "at": "2026-08-15T13:32:37+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-08-17T07:17:00+00:00",
+  "add_working_hours": "2026-08-24T08:32:37+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "04:52",
+   "end": "12:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-25T01:06:10+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-26T18:06:00+00:00",
+  "add_working_hours": "2026-10-30T21:06:10+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "start": "16:00",
+   "end": "21:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-22T02:22:30+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-04-22T05:37:00+00:00",
+  "add_working_hours": "2026-05-26T05:52:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:30",
+   "end": "14:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-03T16:59:56+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-04T04:44:00+00:00",
+  "add_working_hours": "2026-10-05T05:14:56+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:22",
+   "end": "09:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-03T16:39:23+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-10-03T16:39:23+00:00",
+  "add_working_hours": "2026-10-14T20:24:23+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "09:30",
+   "end": "17:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-02-21T07:18:42+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-02-26T03:48:00+00:00",
+  "add_working_hours": "2026-02-26T11:48:42+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    6,
+    7
+   ],
+   "start": "12:30",
+   "end": "18:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-18T13:22:47.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-11-20T12:37:00+00:00",
+  "add_working_hours": "2026-11-18T13:22:47.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "start": "05:15",
+   "end": "07:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-08T08:42:14+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-03-08T20:27:00+00:00",
+  "add_working_hours": "2026-03-15T21:27:14+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "02:52",
+   "end": "16:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-08-20T02:27:52.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-20T06:57:00+00:00",
+  "add_working_hours": "2026-08-22T16:57:52.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4
+   ],
+   "start": "02:45",
+   "end": "11:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-01-25T15:59:23+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-01-26T15:59:00+00:00",
+  "add_working_hours": "2026-01-26T19:59:23+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4
+   ],
+   "start": "01:37",
+   "end": "18:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-05T21:57:26+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-10-06T16:42:00+00:00",
+  "add_working_hours": "2026-10-05T21:57:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    6
+   ],
+   "start": "12:22",
+   "end": "13:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-26T09:14:35.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2027-01-27T03:29:00+00:00",
+  "add_working_hours": "2027-03-27T09:14:35.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    7
+   ],
+   "start": "03:22",
+   "end": "11:15"
+  },
+  "zone": "UTC",
+  "at": "2026-05-12T08:43:35.123456+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-05-12T08:43:35.123456+00:00",
+  "add_working_hours": "2026-05-17T08:43:35.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "start": "08:07",
+   "end": "23:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-08-10T08:53:03.000001+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-08-10T08:53:03.000001+00:00",
+  "add_working_hours": "2026-08-12T01:53:03.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "18:45",
+   "end": "19:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-04T15:51:48+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-05T13:06:00+00:00",
+  "add_working_hours": "2026-05-08T14:06:48+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    7
+   ],
+   "start": "08:30",
+   "end": "12:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-29T01:05:32+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-03-29T01:05:32+00:00",
+  "add_working_hours": "2026-04-23T23:20:32+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "15:30",
+   "end": "16:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-12-03T17:59:11.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-12-04T15:44:00+00:00",
+  "add_working_hours": "2027-01-09T16:29:11.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "17:07",
+   "end": "17:30"
+  },
+  "zone": "UTC",
+  "at": "2026-09-21T01:49:38.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-09-21T17:19:00+00:00",
+  "add_working_hours": "2026-11-20T01:49:38.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "02:30",
+   "end": "06:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-09-02T11:20:30+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-09-05T06:35:00+00:00",
+  "add_working_hours": "2026-09-12T07:05:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5
+   ],
+   "start": "01:15",
+   "end": "08:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-09-12T06:52:57.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-09-14T00:22:00+00:00",
+  "add_working_hours": "2026-09-14T01:22:57.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:00",
+   "end": "15:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-12-24T00:14:23+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-12-24T00:14:23+00:00",
+  "add_working_hours": "2026-12-26T21:59:23+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    6
+   ],
+   "start": "06:07",
+   "end": "06:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-31T14:49:58+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-08-01T10:19:00+00:00",
+  "add_working_hours": "2026-09-05T10:49:58+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5
+   ],
+   "start": "01:22",
+   "end": "07:30"
+  },
+  "zone": "UTC",
+  "at": "2026-03-08T06:57:50+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-13T01:27:00+00:00",
+  "add_working_hours": "2026-03-13T05:27:50+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6,
+    7
+   ],
+   "start": "08:45",
+   "end": "12:15"
+  },
+  "zone": "UTC",
+  "at": "2026-05-29T20:31:40.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-05-30T08:46:00+00:00",
+  "add_working_hours": "2026-06-06T09:46:40.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4
+   ],
+   "start": "04:00",
+   "end": "12:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-05-01T06:13:07.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-05-05T22:28:00+00:00",
+  "add_working_hours": "2026-05-05T23:28:07.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:00",
+   "end": "23:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-08-04T20:00:19+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-05T07:15:00+00:00",
+  "add_working_hours": "2026-08-07T10:15:19+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    6
+   ],
+   "start": "04:22",
+   "end": "13:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-04T07:20:00.000001+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2027-01-04T07:20:00.000001+00:00",
+  "add_working_hours": "2027-01-07T06:05:00.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    6,
+    7
+   ],
+   "start": "00:15",
+   "end": "13:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-01T07:36:53+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-03T13:21:00+00:00",
+  "add_working_hours": "2026-11-07T00:36:53+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    7
+   ],
+   "start": "07:15",
+   "end": "09:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-20T13:47:22+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-01-24T01:32:00+00:00",
+  "add_working_hours": "2027-02-03T02:02:22+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "02:00",
+   "end": "19:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-01T07:01:59+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-11-04T15:01:00+00:00",
+  "add_working_hours": "2026-11-04T23:01:59+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6
+   ],
+   "start": "16:52",
+   "end": "23:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-29T19:50:06+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-30T21:05:00+00:00",
+  "add_working_hours": "2026-03-29T19:50:06+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "06:15",
+   "end": "16:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-22T07:36:42.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-22T10:21:00+00:00",
+  "add_working_hours": "2026-07-25T13:21:42.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5,
+    7
+   ],
+   "start": "01:30",
+   "end": "18:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-05-06T11:27:01+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-05-07T15:12:00+00:00",
+  "add_working_hours": "2026-05-07T16:12:01+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    6
+   ],
+   "start": "18:00",
+   "end": "23:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-13T10:03:16.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2027-01-15T12:18:00+00:00",
+  "add_working_hours": "2027-01-29T16:18:16.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "01:00",
+   "end": "21:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-02-03T22:11:02.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-02-05T01:11:00+00:00",
+  "add_working_hours": "2026-02-03T22:11:02.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    7
+   ],
+   "start": "07:00",
+   "end": "16:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-08T07:47:55+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-03-08T07:47:55+00:00",
+  "add_working_hours": "2026-03-11T06:17:55+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3
+   ],
+   "start": "07:15",
+   "end": "13:00"
+  },
+  "zone": "UTC",
+  "at": "2026-05-10T15:18:10.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-05-11T07:18:00+00:00",
+  "add_working_hours": "2026-05-13T09:33:10.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "02:30",
+   "end": "04:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-05-04T06:30:31.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-05-05T01:30:00+00:00",
+  "add_working_hours": "2026-05-04T06:30:31.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    5
+   ],
+   "start": "04:45",
+   "end": "15:15"
+  },
+  "zone": "UTC",
+  "at": "2026-12-05T18:53:12.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-12-07T04:53:00+00:00",
+  "add_working_hours": "2026-12-28T10:23:12.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3
+   ],
+   "start": "11:00",
+   "end": "11:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-12-03T22:23:13.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-12-08T00:08:00+00:00",
+  "add_working_hours": "2027-01-27T00:23:13.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "03:00",
+   "end": "23:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-12-07T02:54:03+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-12-07T02:54:03+00:00",
+  "add_working_hours": "2026-12-11T10:54:03+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3
+   ],
+   "start": "04:37",
+   "end": "16:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-08T08:42:17+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-08T17:42:00+00:00",
+  "add_working_hours": "2026-03-24T19:42:17+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "05:45",
+   "end": "09:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-07-25T06:10:49.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-07-28T19:25:00+00:00",
+  "add_working_hours": "2026-08-11T20:55:49.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "02:52",
+   "end": "10:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-29T02:39:43+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T15:54:00+00:00",
+  "add_working_hours": "2026-03-29T19:54:43+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:15",
+   "end": "15:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-19T06:56:52+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-04-20T02:56:00+00:00",
+  "add_working_hours": "2026-06-08T04:56:52+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    6,
+    7
+   ],
+   "start": "01:30",
+   "end": "08:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-05-22T15:34:34.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-05-22T16:34:00+00:00",
+  "add_working_hours": "2026-05-23T17:49:34.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    6,
+    7
+   ],
+   "start": "06:00",
+   "end": "17:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-04T15:08:56+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-04-04T15:08:56+00:00",
+  "add_working_hours": "2026-04-08T16:08:56+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "10:30",
+   "end": "12:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-08-03T17:49:00.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-08-04T14:34:00+00:00",
+  "add_working_hours": "2026-09-01T15:34:00.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:45",
+   "end": "05:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-30T13:24:15.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-30T16:54:00+00:00",
+  "add_working_hours": "2026-05-05T20:54:15.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "06:15",
+   "end": "14:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-15T07:43:13+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2027-01-21T00:43:00+00:00",
+  "add_working_hours": "2027-01-21T01:43:13+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:37",
+   "end": "22:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-02-11T17:37:50+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-02-11T17:37:50+00:00",
+  "add_working_hours": "2026-02-11T17:37:50+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "start": "06:22",
+   "end": "23:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-09-18T10:02:22.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-09-18T20:02:00+00:00",
+  "add_working_hours": "2026-09-19T00:02:22.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    7
+   ],
+   "start": "12:22",
+   "end": "20:45"
+  },
+  "zone": "UTC",
+  "at": "2026-01-07T09:22:10+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-01-07T12:22:00+00:00",
+  "add_working_hours": "2026-01-23T18:52:10+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "start": "09:15",
+   "end": "15:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-28T01:09:43+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T13:24:00+00:00",
+  "add_working_hours": "2026-03-28T01:09:43+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "10:37",
+   "end": "20:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-05-23T16:43:43.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-05-24T14:43:00+00:00",
+  "add_working_hours": "2026-05-23T16:43:43.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "17:07",
+   "end": "23:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-12-16T09:51:42+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-12-16T09:51:42+00:00",
+  "add_working_hours": "2027-01-03T09:51:42+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "11:45",
+   "end": "16:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-26T08:16:51+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-04-27T02:46:00+00:00",
+  "add_working_hours": "2026-04-27T03:46:51+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "03:45",
+   "end": "10:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-05-26T21:21:13.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-05-26T22:06:00+00:00",
+  "add_working_hours": "2026-05-28T23:06:13.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "03:30",
+   "end": "18:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-19T11:08:22.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2027-01-20T18:38:00+00:00",
+  "add_working_hours": "2027-01-20T22:38:22.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "00:00",
+   "end": "21:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-09-25T09:14:39.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-09-25T18:29:00+00:00",
+  "add_working_hours": "2026-09-26T20:44:39.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    5,
+    7
+   ],
+   "start": "00:15",
+   "end": "18:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-12T18:58:55.123456+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-11-12T18:58:55.123456+00:00",
+  "add_working_hours": "2026-11-22T03:43:55.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    6,
+    7
+   ],
+   "start": "14:30",
+   "end": "18:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-18T17:30:46.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-21T05:30:00+00:00",
+  "add_working_hours": "2026-05-02T09:30:46.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5,
+    6,
+    7
+   ],
+   "start": "03:00",
+   "end": "14:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-09-29T21:37:36+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-01T16:37:00+00:00",
+  "add_working_hours": "2026-10-01T17:37:36+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5,
+    6
+   ],
+   "start": "00:15",
+   "end": "04:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-03T18:26:35+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-06T00:26:00+00:00",
+  "add_working_hours": "2026-03-16T01:56:35+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "03:45",
+   "end": "10:45"
+  },
+  "zone": "UTC",
+  "at": "2026-07-11T03:09:00.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-11T03:54:00+00:00",
+  "add_working_hours": "2026-07-14T06:54:00.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:30",
+   "end": "14:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-01T12:10:25+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-03-01T12:10:25+00:00",
+  "add_working_hours": "2026-03-06T09:55:25+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:45",
+   "end": "16:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2027-01-29T02:31:06.123456+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2027-01-29T02:31:06.123456+00:00",
+  "add_working_hours": "2027-01-29T16:16:06.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5,
+    6,
+    7
+   ],
+   "start": "13:52",
+   "end": "20:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-08-28T07:45:44.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-28T18:00:00+00:00",
+  "add_working_hours": "2026-09-04T21:45:44.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "17:30",
+   "end": "19:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-18T19:03:44.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-25T17:33:00+00:00",
+  "add_working_hours": "2026-10-25T18:33:44.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "01:15",
+   "end": "07:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-20T05:27:27+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-21T06:27:00+00:00",
+  "add_working_hours": "2026-11-21T10:27:27+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:37",
+   "end": "12:45"
+  },
+  "zone": "UTC",
+  "at": "2027-02-03T14:03:34.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2027-02-04T00:48:00+00:00",
+  "add_working_hours": "2027-02-03T14:03:34.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "04:22",
+   "end": "04:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-03T16:28:02+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-03T19:28:00+00:00",
+  "add_working_hours": "2026-12-02T16:28:02+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    5,
+    6
+   ],
+   "start": "03:37",
+   "end": "14:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-01T06:02:52+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-11-01T16:47:00+00:00",
+  "add_working_hours": "2026-11-01T17:47:52+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "start": "04:15",
+   "end": "13:15"
+  },
+  "zone": "UTC",
+  "at": "2026-03-06T23:01:29.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-03-07T04:16:00+00:00",
+  "add_working_hours": "2026-03-07T08:16:29.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "01:45",
+   "end": "03:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-01-23T21:15:06+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-01-24T06:45:00+00:00",
+  "add_working_hours": "2026-02-09T08:00:06+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "10:45",
+   "end": "13:45"
+  },
+  "zone": "UTC",
+  "at": "2026-07-12T18:31:58.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-07-16T10:46:00+00:00",
+  "add_working_hours": "2026-09-10T18:31:58.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6,
+    7
+   ],
+   "start": "16:45",
+   "end": "20:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-02-04T02:49:33.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-02-07T05:49:00+00:00",
+  "add_working_hours": "2026-02-08T06:34:33.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2
+   ],
+   "start": "11:15",
+   "end": "20:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-03T17:25:02+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-10-06T10:25:00+00:00",
+  "add_working_hours": "2026-10-20T15:25:02+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "start": "08:52",
+   "end": "20:15"
+  },
+  "zone": "UTC",
+  "at": "2026-01-21T05:16:48.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-01-21T09:01:00+00:00",
+  "add_working_hours": "2026-01-21T10:01:48.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4
+   ],
+   "start": "00:45",
+   "end": "07:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-02T13:38:03+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-07-06T04:53:00+00:00",
+  "add_working_hours": "2026-07-08T06:38:03+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "04:45",
+   "end": "22:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-09-01T08:57:42.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-09-07T03:57:00+00:00",
+  "add_working_hours": "2026-10-12T17:42:42.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:15",
+   "end": "05:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-09-11T01:10:03.123456+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-09-11T01:10:03.123456+00:00",
+  "add_working_hours": "2026-09-12T04:10:03.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:07",
+   "end": "03:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-01-04T15:07:07.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-01-05T06:07:00+00:00",
+  "add_working_hours": "2026-01-08T06:37:07.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "start": "09:30",
+   "end": "18:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-10-16T00:00:18.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-18T13:30:00+00:00",
+  "add_working_hours": "2026-11-04T15:30:18.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "00:15",
+   "end": "17:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-17T11:25:20.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-17T15:25:00+00:00",
+  "add_working_hours": "2026-03-25T06:25:20.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5
+   ],
+   "start": "02:30",
+   "end": "09:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-03-22T04:32:35.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-24T02:32:00+00:00",
+  "add_working_hours": "2026-04-03T05:17:35.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4
+   ],
+   "start": "00:15",
+   "end": "04:00"
+  },
+  "zone": "UTC",
+  "at": "2026-06-23T01:12:36.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-06-25T00:27:00+00:00",
+  "add_working_hours": "2026-07-02T00:57:36.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6,
+    7
+   ],
+   "start": "10:45",
+   "end": "23:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-12-29T07:19:49+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2027-01-02T05:04:00+00:00",
+  "add_working_hours": "2026-12-29T07:19:49+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "10:45",
+   "end": "23:15"
+  },
+  "zone": "UTC",
+  "at": "2026-04-15T22:29:46+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-04-15T22:29:46+00:00",
+  "add_working_hours": "2026-04-15T23:29:46+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1
+   ],
+   "start": "02:00",
+   "end": "16:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2027-01-20T10:50:00+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2027-01-24T20:20:00+00:00",
+  "add_working_hours": "2027-01-24T21:20:00+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4,
+    6
+   ],
+   "start": "15:30",
+   "end": "17:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-08-27T15:20:07.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-29T06:35:00+00:00",
+  "add_working_hours": "2026-09-24T08:35:07.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "07:30",
+   "end": "16:00"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-16T12:06:35+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-04-19T01:51:00+00:00",
+  "add_working_hours": "2026-04-19T09:51:35+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    6,
+    7
+   ],
+   "start": "07:00",
+   "end": "19:15"
+  },
+  "zone": "UTC",
+  "at": "2026-02-12T05:37:55+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-02-12T07:07:00+00:00",
+  "add_working_hours": "2026-02-12T08:07:55+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    7
+   ],
+   "start": "20:45",
+   "end": "21:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-01T07:35:54+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-01T20:50:00+00:00",
+  "add_working_hours": "2026-12-31T07:35:54+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:15",
+   "end": "16:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-18T04:28:10.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-03-19T01:43:00+00:00",
+  "add_working_hours": "2026-03-21T07:13:10.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    6
+   ],
+   "start": "03:45",
+   "end": "19:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-04T16:11:55+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-04-08T17:26:00+00:00",
+  "add_working_hours": "2026-04-08T18:26:55+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "17:00",
+   "end": "18:45"
+  },
+  "zone": "UTC",
+  "at": "2026-04-04T14:56:11+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-04-04T17:11:00+00:00",
+  "add_working_hours": "2026-04-08T18:11:11+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "10:00",
+   "end": "15:15"
+  },
+  "zone": "UTC",
+  "at": "2026-10-03T17:09:38+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-04T10:09:00+00:00",
+  "add_working_hours": "2026-10-04T11:09:38+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    5,
+    6
+   ],
+   "start": "09:52",
+   "end": "21:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-02-16T00:28:29.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-02-16T00:58:00+00:00",
+  "add_working_hours": "2026-03-02T04:58:29.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "11:45",
+   "end": "14:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-05-07T05:00:32.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-05-08T01:15:00+00:00",
+  "add_working_hours": "2026-07-06T05:00:32.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "start": "08:22",
+   "end": "18:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-08-29T01:07:37.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-29T12:22:00+00:00",
+  "add_working_hours": "2026-09-01T15:22:37.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "16:15",
+   "end": "21:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-23T00:35:16.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-26T05:20:00+00:00",
+  "add_working_hours": "2026-11-26T09:20:16.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4
+   ],
+   "start": "02:00",
+   "end": "11:45"
+  },
+  "zone": "UTC",
+  "at": "2026-06-30T12:20:17+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-07-01T02:05:00+00:00",
+  "add_working_hours": "2026-07-01T10:05:17+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3
+   ],
+   "start": "11:15",
+   "end": "12:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-21T03:55:53.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-11-23T05:40:00+00:00",
+  "add_working_hours": "2026-12-09T06:10:53.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "01:30",
+   "end": "08:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-01-31T19:31:17.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-02-02T01:31:00+00:00",
+  "add_working_hours": "2026-02-06T05:16:17.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    5
+   ],
+   "start": "06:52",
+   "end": "07:30"
+  },
+  "zone": "UTC",
+  "at": "2026-10-25T00:57:33+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-30T06:57:00+00:00",
+  "add_working_hours": "2026-11-06T07:12:33+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "15:45",
+   "end": "21:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-03T17:34:19+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-10-04T06:49:00+00:00",
+  "add_working_hours": "2026-10-03T17:34:19+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "start": "06:37",
+   "end": "22:45"
+  },
+  "zone": "UTC",
+  "at": "2027-01-29T21:30:52+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-01-30T06:45:00+00:00",
+  "add_working_hours": "2027-01-30T14:45:52+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    6
+   ],
+   "start": "02:37",
+   "end": "10:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-09-05T10:26:37+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-09-05T10:26:37+00:00",
+  "add_working_hours": "2026-09-07T10:11:37+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "19:15",
+   "end": "21:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-08T06:36:49+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-09T23:21:00+00:00",
+  "add_working_hours": "2026-03-08T06:36:49+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:15",
+   "end": "13:45"
+  },
+  "zone": "Europe/London",
+  "at": "2027-01-13T19:27:21+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2027-01-14T01:27:00+00:00",
+  "add_working_hours": "2027-01-21T13:57:21+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    4
+   ],
+   "start": "10:45",
+   "end": "17:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-07-29T03:14:12.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-07-30T05:14:00+00:00",
+  "add_working_hours": "2026-08-04T06:29:12.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "03:00",
+   "end": "19:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-12-27T17:37:48.123456+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-12-27T17:37:48.123456+00:00",
+  "add_working_hours": "2027-01-05T18:37:48.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "03:00",
+   "end": "09:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-29T01:53:34+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-03-31T18:08:00+00:00",
+  "add_working_hours": "2026-03-31T19:08:34+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    5
+   ],
+   "start": "10:00",
+   "end": "19:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-02-05T21:50:17.123456+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-02-06T04:20:00+00:00",
+  "add_working_hours": "2026-03-13T06:50:17.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5
+   ],
+   "start": "10:30",
+   "end": "22:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-08-28T16:58:03.123456+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-08-28T16:58:03.123456+00:00",
+  "add_working_hours": "2026-08-28T17:58:03.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    5
+   ],
+   "start": "03:30",
+   "end": "20:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-07-19T12:58:51+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-07-19T18:43:00+00:00",
+  "add_working_hours": "2026-07-21T01:28:51+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "04:52",
+   "end": "08:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-03-29T00:56:26+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-03-29T08:56:00+00:00",
+  "add_working_hours": "2026-04-28T11:26:26+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "16:30",
+   "end": "22:15"
+  },
+  "zone": "UTC",
+  "at": "2026-11-11T22:39:15.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-12T16:39:00+00:00",
+  "add_working_hours": "2026-11-17T17:39:15.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    7
+   ],
+   "start": "00:52",
+   "end": "19:00"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-04T16:23:19+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-04-04T23:53:00+00:00",
+  "add_working_hours": "2026-04-05T00:53:19+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "07:15",
+   "end": "19:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-07-26T00:11:44.123456+00:00",
+  "hours": 1,
+  "in_hours": true,
+  "next_working_start": "2026-07-26T00:11:44.123456+00:00",
+  "add_working_hours": "2026-07-26T01:11:44.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "07:45",
+   "end": "23:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-01-09T14:22:42.000001+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-01-10T22:52:00+00:00",
+  "add_working_hours": "2026-01-10T23:52:42.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "13:00",
+   "end": "15:30"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-01-16T18:24:37.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-01-17T04:09:00+00:00",
+  "add_working_hours": "2027-01-20T04:39:37.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    5,
+    7
+   ],
+   "start": "10:45",
+   "end": "22:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-04-02T03:07:46+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-04-03T01:52:00+00:00",
+  "add_working_hours": "2026-04-03T05:52:46+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:30",
+   "end": "07:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-04-04T15:40:39+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-04-04T19:55:00+00:00",
+  "add_working_hours": "2026-04-06T21:55:39+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2
+   ],
+   "start": "08:45",
+   "end": "13:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-06-08T02:58:25+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-06-08T22:28:00+00:00",
+  "add_working_hours": "2026-06-08T23:28:25+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2
+   ],
+   "start": "00:52",
+   "end": "11:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-05-23T08:15:09+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-05-24T14:30:00+00:00",
+  "add_working_hours": "2026-05-24T15:30:09+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:15",
+   "end": "13:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-01-05T09:42:34.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-01-06T14:27:00+00:00",
+  "add_working_hours": "2026-01-07T17:57:34.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    6
+   ],
+   "start": "01:37",
+   "end": "06:30"
+  },
+  "zone": "UTC",
+  "at": "2026-08-02T21:40:30+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-08-03T01:40:00+00:00",
+  "add_working_hours": "2026-08-02T21:40:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "06:00",
+   "end": "17:00"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-02-04T16:23:10+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-02-04T19:08:00+00:00",
+  "add_working_hours": "2026-02-05T03:08:10+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:30",
+   "end": "23:00"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-19T10:25:56.000001+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-09-19T10:25:56.000001+00:00",
+  "add_working_hours": "2026-09-19T16:55:56.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "08:15",
+   "end": "16:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-07-19T00:43:28.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-07-25T12:28:00+00:00",
+  "add_working_hours": "2026-07-25T16:28:28.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "08:45",
+   "end": "15:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-14T08:40:13+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-10-14T21:55:00+00:00",
+  "add_working_hours": "2026-10-15T23:10:13+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:00",
+   "end": "20:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-04-10T15:47:53.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-10T22:32:00+00:00",
+  "add_working_hours": "2026-04-12T23:32:53.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "12:00",
+   "end": "21:45"
+  },
+  "zone": "America/New_York",
+  "at": "2027-01-03T23:26:27.123456+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2027-01-03T23:26:27.123456+00:00",
+  "add_working_hours": "2027-01-06T18:11:27.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    5,
+    7
+   ],
+   "start": "06:00",
+   "end": "20:15"
+  },
+  "zone": "Europe/London",
+  "at": "2026-10-25T10:41:03.000001+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-10-25T10:41:03.000001+00:00",
+  "add_working_hours": "2026-11-06T10:56:03.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    6,
+    7
+   ],
+   "start": "09:15",
+   "end": "14:15"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-03-04T07:32:37.123456+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-03-04T07:32:37.123456+00:00",
+  "add_working_hours": "2026-03-07T06:32:37.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    7
+   ],
+   "start": "05:37",
+   "end": "19:15"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-01T06:53:16+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-01T10:38:00+00:00",
+  "add_working_hours": "2026-12-20T14:23:16+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "start": "18:52",
+   "end": "22:45"
+  },
+  "zone": "UTC",
+  "at": "2026-12-27T15:49:49.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-12-29T19:04:00+00:00",
+  "add_working_hours": "2027-01-07T20:34:49.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:45",
+   "end": "15:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-02-20T23:55:55.000001+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-02-20T23:55:55.000001+00:00",
+  "add_working_hours": "2026-02-28T03:40:55.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "07:52",
+   "end": "20:15"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-03-29T02:44:30+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-03-29T02:44:30+00:00",
+  "add_working_hours": "2026-03-29T22:14:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5,
+    7
+   ],
+   "start": "10:52",
+   "end": "16:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-12-29T17:05:30+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-12-29T17:05:30+00:00",
+  "add_working_hours": "2026-12-29T21:05:30+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5,
+    6,
+    7
+   ],
+   "start": "16:30",
+   "end": "18:30"
+  },
+  "zone": "UTC",
+  "at": "2026-05-21T23:33:50.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-05-22T16:33:00+00:00",
+  "add_working_hours": "2026-05-23T18:33:50.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "00:37",
+   "end": "07:15"
+  },
+  "zone": "UTC",
+  "at": "2026-06-02T17:00:57.123456+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-06-03T00:45:00+00:00",
+  "add_working_hours": "2026-06-04T02:15:57.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    6
+   ],
+   "start": "09:15",
+   "end": "17:30"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-01T06:59:59+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T14:29:00+00:00",
+  "add_working_hours": "2026-11-01T06:59:59+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    5
+   ],
+   "start": "02:37",
+   "end": "02:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-11-01T07:22:34+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T02:37:00+00:00",
+  "add_working_hours": "2026-12-25T02:52:34+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "05:07",
+   "end": "16:45"
+  },
+  "zone": "UTC",
+  "at": "2026-12-11T05:46:45.123456+00:00",
+  "hours": 24,
+  "in_hours": true,
+  "next_working_start": "2026-12-11T05:46:45.123456+00:00",
+  "add_working_hours": "2026-12-13T06:46:45.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "00:37",
+   "end": "07:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-09-26T12:11:25.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-09-27T15:41:00+00:00",
+  "add_working_hours": "2026-09-28T16:56:25.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "04:30",
+   "end": "20:30"
+  },
+  "zone": "UTC",
+  "at": "2026-01-03T02:16:32.000001+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-01-03T04:31:00+00:00",
+  "add_working_hours": "2026-01-03T08:31:32.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "05:15",
+   "end": "16:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-11-01T07:22:28+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-11-01T07:22:28+00:00",
+  "add_working_hours": "2026-11-02T03:52:28+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "16:22",
+   "end": "18:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2027-01-11T16:07:33.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2027-01-13T05:22:00+00:00",
+  "add_working_hours": "2027-03-12T16:07:33.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4
+   ],
+   "start": "09:52",
+   "end": "10:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-04-29T18:17:54+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-29T18:17:54+00:00",
+  "add_working_hours": "2026-06-28T18:17:54+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5
+   ],
+   "start": "00:30",
+   "end": "04:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-09-08T18:17:29+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-09-10T18:47:00+00:00",
+  "add_working_hours": "2026-09-08T18:17:29+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5
+   ],
+   "start": "21:15",
+   "end": "22:30"
+  },
+  "zone": "Europe/London",
+  "at": "2026-02-22T23:00:01.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2026-02-24T21:15:00+00:00",
+  "add_working_hours": "2026-03-17T21:45:01.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    5
+   ],
+   "start": "03:15",
+   "end": "19:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-04T15:13:23+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-04-06T02:28:00+00:00",
+  "add_working_hours": "2026-04-08T09:58:23+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    5,
+    6,
+    7
+   ],
+   "start": "05:30",
+   "end": "11:45"
+  },
+  "zone": "Europe/London",
+  "at": "2026-04-22T20:14:23.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-04-24T04:44:00+00:00",
+  "add_working_hours": "2026-04-24T05:44:23.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "01:15",
+   "end": "03:45"
+  },
+  "zone": "UTC",
+  "at": "2026-08-18T05:24:38.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-19T01:24:00+00:00",
+  "add_working_hours": "2026-08-28T02:54:38.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4,
+    5,
+    7
+   ],
+   "start": "19:07",
+   "end": "23:30"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-08-21T10:11:13.000001+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-08-21T13:26:00+00:00",
+  "add_working_hours": "2026-08-30T14:56:13.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    4
+   ],
+   "start": "05:00",
+   "end": "08:30"
+  },
+  "zone": "UTC",
+  "at": "2026-10-14T16:19:02+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-10-15T05:04:00+00:00",
+  "add_working_hours": "2026-12-13T16:19:02+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    4
+   ],
+   "start": "03:45",
+   "end": "10:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-05-03T06:08:54.123456+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-05-06T18:53:00+00:00",
+  "add_working_hours": "2026-05-03T06:08:54.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    6,
+    7
+   ],
+   "start": "03:30",
+   "end": "08:45"
+  },
+  "zone": "UTC",
+  "at": "2026-08-12T20:00:34.000001+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-08-13T03:30:00+00:00",
+  "add_working_hours": "2026-08-12T20:00:34.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    6
+   ],
+   "start": "02:37",
+   "end": "06:30"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-11-01T07:25:37+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-11-02T15:40:00+00:00",
+  "add_working_hours": "2026-11-10T19:40:37+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "start": "13:30",
+   "end": "18:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-10-13T16:27:59.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-10-14T04:42:00+00:00",
+  "add_working_hours": "2026-10-14T05:42:59.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "00:37",
+   "end": "01:45"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-11-18T15:40:21+00:00",
+  "hours": 100,
+  "in_hours": true,
+  "next_working_start": "2026-11-18T15:40:21+00:00",
+  "add_working_hours": "2027-01-17T15:40:21+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    5,
+    6
+   ],
+   "start": "03:07",
+   "end": "22:30"
+  },
+  "zone": "UTC",
+  "at": "2026-12-11T21:12:40.000001+00:00",
+  "hours": 0,
+  "in_hours": true,
+  "next_working_start": "2026-12-11T21:12:40.000001+00:00",
+  "add_working_hours": "2026-12-11T21:12:40.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "19:22",
+   "end": "20:45"
+  },
+  "zone": "UTC",
+  "at": "2026-12-26T23:31:42.123456+00:00",
+  "hours": 24,
+  "in_hours": false,
+  "next_working_start": "2026-12-27T19:31:00+00:00",
+  "add_working_hours": "2027-01-15T19:46:42.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    5,
+    6,
+    7
+   ],
+   "start": "06:22",
+   "end": "12:30"
+  },
+  "zone": "UTC",
+  "at": "2026-11-07T06:23:58.123456+00:00",
+  "hours": 8,
+  "in_hours": true,
+  "next_working_start": "2026-11-07T06:23:58.123456+00:00",
+  "add_working_hours": "2026-11-08T08:08:58.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    6,
+    7
+   ],
+   "start": "09:37",
+   "end": "22:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-06-17T01:14:23.000001+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-06-17T01:14:23.000001+00:00",
+  "add_working_hours": "2026-06-17T05:14:23.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "15:15",
+   "end": "17:45"
+  },
+  "zone": "Australia/Lord_Howe",
+  "at": "2026-10-01T11:10:02+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-10-02T04:55:00+00:00",
+  "add_working_hours": "2026-10-03T06:25:02+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "08:22",
+   "end": "13:45"
+  },
+  "zone": "America/New_York",
+  "at": "2026-11-12T10:32:19+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-14T13:32:00+00:00",
+  "add_working_hours": "2027-01-11T10:32:19+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "start": "00:07",
+   "end": "03:45"
+  },
+  "zone": "Asia/Kathmandu",
+  "at": "2026-12-29T15:35:01.123456+00:00",
+  "hours": 1,
+  "in_hours": false,
+  "next_working_start": "2026-12-29T18:35:00+00:00",
+  "add_working_hours": "2026-12-29T19:35:01.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    3,
+    4,
+    7
+   ],
+   "start": "01:00",
+   "end": "08:00"
+  },
+  "zone": "UTC",
+  "at": "2026-07-14T13:17:03.123456+00:00",
+  "hours": 4,
+  "in_hours": false,
+  "next_working_start": "2026-07-15T01:02:00+00:00",
+  "add_working_hours": "2026-07-15T05:02:03.123456+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    6
+   ],
+   "start": "15:00",
+   "end": "20:45"
+  },
+  "zone": "UTC",
+  "at": "2026-07-10T16:25:41.000001+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-07-11T15:10:00+00:00",
+  "add_working_hours": "2026-09-08T16:25:41.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4,
+    5,
+    7
+   ],
+   "start": "21:37",
+   "end": "23:15"
+  },
+  "zone": "UTC",
+  "at": "2026-07-30T18:04:15+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-07-30T21:49:00+00:00",
+  "add_working_hours": "2026-09-28T18:04:15+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "09:15",
+   "end": "11:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2027-02-01T17:07:35.000001+00:00",
+  "hours": 8,
+  "in_hours": false,
+  "next_working_start": "2027-02-02T00:22:00+00:00",
+  "add_working_hours": "2027-02-05T02:22:35.000001+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7
+   ],
+   "start": "10:00",
+   "end": "22:45"
+  },
+  "zone": "UTC",
+  "at": "2026-08-08T22:10:24+00:00",
+  "hours": 4,
+  "in_hours": true,
+  "next_working_start": "2026-08-08T22:10:24+00:00",
+  "add_working_hours": "2026-08-09T13:25:24+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    2,
+    3,
+    4
+   ],
+   "start": "02:00",
+   "end": "07:15"
+  },
+  "zone": "Asia/Tokyo",
+  "at": "2026-03-29T01:29:09+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-03-30T17:14:00+00:00",
+  "add_working_hours": "2026-03-29T01:29:09+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3,
+    6
+   ],
+   "start": "11:45",
+   "end": "18:30"
+  },
+  "zone": "UTC",
+  "at": "2026-11-01T05:50:08+00:00",
+  "hours": 100,
+  "in_hours": false,
+  "next_working_start": "2026-11-04T11:50:00+00:00",
+  "add_working_hours": "2026-12-23T17:20:08+00:00"
+ },
+ {
+  "wh": {
+   "days": [
+    3
+   ],
+   "start": "01:30",
+   "end": "22:00"
+  },
+  "zone": "America/New_York",
+  "at": "2026-01-29T03:31:15+00:00",
+  "hours": 0,
+  "in_hours": false,
+  "next_working_start": "2026-02-04T06:31:00+00:00",
+  "add_working_hours": "2026-01-29T03:31:15+00:00"
+ }
+]

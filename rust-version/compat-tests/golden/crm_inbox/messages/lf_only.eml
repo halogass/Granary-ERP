@@ -1,0 +1,12 @@
+From: a@b
+Content-Type: multipart/alternative; boundary="x y"
+
+--x y
+Content-Type: text/plain; charset=utf-8
+
+lf é
+--x y
+Content-Type: text/html
+
+<b>h</b>
+--x y--

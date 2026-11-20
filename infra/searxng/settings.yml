@@ -1,0 +1,43 @@
+# SearXNG for the ERP's web research (company + contact research, research AI attributes).
+#
+# Internal only: no host port, reached by the backend/worker at http://searxng:8080 over the
+# `research` network. The secret comes from SEARXNG_SECRET in .env (SearXNG reads that
+# variable in place of server.secret_key) — never commit one here.
+use_default_settings: true
+
+general:
+  instance_name: "Granary research"
+
+server:
+  # Placeholder; overridden by the SEARXNG_SECRET environment variable at start-up.
+  secret_key: "set-SEARXNG_SECRET-in-env"
+  # Only our own backend calls this instance, so the bot limiter would only get in its way.
+  limiter: false
+  image_proxy: false
+  public_instance: false
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  # The backend reads JSON; html stays on for debugging from inside the network.
+  formats:
+    - html
+    - json
+
+outgoing:
+  request_timeout: 6.0
+  max_request_timeout: 10.0
+
+# Keyless engines only. Default settings already enable these; listed so a change upstream
+# can't silently drop the ones research depends on.
+engines:
+  - name: google
+    disabled: false
+  - name: bing
+    disabled: false
+  - name: brave
+    disabled: false
+  - name: duckduckgo
+    disabled: false
+  - name: wikipedia
+    disabled: false

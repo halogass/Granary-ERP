@@ -1,0 +1,872 @@
+[
+ {
+  "fn": "_clean_subject",
+  "in": "Re: Quote please",
+  "out": "Quote please"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "RE: x",
+  "out": "x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Fwd: y",
+  "out": "y"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "FW: z",
+  "out": "z"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Fwd:: w",
+  "out": ": w"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "re:re: double",
+  "out": "double"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "   ",
+  "out": "(No Subject)"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "",
+  "out": "(No Subject)"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re:",
+  "out": "(No Subject)"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re",
+  "out": "Re"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Fw: a",
+  "out": "a"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Reply",
+  "out": "Reply"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "fwd x",
+  "out": "fwd x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re:　wide",
+  "out": "wide"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re:\u001cx",
+  "out": "x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Quote",
+  "out": "Quote"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re : spaced",
+  "out": "spaced"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "AW: x",
+  "out": "x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "aw:x",
+  "out": "x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "WG: x",
+  "out": "x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re: Fwd: x",
+  "out": "x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "RE:RE:Re: y",
+  "out": "y"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Report for May",
+  "out": "Report for May"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Awards",
+  "out": "Awards"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Fwd",
+  "out": "Fwd"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Wg",
+  "out": "Wg"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "re :x",
+  "out": "x"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "FWD :  spaced",
+  "out": "spaced"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re:　Fw:z",
+  "out": "z"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re: ",
+  "out": "(No Subject)"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Fw:Fwd:",
+  "out": "(No Subject)"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "RE: Re: Report",
+  "out": "Report"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Fwdx: y",
+  "out": "Fwdx: y"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "KRe: kelvin",
+  "out": "KRe: kelvin"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": "Re:x\nRe: y",
+  "out": "x\nRe: y"
+ },
+ {
+  "fn": "_clean_subject",
+  "in": " Re: leading space",
+  "out": "Re: leading space"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "<p>Hi</p><p>there</p>",
+  "out": "Hi\n there"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "<script>x</script>a<style a=1>b</STYLE>c",
+  "out": "a c"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "a<br>b<br/>c<BR />d",
+  "out": "a\nb\nc\nd"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "<div>x</div>\n\n\n<div>y</div>",
+  "out": "x\n\n y"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "a  \t b",
+  "out": "a b"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "<h1>T</h1><h2>s</h2><tr><td>c</td></tr>",
+  "out": "T\n s\n c"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "",
+  "out": ""
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "<scr<script>ipt>x</script>",
+  "out": "<scr"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "x\n \n\ny",
+  "out": "x\n\ny"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "<b>bold</b> &amp;",
+  "out": "bold &amp;"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": " lead ",
+  "out": "lead"
+ },
+ {
+  "fn": "_html_to_text",
+  "in": "<script>unterminated",
+  "out": "unterminated"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   null,
+   1000
+  ],
+  "out": null
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   null,
+   255
+  ],
+  "out": null
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "",
+   1000
+  ],
+  "out": ""
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "",
+   255
+  ],
+  "out": ""
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<a@b>",
+   1000
+  ],
+  "out": "<a@b>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<a@b>",
+   255
+  ],
+  "out": "<a@b>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   1000
+  ],
+  "out": "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   255
+  ],
+  "out": "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   1000
+  ],
+  "out": "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   255
+  ],
+  "out": "<a1d9e55aa834e365c720fe99e209b675a3b3a9247255fe00e6754344760eb1f0@long-message-id>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé>",
+   1000
+  ],
+  "out": "<ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé>",
+   255
+  ],
+  "out": "<ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   1000
+  ],
+  "out": "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   255
+  ],
+  "out": "<eaca31d8acf47bb1434c921322c3d1c3785a93b1777490b93255b5a0561ca3d8@long-message-id>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   1000
+  ],
+  "out": "<7126ddf824b01bde52dface7d7f17a3b55a62983c35c597a58c8ea29be65d09b@long-message-id>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx>",
+   255
+  ],
+  "out": "<7126ddf824b01bde52dface7d7f17a3b55a62983c35c597a58c8ea29be65d09b@long-message-id>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<üüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü@long>",
+   1000
+  ],
+  "out": "<ff259643e379e4e4e61cab741f39ea374b547af6b8361e2553ba43f90e5bea23@long-message-id>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   "<üüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü@long>",
+   255
+  ],
+  "out": "<ff259643e379e4e4e61cab741f39ea374b547af6b8361e2553ba43f90e5bea23@long-message-id>"
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   " <spaced@x> ",
+   1000
+  ],
+  "out": " <spaced@x> "
+ },
+ {
+  "fn": "_fit_id",
+  "in": [
+   " <spaced@x> ",
+   255
+  ],
+  "out": " <spaced@x> "
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "INBOX",
+  "out": "INBOX"
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "Sent Items",
+  "out": "\"Sent Items\""
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "INBOX.Sent",
+  "out": "INBOX.Sent"
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "[Gmail]/Sent Mail",
+  "out": "\"[Gmail]/Sent Mail\""
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "a\"b",
+  "out": "\"a\\\"b\""
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "back\\slash",
+  "out": "\"back\\\\slash\""
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "Outbox",
+  "out": "Outbox"
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "",
+  "out": "\"\""
+ },
+ {
+  "fn": "quote_mailbox",
+  "in": "x-y_z",
+  "out": "x-y_z"
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxIYXNOb0NoaWxkcmVuKSAiLyIgSU5CT1g=",
+  "out": [
+   [
+    "\\hasnochildren"
+   ],
+   "/",
+   "INBOX"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxIYXNOb0NoaWxkcmVuIFxTZW50KSAiLyIgIlNlbnQgSXRlbXMi",
+  "out": [
+   [
+    "\\hasnochildren",
+    "\\sent"
+   ],
+   "/",
+   "Sent Items"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxOb3NlbGVjdCkgIi4iIElOQk9Y",
+  "out": [
+   [
+    "\\noselect"
+   ],
+   ".",
+   "INBOX"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KCkgTklMICJUcmFzaCI=",
+  "out": [
+   [],
+   null,
+   "Trash"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxIYXNOb0NoaWxkcmVuKSAiLiIgSU5CT1guU2VudA==",
+  "out": [
+   [
+    "\\hasnochildren"
+   ],
+   ".",
+   "INBOX.Sent"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxKdW5rKSAiLyIgIltHbWFpbF0vU3BhbSI=",
+  "out": [
+   [
+    "\\junk"
+   ],
+   "/",
+   "[Gmail]/Spam"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "Z2FyYmFnZQ==",
+  "out": [
+   [],
+   null,
+   null
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxEcmFmdHMpICIvIiAiRHJcImFmdHMi",
+  "out": [
+   [
+    "\\drafts"
+   ],
+   "/",
+   "Dr\"afts"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxUcmFzaCBcSGFzQ2hpbGRyZW4pICIvIiBEZWxldGVkIEl0ZW1z",
+  "out": [
+   [
+    "\\haschildren",
+    "\\trash"
+   ],
+   "/",
+   "Deleted Items"
+  ]
+ },
+ {
+  "fn": "parse_list_line",
+  "in": "KFxYKSAiXFwiIGFcYg==",
+  "out": [
+   [
+    "\\x"
+   ],
+   "\\\\",
+   "a\\b"
+  ]
+ },
+ {
+  "fn": "resolve_folders",
+  "in": [
+   "KFxIYXNOb0NoaWxkcmVuIFxTZW50KSAiLyIgIlNlbnQgSXRlbXMi"
+  ],
+  "out": [
+   [
+    "INBOX",
+    "INBOX"
+   ],
+   [
+    "SENT",
+    "Sent Items"
+   ]
+  ]
+ },
+ {
+  "fn": "resolve_folders",
+  "in": [
+   "KFxIYXNOb0NoaWxkcmVuKSAiLiIgSU5CT1guU2VudA=="
+  ],
+  "out": [
+   [
+    "INBOX",
+    "INBOX"
+   ],
+   [
+    "SENT",
+    "INBOX.Sent"
+   ]
+  ]
+ },
+ {
+  "fn": "resolve_folders",
+  "in": [
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgIltHbWFpbF0vU2VudCBNYWlsIg=="
+  ],
+  "out": [
+   [
+    "INBOX",
+    "INBOX"
+   ],
+   [
+    "SENT",
+    "[Gmail]/Sent Mail"
+   ]
+  ]
+ },
+ {
+  "fn": "resolve_folders",
+  "in": [
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgIlNlbnQgTWVzc2FnZXMi"
+  ],
+  "out": [
+   [
+    "INBOX",
+    "INBOX"
+   ],
+   [
+    "SENT",
+    "Sent Messages"
+   ]
+  ]
+ },
+ {
+  "fn": "resolve_folders",
+  "in": [
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgSU5CT1g=",
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgU2VudA==",
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgVHJhc2g=",
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgSnVuaw==",
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgRHJhZnRz",
+   "KFxIYXNOb0NoaWxkcmVuKSAiLyIgQXJjaGl2ZQ=="
+  ],
+  "out": [
+   [
+    "INBOX",
+    "INBOX"
+   ],
+   [
+    "SENT",
+    "Sent"
+   ],
+   [
+    "DRAFTS",
+    "Drafts"
+   ],
+   [
+    "SPAM",
+    "Junk"
+   ],
+   [
+    "TRASH",
+    "Trash"
+   ],
+   [
+    "ARCHIVE",
+    "Archive"
+   ]
+  ]
+ },
+ {
+  "fn": "resolve_folders",
+  "in": [
+   "KFxOb3NlbGVjdCBcVHJhc2gpICIvIiBCaW4=",
+   "KCkgIi8iICJEZWxldGVkIE1lc3NhZ2VzIg==",
+   "KFxBcmNoaXZlKSAiLyIgIkFsbCBNYWlsIg=="
+  ],
+  "out": [
+   [
+    "INBOX",
+    "INBOX"
+   ],
+   [
+    "TRASH",
+    "Deleted Messages"
+   ],
+   [
+    "ARCHIVE",
+    "All Mail"
+   ]
+  ]
+ },
+ {
+  "fn": "resolve_folders",
+  "in": [
+   "KCkgIiIgImEuU2VudCI=",
+   "KCkgTklMICJ4L1NwYW0i",
+   "KCkgIi8iICJTZW50IEl0ZW1zIg=="
+  ],
+  "out": [
+   [
+    "INBOX",
+    "INBOX"
+   ],
+   [
+    "SENT",
+    "Sent Items"
+   ],
+   [
+    "SPAM",
+    "x/Spam"
+   ]
+  ]
+ },
+ {
+  "fn": "_uid_set",
+  "in": [
+   7,
+   1,
+   2,
+   3,
+   9,
+   10
+  ],
+  "out": "1:3,7,9:10"
+ },
+ {
+  "fn": "_uid_set",
+  "in": [],
+  "out": ""
+ },
+ {
+  "fn": "_uid_set",
+  "in": [
+   5
+  ],
+  "out": "5"
+ },
+ {
+  "fn": "_uid_set",
+  "in": [
+   3,
+   3,
+   4
+  ],
+  "out": "3:4"
+ },
+ {
+  "fn": "_uid_set",
+  "in": [
+   10,
+   8,
+   9,
+   1
+  ],
+  "out": "1,8:10"
+ },
+ {
+  "fn": "_uid_set",
+  "in": [
+   1,
+   3,
+   5
+  ],
+  "out": "1,3,5"
+ },
+ {
+  "fn": "parse_uids",
+  "in": [
+   "MSAyIDM="
+  ],
+  "out": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "fn": "parse_uids",
+  "in": [
+   "U0VBUkNIIDEgMiAz"
+  ],
+  "out": [
+   1,
+   2,
+   3
+  ]
+ },
+ {
+  "fn": "parse_uids",
+  "in": [],
+  "out": []
+ },
+ {
+  "fn": "parse_uids",
+  "in": [
+   ""
+  ],
+  "out": []
+ },
+ {
+  "fn": "parse_uids",
+  "in": [
+   "eCA0IHk1IDY="
+  ],
+  "out": [
+   4,
+   6
+  ]
+ },
+ {
+  "fn": "parse_uids",
+  "in": [
+   "MSAy",
+   "OQ=="
+  ],
+  "out": [
+   1,
+   2
+  ]
+ },
+ {
+  "fn": "seen_in",
+  "in": [
+   "MSBGRVRDSCAoVUlEIDUgRkxBR1MgKFxTZWVuKSBSRkM4MjIgezN9",
+   "YWJj",
+   "KQ=="
+  ],
+  "out": true
+ },
+ {
+  "fn": "seen_in",
+  "in": [
+   "MSBGRVRDSCAoRkxBR1MgKCkp"
+  ],
+  "out": false
+ },
+ {
+  "fn": "seen_in",
+  "in": [],
+  "out": false
+ },
+ {
+  "fn": "seen_in",
+  "in": [
+   "bm8gZmxhZ3M=",
+   "RkxBR1MgKFxBbnN3ZXJlZCBcU2Vlbik="
+  ],
+  "out": true
+ },
+ {
+  "fn": "seen_in",
+  "in": [
+   "RkxBR1MgKFxTZWVu"
+  ],
+  "out": false
+ },
+ {
+  "fn": "_raw_payload",
+  "in": [
+   "eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4",
+   "eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5",
+   "KQ=="
+  ],
+  "out": "eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl5"
+ },
+ {
+  "fn": "_raw_payload",
+  "in": [
+   "c2hvcnQ="
+  ],
+  "out": null
+ },
+ {
+  "fn": "_raw_payload",
+  "in": [
+   "YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFh",
+   "YmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJi"
+  ],
+  "out": "YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFh"
+ },
+ {
+  "fn": "_raw_payload",
+  "in": [],
+  "out": null
+ }
+]

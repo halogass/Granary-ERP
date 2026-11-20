@@ -1,0 +1,50 @@
+[
+ {
+  "user": {
+   "name": "Bob Sanders Wilson",
+   "email": "bob@granary.test",
+   "wa_signature_name": null
+  },
+  "out": "Bob S. W."
+ },
+ {
+  "user": {
+   "name": "Bob Sanders Wilson",
+   "email": "bob@granary.test",
+   "wa_signature_name": "  Rachel P.  "
+  },
+  "out": "Rachel P."
+ },
+ {
+  "user": {
+   "name": "Bob Sanders Wilson",
+   "email": "bob@granary.test",
+   "wa_signature_name": "   "
+  },
+  "out": "Bob S. W."
+ },
+ {
+  "user": {
+   "name": "",
+   "email": "nobody@granary.test",
+   "wa_signature_name": null
+  },
+  "out": "nobody@granary.test"
+ },
+ {
+  "user": {
+   "name": " , S.T.",
+   "email": "deg@granary.test",
+   "wa_signature_name": ""
+  },
+  "out": "deg@granary.test"
+ },
+ {
+  "user": {
+   "name": "Ω",
+   "email": "o@granary.test",
+   "wa_signature_name": " Ω "
+  },
+  "out": "Ω"
+ }
+]

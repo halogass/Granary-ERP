@@ -1,0 +1,228 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Design tokens ─────────────────────────────────────────────────────────────
+   Channels ("r g b") so Tailwind opacity modifiers work: bg-brand/10.
+   Pages use the Tailwind names (bg-surface, text-fg-muted, border-line, bg-tone-blue-soft...),
+   never hex. Light is the default; .dark on <html> swaps the values (set before paint by
+   the inline script in app/layout.tsx). */
+@layer base {
+  :root, .light {
+    --canvas: 246 246 247;          /* app background */
+    --surface: 255 255 255;         /* cards, tables, bars */
+    --surface-2: 241 241 243;       /* stripes, table head, soft fills */
+    --surface-raised: 255 255 255;  /* menus, dialogs, popovers */
+    --line: 226 226 230;
+    --line-soft: 240 240 242;
+    --line-strong: 212 212 216;     /* input borders */
+    --fg: 28 28 31;
+    --fg-muted: 98 98 106;          /* 5.6:1 on white, 5.1:1 on surface-2 */
+    --fg-subtle: 113 113 122;       /* hints, keys; 4.8:1 on white */
+
+    --brand: 31 78 121;             /* brand colour: primary action, active nav, needs-you counts */
+    --brand-hover: 24 62 97;
+    --brand-ink: 31 78 121;         /* brand as text or icon */
+    --on-brand: 255 255 255;
+
+    --nav: 255 255 255;
+    --nav-fg: 63 63 70;
+    --nav-active: 241 241 243;
+    --nav-hover: 246 246 247;
+
+    /* Status tones: text color + soft background. Lightness differs between tones so
+       they read apart without color vision; red is reserved for needs-you, overdue, failed. */
+    --tone-neutral: 82 82 91;       --tone-neutral-soft: 237 237 240;
+    --tone-blue: 29 78 216;         --tone-blue-soft: 226 236 255;
+    --tone-violet: 109 40 217;      --tone-violet-soft: 240 234 255;
+    --tone-orange: 166 70 0;        --tone-orange-soft: 255 237 213;
+    --tone-red: 168 0 8;            --tone-red-soft: 252 212 212;
+
+
+    --focus: 31 78 121;
+    --radius: 8px;
+    --row-h: 38px;
+    --shadow-card: 0 1px 2px rgb(0 0 0 / 0.04);
+    --shadow-pop: 0 2px 4px rgb(0 0 0 / 0.04), 0 12px 32px rgb(0 0 0 / 0.12);
+    color-scheme: light;
+  }
+
+  .dark {
+    --canvas: 17 17 19;
+    --surface: 24 24 27;
+    --surface-2: 34 34 38;
+    --surface-raised: 32 32 36;
+    --line: 42 42 47;
+    --line-soft: 34 34 38;
+    --line-strong: 58 58 64;
+    --fg: 236 236 240;
+    --fg-muted: 160 160 170;        /* 7:1 on surface */
+    --fg-subtle: 138 138 148;
+
+    --brand: 46 104 158;
+    --brand-hover: 62 124 182;
+    --brand-ink: 130 176 222;       /* brand text needs to be lighter on dark */
+    --on-brand: 255 255 255;
+
+    --nav: 20 20 22;
+    --nav-fg: 196 196 204;
+    --nav-active: 38 38 43;
+    --nav-hover: 30 30 34;
+
+    --tone-neutral: 212 212 216;    --tone-neutral-soft: 50 50 56;
+    --tone-blue: 147 187 253;       --tone-blue-soft: 25 42 82;
+    --tone-violet: 196 181 253;     --tone-violet-soft: 46 30 84;
+    --tone-orange: 253 186 116;     --tone-orange-soft: 72 40 10;
+    --tone-red: 255 138 138;        --tone-red-soft: 90 16 20;
+
+
+    --focus: 255 107 110;
+    --shadow-card: 0 0 0 1px rgb(255 255 255 / 0.02);
+    --shadow-pop: 0 0 0 1px rgb(255 255 255 / 0.06), 0 12px 32px rgb(0 0 0 / 0.5);
+    color-scheme: dark;
+  }
+
+  /* Printing is always light */
+  @media print {
+    .dark { color-scheme: light; }
+  }
+
+  /* Shell heights: the Topbar, and the phone BottomNav (none from md up). Full-height pages
+     (FullHeightPage) size themselves from these, so they fit exactly with no page scroll. */
+  :root {
+    --shell-top: 3rem;
+    --shell-nav: 3.5rem;
+    --shell-bottom: calc(var(--shell-nav) + env(safe-area-inset-bottom));
+  }
+  @media (min-width: 768px) {
+    :root { --shell-bottom: 0px; }
+  }
+}
+
+@layer base {
+  * { @apply border-line; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-canvas text-fg; font-family: var(--font-sans), system-ui, sans-serif; }
+  b, strong { font-weight: 600; }
+  :focus-visible { outline: 2px solid rgb(var(--focus) / 0.7); outline-offset: 2px; }
+  ::placeholder { color: rgb(var(--fg-subtle)); opacity: 1; }
+  ::selection { background: rgb(var(--brand) / 0.18); }
+}
+
+/* Numbers that line up: amounts, counts, dates in tables */
+.tabular, .num { font-variant-numeric: tabular-nums; }
+
+/* Phones: every text field at 16 px, so iOS never zooms into a field (pages may set text-sm on inputs). */
+@media (max-width: 767px) {
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]), select, textarea, [contenteditable="true"] {
+    font-size: 16px !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgb(var(--fg) / 0.15); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--fg) / 0.3); }
+
+/* Page-enter animation */
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slide-in-right {
+  from { opacity: 0; transform: translateX(12px); }
+  to   { opacity: 1; }
+}
+
+@keyframes pulse-dot {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.4); opacity: 0.7; }
+}
+
+/* Sidebar active nav glow */
+@keyframes nav-glow {
+  0%, 100% { box-shadow: 0 0 8px rgba(31, 78, 121, 0.18); }
+  50%       { box-shadow: 0 0 16px rgba(31, 78, 121, 0.38); }
+}
+
+.animate-fade-up  { animation: fade-up 0.35s ease both; }
+.animate-fade-in  { animation: fade-in 0.25s ease both; }
+.animate-slide-in { animation: slide-in-right 0.3s ease both; }
+.animate-pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
+.nav-glow { animation: nav-glow 2.5s ease-in-out infinite; }
+
+/* Staggered children */
+.stagger > *:nth-child(1) { animation-delay: 0ms; }
+.stagger > *:nth-child(2) { animation-delay: 40ms; }
+.stagger > *:nth-child(3) { animation-delay: 80ms; }
+.stagger > *:nth-child(4) { animation-delay: 120ms; }
+.stagger > *:nth-child(5) { animation-delay: 160ms; }
+.stagger > *:nth-child(6) { animation-delay: 200ms; }
+.stagger > *:nth-child(n+7) { animation-delay: 240ms; }
+
+/* Glass effect */
+.glass {
+  background: rgb(var(--surface) / 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-dark {
+  background: rgba(15, 20, 35, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+
+
+/* Email signatures are plain email HTML (tables, inline images in a row). Tailwind's
+   preflight sets `img { display: block }`, which stacks a row of social icons
+   vertically in the composer and previews; the recipient's client has no such reset,
+   so what we showed did not match what was sent. Scoped to signature blocks only. */
+[data-granary-signature] img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: none;
+}
+[data-granary-signature] table {
+  border-collapse: collapse;
+}
+
+/* Numeric inputs (Qty, prices): the spinner arrows eat ~15px of a narrow field, which
+   clipped any quantity above two digits in the quotation line table. Values are typed,
+   never stepped, so hide them and reclaim the width. */
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.no-spinner {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Search boxes are type="search" so browsers and password managers don't mistake them for a
+   username field. Keep them looking exactly like the other inputs: no native clear button,
+   no Safari rounded "search" styling. */
+input[type="search"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
+}

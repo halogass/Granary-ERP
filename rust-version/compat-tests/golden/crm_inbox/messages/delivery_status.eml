@@ -1,0 +1,15 @@
+Content-Type: multipart/report; boundary=R
+
+--R
+Content-Type: text/plain
+
+bounce
+--R
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; x
+
+Final-Recipient: rfc822; y@z
+Action: failed
+
+--R--

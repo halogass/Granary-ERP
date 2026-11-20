@@ -1,0 +1,306 @@
+[
+ {
+  "text": "Sure Mr, we will check first.",
+  "out": "Sure Mr, we will check first."
+ },
+ {
+  "text": "Hello\n\nNary",
+  "out": "Hello"
+ },
+ {
+  "text": "Hello\n\nNary · Acme Ltd",
+  "out": "Hello"
+ },
+ {
+  "text": "Hello\n\n[Name]",
+  "out": "Hello"
+ },
+ {
+  "text": "Hello\n[name]\n",
+  "out": "Hello"
+ },
+ {
+  "text": "Hello\n\n_— Nary, Acme Ltd_",
+  "out": "Hello"
+ },
+ {
+  "text": "Thank you\n\n_— Bob, GRANARY_\n\n",
+  "out": "Thank you"
+ },
+ {
+  "text": "Acme Ltd",
+  "out": ""
+ },
+ {
+  "text": "Hello\nAcme Ltd\nNary",
+  "out": "Hello"
+ },
+ {
+  "text": "",
+  "out": ""
+ },
+ {
+  "text": "\n\n",
+  "out": ""
+ },
+ {
+  "text": "Hello  \n  \n",
+  "out": "Hello"
+ },
+ {
+  "text": "Nary, Acme Ltd",
+  "out": ""
+ },
+ {
+  "text": "Price for 10 monitors\n— Nary",
+  "out": "Price for 10 monitors"
+ },
+ {
+  "text": "Hello\nNary - Acme Ltd",
+  "out": "Hello"
+ },
+ {
+  "text": "Regards,\nNary",
+  "out": "Regards,"
+ },
+ {
+  "text": "[Name]\nThank you.",
+  "out": "[Name]\nThank you."
+ },
+ {
+  "text": "Hello Mr\nHello Mr\nHello Mr\nnary · acme ltd",
+  "out": "Hello Mr\nHello Mr\nHello Mr"
+ },
+ {
+  "text": "  \n_— Nary, GRANARY_",
+  "out": ""
+ },
+ {
+  "text": "nary · acme ltd\n_— Nary, GRANARY_\n[Name]\nThank you.",
+  "out": "nary · acme ltd\n_— Nary, GRANARY_\n[Name]\nThank you."
+ },
+ {
+  "text": "[Name]",
+  "out": ""
+ },
+ {
+  "text": "Nary\nHello Mr\n\nOkay\nAcme Ltd",
+  "out": "Nary\nHello Mr\n\nOkay"
+ },
+ {
+  "text": "\nnary · acme ltd",
+  "out": ""
+ },
+ {
+  "text": "Nary\nHello Mr\nHello Mr\nHello Mr",
+  "out": "Nary\nHello Mr\nHello Mr\nHello Mr"
+ },
+ {
+  "text": "Thank you.\n_— Nary, GRANARY_\nNary\nHello Mr\nnary · acme ltd",
+  "out": "Thank you.\n_— Nary, GRANARY_\nNary\nHello Mr"
+ },
+ {
+  "text": "Thank you.\nHello Mr\nOkay\nOkay",
+  "out": "Thank you.\nHello Mr\nOkay\nOkay"
+ },
+ {
+  "text": "  \nHello Mr",
+  "out": "  \nHello Mr"
+ },
+ {
+  "text": "  \n[Name]\nThank you.\nHello Mr",
+  "out": "  \n[Name]\nThank you.\nHello Mr"
+ },
+ {
+  "text": "  \nNary\nnary · acme ltd\n",
+  "out": ""
+ },
+ {
+  "text": "_— Nary, GRANARY_\nNary",
+  "out": ""
+ },
+ {
+  "text": "Okay\n",
+  "out": "Okay"
+ },
+ {
+  "text": "Hello Mr",
+  "out": "Hello Mr"
+ },
+ {
+  "text": "  \nAcme Ltd\n[Name]\n_— Nary, GRANARY_",
+  "out": ""
+ },
+ {
+  "text": "Thank you.\nThank you.\nHello Mr\n\n[Name]",
+  "out": "Thank you.\nThank you.\nHello Mr"
+ },
+ {
+  "text": "nary · acme ltd",
+  "out": ""
+ },
+ {
+  "text": "Nary\n[Name]\nThank you.",
+  "out": "Nary\n[Name]\nThank you."
+ },
+ {
+  "text": "  \n_— Nary, GRANARY_\n\n[Name]",
+  "out": ""
+ },
+ {
+  "text": "Nary\n_— Nary, GRANARY_\nHello Mr\n_— Nary, GRANARY_\nnary · acme ltd",
+  "out": "Nary\n_— Nary, GRANARY_\nHello Mr"
+ },
+ {
+  "text": "_— Nary, GRANARY_",
+  "out": ""
+ },
+ {
+  "text": "  \nOkay\n[Name]\nOkay",
+  "out": "  \nOkay\n[Name]\nOkay"
+ },
+ {
+  "text": "Acme Ltd\nAcme Ltd\nHello Mr\nHello Mr",
+  "out": "Acme Ltd\nAcme Ltd\nHello Mr\nHello Mr"
+ },
+ {
+  "text": "nary · acme ltd",
+  "out": ""
+ },
+ {
+  "text": "Hello Mr",
+  "out": "Hello Mr"
+ },
+ {
+  "text": "nary · acme ltd\n  ",
+  "out": ""
+ },
+ {
+  "text": "\nAcme Ltd",
+  "out": ""
+ },
+ {
+  "text": "Okay\nOkay\nNary",
+  "out": "Okay\nOkay"
+ },
+ {
+  "text": "nary · acme ltd\nOkay\nnary · acme ltd",
+  "out": "nary · acme ltd\nOkay"
+ },
+ {
+  "text": "\n_— Nary, GRANARY_\nnary · acme ltd",
+  "out": ""
+ },
+ {
+  "text": "nary · acme ltd\nThank you.\nHello Mr",
+  "out": "nary · acme ltd\nThank you.\nHello Mr"
+ },
+ {
+  "text": "Acme Ltd\nAcme Ltd",
+  "out": ""
+ },
+ {
+  "text": "[Name]\nOkay\nNary",
+  "out": "[Name]\nOkay"
+ },
+ {
+  "text": "nary · acme ltd\nNary",
+  "out": ""
+ },
+ {
+  "text": "Hello Mr\nNary\nNary\n  ",
+  "out": "Hello Mr"
+ },
+ {
+  "text": "Nary",
+  "out": ""
+ },
+ {
+  "text": "_— Nary, GRANARY_\n\nAcme Ltd\nOkay\nHello Mr",
+  "out": "_— Nary, GRANARY_\n\nAcme Ltd\nOkay\nHello Mr"
+ },
+ {
+  "text": "Nary\nNary\nnary · acme ltd\nThank you.\nAcme Ltd",
+  "out": "Nary\nNary\nnary · acme ltd\nThank you."
+ },
+ {
+  "text": "_— Nary, GRANARY_\n_— Nary, GRANARY_",
+  "out": ""
+ },
+ {
+  "text": "_— Nary, GRANARY_",
+  "out": ""
+ },
+ {
+  "text": "Okay\nHello Mr\n  ",
+  "out": "Okay\nHello Mr"
+ },
+ {
+  "text": "nary · acme ltd",
+  "out": ""
+ },
+ {
+  "text": "Okay\n_— Nary, GRANARY_\nHello Mr\n\n[Name]",
+  "out": "Okay\n_— Nary, GRANARY_\nHello Mr"
+ },
+ {
+  "text": "Okay\n_— Nary, GRANARY_\nHello Mr\n[Name]\nOkay",
+  "out": "Okay\n_— Nary, GRANARY_\nHello Mr\n[Name]\nOkay"
+ },
+ {
+  "text": "Okay",
+  "out": "Okay"
+ },
+ {
+  "text": "Thank you.\n[Name]\nOkay",
+  "out": "Thank you.\n[Name]\nOkay"
+ },
+ {
+  "text": "  \nOkay\n\n\nNary",
+  "out": "  \nOkay"
+ },
+ {
+  "text": "Nary",
+  "out": ""
+ },
+ {
+  "text": "Thank you.\nnary · acme ltd\n[Name]\nNary\nnary · acme ltd",
+  "out": "Thank you."
+ },
+ {
+  "text": "Hello Mr",
+  "out": "Hello Mr"
+ },
+ {
+  "text": "[Name]\nThank you.\n\nHello Mr\nHello Mr",
+  "out": "[Name]\nThank you.\n\nHello Mr\nHello Mr"
+ },
+ {
+  "text": "Hello Mr\n\n  \nNary",
+  "out": "Hello Mr"
+ },
+ {
+  "text": "Okay\nThank you.\n[Name]",
+  "out": "Okay\nThank you."
+ },
+ {
+  "text": "nary · acme ltd\nThank you.",
+  "out": "nary · acme ltd\nThank you."
+ },
+ {
+  "text": "Acme Ltd\nOkay\nnary · acme ltd\n",
+  "out": "Acme Ltd\nOkay"
+ },
+ {
+  "text": "\n_— Nary, GRANARY_\nOkay",
+  "out": "\n_— Nary, GRANARY_\nOkay"
+ },
+ {
+  "text": "nary · acme ltd\n_— Nary, GRANARY_\nnary · acme ltd",
+  "out": ""
+ },
+ {
+  "text": "nary · acme ltd\nAcme Ltd\nThank you.\nnary · acme ltd\nNary",
+  "out": "nary · acme ltd\nAcme Ltd\nThank you."
+ }
+]

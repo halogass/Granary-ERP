@@ -1,0 +1,62 @@
+[
+ {
+  "in": "internal",
+  "ok": [
+   "internal",
+   null
+  ]
+ },
+ {
+  "in": "customer:6f1c0b62-1d55-4d0e-9a8e-0f1a2b3c4d5e",
+  "ok": [
+   "customer",
+   "6f1c0b62-1d55-4d0e-9a8e-0f1a2b3c4d5e"
+  ]
+ },
+ {
+  "in": "customer:",
+  "err": "ValueError",
+  "msg": "Unknown context 'customer:'"
+ },
+ {
+  "in": "customer",
+  "err": "ValueError",
+  "msg": "Unknown context 'customer'"
+ },
+ {
+  "in": "nobody:1",
+  "err": "ValueError",
+  "msg": "Unknown context 'nobody:1'"
+ },
+ {
+  "in": "customer:not-a-uuid",
+  "err": "ValueError",
+  "msg": "badly formed hexadecimal UUID string"
+ },
+ {
+  "in": "customer:{6F1C0B62-1D55-4D0E-9A8E-0F1A2B3C4D5E}",
+  "ok": [
+   "customer",
+   "6f1c0b62-1d55-4d0e-9a8e-0f1a2b3c4d5e"
+  ]
+ },
+ {
+  "in": "",
+  "err": "ValueError",
+  "msg": "Unknown context ''"
+ },
+ {
+  "in": "customer:6f1c0b621d554d0e9a8e0f1a2b3c4d5e",
+  "ok": [
+   "customer",
+   "6f1c0b62-1d55-4d0e-9a8e-0f1a2b3c4d5e"
+  ]
+ },
+ {
+  "in": "customer:urn:uuid:6f1c0b62-1d55-4d0e-9a8e-0f1a2b3c4d5e",
+  "ok": [
+   "customer",
+   "6f1c0b62-1d55-4d0e-9a8e-0f1a2b3c4d5e"
+  ]
+ }
+]

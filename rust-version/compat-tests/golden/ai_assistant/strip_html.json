@@ -1,0 +1,46 @@
+[
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": null,
+  "out": ""
+ },
+ {
+  "in": "<p>Hello <b>World</b></p>",
+  "out": "Hello World"
+ },
+ {
+  "in": "a<br/>b\n\n c",
+  "out": "a b c"
+ },
+ {
+  "in": "<div>\t</div>",
+  "out": ""
+ },
+ {
+  "in": "x < y > z",
+  "out": "x z"
+ },
+ {
+  "in": "<a href='x'>l</a>tail",
+  "out": "l tail"
+ },
+ {
+  "in": "  plain  ",
+  "out": "plain"
+ },
+ {
+  "in": "<p>multi space</p>",
+  "out": "multi space"
+ },
+ {
+  "in": "<>empty tag",
+  "out": "<>empty tag"
+ },
+ {
+  "in": "<unclosed",
+  "out": "<unclosed"
+ }
+]

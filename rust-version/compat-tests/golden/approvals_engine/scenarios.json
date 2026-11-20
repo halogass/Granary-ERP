@@ -1,0 +1,5892 @@
+{
+ "scenarios": [
+  {
+   "name": "custom_quotation_pending",
+   "ops": [
+    {
+     "op": "person",
+     "key": "owner1",
+     "roles": [],
+     "department": null,
+     "manager": null,
+     "superadmin": true
+    },
+    {
+     "op": "person",
+     "key": "bdr1",
+     "roles": [
+      "sales_bizdev"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "quotation",
+     "key": "q_custom",
+     "product": null,
+     "qty": 25,
+     "unit_price": 10000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "bdr1",
+     "entity_type": "quotation",
+     "entity": "q_custom",
+     "flags": []
+    },
+    {
+     "op": "act",
+     "user": "bdr1",
+     "entity": "q_custom",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "act",
+     "user": "owner1",
+     "entity": "q_custom",
+     "decision": "rejected",
+     "comment": "   "
+    },
+    {
+     "op": "act",
+     "user": "owner1",
+     "entity": "q_custom",
+     "decision": "maybe",
+     "comment": null
+    },
+    {
+     "op": "submit",
+     "user": "bdr1",
+     "entity_type": "quotation",
+     "entity": "q_custom",
+     "flags": []
+    },
+    {
+     "op": "gate",
+     "entity_type": "quotation",
+     "entity": "q_custom"
+    },
+    {
+     "op": "states_for",
+     "entity_type": "quotation",
+     "entities": [
+      "q_custom"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "discount_paths",
+   "ops": [
+    {
+     "op": "person",
+     "key": "bdr2",
+     "roles": [
+      "sales_bizdev"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "product",
+     "key": "p_disc",
+     "price": 10000000,
+     "cost": 5000000
+    },
+    {
+     "op": "product",
+     "key": "p_low",
+     "price": 10000000,
+     "cost": 5000000
+    },
+    {
+     "op": "product",
+     "key": "p_loyal",
+     "price": 10000000,
+     "cost": 5000000
+    },
+    {
+     "op": "product",
+     "key": "p_above",
+     "price": 10000000,
+     "cost": 5000000
+    },
+    {
+     "op": "quotation",
+     "key": "q_undoc",
+     "product": "p_disc",
+     "qty": 2,
+     "unit_price": 10000000,
+     "discount": 3,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "bdr2",
+     "entity_type": "quotation",
+     "entity": "q_undoc",
+     "flags": []
+    },
+    {
+     "op": "quotation",
+     "key": "q_low",
+     "product": "p_low",
+     "qty": 2,
+     "unit_price": 8000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "bdr2",
+     "entity_type": "quotation",
+     "entity": "q_low",
+     "flags": []
+    },
+    {
+     "op": "quotation",
+     "key": "q_loyal",
+     "product": "p_loyal",
+     "qty": 2,
+     "unit_price": 8000000,
+     "discount": 0.0,
+     "discount_type": "loyalty"
+    },
+    {
+     "op": "submit",
+     "user": "bdr2",
+     "entity_type": "quotation",
+     "entity": "q_loyal",
+     "flags": []
+    },
+    {
+     "op": "quotation",
+     "key": "q_volume",
+     "product": "p_disc",
+     "qty": 10,
+     "unit_price": 10000000,
+     "discount": 7,
+     "discount_type": "volume"
+    },
+    {
+     "op": "submit",
+     "user": "bdr2",
+     "entity_type": "quotation",
+     "entity": "q_volume",
+     "flags": [
+      "customer_reference",
+      "budget_exception",
+      "customer_reference"
+     ]
+    },
+    {
+     "op": "quotation",
+     "key": "q_above",
+     "product": "p_above",
+     "qty": 2,
+     "unit_price": 11000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "bdr2",
+     "entity_type": "quotation",
+     "entity": "q_above",
+     "flags": []
+    }
+   ]
+  },
+  {
+   "name": "expense_chain_start",
+   "ops": [
+    {
+     "op": "person",
+     "key": "mgr1",
+     "roles": [
+      "team_lead"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "person",
+     "key": "fin1",
+     "roles": [
+      "finance_admin"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "person",
+     "key": "claim1",
+     "roles": [],
+     "department": null,
+     "manager": "mgr1",
+     "superadmin": false
+    },
+    {
+     "op": "expense",
+     "key": "e1",
+     "claimant": "claim1",
+     "amount": 1600000
+    },
+    {
+     "op": "submit",
+     "user": "claim1",
+     "entity_type": "expense",
+     "entity": "e1",
+     "flags": []
+    },
+    {
+     "op": "submit",
+     "user": "claim1",
+     "entity_type": "expense",
+     "entity": "e1",
+     "flags": [
+      "pre_approved"
+     ]
+    },
+    {
+     "op": "act",
+     "user": "fin1",
+     "entity": "e1",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "act",
+     "user": "claim1",
+     "entity": "e1",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "act",
+     "user": "mgr1",
+     "entity": "e1",
+     "decision": "approved",
+     "comment": "  ok  "
+    },
+    {
+     "op": "act",
+     "user": "fin1",
+     "entity": "e1",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "cancel",
+     "user": "fin1",
+     "entity": "e1",
+     "reason": null
+    },
+    {
+     "op": "cancel",
+     "user": "claim1",
+     "entity": "e1",
+     "reason": "Wrong amount"
+    },
+    {
+     "op": "cancel",
+     "user": "claim1",
+     "entity": "e1",
+     "reason": null
+    }
+   ]
+  },
+  {
+   "name": "vendor_invoice",
+   "ops": [
+    {
+     "op": "person",
+     "key": "fin2",
+     "roles": [
+      "finance_admin"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "vendor_wo",
+     "vendor": "v1",
+     "wo": "wo1",
+     "status": "completed"
+    },
+    {
+     "op": "vendor_invoice",
+     "key": "vi1",
+     "vendor": "v1",
+     "wo": "wo1"
+    },
+    {
+     "op": "submit",
+     "user": "fin2",
+     "entity_type": "vendor_invoice",
+     "entity": "vi1",
+     "flags": []
+    },
+    {
+     "op": "vendor_wo",
+     "vendor": "v2",
+     "wo": "wo2",
+     "status": "active"
+    },
+    {
+     "op": "vendor_invoice",
+     "key": "vi2",
+     "vendor": "v2",
+     "wo": "wo2"
+    },
+    {
+     "op": "submit",
+     "user": "fin2",
+     "entity_type": "vendor_invoice",
+     "entity": "vi2",
+     "flags": []
+    }
+   ]
+  },
+  {
+   "name": "purchase_orders",
+   "ops": [
+    {
+     "op": "person",
+     "key": "lead1",
+     "roles": [
+      "team_lead"
+     ],
+     "department": "Golden Manufacturing",
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "step_department",
+     "entity_type": "purchase_order",
+     "sequence": 1,
+     "department": "Golden Manufacturing"
+    },
+    {
+     "op": "po",
+     "key": "po1",
+     "requested_by": "lead1",
+     "total": 3000000
+    },
+    {
+     "op": "submit",
+     "user": "lead1",
+     "entity_type": "purchase_order",
+     "entity": "po1",
+     "flags": []
+    },
+    {
+     "op": "step_department",
+     "entity_type": "purchase_order",
+     "sequence": 1,
+     "department": "Manufacturing"
+    },
+    {
+     "op": "person",
+     "key": "lead2",
+     "roles": [
+      "team_lead"
+     ],
+     "department": "Manufacturing",
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "po",
+     "key": "po2",
+     "requested_by": "lead2",
+     "total": 20000000
+    },
+    {
+     "op": "submit",
+     "user": "lead2",
+     "entity_type": "purchase_order",
+     "entity": "po2",
+     "flags": []
+    },
+    {
+     "op": "attachment",
+     "entity_type": "purchase_order",
+     "entity": "po2",
+     "n": 0
+    },
+    {
+     "op": "attachment",
+     "entity_type": "purchase_order",
+     "entity": "po2",
+     "n": 1
+    },
+    {
+     "op": "submit",
+     "user": "lead2",
+     "entity_type": "purchase_order",
+     "entity": "po2",
+     "flags": []
+    },
+    {
+     "op": "po",
+     "key": "po3",
+     "requested_by": "lead2",
+     "total": 4000000
+    },
+    {
+     "op": "submit",
+     "user": "lead2",
+     "entity_type": "purchase_order",
+     "entity": "po3",
+     "flags": []
+    }
+   ]
+  },
+  {
+   "name": "stale_pending_and_ensure_or_submit",
+   "ops": [
+    {
+     "op": "person",
+     "key": "owner2",
+     "roles": [],
+     "department": null,
+     "manager": null,
+     "superadmin": true
+    },
+    {
+     "op": "person",
+     "key": "bdr3",
+     "roles": [
+      "sales_bizdev"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "quotation",
+     "key": "q_stale",
+     "product": null,
+     "qty": 25,
+     "unit_price": 10000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "bdr3",
+     "entity_type": "quotation",
+     "entity": "q_stale",
+     "flags": []
+    },
+    {
+     "op": "edit_items",
+     "entity": "q_stale",
+     "set": "quantity = 26"
+    },
+    {
+     "op": "act",
+     "user": "owner2",
+     "entity": "q_stale",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "gate",
+     "entity_type": "quotation",
+     "entity": "q_stale"
+    },
+    {
+     "op": "quotation",
+     "key": "q_send",
+     "product": null,
+     "qty": 30,
+     "unit_price": 10000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "ensure_or_submit",
+     "user": "bdr3",
+     "entity_type": "quotation",
+     "entity": "q_send",
+     "action": "sent"
+    },
+    {
+     "op": "ensure_or_submit",
+     "user": "bdr3",
+     "entity_type": "quotation",
+     "entity": "q_send",
+     "action": "sent"
+    },
+    {
+     "op": "remind",
+     "entity": "q_send",
+     "hours": 5
+    },
+    {
+     "op": "remind",
+     "entity": "q_send",
+     "hours": 5
+    },
+    {
+     "op": "supersede",
+     "entity_type": "quotation",
+     "entity": "q_send",
+     "reason": "Revised: GOLD"
+    },
+    {
+     "op": "gate",
+     "entity_type": "quotation",
+     "entity": "q_send"
+    },
+    {
+     "op": "states_for",
+     "entity_type": "quotation",
+     "entities": [
+      "q_send",
+      "q_stale",
+      "q_custom"
+     ]
+    }
+   ]
+  },
+  {
+   "name": "decisions",
+   "needs_emit": true,
+   "ops": [
+    {
+     "op": "person",
+     "key": "owner3",
+     "roles": [],
+     "department": null,
+     "manager": null,
+     "superadmin": true
+    },
+    {
+     "op": "person",
+     "key": "bdr4",
+     "roles": [
+      "sales_bizdev"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "product",
+     "key": "p_std",
+     "price": 10000000,
+     "cost": 5000000
+    },
+    {
+     "op": "quotation",
+     "key": "q_std",
+     "product": "p_std",
+     "qty": 2,
+     "unit_price": 10000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "bdr4",
+     "entity_type": "quotation",
+     "entity": "q_std",
+     "flags": []
+    },
+    {
+     "op": "gate",
+     "entity_type": "quotation",
+     "entity": "q_std"
+    },
+    {
+     "op": "submit",
+     "user": "bdr4",
+     "entity_type": "quotation",
+     "entity": "q_std",
+     "flags": []
+    },
+    {
+     "op": "edit_items",
+     "entity": "q_std",
+     "set": "unit_price = 9000000"
+    },
+    {
+     "op": "gate",
+     "entity_type": "quotation",
+     "entity": "q_std"
+    },
+    {
+     "op": "quotation",
+     "key": "q_rej",
+     "product": null,
+     "qty": 30,
+     "unit_price": 10000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "bdr4",
+     "entity_type": "quotation",
+     "entity": "q_rej",
+     "flags": []
+    },
+    {
+     "op": "act",
+     "user": "owner3",
+     "entity": "q_rej",
+     "decision": "rejected",
+     "comment": "Margin too thin"
+    },
+    {
+     "op": "submit",
+     "user": "bdr4",
+     "entity_type": "quotation",
+     "entity": "q_rej",
+     "flags": []
+    },
+    {
+     "op": "act",
+     "user": "owner3",
+     "entity": "q_rej",
+     "decision": "approved",
+     "comment": "Strategic account"
+    },
+    {
+     "op": "quotation",
+     "key": "q_own",
+     "product": null,
+     "qty": 25,
+     "unit_price": 10000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "submit",
+     "user": "owner3",
+     "entity_type": "quotation",
+     "entity": "q_own",
+     "flags": []
+    },
+    {
+     "op": "act",
+     "user": "owner3",
+     "entity": "q_own",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "quotation",
+     "key": "q_eos",
+     "product": null,
+     "qty": 40,
+     "unit_price": 10000000,
+     "discount": 0.0,
+     "discount_type": "none"
+    },
+    {
+     "op": "ensure_or_submit",
+     "user": "owner3",
+     "entity_type": "quotation",
+     "entity": "q_eos",
+     "action": "sent"
+    },
+    {
+     "op": "submit",
+     "user": "bdr4",
+     "entity_type": "quotation",
+     "entity": "q_std",
+     "flags": []
+    },
+    {
+     "op": "person",
+     "key": "mgr2",
+     "roles": [
+      "team_lead"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "person",
+     "key": "fin3",
+     "roles": [
+      "finance_admin"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "person",
+     "key": "claim2",
+     "roles": [],
+     "department": null,
+     "manager": "mgr2",
+     "superadmin": false
+    },
+    {
+     "op": "expense",
+     "key": "e2",
+     "claimant": "claim2",
+     "amount": 1600000
+    },
+    {
+     "op": "submit",
+     "user": "claim2",
+     "entity_type": "expense",
+     "entity": "e2",
+     "flags": [
+      "pre_approved"
+     ]
+    },
+    {
+     "op": "act",
+     "user": "mgr2",
+     "entity": "e2",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "act",
+     "user": "fin3",
+     "entity": "e2",
+     "decision": "approved",
+     "comment": null
+    },
+    {
+     "op": "act",
+     "user": "owner3",
+     "entity": "e2",
+     "decision": "approved",
+     "comment": "Fine"
+    },
+    {
+     "op": "person",
+     "key": "fin4",
+     "roles": [
+      "finance_admin"
+     ],
+     "department": null,
+     "manager": null,
+     "superadmin": false
+    },
+    {
+     "op": "vendor_wo",
+     "vendor": "v3",
+     "wo": "wo3",
+     "status": "completed"
+    },
+    {
+     "op": "vendor_invoice",
+     "key": "vi3",
+     "vendor": "v3",
+     "wo": "wo3"
+    },
+    {
+     "op": "submit",
+     "user": "fin4",
+     "entity_type": "vendor_invoice",
+     "entity": "vi3",
+     "flags": []
+    },
+    {
+     "op": "act",
+     "user": "fin4",
+     "entity": "vi3",
+     "decision": "approved",
+     "comment": null
+    }
+   ]
+  }
+ ],
+ "results": [
+  {
+   "name": "custom_quotation_pending",
+   "ops": [
+    null,
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_custom:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_custom",
+      "document_label": "Quotation GOLD-q_custom",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_custom",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.bdr1@example.com",
+       "name": "Golden bdr1"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 250000000.0,
+      "currency": "JPY",
+      "amount_base": 250000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr1@example.com",
+         "name": "Golden bdr1"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_custom",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_custom:1",
+       "email": true,
+       "whatsapp": true
+      }
+     ]
+    },
+    {
+     "status": 403,
+     "detail": "You are not an approver for this step",
+     "outbox": []
+    },
+    {
+     "status": 400,
+     "detail": "A comment is required when rejecting",
+     "outbox": []
+    },
+    {
+     "status": 400,
+     "detail": "decision must be 'approved' or 'rejected'",
+     "outbox": []
+    },
+    {
+     "status": 409,
+     "detail": "Quotation already has a pending approval request",
+     "outbox": []
+    },
+    {
+     "status": 409,
+     "detail": {
+      "code": "approval_required",
+      "approval_status": "pending",
+      "request_id": "request:q_custom:1",
+      "message": "This quotation must be approved before it can be sent (approval is pending)"
+     },
+     "outbox": []
+    },
+    {
+     "ok": {
+      "q_custom": {
+       "request_id": "request:q_custom:1",
+       "status": "pending",
+       "current_step": "Owner approval"
+      }
+     }
+    }
+   ],
+   "rows": {
+    "requests": [
+     {
+      "id": "request:q_custom:1",
+      "entity_type": "quotation",
+      "entity_id": "q_custom",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_custom",
+      "submitted_by_id": "user:golden.bdr1@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 250000000.0,
+         "is_list": false,
+         "quantity": 25.0,
+         "allowance": null,
+         "is_custom": true,
+         "list_price": null,
+         "price_rule": "manual",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 250000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 25.0,
+          "product_id": null,
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 250000000.0,
+        "number": "GOLD-q_custom",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 250000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": null,
+       "terms_days": 30,
+       "amount_base": 250000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": true,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 250000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 24,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     }
+    ],
+    "actions": [
+     {
+      "request_id": "request:q_custom:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr1@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     }
+    ],
+    "notifications": [
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_custom",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_custom:1",
+      "entity_type": "quotation",
+      "entity_id": "q_custom",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     }
+    ]
+   }
+  },
+  {
+   "name": "discount_paths",
+   "ops": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    {
+     "status": 400,
+     "detail": {
+      "code": "precondition_failed",
+      "messages": [
+       "Every discounted line must state its discount type (volume, bundle, loyalty, multi-year SaaS or Owner exception)."
+      ]
+     },
+     "outbox": []
+    },
+    null,
+    {
+     "status": 400,
+     "detail": {
+      "code": "precondition_failed",
+      "messages": [
+       "Every discounted line must state its discount type (volume, bundle, loyalty, multi-year SaaS or Owner exception)."
+      ]
+     },
+     "outbox": []
+    },
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_loyal:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_loyal",
+      "document_label": "Quotation GOLD-q_loyal",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_loyal",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.bdr2@example.com",
+       "name": "Golden bdr2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 16000000.0,
+      "currency": "JPY",
+      "amount_base": 16000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr2@example.com",
+         "name": "Golden bdr2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_loyal",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_loyal:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_volume:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_volume",
+      "document_label": "Quotation GOLD-q_volume",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_volume",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.bdr2@example.com",
+       "name": "Golden bdr2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [
+       "budget_exception",
+       "customer_reference"
+      ],
+      "amount": 93000000.0,
+      "currency": "JPY",
+      "amount_base": 93000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "budget_exception; customer_reference",
+        "actor": {
+         "id": "user:golden.bdr2@example.com",
+         "name": "Golden bdr2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_volume",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_volume:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_above:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_above",
+      "document_label": "Quotation GOLD-q_above",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_above",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.bdr2@example.com",
+       "name": "Golden bdr2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 22000000.0,
+      "currency": "JPY",
+      "amount_base": 22000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr2@example.com",
+         "name": "Golden bdr2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_above",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_above:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    }
+   ],
+   "rows": {
+    "requests": [
+     {
+      "id": "request:q_loyal:1",
+      "entity_type": "quotation",
+      "entity_id": "q_loyal",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_loyal",
+      "submitted_by_id": "user:golden.bdr2@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 16000000.0,
+         "is_list": false,
+         "quantity": 2.0,
+         "allowance": null,
+         "is_custom": false,
+         "list_price": 10000000.0,
+         "price_rule": "manual",
+         "unit_price": 8000000.0,
+         "discount_pct": 20.0,
+         "discount_type": "loyalty"
+        }
+       ],
+       "amount": 16000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 2.0,
+          "product_id": "p_loyal",
+          "unit_price": 8000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "loyalty"
+         }
+        ],
+        "total": 16000000.0,
+        "number": "GOLD-q_loyal",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 16000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": 37.5,
+       "terms_days": 30,
+       "amount_base": 16000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": false,
+       "max_discount_pct": 20.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 16000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 24,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:q_volume:1",
+      "entity_type": "quotation",
+      "entity_id": "q_volume",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_volume",
+      "submitted_by_id": "user:golden.bdr2@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [
+        "budget_exception",
+        "customer_reference"
+       ],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 93000000.0,
+         "is_list": false,
+         "quantity": 10.0,
+         "allowance": null,
+         "is_custom": false,
+         "list_price": 10000000.0,
+         "price_rule": "list",
+         "unit_price": 10000000.0,
+         "discount_pct": 7.0,
+         "discount_type": "volume"
+        }
+       ],
+       "amount": 93000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 10.0,
+          "product_id": "p_disc",
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 7.0,
+          "discount_type": "volume"
+         }
+        ],
+        "total": 93000000.0,
+        "number": "GOLD-q_volume",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 93000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": 46.24,
+       "terms_days": 30,
+       "amount_base": 93000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": false,
+       "max_discount_pct": 7.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 93000000.0
+      },
+      "flags": [
+       "budget_exception",
+       "customer_reference"
+      ],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 24,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:q_above:1",
+      "entity_type": "quotation",
+      "entity_id": "q_above",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_above",
+      "submitted_by_id": "user:golden.bdr2@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 22000000.0,
+         "is_list": false,
+         "quantity": 2.0,
+         "allowance": null,
+         "is_custom": false,
+         "list_price": 10000000.0,
+         "price_rule": "manual",
+         "unit_price": 11000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 22000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 2.0,
+          "product_id": "p_above",
+          "unit_price": 11000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 22000000.0,
+        "number": "GOLD-q_above",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 22000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": 54.55,
+       "terms_days": 30,
+       "amount_base": 22000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": false,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 22000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 24,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     }
+    ],
+    "actions": [
+     {
+      "request_id": "request:q_loyal:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr2@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_volume:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr2@example.com",
+      "action": "submitted",
+      "comment": "budget_exception; customer_reference",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_above:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr2@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     }
+    ],
+    "notifications": [
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_loyal",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_loyal:1",
+      "entity_type": "quotation",
+      "entity_id": "q_loyal",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_volume",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_volume:1",
+      "entity_type": "quotation",
+      "entity_id": "q_volume",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_above",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_above:1",
+      "entity_type": "quotation",
+      "entity_id": "q_above",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     }
+    ]
+   }
+  },
+  {
+   "name": "expense_chain_start",
+   "ops": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "status": 400,
+     "detail": {
+      "code": "precondition_failed",
+      "messages": [
+       "Expenses above 500,000 (base currency) need manager pre-approval before they are incurred; confirm pre-approval when submitting."
+      ]
+     },
+     "outbox": []
+    },
+    {
+     "status": 201,
+     "body": {
+      "id": "request:e1:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e1",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e1",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.claim1@example.com",
+       "name": "Golden claim1"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr1@example.com",
+          "name": "Golden mgr1"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         }
+        ],
+        "due_at": null,
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "waiting"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": null,
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "waiting"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim1@example.com",
+         "name": "Golden claim1"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.mgr1@example.com"
+       ],
+       "title": "Approval needed: Expense claim (Travel): Client visit",
+       "body": "Line manager approval: Required by policy",
+       "link": "/approvals?request=request:e1:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 403,
+     "detail": "You are not an approver for this step",
+     "outbox": []
+    },
+    {
+     "status": 403,
+     "detail": "You are not an approver for this step",
+     "outbox": []
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:e1:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e1",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e1",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.claim1@example.com",
+       "name": "Golden claim1"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 2,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr1@example.com",
+          "name": "Golden mgr1"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.mgr1@example.com",
+         "name": "Golden mgr1"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": null,
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "waiting"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim1@example.com",
+         "name": "Golden claim1"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": "ok",
+        "actor": {
+         "id": "user:golden.mgr1@example.com",
+         "name": "Golden mgr1"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.fin1@example.com"
+       ],
+       "title": "Approval needed: Expense claim (Travel): Client visit",
+       "body": "Finance Admin review: Required by policy",
+       "link": "/approvals?request=request:e1:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:e1:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e1",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e1",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.claim1@example.com",
+       "name": "Golden claim1"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 3,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr1@example.com",
+          "name": "Golden mgr1"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.mgr1@example.com",
+         "name": "Golden mgr1"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.fin1@example.com",
+         "name": "Golden fin1"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim1@example.com",
+         "name": "Golden claim1"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": "ok",
+        "actor": {
+         "id": "user:golden.mgr1@example.com",
+         "name": "Golden mgr1"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 2,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin1@example.com",
+         "name": "Golden fin1"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Expense claim (Travel): Client visit",
+       "body": "Owner approval: A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)",
+       "link": "/approvals?request=request:e1:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 403,
+     "detail": "Only the submitter can withdraw this request",
+     "outbox": []
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:e1:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e1",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e1",
+      "status": "cancelled",
+      "submitted_by": {
+       "id": "user:golden.claim1@example.com",
+       "name": "Golden claim1"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": "<ts>",
+      "current_step_seq": null,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr1@example.com",
+          "name": "Golden mgr1"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.mgr1@example.com",
+         "name": "Golden mgr1"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.fin1@example.com",
+         "name": "Golden fin1"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "skipped"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim1@example.com",
+         "name": "Golden claim1"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": "ok",
+        "actor": {
+         "id": "user:golden.mgr1@example.com",
+         "name": "Golden mgr1"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 2,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin1@example.com",
+         "name": "Golden fin1"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "cancelled",
+        "step_seq": null,
+        "comment": "Wrong amount",
+        "actor": {
+         "id": "user:golden.claim1@example.com",
+         "name": "Golden claim1"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": []
+    },
+    {
+     "status": 409,
+     "detail": "This request is already cancelled",
+     "outbox": []
+    }
+   ],
+   "rows": {
+    "requests": [
+     {
+      "id": "request:e1:1",
+      "entity_type": "expense",
+      "entity_id": "e1",
+      "policy_version": 1,
+      "status": "cancelled",
+      "document_revision": 1,
+      "document_label": "Expense claim (Travel): Client visit",
+      "submitted_by_id": "user:golden.claim1@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [
+        "pre_approved"
+       ],
+       "amount": 1600000.0,
+       "currency": "JPY",
+       "document": {
+        "amount": 1600000.0,
+        "category": "Travel",
+        "currency": "JPY",
+        "vendor_id": null,
+        "project_id": null,
+        "description": "Client visit",
+        "receipt_url": null,
+        "expense_date": "2026-10-01"
+       },
+       "amount_base": 1600000.0,
+       "max_line_amount_base": 1600000.0,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "fx_rate_missing": false
+      },
+      "flags": [
+       "pre_approved"
+      ],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": null,
+        "sla_hours": 72,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "manager",
+        "decided_by_id": "user:golden.mgr1@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:golden.mgr1@example.com"
+        ],
+        "allow_self_approval": false
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": "finance_admin",
+        "sla_hours": 48,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "role",
+        "decided_by_id": "user:golden.fin1@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:golden.fin1@example.com"
+        ],
+        "allow_self_approval": false
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 48,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     }
+    ],
+    "actions": [
+     {
+      "request_id": "request:e1:1",
+      "step_seq": null,
+      "actor_id": "user:golden.claim1@example.com",
+      "action": "submitted",
+      "comment": "pre_approved",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:e1:1",
+      "step_seq": 1,
+      "actor_id": "user:golden.mgr1@example.com",
+      "action": "approved",
+      "comment": "ok",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:e1:1",
+      "step_seq": 2,
+      "actor_id": "user:golden.fin1@example.com",
+      "action": "approved",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:e1:1",
+      "step_seq": null,
+      "actor_id": "user:golden.claim1@example.com",
+      "action": "cancelled",
+      "comment": "Wrong amount",
+      "ip_address": null,
+      "user_agent": null
+     }
+    ],
+    "notifications": [
+     {
+      "user_id": "user:golden.mgr1@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Line manager approval: Required by policy",
+      "link": "/approvals?request=request:e1:1",
+      "entity_type": "expense",
+      "entity_id": "e1",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin1@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:e1:1",
+      "entity_type": "expense",
+      "entity_id": "e1",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Owner approval: A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)",
+      "link": "/approvals?request=request:e1:1",
+      "entity_type": "expense",
+      "entity_id": "e1",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     }
+    ]
+   }
+  },
+  {
+   "name": "vendor_invoice",
+   "ops": [
+    null,
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:vi1:1",
+      "entity_type": "vendor_invoice",
+      "entity_label": "Vendor invoice",
+      "entity_id": "vi1",
+      "document_label": "Vendor invoice GOLD-vi1",
+      "document_revision": 1,
+      "link": "/vendor-mgmt/invoices?invoice=vi1",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.fin2@example.com",
+       "name": "Golden fin2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 3000000.0,
+      "currency": "JPY",
+      "amount_base": 3000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         },
+         {
+          "id": "user:golden.fin2@example.com",
+          "name": "Golden fin2"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin2@example.com",
+         "name": "Golden fin2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": true,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.fin1@example.com",
+        "user:golden.fin2@example.com"
+       ],
+       "title": "Approval needed: Vendor invoice GOLD-vi1",
+       "body": "Finance Admin review: Required by policy",
+       "link": "/approvals?request=request:vi1:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    null,
+    null,
+    {
+     "status": 400,
+     "detail": {
+      "code": "precondition_failed",
+      "messages": [
+       "Finance processes no invoice without a closed, approved work order or purchase order."
+      ]
+     },
+     "outbox": []
+    }
+   ],
+   "rows": {
+    "requests": [
+     {
+      "id": "request:vi1:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi1",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Vendor invoice GOLD-vi1",
+      "submitted_by_id": "user:golden.fin2@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [],
+       "amount": 3000000.0,
+       "currency": "JPY",
+       "document": {
+        "amount": 3000000.0,
+        "currency": "JPY",
+        "vendor_id": "v1",
+        "invoice_date": "2026-10-01",
+        "work_order_id": "wo1",
+        "purchase_order_id": null,
+        "vendor_invoice_number": "GOLD-vi1"
+       },
+       "amount_base": 3000000.0,
+       "max_line_amount_base": 3000000.0,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "fx_rate_missing": false,
+       "has_closed_wo_po": true,
+       "responsible_user_id": null
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Finance Admin review",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "role_slug": "finance_admin",
+        "sla_hours": 48,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "role",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:golden.fin1@example.com",
+         "user:golden.fin2@example.com"
+        ],
+        "allow_self_approval": true
+       }
+      ],
+      "reminded": false
+     }
+    ],
+    "actions": [
+     {
+      "request_id": "request:vi1:1",
+      "step_seq": null,
+      "actor_id": "user:golden.fin2@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     }
+    ],
+    "notifications": [
+     {
+      "user_id": "user:golden.fin1@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Vendor invoice GOLD-vi1",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:vi1:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi1",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin2@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Vendor invoice GOLD-vi1",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:vi1:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi1",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     }
+    ]
+   }
+  },
+  {
+   "name": "purchase_orders",
+   "ops": [
+    null,
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:po1:1",
+      "entity_type": "purchase_order",
+      "entity_label": "Purchase order",
+      "entity_id": "po1",
+      "document_label": "Purchase order GOLD-po1",
+      "document_revision": 1,
+      "link": "/vendor-mgmt/purchase-orders?po=po1",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.lead1@example.com",
+       "name": "Golden lead1"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 3000000.0,
+      "currency": "JPY",
+      "amount_base": 3000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Manufacturing Lead approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": "No eligible holder of role 'team_lead' in Golden Manufacturing: routed to the Owner",
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.lead1@example.com",
+         "name": "Golden lead1"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Purchase order GOLD-po1",
+       "body": "Manufacturing Lead approval: Required by policy",
+       "link": "/approvals?request=request:po1:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    null,
+    null,
+    null,
+    {
+     "status": 400,
+     "detail": {
+      "code": "precondition_failed",
+      "messages": [
+       "Purchases of 10,000,000 (base currency) or more need at least 2 vendor quotes (an RFQ with two responses, or two quote files attached)."
+      ]
+     },
+     "outbox": []
+    },
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:po2:1",
+      "entity_type": "purchase_order",
+      "entity_label": "Purchase order",
+      "entity_id": "po2",
+      "document_label": "Purchase order GOLD-po2",
+      "document_revision": 1,
+      "link": "/vendor-mgmt/purchase-orders?po=po2",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.lead2@example.com",
+       "name": "Golden lead2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 2,
+      "flags": [],
+      "amount": 20000000.0,
+      "currency": "JPY",
+      "amount_base": 20000000.0,
+      "steps": [
+       {
+        "seq": 2,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Value 20,000,000 (base currency) is above 5,000,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.lead2@example.com",
+         "name": "Golden lead2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Purchase order GOLD-po2",
+       "body": "Owner approval: Value 20,000,000 (base currency) is above 5,000,000 (base currency)",
+       "link": "/approvals?request=request:po2:1",
+       "email": true,
+       "whatsapp": true
+      }
+     ]
+    },
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:po3:1",
+      "entity_type": "purchase_order",
+      "entity_label": "Purchase order",
+      "entity_id": "po3",
+      "document_label": "Purchase order GOLD-po3",
+      "document_revision": 1,
+      "link": "/vendor-mgmt/purchase-orders?po=po3",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.lead2@example.com",
+       "name": "Golden lead2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 4000000.0,
+      "currency": "JPY",
+      "amount_base": 4000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Manufacturing Lead approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": "No eligible holder of role 'team_lead' in Manufacturing: routed to the Owner",
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.lead2@example.com",
+         "name": "Golden lead2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Purchase order GOLD-po3",
+       "body": "Manufacturing Lead approval: Required by policy",
+       "link": "/approvals?request=request:po3:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    }
+   ],
+   "rows": {
+    "requests": [
+     {
+      "id": "request:po1:1",
+      "entity_type": "purchase_order",
+      "entity_id": "po1",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Purchase order GOLD-po1",
+      "submitted_by_id": "user:golden.lead1@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [],
+       "amount": 3000000.0,
+       "currency": "JPY",
+       "document": {
+        "items": [],
+        "total": 3000000.0,
+        "number": "GOLD-po1",
+        "currency": "JPY",
+        "vendor_id": "<uuid>",
+        "expected_delivery": null
+       },
+       "amount_base": 3000000.0,
+       "max_line_amount_base": 0.0,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "fx_rate_missing": false,
+       "vendor_quotes_count": 0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Manufacturing Lead approval",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "role_slug": "team_lead",
+        "sla_hours": 24,
+        "department": "Golden Manufacturing",
+        "activated_at": "<ts>",
+        "routing_note": "No eligible holder of role 'team_lead' in Golden Manufacturing: routed to the Owner",
+        "approver_mode": "role",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:po2:1",
+      "entity_type": "purchase_order",
+      "entity_id": "po2",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Purchase order GOLD-po2",
+      "submitted_by_id": "user:golden.lead2@example.com",
+      "completed": false,
+      "current_step_seq": 2,
+      "snapshot": {
+       "flags": [],
+       "amount": 20000000.0,
+       "currency": "JPY",
+       "document": {
+        "items": [],
+        "total": 20000000.0,
+        "number": "GOLD-po2",
+        "currency": "JPY",
+        "vendor_id": "<uuid>",
+        "expected_delivery": null
+       },
+       "amount_base": 20000000.0,
+       "max_line_amount_base": 0.0,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "fx_rate_missing": false,
+       "vendor_quotes_count": 2
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 2,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Value 20,000,000 (base currency) is above 5,000,000 (base currency)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 72,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:po3:1",
+      "entity_type": "purchase_order",
+      "entity_id": "po3",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Purchase order GOLD-po3",
+      "submitted_by_id": "user:golden.lead2@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [],
+       "amount": 4000000.0,
+       "currency": "JPY",
+       "document": {
+        "items": [],
+        "total": 4000000.0,
+        "number": "GOLD-po3",
+        "currency": "JPY",
+        "vendor_id": "<uuid>",
+        "expected_delivery": null
+       },
+       "amount_base": 4000000.0,
+       "max_line_amount_base": 0.0,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "fx_rate_missing": false,
+       "vendor_quotes_count": 0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Manufacturing Lead approval",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "role_slug": "team_lead",
+        "sla_hours": 24,
+        "department": "Manufacturing",
+        "activated_at": "<ts>",
+        "routing_note": "No eligible holder of role 'team_lead' in Manufacturing: routed to the Owner",
+        "approver_mode": "role",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     }
+    ],
+    "actions": [
+     {
+      "request_id": "request:po1:1",
+      "step_seq": null,
+      "actor_id": "user:golden.lead1@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:po2:1",
+      "step_seq": null,
+      "actor_id": "user:golden.lead2@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:po3:1",
+      "step_seq": null,
+      "actor_id": "user:golden.lead2@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     }
+    ],
+    "notifications": [
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Purchase order GOLD-po1",
+      "body": "Manufacturing Lead approval: Required by policy",
+      "link": "/approvals?request=request:po1:1",
+      "entity_type": "purchase_order",
+      "entity_id": "po1",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Purchase order GOLD-po2",
+      "body": "Owner approval: Value 20,000,000 (base currency) is above 5,000,000 (base currency)",
+      "link": "/approvals?request=request:po2:1",
+      "entity_type": "purchase_order",
+      "entity_id": "po2",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Purchase order GOLD-po3",
+      "body": "Manufacturing Lead approval: Required by policy",
+      "link": "/approvals?request=request:po3:1",
+      "entity_type": "purchase_order",
+      "entity_id": "po3",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     }
+    ]
+   }
+  },
+  {
+   "name": "stale_pending_and_ensure_or_submit",
+   "ops": [
+    null,
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_stale:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_stale",
+      "document_label": "Quotation GOLD-q_stale",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_stale",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.bdr3@example.com",
+       "name": "Golden bdr3"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 250000000.0,
+      "currency": "JPY",
+      "amount_base": 250000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr3@example.com",
+         "name": "Golden bdr3"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_stale",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_stale:1",
+       "email": true,
+       "whatsapp": true
+      }
+     ]
+    },
+    null,
+    {
+     "status": 409,
+     "detail": "The document changed after it was submitted: the request was cancelled and must be resubmitted",
+     "outbox": []
+    },
+    {
+     "status": 409,
+     "detail": {
+      "code": "approval_required",
+      "approval_status": "cancelled",
+      "request_id": "request:q_stale:1",
+      "message": "This quotation must be approved before it can be sent"
+     },
+     "outbox": []
+    },
+    null,
+    {
+     "status": 409,
+     "detail": {
+      "code": "approval_pending",
+      "approval_status": "pending",
+      "request_id": "request:q_send:1",
+      "message": "Submitted for approval: Owner approval is required before it can be sent"
+     },
+     "outbox": []
+    },
+    {
+     "status": 409,
+     "detail": {
+      "code": "approval_required",
+      "approval_status": "pending",
+      "request_id": "request:q_send:1",
+      "message": "This quotation must be approved before it can be sent (approval is pending)"
+     },
+     "outbox": []
+    },
+    {
+     "count": 1,
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Overdue approval: Quotation GOLD-q_send",
+       "body": "Owner approval is 5h past its SLA and still waiting for your decision",
+       "link": "/approvals?request=request:q_send:1",
+       "email": true,
+       "whatsapp": true
+      }
+     ]
+    },
+    {
+     "count": 0,
+     "outbox": []
+    },
+    {
+     "ok": null
+    },
+    {
+     "status": 409,
+     "detail": {
+      "code": "approval_required",
+      "approval_status": "not_submitted",
+      "request_id": null,
+      "message": "This quotation must be approved before it can be sent"
+     },
+     "outbox": []
+    },
+    {
+     "ok": {
+      "q_custom": {
+       "request_id": "request:q_custom:1",
+       "status": "pending",
+       "current_step": "Owner approval"
+      },
+      "q_stale": {
+       "request_id": "request:q_stale:1",
+       "status": "cancelled",
+       "current_step": null
+      }
+     }
+    }
+   ],
+   "rows": {
+    "requests": [
+     {
+      "id": "request:q_stale:1",
+      "entity_type": "quotation",
+      "entity_id": "q_stale",
+      "policy_version": 1,
+      "status": "cancelled",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_stale",
+      "submitted_by_id": "user:golden.bdr3@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 250000000.0,
+         "is_list": false,
+         "quantity": 25.0,
+         "allowance": null,
+         "is_custom": true,
+         "list_price": null,
+         "price_rule": "manual",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 250000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 25.0,
+          "product_id": null,
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 250000000.0,
+        "number": "GOLD-q_stale",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 250000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": null,
+       "terms_days": 30,
+       "amount_base": 250000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": true,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 250000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 24,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:q_send:1",
+      "entity_type": "quotation",
+      "entity_id": "q_send",
+      "policy_version": 1,
+      "status": "superseded",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_send",
+      "submitted_by_id": "user:golden.bdr3@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 300000000.0,
+         "is_list": false,
+         "quantity": 30.0,
+         "allowance": null,
+         "is_custom": true,
+         "list_price": null,
+         "price_rule": "manual",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 300000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 30.0,
+          "product_id": null,
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 300000000.0,
+        "number": "GOLD-q_send",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 300000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": null,
+       "terms_days": 30,
+       "amount_base": 300000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": true,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 300000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 24,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": true
+     }
+    ],
+    "actions": [
+     {
+      "request_id": "request:q_stale:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr3@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_stale:1",
+      "step_seq": null,
+      "actor_id": null,
+      "action": "cancelled",
+      "comment": "Document changed after submission: resubmit for approval",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_send:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr3@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_send:1",
+      "step_seq": null,
+      "actor_id": null,
+      "action": "superseded",
+      "comment": "Revised: GOLD",
+      "ip_address": null,
+      "user_agent": null
+     }
+    ],
+    "notifications": [
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_stale",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_stale:1",
+      "entity_type": "quotation",
+      "entity_id": "q_stale",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.bdr3@example.com",
+      "type": "approval_required",
+      "title": "Resubmit: Quotation GOLD-q_stale",
+      "body": "The document was edited while awaiting approval, so the request was cancelled.",
+      "link": "/approvals?request=request:q_stale:1",
+      "entity_type": "quotation",
+      "entity_id": "q_stale",
+      "is_read": false,
+      "read_at": null,
+      "priority": "normal"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_send",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_send:1",
+      "entity_type": "quotation",
+      "entity_id": "q_send",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Overdue approval: Quotation GOLD-q_send",
+      "body": "Owner approval is 5h past its SLA and still waiting for your decision",
+      "link": "/approvals?request=request:q_send:1",
+      "entity_type": "quotation",
+      "entity_id": "q_send",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.bdr3@example.com",
+      "type": "approval_update",
+      "title": "Approval overdue: Quotation GOLD-q_send",
+      "body": "Still waiting on Owner approval (5h past its SLA); the approvers were reminded",
+      "link": "/approvals?request=request:q_send:1",
+      "entity_type": "quotation",
+      "entity_id": "q_send",
+      "is_read": false,
+      "read_at": null,
+      "priority": "low"
+     }
+    ]
+   }
+  },
+  {
+   "name": "decisions",
+   "ops": [
+    null,
+    null,
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_std:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_std",
+      "document_label": "Quotation GOLD-q_std",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_std",
+      "status": "approved",
+      "submitted_by": {
+       "id": "user:golden.bdr4@example.com",
+       "name": "Golden bdr4"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": "<ts>",
+      "current_step_seq": null,
+      "flags": [],
+      "amount": 20000000.0,
+      "currency": "JPY",
+      "amount_base": 20000000.0,
+      "steps": [],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr4@example.com",
+         "name": "Golden bdr4"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "auto_approved",
+        "step_seq": null,
+        "comment": "No approval step applies: within standing authority (Quotation approval)",
+        "actor": null,
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": []
+    },
+    {
+     "ok": "request:q_std:1"
+    },
+    {
+     "status": 409,
+     "detail": "Quotation is already approved in its current form",
+     "outbox": []
+    },
+    null,
+    {
+     "status": 409,
+     "detail": {
+      "code": "approval_stale",
+      "approval_status": "stale",
+      "request_id": "request:q_std:1",
+      "message": "This quotation changed after it was approved: resubmit it for approval"
+     },
+     "outbox": []
+    },
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_rej:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_rej",
+      "document_label": "Quotation GOLD-q_rej",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_rej",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.bdr4@example.com",
+       "name": "Golden bdr4"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 300000000.0,
+      "currency": "JPY",
+      "amount_base": 300000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr4@example.com",
+         "name": "Golden bdr4"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_rej",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_rej:1",
+       "email": true,
+       "whatsapp": true
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:q_rej:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_rej",
+      "document_label": "Quotation GOLD-q_rej",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_rej",
+      "status": "rejected",
+      "submitted_by": {
+       "id": "user:golden.bdr4@example.com",
+       "name": "Golden bdr4"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": "<ts>",
+      "current_step_seq": null,
+      "flags": [],
+      "amount": 300000000.0,
+      "currency": "JPY",
+      "amount_base": 300000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "decision": "rejected",
+        "state": "rejected"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr4@example.com",
+         "name": "Golden bdr4"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "rejected",
+        "step_seq": 1,
+        "comment": "Margin too thin",
+        "actor": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.bdr4@example.com"
+       ],
+       "title": "Rejected: Quotation GOLD-q_rej",
+       "body": "Owner approval: rejected by Golden owner3: Margin too thin",
+       "link": "/approvals?request=request:q_rej:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_rej:2",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_rej",
+      "document_label": "Quotation GOLD-q_rej",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_rej",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.bdr4@example.com",
+       "name": "Golden bdr4"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 300000000.0,
+      "currency": "JPY",
+      "amount_base": 300000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr4@example.com",
+         "name": "Golden bdr4"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_rej",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_rej:2",
+       "email": true,
+       "whatsapp": true
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:q_rej:2",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_rej",
+      "document_label": "Quotation GOLD-q_rej",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_rej",
+      "status": "approved",
+      "submitted_by": {
+       "id": "user:golden.bdr4@example.com",
+       "name": "Golden bdr4"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": "<ts>",
+      "current_step_seq": null,
+      "flags": [],
+      "amount": 300000000.0,
+      "currency": "JPY",
+      "amount_base": 300000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "decision": "approved",
+        "state": "approved"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.bdr4@example.com",
+         "name": "Golden bdr4"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": "Strategic account",
+        "actor": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.bdr4@example.com"
+       ],
+       "title": "Approved: Quotation GOLD-q_rej",
+       "body": "Approved by Golden owner3: Strategic account",
+       "link": "/approvals?request=request:q_rej:2",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:q_own:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_own",
+      "document_label": "Quotation GOLD-q_own",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_own",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.owner3@example.com",
+       "name": "Golden owner3"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 250000000.0,
+      "currency": "JPY",
+      "amount_base": 250000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": true,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Quotation GOLD-q_own",
+       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "link": "/approvals?request=request:q_own:1",
+       "email": true,
+       "whatsapp": true
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:q_own:1",
+      "entity_type": "quotation",
+      "entity_label": "Quotation",
+      "entity_id": "q_own",
+      "document_label": "Quotation GOLD-q_own",
+      "document_revision": 1,
+      "link": "/sales/quotations/q_own",
+      "status": "approved",
+      "submitted_by": {
+       "id": "user:golden.owner3@example.com",
+       "name": "Golden owner3"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": "<ts>",
+      "current_step_seq": null,
+      "flags": [],
+      "amount": 250000000.0,
+      "currency": "JPY",
+      "amount_base": 250000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "decision": "approved",
+        "state": "approved"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.owner3@example.com"
+       ],
+       "title": "Approved: Quotation GOLD-q_own",
+       "body": "Approved by Golden owner3",
+       "link": "/approvals?request=request:q_own:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    null,
+    {
+     "status": 409,
+     "detail": {
+      "code": "approval_pending",
+      "approval_status": "pending",
+      "request_id": "request:q_eos:1",
+      "message": "Submitted for approval: Owner approval is required before it can be sent"
+     },
+     "outbox": []
+    },
+    {
+     "status": 400,
+     "detail": {
+      "code": "precondition_failed",
+      "messages": [
+       "Every discounted line must state its discount type (volume, bundle, loyalty, multi-year SaaS or Owner exception)."
+      ]
+     },
+     "outbox": []
+    },
+    null,
+    null,
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:e2:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e2",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e2",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.claim2@example.com",
+       "name": "Golden claim2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr2@example.com",
+          "name": "Golden mgr2"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         },
+         {
+          "id": "user:golden.fin2@example.com",
+          "name": "Golden fin2"
+         },
+         {
+          "id": "user:golden.fin3@example.com",
+          "name": "Golden fin3"
+         }
+        ],
+        "due_at": null,
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "waiting"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": null,
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "waiting"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim2@example.com",
+         "name": "Golden claim2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.mgr2@example.com"
+       ],
+       "title": "Approval needed: Expense claim (Travel): Client visit",
+       "body": "Line manager approval: Required by policy",
+       "link": "/approvals?request=request:e2:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:e2:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e2",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e2",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.claim2@example.com",
+       "name": "Golden claim2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 2,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr2@example.com",
+          "name": "Golden mgr2"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.mgr2@example.com",
+         "name": "Golden mgr2"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         },
+         {
+          "id": "user:golden.fin2@example.com",
+          "name": "Golden fin2"
+         },
+         {
+          "id": "user:golden.fin3@example.com",
+          "name": "Golden fin3"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": null,
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "waiting"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim2@example.com",
+         "name": "Golden claim2"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.mgr2@example.com",
+         "name": "Golden mgr2"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.fin1@example.com",
+        "user:golden.fin2@example.com",
+        "user:golden.fin3@example.com"
+       ],
+       "title": "Approval needed: Expense claim (Travel): Client visit",
+       "body": "Finance Admin review: Required by policy",
+       "link": "/approvals?request=request:e2:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:e2:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e2",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e2",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.claim2@example.com",
+       "name": "Golden claim2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 3,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr2@example.com",
+          "name": "Golden mgr2"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.mgr2@example.com",
+         "name": "Golden mgr2"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         },
+         {
+          "id": "user:golden.fin2@example.com",
+          "name": "Golden fin2"
+         },
+         {
+          "id": "user:golden.fin3@example.com",
+          "name": "Golden fin3"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.fin3@example.com",
+         "name": "Golden fin3"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim2@example.com",
+         "name": "Golden claim2"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.mgr2@example.com",
+         "name": "Golden mgr2"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 2,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin3@example.com",
+         "name": "Golden fin3"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:owner@example.com"
+       ],
+       "title": "Approval needed: Expense claim (Travel): Client visit",
+       "body": "Owner approval: A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)",
+       "link": "/approvals?request=request:e2:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:e2:1",
+      "entity_type": "expense",
+      "entity_label": "Expense claim",
+      "entity_id": "e2",
+      "document_label": "Expense claim (Travel): Client visit",
+      "document_revision": 1,
+      "link": "/finance/expenses?expense=e2",
+      "status": "approved",
+      "submitted_by": {
+       "id": "user:golden.claim2@example.com",
+       "name": "Golden claim2"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": "<ts>",
+      "current_step_seq": null,
+      "flags": [
+       "pre_approved"
+      ],
+      "amount": 1600000.0,
+      "currency": "JPY",
+      "amount_base": 1600000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.mgr2@example.com",
+          "name": "Golden mgr2"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.mgr2@example.com",
+         "name": "Golden mgr2"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         },
+         {
+          "id": "user:golden.fin2@example.com",
+          "name": "Golden fin2"
+         },
+         {
+          "id": "user:golden.fin3@example.com",
+          "name": "Golden fin3"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.fin3@example.com",
+         "name": "Golden fin3"
+        },
+        "decision": "approved",
+        "state": "approved"
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "is_notify_only": false,
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:owner@example.com",
+          "name": "Alex Owner"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "decision": "approved",
+        "state": "approved"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": "pre_approved",
+        "actor": {
+         "id": "user:golden.claim2@example.com",
+         "name": "Golden claim2"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.mgr2@example.com",
+         "name": "Golden mgr2"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 2,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin3@example.com",
+         "name": "Golden fin3"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 3,
+        "comment": "Fine",
+        "actor": {
+         "id": "user:golden.owner3@example.com",
+         "name": "Golden owner3"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.claim2@example.com"
+       ],
+       "title": "Approved: Expense claim (Travel): Client visit",
+       "body": "Approved by Golden owner3: Fine",
+       "link": "/approvals?request=request:e2:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    null,
+    null,
+    null,
+    {
+     "status": 201,
+     "body": {
+      "id": "request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_label": "Vendor invoice",
+      "entity_id": "vi3",
+      "document_label": "Vendor invoice GOLD-vi3",
+      "document_revision": 1,
+      "link": "/vendor-mgmt/invoices?invoice=vi3",
+      "status": "pending",
+      "submitted_by": {
+       "id": "user:golden.fin4@example.com",
+       "name": "Golden fin4"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": null,
+      "current_step_seq": 1,
+      "flags": [],
+      "amount": 3000000.0,
+      "currency": "JPY",
+      "amount_base": 3000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         },
+         {
+          "id": "user:golden.fin2@example.com",
+          "name": "Golden fin2"
+         },
+         {
+          "id": "user:golden.fin3@example.com",
+          "name": "Golden fin3"
+         },
+         {
+          "id": "user:golden.fin4@example.com",
+          "name": "Golden fin4"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": null,
+        "decided_by": null,
+        "decision": null,
+        "state": "current"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin4@example.com",
+         "name": "Golden fin4"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": true,
+      "can_cancel": true
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.fin1@example.com",
+        "user:golden.fin2@example.com",
+        "user:golden.fin3@example.com",
+        "user:golden.fin4@example.com"
+       ],
+       "title": "Approval needed: Vendor invoice GOLD-vi3",
+       "body": "Finance Admin review: Required by policy",
+       "link": "/approvals?request=request:vi3:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    },
+    {
+     "status": 200,
+     "body": {
+      "id": "request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_label": "Vendor invoice",
+      "entity_id": "vi3",
+      "document_label": "Vendor invoice GOLD-vi3",
+      "document_revision": 1,
+      "link": "/vendor-mgmt/invoices?invoice=vi3",
+      "status": "approved",
+      "submitted_by": {
+       "id": "user:golden.fin4@example.com",
+       "name": "Golden fin4"
+      },
+      "submitted_at": "<ts>",
+      "completed_at": "<ts>",
+      "current_step_seq": null,
+      "flags": [],
+      "amount": 3000000.0,
+      "currency": "JPY",
+      "amount_base": 3000000.0,
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Finance Admin review",
+        "is_notify_only": false,
+        "reasons": [],
+        "routing_note": null,
+        "candidates": [
+         {
+          "id": "user:golden.fin1@example.com",
+          "name": "Golden fin1"
+         },
+         {
+          "id": "user:golden.fin2@example.com",
+          "name": "Golden fin2"
+         },
+         {
+          "id": "user:golden.fin3@example.com",
+          "name": "Golden fin3"
+         },
+         {
+          "id": "user:golden.fin4@example.com",
+          "name": "Golden fin4"
+         }
+        ],
+        "due_at": "<ts>",
+        "decided_at": "<ts>",
+        "decided_by": {
+         "id": "user:golden.fin4@example.com",
+         "name": "Golden fin4"
+        },
+        "decision": "approved",
+        "state": "approved"
+       }
+      ],
+      "actions": [
+       {
+        "action": "submitted",
+        "step_seq": null,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin4@example.com",
+         "name": "Golden fin4"
+        },
+        "at": "<ts>"
+       },
+       {
+        "action": "approved",
+        "step_seq": 1,
+        "comment": null,
+        "actor": {
+         "id": "user:golden.fin4@example.com",
+         "name": "Golden fin4"
+        },
+        "at": "<ts>"
+       }
+      ],
+      "can_act": false,
+      "can_cancel": false
+     },
+     "outbox": [
+      {
+       "user_ids": [
+        "user:golden.fin4@example.com"
+       ],
+       "title": "Approved: Vendor invoice GOLD-vi3",
+       "body": "Approved by Golden fin4",
+       "link": "/approvals?request=request:vi3:1",
+       "email": true,
+       "whatsapp": false
+      }
+     ]
+    }
+   ],
+   "rows": {
+    "requests": [
+     {
+      "id": "request:q_std:1",
+      "entity_type": "quotation",
+      "entity_id": "q_std",
+      "policy_version": 1,
+      "status": "approved",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_std",
+      "submitted_by_id": "user:golden.bdr4@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 20000000.0,
+         "is_list": true,
+         "quantity": 2.0,
+         "allowance": null,
+         "is_custom": false,
+         "list_price": 10000000.0,
+         "price_rule": "list",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 20000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 2.0,
+          "product_id": "p_std",
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 20000000.0,
+        "number": "GOLD-q_std",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 20000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": 50.0,
+       "terms_days": 30,
+       "amount_base": 20000000.0,
+       "all_catalog_list_price": true,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": false,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 20000000.0
+      },
+      "flags": [],
+      "steps": [],
+      "reminded": false
+     },
+     {
+      "id": "request:q_rej:1",
+      "entity_type": "quotation",
+      "entity_id": "q_rej",
+      "policy_version": 1,
+      "status": "rejected",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_rej",
+      "submitted_by_id": "user:golden.bdr4@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 300000000.0,
+         "is_list": false,
+         "quantity": 30.0,
+         "allowance": null,
+         "is_custom": true,
+         "list_price": null,
+         "price_rule": "manual",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 300000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 30.0,
+          "product_id": null,
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 300000000.0,
+        "number": "GOLD-q_rej",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 300000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": null,
+       "terms_days": 30,
+       "amount_base": 300000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": true,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 300000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "decision": "rejected",
+        "role_slug": null,
+        "sla_hours": 24,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "decided_by_id": "user:golden.owner3@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:q_rej:2",
+      "entity_type": "quotation",
+      "entity_id": "q_rej",
+      "policy_version": 1,
+      "status": "approved",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_rej",
+      "submitted_by_id": "user:golden.bdr4@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 300000000.0,
+         "is_list": false,
+         "quantity": 30.0,
+         "allowance": null,
+         "is_custom": true,
+         "list_price": null,
+         "price_rule": "manual",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 300000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 30.0,
+          "product_id": null,
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 300000000.0,
+        "number": "GOLD-q_rej",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 300000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": null,
+       "terms_days": 30,
+       "amount_base": 300000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": true,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 300000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": null,
+        "sla_hours": 24,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "decided_by_id": "user:golden.owner3@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:q_own:1",
+      "entity_type": "quotation",
+      "entity_id": "q_own",
+      "policy_version": 1,
+      "status": "approved",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_own",
+      "submitted_by_id": "user:golden.owner3@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 250000000.0,
+         "is_list": false,
+         "quantity": 25.0,
+         "allowance": null,
+         "is_custom": true,
+         "list_price": null,
+         "price_rule": "manual",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 250000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 25.0,
+          "product_id": null,
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 250000000.0,
+        "number": "GOLD-q_own",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 250000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": null,
+       "terms_days": 30,
+       "amount_base": 250000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": true,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 250000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": null,
+        "sla_hours": 24,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "decided_by_id": "user:golden.owner3@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:q_eos:1",
+      "entity_type": "quotation",
+      "entity_id": "q_eos",
+      "policy_version": 1,
+      "status": "pending",
+      "document_revision": 1,
+      "document_label": "Quotation GOLD-q_eos",
+      "submitted_by_id": "user:golden.owner3@example.com",
+      "completed": false,
+      "current_step_seq": 1,
+      "snapshot": {
+       "flags": [],
+       "lines": [
+        {
+         "name": "Line",
+         "amount": 400000000.0,
+         "is_list": false,
+         "quantity": 40.0,
+         "allowance": null,
+         "is_custom": true,
+         "list_price": null,
+         "price_rule": "manual",
+         "unit_price": 10000000.0,
+         "discount_pct": 0.0,
+         "discount_type": "none"
+        }
+       ],
+       "amount": 400000000.0,
+       "currency": "JPY",
+       "document": {
+        "lines": [
+         {
+          "sku": null,
+          "name": "Line",
+          "unit": "Unit",
+          "quantity": 40.0,
+          "product_id": null,
+          "unit_price": 10000000.0,
+          "is_optional": false,
+          "discount_pct": 0.0,
+          "discount_type": "none"
+         }
+        ],
+        "total": 400000000.0,
+        "number": "GOLD-q_eos",
+        "currency": "JPY",
+        "revision": 1,
+        "subtotal": 400000000.0,
+        "valid_until": "2026-10-15",
+        "payment_terms": {
+         "text": "NET30"
+        },
+        "customer_org_id": null,
+        "procurement_type": "standard",
+        "payment_terms_days": null,
+        "header_discount_type": null,
+        "header_discount_value": 0.0
+       },
+       "allowances": [],
+       "margin_pct": null,
+       "terms_days": 30,
+       "amount_base": 400000000.0,
+       "all_catalog_list_price": false,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "margin_unknown": false,
+       "fx_rate_missing": false,
+       "has_custom_line": true,
+       "max_discount_pct": 0.0,
+       "procurement_type": "standard",
+       "is_loyal_customer": false,
+       "is_multi_year_bundle": false,
+       "max_line_amount_base": 400000000.0
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+        ],
+        "user_id": null,
+        "role_slug": null,
+        "sla_hours": 24,
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:e2:1",
+      "entity_type": "expense",
+      "entity_id": "e2",
+      "policy_version": 1,
+      "status": "approved",
+      "document_revision": 1,
+      "document_label": "Expense claim (Travel): Client visit",
+      "submitted_by_id": "user:golden.claim2@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [
+        "pre_approved"
+       ],
+       "amount": 1600000.0,
+       "currency": "JPY",
+       "document": {
+        "amount": 1600000.0,
+        "category": "Travel",
+        "currency": "JPY",
+        "vendor_id": null,
+        "project_id": null,
+        "description": "Client visit",
+        "receipt_url": null,
+        "expense_date": "2026-10-01"
+       },
+       "amount_base": 1600000.0,
+       "max_line_amount_base": 1600000.0,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "fx_rate_missing": false
+      },
+      "flags": [
+       "pre_approved"
+      ],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Line manager approval",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": null,
+        "sla_hours": 72,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "manager",
+        "decided_by_id": "user:golden.mgr2@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:golden.mgr2@example.com"
+        ],
+        "allow_self_approval": false
+       },
+       {
+        "seq": 2,
+        "name": "Finance Admin review",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": "finance_admin",
+        "sla_hours": 48,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "role",
+        "decided_by_id": "user:golden.fin3@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:golden.fin1@example.com",
+         "user:golden.fin2@example.com",
+         "user:golden.fin3@example.com"
+        ],
+        "allow_self_approval": false
+       },
+       {
+        "seq": 3,
+        "name": "Owner approval",
+        "due_at": "<ts>",
+        "reasons": [
+         "A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)"
+        ],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": null,
+        "sla_hours": 48,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "owner",
+        "decided_by_id": "user:golden.owner3@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:owner@example.com"
+        ],
+        "allow_self_approval": false
+       }
+      ],
+      "reminded": false
+     },
+     {
+      "id": "request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi3",
+      "policy_version": 1,
+      "status": "approved",
+      "document_revision": 1,
+      "document_label": "Vendor invoice GOLD-vi3",
+      "submitted_by_id": "user:golden.fin4@example.com",
+      "completed": true,
+      "current_step_seq": null,
+      "snapshot": {
+       "flags": [],
+       "amount": 3000000.0,
+       "currency": "JPY",
+       "document": {
+        "amount": 3000000.0,
+        "currency": "JPY",
+        "vendor_id": "v3",
+        "invoice_date": "2026-10-01",
+        "work_order_id": "wo3",
+        "purchase_order_id": null,
+        "vendor_invoice_number": "GOLD-vi3"
+       },
+       "amount_base": 3000000.0,
+       "max_line_amount_base": 3000000.0,
+       "fingerprint": "<sha>",
+       "fx_rate_base": 1.0,
+       "fx_rate_missing": false,
+       "has_closed_wo_po": true,
+       "responsible_user_id": null
+      },
+      "flags": [],
+      "steps": [
+       {
+        "seq": 1,
+        "name": "Finance Admin review",
+        "due_at": "<ts>",
+        "reasons": [],
+        "user_id": null,
+        "decision": "approved",
+        "role_slug": "finance_admin",
+        "sla_hours": 48,
+        "decided_at": "<ts>",
+        "department": null,
+        "activated_at": "<ts>",
+        "routing_note": null,
+        "approver_mode": "role",
+        "decided_by_id": "user:golden.fin4@example.com",
+        "is_notify_only": false,
+        "snapshot_user_key": null,
+        "candidate_user_ids": [
+         "user:golden.fin1@example.com",
+         "user:golden.fin2@example.com",
+         "user:golden.fin3@example.com",
+         "user:golden.fin4@example.com"
+        ],
+        "allow_self_approval": true
+       }
+      ],
+      "reminded": false
+     }
+    ],
+    "actions": [
+     {
+      "request_id": "request:q_std:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr4@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_std:1",
+      "step_seq": null,
+      "actor_id": null,
+      "action": "auto_approved",
+      "comment": "No approval step applies: within standing authority (Quotation approval)",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_rej:1",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr4@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_rej:1",
+      "step_seq": 1,
+      "actor_id": "user:golden.owner3@example.com",
+      "action": "rejected",
+      "comment": "Margin too thin",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_rej:2",
+      "step_seq": null,
+      "actor_id": "user:golden.bdr4@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_rej:2",
+      "step_seq": 1,
+      "actor_id": "user:golden.owner3@example.com",
+      "action": "approved",
+      "comment": "Strategic account",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_own:1",
+      "step_seq": null,
+      "actor_id": "user:golden.owner3@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_own:1",
+      "step_seq": 1,
+      "actor_id": "user:golden.owner3@example.com",
+      "action": "approved",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:q_eos:1",
+      "step_seq": null,
+      "actor_id": "user:golden.owner3@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:e2:1",
+      "step_seq": null,
+      "actor_id": "user:golden.claim2@example.com",
+      "action": "submitted",
+      "comment": "pre_approved",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:e2:1",
+      "step_seq": 1,
+      "actor_id": "user:golden.mgr2@example.com",
+      "action": "approved",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:e2:1",
+      "step_seq": 2,
+      "actor_id": "user:golden.fin3@example.com",
+      "action": "approved",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:e2:1",
+      "step_seq": 3,
+      "actor_id": "user:golden.owner3@example.com",
+      "action": "approved",
+      "comment": "Fine",
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:vi3:1",
+      "step_seq": null,
+      "actor_id": "user:golden.fin4@example.com",
+      "action": "submitted",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     },
+     {
+      "request_id": "request:vi3:1",
+      "step_seq": 1,
+      "actor_id": "user:golden.fin4@example.com",
+      "action": "approved",
+      "comment": null,
+      "ip_address": null,
+      "user_agent": null
+     }
+    ],
+    "notifications": [
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_rej",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_rej:1",
+      "entity_type": "quotation",
+      "entity_id": "q_rej",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.bdr4@example.com",
+      "type": "approval_required",
+      "title": "Rejected: Quotation GOLD-q_rej",
+      "body": "Owner approval: rejected by Golden owner3: Margin too thin",
+      "link": "/approvals?request=request:q_rej:1",
+      "entity_type": "quotation",
+      "entity_id": "q_rej",
+      "is_read": false,
+      "read_at": null,
+      "priority": "normal"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_rej",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_rej:2",
+      "entity_type": "quotation",
+      "entity_id": "q_rej",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.bdr4@example.com",
+      "type": "approval_required",
+      "title": "Approved: Quotation GOLD-q_rej",
+      "body": "Approved by Golden owner3: Strategic account",
+      "link": "/approvals?request=request:q_rej:2",
+      "entity_type": "quotation",
+      "entity_id": "q_rej",
+      "is_read": false,
+      "read_at": null,
+      "priority": "normal"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_own",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_own:1",
+      "entity_type": "quotation",
+      "entity_id": "q_own",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.owner3@example.com",
+      "type": "approval_required",
+      "title": "Approved: Quotation GOLD-q_own",
+      "body": "Approved by Golden owner3",
+      "link": "/approvals?request=request:q_own:1",
+      "entity_type": "quotation",
+      "entity_id": "q_own",
+      "is_read": false,
+      "read_at": null,
+      "priority": "normal"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Quotation GOLD-q_eos",
+      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "link": "/approvals?request=request:q_eos:1",
+      "entity_type": "quotation",
+      "entity_id": "q_eos",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.mgr2@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Line manager approval: Required by policy",
+      "link": "/approvals?request=request:e2:1",
+      "entity_type": "expense",
+      "entity_id": "e2",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin1@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:e2:1",
+      "entity_type": "expense",
+      "entity_id": "e2",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin2@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:e2:1",
+      "entity_type": "expense",
+      "entity_id": "e2",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin3@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:e2:1",
+      "entity_type": "expense",
+      "entity_id": "e2",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:owner@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Expense claim (Travel): Client visit",
+      "body": "Owner approval: A single item of 1,600,000 (base currency) is above 1,500,000 (base currency)",
+      "link": "/approvals?request=request:e2:1",
+      "entity_type": "expense",
+      "entity_id": "e2",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.claim2@example.com",
+      "type": "approval_required",
+      "title": "Approved: Expense claim (Travel): Client visit",
+      "body": "Approved by Golden owner3: Fine",
+      "link": "/approvals?request=request:e2:1",
+      "entity_type": "expense",
+      "entity_id": "e2",
+      "is_read": false,
+      "read_at": null,
+      "priority": "normal"
+     },
+     {
+      "user_id": "user:golden.fin1@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Vendor invoice GOLD-vi3",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi3",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin2@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Vendor invoice GOLD-vi3",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi3",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin3@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Vendor invoice GOLD-vi3",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi3",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin4@example.com",
+      "type": "approval_required",
+      "title": "Approval needed: Vendor invoice GOLD-vi3",
+      "body": "Finance Admin review: Required by policy",
+      "link": "/approvals?request=request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi3",
+      "is_read": false,
+      "read_at": null,
+      "priority": "high"
+     },
+     {
+      "user_id": "user:golden.fin4@example.com",
+      "type": "approval_required",
+      "title": "Approved: Vendor invoice GOLD-vi3",
+      "body": "Approved by Golden fin4",
+      "link": "/approvals?request=request:vi3:1",
+      "entity_type": "vendor_invoice",
+      "entity_id": "vi3",
+      "is_read": false,
+      "read_at": null,
+      "priority": "normal"
+     }
+    ]
+   }
+  }
+ ]
+}

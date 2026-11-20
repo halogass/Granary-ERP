@@ -1,0 +1,206 @@
+[
+ {
+  "in": null,
+  "out": "#1f4e79"
+ },
+ {
+  "in": "",
+  "out": "#1f4e79"
+ },
+ {
+  "in": " ",
+  "out": "#1f4e79"
+ },
+ {
+  "in": 0,
+  "out": "#1f4e79"
+ },
+ {
+  "in": 5,
+  "out": "#1f4e79"
+ },
+ {
+  "in": 1.5,
+  "out": "#1f4e79"
+ },
+ {
+  "in": true,
+  "out": "True"
+ },
+ {
+  "in": false,
+  "out": "#1f4e79"
+ },
+ {
+  "in": [],
+  "out": "#1f4e79"
+ },
+ {
+  "in": [
+   "red"
+  ],
+  "out": "#1f4e79"
+ },
+ {
+  "in": {
+   "a": 1
+  },
+  "out": "#1f4e79"
+ },
+ {
+  "in": "red",
+  "out": "red"
+ },
+ {
+  "in": " Red ",
+  "out": "Red"
+ },
+ {
+  "in": "REBECCAPURPLE",
+  "out": "REBECCAPURPLE"
+ },
+ {
+  "in": "red1",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "#fff",
+  "out": "#fff"
+ },
+ {
+  "in": "#ffff",
+  "out": "#ffff"
+ },
+ {
+  "in": "#fffff",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "#ffffff",
+  "out": "#ffffff"
+ },
+ {
+  "in": "#fffffff",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "#ffffffff",
+  "out": "#ffffffff"
+ },
+ {
+  "in": "#fffffffff",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "#FfA",
+  "out": "#FfA"
+ },
+ {
+  "in": "#ggg",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "fff",
+  "out": "fff"
+ },
+ {
+  "in": "rgb(1,2,3)",
+  "out": "rgb(1,2,3)"
+ },
+ {
+  "in": "rgba(1, 2, 3, 0.5)",
+  "out": "rgba(1, 2, 3, 0.5)"
+ },
+ {
+  "in": "rgb( 10% 20% 30% / .5 )",
+  "out": "rgb( 10% 20% 30% / .5 )"
+ },
+ {
+  "in": "hsl(120, 100%, 50%)",
+  "out": "hsl(120, 100%, 50%)"
+ },
+ {
+  "in": "hsla(+120,-1,1e3)",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "RGB(1,2,3)",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "rgb()",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "rgb(1,2,3);x",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "rgb(1,2,3)\n",
+  "out": "rgb(1,2,3)"
+ },
+ {
+  "in": "rgb(\u001c1\u001f)",
+  "out": "rgb(\u001c1\u001f)"
+ },
+ {
+  "in": "rgb( 1)",
+  "out": "rgb( 1)"
+ },
+ {
+  "in": "rgb(a)",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "red;\" onclick=\"x",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "red blue",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "red\n",
+  "out": "red"
+ },
+ {
+  "in": "\tred\t",
+  "out": "red"
+ },
+ {
+  "in": "réd",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "red;",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "url(x)",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "var(--c)",
+  "out": "#1f4e79"
+ },
+ {
+  "in": "transparent",
+  "out": "transparent"
+ },
+ {
+  "in": "#00ff00",
+  "out": "#00ff00"
+ },
+ {
+  "in": "\u001cred\u001c",
+  "out": "red"
+ },
+ {
+  "in": "#fff ",
+  "out": "#fff"
+ },
+ {
+  "in": "rgba(1,2,3)) ",
+  "out": "#1f4e79"
+ }
+]

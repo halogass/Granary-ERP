@@ -1,0 +1,218 @@
+[
+ {
+  "name": "health no origin",
+  "method": "GET",
+  "path": "/health",
+  "request_headers": {},
+  "status": 200,
+  "headers": {
+   "content-type": "application/json"
+  },
+  "response": "{\"status\":\"ok\",\"service\":\"granary\"}"
+ },
+ {
+  "name": "health allowed origin",
+  "method": "GET",
+  "path": "/health",
+  "request_headers": {
+   "origin": "https://example.com"
+  },
+  "status": 200,
+  "headers": {
+   "access-control-allow-origin": "https://example.com",
+   "access-control-allow-credentials": "true",
+   "vary": "Origin",
+   "content-type": "application/json"
+  },
+  "response": "{\"status\":\"ok\",\"service\":\"granary\"}"
+ },
+ {
+  "name": "health other origin",
+  "method": "GET",
+  "path": "/health",
+  "request_headers": {
+   "origin": "https://evil.example"
+  },
+  "status": 200,
+  "headers": {
+   "access-control-allow-credentials": "true",
+   "content-type": "application/json"
+  },
+  "response": "{\"status\":\"ok\",\"service\":\"granary\"}"
+ },
+ {
+  "name": "health with cookie",
+  "method": "GET",
+  "path": "/health",
+  "request_headers": {
+   "origin": "http://localhost:3000",
+   "cookie": "a=b"
+  },
+  "status": 200,
+  "headers": {
+   "access-control-allow-origin": "http://localhost:3000",
+   "access-control-allow-credentials": "true",
+   "vary": "Origin",
+   "content-type": "application/json"
+  },
+  "response": "{\"status\":\"ok\",\"service\":\"granary\"}"
+ },
+ {
+  "name": "preflight ok",
+  "method": "OPTIONS",
+  "path": "/health",
+  "request_headers": {
+   "origin": "https://www.example.com",
+   "access-control-request-method": "POST",
+   "access-control-request-headers": "authorization, content-type"
+  },
+  "status": 200,
+  "headers": {
+   "access-control-allow-origin": "https://www.example.com",
+   "access-control-allow-credentials": "true",
+   "access-control-allow-methods": "DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT",
+   "access-control-allow-headers": "authorization, content-type",
+   "access-control-max-age": "86400",
+   "vary": "Origin",
+   "content-type": "text/plain; charset=utf-8"
+  },
+  "response": "OK"
+ },
+ {
+  "name": "preflight no headers",
+  "method": "OPTIONS",
+  "path": "/health",
+  "request_headers": {
+   "origin": "https://example.com",
+   "access-control-request-method": "GET"
+  },
+  "status": 200,
+  "headers": {
+   "access-control-allow-origin": "https://example.com",
+   "access-control-allow-credentials": "true",
+   "access-control-allow-methods": "DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT",
+   "access-control-max-age": "86400",
+   "vary": "Origin",
+   "content-type": "text/plain; charset=utf-8"
+  },
+  "response": "OK"
+ },
+ {
+  "name": "preflight bad origin",
+  "method": "OPTIONS",
+  "path": "/health",
+  "request_headers": {
+   "origin": "https://evil.example",
+   "access-control-request-method": "GET"
+  },
+  "status": 400,
+  "headers": {
+   "access-control-allow-credentials": "true",
+   "access-control-allow-methods": "DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT",
+   "access-control-max-age": "86400",
+   "vary": "Origin",
+   "content-type": "text/plain; charset=utf-8"
+  },
+  "response": "Disallowed CORS origin"
+ },
+ {
+  "name": "preflight bad method",
+  "method": "OPTIONS",
+  "path": "/health",
+  "request_headers": {
+   "origin": "https://example.com",
+   "access-control-request-method": "TRACE"
+  },
+  "status": 400,
+  "headers": {
+   "access-control-allow-origin": "https://example.com",
+   "access-control-allow-credentials": "true",
+   "access-control-allow-methods": "DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT",
+   "access-control-max-age": "86400",
+   "vary": "Origin",
+   "content-type": "text/plain; charset=utf-8"
+  },
+  "response": "Disallowed CORS method"
+ },
+ {
+  "name": "preflight unknown path",
+  "method": "OPTIONS",
+  "path": "/nope",
+  "request_headers": {
+   "origin": "https://example.com",
+   "access-control-request-method": "GET"
+  },
+  "status": 200,
+  "headers": {
+   "access-control-allow-origin": "https://example.com",
+   "access-control-allow-credentials": "true",
+   "access-control-allow-methods": "DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT",
+   "access-control-max-age": "86400",
+   "vary": "Origin",
+   "content-type": "text/plain; charset=utf-8"
+  },
+  "response": "OK"
+ },
+ {
+  "name": "options without request method",
+  "method": "OPTIONS",
+  "path": "/health",
+  "request_headers": {
+   "origin": "https://example.com"
+  },
+  "status": 405,
+  "headers": {
+   "access-control-allow-origin": "https://example.com",
+   "access-control-allow-credentials": "true",
+   "vary": "Origin",
+   "content-type": "application/json",
+   "allow": "GET"
+  },
+  "response": "{\"detail\":\"Method Not Allowed\"}"
+ },
+ {
+  "name": "handled error allowed origin",
+  "method": "GET",
+  "path": "/err/business",
+  "request_headers": {
+   "origin": "https://example.com"
+  },
+  "status": 400,
+  "headers": {
+   "access-control-allow-origin": "https://example.com",
+   "access-control-allow-credentials": "true",
+   "vary": "Origin",
+   "content-type": "application/json"
+  },
+  "response": "{\"detail\":\"Rule broken\",\"code\":\"BUSINESS_RULE_VIOLATION\"}"
+ },
+ {
+  "name": "unhandled error allowed origin",
+  "method": "GET",
+  "path": "/err/crash",
+  "request_headers": {
+   "origin": "https://example.com"
+  },
+  "status": 500,
+  "headers": {
+   "content-type": "application/json"
+  },
+  "response": "{\"detail\":\"Internal server error\",\"code\":\"INTERNAL_ERROR\"}"
+ },
+ {
+  "name": "404 allowed origin",
+  "method": "GET",
+  "path": "/missing",
+  "request_headers": {
+   "origin": "https://example.com"
+  },
+  "status": 404,
+  "headers": {
+   "access-control-allow-origin": "https://example.com",
+   "access-control-allow-credentials": "true",
+   "vary": "Origin",
+   "content-type": "application/json"
+  },
+  "response": "{\"detail\":\"Not Found\"}"
+ }
+]

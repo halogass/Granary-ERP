@@ -1,0 +1,18 @@
+Cc: charset="utf-8"; <a@b.c> =?utf-8?q?=FF?=;
+MIME-Version: attachment  été,
+Content-Disposition: =?iso-8859-1?q?J=F6rg?=>
+From: attachment filename="=?utf-8?b?w6k=?=", x
+Cc: name*="utf-8''x%20y"> ;
+Content-Type: multipart/mixed; boundary=Q
+
+--Q
+Content-Type: text/plain; charset=utf-8
+
+hello
+world
+--Q
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<i>x=3Dy</i>
+--Q--

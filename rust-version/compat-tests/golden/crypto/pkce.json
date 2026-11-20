@@ -1,0 +1,65 @@
+{
+ "cases": [
+  {
+   "verifier": "dBjftJeZ4CVP-1J0Rp4Vt1QD0bDRNs1RLzMHB3lqZFQ",
+   "challenge": "t0Uot4Al_SRY6fziA4n3Lkx1CEM_juNCnfC0XhQAc80",
+   "ok": true,
+   "ok_wrong": false,
+   "ok_none_verifier": false
+  },
+  {
+   "verifier": "",
+   "challenge": "47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU",
+   "ok": true,
+   "ok_wrong": false,
+   "ok_none_verifier": true
+  },
+  {
+   "verifier": "short",
+   "challenge": "-bAHi131ltLqGQEMABu9AJ5lHeLFfo-341XzHrnT9zk",
+   "ok": true,
+   "ok_wrong": false,
+   "ok_none_verifier": false
+  },
+  {
+   "verifier": "ünïcode-verifier-☃ünïcode-verifier-☃ünïcode-verifier-☃",
+   "challenge": "ghZQ2FViLnce4xE_Wm0-PM24HV4pAwUEduzUCETs93Q",
+   "ok": true,
+   "ok_wrong": false,
+   "ok_none_verifier": false
+  }
+ ],
+ "errors": [
+  {
+   "challenge": "ünïcode",
+   "raises": true
+  }
+ ],
+ "gate": [
+  {
+   "method": "S256",
+   "challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "ok": true
+  },
+  {
+   "method": "S256",
+   "challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "ok": false
+  },
+  {
+   "method": "plain",
+   "challenge": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+   "ok": false
+  },
+  {
+   "method": "S256",
+   "challenge": null,
+   "ok": false
+  },
+  {
+   "method": "S256",
+   "challenge": "ééééééééééééééééééééééééééééééééééééééééééé",
+   "ok": true
+  }
+ ]
+}

@@ -1,0 +1,259 @@
+[
+ {
+  "name": "app.tasks.bulk_ai_field_task",
+  "params": [
+   {
+    "name": "object_type"
+   },
+   {
+    "name": "record_ids"
+   },
+   {
+    "name": "user_id"
+   },
+   {
+    "name": "attribute_key",
+    "default": null
+   },
+   {
+    "name": "action",
+    "default": "attribute"
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.enrich_organization_task",
+  "params": [
+   {
+    "name": "org_id"
+   },
+   {
+    "name": "user_id",
+    "default": null
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.erp_guide_sync",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.expire_quotations",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.fire_due_reminders",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.generate_followup_reminders",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.import_kb_article_pdf",
+  "params": [
+   {
+    "name": "article_id"
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.index_ai_knowledge_doc",
+  "params": [
+   {
+    "name": "doc_id"
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.nary_channels_tick",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.nary_dispatch_events",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.nary_playbooks_tick",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.nary_sop_revisions",
+  "params": [
+   {
+    "name": "codes"
+   },
+   {
+    "name": "user_id"
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.nary_staff_chat_reply",
+  "params": [
+   {
+    "name": "chat_id"
+   },
+   {
+    "name": "message_id"
+   },
+   {
+    "name": "late",
+    "default": false
+   }
+  ],
+  "bind": true,
+  "max_retries": null
+ },
+ {
+  "name": "app.tasks.nary_style_refresh",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.nary_tick",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.poll_crm_inbox",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.propose_lead_merges",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.refresh_stale_ai_fields",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.reindex_kb_embeddings",
+  "params": [
+   {
+    "name": "article_id",
+    "default": null
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.remind_expiring_signatures",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.remind_overdue_approvals",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.research_task",
+  "params": [
+   {
+    "name": "run_id"
+   },
+   {
+    "name": "user_id",
+    "default": null
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.send_document_email",
+  "params": [
+   {
+    "name": "to"
+   },
+   {
+    "name": "subject"
+   },
+   {
+    "name": "html_body"
+   },
+   {
+    "name": "pdf_url",
+    "default": null
+   },
+   {
+    "name": "filename",
+    "default": null
+   }
+  ],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.send_invoice_reminders",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.send_scheduled_messages",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.sweep_stuck_pdf_imports",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.sync_exchange_rates",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.sync_personal_mailboxes",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ },
+ {
+  "name": "app.tasks.weekly_followup_digest",
+  "params": [],
+  "bind": false,
+  "max_retries": 3
+ }
+]

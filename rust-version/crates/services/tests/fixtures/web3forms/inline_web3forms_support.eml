@@ -1,0 +1,34 @@
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture1;
+ d=web3forms.com; b=FIXTURE
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture2;
+ d=amazonses.com; b=FIXTURE
+From: Web Form <notify+tfeljd@web3forms.com>
+Reply-To: maria.lopez.lead@example.net
+To: hello@example.com
+Subject: New Lead [inline_web3forms]: Contoso Copy & Print Center
+Date: Wed, 09 Sep 2026 07:41:06 +0000
+Message-ID: <0100-fixture-support-0002@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============3714966735976391444=="
+
+--===============3714966735976391444==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+name  : Maria Lopez
+email  : maria.lopez.lead@example.net
+phone  : 
+company  : Contoso Copy & Print Center
+interested_in  : supportPlans
+message  : Use our existing laptops and printers and offer one support plan with on-site repairs, spare parts and a monthly report across 100 branches
+from_page  : https://www.example.com/contact-us/
+submission_source  : inline_web3forms
+
+--===============3714966735976391444==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body><p>New form submission</p><p>company: Contoso Copy &amp; Print Center</p></body></html>
+
+--===============3714966735976391444==--

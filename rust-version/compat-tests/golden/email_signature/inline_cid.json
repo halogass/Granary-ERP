@@ -1,0 +1,3116 @@
+[
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p>",
+  "out": "<a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><img src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><img src=\"cid:sig-11111111111141118111111111111111\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444>\n<img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}>\n<img data-src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">",
+  "out": "<img src=https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444>\n<img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}>\n<img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><img src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><img src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n",
+  "out": "<imǵ src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n",
+  "parts": []
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2\">",
+  "out": "<img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n<img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n<imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><p>t</p><img src=\"https://x.test/a.png\">",
+  "out": "<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img src=\"https://x.test/a.png\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/\">\n<img src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><p>t</p><imgx src=\" /api/v1/email/signature/assets/not-a-uuid \">\n",
+  "out": "<a href=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/\">\n<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/not-a-uuid \">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><imgx src=\"/api/v1/email/signature/assets/not-a-uuid#x\"><img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\"><img src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p>",
+  "out": "<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><imgx src=\"/api/v1/email/signature/assets/not-a-uuid#x\"><img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\"><img src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\"><imǵ src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111111141118111111111111111' /><p>t</p>",
+  "out": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\"><imǵ src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p><IMG alt='x' SRC = 'cid:sig-11111111111141118111111111111111' /><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><img data-src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\"><a href=\"https://x.test/a.png\"><p>t</p>",
+  "out": "<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><img data-src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\"><a href=\"https://x.test/a.png\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"https://x.test/a.png\">\n<imǵ src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">\n<img src=\" /api/v1/email/signature/assets/not-a-uuid \" src=\" /api/v1/email/signature/assets/not-a-uuid \"><img src=\"cid:abc\" src=\"cid:abc\">\n<img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222>",
+  "out": "<imǵ src=\"https://x.test/a.png\">\n<imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n<img src=\" /api/v1/email/signature/assets/not-a-uuid \" src=\" /api/v1/email/signature/assets/not-a-uuid \"><img src=\"cid:abc\" src=\"cid:abc\">\n<img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222>",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111111141118111111111111111#x' />\n",
+  "out": "<a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><IMG alt='x' SRC = 'cid:sig-11111111111141118111111111111111' />\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><p>t</p>",
+  "out": "<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\"><p>t</p><a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><p>t</p><img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n",
+  "out": "<img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\"><p>t</p><a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><p>t</p><img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><p>t</p><img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><p>t</p><img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \"><p>t</p><img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p>",
+  "out": "<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p><img src=\"cid:sig-11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\">\n<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/not-a-uuid' /><p>t</p><img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\">\n",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/\">\n<img\nwidth=1\nsrc=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\">\n<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/not-a-uuid' /><p>t</p><img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\">\n",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\"><p>t</p><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">\n",
+  "out": "<img data-src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\"><p>t</p><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\"><a href=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n",
+  "out": "<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\"><a href=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x' /><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n<img data-src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2>\n",
+  "out": "<imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n<IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' /><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n<img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2>\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \">",
+  "out": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \">",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<a href=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><img src=/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/><p>t</p><img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><p>t</p>",
+  "out": "<a href=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<a href=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><img src=/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/><p>t</p><img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \">\n",
+  "out": "<img src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \">\n",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"\"><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/' /><p>t</p>",
+  "out": "<img title=\"a>b\" src=\"\"><p>t</p><IMG alt='x' SRC = 'cid:sig-22222222-2222-4222-8222-222222222222' /><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><img data-src=\"cid:abc\">\n",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><img data-src=\"cid:abc\">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/\"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\">\n",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/\"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\">\n",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/' />\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2' /><p>t</p>",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/' />\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2' /><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p>",
+  "out": "<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img data-src=\"cid:abc\">\n<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222' />",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img data-src=\"cid:abc\">\n<IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n",
+  "out": "<imgx src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src= /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} ><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/><img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p>",
+  "out": "<img src= /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} ><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/><img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p><img src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n",
+  "out": "<a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p><img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><img src=/api/v1/email/signature/assets/11111111111141118111111111111111/>\n",
+  "out": "<img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><img src=/api/v1/email/signature/assets/11111111111141118111111111111111/>\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "out": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p><imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111' /><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/' /><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><p>t</p><img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><IMG alt='x' SRC = 'cid:sig-11111111111141118111111111111111' /><p>t</p><IMG alt='x' SRC = 'cid:sig-11111111-1111-4111-8111-111111111111' /><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><p>t</p><img src=\"cid:sig-11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p>",
+  "out": "<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><img src=https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444><p>t</p><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">",
+  "out": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><img src=https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444><p>t</p><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p><img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p><img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2>",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><a href=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x' /><img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/><p>t</p>",
+  "out": "<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><a href=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n<IMG alt='x' SRC = 'cid:sig-{11111111-1111-4111-8111-111111111111}' /><img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><imǵ src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">",
+  "out": "<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><imǵ src=\"cid:sig-33333333-3333-4333-8333-333333333333\">",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/not-a-uuid><p>t</p>",
+  "out": "<img src=/api/v1/email/signature/assets/not-a-uuid><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid?v=2' /><p>t</p><img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><a href=\"https://x.test/a.png\"><imgx src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\">",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid?v=2' /><p>t</p><img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><a href=\"https://x.test/a.png\"><imgx src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222><p>t</p><imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><imǵ src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n",
+  "out": "<img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222><p>t</p><imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><p>t</p><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><img data-src=\"/api/v1/email/signature/assets/\">",
+  "out": "<img src=\"cid:sig-11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\"><img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><img data-src=\"/api/v1/email/signature/assets/\">",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><img src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n",
+  "out": "<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><img src=\"cid:sig-22222222-2222-4222-8222-222222222222\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/' /><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><img data-src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><img data-src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/' /><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><img data-src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><img data-src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x' />\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\">",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x' />\n<img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><imǵ src=\"\">\n",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><imǵ src=\"\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\">",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/' /><img src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><a href=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/' /><img src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><a href=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p>",
+  "out": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><a href=\" /api/v1/email/signature/assets/not-a-uuid \"><img data-src=\"/api/v1/email/signature/assets/\">\n<a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111#x\">",
+  "out": "<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><a href=\" /api/v1/email/signature/assets/not-a-uuid \"><img data-src=\"/api/v1/email/signature/assets/\">\n<a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111#x\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img src=https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222><imǵ src=\"\"><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\">\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">",
+  "out": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img src=https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222><imǵ src=\"\"><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">\n<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \"><img src=https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555><imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">\n",
+  "out": "<img data-src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n<img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\"><img src=https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555><imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"https://x.test/a.png\">\n<img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/' />",
+  "out": "<imǵ src=\"https://x.test/a.png\">\n<img src=\"cid:sig-11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><IMG alt='x' SRC = 'cid:sig-33333333-3333-4333-8333-333333333333' />",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\"><p>t</p><img src= /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 ><p>t</p><img src=/api/v1/email/signature/assets/not-a-uuid?v=2><IMG alt='x' SRC = '/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x' />\n",
+  "out": "<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img src= /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 ><p>t</p><img src=/api/v1/email/signature/assets/not-a-uuid?v=2><IMG alt='x' SRC = 'cid:sig-22222222-2222-4222-8222-222222222222' />\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\">\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\">\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><img src=\"/api/v1/email/signature/assets/\">\n<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">",
+  "out": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\">\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\">\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><img src=\"/api/v1/email/signature/assets/\">\n<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\" src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p>",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\" src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">\n<img src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111111141118111111111111111/' />\n<img data-src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' /><p>t</p>",
+  "out": "<imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n<IMG alt='x' SRC = 'cid:sig-11111111111141118111111111111111' />\n<img data-src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' /><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">\n<img data-src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n",
+  "out": "<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">\n<img data-src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/\"><p>t</p><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/>",
+  "out": "<a href=\"/api/v1/email/signature/assets/\"><p>t</p><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/>",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2' />\n",
+  "out": "<IMG alt='x' SRC = 'cid:sig-22222222-2222-4222-8222-222222222222' />\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \"><p>t</p><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid' />",
+  "out": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \"><p>t</p><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid' />",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n<imǵ src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><img src=/api/v1/email/signature/assets/11111111111141118111111111111111/><p>t</p>",
+  "out": "<img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n<imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><img src=/api/v1/email/signature/assets/11111111111141118111111111111111/><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = ' /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 ' />",
+  "out": "<IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=cid:abc><IMG alt='x' SRC = ' /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 ' />\n<img data-src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img src=https://erp.test/api/v1/email/signature/assets/not-a-uuid><p>t</p><img src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \" src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \">\n",
+  "out": "<img src=cid:abc><IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />\n<img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n<img src=https://erp.test/api/v1/email/signature/assets/not-a-uuid><p>t</p><img src=\"cid:sig-11111111111141118111111111111111\" src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \">",
+  "out": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \">",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\"><img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">",
+  "out": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\"><img src=\"cid:sig-11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n<img src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \">\n<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222' />",
+  "out": "<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p><imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n<img src=\"cid:sig-11111111111141118111111111111111\">\n<IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\" src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "out": "<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">",
+  "out": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\"><imgx src=\"/api/v1/email/signature/assets/\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\"><p>t</p><imgx src=\"cid:abc\">\n<img data-src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><imgx src=\"/api/v1/email/signature/assets/\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\"><p>t</p><imgx src=\"cid:abc\">\n<img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n",
+  "out": "<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555' /><p>t</p><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n",
+  "out": "<img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555' /><p>t</p><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\">",
+  "out": "<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"cid:abc\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<img src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \" src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \">",
+  "out": "<imgx src=\"cid:abc\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\" src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><IMG alt='x' SRC = ' /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 ' /><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid/' />\n",
+  "out": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><IMG alt='x' SRC = 'cid:sig-22222222-2222-4222-8222-222222222222' /><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid/' />\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' /><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "out": "<img src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' /><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}><imgx src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n",
+  "out": "<img src=/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}><imgx src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img data-src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img data-src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\">\n",
+  "out": "<imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">\n<img src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\">\n",
+  "out": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">\n<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' />\n<img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><p>t</p><imǵ src=\" /api/v1/email/signature/assets/not-a-uuid \"><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2' />",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' />\n<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><p>t</p><imǵ src=\" /api/v1/email/signature/assets/not-a-uuid \"><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2' />",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><imǵ src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "out": "<img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/><p>t</p><img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444' />\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x><img data-src=\"/api/v1/email/signature/assets/11111111111141118111111111111111#x\">\n<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111' /><p>t</p>",
+  "out": "<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444' />\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x><img data-src=\"cid:sig-11111111111141118111111111111111\">\n<IMG alt='x' SRC = 'cid:sig-11111111111141118111111111111111' /><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><p>t</p>",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid#x\">\n",
+  "out": "<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid#x\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><p>t</p>",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "out": "<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \"><p>t</p><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "out": "<img data-src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n<imgx src=\"/api/v1/email/signature/assets/\">\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\">\n<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\">\n",
+  "out": "<img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n<imgx src=\"/api/v1/email/signature/assets/\">\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\">\n<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><IMG alt='x' SRC = '/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p>",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img src=\"cid:sig-11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<img\nwidth=1\nsrc=\"cid:sig-11111111111141118111111111111111\"><IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2><p>t</p><imgx src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\">\n",
+  "out": "<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2><p>t</p><imgx src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n<img src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\">\n",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n<img src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\" src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><img src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<img data-src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\"><IMG alt='x' SRC = ' /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 ' /><p>t</p>",
+  "out": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\" src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<img data-src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><IMG alt='x' SRC = 'cid:sig-11111111-1111-4111-8111-111111111111' /><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><img src=https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}><p>t</p>",
+  "out": "<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><img src=https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111111141118111111111111111' /><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">\n<img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><img src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p>",
+  "out": "<IMG alt='x' SRC = 'cid:sig-11111111111141118111111111111111' /><p>t</p><img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">\n<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><img src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/' /><img data-src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p><IMG alt='x' SRC = ' /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 ' />",
+  "out": "<IMG alt='x' SRC = 'cid:sig-{11111111-1111-4111-8111-111111111111}' /><img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><img src=\"cid:sig-11111111111141118111111111111111\"><p>t</p><IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = ' /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 ' />",
+  "out": "<IMG alt='x' SRC = ' /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 ' />",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n",
+  "out": "<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n<imǵ src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n",
+  "out": "<img src=\"cid:sig-11111111111141118111111111111111\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n<imǵ src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}' /><p>t</p><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\">",
+  "out": "<img src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><imǵ src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n<IMG alt='x' SRC = 'cid:sig-{11111111-1111-4111-8111-111111111111}' /><p>t</p><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\">",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><imǵ src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><p>t</p>",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><imǵ src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/not-a-uuid?v=2><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "out": "<img src=/api/v1/email/signature/assets/not-a-uuid?v=2><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/not-a-uuid?v=2><p>t</p><img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x><p>t</p>",
+  "out": "<img src=/api/v1/email/signature/assets/not-a-uuid?v=2><p>t</p><img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">\n<imǵ src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2' />\n<imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\"><p>t</p>",
+  "out": "<a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">\n<imǵ src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><IMG alt='x' SRC = 'cid:sig-22222222-2222-4222-8222-222222222222' />\n<imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2\">",
+  "out": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\">\n",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\">\n",
+  "parts": []
+ },
+ {
+  "html": "<a href=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">",
+  "out": "<a href=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">",
+  "parts": []
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\"><p>t</p><img data-src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><a href=\"cid:abc\">",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\"><p>t</p><img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><a href=\"cid:abc\">",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\"><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">",
+  "out": "<imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111#x\">",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111#x\">",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid?v=2' />\n<img data-src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\">\n",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/not-a-uuid?v=2' />\n<img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">",
+  "out": "<imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n",
+  "out": "<img src=\"cid:sig-11111111111141118111111111111111\"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><p>t</p><img src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n",
+  "out": "<imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><img src=\"cid:sig-11111111111141118111111111111111\">\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><p>t</p><img src=https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}>\n<img src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \" src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">",
+  "out": "<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><p>t</p><img src=https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}>\n<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\" src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' /><img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">\n<img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">\n",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' /><img src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid\"><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">",
+  "out": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid\"><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p>",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\">\n<imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\"><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222' />\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\">",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\">\n<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><img src=/api/v1/email/signature/assets/11111111111141118111111111111111#x><img data-src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\"><p>t</p>",
+  "out": "<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><img src=/api/v1/email/signature/assets/11111111111141118111111111111111#x><img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \"><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">",
+  "out": "<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\" src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \"><img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/11111111111141118111111111111111#x><p>t</p><img src=\"cid:abc\"><img src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n",
+  "out": "<img src=/api/v1/email/signature/assets/11111111111141118111111111111111#x><p>t</p><img src=\"cid:abc\"><img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p>",
+  "out": "<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img data-src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">",
+  "out": "<img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid/\">\n<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' />\n<img title=\"a>b\" src=\"\"><p>t</p><a href=\"/api/v1/email/signature/assets/not-a-uuid\">\n",
+  "out": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid/\">\n<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' />\n<img title=\"a>b\" src=\"\"><p>t</p><a href=\"/api/v1/email/signature/assets/not-a-uuid\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<a href=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' /><imǵ src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">",
+  "out": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<a href=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' /><imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\"><a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><p>t</p>",
+  "out": "<img data-src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><p>t</p><img src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">\n<img\nwidth=1\nsrc=\"https://x.test/a.png\"><p>t</p><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p>",
+  "out": "<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><p>t</p><img src=\"cid:sig-11111111111141118111111111111111\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">\n<img\nwidth=1\nsrc=\"https://x.test/a.png\"><p>t</p><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">\n<img src=/api/v1/email/signature/assets/not-a-uuid/>\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><p>t</p><img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n<img src=/api/v1/email/signature/assets/not-a-uuid/>\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><p>t</p><img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">\n<img src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \" src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><img data-src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><img data-src=\"/api/v1/email/signature/assets/not-a-uuid#x\">",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-11111111111141118111111111111111\">\n<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\" src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><img data-src=\"/api/v1/email/signature/assets/not-a-uuid#x\">",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333' />\n<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "out": "<IMG alt='x' SRC = 'cid:sig-33333333-3333-4333-8333-333333333333' />\n<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/11111111111141118111111111111111?v=2><p>t</p><imgx src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><p>t</p><img data-src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \"><p>t</p><img src=/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/>",
+  "out": "<img src=/api/v1/email/signature/assets/11111111111141118111111111111111?v=2><p>t</p><imgx src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><p>t</p><img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img src=/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\">\n<imgx src=\"https://x.test/a.png\">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/' /><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2><p>t</p>",
+  "out": "<imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n<imgx src=\"https://x.test/a.png\">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/' /><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\">\n",
+  "out": "<a href=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\">\n",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/><p>t</p>",
+  "out": "<IMG alt='x' SRC = 'cid:sig-11111111-1111-4111-8111-111111111111' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\"><imǵ src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111#x\">",
+  "out": "<img data-src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\"><imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111#x\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<img src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \">",
+  "out": "<img data-src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n<img src=\"cid:sig-11111111111141118111111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n",
+  "out": "<imgx src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2' />\n<imǵ src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \">\n<a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><p>t</p>",
+  "out": "<img src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><IMG alt='x' SRC = 'cid:sig-{11111111-1111-4111-8111-111111111111}' />\n<imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n<a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2' />\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n",
+  "out": "<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p><IMG alt='x' SRC = 'cid:sig-33333333-3333-4333-8333-333333333333' />\n<img title=\"a>b\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><p>t</p><img src=/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555><p>t</p>",
+  "out": "<imǵ src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p><img src=/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">",
+  "out": "<img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img data-src=\"cid:abc\"><imgx src=\"cid:abc\"><p>t</p>",
+  "out": "<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n<img data-src=\"cid:abc\"><imgx src=\"cid:abc\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444' /><p>t</p><img src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p>",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444' /><p>t</p><img src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><img src=\"\" src=\"\">\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x>\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-33333333-3333-4333-8333-333333333333\"><img src=\"\" src=\"\">\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x>\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555' /><p>t</p>",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555' /><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<imǵ src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n",
+  "out": "<imǵ src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \">\n",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n<a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><p>t</p>",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n<a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x' /><a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2>\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' /><a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2>\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src= /api/v1/email/signature/assets/11111111111141118111111111111111 >\n<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\"><imǵ src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n",
+  "out": "<img src= /api/v1/email/signature/assets/11111111111141118111111111111111 >\n<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\"><imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n",
+  "out": "<imǵ src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/' /><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\"><p>t</p><a href=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n<a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/' /><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\"><p>t</p><a href=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n<a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid\">\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><p>t</p><img src=\"\" src=\"\">\n<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/not-a-uuid\">\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p><img src=\"\" src=\"\">\n<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><a href=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><img src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n",
+  "out": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><a href=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111111141118111111111111111/' />\n<a href=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p>",
+  "out": "<IMG alt='x' SRC = 'cid:sig-11111111111141118111111111111111' />\n<a href=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x><p>t</p><IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}' /><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\">",
+  "out": "<img src=/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x><p>t</p><IMG alt='x' SRC = 'cid:sig-{11111111-1111-4111-8111-111111111111}' /><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/' /><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\">",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n<img data-src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\">",
+  "out": "<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">\n<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n<img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\">",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n<img src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \" src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">\n<img src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \" src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><img\nwidth=1\nsrc=\"cid:sig-11111111111141118111111111111111\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}' />\n",
+  "out": "<IMG alt='x' SRC = 'cid:sig-{11111111-1111-4111-8111-111111111111}' />\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\">",
+  "out": "<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><img src=\"https://x.test/a.png\" src=\"https://x.test/a.png\">",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \" src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><p>t</p><img src=/api/v1/email/signature/assets/11111111111141118111111111111111>",
+  "out": "<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\" src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><p>t</p><img src=/api/v1/email/signature/assets/11111111111141118111111111111111>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n<img data-src=\"https://x.test/a.png\"><p>t</p>",
+  "out": "<img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n<img data-src=\"https://x.test/a.png\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2' /><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/' />\n",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-11111111-1111-4111-8111-111111111111\"><IMG alt='x' SRC = 'cid:sig-{11111111-1111-4111-8111-111111111111}' /><IMG alt='x' SRC = 'cid:sig-11111111-1111-4111-8111-111111111111' />\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><p>t</p><img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">",
+  "out": "<img data-src=\"cid:sig-11111111111141118111111111111111\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-33333333-3333-4333-8333-333333333333\">",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-11111111111141118111111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/\"><p>t</p><img src=\"\" src=\"\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/\"><p>t</p><img src=\"\" src=\"\"><p>t</p><imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img data-src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2><a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><p>t</p>",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2><a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n<imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<a href=\"\"><a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\">\n<imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<a href=\"\"><a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">",
+  "parts": []
+ },
+ {
+  "html": "<img src= /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 >\n<img data-src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">\n<a href=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n",
+  "out": "<img src= /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 >\n<img data-src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">\n<a href=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\">\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n<a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><p>t</p>",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x\">\n<a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n<imǵ src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">",
+  "out": "<a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><a href=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n<imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><imǵ src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p>",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><imǵ src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\">\n",
+  "out": "<a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\">\n",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\">",
+  "out": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\">",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\"><p>t</p><img src=/api/v1/email/signature/assets/not-a-uuid#x>\n",
+  "out": "<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\"><p>t</p><img src=/api/v1/email/signature/assets/not-a-uuid#x>\n",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"\">\n<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\">\n",
+  "out": "<img\nwidth=1\nsrc=\"\">\n<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z \"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\">\n",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<imǵ src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2\">",
+  "out": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><imgx src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">\n<imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><img src=/api/v1/email/signature/assets/not-a-uuid?v=2>\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "out": "<img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><img src=/api/v1/email/signature/assets/not-a-uuid?v=2>\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><img src=>\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111111141118111111111111111\"><img data-src=\"https://x.test/a.png\"><p>t</p><imǵ src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p>",
+  "out": "<a href=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><img src=>\n<img\nwidth=1\nsrc=\"cid:sig-11111111111141118111111111111111\"><img data-src=\"https://x.test/a.png\"><p>t</p><imǵ src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><img src=\"/api/v1/email/signature/assets/not-a-uuid\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><img src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><img src=https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555><p>t</p><imǵ src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">\n",
+  "out": "<img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p><img src=\"/api/v1/email/signature/assets/not-a-uuid\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><img src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\" src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><img src=https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555><p>t</p><imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><p>t</p>",
+  "out": "<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\"><p>t</p><imǵ src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \"><p>t</p>",
+  "out": "<img src=\"cid:sig-33333333-3333-4333-8333-333333333333\" src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<img title=\"a>b\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444#x\"><p>t</p><imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\">\n<img data-src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><imǵ src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p><img data-src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\">\n",
+  "out": "<imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\">\n<img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><imǵ src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\"><p>t</p><img src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><p>t</p>",
+  "out": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">\n<img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p><img src=\"cid:sig-22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">\n",
+  "out": "<img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">\n",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n<img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\">\n<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2\">\n<img src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\" src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p><img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \"><p>t</p>",
+  "out": "<imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n<img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\">\n<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222?v=2\">\n<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\" src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\">",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\">\n",
+  "out": "<img src=\"/api/v1/email/signature/assets/not-a-uuid/\">\n",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\">\n",
+  "out": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \">\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">\n<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid\">\n",
+  "out": "<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">\n<imǵ src=\"/api/v1/email/signature/assets/not-a-uuid\">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333#x\">",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/not-a-uuid/><p>t</p><img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n",
+  "out": "<img src=/api/v1/email/signature/assets/not-a-uuid/><p>t</p><img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "out": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">\n<img\nwidth=1\nsrc=\"cid:sig-11111111111141118111111111111111\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\"><p>t</p>",
+  "out": "<imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<img data-src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\">\n<img src=\"/api/v1/email/signature/assets/\"><p>t</p><a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/' />\n",
+  "out": "<img data-src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\">\n<img src=\"/api/v1/email/signature/assets/\"><p>t</p><a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\"><IMG alt='x' SRC = 'cid:sig-11111111-1111-4111-8111-111111111111' />\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\"><a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\">",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\"><a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x\">",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' /><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x' />\n<imǵ src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2' /><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z#x' />\n<imǵ src=\"cid:sig-11111111111141118111111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><img src=/api/v1/email/signature/assets/not-a-uuid/>\n",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><img src=/api/v1/email/signature/assets/not-a-uuid/>\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/><p>t</p><img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">",
+  "out": "<img src=/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/><p>t</p><img data-src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2' />\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p>",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2' />\n<imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p><imǵ src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><imgx src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p><imǵ src=\"cid:sig-11111111111141118111111111111111\"><p>t</p><img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><a href=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222?v=2\"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img data-src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\">\n",
+  "out": "<img src=\"cid:sig-11111111111141118111111111111111\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/not-a-uuid/\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img data-src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">\n",
+  "out": "<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2>\n",
+  "out": "<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2>\n",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \"><img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n",
+  "out": "<imgx src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \"><img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111 \">\n",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><imǵ src=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><imǵ src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">",
+  "out": "<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\">",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/not-a-uuid?v=2><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><p>t</p>",
+  "out": "<img src=/api/v1/email/signature/assets/not-a-uuid?v=2><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><p>t</p><img src=cid:abc><p>t</p>",
+  "out": "<imǵ src=\" /api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444 \"><p>t</p><img src=cid:abc><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><img title=\"a>b\" src=\"https://x.test/a.png\">\n<img src=\"\" src=\"\">",
+  "out": "<imgx src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><img title=\"a>b\" src=\"https://x.test/a.png\">\n<img src=\"\" src=\"\">",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "out": "<imgx src=\" /api/v1/email/signature/assets/not-a-uuid \"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z?v=2\"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid/\">\n<imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222/\"><a href=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid/\">\n",
+  "out": "<img src=\"cid:sig-22222222-2222-4222-8222-222222222222\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid/\">\n<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><a href=\"https://erp.test/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid/\">\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x>\n",
+  "out": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><img src=/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222#x>\n",
+  "parts": []
+ },
+ {
+  "html": "<img src=/api/v1/email/signature/assets/>\n",
+  "out": "<img src=/api/v1/email/signature/assets/>\n",
+  "parts": []
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111\"><p>t</p><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n<imgx src=\"cid:abc\"><p>t</p><img src=>\n",
+  "out": "<img data-src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n<imgx src=\"cid:abc\"><p>t</p><img src=>\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">",
+  "out": "<img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\">",
+  "out": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\">",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\">",
+  "out": "<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444?v=2\">",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><imǵ src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x' />\n",
+  "out": "<img src=\"https://erp.test/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z\"><imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><imgx src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />\n",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/not-a-uuid \"><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555' /><p>t</p>",
+  "out": "<img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\"><p>t</p><img title=\"a>b\" src=\" /api/v1/email/signature/assets/not-a-uuid \"><img src=/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><IMG alt='x' SRC = '/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555' /><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><p>t</p><a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><img src= /api/v1/email/signature/assets/11111111111141118111111111111111 >",
+  "out": "<imgx src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><a href=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><p>t</p><img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><p>t</p><a href=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><img src= /api/v1/email/signature/assets/11111111111141118111111111111111 >",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333?v=2\"><imǵ src=\" /api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222 \"><p>t</p>",
+  "out": "<img\nwidth=1\nsrc=\"cid:sig-33333333-3333-4333-8333-333333333333\"><imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\"><p>t</p>",
+  "out": "<img src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\" src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><img\nwidth=1\nsrc=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n",
+  "out": "<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><p>t</p>",
+  "out": "<img src=\"cid:sig-11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111?v=2\">\n<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/' /><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><imǵ src=\"/api/v1/email/signature/assets/not-a-uuid\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\">\n",
+  "out": "<img src=\"cid:sig-11111111111141118111111111111111\"><imǵ src=\"/api/v1/email/signature/assets/not-a-uuid\"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><img src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555#x\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333' />\n<img\nwidth=1\nsrc=\"cid:abc\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}#x\">\n",
+  "out": "<IMG alt='x' SRC = 'cid:sig-33333333-3333-4333-8333-333333333333' />\n<img\nwidth=1\nsrc=\"cid:abc\">\n<img\nwidth=1\nsrc=\"cid:sig-{11111111-1111-4111-8111-111111111111}\">\n",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/\"><img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \">\n<img data-src=\"https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">\n<img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z/\"><img title=\"a>b\" src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \">\n<img data-src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"https://x.test/a.png\">",
+  "out": "<img data-src=\"https://x.test/a.png\">",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/not-a-uuid\">\n<a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\">\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2>\n",
+  "out": "<a href=\"/api/v1/email/signature/assets/not-a-uuid\">\n<a href=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}?v=2\">\n<img src=/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2>\n",
+  "parts": []
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\">\n",
+  "out": "<a href=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\">\n",
+  "parts": []
+ },
+ {
+  "html": "<img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><a href=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><img src=\"/api/v1/email/signature/assets/not-a-uuid\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">",
+  "out": "<img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><a href=\" /api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111} \"><p>t</p><img title=\"a>b\" src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><img src=\"/api/v1/email/signature/assets/not-a-uuid\" src=\"/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">",
+  "parts": []
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/\"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">\n",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/\"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-11111111111141118111111111111111\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}/\"><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n",
+  "out": "<img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><imǵ src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n",
+  "parts": [
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<img data-src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \"><p>t</p><IMG alt='x' SRC = ' /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z ' /><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><img data-src=\" /api/v1/email/signature/assets/11111111111141118111111111111111 \"><img src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333/\">\n",
+  "out": "<img data-src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p><IMG alt='x' SRC = ' /api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z ' /><p>t</p><imgx src=\"https://erp.test/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\"><p>t</p><img data-src=\"cid:sig-11111111111141118111111111111111\"><img src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img src=https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555>\n<img src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">",
+  "out": "<img src=https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555>\n<img src=\"cid:sig-11111111111141118111111111111111\" src=\"/api/v1/email/signature/assets/11111111111141118111111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333' />\n",
+  "out": "<IMG alt='x' SRC = 'cid:sig-33333333-3333-4333-8333-333333333333' />\n",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\">",
+  "parts": []
+ },
+ {
+  "html": "<imǵ src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><p>t</p>",
+  "out": "<imǵ src=\"cid:sig-11111111-1111-4111-8111-111111111111\"><a href=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444/\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n<img src=\" /api/v1/email/signature/assets/not-a-uuid \" src=\" /api/v1/email/signature/assets/not-a-uuid \"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\">\n",
+  "out": "<img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\">\n<img src=\" /api/v1/email/signature/assets/not-a-uuid \" src=\" /api/v1/email/signature/assets/not-a-uuid \"><img title=\"a>b\" src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><imgx src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><img\nwidth=1\nsrc=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\">\n",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = 'https://erp.test/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222' />\n<imǵ src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><img data-src=\"https://x.test/a.png\">",
+  "out": "<IMG alt='x' SRC = 'cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222' />\n<imǵ src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><img data-src=\"https://x.test/a.png\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">",
+  "out": "<img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\">\n<img\nwidth=1\nsrc=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/not-a-uuid?v=2\"><p>t</p><img src=\"https://erp.test/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555\">",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><imgx src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><p>t</p><img\nwidth=1\nsrc=\"https://x.test/a.png\"><p>t</p>",
+  "out": "<a href=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\"><imgx src=\"/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222/\"><p>t</p><img\nwidth=1\nsrc=\"https://x.test/a.png\"><p>t</p>",
+  "parts": []
+ },
+ {
+  "html": "<a href=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">\n<imgx src=\"cid:abc\"><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><p>t</p><img src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\" src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\">",
+  "out": "<a href=\"https://erp.test/api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222\">\n<imgx src=\"cid:abc\"><img title=\"a>b\" src=\"https://erp.test/api/v1/email/signature/assets/not-a-uuid\"><p>t</p><imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><p>t</p><img src=\"cid:sig-11111111111141118111111111111111\" src=\"https://erp.test/api/v1/email/signature/assets/11111111111141118111111111111111\">",
+  "parts": [
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "",
+  "out": "",
+  "parts": []
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\"><p>t</p>",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/44444444-4444-4444-8444-444444444444\">\n<img src=\"cid:sig-11111111-1111-4111-8111-111111111111\" src=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111#x\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p><img\nwidth=1\nsrc=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2\"><p>t</p>",
+  "out": "<img title=\"a>b\" src=\" /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 \"><p>t</p><img\nwidth=1\nsrc=\"cid:sig-11111111-1111-4111-8111-111111111111\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ },
+ {
+  "html": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img src=\" /api/v1/email/signature/assets/22222222-2222-4222-8222-222222222222 \"><p>t</p><IMG alt='x' SRC = ' /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 ' />\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n",
+  "out": "<imgx src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222\"><img data-src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555/\"><img src=\"cid:sig-22222222-2222-4222-8222-222222222222\"><p>t</p><IMG alt='x' SRC = ' /api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555 ' />\n<a href=\"/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111/\">\n",
+  "parts": [
+   {
+    "cid": "sig-22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' />\n",
+  "out": "<IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-11111111111Z' />\n",
+  "parts": []
+ },
+ {
+  "html": "<IMG alt='x' SRC = '' /><img data-src=\"/api/v1/email/signature/assets/11111111111141118111111111111111/\"><p>t</p><imǵ src=\"/api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333\"><p>t</p><IMG alt='x' SRC = '/api/v1/email/signature/assets/11111111-1111-4111-8111-111111111111?v=2' />\n<imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\">\n",
+  "out": "<IMG alt='x' SRC = '' /><img data-src=\"cid:sig-11111111111141118111111111111111\"><p>t</p><imǵ src=\"cid:sig-33333333-3333-4333-8333-333333333333\"><p>t</p><IMG alt='x' SRC = 'cid:sig-11111111-1111-4111-8111-111111111111' />\n<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\">\n",
+  "parts": [
+   {
+    "cid": "sig-11111111111141118111111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-11111111-1111-4111-8111-111111111111",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   }
+  ]
+ },
+ {
+  "html": "<imǵ src=\" /api/v1/email/signature/assets/33333333-3333-4333-8333-333333333333 \">\n<imǵ src=\"/api/v1/email/signature/assets/urn:uuid:22222222-2222-4222-8222-222222222222#x\"><img src=\"/api/v1/email/signature/assets/{11111111-1111-4111-8111-111111111111}\"><imǵ src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p>",
+  "out": "<imǵ src=\"cid:sig-33333333-3333-4333-8333-333333333333\">\n<imǵ src=\"cid:sig-urn:uuid:22222222-2222-4222-8222-222222222222\"><img src=\"cid:sig-{11111111-1111-4111-8111-111111111111}\"><imǵ src=\"/api/v1/email/signature/assets/55555555-5555-4555-8555-555555555555?v=2\"><p>t</p>",
+  "parts": [
+   {
+    "cid": "sig-33333333-3333-4333-8333-333333333333",
+    "data": "R0lGODlh",
+    "mime": "image/png",
+    "filename": "blank.gif"
+   },
+   {
+    "cid": "sig-urn:uuid:22222222-2222-4222-8222-222222222222",
+    "data": "/9ggdHdv",
+    "mime": "image/jpeg",
+    "filename": "photo.jpg"
+   },
+   {
+    "cid": "sig-{11111111-1111-4111-8111-111111111111}",
+    "data": "iVBORyBvbmU=",
+    "mime": "image/png",
+    "filename": "logo.png"
+   }
+  ]
+ }
+]

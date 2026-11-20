@@ -1,0 +1,1816 @@
+[
+ {
+  "name": "oai_simple",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4o",
+   "kwargs": {
+    "system": "Rules\n\n[[cache-break]]\n\nCtx ☕",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Hello"
+     }
+    ],
+    "temperature": 0.3,
+    "effort": "high",
+    "max_tokens": 10
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"Hello \\u2014 Mr\"}, \"finish_reason\": \"stop\"}], \"usage\": {\"prompt_tokens\": 33, \"completion_tokens\": 12, \"total_tokens\": 45}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "129"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"Rules\\n\\nCtx ☕\"},{\"role\":\"user\",\"content\":\"Hello\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "Hello — Mr",
+    "tool_calls": [],
+    "prompt_tokens": 33,
+    "completion_tokens": 12,
+    "reasoning": "",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_tools_history",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4.1-mini",
+   "kwargs": {
+    "system": "",
+    "messages": [
+     {
+      "role": "user",
+      "content": "Find leads for Globex Corp — café ☕"
+     },
+     {
+      "role": "assistant",
+      "content": "Let me look.",
+      "tool_calls": [
+       {
+        "name": "search_records",
+        "args": {
+         "entity": "lead",
+         "limit": 5
+        },
+        "id": "toolu_A"
+       },
+       {
+        "name": "noop",
+        "args": {}
+       }
+      ]
+     },
+     {
+      "role": "tool",
+      "name": "search_records",
+      "tool_call_id": "toolu_A",
+      "content": {
+       "rows": [
+        {
+         "name": "Globex Corp",
+         "value": 1.5,
+         "when": "2026-10-01"
+        }
+       ],
+       "ünï": "ç"
+      }
+     },
+     {
+      "role": "tool",
+      "name": "noop",
+      "id": "toolu_1",
+      "content": "done",
+      "is_error": true
+     },
+     {
+      "role": "user",
+      "content": "Thanks, now draft the reply."
+     },
+     {
+      "role": "assistant",
+      "content": "",
+      "reasoning_content": "think",
+      "tool_calls": [
+       {
+        "name": "noop",
+        "tool_call_id": "tc9"
+       }
+      ]
+     },
+     {
+      "role": "tool",
+      "content": null,
+      "index": 3
+     }
+    ],
+    "tools": [
+     {
+      "name": "search_records",
+      "description": "Search CRM records — leads, deals.",
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "entity": {
+         "type": "string",
+         "enum": [
+          "lead",
+          "deal"
+         ],
+         "description": "What to search"
+        },
+        "filters": {
+         "type": "array",
+         "items": {
+          "type": "object",
+          "properties": {
+           "field": {
+            "type": "string"
+           }
+          }
+         }
+        },
+        "limit": {
+         "type": "integer"
+        }
+       },
+       "required": [
+        "entity"
+       ]
+      }
+     },
+     {
+      "name": "propose_reply",
+      "description": "Propose a reply.",
+      "strict": true,
+      "parameters": {
+       "type": "object",
+       "properties": {
+        "text": {
+         "type": "string"
+        }
+       },
+       "required": [
+        "text"
+       ]
+      }
+     },
+     {
+      "name": "noop",
+      "description": "No arguments."
+     }
+    ],
+    "temperature": 0.7
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": null, \"tool_calls\": [{\"id\": \"call_x\", \"type\": \"function\", \"function\": {\"name\": \"search_records\", \"arguments\": \"{\\\"entity\\\": \\\"deal\\\"}\"}}, {\"id\": \"call_y\", \"type\": \"function\", \"function\": {\"name\": \"noop\", \"arguments\": \"not json\"}}, {\"id\": \"call_z\", \"type\": \"function\", \"function\": {\"name\": \"noop\", \"arguments\": \"\"}}]}, \"finish_reason\": \"tool_calls\"}], \"usage\": {\"prompt_tokens\": 33, \"completion_tokens\": 12, \"total_tokens\": 45}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "1622"
+    },
+    "body": "{\"messages\":[{\"role\":\"user\",\"content\":\"Find leads for Globex Corp — café ☕\"},{\"role\":\"assistant\",\"content\":\"Let me look.\",\"tool_calls\":[{\"id\":\"toolu_A\",\"type\":\"function\",\"function\":{\"name\":\"search_records\",\"arguments\":\"{\\\"entity\\\": \\\"lead\\\", \\\"limit\\\": 5}\"}},{\"id\":\"call_1\",\"type\":\"function\",\"function\":{\"name\":\"noop\",\"arguments\":\"{}\"}}]},{\"role\":\"tool\",\"tool_call_id\":\"toolu_A\",\"name\":\"search_records\",\"content\":\"{\\\"rows\\\": [{\\\"name\\\": \\\"Globex Corp\\\", \\\"value\\\": 1.5, \\\"when\\\": \\\"2026-10-01\\\"}], \\\"\\\\u00fcn\\\\u00ef\\\": \\\"\\\\u00e7\\\"}\"},{\"role\":\"tool\",\"tool_call_id\":\"toolu_1\",\"name\":\"noop\",\"content\":\"done\"},{\"role\":\"user\",\"content\":\"Thanks, now draft the reply.\"},{\"role\":\"assistant\",\"content\":null,\"reasoning_content\":\"think\",\"tool_calls\":[{\"id\":\"tc9\",\"type\":\"function\",\"function\":{\"name\":\"noop\",\"arguments\":\"{}\"}}]},{\"role\":\"tool\",\"tool_call_id\":\"call_3\",\"name\":\"tool\",\"content\":\"null\"}],\"model\":\"gpt-4.1-mini\",\"temperature\":0.7,\"tools\":[{\"type\":\"function\",\"function\":{\"name\":\"search_records\",\"description\":\"Search CRM records — leads, deals.\",\"parameters\":{\"type\":\"object\",\"properties\":{\"entity\":{\"type\":\"string\",\"enum\":[\"lead\",\"deal\"],\"description\":\"What to search\"},\"filters\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"field\":{\"type\":\"string\"}}}},\"limit\":{\"type\":\"integer\"}},\"required\":[\"entity\"]}}},{\"type\":\"function\",\"function\":{\"name\":\"propose_reply\",\"description\":\"Propose a reply.\",\"parameters\":{\"type\":\"object\",\"properties\":{\"text\":{\"type\":\"string\"}},\"required\":[\"text\"]}}},{\"type\":\"function\",\"function\":{\"name\":\"noop\",\"description\":\"No arguments.\",\"parameters\":{\"type\":\"object\",\"properties\":{}}}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "",
+    "tool_calls": [
+     {
+      "name": "search_records",
+      "args": {
+       "entity": "deal"
+      },
+      "id": "call_x"
+     },
+     {
+      "name": "noop",
+      "args": {},
+      "id": "call_y"
+     },
+     {
+      "name": "noop",
+      "args": {},
+      "id": "call_z"
+     }
+    ],
+    "prompt_tokens": 33,
+    "completion_tokens": 12,
+    "reasoning": "",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_temp_o3-mini",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "o3-mini",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"because\"}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "94"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"o3-mini\"}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "because",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_temp_gpt-5",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-5",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"because\"}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "92"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-5\"}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "because",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_temp_gpt-5-chat-latest",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-5-chat-latest",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"because\"}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "122"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-5-chat-latest\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "because",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_temp_openrouter_deepseek-reasoner",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "openrouter/deepseek-reasoner",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"because\"}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "115"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"openrouter/deepseek-reasoner\"}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "because",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_temp_GPT-5.1",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "GPT-5.1",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"because\"}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "94"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"GPT-5.1\"}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "because",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_temp_o1",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "o1",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"because\"}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "89"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"o1\"}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "because",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_temp_gpt-4o",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4o",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"because\"}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "because",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_odd_roles",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "deepseek-reasoner",
+   "kwargs": {
+    "system": "",
+    "messages": [
+     {
+      "role": "system",
+      "content": "wall"
+     },
+     {
+      "content": "x"
+     },
+     {
+      "role": "user",
+      "content": null
+     },
+     {
+      "role": "assistant",
+      "content": null,
+      "raw_content": [
+       {
+        "type": "text",
+        "text": "r"
+       }
+      ]
+     },
+     {
+      "role": "assistant",
+      "content": "a",
+      "tool_calls": [
+       {
+        "name": "n",
+        "id": "i1",
+        "args": {
+         "t": "é",
+         "n": null
+        }
+       }
+      ]
+     },
+     {
+      "role": "tool",
+      "content": {
+       "é": 1.0
+      },
+      "id": "i1",
+      "name": null
+     },
+     {
+      "role": "tool",
+      "content": "s",
+      "index": 7
+     }
+    ],
+    "tools": [
+     {
+      "name": "n",
+      "description": "d",
+      "parameters": {}
+     }
+    ],
+    "temperature": 1.0
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"refusal\": null}, \"finish_reason\": \"stop\"}], \"usage\": {\"prompt_tokens\": 33, \"completion_tokens\": 12, \"total_tokens\": 45}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "494"
+    },
+    "body": "{\"messages\":[{\"role\":\"user\",\"content\":\"\"},{\"role\":\"assistant\",\"content\":\"\"},{\"role\":\"assistant\",\"content\":\"a\",\"tool_calls\":[{\"id\":\"i1\",\"type\":\"function\",\"function\":{\"name\":\"n\",\"arguments\":\"{\\\"t\\\": \\\"\\\\u00e9\\\", \\\"n\\\": null}\"}}]},{\"role\":\"tool\",\"tool_call_id\":\"i1\",\"name\":\"tool\",\"content\":\"{\\\"\\\\u00e9\\\": 1.0}\"},{\"role\":\"tool\",\"tool_call_id\":\"call_7\",\"name\":\"tool\",\"content\":\"s\"}],\"model\":\"deepseek-reasoner\",\"tools\":[{\"type\":\"function\",\"function\":{\"name\":\"n\",\"description\":\"d\",\"parameters\":{}}}]}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 33,
+    "completion_tokens": 12,
+    "reasoning": "",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ds_default_and_reasoning",
+  "provider": {
+   "kind": "deepseek",
+   "api_key": "sk-ds",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "deepseek-chat",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"deepseek-chat\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\", \"reasoning_content\": \"r\"}, \"finish_reason\": \"stop\"}], \"usage\": {\"prompt_tokens\": 33, \"completion_tokens\": 12, \"total_tokens\": 45}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/deepseek/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-ds",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "118"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"deepseek-chat\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 33,
+    "completion_tokens": 12,
+    "reasoning": "r",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "ollama_base_url",
+  "provider": {
+   "kind": "ollama",
+   "api_key": null,
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "llama3.1",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ],
+    "temperature": 0.1
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"llama3.1\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\"}, \"finish_reason\": \"stop\"}], \"usage\": {\"prompt_tokens\": 33, \"completion_tokens\": 12, \"total_tokens\": 45}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/ollama/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer ollama",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "113"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"llama3.1\",\"temperature\":0.1}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 33,
+    "completion_tokens": 12,
+    "reasoning": "",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_file_png",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "gpt-4o",
+   "kwargs": {
+    "prompt": "What is this?",
+    "file_b64": "iVBORw0KGgpmYWtlaW1hZ2U=",
+    "mime_type": "image/png",
+    "system": "Look\n\n[[cache-break]]\n\nclosely",
+    "temperature": 0.9
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"An image\"}, \"finish_reason\": \"stop\"}], \"usage\": {\"prompt_tokens\": 33, \"completion_tokens\": 12, \"total_tokens\": 45}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "252"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"Look\\n\\nclosely\"},{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"What is this?\"},{\"type\":\"image_url\",\"image_url\":{\"url\":\"data:image/png;base64,iVBORw0KGgpmYWtlaW1hZ2U=\"}}]}],\"model\":\"gpt-4o\",\"temperature\":0.2}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "An image",
+    "tool_calls": [],
+    "prompt_tokens": 33,
+    "completion_tokens": 12,
+    "reasoning": "",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_file_png_o3_nosys",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "o3",
+   "kwargs": {
+    "prompt": "What?",
+    "file_b64": "iVBORw0KGgpmYWtlaW1hZ2U=",
+    "mime_type": "image/png"
+   }
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": null}, \"finish_reason\": \"stop\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "176"
+    },
+    "body": "{\"messages\":[{\"role\":\"user\",\"content\":[{\"type\":\"text\",\"text\":\"What?\"},{\"type\":\"image_url\",\"image_url\":{\"url\":\"data:image/png;base64,iVBORw0KGgpmYWtlaW1hZ2U=\"}}]}],\"model\":\"o3\"}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "",
+    "tool_calls": [],
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "reasoning": "",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_file_pdf",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "gpt-4o",
+   "kwargs": {
+    "prompt": "x",
+    "file_b64": "JVBERi0xLjQgZmFrZSBwZGYgYnl0ZXM=",
+    "mime_type": "application/pdf"
+   }
+  },
+  "responses": [],
+  "requests": [],
+  "outcome": {
+   "error": {
+    "class": "NotImplementedError",
+    "status": null,
+    "str": "PDFs need a provider that reads PDFs (Anthropic or Gemini): this OpenAI-compatible provider reads images but not PDFs. Route the job to Anthropic or Gemini in Settings, or send the pages as images.",
+    "friendly": "The AI request failed: PDFs need a provider that reads PDFs (Anthropic or Gemini): this OpenAI-compatible provider reads images but not PDFs. Route the job to Anthropic or Gemini in Settings, or send the pages as images."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_file_txt",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "analyze_file",
+   "model": "gpt-4o",
+   "kwargs": {
+    "prompt": "x",
+    "file_b64": "JVBERi0xLjQgZmFrZSBwZGYgYnl0ZXM=",
+    "mime_type": "text/plain"
+   }
+  },
+  "responses": [],
+  "requests": [],
+  "outcome": {
+   "error": {
+    "class": "NotImplementedError",
+    "status": null,
+    "str": "Unsupported file type for this provider: text/plain",
+    "friendly": "The AI request failed: Unsupported file type for this provider: text/plain"
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_embed",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "embed",
+   "model": "text-embedding-3-small",
+   "texts": [
+    "a",
+    "b ☕"
+   ]
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"object\": \"list\", \"model\": \"text-embedding-3-small\", \"data\": [{\"object\": \"embedding\", \"index\": 0, \"embedding\": [0.1, -0.25, 3e-05]}, {\"object\": \"embedding\", \"index\": 1, \"embedding\": [1.0, 0.5, 0.0]}], \"usage\": {\"prompt_tokens\": 2, \"total_tokens\": 2}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/embeddings",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "83"
+    },
+    "body": "{\"input\":[\"a\",\"b ☕\"],\"model\":\"text-embedding-3-small\",\"encoding_format\":\"base64\"}"
+   }
+  ],
+  "outcome": {
+   "vectors": [
+    [
+     0.1,
+     -0.25,
+     3e-05
+    ],
+    [
+     1.0,
+     0.5,
+     0.0
+    ]
+   ]
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_list_models",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "list_models"
+  },
+  "responses": [
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"object\": \"list\", \"data\": [{\"id\": \"gpt-4o\", \"object\": \"model\", \"created\": 1, \"owned_by\": \"x\"}, {\"id\": \"text-embedding-3-small\", \"object\": \"model\", \"created\": 1, \"owned_by\": \"x\"}, {\"id\": \"gpt-4o\", \"object\": \"model\", \"created\": 1, \"owned_by\": \"x\"}, {\"id\": \"Nomic-Embed\", \"object\": \"model\", \"created\": 1, \"owned_by\": \"x\"}]}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "GET",
+    "path": "/openai/v1/models",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0"
+    },
+    "body": ""
+   }
+  ],
+  "outcome": {
+   "models": {
+    "chat": [
+     "Nomic-Embed",
+     "gpt-4o",
+     "text-embedding-3-small"
+    ],
+    "embedding": [
+     "Nomic-Embed",
+     "text-embedding-3-small"
+    ]
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_list_models_error",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "list_models"
+  },
+  "responses": [
+   [
+    401,
+    {
+     "content-type": "application/json"
+    },
+    "{\"error\": {\"message\": \"bad key\", \"type\": \"invalid_request_error\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "GET",
+    "path": "/openai/v1/models",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0"
+    },
+    "body": ""
+   }
+  ],
+  "outcome": {
+   "models": {
+    "chat": [],
+    "embedding": []
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_401",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4o",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    401,
+    {
+     "content-type": "application/json"
+    },
+    "{\"error\": {\"message\": \"Incorrect API key\", \"type\": \"invalid_request_error\", \"code\": \"invalid_api_key\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "AuthenticationError",
+    "status": 401,
+    "str": "Error code: 401 - {'error': {'message': 'Incorrect API key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}",
+    "friendly": "The AI provider rejected the API key. Check it in Settings → Nary & AI → Providers & keys."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_400",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4o",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    400,
+    {
+     "content-type": "application/json"
+    },
+    "{\"error\": {\"message\": \"Invalid 'messages[2]': tool_call_id missing\", \"type\": \"invalid_request_error\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "BadRequestError",
+    "status": 400,
+    "str": "Error code: 400 - {'error': {'message': \"Invalid 'messages[2]': tool_call_id missing\", 'type': 'invalid_request_error'}}",
+    "friendly": "The AI provider returned an error (400): Invalid 'messages[2]': tool_call_id missing"
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_422_plain",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4o",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    422,
+    {
+     "content-type": "text/plain"
+    },
+    "unprocessable thing"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "UnprocessableEntityError",
+    "status": 422,
+    "str": "unprocessable thing",
+    "friendly": "The AI provider returned an error (422): unprocessable thing"
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_429_exhausted",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4o",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    429,
+    {
+     "content-type": "application/json",
+     "retry-after-ms": "5"
+    },
+    "{\"error\": {\"message\": \"Rate limit reached\", \"type\": \"requests\"}}"
+   ],
+   [
+    429,
+    {
+     "content-type": "application/json",
+     "retry-after-ms": "5"
+    },
+    "{\"error\": {\"message\": \"Rate limit reached\", \"type\": \"requests\"}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   },
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "1",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "error": {
+    "class": "RateLimitError",
+    "status": 429,
+    "str": "Error code: 429 - {'error': {'message': 'Rate limit reached', 'type': 'requests'}}",
+    "friendly": "The AI provider is rate limiting us or the account is out of credit. Try again shortly."
+   }
+  },
+  "unused_responses": 0
+ },
+ {
+  "name": "oai_503_then_ok",
+  "provider": {
+   "kind": "openai",
+   "api_key": "sk-oai",
+   "base_url": "SERVER"
+  },
+  "call": {
+   "method": "chat",
+   "model": "gpt-4o",
+   "kwargs": {
+    "system": "s",
+    "messages": [
+     {
+      "role": "user",
+      "content": "x"
+     }
+    ]
+   }
+  },
+  "responses": [
+   [
+    503,
+    {
+     "content-type": "application/json",
+     "retry-after": "0.01"
+    },
+    "{\"error\": {\"message\": \"busy\"}}"
+   ],
+   [
+    200,
+    {
+     "content-type": "application/json"
+    },
+    "{\"id\": \"chatcmpl-1\", \"object\": \"chat.completion\", \"created\": 1760000000, \"model\": \"gpt-4o\", \"choices\": [{\"index\": 0, \"message\": {\"role\": \"assistant\", \"content\": \"ok\"}, \"finish_reason\": \"stop\"}], \"usage\": {\"prompt_tokens\": 33, \"completion_tokens\": 12, \"total_tokens\": 45}}"
+   ]
+  ],
+  "requests": [
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "0",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   },
+   {
+    "method": "POST",
+    "path": "/openai/v1/chat/completions",
+    "headers": {
+     "host": "127.0.0.1:45715",
+     "accept-encoding": "gzip, deflate",
+     "connection": "keep-alive",
+     "accept": "application/json",
+     "content-type": "application/json",
+     "user-agent": "Granary-ERP",
+     "x-stainless-lang": "python",
+     "x-stainless-package-version": "1.59.6",
+     "x-stainless-os": "Linux",
+     "x-stainless-arch": "x64",
+     "x-stainless-runtime": "CPython",
+     "x-stainless-runtime-version": "3.12.3",
+     "authorization": "Bearer sk-oai",
+     "x-stainless-async": "async:asyncio",
+     "x-stainless-retry-count": "1",
+     "content-length": "111"
+    },
+    "body": "{\"messages\":[{\"role\":\"system\",\"content\":\"s\"},{\"role\":\"user\",\"content\":\"x\"}],\"model\":\"gpt-4o\",\"temperature\":0.3}"
+   }
+  ],
+  "outcome": {
+   "result": {
+    "text": "ok",
+    "tool_calls": [],
+    "prompt_tokens": 33,
+    "completion_tokens": 12,
+    "reasoning": "",
+    "stop_reason": "",
+    "refusal_category": null,
+    "model_used": "",
+    "cache_write_1h_tokens": 0,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "raw_content": null
+   }
+  },
+  "unused_responses": 0
+ }
+]

@@ -1,0 +1,7 @@
+Subject: <a@b>"quoted name"> ,filename*0="a"
+In-Reply-To: filename="a b.pdf"> Sun, 1 Jan 2006 1:2:3 -0000
+Subject: é
+Message-ID: charset=utf-8<a@b>	<a@b>  boundary="=_b",
+Content-Type: text/html; charset=iso-8859-1
+
+=C3=A9 qp

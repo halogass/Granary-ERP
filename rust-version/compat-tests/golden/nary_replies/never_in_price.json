@@ -1,0 +1,86 @@
+[
+ {
+  "text": "The list price is USD 1,500.",
+  "match": false
+ },
+ {
+  "text": "We have volume tiers.",
+  "match": true
+ },
+ {
+  "text": "There is a volume discount for 10 units.",
+  "match": true
+ },
+ {
+  "text": "Our margin is thin",
+  "match": true
+ },
+ {
+  "text": "TIER pricing",
+  "match": true
+ },
+ {
+  "text": "frontier tech",
+  "match": false
+ },
+ {
+  "text": "tiered",
+  "match": false
+ },
+ {
+  "text": "Cost price applies",
+  "match": true
+ },
+ {
+  "text": "unit cost",
+  "match": true
+ },
+ {
+  "text": "COST PRICE",
+  "match": true
+ },
+ {
+  "text": "floor price",
+  "match": true
+ },
+ {
+  "text": "the floor-price",
+  "match": false
+ },
+ {
+  "text": "margins",
+  "match": false
+ },
+ {
+  "text": "large volume discount",
+  "match": true
+ },
+ {
+  "text": "Volume Discount",
+  "match": true
+ },
+ {
+  "text": "volume  discount",
+  "match": false
+ },
+ {
+  "text": "multi-tier",
+  "match": true
+ },
+ {
+  "text": "tier_1",
+  "match": false
+ },
+ {
+  "text": "Tiér",
+  "match": false
+ },
+ {
+  "text": "ÜberTier",
+  "match": false
+ },
+ {
+  "text": "costprice",
+  "match": false
+ }
+]

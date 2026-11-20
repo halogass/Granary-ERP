@@ -1,0 +1,12 @@
+export DATABASE_URL=postgres://granary:granarytest@127.0.0.1:55433/granary_test
+export TEST_DATABASE_URL=$DATABASE_URL
+export REDIS_URL=redis://127.0.0.1:56380/0
+export CELERY_BROKER_URL=redis://127.0.0.1:56380/1
+export JWT_SECRET_KEY=test-jwt-secret-key-at-least-32-characters-long
+export APP_SECRET_KEY=test-app-secret-key-at-least-32-characters-long
+export SECRET_KEY=test-app-secret-key-at-least-32-characters-long
+export WHATSAPP_SERVICE_TOKEN=test-wa-token
+export ENVIRONMENT=test
+export POSTGRES_PASSWORD=granarytest
+export SUPERADMIN_PASSWORD=test-superadmin-password-1234
+export MINIO_SECRET_KEY=test-minio-secret

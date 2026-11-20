@@ -1,0 +1,30 @@
+[
+ {
+  "when": "Use it when X",
+  "steps": "1. a\n2. b",
+  "watch_out": null,
+  "learnt_from": null,
+  "out": "When to use: Use it when X\n\nSteps:\n1. a\n2. b"
+ },
+ {
+  "when": "  w  ",
+  "steps": "  s  ",
+  "watch_out": "  careful ",
+  "learnt_from": " chat 12 Oct ",
+  "out": "When to use: w\n\nSteps:\ns\n\nWatch out: careful\n\nLearnt from: chat 12 Oct"
+ },
+ {
+  "when": "w",
+  "steps": "s",
+  "watch_out": "",
+  "learnt_from": "  ",
+  "out": "When to use: w\n\nSteps:\ns"
+ },
+ {
+  "when": "multi\nline",
+  "steps": "s",
+  "watch_out": "x",
+  "learnt_from": null,
+  "out": "When to use: multi\nline\n\nSteps:\ns\n\nWatch out: x"
+ }
+]

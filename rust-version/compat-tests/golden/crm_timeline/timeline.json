@@ -1,0 +1,1095 @@
+[
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000101",
+  "limit": 60,
+  "items": [
+   {
+    "kind": "email",
+    "sub_kind": "in_progress",
+    "id": "00000000-0000-0000-0000-000000000603",
+    "title": "(No Subject)",
+    "preview": "1 message(s) · last from x@y.example",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-06-05T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000603"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "site_visit",
+    "id": "00000000-0000-0000-0000-000000000502",
+    "title": "Site Visit",
+    "preview": null,
+    "direction": "internal",
+    "outcome": null,
+    "at": "2026-06-03T02:00:00+00:00",
+    "href": null
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "email",
+    "id": "00000000-0000-0000-0000-000000000503",
+    "title": "Email",
+    "preview": "Long content Ünïcode ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-02T09:00:00+00:00",
+    "href": null
+   },
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "call",
+    "id": "00000000-0000-0000-0000-000000000501",
+    "title": "Discovery",
+    "preview": "Talked about 12 sites.",
+    "direction": "outbound",
+    "outcome": "positive",
+    "at": "2026-06-01T09:30:00.123456+00:00",
+    "href": null
+   },
+   {
+    "kind": "email",
+    "sub_kind": "open",
+    "id": "00000000-0000-0000-0000-000000000601",
+    "title": "Quote follow-up",
+    "preview": "3 message(s) · last from John",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-06-01T09:30:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000601"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "whatsapp",
+    "id": "00000000-0000-0000-0000-000000000504",
+    "title": "Hi",
+    "preview": null,
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-01T09:00:00+00:00",
+    "href": null
+   },
+   {
+    "kind": "quotation",
+    "sub_kind": "sent",
+    "id": "00000000-0000-0000-0000-000000000701",
+    "title": "Q-2026-0001",
+    "preview": "USD 1,234,568",
+    "direction": null,
+    "outcome": "sent",
+    "at": "2026-06-01",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000701"
+   },
+   {
+    "kind": "invoice",
+    "sub_kind": "paid",
+    "id": "00000000-0000-0000-0000-000000000801",
+    "title": "INV-2026-0001",
+    "preview": "USD 0",
+    "direction": null,
+    "outcome": "paid",
+    "at": "2026-06-01",
+    "href": "/finance/invoices/00000000-0000-0000-0000-000000000801"
+   },
+   {
+    "kind": "email",
+    "sub_kind": "resolved",
+    "id": "00000000-0000-0000-0000-000000000602",
+    "title": "(No Subject)",
+    "preview": "0 message(s) · last from -",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-05-31T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000602"
+   },
+   {
+    "kind": "invoice",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000802",
+    "title": "Invoice",
+    "preview": "JPY 1,500",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-05-15",
+    "href": "/finance/invoices/00000000-0000-0000-0000-000000000802"
+   }
+  ],
+  "related": {
+   "contacts": 2,
+   "leads": 1,
+   "deals": 2
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000101",
+  "limit": 3,
+  "items": [
+   {
+    "kind": "email",
+    "sub_kind": "in_progress",
+    "id": "00000000-0000-0000-0000-000000000603",
+    "title": "(No Subject)",
+    "preview": "1 message(s) · last from x@y.example",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-06-05T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000603"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "site_visit",
+    "id": "00000000-0000-0000-0000-000000000502",
+    "title": "Site Visit",
+    "preview": null,
+    "direction": "internal",
+    "outcome": null,
+    "at": "2026-06-03T02:00:00+00:00",
+    "href": null
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "email",
+    "id": "00000000-0000-0000-0000-000000000503",
+    "title": "Email",
+    "preview": "Long content Ünïcode ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-02T09:00:00+00:00",
+    "href": null
+   }
+  ],
+  "related": {
+   "contacts": 2,
+   "leads": 1,
+   "deals": 2
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000101",
+  "limit": 1,
+  "items": [
+   {
+    "kind": "email",
+    "sub_kind": "in_progress",
+    "id": "00000000-0000-0000-0000-000000000603",
+    "title": "(No Subject)",
+    "preview": "1 message(s) · last from x@y.example",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-06-05T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000603"
+   }
+  ],
+  "related": {
+   "contacts": 2,
+   "leads": 1,
+   "deals": 2
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000101",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 2,
+   "leads": 1,
+   "deals": 2
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000101",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 2,
+   "leads": 1,
+   "deals": 2
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000103",
+  "limit": 60,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000103",
+  "limit": 3,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000103",
+  "limit": 1,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000103",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "organization",
+  "record_id": "00000000-0000-0000-0000-000000000103",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000201",
+  "limit": 60,
+  "items": [
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "call",
+    "id": "00000000-0000-0000-0000-000000000501",
+    "title": "Discovery",
+    "preview": "Talked about 12 sites.",
+    "direction": "outbound",
+    "outcome": "positive",
+    "at": "2026-06-01T09:30:00.123456+00:00",
+    "href": null
+   },
+   {
+    "kind": "email",
+    "sub_kind": "resolved",
+    "id": "00000000-0000-0000-0000-000000000602",
+    "title": "(No Subject)",
+    "preview": "0 message(s) · last from -",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-05-31T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000602"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000201",
+  "limit": 3,
+  "items": [
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "call",
+    "id": "00000000-0000-0000-0000-000000000501",
+    "title": "Discovery",
+    "preview": "Talked about 12 sites.",
+    "direction": "outbound",
+    "outcome": "positive",
+    "at": "2026-06-01T09:30:00.123456+00:00",
+    "href": null
+   },
+   {
+    "kind": "email",
+    "sub_kind": "resolved",
+    "id": "00000000-0000-0000-0000-000000000602",
+    "title": "(No Subject)",
+    "preview": "0 message(s) · last from -",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-05-31T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000602"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000201",
+  "limit": 1,
+  "items": [
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000201",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000201",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000202",
+  "limit": 60,
+  "items": [
+   {
+    "kind": "activity",
+    "sub_kind": "whatsapp",
+    "id": "00000000-0000-0000-0000-000000000504",
+    "title": "Hi",
+    "preview": null,
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-01T09:00:00+00:00",
+    "href": null
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000202",
+  "limit": 3,
+  "items": [
+   {
+    "kind": "activity",
+    "sub_kind": "whatsapp",
+    "id": "00000000-0000-0000-0000-000000000504",
+    "title": "Hi",
+    "preview": null,
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-01T09:00:00+00:00",
+    "href": null
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000202",
+  "limit": 1,
+  "items": [
+   {
+    "kind": "activity",
+    "sub_kind": "whatsapp",
+    "id": "00000000-0000-0000-0000-000000000504",
+    "title": "Hi",
+    "preview": null,
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-01T09:00:00+00:00",
+    "href": null
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000202",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000202",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000203",
+  "limit": 60,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000203",
+  "limit": 3,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000203",
+  "limit": 1,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000203",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "contact",
+  "record_id": "00000000-0000-0000-0000-000000000203",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000301",
+  "limit": 60,
+  "items": [
+   {
+    "kind": "email",
+    "sub_kind": "in_progress",
+    "id": "00000000-0000-0000-0000-000000000603",
+    "title": "(No Subject)",
+    "preview": "1 message(s) · last from x@y.example",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-06-05T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000603"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "email",
+    "id": "00000000-0000-0000-0000-000000000503",
+    "title": "Email",
+    "preview": "Long content Ünïcode ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-02T09:00:00+00:00",
+    "href": null
+   },
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "call",
+    "id": "00000000-0000-0000-0000-000000000501",
+    "title": "Discovery",
+    "preview": "Talked about 12 sites.",
+    "direction": "outbound",
+    "outcome": "positive",
+    "at": "2026-06-01T09:30:00.123456+00:00",
+    "href": null
+   },
+   {
+    "kind": "email",
+    "sub_kind": "resolved",
+    "id": "00000000-0000-0000-0000-000000000602",
+    "title": "(No Subject)",
+    "preview": "0 message(s) · last from -",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-05-31T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000602"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000301",
+  "limit": 3,
+  "items": [
+   {
+    "kind": "email",
+    "sub_kind": "in_progress",
+    "id": "00000000-0000-0000-0000-000000000603",
+    "title": "(No Subject)",
+    "preview": "1 message(s) · last from x@y.example",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-06-05T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000603"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "email",
+    "id": "00000000-0000-0000-0000-000000000503",
+    "title": "Email",
+    "preview": "Long content Ünïcode ééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+    "direction": "inbound",
+    "outcome": null,
+    "at": "2026-06-02T09:00:00+00:00",
+    "href": null
+   },
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000301",
+  "limit": 1,
+  "items": [
+   {
+    "kind": "email",
+    "sub_kind": "in_progress",
+    "id": "00000000-0000-0000-0000-000000000603",
+    "title": "(No Subject)",
+    "preview": "1 message(s) · last from x@y.example",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-06-05T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000603"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000301",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000301",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 1,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000302",
+  "limit": 60,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000302",
+  "limit": 3,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000302",
+  "limit": 1,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000302",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000302",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000401",
+  "limit": 60,
+  "items": [
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "call",
+    "id": "00000000-0000-0000-0000-000000000501",
+    "title": "Discovery",
+    "preview": "Talked about 12 sites.",
+    "direction": "outbound",
+    "outcome": "positive",
+    "at": "2026-06-01T09:30:00.123456+00:00",
+    "href": null
+   },
+   {
+    "kind": "quotation",
+    "sub_kind": "sent",
+    "id": "00000000-0000-0000-0000-000000000701",
+    "title": "Q-2026-0001",
+    "preview": "USD 1,234,568",
+    "direction": null,
+    "outcome": "sent",
+    "at": "2026-06-01",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000701"
+   },
+   {
+    "kind": "invoice",
+    "sub_kind": "paid",
+    "id": "00000000-0000-0000-0000-000000000801",
+    "title": "INV-2026-0001",
+    "preview": "USD 0",
+    "direction": null,
+    "outcome": "paid",
+    "at": "2026-06-01",
+    "href": "/finance/invoices/00000000-0000-0000-0000-000000000801"
+   },
+   {
+    "kind": "email",
+    "sub_kind": "resolved",
+    "id": "00000000-0000-0000-0000-000000000602",
+    "title": "(No Subject)",
+    "preview": "0 message(s) · last from -",
+    "direction": null,
+    "outcome": null,
+    "at": "2026-05-31T00:00:00+00:00",
+    "href": "/crm/email?thread=00000000-0000-0000-0000-000000000602"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000401",
+  "limit": 3,
+  "items": [
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   },
+   {
+    "kind": "activity",
+    "sub_kind": "call",
+    "id": "00000000-0000-0000-0000-000000000501",
+    "title": "Discovery",
+    "preview": "Talked about 12 sites.",
+    "direction": "outbound",
+    "outcome": "positive",
+    "at": "2026-06-01T09:30:00.123456+00:00",
+    "href": null
+   },
+   {
+    "kind": "quotation",
+    "sub_kind": "sent",
+    "id": "00000000-0000-0000-0000-000000000701",
+    "title": "Q-2026-0001",
+    "preview": "USD 1,234,568",
+    "direction": null,
+    "outcome": "sent",
+    "at": "2026-06-01",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000701"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000401",
+  "limit": 1,
+  "items": [
+   {
+    "kind": "quotation",
+    "sub_kind": "draft",
+    "id": "00000000-0000-0000-0000-000000000702",
+    "title": "Quotation",
+    "preview": "0",
+    "direction": null,
+    "outcome": "draft",
+    "at": "2026-06-02",
+    "href": "/sales/quotations/00000000-0000-0000-0000-000000000702"
+   }
+  ],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000401",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000401",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 1,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000402",
+  "limit": 60,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000402",
+  "limit": 3,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000402",
+  "limit": 1,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000402",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000402",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 60,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 3,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 1,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "deal",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 0,
+   "leads": 0,
+   "deals": 1
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 60,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 3,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 1,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": 0,
+  "items": [],
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ },
+ {
+  "object_type": "lead",
+  "record_id": "00000000-0000-0000-0000-000000000999",
+  "limit": -2,
+  "exc": "DBAPIError",
+  "related": {
+   "contacts": 0,
+   "leads": 1,
+   "deals": 0
+  }
+ }
+]

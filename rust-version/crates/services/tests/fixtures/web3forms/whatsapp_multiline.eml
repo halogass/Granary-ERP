@@ -1,0 +1,67 @@
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture1;
+ d=web3forms.com; b=FIXTURE
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture2;
+ d=amazonses.com; b=FIXTURE
+From: Web Form <notify+hl2kg2@web3forms.com>
+Reply-To: dave@gulf-trading.example.com
+To: hello@example.com
+Subject: New Contact Us Submit [whatsapp]: GULF TRADING
+Date: Sat, 03 Oct 2026 10:49:04 +0000
+Message-ID: <0100-fixture-multiline-0004@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6452649499210442530=="
+
+--===============6452649499210442530==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+name  : Dave Stark
+email  : dave@gulf-trading.example.com
+phone  : +966501234567
+company  : GULF TRADING
+interested_in  : laptops
+message  : We need laptops for a new office of 120 staff and one support plan for =
+all of them
+1-Hardware
+Business laptops
+Docking stations
+External monitors
+Keyboards and mice
+Laptop bags
+2-Software
+Office suite licences
+Antivirus
+Device management
+Backup service
+3-Setup
+Imaging=E2=80=93standard build
+Account=E2=80=93user mapping
+On-site installation
+Old device disposal
+4-Support
+Next business day repairs
+Spare parts stock
+Loan devices
+Help desk hours
+5-Reporting
+Asset register
+Warranty dates
+Repair history
+Monthly usage report
+from_page  : https://www.example.com/products/laptops/business-lapt=
+op/
+submission_source  : whatsapp
+timezone  : Asia/Riyadh
+landing_page  : https://www.example.com/products/laptops/business-lapt=
+op/?utm_source=3Dchatgpt.com
+first_referrer  : https://chatgpt.com/
+
+--===============6452649499210442530==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><body><p>New form submission</p><p>company: GULF TRADING</p></body></h=
+tml>
+
+--===============6452649499210442530==--

@@ -1,0 +1,213 @@
+{
+ "template": "proposal",
+ "data": {
+  "language": "en",
+  "title": "Laptop Fleet Refresh",
+  "subtitle": "15 laptops, support plan, on-site setup",
+  "labels": {
+   "kind": "Solution Proposal",
+   "requirement": "Requirement",
+   "status": "Status",
+   "notes": "Notes",
+   "approved": "APPROVED ELECTRONICALLY",
+   "awaiting": "AWAITING APPROVAL",
+   "verify": "Verify with the QR code on this page",
+   "draft": "DRAFT"
+  },
+  "draft": true,
+  "company": {
+   "company_trade": "Your Company Ltd",
+   "letterhead_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAABaCAIAAADrU7+pAAABxElEQVR42u3VoQ0AIAADQcZhJqZjREKCZwEEBkMvOVVZ86W2fmnMBQCfKfchlEYAPgzhcVVHAKJDqI4ACKE0AiCE6giAEKojAEIojQAIoToCIITqCIAQSiMAQqiOAAihOgIghNIIgBCqIwBCqI7qCCCE0iiNAEKojuoIIITqqI4AQog0Aggh6ggghKgjgBAijQBCiDoCCCHqCCCESCOAEKKOAEKIOgIIIdIIIISoI4AQoo4AQog0Aggh6uhAQAhRR3UEhBBplEZACFFHdQSEENQREEKQRkAIQR0BIQR1BIQQpBEQQlBHQAhBHQEhBGkEhBDUERBCUEdACEEaASEEdQSEENQREEKQRkAIQR3VESEE1FEdEUJAGqURIQTUUR0RQgB1RAgBpBEhBFBHhBBAHRFCAGlECAHUESEEUEeEEEAaEUIAdUQIAdQRIQSQRoQQQB0RQgB1RAgBpFEahRBAHdVRCAHUUR2FEEAapVEIAVBHIQRAHYUQAGkUQgDUUQgBUEchBEAahRAAdRRCANRRCAGQRiEEQB2FEAB1FEIApFEIAVBHIQRAHV/UUQgBiE6jEAIQXUchBCC6jkIIQHQahRCA6DpupKw/fwxwAlIAAAAASUVORK5CYII="
+  },
+  "cover_rows": [
+   [
+    "Prepared for",
+    "Acme Ltd"
+   ],
+   [
+    "Reference",
+    "PRP-2026-10-00001 Rev. 1"
+   ]
+  ],
+  "sections": [
+   {
+    "number": 1,
+    "title": "Executive Summary",
+    "blocks": [
+     {
+      "heading": "Why",
+      "html": "<p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p><p><strong>Laptop</strong> refresh for 15 staff.</p>"
+     }
+    ]
+   },
+   {
+    "number": 2,
+    "title": "Requirement Coverage",
+    "blocks": [
+     {
+      "coverage": {
+       "legend": "Included = in scope.",
+       "rows": [
+        {
+         "requirement": "Disk encryption",
+         "status": "included",
+         "status_label": "Included",
+         "notes": "enabled during setup"
+        },
+        {
+         "requirement": "Docking stations",
+         "status": "partial",
+         "status_label": "Partial",
+         "notes": "USB-C models only"
+        },
+        {
+         "requirement": "Mobile phones",
+         "status": "excluded",
+         "status_label": "Not included",
+         "notes": ""
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "number": 3,
+    "title": "Site",
+    "blocks": [
+     {
+      "kv": [
+       [
+        "Laptops",
+        "15"
+       ],
+       [
+        "Support",
+        "12 months"
+       ]
+      ]
+     },
+     {
+      "image": {
+       "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMCAIAAAC283GzAAACCElEQVR42u3WsYnDABREQZWtclyiSnBwOLBjPePlRjxQpkAMyz+u13M+Tumujuv98Ud0D6y/F1tKYH3Ywku3wTJdCmGxpQoWXgphsaUKloteFSzTpRCW6VIFy3QphMWWKlh4KYTFlipYLnpVsEyXQlimSxUs06UQFluqYOGlEBZbOrpPu+jBOr/Dy+8Gy3Tp52GZLrDY0iAsvMBiS4OwXPRgmS4NwjJdYJkuDcJiCyy8NAiLLbBc9FqDZbrAMl0ahGW6wGJLg7DwAostDcJy0YNlusDat4UXWKYLLLb0n2HhBRZbYLnoBZbpAst0gWW6BBZbYOEFFlsCy0UPlukCy3QJLNMFFltg4SWw2ALLRQ+W6RJYpgss0wUWWwILL7DYAostvMAyXWCZLrBkusBiCyy8wBJbYLnowTJdYMl0gWW6wGILLOEFFltguejBkukCy3SBZbrAEltg4QUWW2DJRQ+W6QLLdIEl0wUWW2DhNckLLLbAYmuHF1imCyy2dqYLLNMFlnZsgYUXWNqxBZaLHiztTBdYpgss7UwXWGyBpR1eYLEFlnYuerBMF1jamS6wTBdY2rEFFl4XWJqxBRZbCS+wlEwXWEqmCywl0wWWEltgKeEFlhJbYCm56MFSMl1gKZkusJRMF1hKbIGlhBdYSmyBpeSiB0vJdIGlZLrAUjJdYCmxBZYSXk9AlNpk7DnpfQAAAABJRU5ErkJggg==",
+       "caption": "Figure 1: the office floor plan"
+      }
+     },
+     {
+      "table": {
+       "columns": [
+        {
+         "label": "Team"
+        },
+        {
+         "label": "Laptops",
+         "num": true
+        }
+       ],
+       "rows": [
+        {
+         "cells": [
+          {
+           "text": "Sales"
+          },
+          {
+           "text": "4",
+           "num": true
+          }
+         ]
+        },
+        {
+         "total": true,
+         "cells": [
+          {
+           "text": "Total"
+          },
+          {
+           "text": "15",
+           "num": true
+          }
+         ]
+        }
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "number": 4,
+    "title": "Commercial Summary",
+    "blocks": [
+     {
+      "commercial": {
+       "columns": [
+        {
+         "label": "Item"
+        },
+        {
+         "label": "Amount",
+         "num": true
+        }
+       ],
+       "rows": [
+        {
+         "cells": [
+          {
+           "text": "LAP-14-1: Business laptop 14-inch"
+          },
+          {
+           "text": "USD 44,700",
+           "num": true
+          }
+         ]
+        },
+        {
+         "total": true,
+         "cells": [
+          {
+           "text": "Total"
+          },
+          {
+           "text": "USD 44,700",
+           "num": true
+          }
+         ]
+        }
+       ],
+       "notes": [
+        "Validity 30 days.",
+        "Prices in USD."
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "number": 5,
+    "title": "Approval",
+    "blocks": [
+     {
+      "stamp": {
+       "approval": {
+        "name": "Alex Owner",
+        "title": "Owner",
+        "date": "11 October 2026"
+       }
+      }
+     },
+     {
+      "stamp": {}
+     }
+    ]
+   }
+  ]
+ },
+ "footer": {
+  "qr_data_uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAgElEQVR42rXWyQ2AMAxE0em/aZA4REHBwfb8uIB38C49cdGhEbA727B7gtaaEdhlaUV1hF2K1r77YNenlZkZ2HVo5Scddnu0qvsJdqt0MWtpul7oHN3qzQTdHac/2tgAW9pbWjFt79mAJk7DFw1ds4XmDvCbRn+GiabfnEPv06BvBVnTnVAjjh4AAAAASUVORK5CYII=",
+  "title": "SOLUTION PROPOSAL",
+  "line": "Verify at https://erp.example.com/v/Prp1",
+  "code": "Code: P1"
+ },
+ "header": {
+  "text": "Your Company Ltd | Confidential"
+ }
+}

@@ -1,0 +1,1955 @@
+{
+ "main": [
+  {
+   "op": "poll",
+   "stored": 9
+  },
+  {
+   "op": "dump",
+   "rows": {
+    "messages": [
+     {
+      "thread": 1,
+      "message_id_header": "<m01@customer.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "Ann Customer",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Quote please",
+      "body_html": "",
+      "body_text": "Please send a quote for 10 units.\r\n",
+      "imap_uid": 1,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<m02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "Bob, Acme",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "jorg@acme.test"
+      ],
+      "subject": "Hello from Acme ✓",
+      "body_html": "<p>Hi <b>team</b></p>\r\n",
+      "body_text": "",
+      "imap_uid": 2,
+      "imap_folder": "INBOX",
+      "reply_to": "sales@acme.test",
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-12 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 3,
+      "message_id_header": "<auto-0eccd622113866a2002555723ff5ca77@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "someone@gmail.com",
+      "from_name": "someone@gmail.com",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "no id",
+      "body_html": "",
+      "body_text": "no message id here\r\n",
+      "imap_uid": 3,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "2026-10-11 01:02:03+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 4,
+      "message_id_header": "<nested@x>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@pt-x.example",
+      "from_name": "Bob, S.T.",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "a@b.c"
+      ],
+      "subject": "Nested ✓",
+      "body_html": "<p>Logo <img src=\"data:image/png;base64,iVBORw0KGgpmYWtl\"> <img src='CID:missing'></p>",
+      "body_text": "plain part",
+      "imap_uid": 4,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-13 10:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": [
+       {
+        "filename": "€ rates.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 265,
+        "md5": "8cd34b6c153bb185961a0fe0e3dcf837"
+       },
+       {
+        "filename": "attachment",
+        "content_type": "application/octet-stream",
+        "size_bytes": 4,
+        "md5": "8d777f385d3dfec8815d20f7496026dc"
+       }
+      ]
+     },
+     {
+      "thread": 5,
+      "message_id_header": "<auto-42f8b531f8d6a50c52d937870a8427a3@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "x@y.z",
+      "from_name": "x@y.z",
+      "to_emails": [],
+      "cc_emails": [],
+      "subject": "charset koi8-r",
+      "body_html": "",
+      "body_text": "Привет",
+      "imap_uid": 5,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 6,
+      "message_id_header": "<auto-45cc0c00cd02d70fe0afdc808d004072@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "a@b.c",
+      "from_name": "a@b.c",
+      "to_emails": [],
+      "cc_emails": [],
+      "subject": "(No Subject)",
+      "body_html": "",
+      "body_text": "café softbreak = x=ZZ end=",
+      "imap_uid": 7,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 1,
+      "message_id_header": "<m08@customer.test>",
+      "in_reply_to": null,
+      "references": "<unknown@x> <m01@customer.test>",
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "ann@customer.test",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Quote please",
+      "body_html": "",
+      "body_text": "old follow-up\r\n",
+      "imap_uid": 8,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-01 10:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 1,
+      "message_id_header": "<s01@acme.test>",
+      "in_reply_to": "<m01@customer.test>",
+      "references": "<m01@customer.test>",
+      "direction": "outbound",
+      "from_email": "hello@acme.test",
+      "from_name": "ACME",
+      "to_emails": [
+       "ann@customer.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Quote please",
+      "body_html": "",
+      "body_text": "Here it is.\r\n",
+      "imap_uid": 1,
+      "imap_folder": "SENT",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 7,
+      "message_id_header": "<s02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "outbound",
+      "from_email": "hello@acme.test",
+      "from_name": "hello@acme.test",
+      "to_emails": [
+       "New@Other.test"
+      ],
+      "cc_emails": [],
+      "subject": "Introduction",
+      "body_html": "",
+      "body_text": "Hello there.\r\n",
+      "imap_uid": 2,
+      "imap_folder": "SENT",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-09 02:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     }
+    ],
+    "threads": [
+     {
+      "thread": 1,
+      "subject": "Quote please",
+      "status": "open",
+      "is_read": false,
+      "message_count": 3,
+      "last_sender_email": "ann@customer.test",
+      "last_sender_name": "ann@customer.test",
+      "last_message_at": "recent",
+      "linked_contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "linked_deal_id": "00000000-0000-0000-0000-0000000005d1"
+     },
+     {
+      "thread": 2,
+      "subject": "Hello from Acme ✓",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "bob@acme.test",
+      "last_sender_name": "Bob, Acme",
+      "last_message_at": "2026-10-12 01:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 3,
+      "subject": "no id",
+      "status": "open",
+      "is_read": false,
+      "message_count": 1,
+      "last_sender_email": "someone@gmail.com",
+      "last_sender_name": "someone@gmail.com",
+      "last_message_at": "2026-10-11 01:02:03+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 4,
+      "subject": "Nested ✓",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "bob@pt-x.example",
+      "last_sender_name": "Bob, S.T.",
+      "last_message_at": "2026-10-13 10:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 5,
+      "subject": "charset koi8-r",
+      "status": "open",
+      "is_read": false,
+      "message_count": 1,
+      "last_sender_email": "x@y.z",
+      "last_sender_name": "x@y.z",
+      "last_message_at": "recent",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 6,
+      "subject": "(No Subject)",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "a@b.c",
+      "last_sender_name": "a@b.c",
+      "last_message_at": "recent",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 7,
+      "subject": "Introduction",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "new@other.test",
+      "last_sender_name": "new@other.test",
+      "last_message_at": "2026-10-09 02:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     }
+    ],
+    "orphan_threads": 0,
+    "activities": [
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Quote please",
+      "content": "Please send a quote for 10 units.\r\n",
+      "is_completed": true,
+      "channel_message_id": "<m01@customer.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Re: Quote please",
+      "content": "old follow-up\r\n",
+      "is_completed": true,
+      "channel_message_id": "<m08@customer.test>",
+      "completed_at": "2026-10-01 10:00:00+00",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "outbound",
+      "subject": "Re: Quote please",
+      "content": "Here it is.\r\n",
+      "is_completed": true,
+      "channel_message_id": "<s01@acme.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     }
+    ],
+    "events": [
+     {
+      "type": "email.inbound",
+      "entity_type": "email_thread",
+      "thread": 1,
+      "message": "<m01@customer.test>",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "from": "ann@customer.test",
+      "keys": [
+       "contact_id",
+       "deal_id",
+       "from",
+       "lead_id",
+       "message_id"
+      ]
+     }
+    ],
+    "junk_mark": "1",
+    "skipped_marks": [
+     {
+      "key": "crm_inbox.skipped_uid.inbox",
+      "value": "6",
+      "value_type": "int",
+      "category": "nary_state",
+      "label": "Mail: last INBOX message skipped by the inbox poll"
+     }
+    ]
+   }
+  },
+  {
+   "op": "poll",
+   "stored": 1
+  },
+  {
+   "op": "dump",
+   "rows": {
+    "messages": [
+     {
+      "thread": 1,
+      "message_id_header": "<m01@customer.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "Ann Customer",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Quote please",
+      "body_html": "",
+      "body_text": "Please send a quote for 10 units.\r\n",
+      "imap_uid": 1,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<m02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "Bob, Acme",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "jorg@acme.test"
+      ],
+      "subject": "Hello from Acme ✓",
+      "body_html": "<p>Hi <b>team</b></p>\r\n",
+      "body_text": "",
+      "imap_uid": 2,
+      "imap_folder": "INBOX",
+      "reply_to": "sales@acme.test",
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "2026-10-12 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 3,
+      "message_id_header": "<auto-0eccd622113866a2002555723ff5ca77@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "someone@gmail.com",
+      "from_name": "someone@gmail.com",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "no id",
+      "body_html": "",
+      "body_text": "no message id here\r\n",
+      "imap_uid": 3,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-11 01:02:03+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 4,
+      "message_id_header": "<nested@x>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@pt-x.example",
+      "from_name": "Bob, S.T.",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "a@b.c"
+      ],
+      "subject": "Nested ✓",
+      "body_html": "<p>Logo <img src=\"data:image/png;base64,iVBORw0KGgpmYWtl\"> <img src='CID:missing'></p>",
+      "body_text": "plain part",
+      "imap_uid": 4,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-13 10:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": [
+       {
+        "filename": "€ rates.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 265,
+        "md5": "8cd34b6c153bb185961a0fe0e3dcf837"
+       },
+       {
+        "filename": "attachment",
+        "content_type": "application/octet-stream",
+        "size_bytes": 4,
+        "md5": "8d777f385d3dfec8815d20f7496026dc"
+       }
+      ]
+     },
+     {
+      "thread": 5,
+      "message_id_header": "<auto-42f8b531f8d6a50c52d937870a8427a3@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "x@y.z",
+      "from_name": "x@y.z",
+      "to_emails": [],
+      "cc_emails": [],
+      "subject": "charset koi8-r",
+      "body_html": "",
+      "body_text": "Привет",
+      "imap_uid": 5,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 6,
+      "message_id_header": "<auto-45cc0c00cd02d70fe0afdc808d004072@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "a@b.c",
+      "from_name": "a@b.c",
+      "to_emails": [],
+      "cc_emails": [],
+      "subject": "(No Subject)",
+      "body_html": "",
+      "body_text": "café softbreak = x=ZZ end=",
+      "imap_uid": 7,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 1,
+      "message_id_header": "<m08@customer.test>",
+      "in_reply_to": null,
+      "references": "<unknown@x> <m01@customer.test>",
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "ann@customer.test",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Quote please",
+      "body_html": "",
+      "body_text": "old follow-up\r\n",
+      "imap_uid": 8,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-01 10:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<m09@acme.test>",
+      "in_reply_to": "<m02@acme.test>",
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "bob@acme.test",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Hello from Acme",
+      "body_html": "",
+      "body_text": "follow up\r\n",
+      "imap_uid": 9,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "2026-10-13 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 1,
+      "message_id_header": "<s01@acme.test>",
+      "in_reply_to": "<m01@customer.test>",
+      "references": "<m01@customer.test>",
+      "direction": "outbound",
+      "from_email": "hello@acme.test",
+      "from_name": "ACME",
+      "to_emails": [
+       "ann@customer.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Quote please",
+      "body_html": "",
+      "body_text": "Here it is.\r\n",
+      "imap_uid": 1,
+      "imap_folder": "SENT",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 7,
+      "message_id_header": "<s02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "outbound",
+      "from_email": "hello@acme.test",
+      "from_name": "hello@acme.test",
+      "to_emails": [
+       "New@Other.test"
+      ],
+      "cc_emails": [],
+      "subject": "Introduction",
+      "body_html": "",
+      "body_text": "Hello there.\r\n",
+      "imap_uid": 2,
+      "imap_folder": "SENT",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-09 02:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     }
+    ],
+    "threads": [
+     {
+      "thread": 1,
+      "subject": "Quote please",
+      "status": "open",
+      "is_read": false,
+      "message_count": 3,
+      "last_sender_email": "ann@customer.test",
+      "last_sender_name": "ann@customer.test",
+      "last_message_at": "recent",
+      "linked_contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "linked_deal_id": "00000000-0000-0000-0000-0000000005d1"
+     },
+     {
+      "thread": 2,
+      "subject": "Hello from Acme ✓",
+      "status": "open",
+      "is_read": false,
+      "message_count": 2,
+      "last_sender_email": "bob@acme.test",
+      "last_sender_name": "bob@acme.test",
+      "last_message_at": "2026-10-13 01:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 3,
+      "subject": "no id",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "someone@gmail.com",
+      "last_sender_name": "someone@gmail.com",
+      "last_message_at": "2026-10-11 01:02:03+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 4,
+      "subject": "Nested ✓",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "bob@pt-x.example",
+      "last_sender_name": "Bob, S.T.",
+      "last_message_at": "2026-10-13 10:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 5,
+      "subject": "charset koi8-r",
+      "status": "open",
+      "is_read": false,
+      "message_count": 1,
+      "last_sender_email": "x@y.z",
+      "last_sender_name": "x@y.z",
+      "last_message_at": "recent",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 6,
+      "subject": "(No Subject)",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "a@b.c",
+      "last_sender_name": "a@b.c",
+      "last_message_at": "recent",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 7,
+      "subject": "Introduction",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "new@other.test",
+      "last_sender_name": "new@other.test",
+      "last_message_at": "2026-10-09 02:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     }
+    ],
+    "orphan_threads": 0,
+    "activities": [
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Quote please",
+      "content": "Please send a quote for 10 units.\r\n",
+      "is_completed": true,
+      "channel_message_id": "<m01@customer.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Re: Quote please",
+      "content": "old follow-up\r\n",
+      "is_completed": true,
+      "channel_message_id": "<m08@customer.test>",
+      "completed_at": "2026-10-01 10:00:00+00",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "outbound",
+      "subject": "Re: Quote please",
+      "content": "Here it is.\r\n",
+      "is_completed": true,
+      "channel_message_id": "<s01@acme.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     }
+    ],
+    "events": [
+     {
+      "type": "email.inbound",
+      "entity_type": "email_thread",
+      "thread": 1,
+      "message": "<m01@customer.test>",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "from": "ann@customer.test",
+      "keys": [
+       "contact_id",
+       "deal_id",
+       "from",
+       "lead_id",
+       "message_id"
+      ]
+     }
+    ],
+    "junk_mark": "1",
+    "skipped_marks": [
+     {
+      "key": "crm_inbox.skipped_uid.inbox",
+      "value": "6",
+      "value_type": "int",
+      "category": "nary_state",
+      "label": "Mail: last INBOX message skipped by the inbox poll"
+     }
+    ]
+   }
+  },
+  {
+   "op": "poll",
+   "stored": 0
+  },
+  {
+   "op": "dump",
+   "rows": {
+    "messages": [
+     {
+      "thread": 1,
+      "message_id_header": "<m01@customer.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "Ann Customer",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Quote please",
+      "body_html": "",
+      "body_text": "Please send a quote for 10 units.\r\n",
+      "imap_uid": 1,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<m02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "Bob, Acme",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "jorg@acme.test"
+      ],
+      "subject": "Hello from Acme ✓",
+      "body_html": "<p>Hi <b>team</b></p>\r\n",
+      "body_text": "",
+      "imap_uid": 2,
+      "imap_folder": "INBOX",
+      "reply_to": "sales@acme.test",
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "2026-10-12 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 3,
+      "message_id_header": "<auto-0eccd622113866a2002555723ff5ca77@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "someone@gmail.com",
+      "from_name": "someone@gmail.com",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "no id",
+      "body_html": "",
+      "body_text": "no message id here\r\n",
+      "imap_uid": 3,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-11 01:02:03+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 4,
+      "message_id_header": "<nested@x>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@pt-x.example",
+      "from_name": "Bob, S.T.",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "a@b.c"
+      ],
+      "subject": "Nested ✓",
+      "body_html": "<p>Logo <img src=\"data:image/png;base64,iVBORw0KGgpmYWtl\"> <img src='CID:missing'></p>",
+      "body_text": "plain part",
+      "imap_uid": 4,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-13 10:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": [
+       {
+        "filename": "€ rates.pdf",
+        "content_type": "application/pdf",
+        "size_bytes": 265,
+        "md5": "8cd34b6c153bb185961a0fe0e3dcf837"
+       },
+       {
+        "filename": "attachment",
+        "content_type": "application/octet-stream",
+        "size_bytes": 4,
+        "md5": "8d777f385d3dfec8815d20f7496026dc"
+       }
+      ]
+     },
+     {
+      "thread": 5,
+      "message_id_header": "<auto-42f8b531f8d6a50c52d937870a8427a3@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "x@y.z",
+      "from_name": "x@y.z",
+      "to_emails": [],
+      "cc_emails": [],
+      "subject": "charset koi8-r",
+      "body_html": "",
+      "body_text": "Привет",
+      "imap_uid": 5,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 6,
+      "message_id_header": "<auto-45cc0c00cd02d70fe0afdc808d004072@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "a@b.c",
+      "from_name": "a@b.c",
+      "to_emails": [],
+      "cc_emails": [],
+      "subject": "(No Subject)",
+      "body_html": "",
+      "body_text": "café softbreak = x=ZZ end=",
+      "imap_uid": 7,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 1,
+      "message_id_header": "<m08@customer.test>",
+      "in_reply_to": null,
+      "references": "<unknown@x> <m01@customer.test>",
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "ann@customer.test",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Quote please",
+      "body_html": "",
+      "body_text": "old follow-up\r\n",
+      "imap_uid": 8,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-01 10:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<m09@acme.test>",
+      "in_reply_to": "<m02@acme.test>",
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "bob@acme.test",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Hello from Acme",
+      "body_html": "",
+      "body_text": "follow up\r\n",
+      "imap_uid": 9,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "2026-10-13 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 1,
+      "message_id_header": "<s01@acme.test>",
+      "in_reply_to": "<m01@customer.test>",
+      "references": "<m01@customer.test>",
+      "direction": "outbound",
+      "from_email": "hello@acme.test",
+      "from_name": "ACME",
+      "to_emails": [
+       "ann@customer.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Quote please",
+      "body_html": "",
+      "body_text": "Here it is.\r\n",
+      "imap_uid": 1,
+      "imap_folder": "SENT",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 7,
+      "message_id_header": "<s02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "outbound",
+      "from_email": "hello@acme.test",
+      "from_name": "hello@acme.test",
+      "to_emails": [
+       "New@Other.test"
+      ],
+      "cc_emails": [],
+      "subject": "Introduction",
+      "body_html": "",
+      "body_text": "Hello there.\r\n",
+      "imap_uid": 2,
+      "imap_folder": "SENT",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-09 02:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     }
+    ],
+    "threads": [
+     {
+      "thread": 1,
+      "subject": "Quote please",
+      "status": "open",
+      "is_read": false,
+      "message_count": 3,
+      "last_sender_email": "ann@customer.test",
+      "last_sender_name": "ann@customer.test",
+      "last_message_at": "recent",
+      "linked_contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "linked_deal_id": "00000000-0000-0000-0000-0000000005d1"
+     },
+     {
+      "thread": 2,
+      "subject": "Hello from Acme ✓",
+      "status": "open",
+      "is_read": false,
+      "message_count": 2,
+      "last_sender_email": "bob@acme.test",
+      "last_sender_name": "bob@acme.test",
+      "last_message_at": "2026-10-13 01:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 3,
+      "subject": "no id",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "someone@gmail.com",
+      "last_sender_name": "someone@gmail.com",
+      "last_message_at": "2026-10-11 01:02:03+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 4,
+      "subject": "Nested ✓",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "bob@pt-x.example",
+      "last_sender_name": "Bob, S.T.",
+      "last_message_at": "2026-10-13 10:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 5,
+      "subject": "charset koi8-r",
+      "status": "open",
+      "is_read": false,
+      "message_count": 1,
+      "last_sender_email": "x@y.z",
+      "last_sender_name": "x@y.z",
+      "last_message_at": "recent",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 6,
+      "subject": "(No Subject)",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "a@b.c",
+      "last_sender_name": "a@b.c",
+      "last_message_at": "recent",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 7,
+      "subject": "Introduction",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "new@other.test",
+      "last_sender_name": "new@other.test",
+      "last_message_at": "2026-10-09 02:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     }
+    ],
+    "orphan_threads": 0,
+    "activities": [
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Quote please",
+      "content": "Please send a quote for 10 units.\r\n",
+      "is_completed": true,
+      "channel_message_id": "<m01@customer.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Re: Quote please",
+      "content": "old follow-up\r\n",
+      "is_completed": true,
+      "channel_message_id": "<m08@customer.test>",
+      "completed_at": "2026-10-01 10:00:00+00",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "outbound",
+      "subject": "Re: Quote please",
+      "content": "Here it is.\r\n",
+      "is_completed": true,
+      "channel_message_id": "<s01@acme.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     }
+    ],
+    "events": [
+     {
+      "type": "email.inbound",
+      "entity_type": "email_thread",
+      "thread": 1,
+      "message": "<m01@customer.test>",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "from": "ann@customer.test",
+      "keys": [
+       "contact_id",
+       "deal_id",
+       "from",
+       "lead_id",
+       "message_id"
+      ]
+     }
+    ],
+    "junk_mark": "1",
+    "skipped_marks": [
+     {
+      "key": "crm_inbox.skipped_uid.inbox",
+      "value": "6",
+      "value_type": "int",
+      "category": "nary_state",
+      "label": "Mail: last INBOX message skipped by the inbox poll"
+     }
+    ]
+   }
+  }
+ ],
+ "poison": [
+  {
+   "op": "poll",
+   "stored": 2
+  },
+  {
+   "op": "dump",
+   "rows": {
+    "messages": [
+     {
+      "thread": 1,
+      "message_id_header": "<m02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "Bob, Acme",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "jorg@acme.test"
+      ],
+      "subject": "Hello from Acme ✓",
+      "body_html": "<p>Hi <b>team</b></p>\r\n",
+      "body_text": "",
+      "imap_uid": 1,
+      "imap_folder": "INBOX",
+      "reply_to": "sales@acme.test",
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-12 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<auto-91d82bf4c4a2dcab82e051509328d0fb@crm.granary>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "a@b.c",
+      "from_name": "a@b.c",
+      "to_emails": [
+       "d@e.f"
+      ],
+      "cc_emails": [],
+      "subject": "pdf_root",
+      "body_html": "",
+      "body_text": "",
+      "imap_uid": 2,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": [
+       {
+        "filename": "attachment",
+        "content_type": "application/pdf",
+        "size_bytes": 15,
+        "md5": "4a06a205bac3c747cf7dbbc5beef5282"
+       }
+      ]
+     }
+    ],
+    "threads": [
+     {
+      "thread": 1,
+      "subject": "Hello from Acme ✓",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "bob@acme.test",
+      "last_sender_name": "Bob, Acme",
+      "last_message_at": "2026-10-12 01:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 2,
+      "subject": "pdf_root",
+      "status": "open",
+      "is_read": false,
+      "message_count": 1,
+      "last_sender_email": "a@b.c",
+      "last_sender_name": "a@b.c",
+      "last_message_at": "recent",
+      "linked_contact_id": null,
+      "linked_org_id": null,
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     }
+    ],
+    "orphan_threads": 0,
+    "activities": [],
+    "events": [],
+    "junk_mark": null,
+    "skipped_marks": []
+   }
+  }
+ ],
+ "skip": [
+  {
+   "op": "poll",
+   "stored": 3
+  },
+  {
+   "op": "dump",
+   "rows": {
+    "messages": [
+     {
+      "thread": 1,
+      "message_id_header": "<m02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "Bob, Acme",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "jorg@acme.test"
+      ],
+      "subject": "Hello from Acme ✓",
+      "body_html": "<p>Hi <b>team</b></p>\r\n",
+      "body_text": "",
+      "imap_uid": 1,
+      "imap_folder": "INBOX",
+      "reply_to": "sales@acme.test",
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-12 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "Ann",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Fwd: long id",
+      "body_html": "",
+      "body_text": "long id body\r\n",
+      "imap_uid": 3,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<p04@x.test>",
+      "in_reply_to": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "references": null,
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "Ann",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "AW: long id",
+      "body_html": "",
+      "body_text": "reply to the long id\r\n",
+      "imap_uid": 4,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     }
+    ],
+    "threads": [
+     {
+      "thread": 1,
+      "subject": "Hello from Acme ✓",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "bob@acme.test",
+      "last_sender_name": "Bob, Acme",
+      "last_message_at": "2026-10-12 01:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 2,
+      "subject": "long id",
+      "status": "open",
+      "is_read": false,
+      "message_count": 2,
+      "last_sender_email": "ann@customer.test",
+      "last_sender_name": "Ann",
+      "last_message_at": "recent",
+      "linked_contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "linked_deal_id": "00000000-0000-0000-0000-0000000005d1"
+     }
+    ],
+    "orphan_threads": 0,
+    "activities": [
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Re: Fwd: long id",
+      "content": "long id body\r\n",
+      "is_completed": true,
+      "channel_message_id": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "completed_at": "recent",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "AW: long id",
+      "content": "reply to the long id\r\n",
+      "is_completed": true,
+      "channel_message_id": "<p04@x.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     }
+    ],
+    "events": [
+     {
+      "type": "email.inbound",
+      "entity_type": "email_thread",
+      "thread": 2,
+      "message": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "from": "ann@customer.test",
+      "keys": [
+       "contact_id",
+       "deal_id",
+       "from",
+       "lead_id",
+       "message_id"
+      ]
+     },
+     {
+      "type": "email.inbound",
+      "entity_type": "email_thread",
+      "thread": 2,
+      "message": "<p04@x.test>",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "from": "ann@customer.test",
+      "keys": [
+       "contact_id",
+       "deal_id",
+       "from",
+       "lead_id",
+       "message_id"
+      ]
+     }
+    ],
+    "junk_mark": null,
+    "skipped_marks": [
+     {
+      "key": "crm_inbox.skipped_uid.inbox",
+      "value": "2",
+      "value_type": "int",
+      "category": "nary_state",
+      "label": "Mail: last INBOX message skipped by the inbox poll"
+     }
+    ]
+   }
+  },
+  {
+   "op": "poll",
+   "stored": 0
+  },
+  {
+   "op": "dump",
+   "rows": {
+    "messages": [
+     {
+      "thread": 1,
+      "message_id_header": "<m02@acme.test>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "bob@acme.test",
+      "from_name": "Bob, Acme",
+      "to_emails": [
+       "hello@acme.test",
+       "ops@acme.test"
+      ],
+      "cc_emails": [
+       "jorg@acme.test"
+      ],
+      "subject": "Hello from Acme ✓",
+      "body_html": "<p>Hi <b>team</b></p>\r\n",
+      "body_text": "",
+      "imap_uid": 1,
+      "imap_folder": "INBOX",
+      "reply_to": "sales@acme.test",
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": true,
+      "received_at": "2026-10-12 01:00:00+00",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "in_reply_to": null,
+      "references": null,
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "Ann",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "Re: Fwd: long id",
+      "body_html": "",
+      "body_text": "long id body\r\n",
+      "imap_uid": 3,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     },
+     {
+      "thread": 2,
+      "message_id_header": "<p04@x.test>",
+      "in_reply_to": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "references": null,
+      "direction": "inbound",
+      "from_email": "ann@customer.test",
+      "from_name": "Ann",
+      "to_emails": [
+       "hello@acme.test"
+      ],
+      "cc_emails": [],
+      "subject": "AW: long id",
+      "body_html": "",
+      "body_text": "reply to the long id\r\n",
+      "imap_uid": 4,
+      "imap_folder": "INBOX",
+      "reply_to": null,
+      "auth": {
+       "dkim_domains": [],
+       "dkim_results": []
+      },
+      "is_read": false,
+      "received_at": "recent",
+      "sent_by_id": null,
+      "sent_by_nary": false,
+      "attachments": []
+     }
+    ],
+    "threads": [
+     {
+      "thread": 1,
+      "subject": "Hello from Acme ✓",
+      "status": "open",
+      "is_read": true,
+      "message_count": 1,
+      "last_sender_email": "bob@acme.test",
+      "last_sender_name": "Bob, Acme",
+      "last_message_at": "2026-10-12 01:00:00+00",
+      "linked_contact_id": null,
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": null,
+      "linked_deal_id": null
+     },
+     {
+      "thread": 2,
+      "subject": "long id",
+      "status": "open",
+      "is_read": false,
+      "message_count": 2,
+      "last_sender_email": "ann@customer.test",
+      "last_sender_name": "Ann",
+      "last_message_at": "recent",
+      "linked_contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "linked_org_id": "00000000-0000-0000-0000-0000000005a1",
+      "linked_lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "linked_deal_id": "00000000-0000-0000-0000-0000000005d1"
+     }
+    ],
+    "orphan_threads": 0,
+    "activities": [
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "Re: Fwd: long id",
+      "content": "long id body\r\n",
+      "is_completed": true,
+      "channel_message_id": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "completed_at": "recent",
+      "created_by_id": null
+     },
+     {
+      "entity_type": "deal",
+      "entity_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "activity_type": "email",
+      "direction": "inbound",
+      "subject": "AW: long id",
+      "content": "reply to the long id\r\n",
+      "is_completed": true,
+      "channel_message_id": "<p04@x.test>",
+      "completed_at": "recent",
+      "created_by_id": null
+     }
+    ],
+    "events": [
+     {
+      "type": "email.inbound",
+      "entity_type": "email_thread",
+      "thread": 2,
+      "message": "<03220e5f1951057b016901a8c6b86e273680df476a8abf3bd143215505405bb6@long-message-id>",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "from": "ann@customer.test",
+      "keys": [
+       "contact_id",
+       "deal_id",
+       "from",
+       "lead_id",
+       "message_id"
+      ]
+     },
+     {
+      "type": "email.inbound",
+      "entity_type": "email_thread",
+      "thread": 2,
+      "message": "<p04@x.test>",
+      "lead_id": "00000000-0000-0000-0000-0000000005b1",
+      "deal_id": "00000000-0000-0000-0000-0000000005d1",
+      "contact_id": "00000000-0000-0000-0000-0000000005c1",
+      "from": "ann@customer.test",
+      "keys": [
+       "contact_id",
+       "deal_id",
+       "from",
+       "lead_id",
+       "message_id"
+      ]
+     }
+    ],
+    "junk_mark": null,
+    "skipped_marks": [
+     {
+      "key": "crm_inbox.skipped_uid.inbox",
+      "value": "2",
+      "value_type": "int",
+      "category": "nary_state",
+      "label": "Mail: last INBOX message skipped by the inbox poll"
+     }
+    ]
+   }
+  }
+ ]
+}

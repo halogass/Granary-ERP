@@ -1,0 +1,1648 @@
+[
+ {
+  "value": [
+   "list",
+   []
+  ],
+  "expected": "[]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "a"
+    ],
+    [
+     "str",
+     "b"
+    ]
+   ]
+  ],
+  "expected": "['a', 'b']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "int",
+     "1"
+    ],
+    [
+     "int",
+     "2"
+    ],
+    [
+     "int",
+     "3"
+    ]
+   ]
+  ],
+  "expected": "[1, 2, 3]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "it's"
+    ]
+   ]
+  ],
+  "expected": "[\"it's\"]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "say \"hi\""
+    ]
+   ]
+  ],
+  "expected": "['say \"hi\"']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "it's \"both\""
+    ]
+   ]
+  ],
+  "expected": "['it\\'s \"both\"']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "back\\slash"
+    ]
+   ]
+  ],
+  "expected": "['back\\\\slash']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\n\t\r"
+    ]
+   ]
+  ],
+  "expected": "['\\n\\t\\r']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u0000\u0007\u001f\u007f\u0080\u009f"
+    ]
+   ]
+  ],
+  "expected": "['\\x00\\x07\\x1f\\x7f\\x80\\x9f']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u00a0\u00ad"
+    ]
+   ]
+  ],
+  "expected": "['\\xa0\\xad']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "caf\u00e9"
+    ],
+    [
+     "str",
+     "\u4e2d\u6587"
+    ],
+    [
+     "str",
+     "\ud83d\ude00"
+    ]
+   ]
+  ],
+  "expected": "['caf\u00e9', '\u4e2d\u6587', '\ud83d\ude00']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u2028\u2029\u200b\u200d\ufeff"
+    ]
+   ]
+  ],
+  "expected": "['\\u2028\\u2029\\u200b\\u200d\\ufeff']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\ue000\udb80\udc00"
+    ]
+   ]
+  ],
+  "expected": "['\\ue000\\U000f0000']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u3000\u2000\u202f"
+    ]
+   ]
+  ],
+  "expected": "['\\u3000\\u2000\\u202f']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\ufffe\uffff"
+    ]
+   ]
+  ],
+  "expected": "['\\ufffe\\uffff']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "dict",
+     [
+      [
+       "step",
+       [
+        "int",
+        "1"
+       ]
+      ],
+      [
+       "text",
+       [
+        "str",
+        "Check the invoice"
+       ]
+      ],
+      [
+       "done",
+       [
+        "bool",
+        false
+       ]
+      ],
+      [
+       "owner",
+       [
+        "none"
+       ]
+      ]
+     ]
+    ]
+   ]
+  ],
+  "expected": "[{'step': 1, 'text': 'Check the invoice', 'done': False, 'owner': None}]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "dict",
+     [
+      [
+       "a",
+       [
+        "list",
+        [
+         [
+          "int",
+          "1"
+         ],
+         [
+          "float",
+          "4004000000000000"
+         ],
+         [
+          "float",
+          "8000000000000000"
+         ],
+         [
+          "float",
+          "4341c37937e08000"
+         ],
+         [
+          "float",
+          "3ee4f8b588e368f1"
+         ]
+        ]
+       ]
+      ],
+      [
+       "b",
+       [
+        "dict",
+        [
+         [
+          "c",
+          [
+           "bool",
+           true
+          ]
+         ]
+        ]
+       ]
+      ]
+     ]
+    ]
+   ]
+  ],
+  "expected": "[{'a': [1, 2.5, -0.0, 1e+16, 1e-05], 'b': {'c': True}}]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "tuple",
+     [
+      [
+       "int",
+       "1"
+      ]
+     ]
+    ],
+    [
+     "tuple",
+     [
+      [
+       "int",
+       "1"
+      ],
+      [
+       "int",
+       "2"
+      ]
+     ]
+    ],
+    [
+     "tuple",
+     []
+    ]
+   ]
+  ],
+  "expected": "[(1,), (1, 2), ()]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "float",
+     "3ff0000000000000"
+    ],
+    [
+     "float",
+     "3fb999999999999a"
+    ],
+    [
+     "float",
+     "4059000000000000"
+    ],
+    [
+     "float",
+     "7ff8000000000000"
+    ],
+    [
+     "float",
+     "7ff0000000000000"
+    ]
+   ]
+  ],
+  "expected": "[1.0, 0.1, 100.0, nan, inf]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "dict",
+     [
+      [
+       "title",
+       [
+        "str",
+        "Step 1"
+       ]
+      ],
+      [
+       "assignee_role",
+       [
+        "str",
+        "finance"
+       ]
+      ],
+      [
+       "sla_hours",
+       [
+        "int",
+        "24"
+       ]
+      ]
+     ]
+    ],
+    [
+     "dict",
+     [
+      [
+       "title",
+       [
+        "str",
+        "Step 2: Manager's sign-off"
+       ]
+      ],
+      [
+       "assignee_role",
+       [
+        "str",
+        "manager"
+       ]
+      ],
+      [
+       "sla_hours",
+       [
+        "int",
+        "48"
+       ]
+      ]
+     ]
+    ]
+   ]
+  ],
+  "expected": "[{'title': 'Step 1', 'assignee_role': 'finance', 'sla_hours': 24}, {'title': \"Step 2: Manager's sign-off\", 'assignee_role': 'manager', 'sla_hours': 48}]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "decimal",
+     "1.10"
+    ],
+    [
+     "decimal",
+     "1E+2"
+    ]
+   ]
+  ],
+  "expected": "[Decimal('1.10'), Decimal('1E+2')]"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "k",
+     [
+      "str",
+      "v"
+     ]
+    ],
+    [
+     "n",
+     [
+      "none"
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'k': 'v', 'n': None}"
+ },
+ {
+  "value": [
+   "str",
+   "plain string"
+  ],
+  "expected": "'plain string'"
+ },
+ {
+  "value": [
+   "int",
+   "12"
+  ],
+  "expected": "12"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "bool",
+   true
+  ],
+  "expected": "True"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     ""
+    ]
+   ]
+  ],
+  "expected": "['']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "a"
+    ]
+   ]
+  ],
+  "expected": "['a']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "hello world"
+    ]
+   ]
+  ],
+  "expected": "['hello world']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "quote \" inside"
+    ]
+   ]
+  ],
+  "expected": "['quote \" inside']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "back\\slash"
+    ]
+   ]
+  ],
+  "expected": "['back\\\\slash']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "slash /"
+    ]
+   ]
+  ],
+  "expected": "['slash /']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "tab\tnl\ncr\r"
+    ]
+   ]
+  ],
+  "expected": "['tab\\tnl\\ncr\\r']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\b\f"
+    ]
+   ]
+  ],
+  "expected": "['\\x08\\x0c']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u0000\u0001\u001f"
+    ]
+   ]
+  ],
+  "expected": "['\\x00\\x01\\x1f']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u007f"
+    ]
+   ]
+  ],
+  "expected": "['\\x7f']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u0080\u009f\u00a0"
+    ]
+   ]
+  ],
+  "expected": "['\\x80\\x9f\\xa0']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "caf\u00e9"
+    ]
+   ]
+  ],
+  "expected": "['caf\u00e9']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "na\u00efve r\u00e9sum\u00e9"
+    ]
+   ]
+  ],
+  "expected": "['na\u00efve r\u00e9sum\u00e9']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "JPY 1,000,000"
+    ]
+   ]
+  ],
+  "expected": "['JPY 1,000,000']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u20ac 12,50"
+    ]
+   ]
+  ],
+  "expected": "['\u20ac 12,50']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u4e2d\u6587"
+    ]
+   ]
+  ],
+  "expected": "['\u4e2d\u6587']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u0627\u0644\u0639\u0631\u0628\u064a\u0629"
+    ]
+   ]
+  ],
+  "expected": "['\u0627\u0644\u0639\u0631\u0628\u064a\u0629']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\ud83d\ude00"
+    ]
+   ]
+  ],
+  "expected": "['\ud83d\ude00']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "x\ud83d\ude80y"
+    ]
+   ]
+  ],
+  "expected": "['x\ud83d\ude80y']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67"
+    ]
+   ]
+  ],
+  "expected": "['\ud83d\udc68\\u200d\ud83d\udc69\\u200d\ud83d\udc67']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\ufeffbom"
+    ]
+   ]
+  ],
+  "expected": "['\\ufeffbom']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u2028\u2029"
+    ]
+   ]
+  ],
+  "expected": "['\\u2028\\u2029']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u00ad soft"
+    ]
+   ]
+  ],
+  "expected": "['\\xad soft']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\ue000 private"
+    ]
+   ]
+  ],
+  "expected": "['\\ue000 private']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\uffff"
+    ]
+   ]
+  ],
+  "expected": "['\\uffff']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\udbff\udfff"
+    ]
+   ]
+  ],
+  "expected": "['\\U0010ffff']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\ud800\udc00"
+    ]
+   ]
+  ],
+  "expected": "['\ud800\udc00']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "it's"
+    ]
+   ]
+  ],
+  "expected": "[\"it's\"]"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "it's \"both\""
+    ]
+   ]
+  ],
+  "expected": "['it\\'s \"both\"']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "<b>&amp;</b>"
+    ]
+   ]
+  ],
+  "expected": "['<b>&amp;</b>']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "line1\nline2"
+    ]
+   ]
+  ],
+  "expected": "['line1\\nline2']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u200b zero width"
+    ]
+   ]
+  ],
+  "expected": "['\\u200b zero width']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "In English: Thank you!"
+    ]
+   ]
+  ],
+  "expected": "['In English: Thank you!']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "emoji \u2764\ufe0f"
+    ]
+   ]
+  ],
+  "expected": "['emoji \u2764\ufe0f']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "str",
+     "\u3000ideographic space"
+    ]
+   ]
+  ],
+  "expected": "['\\u3000ideographic space']"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "bool",
+     true
+    ],
+    [
+     "int",
+     "-1"
+    ],
+    [
+     "int",
+     "9223372036854775807"
+    ]
+   ]
+  ],
+  "expected": "[True, -1, 9223372036854775807]"
+ },
+ {
+  "value": [
+   "float",
+   "41c9f68cfcfc28f6"
+  ],
+  "expected": "871176697.97"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "dict",
+     [
+      [
+       "back\\slash",
+       [
+        "str",
+        "\udbff\udfff"
+       ]
+      ]
+     ]
+    ],
+    [
+     "none"
+    ],
+    [
+     "str",
+     "\udbff\udfff"
+    ]
+   ]
+  ],
+  "expected": "[{'back\\\\slash': '\\U0010ffff'}, None, '\\U0010ffff']"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "float",
+     "0000000000000000"
+    ],
+    [
+     "float",
+     "cea88674d407f3d0"
+    ],
+    [
+     "float",
+     "45682cecb75c4d48"
+    ],
+    [
+     "float",
+     "45602d78141ffac8"
+    ]
+   ]
+  ],
+  "expected": "[0.0, -8.46334243133629e+70, 2.338109635209531e+26, 1.564602773200431e+26]"
+ },
+ {
+  "value": [
+   "int",
+   "2147483648"
+  ],
+  "expected": "2147483648"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "quote \" inside",
+     [
+      "int",
+      "1267650600228229401496703205376"
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'quote \" inside': 1267650600228229401496703205376}"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "\ud83d\udc68\u200d\ud83d\udc69\u200d\ud83d\udc67",
+     [
+      "float",
+      "c127107932ac2e2b"
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'\ud83d\udc68\\u200d\ud83d\udc69\\u200d\ud83d\udc67': -755772.5989698818}"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "int",
+     "1234567"
+    ],
+    [
+     "int",
+     "1267650600228229401496703205376"
+    ]
+   ]
+  ],
+  "expected": "[1234567, 1267650600228229401496703205376]"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "float",
+   "411981bae98f39a4"
+  ],
+  "expected": "417902.7280854231"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "int",
+   "-9223372036854775808"
+  ],
+  "expected": "-9223372036854775808"
+ },
+ {
+  "value": [
+   "int",
+   "9223372036854775807"
+  ],
+  "expected": "9223372036854775807"
+ },
+ {
+  "value": [
+   "bool",
+   true
+  ],
+  "expected": "True"
+ },
+ {
+  "value": [
+   "int",
+   "7"
+  ],
+  "expected": "7"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "str",
+   "\u200b zero width"
+  ],
+  "expected": "'\\u200b zero width'"
+ },
+ {
+  "value": [
+   "float",
+   "400921fb54442d18"
+  ],
+  "expected": "3.141592653589793"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "dict",
+   []
+  ],
+  "expected": "{}"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "str",
+   "\u200b zero width"
+  ],
+  "expected": "'\\u200b zero width'"
+ },
+ {
+  "value": [
+   "str",
+   "\u3000ideographic space"
+  ],
+  "expected": "'\\u3000ideographic space'"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "k9",
+     [
+      "bool",
+      true
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'k9': True}"
+ },
+ {
+  "value": [
+   "list",
+   [
+    [
+     "none"
+    ],
+    [
+     "list",
+     [
+      [
+       "int",
+       "999"
+      ],
+      [
+       "str",
+       "\ud800\udc00"
+      ]
+     ]
+    ],
+    [
+     "list",
+     [
+      [
+       "none"
+      ]
+     ]
+    ]
+   ]
+  ],
+  "expected": "[None, [999, '\ud800\udc00'], [None]]"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "\b\f",
+     [
+      "dict",
+      [
+       [
+        "k6",
+        [
+         "str",
+         "\ufeffbom"
+        ]
+       ]
+      ]
+     ]
+    ],
+    [
+     "k12",
+     [
+      "int",
+      "999"
+     ]
+    ],
+    [
+     "k13",
+     [
+      "int",
+      "-1"
+     ]
+    ],
+    [
+     "k3",
+     [
+      "none"
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'\\x08\\x0c': {'k6': '\\ufeffbom'}, 'k12': 999, 'k13': -1, 'k3': None}"
+ },
+ {
+  "value": [
+   "float",
+   "3c7772bc6140bee1"
+  ],
+  "expected": "2.033806018482154e-17"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "float",
+   "4028000000000000"
+  ],
+  "expected": "12.0"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "str",
+   "\u200b zero width"
+  ],
+  "expected": "'\\u200b zero width'"
+ },
+ {
+  "value": [
+   "float",
+   "404c519b85591af4"
+  ],
+  "expected": "56.63755862093777"
+ },
+ {
+  "value": [
+   "str",
+   ""
+  ],
+  "expected": "''"
+ },
+ {
+  "value": [
+   "str",
+   "\u200b zero width"
+  ],
+  "expected": "'\\u200b zero width'"
+ },
+ {
+  "value": [
+   "str",
+   "\ue000 private"
+  ],
+  "expected": "'\\ue000 private'"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "\b\f",
+     [
+      "str",
+      "\ue000 private"
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'\\x08\\x0c': '\\ue000 private'}"
+ },
+ {
+  "value": [
+   "bool",
+   true
+  ],
+  "expected": "True"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "str",
+   "\ud83d\ude00"
+  ],
+  "expected": "'\ud83d\ude00'"
+ },
+ {
+  "value": [
+   "int",
+   "-9223372036854775808"
+  ],
+  "expected": "-9223372036854775808"
+ },
+ {
+  "value": [
+   "int",
+   "-1"
+  ],
+  "expected": "-1"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "k1",
+     [
+      "bool",
+      false
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'k1': False}"
+ },
+ {
+  "value": [
+   "float",
+   "4005666666666666"
+  ],
+  "expected": "2.675"
+ },
+ {
+  "value": [
+   "dict",
+   []
+  ],
+  "expected": "{}"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "\b\f",
+     [
+      "dict",
+      [
+       [
+        "na\u00efve r\u00e9sum\u00e9",
+        [
+         "int",
+         "1267650600228229401496703205376"
+        ]
+       ],
+       [
+        "\u00ad soft",
+        [
+         "int",
+         "7"
+        ]
+       ],
+       [
+        "k9",
+        [
+         "none"
+        ]
+       ]
+      ]
+     ]
+    ],
+    [
+     "k11",
+     [
+      "none"
+     ]
+    ],
+    [
+     "\ud800\udc00",
+     [
+      "int",
+      "100000000000000000000"
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'\\x08\\x0c': {'na\u00efve r\u00e9sum\u00e9': 1267650600228229401496703205376, '\\xad soft': 7, 'k9': None}, 'k11': None, '\ud800\udc00': 100000000000000000000}"
+ },
+ {
+  "value": [
+   "int",
+   "42"
+  ],
+  "expected": "42"
+ },
+ {
+  "value": [
+   "bool",
+   true
+  ],
+  "expected": "True"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "it's \"both\"",
+     [
+      "dict",
+      [
+       [
+        "k15",
+        [
+         "dict",
+         [
+          [
+           "line1\nline2",
+           [
+            "str",
+            "\u0000\u0001\u001f"
+           ]
+          ],
+          [
+           "a",
+           [
+            "bool",
+            false
+           ]
+          ]
+         ]
+        ]
+       ]
+      ]
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'it\\'s \"both\"': {'k15': {'line1\\nline2': '\\x00\\x01\\x1f', 'a': False}}}"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "k1",
+     [
+      "dict",
+      [
+       [
+        "\b\f",
+        [
+         "str",
+         "\u0000\u0001\u001f"
+        ]
+       ],
+       [
+        "x\ud83d\ude80y",
+        [
+         "none"
+        ]
+       ]
+      ]
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'k1': {'\\x08\\x0c': '\\x00\\x01\\x1f', 'x\ud83d\ude80y': None}}"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "float",
+   "39b35cdbbb4ae170"
+  ],
+  "expected": "9.546561881297217e-31"
+ },
+ {
+  "value": [
+   "int",
+   "1"
+  ],
+  "expected": "1"
+ },
+ {
+  "value": [
+   "bool",
+   false
+  ],
+  "expected": "False"
+ },
+ {
+  "value": [
+   "str",
+   "\u00ad soft"
+  ],
+  "expected": "'\\xad soft'"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ },
+ {
+  "value": [
+   "int",
+   "1234567"
+  ],
+  "expected": "1234567"
+ },
+ {
+  "value": [
+   "str",
+   ""
+  ],
+  "expected": "''"
+ },
+ {
+  "value": [
+   "float",
+   "4376345785d8a000"
+  ],
+  "expected": "1e+17"
+ },
+ {
+  "value": [
+   "dict",
+   [
+    [
+     "hello world",
+     [
+      "int",
+      "-1234567"
+     ]
+    ]
+   ]
+  ],
+  "expected": "{'hello world': -1234567}"
+ },
+ {
+  "value": [
+   "float",
+   "419af01140000000"
+  ],
+  "expected": "112985168.0"
+ },
+ {
+  "value": [
+   "bool",
+   true
+  ],
+  "expected": "True"
+ },
+ {
+  "value": [
+   "float",
+   "339db7ceb8e7cbd5"
+  ],
+  "expected": "4.623388902257691e-60"
+ },
+ {
+  "value": [
+   "none"
+  ],
+  "expected": "None"
+ }
+]

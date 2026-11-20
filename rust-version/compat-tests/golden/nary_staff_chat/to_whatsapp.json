@@ -1,0 +1,606 @@
+[
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "plain",
+  "out": "plain"
+ },
+ {
+  "in": "## Open deals\n\n**3 deals** open:\n- Globex Corp\n- Initech\n\n| Deal | Stage |\n|---|---|\n| Globex Corp | Proposal |",
+  "out": "*Open deals*\n\n*3 deals* open:\n• Globex Corp\n• Initech\n\nDeal · Stage\nGlobex Corp · Proposal"
+ },
+ {
+  "in": "# H1\n###### H6\n####### seven",
+  "out": "*H1*\n*H6*\n*# seven*"
+ },
+ {
+  "in": "* star bullet\n  - nested\n-not a bullet",
+  "out": "• star bullet\n  • nested\n-not a bullet"
+ },
+ {
+  "in": "__under__ and **bold** and ***both***",
+  "out": "_under_ and *bold* and **both**"
+ },
+ {
+  "in": "[Acme](https://example.com) and [x](ftp://no) and [a](http://b)",
+  "out": "Acme (https://example.com) and [x](ftp://no) and a (http://b)"
+ },
+ {
+  "in": "```\ncode\n```\nafter",
+  "out": "code\nafter"
+ },
+ {
+  "in": "a\r\nb\r\n\r\n\r\n\r\nc",
+  "out": "a\nb\n\nc"
+ },
+ {
+  "in": "|a|b|\n|:--|--:|\n|1|2|",
+  "out": "a · b\n1 · 2"
+ },
+ {
+  "in": "  | spaced | row |  ",
+  "out": "spaced · row"
+ },
+ {
+  "in": "---\n--\n-",
+  "out": "-"
+ },
+ {
+  "in": "x\n\n\n\n\ny",
+  "out": "x\n\ny"
+ },
+ {
+  "in": "**unclosed bold",
+  "out": "**unclosed bold"
+ },
+ {
+  "in": "##NoSpace",
+  "out": "*NoSpace*"
+ },
+ {
+  "in": "#   lots of space",
+  "out": "*lots of space*"
+ },
+ {
+  "in": "\t- tab bullet",
+  "out": "• tab bullet"
+ },
+ {
+  "in": "\u001c- odd space bullet",
+  "out": "• odd space bullet"
+ },
+ {
+  "in": "| only pipe",
+  "out": "only pipe"
+ },
+ {
+  "in": "text | with pipe",
+  "out": "text | with pipe"
+ },
+ {
+  "in": "**a** **b**",
+  "out": "*a* *b*"
+ },
+ {
+  "in": "__a__ __b__",
+  "out": "_a_ _b_"
+ },
+ {
+  "in": "[l]](http://x)",
+  "out": "[l]](http://x)"
+ },
+ {
+  "in": "  ```python",
+  "out": ""
+ },
+ {
+  "in": " trailing   ",
+  "out": "trailing"
+ },
+ {
+  "in": "é **ünï** — dash",
+  "out": "é *ünï* — dash"
+ },
+ {
+  "in": "1. numbered\n2. list",
+  "out": "1. numbered\n2. list"
+ },
+ {
+  "in": "*single*",
+  "out": "*single*"
+ },
+ {
+  "in": ": -- colon",
+  "out": ": -- colon"
+ },
+ {
+  "in": "|:-- sep",
+  "out": ""
+ },
+ {
+  "in": " - nbsp bullet",
+  "out": "• nbsp bullet"
+ },
+ {
+  "in": "|é\t### #",
+  "out": "é\t### #"
+ },
+ {
+  "in": "|\r```  ---\t## ---* ## \n**text---\n * #",
+  "out": "```  ---\t## ---* ##\n**text---\n • #"
+ },
+ {
+  "in": "#",
+  "out": "#"
+ },
+ {
+  "in": "é```* #é\t## __**|## é|\t#é* ",
+  "out": "é```* #é\t## __**|## é|\t#é*"
+ },
+ {
+  "in": "\n--- - - __\n\n## ##  \rtext---```éé#\n\n",
+  "out": "*##  text---```éé#*"
+ },
+ {
+  "in": "## \n\n- ---\té",
+  "out": "*#*\n\n• ---\té"
+ },
+ {
+  "in": " \n---* ```#```__ \t__|__ texttext",
+  "out": ""
+ },
+ {
+  "in": "## ## ****#* \r* \n\ntext[a](https://x.y)__**- \n\n__\n\n\n [a](https://x.y)",
+  "out": "*## ***#* *\n\ntexta (https://x.y)__**-\n\n__\n\n a (https://x.y)"
+ },
+ {
+  "in": "\t## ---text[a](https://x.y)\n\n---**- - *  ## * - \r## - ",
+  "out": "## ---texta (https://x.y)"
+ },
+ {
+  "in": "\r```\n\ntext__## * * étext-  ```# [a](https://x.y)__## \r## ** ## \n|",
+  "out": "text_## * * étext-  ```# a (https://x.y)_## ## ** ##"
+ },
+ {
+  "in": "__ ## |__## **\n\n\t|____\n\n\n- ## ",
+  "out": "_ ## |_## **\n\n____\n\n• ##"
+ },
+ {
+  "in": "\t---* **",
+  "out": ""
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "---\t\n\n### ```## \n\n- \n**\t||\t\t",
+  "out": "*```##*\n\n-\n**\t||"
+ },
+ {
+  "in": "**\ntext\n\n **\n\n```[a](https://x.y)é* ",
+  "out": "**\ntext\n\n **"
+ },
+ {
+  "in": "text__* ```---- **text---\r__[a](https://x.y)---* \t* \n\n- text[a](https://x.y)## * ## ",
+  "out": "text_* ```---- **text---_a (https://x.y)---* \t*\n\n• texta (https://x.y)## * ##"
+ },
+ {
+  "in": " **#text ",
+  "out": "**#text"
+ },
+ {
+  "in": "| * **ééé__--- |\n\n",
+  "out": "• **ééé__---"
+ },
+ {
+  "in": "|\né",
+  "out": "é"
+ },
+ {
+  "in": "**## |``` |\t---\r|\r**## #* * __\t## #---\r#",
+  "out": "*## |``` |\t---|*## #* * __\t## #---#"
+ },
+ {
+  "in": "- \r\t---é\r* text- \t\t\n\n```||\n\ntext```- ```## \n\n",
+  "out": "• ---é* text-\n\ntext```- ```##"
+ },
+ {
+  "in": "é* [a](https://x.y)__``` é#é- [a](https://x.y)* #```\n- é \n**____ ",
+  "out": "é* a (https://x.y)__``` é#é- a (https://x.y)* #```\n• é\n**____"
+ },
+ {
+  "in": "#__|```#text```__ \r\r## * ```[a](https://x.y)\t## ```__\r|\n\ntext",
+  "out": "*_|```#text```_ ## * ```a (https://x.y)\t## ```__|*\n\ntext"
+ },
+ {
+  "in": "## |**- - - - * \r|\t#__\t",
+  "out": "*|**- - - - * |\t#__*"
+ },
+ {
+  "in": "\n#|é[a](https://x.y)\r---\r- |**",
+  "out": "*|éa (https://x.y)---- |***"
+ },
+ {
+  "in": "- text**- \n\n**",
+  "out": "• text**-\n\n**"
+ },
+ {
+  "in": "**```* \n\n#\né\n\n\n[a](https://x.y)## #```\ntext#\r```__",
+  "out": "**```*\n\n#\né\n\na (https://x.y)## #```\ntext#```__"
+ },
+ {
+  "in": "[a](https://x.y)é[a](https://x.y)**[a](https://x.y) ## __\n\n- ## \n ---",
+  "out": "a (https://x.y)éa (https://x.y)**a (https://x.y) ## __\n\n• ##"
+ },
+ {
+  "in": "\n\n",
+  "out": ""
+ },
+ {
+  "in": "\n\n| |*  ---#\t\n\n## \t#```\n\n\r\r**--- \n\n[a](https://x.y)",
+  "out": "· *  ---#\n\n*#```*\n\n**---\n\na (https://x.y)"
+ },
+ {
+  "in": "```*  - \n\n**[a](https://x.y)\n\n|[a](https://x.y)\t#\r__```\r__## ",
+  "out": "**a (https://x.y)\n\na (https://x.y)\t#_```_##"
+ },
+ {
+  "in": "* é[a](https://x.y)__",
+  "out": "• éa (https://x.y)__"
+ },
+ {
+  "in": "---#* é---\t\r\n\r * **## [a](https://x.y)éé",
+  "out": "• **## a (https://x.y)éé"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "text**text---é* - ",
+  "out": "text**text---é* -"
+ },
+ {
+  "in": "\n\n__```\t\r**#*  **## -  ",
+  "out": "__```\t*#*  *## -"
+ },
+ {
+  "in": "\n\n```- * #```## [a](https://x.y)---**## \t```__[a](https://x.y)",
+  "out": ""
+ },
+ {
+  "in": "\ntexté---\n- ",
+  "out": "texté---\n-"
+ },
+ {
+  "in": "\t* **text\r\n\n``````#éé\n",
+  "out": "• **text"
+ },
+ {
+  "in": " \r[a](https://x.y)é\r__text* text|text\r\n\n[a](https://x.y)---- __\n**é\r*** ",
+  "out": "a (https://x.y)é__text* text|text\n\na (https://x.y)---- __\n*é**"
+ },
+ {
+  "in": "* \t__```texttext**---\t### \n__[a](https://x.y)---text- ",
+  "out": "• __```texttext**---\t###\n__a (https://x.y)---text-"
+ },
+ {
+  "in": "## ## ****```[a](https://x.y)__* **---## ",
+  "out": "*## ***```a (https://x.y)__* *---##*"
+ },
+ {
+  "in": "**\t\n## [a](https://x.y)\t* ",
+  "out": "**\n*a (https://x.y)\t**"
+ },
+ {
+  "in": "```\n```---||## text ",
+  "out": ""
+ },
+ {
+  "in": "__[a](https://x.y)\t __## --- \n\n[a](https://x.y)\n\n\rtext\rtext## \n#text",
+  "out": "_a (https://x.y)\t _## ---\n\na (https://x.y)\n\ntexttext##\n*text*"
+ },
+ {
+  "in": "\r\n**\n\n__",
+  "out": "**\n\n__"
+ },
+ {
+  "in": "____## é**---``` \n```texté\n\né[a](https://x.y)text",
+  "out": "____## é**---```\n\néa (https://x.y)text"
+ },
+ {
+  "in": "* ## ",
+  "out": "• ##"
+ },
+ {
+  "in": "* \n* é|\n```**\n\n- \r\r# ```__- ---\n\n#é* ---\n\t",
+  "out": "*\n• é|\n\n• # ```__- ---\n\n*é* ---*"
+ },
+ {
+  "in": "\n---\n\n- [a](https://x.y)---[a](https://x.y)#|",
+  "out": "• a (https://x.y)---a (https://x.y)#|"
+ },
+ {
+  "in": "## * ```",
+  "out": "** ```*"
+ },
+ {
+  "in": "text--- * text[a](https://x.y)- ---[a](https://x.y)",
+  "out": "text--- * texta (https://x.y)- ---a (https://x.y)"
+ },
+ {
+  "in": "#**---**\t\n\n\n[a](https://x.y)[a](https://x.y)",
+  "out": "**---**\n\na (https://x.y)a (https://x.y)"
+ },
+ {
+  "in": "**#texté#\né|é- #* ## \té",
+  "out": "**#texté#\né|é- #* ## \té"
+ },
+ {
+  "in": " ```|text\r\r#- \n\t- *** é__\n\n",
+  "out": "• *** é__"
+ },
+ {
+  "in": "## #\n\né____**```\r-  \n---* é** ",
+  "out": "*#*\n\né____**```-"
+ },
+ {
+  "in": "\t\ré|```\né",
+  "out": "é|```\né"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "--- [a](https://x.y)- \n",
+  "out": ""
+ },
+ {
+  "in": "```## \r__text**éé\r---- ****#\n\n---",
+  "out": ""
+ },
+ {
+  "in": "#* - \n\n__\n\n---____ #```|- |- ---\n\t[a](https://x.y)__",
+  "out": "** -*\n\n__\n\n\ta (https://x.y)__"
+ },
+ {
+  "in": "---",
+  "out": ""
+ },
+ {
+  "in": "| [a](https://x.y)",
+  "out": "a (https://x.y)"
+ },
+ {
+  "in": "#[a](https://x.y)\t__```- \r\n\ntext",
+  "out": "*a (https://x.y)\t__```-*\n\ntext"
+ },
+ {
+  "in": "---- ## é\n\n```text__[a](https://x.y)\n[a](https://x.y)\r#[a](https://x.y)__",
+  "out": "a (https://x.y)#a (https://x.y)__"
+ },
+ {
+  "in": "```\n\n- ** \n\t\r",
+  "out": "• **"
+ },
+ {
+  "in": "\n\t#``````\r#\n\ntext```---[a](https://x.y)```#```",
+  "out": "#``````#\n\ntext```---a (https://x.y)```#```"
+ },
+ {
+  "in": "\t\r#\ré____```---- * [a](https://x.y)[a](https://x.y)---|",
+  "out": "#é____```---- * a (https://x.y)a (https://x.y)---|"
+ },
+ {
+  "in": "text text- ******text```**|text\t```---## __",
+  "out": "text text- ****text```**|text\t```---## __"
+ },
+ {
+  "in": "#é",
+  "out": "*é*"
+ },
+ {
+  "in": "\n##text\r",
+  "out": "*text*"
+ },
+ {
+  "in": "\n## ---é## \n\n**[a](https://x.y)**- [a](https://x.y)\n\n",
+  "out": "*---é##*\n\n*a (https://x.y)*- a (https://x.y)"
+ },
+ {
+  "in": "\t```* \r-  ",
+  "out": ""
+ },
+ {
+  "in": "\r|\n---\n\n \n\n## é",
+  "out": "*é*"
+ },
+ {
+  "in": "--- \t- ## [a](https://x.y)\r||\n\t*** * - ## \t",
+  "out": "*** * - ##"
+ },
+ {
+  "in": "\t** * ***** ## |---\né##  \n\r\t[a](https://x.y)- ",
+  "out": "* * **** ## |---\né##\n\ta (https://x.y)-"
+ },
+ {
+  "in": "é\t **[a](https://x.y)\t - #",
+  "out": "é\t **a (https://x.y)\t - #"
+ },
+ {
+  "in": "\rtext---- ## ",
+  "out": "text---- ##"
+ },
+ {
+  "in": "## - é\n",
+  "out": "*- é*"
+ },
+ {
+  "in": "```text------éétext \n\n\n\n__ [a](https://x.y)---|",
+  "out": "__ a (https://x.y)---|"
+ },
+ {
+  "in": "## ",
+  "out": "*#*"
+ },
+ {
+  "in": "text**------____#text**\r#\t---**```",
+  "out": "text*------____#text*#\t---**```"
+ },
+ {
+  "in": "[a](https://x.y)---#[a](https://x.y)\n\n---**---**- ---\n\n\r\n\n- é",
+  "out": "a (https://x.y)---#a (https://x.y)\n\n• é"
+ },
+ {
+  "in": "```\n\n__**---#\ttext- text```\t#|## \r## ---- ## #",
+  "out": "__**---#\ttext- text```\t#|## ## ---- ## #"
+ },
+ {
+  "in": "é|\t\r#é\r",
+  "out": "é|\t#é"
+ },
+ {
+  "in": "- __## [a](https://x.y)#\r#- * [a](https://x.y)## ## * ## text---\t#### ```__\r*  ",
+  "out": "• _## a (https://x.y)##- * a (https://x.y)## ## * ## text---\t#### ```_*"
+ },
+ {
+  "in": "**[a](https://x.y)#**[a](https://x.y)- \n\n\t é\n ---texttext__ **## \r* \n",
+  "out": "*a (https://x.y)#*a (https://x.y)-\n\n\t é"
+ },
+ {
+  "in": "é## texté* - \n\n__\n\n\t---```",
+  "out": "é## texté* -\n\n__"
+ },
+ {
+  "in": "---text[a](https://x.y)__text## \t``` #\n[a](https://x.y)```- [a](https://x.y)#---## **```\n**",
+  "out": "a (https://x.y)```- a (https://x.y)#---## **```\n**"
+ },
+ {
+  "in": "\n|text|\t## ## \n__",
+  "out": "text · ## ##\n__"
+ },
+ {
+  "in": "**### ### ",
+  "out": "**### ###"
+ },
+ {
+  "in": "* \n\n- \ntext* ____\t```- |[a](https://x.y)- |[a](https://x.y)",
+  "out": "*\n\n-\ntext* ____\t```- |a (https://x.y)- |a (https://x.y)"
+ },
+ {
+  "in": "- \n\n|\n\n**\t|\t\n\ntext- - [a](https://x.y)\r[a](https://x.y)|\n---\t\ntexttext* - ",
+  "out": "-\n\n**\t|\n\ntext- - a (https://x.y)a (https://x.y)|\ntexttext* -"
+ },
+ {
+  "in": "- __\n\n- \t__**-  \r- **\r **",
+  "out": "• __\n\n• __*-  - * **"
+ },
+ {
+  "in": "## \n- text* ",
+  "out": "*#*\n• text*"
+ },
+ {
+  "in": "**---*  \t",
+  "out": "**---*"
+ },
+ {
+  "in": "---* \r\t |## **#```\n|```\n---[a](https://x.y)## \t## __é",
+  "out": "```"
+ },
+ {
+  "in": "### [a](https://x.y)\rtext## [a](https://x.y)\n\n\n## __ #[a](https://x.y)\t---\n\n```text\t\n\n",
+  "out": "*a (https://x.y)text## a (https://x.y)*\n\n*__ #a (https://x.y)\t---*"
+ },
+ {
+  "in": "- ```",
+  "out": "• ```"
+ },
+ {
+  "in": "* é|* text#\t\n\n\n\n|## ```* **____---\n\n\r - \n\n* \n",
+  "out": "• é|* text#\n\n*```* **____---*\n\n -\n\n*"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "#**text____------____## [a](https://x.y)* ****#```\t```é",
+  "out": "**text___------___## a (https://x.y)* ***#```\t```é*"
+ },
+ {
+  "in": "```**## ## ",
+  "out": ""
+ },
+ {
+  "in": "\r|__* * \n\n[a](https://x.y)text\r|- \r---|- ## ",
+  "out": "__* *\n\na (https://x.y)text|- ---|- ##"
+ },
+ {
+  "in": "__",
+  "out": "__"
+ },
+ {
+  "in": "#*  |\n\n\r- é## * \n#text",
+  "out": "**  |*\n\n• é## *\n*text*"
+ },
+ {
+  "in": "------ text```---é```|- **",
+  "out": ""
+ },
+ {
+  "in": "```[a](https://x.y)---* #",
+  "out": ""
+ },
+ {
+  "in": "------[a](https://x.y)* [a](https://x.y)# ```* \ré\t[a](https://x.y)| ---",
+  "out": ""
+ },
+ {
+  "in": "| é---[a](https://x.y)",
+  "out": "é---a (https://x.y)"
+ },
+ {
+  "in": "é*  ## ```\n****---\t#\n\n#texttext## \né\n\n\r__\n[a](https://x.y)",
+  "out": "é*  ## ```\n****---\t#\n\n*texttext##*\né\n\n__\na (https://x.y)"
+ },
+ {
+  "in": "|## - __* ---  **\t\r\n\n## [a](https://x.y)é- ```**- ---__",
+  "out": "*- __* ---  ***\n\n*a (https://x.y)é- ```**- ---__*"
+ },
+ {
+  "in": "\n---- texté**---|**\r |**```é",
+  "out": ""
+ },
+ {
+  "in": "\t|",
+  "out": ""
+ },
+ {
+  "in": "é## ---",
+  "out": "é## ---"
+ },
+ {
+  "in": "[a](https://x.y)-  |```",
+  "out": "a (https://x.y)-  |```"
+ },
+ {
+  "in": "[a](https://x.y)",
+  "out": "a (https://x.y)"
+ },
+ {
+  "in": "|``````\n\n__ - ## #text\n\n* __text",
+  "out": "``````\n\n__ - ## #text\n\n• __text"
+ },
+ {
+  "in": "- \r#[a](https://x.y)\n[a](https://x.y)__é[a](https://x.y)\t\t---text\n text- __|**",
+  "out": "• #a (https://x.y)\na (https://x.y)__éa (https://x.y)\t\t---text\n text- __|**"
+ },
+ {
+  "in": "#\r****[a](https://x.y)\n****",
+  "out": "***a (https://x.y)*\n****"
+ }
+]

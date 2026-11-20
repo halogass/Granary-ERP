@@ -1,0 +1,2634 @@
+[
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2021-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2022-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2023-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2023-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2023-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2024-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2024-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2024-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2024-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2024-07-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2024-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2025-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2025-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2026-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2026-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2027-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2034-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2124-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2023-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2025-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2028-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2124-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-01-31",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2025-03-01"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2022-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2023-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2023-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2023-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2024-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2024-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2024-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2024-04-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2024-05-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2024-08-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2025-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2025-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2025-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2026-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2026-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2027-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2034-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2124-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2023-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2025-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2028-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2124-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2024-02-29",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2025-03-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2020-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2021-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2022-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2022-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2022-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2023-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2023-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2023-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2023-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2023-07-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2023-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2024-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2024-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2025-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2025-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2026-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2033-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2123-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2022-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2024-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2027-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2123-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-01-31",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2024-03-01"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2021-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2022-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2022-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2022-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2023-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2023-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2023-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2023-05-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2023-06-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2023-09-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2024-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2024-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2024-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2025-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2025-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2026-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2033-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2123-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2022-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2024-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2027-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2123-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2023-03-31",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2024-05-01"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2022-07-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2023-07-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2023-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2023-09-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2024-07-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2024-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2024-09-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2024-10-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2024-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2025-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2025-07-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2025-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2025-09-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2026-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2026-09-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2027-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2034-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2124-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2023-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2025-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2028-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2124-08-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-08-31",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2025-10-01"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2022-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2023-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2023-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2024-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2024-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2024-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2025-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2025-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2025-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2025-06-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2025-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2025-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2026-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2026-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2027-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2027-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2034-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2124-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2023-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2025-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2028-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2124-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "2024-12-31",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2026-02-01"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2023-09-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2024-09-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2024-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2024-11-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2025-09-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2025-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2025-11-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2025-12-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2026-01-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2026-04-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2026-09-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2026-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2026-11-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2027-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2027-11-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2028-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2035-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2125-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2024-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2026-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2029-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2125-10-15"
+ },
+ {
+  "kind": "date",
+  "start": "2025-10-15",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2026-11-16"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "1998-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "1999-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "1999-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "1999-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2000-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2000-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2000-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2000-04-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2000-05-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2000-08-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2001-01-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2001-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2001-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2002-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2002-03-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2003-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2010-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2100-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "1999-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2001-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2004-02-29"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2100-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "2000-02-29",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2001-03-30"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "1897-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "1898-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "1899-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "1899-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "1899-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "1900-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "1900-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "1900-03-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "1900-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "1900-07-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "1900-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "1901-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "1901-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "1902-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "1902-02-28"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "1903-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "1910-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2000-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "1899-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "1901-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "1904-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2000-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "1900-01-31",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "1901-03-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "0001-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "0001-02-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "0001-03-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "0001-04-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "0001-07-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "0001-12-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "0002-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "0002-02-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "0003-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "0003-02-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "0004-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "0011-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "0101-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "0002-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "0005-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "0101-01-01"
+ },
+ {
+  "kind": "date",
+  "start": "0001-01-01",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "0002-02-02"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "9997-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "9998-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "9998-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "9999-01-31"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "9999-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "9999-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "9998-12-31"
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "9999-12-31",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": null
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2024-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2025-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2025-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2025-06-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2026-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2026-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2026-06-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2026-07-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2026-08-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2026-11-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2027-04-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2027-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2027-06-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2028-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2028-06-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2029-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2036-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2126-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2025-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2027-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2030-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2126-05-30"
+ },
+ {
+  "kind": "date",
+  "start": "2026-05-30",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2027-07-01"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": -25,
+  "days": 0,
+  "out": "2024-09-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": -13,
+  "days": 0,
+  "out": "2025-09-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": -12,
+  "days": 0,
+  "out": "2025-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": -11,
+  "days": 0,
+  "out": "2025-11-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2026-09-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 0,
+  "days": 0,
+  "out": "2026-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2026-11-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2026-12-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 3,
+  "days": 0,
+  "out": "2027-01-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 6,
+  "days": 0,
+  "out": "2027-04-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2027-09-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2027-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2027-11-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 24,
+  "days": 0,
+  "out": "2028-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 25,
+  "days": 0,
+  "out": "2028-11-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 36,
+  "days": 0,
+  "out": "2029-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 120,
+  "days": 0,
+  "out": "2036-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 0,
+  "months": 1200,
+  "days": 0,
+  "out": "2126-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": -1,
+  "months": 0,
+  "days": 0,
+  "out": "2025-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 1,
+  "months": 0,
+  "days": 0,
+  "out": "2027-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 4,
+  "months": 0,
+  "days": 0,
+  "out": "2030-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 100,
+  "months": 0,
+  "days": 0,
+  "out": "2126-10-14"
+ },
+ {
+  "kind": "date",
+  "start": "2026-10-14",
+  "years": 1,
+  "months": 1,
+  "days": 1,
+  "out": "2027-11-15"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2024-02-29T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2024-03-31T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2024-12-31T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2025-01-31T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2025-02-28T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2023-12-31T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 0,
+  "days": 1,
+  "out": "2024-02-01T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 0,
+  "days": 30,
+  "out": "2024-03-01T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 0,
+  "days": 365,
+  "out": "2025-01-30T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-01-31T10:30:15.123456+00:00",
+  "years": 0,
+  "months": 0,
+  "days": -1,
+  "out": "2024-01-30T10:30:15.123456+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2024-04-30T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2024-05-31T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2025-02-28T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2025-03-31T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2025-04-30T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2024-02-29T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 0,
+  "days": 1,
+  "out": "2024-04-01T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 0,
+  "days": 30,
+  "out": "2024-04-30T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 0,
+  "days": 365,
+  "out": "2025-03-31T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2024-03-31T23:59:59",
+  "years": 0,
+  "months": 0,
+  "days": -1,
+  "out": "2024-03-30T23:59:59"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 1,
+  "days": 0,
+  "out": "2026-11-14T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 2,
+  "days": 0,
+  "out": "2026-12-14T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 11,
+  "days": 0,
+  "out": "2027-09-14T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 12,
+  "days": 0,
+  "out": "2027-10-14T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 13,
+  "days": 0,
+  "out": "2027-11-14T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": -1,
+  "days": 0,
+  "out": "2026-09-14T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 0,
+  "days": 1,
+  "out": "2026-10-15T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 0,
+  "days": 30,
+  "out": "2026-11-13T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 0,
+  "days": 365,
+  "out": "2027-10-14T01:02:03+00:00"
+ },
+ {
+  "kind": "datetime",
+  "start": "2026-10-14T01:02:03+00:00",
+  "years": 0,
+  "months": 0,
+  "days": -1,
+  "out": "2026-10-13T01:02:03+00:00"
+ }
+]

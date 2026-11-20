@@ -1,0 +1,7 @@
+Date: charset=utf-8=?utf-8?q?=FF?=	]
+Sender: =?utf-8?q?=0A?= a.b;
+Content-Disposition: Mon, 13 Oct 2026 10:00:00 +0700 filename="a b.pdf"; [1.2.3.4], >
+Content-Disposition: .>
+Content-Type: text/html; charset=iso-8859-1
+
+café

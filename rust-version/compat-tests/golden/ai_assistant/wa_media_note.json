@@ -1,0 +1,111 @@
+[
+ {
+  "in": {
+   "type": "image"
+  },
+  "out": "[sent an image]"
+ },
+ {
+  "in": {
+   "type": "ptt"
+  },
+  "out": "[sent a voice message]"
+ },
+ {
+  "in": {
+   "type": "document",
+   "mediaMeta": {
+    "filename": "PO-2291.pdf"
+   }
+  },
+  "out": "[sent a document: PO-2291.pdf]"
+ },
+ {
+  "in": {
+   "type": "weird_new_type",
+   "hasMedia": true
+  },
+  "out": "[sent an attachment]"
+ },
+ {
+  "in": {
+   "type": "chat",
+   "body": "hello"
+  },
+  "out": ""
+ },
+ {
+  "in": {},
+  "out": ""
+ },
+ {
+  "in": {
+   "type": "IMAGE"
+  },
+  "out": "[sent an image]"
+ },
+ {
+  "in": {
+   "type": null,
+   "hasMedia": true
+  },
+  "out": "[sent an attachment]"
+ },
+ {
+  "in": {
+   "type": "vcard",
+   "mediaMeta": null
+  },
+  "out": "[sent a contact card]"
+ },
+ {
+  "in": {
+   "type": "document",
+   "mediaMeta": {
+    "filename": "  "
+   }
+  },
+  "out": "[sent a document]"
+ },
+ {
+  "in": {
+   "type": "multi_vcard"
+  },
+  "out": "[sent contact cards]"
+ },
+ {
+  "in": {
+   "type": "sticker",
+   "hasMedia": false
+  },
+  "out": "[sent a sticker]"
+ },
+ {
+  "in": {
+   "type": "location"
+  },
+  "out": "[sent a location]"
+ },
+ {
+  "in": {
+   "type": "audio",
+   "mediaMeta": {}
+  },
+  "out": "[sent a voice message]"
+ },
+ {
+  "in": {
+   "type": "video",
+   "mediaMeta": {
+    "filename": " clip.mp4 "
+   }
+  },
+  "out": "[sent a video: clip.mp4]"
+ },
+ {
+  "in": {
+   "hasMedia": 1
+  },
+  "out": "[sent an attachment]"
+ }
+]

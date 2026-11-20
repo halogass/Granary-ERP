@@ -1,0 +1,3334 @@
+[
+ {
+  "tz": "Asia/Tokyo",
+  "title": "WhatsApp conversation with Mr Andy",
+  "subtitle": "Mr Andy",
+  "meta": [
+   "Chat ID: 8181@c.us",
+   "Period: all available messages",
+   "Exported by Bob on 01 August 2026, 10:00 JST"
+  ],
+  "me": "Bob",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": true,
+    "timestamp": 1785389600,
+    "type": "document",
+    "body": "emoji 😀 ok",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m1",
+    "fromMe": true,
+    "timestamp": 1785389630,
+    "type": "sticker",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "media": {}
+   },
+   {
+    "id": "m2",
+    "fromMe": true,
+    "timestamp": 1785393230,
+    "type": "ptt",
+    "body": "  spaced  ",
+    "author": "Bob",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m3",
+    "fromMe": false,
+    "timestamp": 1785396830,
+    "type": "video",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": null,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m4",
+    "fromMe": true,
+    "timestamp": null,
+    "type": "unknown_kind",
+    "body": "  spaced  ",
+    "author": null
+   },
+   {
+    "id": "m5",
+    "fromMe": false,
+    "timestamp": 1785396890,
+    "type": "revoked",
+    "body": "tab\there",
+    "author": "Bob"
+   },
+   {
+    "id": "m6",
+    "fromMe": false,
+    "timestamp": 1785397490,
+    "type": "revoked",
+    "body": "",
+    "author": "Bob"
+   },
+   {
+    "id": "m7",
+    "fromMe": false,
+    "timestamp": 1785397520,
+    "type": "vcard",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m8",
+    "fromMe": true,
+    "timestamp": 1785483920,
+    "type": "sticker",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m9",
+    "fromMe": true,
+    "timestamp": 1785503920,
+    "type": "sticker",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m10",
+    "fromMe": true,
+    "timestamp": 1785504520,
+    "type": "chat",
+    "body": "multi\r\nline x",
+    "hasMedia": true
+   },
+   {
+    "id": "m11",
+    "fromMe": true,
+    "timestamp": 1785504550,
+    "type": "chat",
+    "body": "hello mr",
+    "hasMedia": false
+   },
+   {
+    "id": "m12",
+    "fromMe": false,
+    "timestamp": 1785508150,
+    "type": "vcard",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "Rachel A.",
+    "media": {}
+   },
+   {
+    "id": "m13",
+    "fromMe": false,
+    "timestamp": 1785594550,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "author": ""
+   },
+   {
+    "id": "m14",
+    "fromMe": false,
+    "timestamp": 1785598150,
+    "type": null,
+    "body": "  spaced  ",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {}
+   },
+   {
+    "id": "m15",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "sticker",
+    "body": null,
+    "author": "Bob"
+   },
+   {
+    "id": "m16",
+    "fromMe": false,
+    "timestamp": 1785770950,
+    "type": "ptt",
+    "body": "\u001cgroup",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m17",
+    "fromMe": true,
+    "timestamp": 1785774550,
+    "type": "image",
+    "body": "line1\n\nline3",
+    "author": "Bob",
+    "media": {}
+   },
+   {
+    "id": "m18",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "ptt",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m19",
+    "fromMe": false,
+    "timestamp": 1785795150,
+    "type": "vcard",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m20",
+    "fromMe": false,
+    "timestamp": 1785795750,
+    "type": "chat",
+    "body": "hello mr",
+    "media": {}
+   },
+   {
+    "id": "m21",
+    "fromMe": false,
+    "timestamp": 1785796350,
+    "type": "unknown_kind",
+    "body": "tab\there",
+    "media": {},
+    "quoted": {}
+   },
+   {
+    "id": "m22",
+    "fromMe": true,
+    "timestamp": 1785796380,
+    "type": "sticker",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m23",
+    "fromMe": false,
+    "timestamp": 1785796410,
+    "type": "chat",
+    "body": "tab\there",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m24",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "document",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m25",
+    "fromMe": true,
+    "timestamp": 1785800040,
+    "type": "chat",
+    "body": "hello mr"
+   },
+   {
+    "id": "m26",
+    "fromMe": false,
+    "timestamp": 1785800640,
+    "type": "chat",
+    "body": "hello mr"
+   },
+   {
+    "id": "m27",
+    "fromMe": false,
+    "timestamp": 1785800670,
+    "type": "sticker",
+    "body": "tab\there"
+   },
+   {
+    "id": "m28",
+    "fromMe": false,
+    "timestamp": 1785804270,
+    "type": "unknown_kind",
+    "body": ""
+   },
+   {
+    "id": "m29",
+    "fromMe": true,
+    "timestamp": 1785804870,
+    "type": "image",
+    "body": "\u001cgroup",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m30",
+    "fromMe": false,
+    "timestamp": 1785808470,
+    "type": "chat",
+    "body": null,
+    "author": "",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m31",
+    "fromMe": false,
+    "timestamp": 1785809070,
+    "type": "chat",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m32",
+    "fromMe": true,
+    "timestamp": 1785809670,
+    "type": "chat",
+    "body": null,
+    "author": null
+   },
+   {
+    "id": "m33",
+    "fromMe": false,
+    "timestamp": 1785813270,
+    "type": "video",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m34",
+    "fromMe": false,
+    "timestamp": 1785813300,
+    "type": null,
+    "body": "emoji 😀 ok",
+    "author": "",
+    "quoted": {}
+   },
+   {
+    "id": "m35",
+    "fromMe": true,
+    "timestamp": 1785816900,
+    "type": "unknown_kind",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m36",
+    "fromMe": true,
+    "timestamp": 1785903300,
+    "type": "unknown_kind",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m37",
+    "fromMe": false,
+    "timestamp": 1785903900,
+    "type": "chat",
+    "body": null,
+    "quoted": {}
+   },
+   {
+    "id": "m38",
+    "fromMe": true,
+    "timestamp": 1785907500,
+    "type": "video",
+    "body": "line1\n\nline3",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m39",
+    "fromMe": false,
+    "timestamp": 1785993900,
+    "type": "document",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "Bob",
+    "hasMedia": false,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m40",
+    "fromMe": false,
+    "timestamp": 1786080300,
+    "type": "image",
+    "body": ""
+   },
+   {
+    "id": "m41",
+    "fromMe": false,
+    "timestamp": 1786100300,
+    "type": "unknown_kind",
+    "body": "",
+    "author": "Bob",
+    "hasMedia": true
+   },
+   {
+    "id": "m42",
+    "fromMe": false,
+    "timestamp": 1786103900,
+    "type": null,
+    "body": "hello mr"
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 1786123900,
+    "type": null,
+    "body": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m44",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "vcard",
+    "body": "  spaced  ",
+    "hasMedia": true
+   },
+   {
+    "id": "m45",
+    "fromMe": false,
+    "timestamp": 1786127530,
+    "type": "chat",
+    "body": ""
+   },
+   {
+    "id": "m46",
+    "fromMe": true,
+    "timestamp": 1786127560,
+    "type": "sticker",
+    "body": null,
+    "media": {}
+   },
+   {
+    "id": "m47",
+    "fromMe": false,
+    "timestamp": 1786131160,
+    "type": "",
+    "body": "tab\there",
+    "author": "",
+    "hasMedia": false,
+    "quoted": {}
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 1786131760,
+    "type": "image",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "Rachel A.",
+    "hasMedia": true
+   },
+   {
+    "id": "m49",
+    "fromMe": true,
+    "timestamp": 1786135360,
+    "type": null,
+    "body": "",
+    "quoted": null
+   },
+   {
+    "id": "m50",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m51",
+    "fromMe": true,
+    "timestamp": 1786155960,
+    "type": "document",
+    "body": "\u001cgroup",
+    "author": null,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m52",
+    "fromMe": false,
+    "timestamp": 1786159560,
+    "type": "chat",
+    "body": "",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m53",
+    "fromMe": false,
+    "timestamp": 1786159590,
+    "type": "image",
+    "body": "line1\n\nline3",
+    "author": "Rachel A.",
+    "media": {}
+   },
+   {
+    "id": "m54",
+    "fromMe": false,
+    "timestamp": 1786163190,
+    "type": "chat",
+    "body": "tab\there",
+    "author": "Bob"
+   },
+   {
+    "id": "m55",
+    "fromMe": true,
+    "timestamp": 1786163790,
+    "type": "",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": true,
+    "media": null
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786167390,
+    "type": "location",
+    "body": "hello mr"
+   },
+   {
+    "id": "m57",
+    "fromMe": false,
+    "timestamp": 1786167420,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "quoted": {}
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": null,
+    "body": "line1\n\nline3",
+    "hasMedia": true
+   },
+   {
+    "id": "m59",
+    "fromMe": false,
+    "timestamp": 1786167480,
+    "type": "ptt",
+    "body": "tab\there",
+    "media": {}
+   }
+  ],
+  "out": "WhatsApp conversation with Mr Andy\nMr Andy\nChat ID: 8181@c.us\nPeriod: all available messages\nExported by Bob on 01 August 2026, 10:00 JST\n\n[30/07/2026 14:33] Bob replying to: \"quoted text\"\n[30/07/2026 14:33] Bob: [document] emoji 😀 ok\n[30/07/2026 14:33] Bob: [sticker] Okay, thank you.\n    I will let you know later.\n[30/07/2026 15:33] Bob: [voice note] spaced\n[30/07/2026 16:33] Mr Andy replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[30/07/2026 16:33] Mr Andy: [video] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[unknown time] Bob: [unknown_kind] spaced\n[30/07/2026 16:34] Bob: [message deleted] tab\there\n[30/07/2026 16:44] Bob: [message deleted]\n[30/07/2026 16:45] Mr Andy: [contact card] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[31/07/2026 16:45] Bob: [sticker] emoji 😀 ok\n[31/07/2026 22:18] Bob: [sticker] Okay, thank you.\n    I will let you know later.\n[31/07/2026 22:28] Bob: [chat] multi\n    line\n    x\n[31/07/2026 22:29] Bob: hello mr\n[31/07/2026 23:29] Rachel A.: [contact card] Okay, thank you.\n    I will let you know later.\n[01/08/2026 23:29] Mr Andy: group\n[02/08/2026 00:29] Mr Andy: spaced\n[unknown time] Bob: [sticker]\n[04/08/2026 00:29] Mr Andy: [voice note: file.pdf] group\n[04/08/2026 01:29] Bob: [image] line1\n    \n    line3\n[unknown time] Mr Andy: [voice note] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[04/08/2026 07:12] Mr Andy: [contact card] multi\n    line\n    x\n[04/08/2026 07:22] Mr Andy: hello mr\n[04/08/2026 07:32] Mr Andy: [unknown_kind] tab\there\n[04/08/2026 07:33] Bob: [sticker] spaced\n[04/08/2026 07:33] Mr Andy replying to: \"quoted text\"\n[04/08/2026 07:33] Mr Andy: tab\there\n[unknown time] Mr Andy: [document: file.pdf] group\n[04/08/2026 08:34] Bob: hello mr\n[04/08/2026 08:44] Mr Andy: hello mr\n[04/08/2026 08:44] Mr Andy: [sticker] tab\there\n[04/08/2026 09:44] Mr Andy: [unknown_kind]\n[04/08/2026 09:54] Bob replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[04/08/2026 09:54] Bob: [image] group\n[04/08/2026 10:54] Mr Andy: [no content]\n[04/08/2026 11:04] Mr Andy: emoji 😀 ok\n[04/08/2026 11:14] Bob: [no content]\n[04/08/2026 12:14] Mr Andy: [video: file.pdf] Okay, thank you.\n    I will let you know later.\n[04/08/2026 12:15] Mr Andy: emoji 😀 ok\n[04/08/2026 13:15] Bob: [unknown_kind] line1\n    \n    line3\n[05/08/2026 13:15] Bob replying to: \"quoted text\"\n[05/08/2026 13:15] Bob: [unknown_kind] Okay, thank you.\n    I will let you know later.\n[05/08/2026 13:25] Mr Andy: [no content]\n[05/08/2026 14:25] Bob: [video] line1\n    \n    line3\n[06/08/2026 14:25] Bob replying to: \"quoted text\"\n[06/08/2026 14:25] Bob: [document] Okay, thank you.\n    I will let you know later.\n[07/08/2026 14:25] Mr Andy: [image]\n[07/08/2026 19:58] Bob: [unknown_kind]\n[07/08/2026 20:58] Mr Andy: hello mr\n[08/08/2026 02:31] Mr Andy: [attachment]\n[unknown time] Mr Andy: [contact card] spaced\n[08/08/2026 03:32] Mr Andy: [no content]\n[08/08/2026 03:32] Bob: [sticker]\n[08/08/2026 04:32] Mr Andy: tab\there\n[08/08/2026 04:42] Rachel A.: [image] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[08/08/2026 05:42] Bob: [no content]\n[unknown time] Mr Andy: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[08/08/2026 11:26] Bob replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[08/08/2026 11:26] Bob: [document] group\n[08/08/2026 12:26] Rachel A.: [no content]\n[08/08/2026 12:26] Rachel A.: [image] line1\n    \n    line3\n[08/08/2026 13:26] Bob: tab\there\n[08/08/2026 13:36] Bob: [attachment] Okay, thank you.\n    I will let you know later.\n[08/08/2026 14:36] Mr Andy: [location] hello mr\n[08/08/2026 14:37] Mr Andy: line1\n    \n    line3\n[unknown time] Mr Andy: [attachment] line1\n    \n    line3\n[08/08/2026 14:38] Mr Andy: [voice note] tab\there\n\n60 messages.\n"
+ },
+ {
+  "tz": "Asia/Tokyo",
+  "title": "WhatsApp conversation with ",
+  "subtitle": "",
+  "meta": [
+   "Chat ID: 8181@c.us",
+   "Period: all available messages",
+   "Exported by Bob on 01 August 2026, 10:00 JST"
+  ],
+  "me": "Bob",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": true,
+    "timestamp": 1785389600,
+    "type": "image",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m1",
+    "fromMe": true,
+    "timestamp": 1785409600,
+    "type": "sticker",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m2",
+    "fromMe": false,
+    "timestamp": 1785429600,
+    "type": "sticker",
+    "body": "\u001cgroup",
+    "author": "",
+    "hasMedia": true
+   },
+   {
+    "id": "m3",
+    "fromMe": true,
+    "timestamp": 1785433200,
+    "type": "unknown_kind",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": null
+   },
+   {
+    "id": "m4",
+    "fromMe": true,
+    "timestamp": 1785453200,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "author": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m5",
+    "fromMe": false,
+    "timestamp": 1785473200,
+    "type": "sticker",
+    "body": "  spaced  ",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m6",
+    "fromMe": true,
+    "timestamp": 1785476800,
+    "type": "vcard",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m7",
+    "fromMe": true,
+    "timestamp": 1785476830,
+    "type": "revoked",
+    "body": null
+   },
+   {
+    "id": "m8",
+    "fromMe": true,
+    "timestamp": 1785480430,
+    "type": "revoked",
+    "body": "emoji 😀 ok",
+    "author": null
+   },
+   {
+    "id": "m9",
+    "fromMe": false,
+    "timestamp": 1785566830,
+    "type": "sticker",
+    "body": "hello mr",
+    "author": "Rachel A.",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m10",
+    "fromMe": false,
+    "timestamp": 1785653230,
+    "type": "video",
+    "body": "hello mr",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m11",
+    "fromMe": false,
+    "timestamp": 1785656830,
+    "type": "sticker",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m12",
+    "fromMe": true,
+    "timestamp": 1785660430,
+    "type": "unknown_kind",
+    "body": "\u001cgroup",
+    "author": "Bob",
+    "media": {}
+   },
+   {
+    "id": "m13",
+    "fromMe": false,
+    "timestamp": 1785680430,
+    "type": "document",
+    "body": "",
+    "hasMedia": true,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m14",
+    "fromMe": true,
+    "timestamp": 1785700430,
+    "type": "video",
+    "body": "emoji 😀 ok",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m15",
+    "fromMe": true,
+    "timestamp": 1785704030,
+    "type": "revoked",
+    "body": "emoji 😀 ok",
+    "media": null
+   },
+   {
+    "id": "m16",
+    "fromMe": true,
+    "timestamp": 1785790430,
+    "type": "",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m17",
+    "fromMe": true,
+    "timestamp": 1785790460,
+    "type": "ptt",
+    "body": "multi\r\nline x",
+    "author": null
+   },
+   {
+    "id": "m18",
+    "fromMe": true,
+    "timestamp": 1785790490,
+    "type": "sticker",
+    "body": "tab\there"
+   },
+   {
+    "id": "m19",
+    "fromMe": false,
+    "timestamp": 1785876890,
+    "type": "revoked",
+    "body": "tab\there",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m20",
+    "fromMe": true,
+    "timestamp": 1785876920,
+    "type": "video",
+    "body": null
+   },
+   {
+    "id": "m21",
+    "fromMe": false,
+    "timestamp": 1785963320,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m22",
+    "fromMe": false,
+    "timestamp": 1785963920,
+    "type": "chat",
+    "body": "tab\there"
+   },
+   {
+    "id": "m23",
+    "fromMe": false,
+    "timestamp": 1785983920,
+    "type": "",
+    "body": "emoji 😀 ok",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m24",
+    "fromMe": true,
+    "timestamp": 1785983950,
+    "type": "chat",
+    "body": "hello mr"
+   },
+   {
+    "id": "m25",
+    "fromMe": true,
+    "timestamp": 1786070350,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m26",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "sticker",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "Bob",
+    "hasMedia": true,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m27",
+    "fromMe": false,
+    "timestamp": 1786071550,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m28",
+    "fromMe": false,
+    "timestamp": 1786071580,
+    "type": "image",
+    "body": "emoji 😀 ok",
+    "author": null,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m29",
+    "fromMe": true,
+    "timestamp": 1786075180,
+    "type": "sticker",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m30",
+    "fromMe": false,
+    "timestamp": 1786161580,
+    "type": null,
+    "body": "multi\r\nline x",
+    "media": {},
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m31",
+    "fromMe": false,
+    "timestamp": 1786165180,
+    "type": "chat",
+    "body": "  spaced  ",
+    "hasMedia": false
+   },
+   {
+    "id": "m32",
+    "fromMe": true,
+    "timestamp": 1786185180,
+    "type": "sticker",
+    "body": "hello mr",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m33",
+    "fromMe": false,
+    "timestamp": 1786271580,
+    "type": "document",
+    "body": "multi\r\nline x",
+    "hasMedia": true
+   },
+   {
+    "id": "m34",
+    "fromMe": true,
+    "timestamp": 1786271610,
+    "type": "unknown_kind",
+    "body": "hello mr",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m35",
+    "fromMe": true,
+    "timestamp": 1786291610,
+    "type": "document",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m36",
+    "fromMe": false,
+    "timestamp": 1786378010,
+    "type": "ptt",
+    "body": "tab\there",
+    "author": "Rachel A.",
+    "hasMedia": false
+   },
+   {
+    "id": "m37",
+    "fromMe": true,
+    "timestamp": 1786381610,
+    "type": "chat",
+    "body": null,
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m38",
+    "fromMe": false,
+    "timestamp": 1786385210,
+    "type": "image",
+    "body": "  spaced  ",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m39",
+    "fromMe": true,
+    "timestamp": 1786405210,
+    "type": "revoked",
+    "body": "hello mr",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m40",
+    "fromMe": false,
+    "timestamp": 1786405240,
+    "type": null,
+    "body": "line1\n\nline3",
+    "hasMedia": false
+   },
+   {
+    "id": "m41",
+    "fromMe": true,
+    "timestamp": 1786405840,
+    "type": "",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m42",
+    "fromMe": true,
+    "timestamp": 1786492240,
+    "type": "image",
+    "body": "tab\there",
+    "hasMedia": true
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 1786512240,
+    "type": "video",
+    "body": "",
+    "author": ""
+   },
+   {
+    "id": "m44",
+    "fromMe": true,
+    "timestamp": 1786512270,
+    "type": "",
+    "body": "multi\r\nline x",
+    "hasMedia": true
+   },
+   {
+    "id": "m45",
+    "fromMe": true,
+    "timestamp": 1786532270,
+    "type": "revoked",
+    "body": "",
+    "author": null,
+    "media": null
+   },
+   {
+    "id": "m46",
+    "fromMe": false,
+    "timestamp": 1786618670,
+    "type": "revoked",
+    "body": "multi\r\nline x",
+    "hasMedia": true,
+    "media": {},
+    "quoted": null
+   },
+   {
+    "id": "m47",
+    "fromMe": true,
+    "timestamp": 1786618700,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "hasMedia": true
+   },
+   {
+    "id": "m48",
+    "fromMe": true,
+    "timestamp": 1786638700,
+    "type": null,
+    "body": "hello mr",
+    "author": ""
+   },
+   {
+    "id": "m49",
+    "fromMe": true,
+    "timestamp": 1786658700,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": false
+   },
+   {
+    "id": "m50",
+    "fromMe": true,
+    "timestamp": 1786745100,
+    "type": "image",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m51",
+    "fromMe": false,
+    "timestamp": 1786745700,
+    "type": "vcard",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m52",
+    "fromMe": false,
+    "timestamp": 1786765700,
+    "type": "image",
+    "body": "tab\there",
+    "author": null
+   },
+   {
+    "id": "m53",
+    "fromMe": true,
+    "timestamp": 1786785700,
+    "type": "image",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m54",
+    "fromMe": false,
+    "timestamp": 1786785730,
+    "type": null,
+    "body": "hello mr",
+    "hasMedia": true,
+    "media": {}
+   },
+   {
+    "id": "m55",
+    "fromMe": false,
+    "timestamp": 1786785760,
+    "type": "location",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m56",
+    "fromMe": true,
+    "timestamp": 1786872160,
+    "type": "image",
+    "body": "line1\n\nline3",
+    "author": null
+   },
+   {
+    "id": "m57",
+    "fromMe": false,
+    "timestamp": 1786892160,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786892760,
+    "type": "unknown_kind",
+    "body": "line1\n\nline3",
+    "hasMedia": true
+   },
+   {
+    "id": "m59",
+    "fromMe": true,
+    "timestamp": 1786896360,
+    "type": "sticker",
+    "body": "hello mr",
+    "hasMedia": false
+   }
+  ],
+  "out": "WhatsApp conversation with \nChat ID: 8181@c.us\nPeriod: all available messages\nExported by Bob on 01 August 2026, 10:00 JST\n\n[30/07/2026 14:33] Bob: [image: file.pdf] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[30/07/2026 20:06] Bob: [sticker] Okay, thank you.\n    I will let you know later.\n[31/07/2026 01:40] Them: [sticker] group\n[31/07/2026 02:40] Bob: [unknown_kind] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[31/07/2026 08:13] Bob: [location] multi\n    line\n    x\n[31/07/2026 13:46] Rachel A.: [sticker: file.pdf] spaced\n[31/07/2026 14:46] Bob: [contact card] spaced\n[31/07/2026 14:47] Bob: [message deleted]\n[31/07/2026 15:47] Bob: [message deleted] emoji 😀 ok\n[01/08/2026 15:47] Rachel A. replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[01/08/2026 15:47] Rachel A.: [sticker] hello mr\n[02/08/2026 15:47] Rachel A.: [video] hello mr\n[02/08/2026 16:47] Them: [sticker] line1\n    \n    line3\n[02/08/2026 17:47] Bob: [unknown_kind] group\n[02/08/2026 23:20] Them replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[02/08/2026 23:20] Them: [document]\n[03/08/2026 04:53] Bob replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[03/08/2026 04:53] Bob: [video: file.pdf] emoji 😀 ok\n[03/08/2026 05:53] Bob: [message deleted] emoji 😀 ok\n[04/08/2026 05:53] Bob: multi\n    line\n    x\n[04/08/2026 05:54] Bob: [voice note] multi\n    line\n    x\n[04/08/2026 05:54] Bob: [sticker] tab\there\n[05/08/2026 05:54] Rachel A.: [message deleted: file.pdf] tab\there\n[05/08/2026 05:55] Bob: [video]\n[06/08/2026 05:55] Them: [chat] group\n[06/08/2026 06:05] Them: tab\there\n[06/08/2026 11:38] Them: [attachment: file.pdf] emoji 😀 ok\n[06/08/2026 11:39] Bob: hello mr\n[07/08/2026 11:39] Bob: Okay, thank you.\n    I will let you know later.\n[unknown time] Bob replying to: \"quoted text\"\n[unknown time] Bob: [sticker] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[07/08/2026 11:59] Them: group\n[07/08/2026 11:59] Them replying to: \"quoted text\"\n[07/08/2026 11:59] Them: [image] emoji 😀 ok\n[07/08/2026 12:59] Bob: [sticker: file.pdf] group\n[08/08/2026 12:59] Them: multi\n    line\n    x\n[08/08/2026 13:59] Them: spaced\n[08/08/2026 19:33] Bob replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[08/08/2026 19:33] Bob: [sticker] hello mr\n[09/08/2026 19:33] Them: [document] multi\n    line\n    x\n[09/08/2026 19:33] Bob: [unknown_kind] hello mr\n[10/08/2026 01:06] Bob: [document] line1\n    \n    line3\n[11/08/2026 01:06] Rachel A.: [voice note] tab\there\n[11/08/2026 02:06] Bob: [no content]\n[11/08/2026 03:06] Them replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[11/08/2026 03:06] Them: [image] spaced\n[11/08/2026 08:40] Bob: [message deleted] hello mr\n[11/08/2026 08:40] Them: line1\n    \n    line3\n[11/08/2026 08:50] Bob: line1\n    \n    line3\n[12/08/2026 08:50] Bob: [image] tab\there\n[12/08/2026 14:24] Them: [video]\n[12/08/2026 14:24] Bob: [attachment] multi\n    line\n    x\n[12/08/2026 19:57] Bob: [message deleted]\n[13/08/2026 19:57] Them: [message deleted] multi\n    line\n    x\n[13/08/2026 19:58] Bob: [chat] emoji 😀 ok\n[14/08/2026 01:31] Bob: hello mr\n[14/08/2026 07:05] Bob: Okay, thank you.\n    I will let you know later.\n[15/08/2026 07:05] Bob: [image] multi\n    line\n    x\n[15/08/2026 07:15] Them: [contact card] emoji 😀 ok\n[15/08/2026 12:48] Them: [image] tab\there\n[15/08/2026 18:21] Bob: [image] spaced\n[15/08/2026 18:22] Them: [attachment] hello mr\n[15/08/2026 18:22] Them: [location] line1\n    \n    line3\n[16/08/2026 18:22] Bob: [image] line1\n    \n    line3\n[16/08/2026 23:56] Them: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[17/08/2026 00:06] Them: [unknown_kind] line1\n    \n    line3\n[17/08/2026 01:06] Bob: [sticker] hello mr\n\n60 messages.\n"
+ },
+ {
+  "tz": "America/New_York",
+  "title": "WhatsApp conversation with Mr Andy",
+  "subtitle": "Mr Andy",
+  "meta": [
+   "Chat ID: 8181@c.us",
+   "Period: all available messages",
+   "Exported by Bob on 01 August 2026, 10:00 JST"
+  ],
+  "me": "Bob",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": true,
+    "timestamp": 1785389600,
+    "type": "unknown_kind",
+    "body": "line1\n\nline3",
+    "hasMedia": false
+   },
+   {
+    "id": "m1",
+    "fromMe": true,
+    "timestamp": 1785393200,
+    "type": "video",
+    "body": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m2",
+    "fromMe": false,
+    "timestamp": 1785393230,
+    "type": "chat",
+    "body": "hello mr",
+    "author": "Bob"
+   },
+   {
+    "id": "m3",
+    "fromMe": false,
+    "timestamp": 1785479630,
+    "type": "",
+    "body": "hello mr"
+   },
+   {
+    "id": "m4",
+    "fromMe": false,
+    "timestamp": 1785480230,
+    "type": "chat",
+    "body": "tab\there"
+   },
+   {
+    "id": "m5",
+    "fromMe": false,
+    "timestamp": 1785480260,
+    "type": "unknown_kind",
+    "body": "  spaced  ",
+    "hasMedia": false
+   },
+   {
+    "id": "m6",
+    "fromMe": false,
+    "timestamp": 1785566660,
+    "type": "ptt",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": true
+   },
+   {
+    "id": "m7",
+    "fromMe": true,
+    "timestamp": 1785567260,
+    "type": "chat",
+    "body": "tab\there"
+   },
+   {
+    "id": "m8",
+    "fromMe": true,
+    "timestamp": 1785587260,
+    "type": null,
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": null
+   },
+   {
+    "id": "m9",
+    "fromMe": false,
+    "timestamp": 1785587860,
+    "type": "unknown_kind",
+    "body": "  spaced  ",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m10",
+    "fromMe": true,
+    "timestamp": 1785587890,
+    "type": "vcard",
+    "body": "multi\r\nline x",
+    "quoted": null
+   },
+   {
+    "id": "m11",
+    "fromMe": false,
+    "timestamp": 1785591490,
+    "type": "sticker",
+    "body": "tab\there",
+    "author": null
+   },
+   {
+    "id": "m12",
+    "fromMe": false,
+    "timestamp": 1785595090,
+    "type": "vcard",
+    "body": null,
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m13",
+    "fromMe": true,
+    "timestamp": 1785595690,
+    "type": "vcard",
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m14",
+    "fromMe": true,
+    "timestamp": 1785596290,
+    "type": "revoked",
+    "body": "",
+    "author": "",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m15",
+    "fromMe": false,
+    "timestamp": 1785616290,
+    "type": "unknown_kind",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m16",
+    "fromMe": true,
+    "timestamp": 1785636290,
+    "type": "chat",
+    "body": "emoji 😀 ok",
+    "author": null,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m17",
+    "fromMe": false,
+    "timestamp": 1785639890,
+    "type": "vcard",
+    "body": "  spaced  ",
+    "hasMedia": true,
+    "quoted": {}
+   },
+   {
+    "id": "m18",
+    "fromMe": false,
+    "timestamp": 1785643490,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "author": null,
+    "quoted": null
+   },
+   {
+    "id": "m19",
+    "fromMe": false,
+    "timestamp": 1785663490,
+    "type": "ptt",
+    "body": null,
+    "hasMedia": false,
+    "media": {},
+    "quoted": {}
+   },
+   {
+    "id": "m20",
+    "fromMe": false,
+    "timestamp": 1785667090,
+    "type": "vcard",
+    "body": "multi\r\nline x",
+    "media": null
+   },
+   {
+    "id": "m21",
+    "fromMe": false,
+    "timestamp": 1785667690,
+    "type": "sticker",
+    "body": "",
+    "media": {}
+   },
+   {
+    "id": "m22",
+    "fromMe": true,
+    "timestamp": 1785754090,
+    "type": "ptt",
+    "body": "multi\r\nline x",
+    "hasMedia": false
+   },
+   {
+    "id": "m23",
+    "fromMe": true,
+    "timestamp": 1785757690,
+    "type": "vcard",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m24",
+    "fromMe": true,
+    "timestamp": 1785758290,
+    "type": "chat",
+    "body": null,
+    "hasMedia": false
+   },
+   {
+    "id": "m25",
+    "fromMe": false,
+    "timestamp": 1785758320,
+    "type": "image",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m26",
+    "fromMe": true,
+    "timestamp": 1785758920,
+    "type": null,
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m27",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "ptt",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": false,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m28",
+    "fromMe": true,
+    "timestamp": 1785758980,
+    "type": null,
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m29",
+    "fromMe": false,
+    "timestamp": 1785845380,
+    "type": "document",
+    "body": "line1\n\nline3",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m30",
+    "fromMe": true,
+    "timestamp": 1785865380,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "author": "",
+    "hasMedia": true,
+    "media": {}
+   },
+   {
+    "id": "m31",
+    "fromMe": false,
+    "timestamp": 1785951780,
+    "type": "location",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m32",
+    "fromMe": false,
+    "timestamp": 1785951810,
+    "type": "image",
+    "body": "line1\n\nline3",
+    "author": null,
+    "hasMedia": false
+   },
+   {
+    "id": "m33",
+    "fromMe": true,
+    "timestamp": 1785955410,
+    "type": "video",
+    "body": null,
+    "hasMedia": false,
+    "quoted": null
+   },
+   {
+    "id": "m34",
+    "fromMe": true,
+    "timestamp": 1786041810,
+    "type": "ptt",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m35",
+    "fromMe": false,
+    "timestamp": 1786128210,
+    "type": "revoked",
+    "body": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m36",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "author": "Bob",
+    "hasMedia": false,
+    "media": {},
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m37",
+    "fromMe": false,
+    "timestamp": 1786148240,
+    "type": "revoked",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": null
+   },
+   {
+    "id": "m38",
+    "fromMe": false,
+    "timestamp": 1786234640,
+    "type": "",
+    "body": "multi\r\nline x",
+    "author": "",
+    "quoted": {}
+   },
+   {
+    "id": "m39",
+    "fromMe": true,
+    "timestamp": null,
+    "type": null,
+    "body": "hello mr",
+    "hasMedia": false
+   },
+   {
+    "id": "m40",
+    "fromMe": false,
+    "timestamp": 1786234700,
+    "type": "revoked",
+    "body": "",
+    "hasMedia": false
+   },
+   {
+    "id": "m41",
+    "fromMe": false,
+    "timestamp": 1786321100,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "hasMedia": true,
+    "media": null,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m42",
+    "fromMe": true,
+    "timestamp": 1786321130,
+    "type": "sticker",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "",
+    "hasMedia": false
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 1786321730,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m44",
+    "fromMe": false,
+    "timestamp": 1786408130,
+    "type": "vcard",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m45",
+    "fromMe": false,
+    "timestamp": 1786408160,
+    "type": "revoked",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m46",
+    "fromMe": true,
+    "timestamp": 1786411760,
+    "type": "ptt",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": false
+   },
+   {
+    "id": "m47",
+    "fromMe": true,
+    "timestamp": 1786412360,
+    "type": "",
+    "body": "  spaced  ",
+    "author": ""
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 1786432360,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m49",
+    "fromMe": true,
+    "timestamp": 1786432960,
+    "type": null,
+    "body": "Okay, thank you.\nI will let you know later.",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m50",
+    "fromMe": true,
+    "timestamp": 1786433560,
+    "type": "revoked",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m51",
+    "fromMe": true,
+    "timestamp": 1786453560,
+    "type": "location",
+    "body": null,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m52",
+    "fromMe": false,
+    "timestamp": 1786473560,
+    "type": "location",
+    "body": "emoji 😀 ok",
+    "author": "Bob",
+    "hasMedia": false,
+    "media": {},
+    "quoted": null
+   },
+   {
+    "id": "m53",
+    "fromMe": false,
+    "timestamp": 1786473590,
+    "type": "document",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "quoted": null
+   },
+   {
+    "id": "m54",
+    "fromMe": true,
+    "timestamp": 1786477190,
+    "type": "document",
+    "body": "multi\r\nline x",
+    "author": "Bob",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m55",
+    "fromMe": false,
+    "timestamp": 1786480790,
+    "type": "document",
+    "body": "tab\there",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786500790,
+    "type": "ptt",
+    "body": "line1\n\nline3",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m57",
+    "fromMe": false,
+    "timestamp": 1786520790,
+    "type": "ptt",
+    "body": "tab\there"
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786524390,
+    "type": "sticker",
+    "body": ""
+   },
+   {
+    "id": "m59",
+    "fromMe": false,
+    "timestamp": 1786610790,
+    "type": "ptt",
+    "body": "  spaced  ",
+    "author": "Rachel A."
+   }
+  ],
+  "out": "WhatsApp conversation with Mr Andy\nMr Andy\nChat ID: 8181@c.us\nPeriod: all available messages\nExported by Bob on 01 August 2026, 10:00 JST\n\n[30/07/2026 01:33] Bob: [unknown_kind] line1\n    \n    line3\n[30/07/2026 02:33] Bob: [video]\n[30/07/2026 02:33] Bob: hello mr\n[31/07/2026 02:33] Mr Andy: hello mr\n[31/07/2026 02:43] Mr Andy: tab\there\n[31/07/2026 02:44] Mr Andy: [unknown_kind] spaced\n[01/08/2026 02:44] Mr Andy: [voice note] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[01/08/2026 02:54] Bob: tab\there\n[01/08/2026 08:27] Bob: Okay, thank you.\n    I will let you know later.\n[01/08/2026 08:37] Mr Andy replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[01/08/2026 08:37] Mr Andy: [unknown_kind] spaced\n[01/08/2026 08:38] Bob: [contact card] multi\n    line\n    x\n[01/08/2026 09:38] Mr Andy: [sticker] tab\there\n[01/08/2026 10:38] Mr Andy: [contact card: file.pdf]\n[01/08/2026 10:48] Bob: [contact card] group\n[01/08/2026 10:58] Bob replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[01/08/2026 10:58] Bob: [message deleted: file.pdf]\n[01/08/2026 16:31] Mr Andy: [unknown_kind] Okay, thank you.\n    I will let you know later.\n[01/08/2026 22:04] Bob: emoji 😀 ok\n[01/08/2026 23:04] Mr Andy: [contact card] spaced\n[02/08/2026 00:04] Mr Andy: group\n[02/08/2026 05:38] Mr Andy: [voice note]\n[02/08/2026 06:38] Mr Andy: [contact card] multi\n    line\n    x\n[02/08/2026 06:48] Mr Andy: [sticker]\n[03/08/2026 06:48] Bob: [voice note] multi\n    line\n    x\n[03/08/2026 07:48] Bob: [contact card] group\n[03/08/2026 07:58] Bob: [no content]\n[03/08/2026 07:58] Mr Andy: [image: file.pdf] multi\n    line\n    x\n[03/08/2026 08:08] Bob: emoji 😀 ok\n[unknown time] Mr Andy replying to: \"quoted text\"\n[unknown time] Mr Andy: [voice note] Okay, thank you.\n    I will let you know later.\n[03/08/2026 08:09] Bob: [attachment] group\n[04/08/2026 08:09] Mr Andy: [document] line1\n    \n    line3\n[04/08/2026 13:43] Bob: [chat] line1\n    \n    line3\n[05/08/2026 13:43] Mr Andy: [location] line1\n    \n    line3\n[05/08/2026 13:43] Mr Andy: [image] line1\n    \n    line3\n[05/08/2026 14:43] Bob: [video]\n[06/08/2026 14:43] Bob: [voice note: file.pdf] group\n[07/08/2026 14:43] Mr Andy: [message deleted]\n[unknown time] Bob replying to: \"quoted text\"\n[unknown time] Bob: line1\n    \n    line3\n[07/08/2026 20:17] Mr Andy: [message deleted] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[08/08/2026 20:17] Mr Andy: multi\n    line\n    x\n[unknown time] Bob: hello mr\n[08/08/2026 20:18] Mr Andy: [message deleted]\n[09/08/2026 20:18] Mr Andy replying to: \"quoted text\"\n[09/08/2026 20:18] Mr Andy: [location] multi\n    line\n    x\n[09/08/2026 20:18] Bob: [sticker] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[09/08/2026 20:28] Mr Andy: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[10/08/2026 20:28] Mr Andy: [contact card] spaced\n[10/08/2026 20:29] Mr Andy: [message deleted] emoji 😀 ok\n[10/08/2026 21:29] Bob: [voice note] Okay, thank you.\n    I will let you know later.\n[10/08/2026 21:39] Bob: spaced\n[11/08/2026 03:12] Rachel A.: [location] multi\n    line\n    x\n[11/08/2026 03:22] Bob: Okay, thank you.\n    I will let you know later.\n[11/08/2026 03:32] Bob: [message deleted] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[11/08/2026 09:06] Bob: [location]\n[11/08/2026 14:39] Bob: [location] emoji 😀 ok\n[11/08/2026 14:39] Mr Andy: [document] Okay, thank you.\n    I will let you know later.\n[11/08/2026 15:39] Bob replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[11/08/2026 15:39] Bob: [document] multi\n    line\n    x\n[11/08/2026 16:39] Rachel A.: [document] tab\there\n[11/08/2026 22:13] Mr Andy: [voice note] line1\n    \n    line3\n[12/08/2026 03:46] Mr Andy: [voice note] tab\there\n[12/08/2026 04:46] Mr Andy: [sticker]\n[13/08/2026 04:46] Rachel A.: [voice note] spaced\n\n60 messages.\n"
+ },
+ {
+  "tz": "America/New_York",
+  "title": "WhatsApp conversation with ",
+  "subtitle": "",
+  "meta": [
+   "Chat ID: 8181@c.us",
+   "Period: all available messages",
+   "Exported by Bob on 01 August 2026, 10:00 JST"
+  ],
+  "me": "Bob",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": false,
+    "timestamp": 1785369630,
+    "type": "image",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m1",
+    "fromMe": false,
+    "timestamp": 1785370230,
+    "type": "revoked",
+    "body": "  spaced  "
+   },
+   {
+    "id": "m2",
+    "fromMe": true,
+    "timestamp": 1785373830,
+    "type": "document",
+    "body": "",
+    "author": null
+   },
+   {
+    "id": "m3",
+    "fromMe": true,
+    "timestamp": 1785373860,
+    "type": "ptt",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m4",
+    "fromMe": true,
+    "timestamp": 1785393860,
+    "type": "sticker",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "hasMedia": false
+   },
+   {
+    "id": "m5",
+    "fromMe": false,
+    "timestamp": 1785413860,
+    "type": "unknown_kind",
+    "body": "emoji 😀 ok",
+    "hasMedia": false
+   },
+   {
+    "id": "m6",
+    "fromMe": true,
+    "timestamp": 1785500260,
+    "type": "",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m7",
+    "fromMe": true,
+    "timestamp": 1785503860,
+    "type": "image",
+    "body": "hello mr",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m8",
+    "fromMe": false,
+    "timestamp": 1785507460,
+    "type": "vcard",
+    "body": "",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m9",
+    "fromMe": false,
+    "timestamp": 1785593860,
+    "type": "sticker",
+    "body": "  spaced  ",
+    "media": {}
+   },
+   {
+    "id": "m10",
+    "fromMe": false,
+    "timestamp": 1785594460,
+    "type": "video",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m11",
+    "fromMe": false,
+    "timestamp": 1785594490,
+    "type": "ptt",
+    "body": "\u001cgroup",
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m12",
+    "fromMe": true,
+    "timestamp": 1785614490,
+    "type": "",
+    "body": "hello mr",
+    "hasMedia": true
+   },
+   {
+    "id": "m13",
+    "fromMe": false,
+    "timestamp": 1785634490,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "hasMedia": false
+   },
+   {
+    "id": "m14",
+    "fromMe": true,
+    "timestamp": 1785634520,
+    "type": "video",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m15",
+    "fromMe": true,
+    "timestamp": 1785635120,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m16",
+    "fromMe": false,
+    "timestamp": 1785635150,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": true
+   },
+   {
+    "id": "m17",
+    "fromMe": false,
+    "timestamp": 1785655150,
+    "type": "revoked",
+    "body": "emoji 😀 ok",
+    "hasMedia": true,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m18",
+    "fromMe": false,
+    "timestamp": 1785655750,
+    "type": "vcard",
+    "body": "  spaced  ",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m19",
+    "fromMe": true,
+    "timestamp": 1785675750,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "author": "Bob",
+    "hasMedia": false
+   },
+   {
+    "id": "m20",
+    "fromMe": true,
+    "timestamp": null,
+    "type": "",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m21",
+    "fromMe": false,
+    "timestamp": 1785848550,
+    "type": "chat",
+    "body": "  spaced  ",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m22",
+    "fromMe": false,
+    "timestamp": 1785868550,
+    "type": "sticker",
+    "body": "\u001cgroup",
+    "author": "",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m23",
+    "fromMe": false,
+    "timestamp": 1785869150,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m24",
+    "fromMe": false,
+    "timestamp": 1785889150,
+    "type": "revoked",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m25",
+    "fromMe": false,
+    "timestamp": 1785975550,
+    "type": "location",
+    "body": null,
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m26",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "revoked",
+    "body": "hello mr"
+   },
+   {
+    "id": "m27",
+    "fromMe": true,
+    "timestamp": 1786061980,
+    "type": "vcard",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": null
+   },
+   {
+    "id": "m28",
+    "fromMe": true,
+    "timestamp": 1786081980,
+    "type": "revoked",
+    "body": "tab\there",
+    "hasMedia": true
+   },
+   {
+    "id": "m29",
+    "fromMe": true,
+    "timestamp": 1786168380,
+    "type": "document",
+    "body": "line1\n\nline3",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {}
+   },
+   {
+    "id": "m30",
+    "fromMe": true,
+    "timestamp": 1786168410,
+    "type": "image",
+    "body": "tab\there",
+    "author": ""
+   },
+   {
+    "id": "m31",
+    "fromMe": true,
+    "timestamp": 1786254810,
+    "type": "image",
+    "body": "emoji 😀 ok",
+    "hasMedia": false
+   },
+   {
+    "id": "m32",
+    "fromMe": false,
+    "timestamp": 1786274810,
+    "type": "chat",
+    "body": "tab\there",
+    "media": null
+   },
+   {
+    "id": "m33",
+    "fromMe": false,
+    "timestamp": 1786274840,
+    "type": "",
+    "body": "",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m34",
+    "fromMe": true,
+    "timestamp": 1786275440,
+    "type": "sticker",
+    "body": "tab\there"
+   },
+   {
+    "id": "m35",
+    "fromMe": false,
+    "timestamp": 1786295440,
+    "type": "location",
+    "body": "emoji 😀 ok",
+    "hasMedia": false,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m36",
+    "fromMe": true,
+    "timestamp": 1786296040,
+    "type": "chat",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m37",
+    "fromMe": false,
+    "timestamp": 1786296070,
+    "type": "",
+    "body": "line1\n\nline3",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m38",
+    "fromMe": false,
+    "timestamp": 1786382470,
+    "type": "vcard",
+    "body": "multi\r\nline x",
+    "author": "Rachel A.",
+    "media": {}
+   },
+   {
+    "id": "m39",
+    "fromMe": false,
+    "timestamp": 1786382500,
+    "type": "ptt",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m40",
+    "fromMe": false,
+    "timestamp": 1786383100,
+    "type": "",
+    "body": "\u001cgroup",
+    "author": ""
+   },
+   {
+    "id": "m41",
+    "fromMe": false,
+    "timestamp": 1786403100,
+    "type": "",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m42",
+    "fromMe": false,
+    "timestamp": 1786403130,
+    "type": null,
+    "body": ""
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 1786423130,
+    "type": "chat",
+    "body": null,
+    "quoted": null
+   },
+   {
+    "id": "m44",
+    "fromMe": false,
+    "timestamp": 1786423730,
+    "type": "document",
+    "body": "tab\there"
+   },
+   {
+    "id": "m45",
+    "fromMe": false,
+    "timestamp": 1786427330,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m46",
+    "fromMe": true,
+    "timestamp": 1786427930,
+    "type": "unknown_kind",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m47",
+    "fromMe": true,
+    "timestamp": 1786447930,
+    "type": "location",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 1786447960,
+    "type": "chat",
+    "body": "hello mr"
+   },
+   {
+    "id": "m49",
+    "fromMe": false,
+    "timestamp": 1786467960,
+    "type": null,
+    "body": "\u001cgroup",
+    "author": null,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m50",
+    "fromMe": false,
+    "timestamp": 1786468560,
+    "type": "document",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m51",
+    "fromMe": true,
+    "timestamp": 1786472160,
+    "type": "document",
+    "body": ""
+   },
+   {
+    "id": "m52",
+    "fromMe": true,
+    "timestamp": 1786472190,
+    "type": "",
+    "body": "tab\there",
+    "author": null,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m53",
+    "fromMe": false,
+    "timestamp": 1786472220,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "author": "Bob",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m54",
+    "fromMe": true,
+    "timestamp": 1786558620,
+    "type": "ptt",
+    "body": "",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m55",
+    "fromMe": false,
+    "timestamp": 1786558650,
+    "type": "image",
+    "body": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786559250,
+    "type": "document",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m57",
+    "fromMe": false,
+    "timestamp": 1786645650,
+    "type": "video",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": null
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786645680,
+    "type": "video",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "media": {},
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m59",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "ptt",
+    "body": "\u001cgroup",
+    "author": null
+   }
+  ],
+  "out": "WhatsApp conversation with \nChat ID: 8181@c.us\nPeriod: all available messages\nExported by Bob on 01 August 2026, 10:00 JST\n\n[29/07/2026 20:00] Them: [image] group\n[29/07/2026 20:10] Them: [message deleted] spaced\n[29/07/2026 21:10] Bob: [document]\n[29/07/2026 21:11] Bob: [voice note: file.pdf] multi\n    line\n    x\n[30/07/2026 02:44] Bob: [sticker] Okay, thank you.\n    I will let you know later.\n[30/07/2026 08:17] Them: [unknown_kind] emoji 😀 ok\n[31/07/2026 08:17] Bob: group\n[31/07/2026 09:17] Bob: [image] hello mr\n[31/07/2026 10:17] Them: [contact card]\n[01/08/2026 10:17] Them: [sticker] spaced\n[01/08/2026 10:27] Them: [video: file.pdf] Okay, thank you.\n    I will let you know later.\n[01/08/2026 10:28] Them replying to: \"quoted text\"\n[01/08/2026 10:28] Them: [voice note] group\n[01/08/2026 16:01] Bob: [attachment] hello mr\n[01/08/2026 21:34] Them: [location] multi\n    line\n    x\n[01/08/2026 21:35] Bob: [video] line1\n    \n    line3\n[01/08/2026 21:45] Bob: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[01/08/2026 21:45] Them: [chat] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[02/08/2026 03:19] Them replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[02/08/2026 03:19] Them: [message deleted] emoji 😀 ok\n[02/08/2026 03:29] Them: [contact card] spaced\n[02/08/2026 09:02] Bob: group\n[unknown time] Bob: group\n[04/08/2026 09:02] Them: [chat: file.pdf] spaced\n[04/08/2026 14:35] Them replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[04/08/2026 14:35] Them: [sticker] group\n[04/08/2026 14:45] Them: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[04/08/2026 20:19] Them: [message deleted] group\n[05/08/2026 20:19] Them: [location]\n[unknown time] Them: [message deleted] hello mr\n[06/08/2026 20:19] Bob: [contact card] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[07/08/2026 01:53] Bob: [message deleted] tab\there\n[08/08/2026 01:53] Bob: [document: file.pdf] line1\n    \n    line3\n[08/08/2026 01:53] Bob: [image] tab\there\n[09/08/2026 01:53] Bob: [image] emoji 😀 ok\n[09/08/2026 07:26] Them: tab\there\n[09/08/2026 07:27] Them: [attachment: file.pdf]\n[09/08/2026 07:37] Bob: [sticker] tab\there\n[09/08/2026 13:10] Them replying to: \"quoted text\"\n[09/08/2026 13:10] Them: [location] emoji 😀 ok\n[09/08/2026 13:20] Bob: emoji 😀 ok\n[09/08/2026 13:21] Them replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[09/08/2026 13:21] Them: line1\n    \n    line3\n[10/08/2026 13:21] Rachel A.: [contact card] multi\n    line\n    x\n[10/08/2026 13:21] Them: [voice note] Okay, thank you.\n    I will let you know later.\n[10/08/2026 13:31] Them: group\n[10/08/2026 19:05] Them: multi\n    line\n    x\n[10/08/2026 19:05] Them: [no content]\n[11/08/2026 00:38] Them: [no content]\n[11/08/2026 00:48] Them: [document] tab\there\n[11/08/2026 01:48] Them: Okay, thank you.\n    I will let you know later.\n[11/08/2026 01:58] Bob: [unknown_kind] emoji 😀 ok\n[11/08/2026 07:32] Bob replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[11/08/2026 07:32] Bob: [location] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[11/08/2026 07:32] Them: hello mr\n[11/08/2026 13:06] Them: group\n[11/08/2026 13:16] Them: [document] emoji 😀 ok\n[11/08/2026 14:16] Bob: [document]\n[11/08/2026 14:16] Bob replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[11/08/2026 14:16] Bob: tab\there\n[11/08/2026 14:17] Bob: group\n[12/08/2026 14:17] Bob: [voice note]\n[12/08/2026 14:17] Them: [image]\n[12/08/2026 14:27] Them: [document] line1\n    \n    line3\n[13/08/2026 14:27] Them: [video] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[13/08/2026 14:28] Them replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[13/08/2026 14:28] Them: [video] Okay, thank you.\n    I will let you know later.\n[unknown time] Them: [voice note] group\n\n60 messages.\n"
+ },
+ {
+  "tz": "UTC",
+  "title": "WhatsApp conversation with Mr Andy",
+  "subtitle": "Mr Andy",
+  "meta": [
+   "Chat ID: 8181@c.us",
+   "Period: all available messages",
+   "Exported by Bob on 01 August 2026, 10:00 JST"
+  ],
+  "me": "Bob",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": true,
+    "timestamp": 1785369630,
+    "type": "image",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m1",
+    "fromMe": false,
+    "timestamp": 1785373230,
+    "type": "document",
+    "body": ""
+   },
+   {
+    "id": "m2",
+    "fromMe": false,
+    "timestamp": 1785459630,
+    "type": "vcard",
+    "body": "tab\there",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m3",
+    "fromMe": true,
+    "timestamp": 1785460230,
+    "type": "sticker",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m4",
+    "fromMe": true,
+    "timestamp": 1785463830,
+    "type": "location",
+    "body": "emoji 😀 ok",
+    "author": null
+   },
+   {
+    "id": "m5",
+    "fromMe": true,
+    "timestamp": 1785550230,
+    "type": "vcard",
+    "body": "  spaced  ",
+    "author": "Bob",
+    "quoted": null
+   },
+   {
+    "id": "m6",
+    "fromMe": false,
+    "timestamp": 1785636630,
+    "type": "document",
+    "body": "  spaced  ",
+    "hasMedia": false
+   },
+   {
+    "id": "m7",
+    "fromMe": true,
+    "timestamp": 1785656630,
+    "type": "location",
+    "body": "line1\n\nline3",
+    "media": {},
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m8",
+    "fromMe": false,
+    "timestamp": 1785676630,
+    "type": "chat",
+    "body": null
+   },
+   {
+    "id": "m9",
+    "fromMe": true,
+    "timestamp": 1785677230,
+    "type": "",
+    "body": "  spaced  ",
+    "author": "Bob",
+    "hasMedia": false,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m10",
+    "fromMe": false,
+    "timestamp": 1785677260,
+    "type": "image",
+    "body": "multi\r\nline x",
+    "author": "Rachel A.",
+    "quoted": {}
+   },
+   {
+    "id": "m11",
+    "fromMe": false,
+    "timestamp": 1785680860,
+    "type": "revoked",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m12",
+    "fromMe": false,
+    "timestamp": 1785700860,
+    "type": "",
+    "body": "hello mr",
+    "author": "Bob"
+   },
+   {
+    "id": "m13",
+    "fromMe": false,
+    "timestamp": 1785700890,
+    "type": "revoked",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": {}
+   },
+   {
+    "id": "m14",
+    "fromMe": false,
+    "timestamp": 1785720890,
+    "type": "vcard",
+    "body": "Okay, thank you.\nI will let you know later."
+   },
+   {
+    "id": "m15",
+    "fromMe": true,
+    "timestamp": 1785740890,
+    "type": "revoked",
+    "body": "multi\r\nline x",
+    "hasMedia": false,
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m16",
+    "fromMe": false,
+    "timestamp": 1785740920,
+    "type": "revoked",
+    "body": null
+   },
+   {
+    "id": "m17",
+    "fromMe": true,
+    "timestamp": 1785744520,
+    "type": "chat",
+    "body": "",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m18",
+    "fromMe": false,
+    "timestamp": 1785830920,
+    "type": "chat",
+    "body": "tab\there",
+    "quoted": {}
+   },
+   {
+    "id": "m19",
+    "fromMe": true,
+    "timestamp": 1785850920,
+    "type": "chat",
+    "body": "hello mr",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m20",
+    "fromMe": true,
+    "timestamp": 1785937320,
+    "type": null,
+    "body": ""
+   },
+   {
+    "id": "m21",
+    "fromMe": true,
+    "timestamp": 1785957320,
+    "type": "chat",
+    "body": "line1\n\nline3",
+    "media": null,
+    "quoted": null
+   },
+   {
+    "id": "m22",
+    "fromMe": true,
+    "timestamp": 1785957350,
+    "type": "vcard",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": ""
+   },
+   {
+    "id": "m23",
+    "fromMe": true,
+    "timestamp": null,
+    "type": "location",
+    "body": "\u001cgroup",
+    "author": "",
+    "hasMedia": true
+   },
+   {
+    "id": "m24",
+    "fromMe": true,
+    "timestamp": 1785980950,
+    "type": "image",
+    "body": "line1\n\nline3",
+    "author": null
+   },
+   {
+    "id": "m25",
+    "fromMe": false,
+    "timestamp": 1785980980,
+    "type": null,
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": true
+   },
+   {
+    "id": "m26",
+    "fromMe": false,
+    "timestamp": 1786067380,
+    "type": "revoked",
+    "body": "emoji 😀 ok",
+    "hasMedia": false,
+    "media": null,
+    "quoted": null
+   },
+   {
+    "id": "m27",
+    "fromMe": false,
+    "timestamp": 1786070980,
+    "type": "vcard",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "Rachel A."
+   },
+   {
+    "id": "m28",
+    "fromMe": true,
+    "timestamp": null,
+    "type": null,
+    "body": "multi\r\nline x",
+    "media": null
+   },
+   {
+    "id": "m29",
+    "fromMe": true,
+    "timestamp": 1786157410,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "author": "Rachel A.",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m30",
+    "fromMe": true,
+    "timestamp": 1786243810,
+    "type": "document",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m31",
+    "fromMe": true,
+    "timestamp": 1786243840,
+    "type": "ptt",
+    "body": "",
+    "media": null
+   },
+   {
+    "id": "m32",
+    "fromMe": true,
+    "timestamp": 1786244440,
+    "type": "",
+    "body": "  spaced  ",
+    "author": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m33",
+    "fromMe": false,
+    "timestamp": 1786248040,
+    "type": "image",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m34",
+    "fromMe": true,
+    "timestamp": 1786251640,
+    "type": "unknown_kind",
+    "body": "  spaced  ",
+    "author": ""
+   },
+   {
+    "id": "m35",
+    "fromMe": false,
+    "timestamp": 1786252240,
+    "type": "vcard",
+    "body": "emoji 😀 ok",
+    "hasMedia": true
+   },
+   {
+    "id": "m36",
+    "fromMe": false,
+    "timestamp": 1786272240,
+    "type": "revoked",
+    "body": null,
+    "author": ""
+   },
+   {
+    "id": "m37",
+    "fromMe": false,
+    "timestamp": 1786272270,
+    "type": "revoked",
+    "body": "\u001cgroup",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m38",
+    "fromMe": false,
+    "timestamp": 1786358670,
+    "type": "sticker",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m39",
+    "fromMe": false,
+    "timestamp": 1786359270,
+    "type": "vcard",
+    "body": "tab\there"
+   },
+   {
+    "id": "m40",
+    "fromMe": true,
+    "timestamp": 1786362870,
+    "type": "document",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": null,
+    "media": {}
+   },
+   {
+    "id": "m41",
+    "fromMe": false,
+    "timestamp": 1786366470,
+    "type": null,
+    "body": null,
+    "hasMedia": true,
+    "quoted": null
+   },
+   {
+    "id": "m42",
+    "fromMe": true,
+    "timestamp": 1786370070,
+    "type": "location",
+    "body": "multi\r\nline x",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": null
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 1786370100,
+    "type": "image",
+    "body": "line1\n\nline3",
+    "hasMedia": false
+   },
+   {
+    "id": "m44",
+    "fromMe": false,
+    "timestamp": 1786370700,
+    "type": "image",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m45",
+    "fromMe": true,
+    "timestamp": 1786457100,
+    "type": "location",
+    "body": "tab\there",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": null
+   },
+   {
+    "id": "m46",
+    "fromMe": true,
+    "timestamp": 1786543500,
+    "type": "location",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m47",
+    "fromMe": true,
+    "timestamp": 1786547100,
+    "type": "sticker",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 1786550700,
+    "type": "chat",
+    "body": "tab\there"
+   },
+   {
+    "id": "m49",
+    "fromMe": true,
+    "timestamp": 1786551300,
+    "type": "",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m50",
+    "fromMe": false,
+    "timestamp": 1786571300,
+    "type": "unknown_kind",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": null,
+    "media": null
+   },
+   {
+    "id": "m51",
+    "fromMe": false,
+    "timestamp": 1786571330,
+    "type": "image",
+    "body": "",
+    "hasMedia": true,
+    "media": {}
+   },
+   {
+    "id": "m52",
+    "fromMe": false,
+    "timestamp": 1786591330,
+    "type": "unknown_kind",
+    "body": "multi\r\nline x",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m53",
+    "fromMe": false,
+    "timestamp": 1786611330,
+    "type": "ptt",
+    "body": "\u001cgroup",
+    "author": null,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": null
+   },
+   {
+    "id": "m54",
+    "fromMe": false,
+    "timestamp": 1786631330,
+    "type": "chat",
+    "body": "hello mr",
+    "author": ""
+   },
+   {
+    "id": "m55",
+    "fromMe": true,
+    "timestamp": 1786631360,
+    "type": null,
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786631390,
+    "type": "video",
+    "body": "tab\there",
+    "author": "Rachel A.",
+    "hasMedia": false,
+    "media": {}
+   },
+   {
+    "id": "m57",
+    "fromMe": false,
+    "timestamp": 1786631420,
+    "type": "",
+    "body": ""
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786631450,
+    "type": null,
+    "body": "line1\n\nline3",
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m59",
+    "fromMe": true,
+    "timestamp": 1786632050,
+    "type": "location",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "quoted": null
+   }
+  ],
+  "out": "WhatsApp conversation with Mr Andy\nMr Andy\nChat ID: 8181@c.us\nPeriod: all available messages\nExported by Bob on 01 August 2026, 10:00 JST\n\n[30/07/2026 00:00] Bob: [image] multi\n    line\n    x\n[30/07/2026 01:00] Mr Andy: [document]\n[31/07/2026 01:00] Rachel A.: [contact card] tab\there\n[31/07/2026 01:10] Bob: [sticker: file.pdf] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[31/07/2026 02:10] Bob: [location] emoji 😀 ok\n[01/08/2026 02:10] Bob: [contact card] spaced\n[02/08/2026 02:10] Mr Andy: [document] spaced\n[02/08/2026 07:43] Bob replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[02/08/2026 07:43] Bob: [location] line1\n    \n    line3\n[02/08/2026 13:17] Mr Andy: [no content]\n[02/08/2026 13:27] Bob replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[02/08/2026 13:27] Bob: spaced\n[02/08/2026 13:27] Rachel A.: [image] multi\n    line\n    x\n[02/08/2026 14:27] Mr Andy: [message deleted] group\n[02/08/2026 20:01] Bob: hello mr\n[02/08/2026 20:01] Mr Andy: [message deleted] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[03/08/2026 01:34] Mr Andy: [contact card] Okay, thank you.\n    I will let you know later.\n[03/08/2026 07:08] Bob replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[03/08/2026 07:08] Bob: [message deleted] multi\n    line\n    x\n[03/08/2026 07:08] Mr Andy: [message deleted]\n[03/08/2026 08:08] Bob: [no content]\n[04/08/2026 08:08] Mr Andy: tab\there\n[04/08/2026 13:42] Bob replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[04/08/2026 13:42] Bob: hello mr\n[05/08/2026 13:42] Bob: [no content]\n[05/08/2026 19:15] Bob: line1\n    \n    line3\n[05/08/2026 19:15] Bob: [contact card] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[unknown time] Bob: [location] group\n[06/08/2026 01:49] Bob: [image] line1\n    \n    line3\n[06/08/2026 01:49] Mr Andy: [attachment] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[07/08/2026 01:49] Mr Andy: [message deleted] emoji 😀 ok\n[07/08/2026 02:49] Rachel A.: [contact card] Okay, thank you.\n    I will let you know later.\n[unknown time] Bob: multi\n    line\n    x\n[08/08/2026 02:50] Bob: [location] multi\n    line\n    x\n[09/08/2026 02:50] Bob: [document] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[09/08/2026 02:50] Bob: [voice note]\n[09/08/2026 03:00] Bob: [attachment] spaced\n[09/08/2026 04:00] Mr Andy: [image] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[09/08/2026 05:00] Bob: [unknown_kind] spaced\n[09/08/2026 05:10] Mr Andy: [contact card] emoji 😀 ok\n[09/08/2026 10:44] Mr Andy: [message deleted]\n[09/08/2026 10:44] Mr Andy: [message deleted] group\n[10/08/2026 10:44] Mr Andy: [sticker] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[10/08/2026 10:54] Mr Andy: [contact card] tab\there\n[10/08/2026 11:54] Bob: [document] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[10/08/2026 12:54] Mr Andy: [attachment]\n[10/08/2026 13:54] Bob: [location: file.pdf] multi\n    line\n    x\n[10/08/2026 13:55] Mr Andy: [image] line1\n    \n    line3\n[10/08/2026 14:05] Mr Andy: [image] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[11/08/2026 14:05] Bob: [location] tab\there\n[12/08/2026 14:05] Bob: [location] group\n[12/08/2026 15:05] Bob: [sticker] line1\n    \n    line3\n[12/08/2026 16:05] Mr Andy: tab\there\n[12/08/2026 16:15] Bob: line1\n    \n    line3\n[12/08/2026 21:48] Mr Andy: [unknown_kind] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[12/08/2026 21:48] Mr Andy: [image]\n[13/08/2026 03:22] Mr Andy replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[13/08/2026 03:22] Mr Andy: [unknown_kind] multi\n    line\n    x\n[13/08/2026 08:55] Mr Andy: [voice note] group\n[13/08/2026 14:28] Mr Andy: hello mr\n[13/08/2026 14:29] Bob: multi\n    line\n    x\n[13/08/2026 14:29] Rachel A.: [video] tab\there\n[13/08/2026 14:30] Mr Andy: [no content]\n[13/08/2026 14:30] Mr Andy replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[13/08/2026 14:30] Mr Andy: line1\n    \n    line3\n[13/08/2026 14:40] Bob: [location] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n\n60 messages.\n"
+ },
+ {
+  "tz": "UTC",
+  "title": "WhatsApp conversation with ",
+  "subtitle": "",
+  "meta": [
+   "Chat ID: 8181@c.us",
+   "Period: all available messages",
+   "Exported by Bob on 01 August 2026, 10:00 JST"
+  ],
+  "me": "Bob",
+  "messages": [
+   {
+    "id": "m0",
+    "fromMe": false,
+    "timestamp": 1785389600,
+    "type": "location",
+    "body": "hello mr",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m1",
+    "fromMe": false,
+    "timestamp": 1785389630,
+    "type": "",
+    "body": "  spaced  ",
+    "hasMedia": true,
+    "quoted": {}
+   },
+   {
+    "id": "m2",
+    "fromMe": false,
+    "timestamp": 1785393230,
+    "type": "sticker",
+    "body": "emoji 😀 ok",
+    "hasMedia": false
+   },
+   {
+    "id": "m3",
+    "fromMe": false,
+    "timestamp": 1785479630,
+    "type": "document",
+    "body": "tab\there"
+   },
+   {
+    "id": "m4",
+    "fromMe": false,
+    "timestamp": 1785483230,
+    "type": "chat",
+    "body": "multi\r\nline x",
+    "author": "",
+    "media": null
+   },
+   {
+    "id": "m5",
+    "fromMe": true,
+    "timestamp": 1785569630,
+    "type": "revoked",
+    "body": "tab\there",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {}
+   },
+   {
+    "id": "m6",
+    "fromMe": false,
+    "timestamp": 1785656030,
+    "type": "unknown_kind",
+    "body": "emoji 😀 ok",
+    "hasMedia": true,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m7",
+    "fromMe": false,
+    "timestamp": 1785742430,
+    "type": "chat",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": null
+   },
+   {
+    "id": "m8",
+    "fromMe": false,
+    "timestamp": 1785828830,
+    "type": "document",
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m9",
+    "fromMe": false,
+    "timestamp": 1785829430,
+    "type": "chat",
+    "body": "tab\there"
+   },
+   {
+    "id": "m10",
+    "fromMe": false,
+    "timestamp": 1785833030,
+    "type": "location",
+    "body": "\u001cgroup",
+    "author": null,
+    "hasMedia": false
+   },
+   {
+    "id": "m11",
+    "fromMe": false,
+    "timestamp": 1785919430,
+    "type": "vcard",
+    "body": "tab\there"
+   },
+   {
+    "id": "m12",
+    "fromMe": true,
+    "timestamp": 1785919460,
+    "type": "sticker",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": "",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m13",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "revoked",
+    "body": "tab\there",
+    "author": "Rachel A.",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m14",
+    "fromMe": true,
+    "timestamp": 1785926660,
+    "type": "",
+    "body": "tab\there",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m15",
+    "fromMe": true,
+    "timestamp": 1785926690,
+    "type": "image",
+    "body": "  spaced  ",
+    "author": null,
+    "quoted": {}
+   },
+   {
+    "id": "m16",
+    "fromMe": false,
+    "timestamp": 1785926720,
+    "type": "vcard",
+    "body": "line1\n\nline3",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m17",
+    "fromMe": true,
+    "timestamp": 1785927320,
+    "type": "chat",
+    "body": "\u001cgroup",
+    "quoted": {
+     "body": ""
+    }
+   },
+   {
+    "id": "m18",
+    "fromMe": false,
+    "timestamp": 1785930920,
+    "type": null,
+    "body": "\u001cgroup",
+    "author": null,
+    "hasMedia": true,
+    "quoted": null
+   },
+   {
+    "id": "m19",
+    "fromMe": false,
+    "timestamp": 1785931520,
+    "type": "vcard",
+    "body": null,
+    "hasMedia": true
+   },
+   {
+    "id": "m20",
+    "fromMe": true,
+    "timestamp": 1785932120,
+    "type": "vcard",
+    "body": "",
+    "hasMedia": false
+   },
+   {
+    "id": "m21",
+    "fromMe": true,
+    "timestamp": 1785935720,
+    "type": "revoked",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": {
+     "filename": "",
+     "data": ""
+    },
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m22",
+    "fromMe": true,
+    "timestamp": null,
+    "type": "chat",
+    "body": ""
+   },
+   {
+    "id": "m23",
+    "fromMe": true,
+    "timestamp": 1785959320,
+    "type": "location",
+    "body": null
+   },
+   {
+    "id": "m24",
+    "fromMe": true,
+    "timestamp": 1786045720,
+    "type": "document",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m25",
+    "fromMe": false,
+    "timestamp": null,
+    "type": "document",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m26",
+    "fromMe": false,
+    "timestamp": 1786052920,
+    "type": "chat",
+    "body": "tab\there",
+    "media": null
+   },
+   {
+    "id": "m27",
+    "fromMe": false,
+    "timestamp": 1786052950,
+    "type": "revoked",
+    "body": "tab\there",
+    "author": "Rachel A.",
+    "hasMedia": false,
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m28",
+    "fromMe": false,
+    "timestamp": 1786139350,
+    "type": "video",
+    "body": "tab\there",
+    "author": "",
+    "hasMedia": true,
+    "quoted": {
+     "body": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé"
+    }
+   },
+   {
+    "id": "m29",
+    "fromMe": false,
+    "timestamp": 1786139950,
+    "type": "vcard",
+    "body": "  spaced  ",
+    "hasMedia": false
+   },
+   {
+    "id": "m30",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "document",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m31",
+    "fromMe": true,
+    "timestamp": 1786229950,
+    "type": "vcard",
+    "body": null,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    },
+    "quoted": {}
+   },
+   {
+    "id": "m32",
+    "fromMe": true,
+    "timestamp": 1786249950,
+    "type": "sticker",
+    "body": "  spaced  ",
+    "author": null,
+    "hasMedia": false,
+    "media": null
+   },
+   {
+    "id": "m33",
+    "fromMe": false,
+    "timestamp": 1786253550,
+    "type": "revoked",
+    "body": "emoji 😀 ok",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m34",
+    "fromMe": true,
+    "timestamp": 1786273550,
+    "type": "image",
+    "body": "emoji 😀 ok"
+   },
+   {
+    "id": "m35",
+    "fromMe": true,
+    "timestamp": 1786274150,
+    "type": "video",
+    "body": "emoji 😀 ok",
+    "hasMedia": false,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m36",
+    "fromMe": false,
+    "timestamp": 1786360550,
+    "type": "chat",
+    "body": "  spaced  ",
+    "author": "Bob",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m37",
+    "fromMe": false,
+    "timestamp": 1786361150,
+    "type": "document",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "Bob"
+   },
+   {
+    "id": "m38",
+    "fromMe": true,
+    "timestamp": 1786381150,
+    "type": "image",
+    "body": null
+   },
+   {
+    "id": "m39",
+    "fromMe": true,
+    "timestamp": 1786381750,
+    "type": "sticker",
+    "body": null
+   },
+   {
+    "id": "m40",
+    "fromMe": true,
+    "timestamp": 1786381780,
+    "type": "revoked",
+    "body": "\u001cgroup",
+    "author": ""
+   },
+   {
+    "id": "m41",
+    "fromMe": false,
+    "timestamp": 1786401780,
+    "type": "image",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "media": null,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m42",
+    "fromMe": false,
+    "timestamp": 1786421780,
+    "type": "ptt",
+    "body": "hello mr",
+    "author": "Bob",
+    "hasMedia": false,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m43",
+    "fromMe": false,
+    "timestamp": 0,
+    "type": "document",
+    "body": "Okay, thank you.\nI will let you know later.",
+    "author": "",
+    "hasMedia": true,
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m44",
+    "fromMe": true,
+    "timestamp": 1786422410,
+    "type": "revoked",
+    "body": "tab\there",
+    "hasMedia": true
+   },
+   {
+    "id": "m45",
+    "fromMe": true,
+    "timestamp": 1786423010,
+    "type": "sticker",
+    "body": "",
+    "author": "Bob",
+    "media": {
+     "filename": "",
+     "data": ""
+    }
+   },
+   {
+    "id": "m46",
+    "fromMe": false,
+    "timestamp": 1786423040,
+    "type": "image",
+    "body": null,
+    "hasMedia": true,
+    "quoted": {
+     "body": "quoted text"
+    }
+   },
+   {
+    "id": "m47",
+    "fromMe": false,
+    "timestamp": 1786423640,
+    "type": "sticker",
+    "body": "\u001cgroup"
+   },
+   {
+    "id": "m48",
+    "fromMe": false,
+    "timestamp": 1786427240,
+    "type": "image",
+    "body": "line1\n\nline3"
+   },
+   {
+    "id": "m49",
+    "fromMe": false,
+    "timestamp": 1786447240,
+    "type": "",
+    "body": "line1\n\nline3",
+    "quoted": {
+     "body": "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
+    }
+   },
+   {
+    "id": "m50",
+    "fromMe": false,
+    "timestamp": 1786467240,
+    "type": "video",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "author": ""
+   },
+   {
+    "id": "m51",
+    "fromMe": false,
+    "timestamp": 1786487240,
+    "type": "image",
+    "body": null
+   },
+   {
+    "id": "m52",
+    "fromMe": true,
+    "timestamp": 1786507240,
+    "type": "video",
+    "body": "\u001cgroup",
+    "hasMedia": true
+   },
+   {
+    "id": "m53",
+    "fromMe": false,
+    "timestamp": 1786507270,
+    "type": "video",
+    "body": "  spaced  ",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m54",
+    "fromMe": false,
+    "timestamp": 1786507870,
+    "type": "chat",
+    "body": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+   },
+   {
+    "id": "m55",
+    "fromMe": false,
+    "timestamp": 1786527870,
+    "type": "video",
+    "body": "multi\r\nline x"
+   },
+   {
+    "id": "m56",
+    "fromMe": false,
+    "timestamp": 1786547870,
+    "type": "image",
+    "body": "line1\n\nline3",
+    "media": {
+     "filename": "file.pdf",
+     "mimetype": "application/pdf"
+    }
+   },
+   {
+    "id": "m57",
+    "fromMe": true,
+    "timestamp": 1786547900,
+    "type": "video",
+    "body": "tab\there"
+   },
+   {
+    "id": "m58",
+    "fromMe": false,
+    "timestamp": 1786551500,
+    "type": "revoked",
+    "body": "hello mr",
+    "quoted": null
+   },
+   {
+    "id": "m59",
+    "fromMe": false,
+    "timestamp": 1786571500,
+    "type": "sticker",
+    "body": "tab\there"
+   }
+  ],
+  "out": "WhatsApp conversation with \nChat ID: 8181@c.us\nPeriod: all available messages\nExported by Bob on 01 August 2026, 10:00 JST\n\n[30/07/2026 05:33] Them: [location: file.pdf] hello mr\n[30/07/2026 05:33] Them: [attachment] spaced\n[30/07/2026 06:33] Them: [sticker] emoji 😀 ok\n[31/07/2026 06:33] Them: [document] tab\there\n[31/07/2026 07:33] Them: multi\n    line\n    x\n[01/08/2026 07:33] Bob: [message deleted] tab\there\n[02/08/2026 07:33] Them: [unknown_kind] emoji 😀 ok\n[03/08/2026 07:33] Them: Okay, thank you.\n    I will let you know later.\n[04/08/2026 07:33] Them: [document] group\n[04/08/2026 07:43] Them: tab\there\n[04/08/2026 08:43] Them: [location] group\n[05/08/2026 08:43] Them: [contact card] tab\there\n[05/08/2026 08:44] Bob: [sticker: file.pdf] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[unknown time] Rachel A.: [message deleted: file.pdf] tab\there\n[05/08/2026 10:44] Bob: tab\there\n[05/08/2026 10:44] Bob: [image] spaced\n[05/08/2026 10:45] Them: [contact card: file.pdf] line1\n    \n    line3\n[05/08/2026 10:55] Bob: group\n[05/08/2026 11:55] Them: [attachment] group\n[05/08/2026 12:05] Them: [contact card]\n[05/08/2026 12:15] Bob: [contact card]\n[05/08/2026 13:15] Bob replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[05/08/2026 13:15] Bob: [message deleted] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[unknown time] Bob: [no content]\n[05/08/2026 19:48] Bob: [location]\n[06/08/2026 19:48] Bob: [document] emoji 😀 ok\n[unknown time] Them: [document] multi\n    line\n    x\n[06/08/2026 21:48] Them: tab\there\n[06/08/2026 21:49] Rachel A.: [message deleted] tab\there\n[07/08/2026 21:49] Them replying to: \"éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé\"\n[07/08/2026 21:49] Them: [video] tab\there\n[07/08/2026 21:59] Them: [contact card] spaced\n[unknown time] Them: [document: file.pdf] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[08/08/2026 22:59] Bob: [contact card: file.pdf]\n[09/08/2026 04:32] Bob: [sticker] spaced\n[09/08/2026 05:32] Them: [message deleted: file.pdf] emoji 😀 ok\n[09/08/2026 11:05] Bob: [image] emoji 😀 ok\n[09/08/2026 11:15] Bob replying to: \"quoted text\"\n[09/08/2026 11:15] Bob: [video] emoji 😀 ok\n[10/08/2026 11:15] Bob: spaced\n[10/08/2026 11:25] Bob: [document] Okay, thank you.\n    I will let you know later.\n[10/08/2026 16:59] Bob: [image]\n[10/08/2026 17:09] Bob: [sticker]\n[10/08/2026 17:09] Bob: [message deleted] group\n[10/08/2026 22:43] Them replying to: \"quoted text\"\n[10/08/2026 22:43] Them: [image] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[11/08/2026 04:16] Bob: [voice note: file.pdf] hello mr\n[unknown time] Them: [document: file.pdf] Okay, thank you.\n    I will let you know later.\n[11/08/2026 04:26] Bob: [message deleted] tab\there\n[11/08/2026 04:36] Bob: [sticker]\n[11/08/2026 04:37] Them replying to: \"quoted text\"\n[11/08/2026 04:37] Them: [image]\n[11/08/2026 04:47] Them: [sticker] group\n[11/08/2026 05:47] Them: [image] line1\n    \n    line3\n[11/08/2026 11:20] Them replying to: \"qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq\"\n[11/08/2026 11:20] Them: line1\n    \n    line3\n[11/08/2026 16:54] Them: [video] aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[11/08/2026 22:27] Them: [image]\n[12/08/2026 04:00] Bob: [video] group\n[12/08/2026 04:01] Them: [video: file.pdf] spaced\n[12/08/2026 04:11] Them: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\n[12/08/2026 09:44] Them: [video] multi\n    line\n    x\n[12/08/2026 15:17] Them: [image: file.pdf] line1\n    \n    line3\n[12/08/2026 15:18] Bob: [video] tab\there\n[12/08/2026 16:18] Them: [message deleted] hello mr\n[12/08/2026 21:51] Them: [sticker] tab\there\n\n60 messages.\n"
+ },
+ {
+  "tz": "UTC",
+  "title": "T",
+  "subtitle": "",
+  "meta": [],
+  "me": "Us",
+  "messages": [],
+  "out": "T\n\n\n0 messages.\n"
+ }
+]

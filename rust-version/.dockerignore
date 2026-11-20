@@ -1,0 +1,15 @@
+# Build context: rust-version/ (see Dockerfile). Only what cargo and the runtime stages need goes in.
+target/
+compat-tests/
+docs/
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+**/node_modules/
+**/*.log
+# Generated locally (services/face/models/README.md); the image converts its own copy.
+services/face/models/onnx/
+services/face/models/face-api/
+# The service tools and tests are not built into any image.
+services/research/tools/
+docker-compose*.yml

@@ -1,0 +1,619 @@
+[
+ {
+  "p": {},
+  "err": "ValueError",
+  "msg": "unknown card kind None"
+ },
+ {
+  "p": {
+   "kind": null
+  },
+  "err": "ValueError",
+  "msg": "unknown card kind None"
+ },
+ {
+  "p": {
+   "kind": "something_new"
+  },
+  "err": "ValueError",
+  "msg": "unknown card kind 'something_new'"
+ },
+ {
+  "p": {
+   "summary": "Just a summary"
+  },
+  "err": "ValueError",
+  "msg": "unknown card kind None"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "summary": "Globex Corp",
+   "payload": {
+    "items": [
+     1,
+     2
+    ]
+   }
+  },
+  "out": [
+   "POST",
+   "/sales/quotations",
+   {
+    "items": [
+     1,
+     2
+    ],
+    "currency": "USD"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "payload": {
+    "items": [
+     1
+    ]
+   }
+  },
+  "out": [
+   "POST",
+   "/finance/invoices",
+   {
+    "items": [
+     1
+    ],
+    "currency": "USD"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": null
+  },
+  "out": [
+   "POST",
+   "/sales/quotations",
+   {
+    "currency": "USD"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "title": "T",
+   "payload": {
+    "items": []
+   },
+   "currency": "usd"
+  },
+  "out": [
+   "POST",
+   "/finance/invoices",
+   {
+    "items": [],
+    "currency": "USD"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": {
+    "currency": "eur",
+    "items": [
+     {
+      "a": 1
+     }
+    ]
+   }
+  },
+  "out": [
+   "POST",
+   "/sales/quotations",
+   {
+    "currency": "EUR",
+    "items": [
+     {
+      "a": 1
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "update",
+   "object_type": "contact",
+   "label": "John",
+   "after": {
+    "phone": "1"
+   },
+   "record_id": "r1",
+   "display": {
+    "organization_id": "Globex Corp",
+    "name": "x",
+    "lead_id": "Lead A"
+   }
+  },
+  "out": [
+   "POST",
+   "/crm/ai/apply",
+   {
+    "object_type": "contact",
+    "action": "update",
+    "record_id": "r1",
+    "fields": {
+     "phone": "1"
+    }
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "record_change"
+  },
+  "out": [
+   "POST",
+   "/crm/ai/apply",
+   {
+    "object_type": null,
+    "action": null,
+    "record_id": null,
+    "fields": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "cREATE",
+   "label": ""
+  },
+  "out": [
+   "POST",
+   "/crm/ai/apply",
+   {
+    "object_type": null,
+    "action": "cREATE",
+    "record_id": null,
+    "fields": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "sop",
+   "title": "Returns",
+   "payload": {
+    "title": "Returns"
+   }
+  },
+  "out": [
+   "POST",
+   "/kb/articles",
+   {
+    "title": "Returns",
+    "article_type": "sop",
+    "status": "draft"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "sop"
+  },
+  "out": [
+   "POST",
+   "/kb/articles",
+   {
+    "article_type": "sop",
+    "status": "draft"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "whatsapp",
+   "recipient": "David (+1 555 0199)",
+   "text": "Hello\nthere"
+  },
+  "out": [
+   "POST",
+   "/nary/send",
+   {
+    "channel": "whatsapp",
+    "text": "Hello\nthere",
+    "chat_id": null,
+    "thread_id": null,
+    "contact_id": null,
+    "to": null,
+    "subject": null,
+    "attach": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "email",
+   "to": "a@b.c",
+   "subject": "Hi",
+   "text": "Dear\n\nX",
+   "attachments": [
+    "Quotation Q-1.pdf",
+    "Spec.pdf"
+   ],
+   "warning": "first message",
+   "attach": [
+    {
+     "type": "q",
+     "id": "1"
+    }
+   ],
+   "chat_id": null,
+   "thread_id": "t1",
+   "contact_id": "c1"
+  },
+  "out": [
+   "POST",
+   "/nary/send",
+   {
+    "channel": "email",
+    "text": "Dear\n\nX",
+    "chat_id": null,
+    "thread_id": "t1",
+    "contact_id": "c1",
+    "to": "a@b.c",
+    "subject": "Hi",
+    "attach": [
+     {
+      "type": "q",
+      "id": "1"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "customer_message"
+  },
+  "out": [
+   "POST",
+   "/nary/send",
+   {
+    "channel": null,
+    "text": null,
+    "chat_id": null,
+    "thread_id": null,
+    "contact_id": null,
+    "to": null,
+    "subject": null,
+    "attach": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "Book Acme x Globex",
+   "message": {
+    "text": "Join {link}\nsee you"
+   },
+   "title": "Acme x GX",
+   "start": "2026-10-16T11:00:00+07:00",
+   "duration_minutes": 30,
+   "staff_ids": [
+    "a"
+   ],
+   "customer_email": "d@g.test",
+   "lead_id": null,
+   "deal_id": "d1",
+   "contact_id": null
+  },
+  "out": [
+   "POST",
+   "/nary/meetings/book",
+   {
+    "title": "Acme x GX",
+    "start": "2026-10-16T11:00:00+07:00",
+    "duration_minutes": 30,
+    "staff_ids": [
+     "a"
+    ],
+    "customer_email": "d@g.test",
+    "lead_id": null,
+    "deal_id": "d1",
+    "contact_id": null,
+    "message": {
+     "text": "Join {link}\nsee you"
+    }
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "No message"
+  },
+  "out": [
+   "POST",
+   "/nary/meetings/book",
+   {
+    "title": null,
+    "start": null,
+    "duration_minutes": null,
+    "staff_ids": null,
+    "customer_email": null,
+    "lead_id": null,
+    "deal_id": null,
+    "contact_id": null,
+    "message": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "meeting"
+  },
+  "out": [
+   "POST",
+   "/nary/meetings/book",
+   {
+    "title": null,
+    "start": null,
+    "duration_minutes": null,
+    "staff_ids": null,
+    "customer_email": null,
+    "lead_id": null,
+    "deal_id": null,
+    "contact_id": null,
+    "message": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "action": "meeting.cancel",
+   "payload": {
+    "meeting_id": "m1"
+   },
+   "summary": "Cancel TEST"
+  },
+  "out": [
+   "POST",
+   "/nary/actions/run",
+   {
+    "action": "meeting.cancel",
+    "payload": {
+     "meeting_id": "m1"
+    },
+    "message": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "summary": "With msg",
+   "message": {
+    "text": "Line 1\nLine 2"
+   },
+   "action": "x",
+   "payload": {}
+  },
+  "out": [
+   "POST",
+   "/nary/actions/run",
+   {
+    "action": "x",
+    "payload": {},
+    "message": {
+     "text": "Line 1\nLine 2"
+    }
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "nary_decision",
+   "card_id": "c1",
+   "decision": "apply",
+   "summary": "Apply card"
+  },
+  "out": [
+   "POST",
+   "/nary/pending/c1/decide",
+   {
+    "decision": "apply",
+    "edited_payload": null,
+    "reason": null
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "nary_topic_answer",
+   "topic_id": "t1",
+   "answer": "yes",
+   "tier_pct": 5
+  },
+  "out": [
+   "POST",
+   "/nary/owner/topics/t1/answer",
+   {
+    "answer": "yes",
+    "tier_pct": 5
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "proposal_change",
+   "document_id": "d1",
+   "instruction": "shorter"
+  },
+  "out": [
+   "POST",
+   "/sales/documents/d1/ask",
+   {
+    "text": "shorter"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "nary_pause",
+   "paused": true,
+   "summary": "Pause"
+  },
+  "out": [
+   "POST",
+   "/nary/pause",
+   {
+    "on": true
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "nary_pause"
+  },
+  "out": [
+   "POST",
+   "/nary/pause",
+   {
+    "on": false
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "chat_link",
+   "chat_id": "818@c.us",
+   "contact_id": "c1",
+   "summary": "Link the WhatsApp chat"
+  },
+  "out": [
+   "POST",
+   "/nary/chats/818@c.us/link",
+   {
+    "contact_id": "c1"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "snooze",
+   "until": "2026-10-20"
+  },
+  "out": [
+   "POST",
+   "/crm/reminders/r1/snooze",
+   {
+    "until": "2026-10-20"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "cancel"
+  },
+  "out": [
+   "POST",
+   "/crm/reminders/r1/cancel",
+   null
+  ]
+ },
+ {
+  "p": {
+   "kind": "debrief",
+   "meeting_id": "m",
+   "deal_id": null,
+   "text": "t",
+   "source": "chat"
+  },
+  "out": [
+   "POST",
+   "/nary/debrief/text",
+   {
+    "meeting_id": "m",
+    "deal_id": null,
+    "text": "t",
+    "source": "chat"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "followup_reminder",
+   "title": "Call Globex Corp",
+   "note": null,
+   "entity_type": "whatsapp_chat",
+   "entity_id": null,
+   "chat_id": "81@c.us",
+   "due_at": "2026-10-17T00:00:00+00:00",
+   "summary": "Remind you"
+  },
+  "out": [
+   "POST",
+   "/crm/reminders",
+   {
+    "entity_type": "whatsapp_chat",
+    "entity_id": null,
+    "chat_id": "81@c.us",
+    "title": "Call Globex Corp",
+    "note": null,
+    "due_at": "2026-10-17T00:00:00+00:00"
+   }
+  ]
+ },
+ {
+  "p": {
+   "kind": "research",
+   "object_type": "lead",
+   "record_id": "l1"
+  },
+  "out": [
+   "POST",
+   "/crm/research/lead/l1",
+   null
+  ]
+ },
+ {
+  "p": {
+   "kind": "research"
+  },
+  "out": [
+   "POST",
+   "/crm/research/None/None",
+   null
+  ]
+ },
+ {
+  "p": {
+   "kind": "some_kind_x",
+   "label": "lbl"
+  },
+  "err": "ValueError",
+  "msg": "unknown card kind 'some_kind_x'"
+ },
+ {
+  "p": {
+   "kind": "a_b_c"
+  },
+  "err": "ValueError",
+  "msg": "unknown card kind 'a_b_c'"
+ }
+]

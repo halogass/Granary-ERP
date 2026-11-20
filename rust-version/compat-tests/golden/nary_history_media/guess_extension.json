@@ -1,0 +1,394 @@
+[
+ {
+  "mime": "application/json",
+  "ext": ".json"
+ },
+ {
+  "mime": "application/manifest+json",
+  "ext": ".webmanifest"
+ },
+ {
+  "mime": "application/msword",
+  "ext": ".doc"
+ },
+ {
+  "mime": "application/n-quads",
+  "ext": ".nq"
+ },
+ {
+  "mime": "application/n-triples",
+  "ext": ".nt"
+ },
+ {
+  "mime": "application/octet-stream",
+  "ext": ".bin"
+ },
+ {
+  "mime": "application/oda",
+  "ext": ".oda"
+ },
+ {
+  "mime": "application/pdf",
+  "ext": ".pdf"
+ },
+ {
+  "mime": "application/pkcs7-mime",
+  "ext": ".p7c"
+ },
+ {
+  "mime": "application/postscript",
+  "ext": ".ps"
+ },
+ {
+  "mime": "application/trig",
+  "ext": ".trig"
+ },
+ {
+  "mime": "application/vnd.apple.mpegurl",
+  "ext": ".m3u"
+ },
+ {
+  "mime": "application/vnd.ms-excel",
+  "ext": ".xls"
+ },
+ {
+  "mime": "application/vnd.ms-powerpoint",
+  "ext": ".ppt"
+ },
+ {
+  "mime": "application/wasm",
+  "ext": ".wasm"
+ },
+ {
+  "mime": "application/x-bcpio",
+  "ext": ".bcpio"
+ },
+ {
+  "mime": "application/x-cpio",
+  "ext": ".cpio"
+ },
+ {
+  "mime": "application/x-csh",
+  "ext": ".csh"
+ },
+ {
+  "mime": "application/x-dvi",
+  "ext": ".dvi"
+ },
+ {
+  "mime": "application/x-gtar",
+  "ext": ".gtar"
+ },
+ {
+  "mime": "application/x-hdf",
+  "ext": ".hdf"
+ },
+ {
+  "mime": "application/x-hdf5",
+  "ext": ".h5"
+ },
+ {
+  "mime": "application/x-latex",
+  "ext": ".latex"
+ },
+ {
+  "mime": "application/x-mif",
+  "ext": ".mif"
+ },
+ {
+  "mime": "application/x-netcdf",
+  "ext": ".cdf"
+ },
+ {
+  "mime": "application/x-pkcs12",
+  "ext": ".p12"
+ },
+ {
+  "mime": "application/x-pn-realaudio",
+  "ext": ".ram"
+ },
+ {
+  "mime": "application/x-python-code",
+  "ext": ".pyc"
+ },
+ {
+  "mime": "application/x-sh",
+  "ext": ".sh"
+ },
+ {
+  "mime": "application/x-shar",
+  "ext": ".shar"
+ },
+ {
+  "mime": "application/x-shockwave-flash",
+  "ext": ".swf"
+ },
+ {
+  "mime": "application/x-sv4cpio",
+  "ext": ".sv4cpio"
+ },
+ {
+  "mime": "application/x-sv4crc",
+  "ext": ".sv4crc"
+ },
+ {
+  "mime": "application/x-tar",
+  "ext": ".tar"
+ },
+ {
+  "mime": "application/x-tcl",
+  "ext": ".tcl"
+ },
+ {
+  "mime": "application/x-tex",
+  "ext": ".tex"
+ },
+ {
+  "mime": "application/x-texinfo",
+  "ext": ".texi"
+ },
+ {
+  "mime": "application/x-troff",
+  "ext": ".roff"
+ },
+ {
+  "mime": "application/x-troff-man",
+  "ext": ".man"
+ },
+ {
+  "mime": "application/x-troff-me",
+  "ext": ".me"
+ },
+ {
+  "mime": "application/x-troff-ms",
+  "ext": ".ms"
+ },
+ {
+  "mime": "application/x-ustar",
+  "ext": ".ustar"
+ },
+ {
+  "mime": "application/x-wais-source",
+  "ext": ".src"
+ },
+ {
+  "mime": "application/xml",
+  "ext": ".xsl"
+ },
+ {
+  "mime": "application/zip",
+  "ext": ".zip"
+ },
+ {
+  "mime": "audio/3gpp",
+  "ext": ".3gp"
+ },
+ {
+  "mime": "audio/3gpp2",
+  "ext": ".3g2"
+ },
+ {
+  "mime": "audio/aac",
+  "ext": ".aac"
+ },
+ {
+  "mime": "audio/basic",
+  "ext": ".au"
+ },
+ {
+  "mime": "audio/mpeg",
+  "ext": ".mp3"
+ },
+ {
+  "mime": "audio/opus",
+  "ext": ".opus"
+ },
+ {
+  "mime": "audio/x-aiff",
+  "ext": ".aif"
+ },
+ {
+  "mime": "audio/x-pn-realaudio",
+  "ext": ".ra"
+ },
+ {
+  "mime": "audio/x-wav",
+  "ext": ".wav"
+ },
+ {
+  "mime": "image/avif",
+  "ext": ".avif"
+ },
+ {
+  "mime": "image/bmp",
+  "ext": ".bmp"
+ },
+ {
+  "mime": "image/gif",
+  "ext": ".gif"
+ },
+ {
+  "mime": "image/heic",
+  "ext": ".heic"
+ },
+ {
+  "mime": "image/heif",
+  "ext": ".heif"
+ },
+ {
+  "mime": "image/ief",
+  "ext": ".ief"
+ },
+ {
+  "mime": "image/jpeg",
+  "ext": ".jpg"
+ },
+ {
+  "mime": "image/png",
+  "ext": ".png"
+ },
+ {
+  "mime": "image/svg+xml",
+  "ext": ".svg"
+ },
+ {
+  "mime": "image/tiff",
+  "ext": ".tiff"
+ },
+ {
+  "mime": "image/vnd.microsoft.icon",
+  "ext": ".ico"
+ },
+ {
+  "mime": "image/x-cmu-raster",
+  "ext": ".ras"
+ },
+ {
+  "mime": "image/x-portable-anymap",
+  "ext": ".pnm"
+ },
+ {
+  "mime": "image/x-portable-bitmap",
+  "ext": ".pbm"
+ },
+ {
+  "mime": "image/x-portable-graymap",
+  "ext": ".pgm"
+ },
+ {
+  "mime": "image/x-portable-pixmap",
+  "ext": ".ppm"
+ },
+ {
+  "mime": "image/x-rgb",
+  "ext": ".rgb"
+ },
+ {
+  "mime": "image/x-xbitmap",
+  "ext": ".xbm"
+ },
+ {
+  "mime": "image/x-xpixmap",
+  "ext": ".xpm"
+ },
+ {
+  "mime": "image/x-xwindowdump",
+  "ext": ".xwd"
+ },
+ {
+  "mime": "message/rfc822",
+  "ext": ".eml"
+ },
+ {
+  "mime": "text/css",
+  "ext": ".css"
+ },
+ {
+  "mime": "text/csv",
+  "ext": ".csv"
+ },
+ {
+  "mime": "text/html",
+  "ext": ".html"
+ },
+ {
+  "mime": "text/javascript",
+  "ext": ".js"
+ },
+ {
+  "mime": "text/n3",
+  "ext": ".n3"
+ },
+ {
+  "mime": "text/plain",
+  "ext": ".txt"
+ },
+ {
+  "mime": "text/richtext",
+  "ext": ".rtx"
+ },
+ {
+  "mime": "text/tab-separated-values",
+  "ext": ".tsv"
+ },
+ {
+  "mime": "text/vtt",
+  "ext": ".vtt"
+ },
+ {
+  "mime": "text/x-python",
+  "ext": ".py"
+ },
+ {
+  "mime": "text/x-setext",
+  "ext": ".etx"
+ },
+ {
+  "mime": "text/x-sgml",
+  "ext": ".sgm"
+ },
+ {
+  "mime": "text/x-vcard",
+  "ext": ".vcf"
+ },
+ {
+  "mime": "text/xml",
+  "ext": ".xml"
+ },
+ {
+  "mime": "video/mp4",
+  "ext": ".mp4"
+ },
+ {
+  "mime": "video/mpeg",
+  "ext": ".mpeg"
+ },
+ {
+  "mime": "video/quicktime",
+  "ext": ".mov"
+ },
+ {
+  "mime": "video/webm",
+  "ext": ".webm"
+ },
+ {
+  "mime": "video/x-msvideo",
+  "ext": ".avi"
+ },
+ {
+  "mime": "video/x-sgi-movie",
+  "ext": ".movie"
+ },
+ {
+  "mime": "audio/ogg",
+  "ext": null
+ },
+ {
+  "mime": "IMAGE/PNG",
+  "ext": ".png"
+ },
+ {
+  "mime": "",
+  "ext": null
+ }
+]

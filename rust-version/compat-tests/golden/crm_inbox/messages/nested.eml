@@ -1,0 +1,87 @@
+Content-Type: multipart/mixed; boundary="===============4230651827647571220=="
+MIME-Version: 1.0
+Subject: =?utf-8?q?Nested_=E2=9C=93?=
+From: "Bob, S.T." <bob@pt-x.example>
+To: hello@acme.test, "Ops" <ops@acme.test>
+Cc: a@b.c
+Message-ID: <nested@x>
+Date: Mon, 13 Oct 2026 10:00:00 -0000
+
+--===============4230651827647571220==
+Content-Type: multipart/alternative;
+ boundary="===============2299266640722147635=="
+MIME-Version: 1.0
+
+--===============2299266640722147635==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+cGxhaW4gcGFydA==
+
+--===============2299266640722147635==
+Content-Type: multipart/related;
+ boundary="===============8192729817341595843=="
+MIME-Version: 1.0
+
+--===============8192729817341595843==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+
+PHA+TG9nbyA8aW1nIHNyYz0iY2lkOmxvZ29AeCI+IDxpbWcgc3JjPSdDSUQ6bWlzc2luZyc+PC9w
+Pg==
+
+--===============8192729817341595843==
+Content-Type: image/png
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-ID: <logo@x>
+Content-Disposition: inline
+
+iVBORw0KGgpmYWtl
+
+--===============8192729817341595843==--
+
+--===============2299266640722147635==--
+
+--===============4230651827647571220==
+Content-Type: application/pdf
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename*=utf-8''%E2%82%AC%20rates.pdf
+
+JVBERi0xLjQKAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4v
+MDEyMzQ1Njc4OTo7PD0+P0BBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWltcXV5fYGFiY2RlZmdo
+aWprbG1ub3BxcnN0dXZ3eHl6e3x9fn+AgYKDhIWGh4iJiouMjY6PkJGSk5SVlpeYmZqbnJ2en6Ch
+oqOkpaanqKmqq6ytrq+wsbKztLW2t7i5uru8vb6/wMHCw8TFxsfIycrLzM3Oz9DR0tPU1dbX2Nna
+29zd3t/g4eLj5OXm5+jp6uvs7e7v8PHy8/T19vf4+fr7/P3+/w==
+
+--===============4230651827647571220==
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment
+
+ZGF0YQ==
+
+--===============4230651827647571220==
+Content-Type: application/octet-stream
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="empty.bin"
+
+
+--===============4230651827647571220==
+Content-Type: message/rfc822
+MIME-Version: 1.0
+
+Subject: Forwarded
+From: z@z.z
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+inner body
+
+--===============4230651827647571220==--

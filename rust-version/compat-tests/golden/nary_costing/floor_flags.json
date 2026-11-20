@@ -1,0 +1,654 @@
+[
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "1000.00"
+    }
+   }
+  },
+  "prices": [],
+  "out": [
+   "The final price (0) is under the floor (1000.00) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "1000.00"
+    }
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "999.99"
+   ]
+  ],
+  "out": [
+   "The final price (999.99) is under the floor (1000.00) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "1000.00"
+    }
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "1000.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "1000.00"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "499.5"
+   ]
+  ],
+  "out": [
+   "The final price (999.5) is under the floor (1000.00) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "1000.00"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "500.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "1000.00"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "0.10"
+   ],
+   [
+    "b",
+    "-5"
+   ]
+  ],
+  "out": [
+   "The final price (-4.90) is under the floor (1000.00) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "1000.00"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "1E+3"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": null
+    }
+   }
+  },
+  "prices": [],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": null
+    }
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "999.99"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": null
+    }
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "1000.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": null
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "499.5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": null
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "500.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": null
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "0.10"
+   ],
+   [
+    "b",
+    "-5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": null
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "1E+3"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {}
+  },
+  "prices": [],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {}
+  },
+  "prices": [
+   [
+    "x",
+    "999.99"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {}
+  },
+  "prices": [
+   [
+    "x",
+    "1000.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {}
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "499.5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {}
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "500.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {}
+  },
+  "prices": [
+   [
+    "a",
+    "0.10"
+   ],
+   [
+    "b",
+    "-5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {}
+  },
+  "prices": [
+   [
+    "a",
+    "1E+3"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {},
+  "prices": [],
+  "out": []
+ },
+ {
+  "sheet": {},
+  "prices": [
+   [
+    "x",
+    "999.99"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {},
+  "prices": [
+   [
+    "x",
+    "1000.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {},
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "499.5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {},
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "500.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {},
+  "prices": [
+   [
+    "a",
+    "0.10"
+   ],
+   [
+    "b",
+    "-5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {},
+  "prices": [
+   [
+    "a",
+    "1E+3"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {}
+   }
+  },
+  "prices": [],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {}
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "999.99"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {}
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "1000.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {}
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "499.5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {}
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "500.00"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {}
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "0.10"
+   ],
+   [
+    "b",
+    "-5"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {}
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "1E+3"
+   ]
+  ],
+  "out": []
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "99999999.99"
+    }
+   }
+  },
+  "prices": [],
+  "out": [
+   "The final price (0) is under the floor (99999999.99) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "99999999.99"
+    }
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "999.99"
+   ]
+  ],
+  "out": [
+   "The final price (999.99) is under the floor (99999999.99) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "99999999.99"
+    }
+   }
+  },
+  "prices": [
+   [
+    "x",
+    "1000.00"
+   ]
+  ],
+  "out": [
+   "The final price (1000.00) is under the floor (99999999.99) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "99999999.99"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "499.5"
+   ]
+  ],
+  "out": [
+   "The final price (999.5) is under the floor (99999999.99) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "99999999.99"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "500"
+   ],
+   [
+    "b",
+    "500.00"
+   ]
+  ],
+  "out": [
+   "The final price (1000.00) is under the floor (99999999.99) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "99999999.99"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "0.10"
+   ],
+   [
+    "b",
+    "-5"
+   ]
+  ],
+  "out": [
+   "The final price (-4.90) is under the floor (99999999.99) for the likely cost."
+  ]
+ },
+ {
+  "sheet": {
+   "summary": {
+    "likely": {
+     "price_at_floor": "99999999.99"
+    }
+   }
+  },
+  "prices": [
+   [
+    "a",
+    "1E+3"
+   ]
+  ],
+  "out": [
+   "The final price (1000) is under the floor (99999999.99) for the likely cost."
+  ]
+ }
+]

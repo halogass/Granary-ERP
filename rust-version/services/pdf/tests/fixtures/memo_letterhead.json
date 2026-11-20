@@ -1,0 +1,27 @@
+{
+ "template": "memo",
+ "data": {
+  "letterhead_url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAABaCAIAAADrU7+pAAABxElEQVR42u3VoQ0AIAADQcZhJqZjREKCZwEEBkMvOVVZ86W2fmnMBQCfKfchlEYAPgzhcVVHAKJDqI4ACKE0AiCE6giAEKojAEIojQAIoToCIITqCIAQSiMAQqiOAAihOgIghNIIgBCqIwBCqI7qCCCE0iiNAEKojuoIIITqqI4AQog0Aggh6ggghKgjgBAijQBCiDoCCCHqCCCESCOAEKKOAEKIOgIIIdIIIISoI4AQoo4AQog0Aggh6uhAQAhRR3UEhBBplEZACFFHdQSEENQREEKQRkAIQR0BIQR1BIQQpBEQQlBHQAhBHQEhBGkEhBDUERBCUEdACEEaASEEdQSEENQREEKQRkAIQR3VESEE1FEdEUJAGqURIQTUUR0RQgB1RAgBpBEhBFBHhBBAHRFCAGlECAHUESEEUEeEEEAaEUIAdUQIAdQRIQSQRoQQQB0RQgB1RAgBpFEahRBAHdVRCAHUUR2FEEAapVEIAVBHIQRAHYUQAGkUQgDUUQgBUEchBEAahRAAdRRCANRRCAGQRiEEQB2FEAB1FEIApFEIAVBHIQRAHV/UUQgBiE6jEAIQXUchBCC6jkIIQHQahRCA6DpupKw/fwxwAlIAAAAASUVORK5CYII=",
+  "memo_number": "MEMO/2026/10/015",
+  "formatted_date": "19 October 2026",
+  "memo_type": "policy",
+  "memo_type_label": "Policy",
+  "sender_name": "Alex Owner",
+  "sender_position": "Owner",
+  "sender_department": "Board",
+  "to_line": "All staff",
+  "subject": "Working hours during the public holiday",
+  "body": "Dear team,\n\nThe office is closed on 25 December. Please plan accordingly.\n\nRegards,",
+  "status": "sent",
+  "status_label": "Sent",
+  "sender_signed_date": "19 October 2026 09:15",
+  "single_ack": {
+   "name": "Sam Taylor",
+   "position": "HR Lead",
+   "acknowledged_at": "19 October 2026 10:02"
+  },
+  "acknowledgements": [],
+  "total_recipients": 1,
+  "company_name": "Your Company Ltd"
+ }
+}

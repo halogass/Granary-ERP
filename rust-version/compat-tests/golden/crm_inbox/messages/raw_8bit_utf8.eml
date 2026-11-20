@@ -1,0 +1,7 @@
+From: a@b.c
+To: d@e.f
+Subject: 8bit_utf8
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+café — ok

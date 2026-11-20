@@ -1,0 +1,342 @@
+[
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": " ",
+  "out": ""
+ },
+ {
+  "in": "\n",
+  "out": ""
+ },
+ {
+  "in": "No sign-off here",
+  "out": "No sign-off here"
+ },
+ {
+  "in": "Sure Mr, we will send it shortly.\n\n_— Rachel A., Acme Ltd_",
+  "out": "Sure Mr, we will send it shortly."
+ },
+ {
+  "in": "_— Rachel A., Acme Ltd_",
+  "out": ""
+ },
+ {
+  "in": "  _— Rachel_  ",
+  "out": ""
+ },
+ {
+  "in": "_—_",
+  "out": ""
+ },
+ {
+  "in": "_—",
+  "out": "_—"
+ },
+ {
+  "in": "text\n_— sig_\n\n\n",
+  "out": "text"
+ },
+ {
+  "in": "text\n_— sig_ trailing",
+  "out": "text\n_— sig_ trailing"
+ },
+ {
+  "in": "text\n_- hyphen sig_",
+  "out": "text\n_- hyphen sig_"
+ },
+ {
+  "in": "text\n_– en dash_",
+  "out": "text\n_– en dash_"
+ },
+ {
+  "in": "a\n_— one_\n_— two_",
+  "out": "a\n_— one_"
+ },
+ {
+  "in": "a\r\n_— crlf_",
+  "out": "a"
+ },
+ {
+  "in": "a\r\n_— crlf_\r\n",
+  "out": "a"
+ },
+ {
+  "in": "line1\nline2   \n\n_— x_",
+  "out": "line1\nline2"
+ },
+ {
+  "in": "_— x_\nnot last",
+  "out": "_— x_\nnot last"
+ },
+ {
+  "in": " _— nbsp_ ",
+  "out": ""
+ },
+ {
+  "in": "a _— ls_",
+  "out": "a _— ls_"
+ },
+ {
+  "in": "a\n　_— ideo_",
+  "out": "a"
+ },
+ {
+  "in": "keep  \n\n  \n_— x_",
+  "out": "keep"
+ },
+ {
+  "in": "*bold*\n\n_— Bob S. W., GRANARY Ltd_",
+  "out": "*bold*"
+ },
+ {
+  "in": "Hello\n\n_— Bob S. W., Acme Ltd_\n\n_— Bob S. W., Acme Ltd_",
+  "out": "Hello\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "in": " _— \n\n",
+  "out": " _—"
+ },
+ {
+  "in": "_— \n\n_— Hello x_—\n\n\n\nHello\r\n",
+  "out": "_— \n\n_— Hello x_—\n\n\n\nHello"
+ },
+ {
+  "in": "x_\r\n___— \n\n\tx_ _— ",
+  "out": "x_\r\n___— \n\n\tx_ _—"
+ },
+ {
+  "in": "HelloHello ",
+  "out": "HelloHello"
+ },
+ {
+  "in": "— x__— sig\n\n",
+  "out": "— x__— sig"
+ },
+ {
+  "in": "SirHelloHello sigHellosig—\n\n \n\n ",
+  "out": "SirHelloHello sigHellosig—"
+ },
+ {
+  "in": "Mr _— sig_— Mr\nx_Sirx_",
+  "out": "Mr _— sig_— Mr\nx_Sirx_"
+ },
+ {
+  "in": " \n\n\nHello ",
+  "out": " \n\n\nHello"
+ },
+ {
+  "in": "—_Hello\n_— _x_",
+  "out": "—_Hello"
+ },
+ {
+  "in": " Sir_— Hello\n\nx_Sir",
+  "out": " Sir_— Hello\n\nx_Sir"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "\t\n\nHello\n\n_— x_ ",
+  "out": "\t\n\nHello"
+ },
+ {
+  "in": "_\r\nsigHello\tHelloSirSir—x_Sir_— ",
+  "out": "_\r\nsigHello\tHelloSirSir—x_Sir_—"
+ },
+ {
+  "in": "_— \n\n\n_x_Sirsig",
+  "out": "_— \n\n\n_x_Sirsig"
+ },
+ {
+  "in": "\n_\n\n\n\n\nSirsig\t",
+  "out": "\n_\n\n\n\n\nSirsig"
+ },
+ {
+  "in": "\r\nSir\r\nHello—",
+  "out": "\r\nSir\r\nHello—"
+ },
+ {
+  "in": " sig ",
+  "out": " sig"
+ },
+ {
+  "in": "\t\r\nHello",
+  "out": "\t\r\nHello"
+ },
+ {
+  "in": "x_\n",
+  "out": "x_"
+ },
+ {
+  "in": " \n\n \n\n\t Hello__— x_ Hello",
+  "out": " \n\n \n\n\t Hello__— x_ Hello"
+ },
+ {
+  "in": "Hello_ sigHello_—Mr _ ",
+  "out": "Hello_ sigHello_—Mr _"
+ },
+ {
+  "in": " —x_ sig\nsig\r\nsig",
+  "out": " —x_ sig\nsig\r\nsig"
+ },
+ {
+  "in": "sig—_\n\n_— x_Hello_— \n\n\n\tsig",
+  "out": "sig—_\n\n_— x_Hello_— \n\n\n\tsig"
+ },
+ {
+  "in": " _Sir_— ———Sirx_\n—x_",
+  "out": " _Sir_— ———Sirx_\n—x_"
+ },
+ {
+  "in": "sigSir—Hello—\r\n\n\r\n",
+  "out": "sigSir—Hello—"
+ },
+ {
+  "in": " sig\r\n",
+  "out": " sig"
+ },
+ {
+  "in": "Sirsig\n\n_\t_—  \n\n_— Hello",
+  "out": "Sirsig\n\n_\t_—  \n\n_— Hello"
+ },
+ {
+  "in": " sigHello",
+  "out": " sigHello"
+ },
+ {
+  "in": "_Hellosig_— Sir_— \r\n _",
+  "out": "_Hellosig_— Sir_— \r\n _"
+ },
+ {
+  "in": "x_ ",
+  "out": "x_"
+ },
+ {
+  "in": "Hellosig",
+  "out": "Hellosig"
+ },
+ {
+  "in": "\r\n",
+  "out": ""
+ },
+ {
+  "in": "x_sig_— x_\t— \n",
+  "out": "x_sig_— x_\t—"
+ },
+ {
+  "in": "—",
+  "out": "—"
+ },
+ {
+  "in": "Mr\n\n_— sig   x_sig",
+  "out": "Mr\n\n_— sig   x_sig"
+ },
+ {
+  "in": " HelloSir  \n—\n_— ",
+  "out": " HelloSir  \n—\n_—"
+ },
+ {
+  "in": "Hello—\r\n\nSir",
+  "out": "Hello—\r\n\nSir"
+ },
+ {
+  "in": "—\t",
+  "out": "—"
+ },
+ {
+  "in": "x_Sir— ",
+  "out": "x_Sir—"
+ },
+ {
+  "in": "Mr\t",
+  "out": "Mr"
+ },
+ {
+  "in": "—\n\nsig_x__x_ _\r\n\tx_",
+  "out": "—\n\nsig_x__x_ _\r\n\tx_"
+ },
+ {
+  "in": "\n—Hello\n —\r\n\n",
+  "out": "\n—Hello\n —"
+ },
+ {
+  "in": "\r\n—x_\tsigx_sig",
+  "out": "\r\n—x_\tsigx_sig"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "\n\n_— —\n",
+  "out": "\n\n_— —"
+ },
+ {
+  "in": "_—  sig_",
+  "out": ""
+ },
+ {
+  "in": " \r\n——x_\r\nsig\r\n— \n\n\n",
+  "out": " \r\n——x_\r\nsig\r\n—"
+ },
+ {
+  "in": "  \n \r\nHello\tSirSirx_\n\n",
+  "out": "  \n \r\nHello\tSirSirx_"
+ },
+ {
+  "in": "\t\t_— _ \n\n",
+  "out": ""
+ },
+ {
+  "in": "  sigHello—SirHellosigx_",
+  "out": "  sigHello—SirHellosigx_"
+ },
+ {
+  "in": "_— Hellosig",
+  "out": "_— Hellosig"
+ },
+ {
+  "in": "—HellosigSirSir_\n\n \r\nx__— ",
+  "out": "—HellosigSirSir_\n\n \r\nx__—"
+ },
+ {
+  "in": "_\nx_\t—__— \r\n \n\n",
+  "out": "_\nx_\t—__—"
+ },
+ {
+  "in": "Mr\r\nsigx__sig",
+  "out": "Mr\r\nsigx__sig"
+ },
+ {
+  "in": "sig_ \n\nSir——Hello",
+  "out": "sig_ \n\nSir——Hello"
+ },
+ {
+  "in": "SirHello __Hello\t\t",
+  "out": "SirHello __Hello"
+ },
+ {
+  "in": "\r\n\n_— _ ",
+  "out": ""
+ },
+ {
+  "in": "Mr\nSir— \tsigHello_—  ",
+  "out": "Mr\nSir— \tsigHello_—"
+ },
+ {
+  "in": "_\r\n\r\n\r\nx_",
+  "out": "_\r\n\r\n\r\nx_"
+ },
+ {
+  "in": "—\t  \t —sig\nSir_— sig",
+  "out": "—\t  \t —sig\nSir_— sig"
+ },
+ {
+  "in": null,
+  "out": ""
+ }
+]

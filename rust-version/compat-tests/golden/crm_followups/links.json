@@ -1,0 +1,290 @@
+[
+ {
+  "entity_type": "lead",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "lead",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "lead",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "lead",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/crm/leads/11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "lead",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/crm/leads/11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "lead",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/crm/leads/11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "deal",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "deal",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "deal",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "deal",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/crm/deals?deal=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "deal",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/crm/deals?deal=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "deal",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/crm/deals?deal=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "contact",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "contact",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "contact",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "contact",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/crm/contacts?contact=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "contact",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/crm/contacts?contact=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "contact",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/crm/contacts?contact=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "quotation",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "quotation",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "quotation",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "quotation",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/sales/quotations/11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "quotation",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/sales/quotations/11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "quotation",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/sales/quotations/11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "email_thread",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "email_thread",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "email_thread",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "email_thread",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/crm/email?thread=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "email_thread",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/crm/email?thread=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "email_thread",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/crm/email?thread=11111111-1111-1111-1111-111111111111"
+ },
+ {
+  "entity_type": "whatsapp_chat",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "whatsapp_chat",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "whatsapp_chat",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/whatsapp?chat=818123@c.us"
+ },
+ {
+  "entity_type": "whatsapp_chat",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "whatsapp_chat",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "whatsapp_chat",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/crm/whatsapp?chat=818123@c.us"
+ },
+ {
+  "entity_type": "other",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "other",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "other",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "other",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "other",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "other",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "",
+  "entity_id": null,
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "",
+  "entity_id": null,
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "",
+  "entity_id": null,
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": null,
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "",
+  "out": "/crm/followups"
+ },
+ {
+  "entity_type": "",
+  "entity_id": "11111111-1111-1111-1111-111111111111",
+  "chat_id": "818123@c.us",
+  "out": "/crm/followups"
+ }
+]

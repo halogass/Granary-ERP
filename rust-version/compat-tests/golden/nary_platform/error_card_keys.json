@@ -1,0 +1,173 @@
+[
+ {
+  "kind": "action",
+  "action": "crm.record_change",
+  "error": "x failed éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "action:crm.record_change:aa053e6c6893"
+ },
+ {
+  "kind": "send",
+  "action": "crm.record_change",
+  "who": "line\nbreak",
+  "reason": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "send:crm.record_change:ead248c06758"
+ },
+ {
+  "kind": "chat",
+  "action": "crm.record_change",
+  "reason": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "chat:crm.record_change:41f11f3d6e8d"
+ },
+ {
+  "kind": "action",
+  "action": "mcp.crm_write",
+  "error": "Globex Ltd (8181@c.us) failed ü",
+  "key": "action:mcp.crm_write:1dabc4a63821"
+ },
+ {
+  "kind": "send",
+  "action": "mcp.crm_write",
+  "who": "8181234@c.us",
+  "reason": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "send:mcp.crm_write:00c25b913a5b"
+ },
+ {
+  "kind": "chat",
+  "action": "mcp.crm_write",
+  "reason": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "chat:mcp.crm_write:41f11f3d6e8d"
+ },
+ {
+  "kind": "action",
+  "action": "lead.promote",
+  "error": "| failed éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "action:lead.promote:3c0cf37038c8"
+ },
+ {
+  "kind": "send",
+  "action": "lead.promote",
+  "who": "Globex Ltd (8181@c.us)",
+  "reason": "x",
+  "key": "send:lead.promote:215dab3563b2"
+ },
+ {
+  "kind": "chat",
+  "action": "lead.promote",
+  "reason": "x",
+  "key": "chat:lead.promote:11f6ad8ec52a"
+ },
+ {
+  "kind": "action",
+  "action": "lead.merge",
+  "error": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé failed line\nbreak",
+  "key": "action:lead.merge:d0534a7940f6"
+ },
+ {
+  "kind": "send",
+  "action": "lead.merge",
+  "who": "None",
+  "reason": "ü",
+  "key": "send:lead.merge:9faf222fc4b4"
+ },
+ {
+  "kind": "chat",
+  "action": "lead.merge",
+  "reason": "ü",
+  "key": "chat:lead.merge:94a759fd3773"
+ },
+ {
+  "kind": "action",
+  "action": "reminder.add",
+  "error": "| failed ü",
+  "key": "action:reminder.add:5df3e5453dc7"
+ },
+ {
+  "kind": "send",
+  "action": "reminder.add",
+  "who": "None",
+  "reason": "None",
+  "key": "send:reminder.add:f51b4f210669"
+ },
+ {
+  "kind": "chat",
+  "action": "reminder.add",
+  "reason": "None",
+  "key": "chat:reminder.add:6eef6648406c"
+ },
+ {
+  "kind": "action",
+  "action": "reply.draft",
+  "error": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé failed ü",
+  "key": "action:reply.draft:d0534a7940f6"
+ },
+ {
+  "kind": "send",
+  "action": "reply.draft",
+  "who": "ü",
+  "reason": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "key": "send:reply.draft:dd44b3efacf8"
+ },
+ {
+  "kind": "chat",
+  "action": "reply.draft",
+  "reason": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "key": "chat:reply.draft:e61cfffe0d91"
+ },
+ {
+  "kind": "action",
+  "action": "email.reply.send",
+  "error": "| failed ü",
+  "key": "action:email.reply.send:5df3e5453dc7"
+ },
+ {
+  "kind": "send",
+  "action": "email.reply.send",
+  "who": "line\nbreak",
+  "reason": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "key": "send:email.reply.send:3efe00b7f9af"
+ },
+ {
+  "kind": "chat",
+  "action": "email.reply.send",
+  "reason": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "key": "chat:email.reply.send:e61cfffe0d91"
+ },
+ {
+  "kind": "action",
+  "action": "whatsapp.reply.send",
+  "error": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé failed aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "key": "action:whatsapp.reply.send:d0534a7940f6"
+ },
+ {
+  "kind": "send",
+  "action": "whatsapp.reply.send",
+  "who": "8181234@c.us",
+  "reason": "8181234@c.us",
+  "key": "send:whatsapp.reply.send:d985002f67d1"
+ },
+ {
+  "kind": "chat",
+  "action": "whatsapp.reply.send",
+  "reason": "8181234@c.us",
+  "key": "chat:whatsapp.reply.send:d5e40b295c81"
+ },
+ {
+  "kind": "action",
+  "action": "quotation.create_draft",
+  "error": "line\nbreak failed 8181234@c.us",
+  "key": "action:quotation.create_draft:2fba6d75ae46"
+ },
+ {
+  "kind": "send",
+  "action": "quotation.create_draft",
+  "who": "line\nbreak",
+  "reason": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "send:quotation.create_draft:ead248c06758"
+ },
+ {
+  "kind": "chat",
+  "action": "quotation.create_draft",
+  "reason": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "key": "chat:quotation.create_draft:41f11f3d6e8d"
+ }
+]

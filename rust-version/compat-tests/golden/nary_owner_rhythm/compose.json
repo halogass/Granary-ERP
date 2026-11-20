@@ -1,0 +1,5276 @@
+[
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "2) second JPY 15,000,000",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n2) second JPY 15,000,000"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "a:",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None gate",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\na:\n\n2. *Globex Corp · scope*\nNone gate\n\n3. **\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\ny _it_ 2) second hot lead tab\there",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "",
+    "text": "1. first line sep  ",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "→ ٣ items",
+    "text": "日本 ٣ items a: gate   trailing  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nx\ny _it_ 2) second hot lead tab\there\n\n2. **\n1. first line sep  \n\n3. *→ ٣ items*\n日本 ٣ items a: gate   trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "quotation ²nd Globex Corp",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · Globex Corp · scope*\nquotation ²nd Globex Corp\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "   trailing   ٣ items",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "٣ items 日本 None",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. **\n   trailing   ٣ items\n\n2. *Globex Corp · scope*\n٣ items 日本 None\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "**\n\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there _it_",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\ntab\there _it_\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there Hello hot lead 2) second",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\"dq\"",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "hot lead quotation  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\ntab\there Hello hot lead 2) second\n\n2. *Globex Corp · scope*\n\"dq\"\n\n3. *Globex Corp · scope*\nhot lead quotation  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "None Globex Corp",
+    "text": "→ 1. first",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "gate",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *None Globex Corp*\n→ 1. first\n\n2. *Globex Corp · scope*\ngate\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "²nd",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · Globex Corp · scope*\n²nd\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first quotation x\r\ny _it_  ",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · Globex Corp · scope*\n1. first quotation x\r\ny _it_  \n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "→ line sep",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "x\r\ny ",
+    "text": "tab\there Globex Corp Hello \\back x\r\ny",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. **\n→ line sep\n\n2. *x\r\ny *\ntab\there Globex Corp Hello \\back x\r\ny\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "tab\there",
+    "text": "line sep 😀",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*tab\there*\nline sep 😀"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Hello",
+    "text": "hot lead   tab\there",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. **\n\n\n3. *Hello*\nhot lead   tab\there\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp",
+    "text": "hot lead",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp*\nhot lead"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "٣ items hot lead Laptops Laptops",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "",
+    "text": "  trailing   Laptops \"dq\" tab\there monitor",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n٣ items hot lead Laptops Laptops\n\n2. **\n  trailing   Laptops \"dq\" tab\there monitor\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "\"dq\"",
+    "text": "Hello \\back ²nd \"dq\" monitor",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*\"dq\"*\nHello \\back ²nd \"dq\" monitor\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "x\ny",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "hot lead x\r\ny monitor tab\there",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_ a: *bold*",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *x\ny*\n\n\n2. *Globex Corp · scope*\nhot lead x\r\ny monitor tab\there\n\n3. *Globex Corp · scope*\n_it_ a: *bold*\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "   ",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. **\n   \n\n2. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "→ \"dq\" : 2) second",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nNone\n\n2. *Globex Corp · scope*\n→ \"dq\" : 2) second\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first JPY 15,000,000 : JPY 15,000,000",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "x\r\ny ٣ items",
+    "text": "²nd hot lead é",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n1. first JPY 15,000,000 : JPY 15,000,000\n\n2. *x\r\ny ٣ items*\n²nd hot lead é\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "x\r\ny a:",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "'q'",
+    "text": "monitor monitor",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "😀",
+    "text": "  hot lead  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *x\r\ny a:*\n\n\n2. *'q'*\nmonitor monitor\n\n3. *😀*\n  hot lead  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "line sep",
+    "text": "gate None → *bold* ٣ items",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "hot lead a: _it_ é",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "٣ items",
+    "text": "  trailing   monitor ٣ items 'q'",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *line sep*\ngate None → *bold* ٣ items\n\n2. **\nhot lead a: _it_ é\n\n3. *٣ items*\n  trailing   monitor ٣ items 'q'\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "\\back 1. first None ٣ items monitor",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "hot lead",
+    "text": "\"dq\" quotation",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. **\n\\back 1. first None ٣ items monitor\n\n2. *hot lead*\n\"dq\" quotation\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\"dq\"",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. **\n\n\n2. *Globex Corp · scope*\n\"dq\"\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " ",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\n "
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "line sep quotation 2) second",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "tab\there None",
+    "text": "Laptops :",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* quotation",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nline sep quotation 2) second\n\n2. *tab\there None*\nLaptops :\n\n3. *Globex Corp · scope*\n*bold* quotation\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  trailing  ",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\n  trailing  \n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "😀",
+    "text": "Globex Corp _it_ :",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · 😀*\nGlobex Corp _it_ :\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "JPY 15,000,000 → 😀 None 1. first",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "2) second None",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. **\nJPY 15,000,000 → 😀 None 1. first\n\n2. *Globex Corp · scope*\n2) second None\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "²nd",
+    "text": "\\back",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n_it_\n\n2. *²nd*\n\\back\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "a: →",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\na: →\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "monitor →",
+    "text": "*bold* é gate",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "monitor  'q' None 1. first",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "é",
+    "text": "  trailing   😀 😀 a:  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *monitor →*\n*bold* é gate\n\n2. *Globex Corp · scope*\nmonitor  'q' None 1. first\n\n3. *é*\n  trailing   😀 😀 a:  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "tab\there line sep Globex Corp  é",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · *\ntab\there line sep Globex Corp  é\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "tab\there *bold*",
+    "text": "gate   trailing  ",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n😀\n\n2. *tab\there *bold**\ngate   trailing  \n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "gate  ",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\ngate  "
+ },
+ {
+  "topics": [
+   {
+    "tag": "日本 1. first",
+    "text": "gate quotation \\back",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · 日本 1. first*\ngate quotation \\back"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* _it_ monitor \\back line sep",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "日本",
+    "text": "  trailing   \\back None",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_ tab\there",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n*bold* _it_ monitor \\back line sep\n\n2. *日本*\n  trailing   \\back None\n\n3. *Globex Corp · scope*\n_it_ tab\there\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp \"dq\"",
+    "text": "*bold*",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp \"dq\"*\n*bold*"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "_it_ Globex Corp",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "   é ٣ items",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. **\n_it_ Globex Corp\n\n2. *Globex Corp · scope*\n   é ٣ items\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "*bold*  None",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "**\n*bold*  None\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None → None 'q'",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\nNone → None 'q'\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "2) second :",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "²nd line sep",
+    "text": "monitor",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "2) second 😀 gate x\r\ny →",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n2) second :\n\n2. *²nd line sep*\nmonitor\n\n3. **\n2) second 😀 gate x\r\ny →\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "  trailing   😀",
+    "text": "→ x\r\ny",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "JPY 15,000,000",
+    "text": "x\r\ny quotation \"dq\" 'q'",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *  trailing   😀*\n→ x\r\ny\n\n2. *JPY 15,000,000*\nx\r\ny quotation \"dq\" 'q'\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* 😀 _it_ :",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n*bold* 😀 _it_ :\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "monitor _it_ gate 'q' 日本",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "**\nmonitor _it_ gate 'q' 日本"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "hot lead Hello",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 JPY 15,000,000 \"dq\" *bold*",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. **\nhot lead Hello\n\n2. *Globex Corp · scope*\nJPY 15,000,000 JPY 15,000,000 \"dq\" *bold*\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Laptops \"dq\"   trailing   Hello",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\nLaptops \"dq\"   trailing   Hello"
+ },
+ {
+  "topics": [
+   {
+    "tag": "x\r\ny x\ny",
+    "text": "a: 日本 ²nd",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*x\r\ny x\ny*\na: 日本 ²nd"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "x\r\ny x\r\ny",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp quotation",
+    "text": "²nd   \\back ",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first gate 'q' ²nd",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. **\nx\r\ny x\r\ny\n\n2. *Globex Corp quotation*\n²nd   \\back \n\n3. *Globex Corp · scope*\n1. first gate 'q' ²nd\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " x\ny é ²nd",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n x\ny é ²nd"
+ },
+ {
+  "topics": [
+   {
+    "tag": "2) second",
+    "text": "hot lead Globex Corp gate   trailing  ",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · 2) second*\nhot lead Globex Corp gate   trailing  "
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "*bold* Northwind Traders Globex Corp 日本",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. **\n*bold* Northwind Traders Globex Corp 日本\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "é   trailing  ",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\né   trailing  "
+ },
+ {
+  "topics": [
+   {
+    "tag": "tab\there \"dq\"",
+    "text": "'q' → line sep \"dq\"  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*tab\there \"dq\"*\n'q' → line sep \"dq\"  \n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\n"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "tab\there 2) second x\r\ny _it_ ٣ items",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "**\ntab\there 2) second x\r\ny _it_ ٣ items\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "gate 😀 日本",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\ngate 😀 日本"
+ },
+ {
+  "topics": [
+   {
+    "tag": "1. first \\back",
+    "text": "Hello *bold* 日本 Globex Corp 😀",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · 1. first \\back*\nHello *bold* 日本 Globex Corp 😀\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "→",
+    "text": "\"dq\" : _it_ é",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "hot lead",
+    "text": ": a: é ٣ items None",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *→*\n\"dq\" : _it_ é\n\n2. *Globex Corp · scope*\nGlobex Corp\n\n3. *hot lead*\n: a: é ٣ items None\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "٣ items",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "gate *bold* x\ny",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n٣ items\n\n2. **\ngate *bold* x\ny\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "→ \"dq\"",
+    "text": "日本 x\r\ny",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · → \"dq\"*\n日本 x\r\ny\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000  ",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": " Hello   trailing   JPY 15,000,000",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nJPY 15,000,000  \n\n2. *Globex Corp · scope*\n Hello   trailing   JPY 15,000,000\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\nHello\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "gate ٣ items é 日本 None",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\ngate ٣ items é 日本 None"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there quotation Globex Corp Globex Corp",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "Laptops Globex Corp x\ny",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\ntab\there quotation Globex Corp Globex Corp\n\n2. **\nLaptops Globex Corp x\ny\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "_it_",
+    "text": "line sep 😀 é None",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. *_it_*\nline sep 😀 é None\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "日本 é ٣ items",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "tab\there hot lead",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "monitor monitor",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n日本 é ٣ items\n\n2. *tab\there hot lead*\n\n\n3. *Globex Corp · scope*\nmonitor monitor\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " x\ny",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · Globex Corp · scope*\n x\ny\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "'q' → 日本",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "  trailing  ",
+    "text": " 日本 x\r\ny hot lead",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "é Northwind Traders",
+    "text": "hot lead \\back \\back Hello ",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n'q' → 日本\n\n2. *  trailing  *\n 日本 x\r\ny hot lead\n\n3. *é Northwind Traders*\nhot lead \\back \\back Hello \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "quotation",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "line sep",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀  😀",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nquotation\n\n2. *line sep*\n\n\n3. *Globex Corp · scope*\n😀  😀\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " ²nd 2) second 😀",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n ²nd 2) second 😀\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp",
+    "text": "é",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp*\né"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "\"dq\" 2) second 日本 é",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "gate",
+    "text": "'q' Northwind Traders Northwind Traders 1. first",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny Hello None",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. **\n\"dq\" 2) second 日本 é\n\n2. *gate*\n'q' Northwind Traders Northwind Traders 1. first\n\n3. *Globex Corp · scope*\nx\r\ny Hello None\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Northwind Traders x\ny None",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there Laptops None *bold* a:",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nNorthwind Traders x\ny None\n\n2. *Globex Corp · scope*\ntab\there Laptops None *bold* a:\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "→ 'q' gate   trailing  ",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "a: : x\r\ny : 日本",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "'q'",
+    "text": "Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n→ 'q' gate   trailing  \n\n2. *Globex Corp · scope*\na: : x\r\ny : 日本\n\n3. *'q'*\nGlobex Corp\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "2) second Hello",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2) second Hello*\n"
+ },
+ {
+  "topics": [
+   {
+    "tag": "😀",
+    "text": "\\back 😀 JPY 15,000,000 _it_",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*😀*\n\\back 😀 JPY 15,000,000 _it_"
+ },
+ {
+  "topics": [
+   {
+    "tag": "tab\there   trailing  ",
+    "text": "",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · tab\there   trailing  *\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "  trailing  ",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": " _it_ hot lead :",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. *  trailing  *\n\n\n2. *Globex Corp · scope*\n _it_ hot lead :\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "\"dq\"",
+    "text": "²nd tab\there gate",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "日本",
+    "text": "x\r\ny x\ny \\back   trailing  ",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *\"dq\"*\n²nd tab\there gate\n\n2. *日本*\nx\r\ny x\ny \\back   trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "monitor 2) second",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\nmonitor 2) second\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny \\back é",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "2) second a:",
+    "text": "Northwind Traders",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "é",
+    "text": "→ gate Northwind Traders 😀",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nx\r\ny \\back é\n\n2. *2) second a:*\nNorthwind Traders\n\n3. *é*\n→ gate Northwind Traders 😀\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n😀\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "gate None",
+    "text": "²nd ²nd",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "gate",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *gate None*\n²nd ²nd\n\n2. **\ngate\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "Hello a: ٣ items",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · *\nHello a: ٣ items\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\\back",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n\\back\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  trailing   _it_",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "²nd JPY 15,000,000 a:",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n  trailing   _it_\n\n2. *Globex Corp · scope*\n²nd JPY 15,000,000 a:\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_ a: \\back 日本",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\n_it_ a: \\back 日本\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello → \\back",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. *Globex Corp · scope*\nHello → \\back\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "'q' tab\there \"dq\"",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": ":",
+    "text": "é 😀 gate 1. first",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n'q' tab\there \"dq\"\n\n2. *:*\né 😀 gate 1. first\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "😀 monitor",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "x\ny \"dq\"",
+    "text": "日本 a: 2) second",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. **\n😀 monitor\n\n2. *x\ny \"dq\"*\n日本 a: 2) second\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "JPY 15,000,000 'q' tab\there Globex Corp   trailing  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "**\nJPY 15,000,000 'q' tab\there Globex Corp   trailing  \n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀 JPY 15,000,000 2) second",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\"dq\" JPY 15,000,000 😀 _it_",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n😀 JPY 15,000,000 2) second\n\n2. *Globex Corp · scope*\n\"dq\" JPY 15,000,000 😀 _it_\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "²nd Northwind Traders 'q'",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Hello",
+    "text": "*bold* quotation",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n²nd Northwind Traders 'q'\n\n2. **\n\n\n3. *Hello*\n*bold* quotation\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "'q'",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "**\n'q'\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "gate",
+    "text": "line sep _it_ ²nd line sep é",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*gate*\nline sep _it_ ²nd line sep é"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\"dq\" : Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n\"dq\" : Globex Corp"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Laptops",
+    "text": "_it_ x\ny Globex Corp *bold* ²nd",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Laptops*\n_it_ x\ny Globex Corp *bold* ²nd\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "\\back x\ny",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*\\back x\ny*\n\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "Globex Corp a: 😀 1. first 'q'",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  monitor Northwind Traders x\r\ny ٣ items",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "2) second",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. **\nGlobex Corp a: 😀 1. first 'q'\n\n2. *Globex Corp · scope*\n  monitor Northwind Traders x\r\ny ٣ items\n\n3. *2) second*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "gate ²nd",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*gate ²nd*\n"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 Hello \\back 日本",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\nJPY 15,000,000 Hello \\back 日本\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "'q'",
+    "text": "tab\there",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "hot lead",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *'q'*\ntab\there\n\n2. *Globex Corp · scope*\n\n\n3. *Globex Corp · scope*\nhot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\n\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "a:",
+    "text": ": _it_ Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\ny hot lead",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *a:*\n: _it_ Globex Corp\n\n2. *Globex Corp · scope*\nx\ny hot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "→ *bold* 1. first",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "",
+    "text": "Laptops 2) second",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n→ *bold* 1. first\n\n2. **\nLaptops 2) second\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "tab\there \"dq\" x\r\ny _it_",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "None :",
+    "text": "x\ny \"dq\" *bold* hot lead",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. **\ntab\there \"dq\" x\r\ny _it_\n\n2. **\n\n\n3. *None :*\nx\ny \"dq\" *bold* hot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Laptops quotation",
+    "text": "  trailing   x\r\ny",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "é Laptops",
+    "text": "tab\there",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "2) second  : \"dq\"",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Laptops quotation*\n  trailing   x\r\ny\n\n2. *é Laptops*\ntab\there\n\n3. **\n2) second  : \"dq\"\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "2) second",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\n2) second\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "a:",
+    "text": "x\r\ny ²nd",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "'q' a:  2) second line sep",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *a:*\nx\r\ny ²nd\n\n2. **\n'q' a:  2) second line sep\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "日本 None",
+    "text": "    1. first",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "日本 line sep",
+    "text": "😀 JPY 15,000,000",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *日本 None*\n    1. first\n\n2. *日本 line sep*\n😀 JPY 15,000,000\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Hello",
+    "text": "hot lead",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": ":   trailing   *bold* JPY 15,000,000",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Hello*\nhot lead\n\n2. **\n:   trailing   *bold* JPY 15,000,000\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Globex Corp 日本 x\ny",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\nGlobex Corp 日本 x\ny\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "Northwind Traders ٣ items",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there ²nd",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. **\nNorthwind Traders ٣ items\n\n2. *Globex Corp · scope*\ntab\there ²nd\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp line sep",
+    "text": "a:",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "→   Globex Corp Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp line sep*\na:\n\n2. **\n→   Globex Corp Globex Corp\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "gate",
+    "text": "٣ items é 'q'",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. *Globex Corp · scope*\n\n\n3. *gate*\n٣ items é 'q'\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello   2) second _it_  ",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_ tab\there JPY 15,000,000 x\ny line sep",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nHello   2) second _it_  \n\n2. *Globex Corp · scope*\n_it_ tab\there JPY 15,000,000 x\ny line sep\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny x\ny",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · Globex Corp · scope*\nx\r\ny x\ny\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "日本 'q'  ",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n日本 'q'  "
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\ny JPY 15,000,000",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · Globex Corp · scope*\nx\ny JPY 15,000,000\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "'q' x\ny monitor ",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "²nd Laptops",
+    "text": "😀 ²nd",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n'q' x\ny monitor \n\n2. *²nd Laptops*\n😀 ²nd\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "*bold* line sep",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "日本 😀  gate",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. **bold* line sep*\n\n\n2. *Globex Corp · scope*\n日本 😀  gate\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\"dq\" 日本 _it_ ²nd 日本",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\n\"dq\" 日本 _it_ ²nd 日本\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "'q'   trailing   *bold*",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "**\n'q'   trailing   *bold*\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello hot lead monitor Globex Corp ",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "",
+    "text": "→ ",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nHello hot lead monitor Globex Corp \n\n2. **\n→ \n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\ny",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": " ",
+    "text": "٣ items a: monitor Laptops ²nd",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nx\ny\n\n2. * *\n٣ items a: monitor Laptops ²nd\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "²nd None ٣ items",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n²nd None ٣ items\n\n2. **\n\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello :",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "gate 'q'",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "é",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nHello :\n\n2. *Globex Corp · scope*\ngate 'q'\n\n3. *Globex Corp · scope*\né\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "x\r\ny",
+    "text": ": → Northwind Traders",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello _it_ None",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *x\r\ny*\n: → Northwind Traders\n\n2. *Globex Corp · scope*\n\n\n3. *Globex Corp · scope*\nHello _it_ None\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "'q' \"dq\" None",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "é 😀",
+    "text": "2) second é Laptops Globex Corp →",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Laptops Laptops hot lead 1. first",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n'q' \"dq\" None\n\n2. *é 😀*\n2) second é Laptops Globex Corp →\n\n3. *Globex Corp · scope*\nLaptops Laptops hot lead 1. first\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "x\ny Laptops Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "**\nx\ny Laptops Globex Corp\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* ²nd \\back é",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "",
+    "text": "٣ items tab\there",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n*bold* ²nd \\back é\n\n2. **\n٣ items tab\there\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Laptops None",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\nLaptops None"
+ },
+ {
+  "topics": [
+   {
+    "tag": "日本",
+    "text": "*bold*   trailing   _it_",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*日本*\n*bold*   trailing   _it_\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " monitor line sep ٣ items",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\n monitor line sep ٣ items\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "²nd hot lead   'q' x\r\ny",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\n²nd hot lead   'q' x\r\ny\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None 1. first ²nd gate 😀",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "*bold* hot lead",
+    "text": "\\back *bold* Hello Laptops   trailing  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nNone 1. first ²nd gate 😀\n\n2. **bold* hot lead*\n\\back *bold* Hello Laptops   trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Globex Corp *bold* gate Hello",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "²nd Laptops 'q'",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "None",
+    "text": "\\back line sep 😀",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nGlobex Corp *bold* gate Hello\n\n2. **\n²nd Laptops 'q'\n\n3. *None*\n\\back line sep 😀\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\nNone\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "x\r\ny",
+    "text": "Northwind Traders 'q' Hello \\back line sep",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "monitor 日本 *bold*",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there quotation",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *x\r\ny*\nNorthwind Traders 'q' Hello \\back line sep\n\n2. *Globex Corp · scope*\nmonitor 日本 *bold*\n\n3. *Globex Corp · scope*\ntab\there quotation\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "JPY 15,000,000",
+    "text": "None",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "gate → line sep monitor",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* \\back  ",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *JPY 15,000,000*\nNone\n\n2. *Globex Corp · scope*\ngate → line sep monitor\n\n3. *Globex Corp · scope*\n*bold* \\back  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "hot lead ²nd x\r\ny 2) second None",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "**\nhot lead ²nd x\r\ny 2) second None\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "*bold* _it_",
+    "text": "→",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "**bold* _it_*\n→\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "line sep *bold*",
+    "text": "x\ny JPY 15,000,000 😀 ٣ items Northwind Traders",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. *line sep *bold**\nx\ny JPY 15,000,000 😀 ٣ items Northwind Traders\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "None line sep",
+    "text": ": monitor a:",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*None line sep*\n: monitor a:"
+ },
+ {
+  "topics": [
+   {
+    "tag": "  quotation",
+    "text": "_it_ Northwind Traders a:",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "  Laptops",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *  quotation*\n_it_ Northwind Traders a:\n\n2. *  Laptops*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "_it_ é None 'q'",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  日本 1. first hot lead",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. **\n_it_ é None 'q'\n\n2. **\n\n\n3. *Globex Corp · scope*\n  日本 1. first hot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "gate JPY 15,000,000",
+    "text": "Laptops *bold* ٣ items JPY 15,000,000 \"dq\"",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*gate JPY 15,000,000*\nLaptops *bold* ٣ items JPY 15,000,000 \"dq\""
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n"
+ },
+ {
+  "topics": [
+   {
+    "tag": "x\r\ny _it_",
+    "text": "1. first",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Laptops",
+    "text": "'q' line sep 日本 Globex Corp",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. *x\r\ny _it_*\n1. first\n\n2. *Laptops*\n'q' line sep 日本 Globex Corp\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "\\back",
+    "text": "None",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · \\back*\nNone"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · *\n\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Northwind Traders",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\nNorthwind Traders\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "٣ items 日本 Hello x\r\ny a:",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Laptops 😀",
+    "text": "٣ items",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  trailing   é Globex Corp",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n٣ items 日本 Hello x\r\ny a:\n\n2. *Laptops 😀*\n٣ items\n\n3. *Globex Corp · scope*\n  trailing   é Globex Corp\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello Globex Corp \\back ",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "line sep tab\there",
+    "text": "quotation hot lead a: 2) second gate",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "😀 gate",
+    "text": "quotation",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nHello Globex Corp \\back \n\n2. *line sep tab\there*\nquotation hot lead a: 2) second gate\n\n3. *😀 gate*\nquotation\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* :",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "'q' Globex Corp",
+    "text": "Northwind Traders x\r\ny",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n*bold* :\n\n2. *'q' Globex Corp*\nNorthwind Traders x\r\ny\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. **\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "日本",
+    "text": "a:",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*日本*\na:\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "**\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " tab\there",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · Globex Corp · scope*\n tab\there\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": " Globex Corp",
+    "text": "Hello  ",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "hot lead é",
+    "text": "→  ",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. * Globex Corp*\nHello  \n\n2. *hot lead é*\n→  \n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Laptops",
+    "text": "Globex Corp Northwind Traders",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "٣ items",
+    "text": "x\r\ny   trailing   Globex Corp 日本",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Laptops*\nGlobex Corp Northwind Traders\n\n2. *٣ items*\nx\r\ny   trailing   Globex Corp 日本\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "é Northwind Traders hot lead \"dq\" Northwind Traders",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · Globex Corp · scope*\né Northwind Traders hot lead \"dq\" Northwind Traders\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "hot lead → Globex Corp",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "line sep line sep ٣ items",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "\\back  😀 :",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. **\nhot lead → Globex Corp\n\n2. *Globex Corp · scope*\nline sep line sep ٣ items\n\n3. **\n\\back  😀 :\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\n\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\\back _it_ gate _it_ 'q'",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "😀 a:",
+    "text": "",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None _it_ Hello *bold*  ",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n\\back _it_ gate _it_ 'q'\n\n2. *😀 a:*\n\n\n3. *Globex Corp · scope*\nNone _it_ Hello *bold*  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "quotation x\ny →",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "**\nquotation x\ny →\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Laptops : tab\there Laptops",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\nLaptops : tab\there Laptops"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_   trailing  ",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "→ x\r\ny 2) second",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n_it_   trailing  \n\n2. *Globex Corp · scope*\n→ x\r\ny 2) second\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "→ \"dq\" a:",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "**\n→ \"dq\" a:\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold*",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "hot lead ٣ items",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\ny monitor 😀 'q'   trailing  ",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n*bold*\n\n2. *Globex Corp · scope*\nhot lead ٣ items\n\n3. *Globex Corp · scope*\nx\ny monitor 😀 'q'   trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "monitor",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "'q'",
+    "text": ": Hello ²nd a:",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "tab\there",
+    "text": "gate tab\there \\back",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. **\nmonitor\n\n2. *'q'*\n: Hello ²nd a:\n\n3. *tab\there*\ngate tab\there \\back\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "JPY 15,000,000  ",
+    "text": "\"dq\" x\ny",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · JPY 15,000,000  *\n\"dq\" x\ny\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Globex Corp 2) second gate 2) second",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nGlobex Corp 2) second gate 2) second\n\n2. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "٣ items",
+    "text": "٣ items x\ny ²nd \\back :",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · ٣ items*\n٣ items x\ny ²nd \\back :\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "→ 日本",
+    "text": "JPY 15,000,000 hot lead quotation   tab\there",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*→ 日本*\nJPY 15,000,000 hot lead quotation   tab\there\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\ny 1. first",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\nx\ny 1. first"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "Globex Corp 😀  *bold* 2) second",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "**\nGlobex Corp 😀  *bold* 2) second\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "é hot lead",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Laptops",
+    "text": " _it_",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "gate",
+    "text": "x\ny   trailing  ",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\né hot lead\n\n2. *Laptops*\n _it_\n\n3. *gate*\nx\ny   trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "x\r\ny",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · *\nx\r\ny\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "  trailing  ",
+    "text": "2) second Globex Corp tab\there a:",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "monitor",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *  trailing  *\n2) second Globex Corp tab\there a:\n\n2. *Globex Corp · scope*\nmonitor\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 : : \\back",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold*  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n😀\n\n2. *Globex Corp · scope*\nJPY 15,000,000 : : \\back\n\n3. *Globex Corp · scope*\n*bold*  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "²nd x\ny",
+    "text": "Globex Corp",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · ²nd x\ny*\nGlobex Corp\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "é JPY 15,000,000 quotation",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\né JPY 15,000,000 quotation"
+ },
+ {
+  "topics": [
+   {
+    "tag": " 日本",
+    "text": "Hello   trailing  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "* 日本*\nHello   trailing  \n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first   trailing   Northwind Traders quotation \\back",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n1. first   trailing   Northwind Traders quotation \\back\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\\back Hello JPY 15,000,000 1. first _it_",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\n\\back Hello JPY 15,000,000 1. first _it_\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "line sep  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\nline sep  \n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "x\r\ny None 😀 ٣ items Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. **\nx\r\ny None 😀 ٣ items Globex Corp\n\n2. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "_it_",
+    "text": "٣ items *bold* quotation line sep",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. *_it_*\n٣ items *bold* quotation line sep\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "²nd",
+    "text": "*bold* →",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. *Globex Corp · scope*\n\n\n3. *²nd*\n*bold* →\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "'q'",
+    "text": "\"dq\" → tab\there None None",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · 'q'*\n\"dq\" → tab\there None None\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "line sep ",
+    "text": "*bold* monitor   trailing  ",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · line sep *\n*bold* monitor   trailing  \n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\ny Northwind Traders    Northwind Traders",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · Globex Corp · scope*\nx\ny Northwind Traders    Northwind Traders\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · Globex Corp · scope*\n\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "JPY 15,000,000 ²nd",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*JPY 15,000,000 ²nd*\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "'q'",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · *\n'q'\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Northwind Traders",
+    "text": "quotation 'q'",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Northwind Traders*\nquotation 'q'\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "é",
+    "text": "Northwind Traders \"dq\"",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · é*\nNorthwind Traders \"dq\"\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": " *bold*",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "**\n *bold*"
+ },
+ {
+  "topics": [
+   {
+    "tag": "hot lead",
+    "text": "tab\there",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "x\r\ny 1. first",
+    "text": "Laptops *bold*",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *hot lead*\ntab\there\n\n2. *Globex Corp · scope*\n_it_\n\n3. *x\r\ny 1. first*\nLaptops *bold*\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "a:",
+    "text": "é",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first x\ny ٣ items",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "tab\there",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *a:*\né\n\n2. *Globex Corp · scope*\n1. first x\ny ٣ items\n\n3. **\ntab\there\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* monitor → 'q' é",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny  é",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n*bold* monitor → 'q' é\n\n2. *Globex Corp · scope*\n\n\n3. *Globex Corp · scope*\nx\r\ny  é\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "line sep \\back",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello 😀 None :   trailing  ",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Laptops",
+    "text": "Laptops *bold* quotation",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nline sep \\back\n\n2. *Globex Corp · scope*\nHello 😀 None :   trailing  \n\n3. *Laptops*\nLaptops *bold* quotation\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " Northwind Traders tab\there",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "tab\there",
+    "text": "x\r\ny \"dq\"   Hello \"dq\"",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "_it_ x\r\ny",
+    "text": "hot lead",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n Northwind Traders tab\there\n\n2. *tab\there*\nx\r\ny \"dq\"   Hello \"dq\"\n\n3. *_it_ x\r\ny*\nhot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 日本 1. first",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "'q'",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "None",
+    "text": "None",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nJPY 15,000,000 日本 1. first\n\n2. *Globex Corp · scope*\n'q'\n\n3. *None*\nNone\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  x\ny None é",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "1. first x\r\ny x\ny → 1. first",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n  x\ny None é\n\n2. **\n1. first x\r\ny x\ny → 1. first\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 日本 line sep *bold*",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "None a: é _it_ hot lead",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. **\n\n\n2. *Globex Corp · scope*\nJPY 15,000,000 日本 line sep *bold*\n\n3. **\nNone a: é _it_ hot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* \\back 日本 ٣ items",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n*bold* \\back 日本 ٣ items\n\n2. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny   trailing   x\ny line sep",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello 😀",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nx\r\ny   trailing   x\ny line sep\n\n2. *Globex Corp · scope*\nHello 😀\n\n3. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "a: tab\there",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀 Hello   trailing  ",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "→ 2) second hot lead JPY 15,000,000 2) second",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\na: tab\there\n\n2. *Globex Corp · scope*\n😀 Hello   trailing  \n\n3. **\n→ 2) second hot lead JPY 15,000,000 2) second\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "*bold*  ",
+    "text": "monitor monitor a: quotation _it_",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "**bold*  *\nmonitor monitor a: quotation _it_\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "x\r\ny  ",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · *\nx\r\ny  \n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "gate",
+    "text": "'q'",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*gate*\n'q'\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  trailing   None ٣ items gate",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\n  trailing   None ٣ items gate\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny hot lead",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nx\r\ny hot lead\n\n2. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "line sep",
+    "text": "tab\there x\ny ²nd",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · line sep*\ntab\there x\ny ²nd\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first x\ny : None",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀 None hot lead hot lead",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n1. first x\ny : None\n\n2. *Globex Corp · scope*\n😀 None hot lead hot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "\"dq\"",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "quotation line sep",
+    "text": "_it_ 日本 x\ny Northwind Traders",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "hot lead _it_ Northwind Traders",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. **\n\"dq\"\n\n2. *quotation line sep*\n_it_ 日本 x\ny Northwind Traders\n\n3. *Globex Corp · scope*\nhot lead _it_ Northwind Traders\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 2) second →",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\nJPY 15,000,000 2) second →"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "2) second hot lead Hello ٣ items",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "",
+    "text": "\"dq\" a:   trailing  ",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n2) second hot lead Hello ٣ items\n\n2. **\n\"dq\" a:   trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · Globex Corp · scope*\n\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "monitor",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "x\ny :",
+    "text": "tab\there \"dq\"",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nmonitor\n\n2. *x\ny :*\ntab\there \"dq\"\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "日本 😀 : quotation →",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "tab\there ٣ items",
+    "text": "tab\there \"dq\" a:",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n日本 😀 : quotation →\n\n2. *tab\there ٣ items*\ntab\there \"dq\" a:\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "line sep tab\there",
+    "text": "1. first",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "٣ items",
+    "text": "monitor 2) second line sep Northwind Traders",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *line sep tab\there*\n1. first\n\n2. *٣ items*\nmonitor 2) second line sep Northwind Traders\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "quotation",
+    "text": "x\r\ny hot lead JPY 15,000,000 Globex Corp JPY 15,000,000",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*quotation*\nx\r\ny hot lead JPY 15,000,000 Globex Corp JPY 15,000,000\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_ \\back \"dq\"   trailing  ",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n_it_ \\back \"dq\"   trailing  \n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "_it_",
+    "text": "é Hello ٣ items Northwind Traders →",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*_it_*\né Hello ٣ items Northwind Traders →\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "line sep Hello line sep",
+    "urgent": true,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n\n\n2. *Globex Corp · scope*\nline sep Hello line sep\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": ": Northwind Traders quotation",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "²nd",
+    "text": " x\r\ny monitor",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": " ",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. **\n: Northwind Traders quotation\n\n2. *²nd*\n x\r\ny monitor\n\n3. *Globex Corp · scope*\n \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 hot lead   trailing   Globex Corp   trailing  ",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "line sep Globex Corp",
+    "text": "→",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "_it_",
+    "text": "Globex Corp Hello Northwind Traders",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nJPY 15,000,000 hot lead   trailing   Globex Corp   trailing  \n\n2. *line sep Globex Corp*\n→\n\n3. *_it_*\nGlobex Corp Hello Northwind Traders\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "  trailing  ",
+    "text": "→ gate   trailing    ",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "日本",
+    "text": "😀  None quotation  ",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold* 日本 \"dq\" : 1. first",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *  trailing  *\n→ gate   trailing    \n\n2. *日本*\n😀  None quotation  \n\n3. *Globex Corp · scope*\n*bold* 日本 \"dq\" : 1. first\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "→ \\back gate line sep",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "monitor  'q' a:",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n→ \\back gate line sep\n\n2. *Globex Corp · scope*\nmonitor  'q' a:\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\\back 日本 \\back Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n\\back 日本 \\back Globex Corp\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there hot lead   trailing   gate *bold*",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "1. first",
+    "text": "hot lead quotation",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\ntab\there hot lead   trailing   gate *bold*\n\n2. *1. first*\nhot lead quotation\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None Hello Hello tab\there ",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · Globex Corp · scope*\nNone Hello Hello tab\there \n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "٣ items line sep",
+    "text": "hot lead   hot lead",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · ٣ items line sep*\nhot lead   hot lead\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "gate",
+    "text": "1. first 2) second 日本",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*gate*\n1. first 2) second 日本\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Hello",
+    "text": "→ 日本",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Hello*\n→ 日本"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Laptops : None",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\nLaptops : None"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Hello Laptops",
+    "text": "line sep quotation 😀   trailing   Hello",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Laptops ٣ items ٣ items",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first _it_ _it_ 😀 JPY 15,000,000",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *Hello Laptops*\nline sep quotation 😀   trailing   Hello\n\n2. *Globex Corp · scope*\nLaptops ٣ items ٣ items\n\n3. *Globex Corp · scope*\n1. first _it_ _it_ 😀 JPY 15,000,000\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\\back Laptops *bold* → hot lead",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n\\back Laptops *bold* → hot lead"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Northwind Traders \"dq\" :",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": ":",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nNorthwind Traders \"dq\" :\n\n2. *:*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "→ Laptops Hello →",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "**\n→ Laptops Hello →\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "Laptops : →",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "**\nLaptops : →\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  😀 Laptops 2) second",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\n  😀 Laptops 2) second\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": ":",
+    "text": "_it_ 2) second : \"dq\" hot lead",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "gate",
+    "text": "²nd monitor Globex Corp",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *:*\n_it_ 2) second : \"dq\" hot lead\n\n2. *Globex Corp · scope*\nx\r\ny\n\n3. *gate*\n²nd monitor Globex Corp\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Northwind Traders",
+    "text": "*bold*",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "a: Globex Corp line sep a:",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Northwind Traders*\n*bold*\n\n2. *Globex Corp · scope*\na: Globex Corp line sep a:\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "٣ items line sep",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Laptops",
+    "text": "line sep Globex Corp \"dq\" ²nd",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "→ x\r\ny",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n٣ items line sep\n\n2. *Laptops*\nline sep Globex Corp \"dq\" ²nd\n\n3. *Globex Corp · scope*\n→ x\r\ny\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "JPY 15,000,000",
+    "text": "1. first → \"dq\"",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": " JPY 15,000,000",
+    "text": "²nd",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *JPY 15,000,000*\n1. first → \"dq\"\n\n2. * JPY 15,000,000*\n²nd\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  Globex Corp ²nd",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "٣ items 😀 x\ny Laptops",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "²nd 1. first \"dq\" 2) second gate",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n  Globex Corp ²nd\n\n2. **\n٣ items 😀 x\ny Laptops\n\n3. **\n²nd 1. first \"dq\" 2) second gate\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "2) second",
+    "text": "JPY 15,000,000 Globex Corp gate",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2) second*\nJPY 15,000,000 Globex Corp gate\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "JPY 15,000,000",
+    "text": "tab\there _it_ monitor 日本",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · JPY 15,000,000*\ntab\there _it_ monitor 日本\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None JPY 15,000,000",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\nNone JPY 15,000,000"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_   trailing  ",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "quotation 1. first",
+    "text": "²nd 😀 a: Hello",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "\"dq\" gate 1. first",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n_it_   trailing  \n\n2. *quotation 1. first*\n²nd 😀 a: Hello\n\n3. *Globex Corp · scope*\n\"dq\" gate 1. first\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "hot lead JPY 15,000,000 → hot lead",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\nhot lead JPY 15,000,000 → hot lead\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": ": 2) second",
+    "text": "a: Northwind Traders   \"dq\"",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · : 2) second*\na: Northwind Traders   \"dq\""
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "gate 日本 é",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "**\ngate 日本 é"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first 😀 Globex Corp hot lead",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Northwind Traders",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "quotation   trailing  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n1. first 😀 Globex Corp hot lead\n\n2. *Globex Corp · scope*\nNorthwind Traders\n\n3. *Globex Corp · scope*\nquotation   trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "٣ items line sep",
+    "text": " None é *bold* ",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "None",
+    "text": "  trailing   😀 JPY 15,000,000",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *٣ items line sep*\n None é *bold* \n\n2. *None*\n  trailing   😀 JPY 15,000,000\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "é None",
+    "text": "  monitor",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "tab\there Globex Corp Hello \"dq\"",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "٣ items Globex Corp",
+    "text": "*bold* \"dq\" _it_ a: Globex Corp",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *é None*\n  monitor\n\n2. *Globex Corp · scope*\ntab\there Globex Corp Hello \"dq\"\n\n3. *٣ items Globex Corp*\n*bold* \"dq\" _it_ a: Globex Corp\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first → line sep 2) second Hello",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Globex Corp · scope*\n1. first → line sep 2) second Hello\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "→",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "1. first _it_ 2) second 2) second ²nd",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. **\n\n\n2. *Globex Corp · scope*\n→\n\n3. *Globex Corp · scope*\n1. first _it_ 2) second 2) second ²nd\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "gate",
+    "text": "Hello *bold* : 2) second",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*gate*\nHello *bold* : 2) second"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " 2) second \\back",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · Globex Corp · scope*\n 2) second \\back\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "a: Globex Corp None",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None gate Laptops",
+    "urgent": true,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp tab\there",
+    "text": "Globex Corp 日本 x\ny x\ny",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\na: Globex Corp None\n\n2. *Globex Corp · scope*\nNone gate Laptops\n\n3. *Globex Corp tab\there*\nGlobex Corp 日本 x\ny x\ny\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "None 😀",
+    "text": "٣ items _it_ None ",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "_it_ Laptops",
+    "text": "2) second None",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "a: \\back",
+    "text": "a: a: tab\there Globex Corp  ",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *None 😀*\n٣ items _it_ None \n\n2. *_it_ Laptops*\n2) second None\n\n3. *a: \\back*\na: a: tab\there Globex Corp  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello x\ny",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · Globex Corp · scope*\nHello x\ny\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Northwind Traders  ",
+    "text": "'q'",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Northwind Traders  *\n'q'"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "_it_ Laptops",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Urgent · Globex Corp · scope*\n_it_ Laptops\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "gate ²nd Laptops",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "  trailing   é",
+    "text": "1. first monitor monitor",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  trailing  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. **\ngate ²nd Laptops\n\n2. *  trailing   é*\n1. first monitor monitor\n\n3. *Globex Corp · scope*\n  trailing  \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "😀 → : ²nd \"dq\"",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\n😀 → : ²nd \"dq\""
+ },
+ {
+  "topics": [
+   {
+    "tag": "é   trailing  ",
+    "text": "gate 😀",
+    "urgent": false,
+    "kind": "question"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*é   trailing  *\ngate 😀\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Globex Corp  JPY 15,000,000 quotation",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Globex Corp   trailing   日本 tab\there",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": ": *bold* Laptops",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nGlobex Corp  JPY 15,000,000 quotation\n\n2. *Globex Corp · scope*\nGlobex Corp   trailing   日本 tab\there\n\n3. *Globex Corp · scope*\n: *bold* Laptops\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Northwind Traders   ²nd gate   trailing  ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\nNorthwind Traders   ²nd gate   trailing  \n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*Urgent · *\n\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_5 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "\\back",
+    "text": "\\back",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None x\ny \\back *bold*",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "JPY 15,000,000 ٣ items",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*3 things for you*\n\n1. *\\back*\n\\back\n\n2. *Globex Corp · scope*\nNone x\ny \\back *bold*\n\n3. *Globex Corp · scope*\nJPY 15,000,000 ٣ items\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "None",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": " ²nd",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\nNone\n\n2. *Globex Corp · scope*\n ²nd\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "gate _it_   trailing   ",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\ngate _it_   trailing   \n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "日本 é",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · *\n日本 é\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "quotation 😀 tab\there *bold*",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "a:  ",
+    "text": "line sep _it_ quotation",
+    "urgent": false,
+    "kind": "question"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "é : JPY 15,000,000 ",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\nquotation 😀 tab\there *bold*\n\n2. *a:  *\nline sep _it_ quotation\n\n3. *Globex Corp · scope*\né : JPY 15,000,000 \n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "2) second x\r\ny",
+    "text": "1. first 😀 日本 \\back",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2) second x\r\ny*\n1. first 😀 日本 \\back\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "hot lead tab\there",
+    "text": ": None",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Urgent · hot lead tab\there*\n: None\n\n_2 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Laptops \\back",
+    "text": "٣ items 日本 monitor quotation 'q'",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*2 things for you*\n\n1. *Laptops \\back*\n٣ items 日本 monitor quotation 'q'\n\n2. *Globex Corp · scope*\n\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "",
+    "text": "→ Hello",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "",
+    "text": "Laptops x\r\ny hot lead",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. **\n→ Hello\n\n2. **\nLaptops x\r\ny hot lead\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Laptops",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\nLaptops\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "'q' None",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "日本",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*2 things for you*\n\n1. *Globex Corp · scope*\n'q' None\n\n2. **\n日本\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "→ 😀",
+    "text": "None tab\there",
+    "urgent": false,
+    "kind": "approval"
+   },
+   {
+    "tag": "",
+    "text": "  trailing   JPY 15,000,000 ٣ items 1. first \"dq\"",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "_it_",
+    "text": "2) second \\back",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*3 things for you*\n\n1. *→ 😀*\nNone tab\there\n\n2. **\n  trailing   JPY 15,000,000 ٣ items 1. first \"dq\"\n\n3. *_it_*\n2) second \\back\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": " Globex Corp 'q' monitor",
+    "urgent": true,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Urgent · Globex Corp · scope*\n Globex Corp 'q' monitor\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "  monitor x\ny JPY 15,000,000",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n  monitor x\ny JPY 15,000,000"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "٣ items \"dq\" Laptops",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 0,
+  "text": "*Globex Corp · scope*\n٣ items \"dq\" Laptops\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip)."
+ },
+ {
+  "topics": [
+   {
+    "tag": "1. first Globex Corp",
+    "text": " ٣ items x\ny",
+    "urgent": true,
+    "kind": "approval"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "x\r\ny line sep",
+    "urgent": false,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*2 things for you*\n\n1. *1. first Globex Corp*\n ٣ items x\ny\n\n2. *Globex Corp · scope*\nx\r\ny line sep\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "2) second gate 😀",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 1,
+  "text": "*Globex Corp · scope*\n2) second gate 😀\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_1 more after this: answer this one, or reply *next*._"
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "*bold*",
+    "urgent": false,
+    "kind": "alert"
+   },
+   {
+    "tag": "Globex Corp · scope",
+    "text": "",
+    "urgent": true,
+    "kind": "question"
+   },
+   {
+    "tag": "quotation",
+    "text": " Northwind Traders _it_",
+    "urgent": true,
+    "kind": "alert"
+   }
+  ],
+  "lang": "en",
+  "more": 5,
+  "text": "*3 things for you*\n\n1. *Globex Corp · scope*\n*bold*\n\n2. *Globex Corp · scope*\n\n\n3. *quotation*\n Northwind Traders _it_\n\nReply to a message to answer it, or just tell me."
+ },
+ {
+  "topics": [
+   {
+    "tag": "Globex Corp · scope",
+    "text": "Hello : line sep",
+    "urgent": false,
+    "kind": "approval"
+   }
+  ],
+  "lang": "en",
+  "more": 2,
+  "text": "*Globex Corp · scope*\nHello : line sep\n\nReply yes, no, or tell me what to change (1 apply, 2 view, 3 skip).\n\n_2 more after this: answer this one, or reply *next*._"
+ }
+]

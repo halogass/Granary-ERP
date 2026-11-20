@@ -1,0 +1,110 @@
+[
+ {
+  "type": "RuntimeError",
+  "text": "subscriber blew up",
+  "plain": "RuntimeError: subscriber blew up",
+  "type_and_str": "RuntimeError: subscriber blew up"
+ },
+ {
+  "type": "ValueError",
+  "text": "multi\nline message",
+  "plain": "ValueError: multi",
+  "type_and_str": "ValueError: multi\nline message"
+ },
+ {
+  "type": "Exception",
+  "text": "",
+  "plain": "Exception",
+  "type_and_str": "Exception: "
+ },
+ {
+  "type": "Exception",
+  "text": "   ",
+  "plain": "Exception",
+  "type_and_str": "Exception:    "
+ },
+ {
+  "type": "KeyError",
+  "text": "'k'",
+  "plain": "KeyError: 'k'",
+  "type_and_str": "KeyError: 'k'"
+ },
+ {
+  "type": "Exception",
+  "text": "<class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1 [SQL: INSERT INTO x VALUES ($1)]",
+  "plain": "Exception: invalid input for query argument $1",
+  "type_and_str": "Exception: <class 'asyncpg.exceptions.DataError'>: invalid input for query argument $1 [SQL: INSERT INTO x VALUES ($1)]"
+ },
+ {
+  "type": "Exception",
+  "text": "(sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation \"x\" does not exist\n[SQL: SELECT 1]",
+  "plain": "Exception: relation \"x\" does not exist",
+  "type_and_str": "Exception: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation \"x\" does not exist\n[SQL: SELECT 1]"
+ },
+ {
+  "type": "Exception",
+  "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "plain": "Exception: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "type_and_str": "Exception: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ },
+ {
+  "type": "Exception",
+  "text": "üüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü",
+  "plain": "Exception: üüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü",
+  "type_and_str": "Exception: üüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüüü"
+ },
+ {
+  "type": "Exception",
+  "text": "<class 'a.b'>:no-space",
+  "plain": "Exception: no-space",
+  "type_and_str": "Exception: <class 'a.b'>:no-space"
+ },
+ {
+  "type": "Exception",
+  "text": "(a.bError)   trailing  ",
+  "plain": "Exception: trailing",
+  "type_and_str": "Exception: (a.bError)   trailing  "
+ },
+ {
+  "type": "HTTPException",
+  "text": "409: This card is already applied.",
+  "plain": "HTTPException: 409: This card is already applied.",
+  "type_and_str": "HTTPException: 409: This card is already applied."
+ },
+ {
+  "type": "HTTPException",
+  "text": "502: Not sent: x",
+  "plain": "HTTPException: 502: Not sent: x",
+  "type_and_str": "HTTPException: 502: Not sent: x"
+ },
+ {
+  "type": "IntegrityError",
+  "text": "<class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint \"uq_leads_x\"\nDETAIL:  Key (x)=(1) already exists.",
+  "plain": "A record with these values already exists (uq_leads_x).",
+  "type_and_str": "IntegrityError: (__main__._Orig) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint \"uq_leads_x\"\nDETAIL:  Key (x)=(1) already exists.\n[SQL: INSERT INTO t VALUES (1)]\n[parameters: {'a': 1}]\n(Background on this error at: https://sqlalche.me/e/20/gkpj)"
+ },
+ {
+  "type": "IntegrityError",
+  "text": "<class 'asyncpg.exceptions.ForeignKeyViolationError'>: insert or update on table \"t\" violates foreign key constraint \"fk_t_u\"\nDETAIL: x",
+  "plain": "It points to a record that doesn't exist (fk_t_u).",
+  "type_and_str": "IntegrityError: (__main__._Orig) <class 'asyncpg.exceptions.ForeignKeyViolationError'>: insert or update on table \"t\" violates foreign key constraint \"fk_t_u\"\nDETAIL: x\n[SQL: INSERT INTO t VALUES (1)]\n[parameters: {'a': 1}]\n(Background on this error at: https://sqlalche.me/e/20/gkpj)"
+ },
+ {
+  "type": "IntegrityError",
+  "text": "<class 'asyncpg.exceptions.NotNullViolationError'>: null value in column \"x\" violates not-null constraint",
+  "plain": "IntegrityError: null value in column \"x\" violates not-null constraint",
+  "type_and_str": "IntegrityError: (__main__._Orig) <class 'asyncpg.exceptions.NotNullViolationError'>: null value in column \"x\" violates not-null constraint\n[SQL: INSERT]\n(Background on this error at: https://sqlalche.me/e/20/gkpj)"
+ },
+ {
+  "type": "DBAPIError",
+  "text": "<class 'asyncpg.exceptions.InterfaceError'>: connection is closed",
+  "plain": "DBAPIError: connection is closed",
+  "type_and_str": "DBAPIError: (__main__._Orig) <class 'asyncpg.exceptions.InterfaceError'>: connection is closed\n[SQL: SELECT]\n(Background on this error at: https://sqlalche.me/e/20/dbapi)"
+ },
+ {
+  "type": "DBAPIError",
+  "text": "",
+  "plain": "DBAPIError",
+  "type_and_str": "DBAPIError: (__main__._Orig) \n[SQL: SELECT]\n(Background on this error at: https://sqlalche.me/e/20/dbapi)"
+ }
+]

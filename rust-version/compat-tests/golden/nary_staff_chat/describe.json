@@ -1,0 +1,339 @@
+[
+ {
+  "p": {},
+  "out": "a change"
+ },
+ {
+  "p": {
+   "kind": null
+  },
+  "out": "a change"
+ },
+ {
+  "p": {
+   "kind": "something_new"
+  },
+  "out": "something new"
+ },
+ {
+  "p": {
+   "summary": "Just a summary"
+  },
+  "out": "Just a summary"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "summary": "Globex Corp",
+   "payload": {
+    "items": [
+     1,
+     2
+    ]
+   }
+  },
+  "out": "Draft quotation: Globex Corp (2 lines)"
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "payload": {
+    "items": [
+     1
+    ]
+   }
+  },
+  "out": "Draft invoice (1 line)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": null
+  },
+  "out": "Draft quotation (0 lines)"
+ },
+ {
+  "p": {
+   "kind": "invoice",
+   "title": "T",
+   "payload": {
+    "items": []
+   },
+   "currency": "usd"
+  },
+  "out": "Draft invoice: T (0 lines)"
+ },
+ {
+  "p": {
+   "kind": "quotation",
+   "payload": {
+    "currency": "eur",
+    "items": [
+     {
+      "a": 1
+     }
+    ]
+   }
+  },
+  "out": "Draft quotation (1 line)"
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "update",
+   "object_type": "contact",
+   "label": "John",
+   "after": {
+    "phone": "1"
+   },
+   "record_id": "r1",
+   "display": {
+    "organization_id": "Globex Corp",
+    "name": "x",
+    "lead_id": "Lead A"
+   }
+  },
+  "out": "Update contact: John (linked to Globex Corp, Lead A)"
+ },
+ {
+  "p": {
+   "kind": "record_change"
+  },
+  "out": "Change record"
+ },
+ {
+  "p": {
+   "kind": "record_change",
+   "action": "cREATE",
+   "label": ""
+  },
+  "out": "Create record"
+ },
+ {
+  "p": {
+   "kind": "sop",
+   "title": "Returns",
+   "payload": {
+    "title": "Returns"
+   }
+  },
+  "out": "SOP draft: Returns"
+ },
+ {
+  "p": {
+   "kind": "sop"
+  },
+  "out": "SOP draft: untitled"
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "whatsapp",
+   "recipient": "David (+1 555 0199)",
+   "text": "Hello\nthere"
+  },
+  "out": "Send WhatsApp to David (+1 555 0199) as Nary:\n> Hello\n> there"
+ },
+ {
+  "p": {
+   "kind": "customer_message",
+   "channel": "email",
+   "to": "a@b.c",
+   "subject": "Hi",
+   "text": "Dear\n\nX",
+   "attachments": [
+    "Quotation Q-1.pdf",
+    "Spec.pdf"
+   ],
+   "warning": "first message",
+   "attach": [
+    {
+     "type": "q",
+     "id": "1"
+    }
+   ],
+   "chat_id": null,
+   "thread_id": "t1",
+   "contact_id": "c1"
+  },
+  "out": "Send email to a@b.c as Nary, subject \"Hi\" (first message):\n> Dear\n> \n> X\nAttached: Quotation Q-1.pdf, Spec.pdf"
+ },
+ {
+  "p": {
+   "kind": "customer_message"
+  },
+  "out": "Send WhatsApp to None as Nary:\n"
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "Book Acme x Globex",
+   "message": {
+    "text": "Join {link}\nsee you"
+   },
+   "title": "Acme x GX",
+   "start": "2026-10-16T11:00:00+07:00",
+   "duration_minutes": 30,
+   "staff_ids": [
+    "a"
+   ],
+   "customer_email": "d@g.test",
+   "lead_id": null,
+   "deal_id": "d1",
+   "contact_id": null
+  },
+  "out": "Book Acme x Globex:\n> Join (the Meet link, made when you confirm)\n> see you"
+ },
+ {
+  "p": {
+   "kind": "meeting",
+   "summary": "No message"
+  },
+  "out": "No message"
+ },
+ {
+  "p": {
+   "kind": "meeting"
+  },
+  "out": null
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "action": "meeting.cancel",
+   "payload": {
+    "meeting_id": "m1"
+   },
+   "summary": "Cancel TEST"
+  },
+  "out": "Cancel TEST"
+ },
+ {
+  "p": {
+   "kind": "nary_action",
+   "summary": "With msg",
+   "message": {
+    "text": "Line 1\nLine 2"
+   },
+   "action": "x",
+   "payload": {}
+  },
+  "out": "With msg:\n> Line 1\n> Line 2"
+ },
+ {
+  "p": {
+   "kind": "nary_decision",
+   "card_id": "c1",
+   "decision": "apply",
+   "summary": "Apply card"
+  },
+  "out": "Apply card"
+ },
+ {
+  "p": {
+   "kind": "nary_topic_answer",
+   "topic_id": "t1",
+   "answer": "yes",
+   "tier_pct": 5
+  },
+  "out": "nary topic answer"
+ },
+ {
+  "p": {
+   "kind": "proposal_change",
+   "document_id": "d1",
+   "instruction": "shorter"
+  },
+  "out": "proposal change"
+ },
+ {
+  "p": {
+   "kind": "nary_pause",
+   "paused": true,
+   "summary": "Pause"
+  },
+  "out": "Pause"
+ },
+ {
+  "p": {
+   "kind": "nary_pause"
+  },
+  "out": "nary pause"
+ },
+ {
+  "p": {
+   "kind": "chat_link",
+   "chat_id": "818@c.us",
+   "contact_id": "c1",
+   "summary": "Link the WhatsApp chat"
+  },
+  "out": "Link the WhatsApp chat"
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "snooze",
+   "until": "2026-10-20"
+  },
+  "out": "reminder change"
+ },
+ {
+  "p": {
+   "kind": "reminder_change",
+   "reminder_id": "r1",
+   "action": "cancel"
+  },
+  "out": "reminder change"
+ },
+ {
+  "p": {
+   "kind": "debrief",
+   "meeting_id": "m",
+   "deal_id": null,
+   "text": "t",
+   "source": "chat"
+  },
+  "out": "debrief"
+ },
+ {
+  "p": {
+   "kind": "followup_reminder",
+   "title": "Call Globex Corp",
+   "note": null,
+   "entity_type": "whatsapp_chat",
+   "entity_id": null,
+   "chat_id": "81@c.us",
+   "due_at": "2026-10-17T00:00:00+00:00",
+   "summary": "Remind you"
+  },
+  "out": "Remind you"
+ },
+ {
+  "p": {
+   "kind": "research",
+   "object_type": "lead",
+   "record_id": "l1"
+  },
+  "out": "research"
+ },
+ {
+  "p": {
+   "kind": "research"
+  },
+  "out": "research"
+ },
+ {
+  "p": {
+   "kind": "some_kind_x",
+   "label": "lbl"
+  },
+  "out": "lbl"
+ },
+ {
+  "p": {
+   "kind": "a_b_c"
+  },
+  "out": "a b c"
+ }
+]

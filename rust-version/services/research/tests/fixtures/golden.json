@@ -1,0 +1,2861 @@
+{
+ "html_to_markdown": [
+  [
+   "",
+   "",
+   null
+  ],
+  [
+   "plain text only",
+   "",
+   null
+  ],
+  [
+   "<p>a &amp; b &lt; c &gt; d &nbsp;e &copy f &#65; &#x42; &#X43; &#128; &#129; &#0; &#99999999; &bogus; &amp</p>",
+   "a & b < c > d  e © f A B C €  \u0000 � &bogus &",
+   null
+  ],
+  [
+   "<p>AT&T &T &#; &#x; tail</p>",
+   "AT&T &T &#; &#x; tail</p>",
+   null
+  ],
+  [
+   "<html><head><title>T &amp; Co</title><title>second</title></head><body><h1>x</h1></body></html>",
+   "# x",
+   "T & Co"
+  ],
+  [
+   "<svg><title>logo</title></svg><title>Real</title><p>text</p>",
+   "text",
+   "Real"
+  ],
+  [
+   "<ul><li>one <a href='/a'>A</a></li><li><p>nested p</p><ul><li>inner</li></ul></li></ul>",
+   "- one [A](/a)\n\n- nested p inner",
+   null
+  ],
+  [
+   "<table><tr><td><p>cell para</p><h2>cell head</h2></td></tr></table>",
+   "cell para cell head\n\n## cell head",
+   null
+  ],
+  [
+   "<p>Hello <!-- note --> world <![CDATA[cdata text]]> <?pi stuff?> end</p>",
+   "Hello note world cdata text pi stuff? end",
+   null
+  ],
+  [
+   "<p>br<br>after<br/>more<br>x</br>y</p><p>z</p>",
+   "br after more xy\n\nz",
+   null
+  ],
+  [
+   "<p>one<p>two</p></p><li>loose</li>",
+   "one two\n\n- loose",
+   null
+  ],
+  [
+   "<h3>Head <a href=\"/x\"><span>inner</span> text</a> tail</h3>",
+   "### Head [inner text](/x) inner tail",
+   null
+  ],
+  [
+   "<p><a>no href</a> <a href=\"\">empty</a> <a href=\"/ok\">  </a> <a href=/bare>bare</a></p>",
+   "[bare](/bare)",
+   null
+  ],
+  [
+   "<p><a href='a.html?x=1&amp;y=2'>amp</a> <a href=\"&quot;q&quot;\">q</a> <a HREF=\"/upper\">Up</a></p>",
+   "[amp](a.html?x=1&y=2) [q](\"q\") [Up](/upper)",
+   null
+  ],
+  [
+   "<script>var x='<p>not</p>';</script><style>p{}</style><noscript><p>ns</p></noscript><p>kept</p>",
+   "kept",
+   null
+  ],
+  [
+   "<template><p>tpl</p></template><iframe><p>if</p></iframe><p>after</p>",
+   "after",
+   null
+  ],
+  [
+   "<p>unclosed <b>bold <i>both</p> outside",
+   "unclosed bold both",
+   null
+  ],
+  [
+   "<p>tag <a href=\"/u\" unterminated",
+   "tag",
+   null
+  ],
+  [
+   "<p>x</p><script>never closed <p>lost</p>",
+   "x",
+   null
+  ],
+  [
+   "<!DOCTYPE html><address>1 Main Road<br>Osaka</address>",
+   "1 Main Road Osaka",
+   null
+  ],
+  [
+   "<p>ruby <ruby>漢<rt>kan</rt></ruby> done</p><h2><rt>rt only</rt></h2>",
+   "ruby 漢 kan done\n\n## rt only",
+   null
+  ],
+  [
+   "<P CLASS=x>Upper</P><H4>Four</H4><h5>five</h5>",
+   "Upper\n\n#### Four",
+   null
+  ],
+  [
+   "<p>a</b>b</p></p><p>c",
+   "a b\n\nc",
+   null
+  ],
+  [
+   "<p attr='x' other=\"y\" bare=z single='>'>quoted gt</p>",
+   "quoted gt",
+   null
+  ],
+  [
+   "<p>&lt;not a tag&gt; &#60;b&#62; <</p>",
+   "<not a tag> <b> <",
+   null
+  ],
+  [
+   "<td>cell <td>two</td>",
+   "cell two\n\ntwo",
+   null
+  ],
+  [
+   "<p>tail &",
+   "tail &",
+   null
+  ],
+  [
+   "<p>tail &a",
+   "tail a",
+   null
+  ],
+  [
+   "<p>tail &#",
+   "tail &#",
+   null
+  ],
+  [
+   "<!-- unterminated comment",
+   "",
+   null
+  ],
+  [
+   "<p>x</p><!--- odd -->",
+   "x",
+   null
+  ],
+  [
+   "<title>Only title</title>",
+   "",
+   "Only title"
+  ],
+  [
+   "<p>été — café</p><p>　full　width</p>",
+   "été — café\n\nfull　width",
+   null
+  ],
+  [
+   "<p>windows &#150; &#147;quoted&#148;</p>",
+   "windows – “quoted”",
+   null
+  ],
+  [
+   "<li><a href=\"/1\">One</a></li><li><a href=\"/2\">Two</a></li>",
+   "- [One](/1)\n\n- [Two](/2)",
+   null
+  ],
+  [
+   "<h1><img src=x.png>Img heading</h1>",
+   "# Img heading",
+   null
+  ],
+  [
+   "<p>nested <a href='/o'>outer <a href='/i'>inner</a> rest</a></p>",
+   "nested [outer inner rest](/o) [inner](/i)",
+   null
+  ],
+  [
+   "<textarea><p>raw</p> &amp;</textarea><p>after textarea</p>",
+   "after textarea",
+   null
+  ],
+  [
+   "<xmp><p>xmp raw</p></xmp><p>post</p>",
+   "post",
+   null
+  ],
+  [
+   "<p>line1\nline2\r\nline3</p>",
+   "line1\nline2\r\nline3",
+   null
+  ],
+  [
+   "<p>\u000bweird\u001c spaces\u001f</p>",
+   "weird\u001c spaces",
+   null
+  ]
+ ],
+ "clean_markdown": [
+  [
+   "",
+   12000,
+   ""
+  ],
+  [
+   "",
+   30,
+   ""
+  ],
+  [
+   "# Title\n\nSome paragraph text that is long enough to matter here.",
+   12000,
+   "# Title\n\nSome paragraph text that is long enough to matter here."
+  ],
+  [
+   "# Title\n\nSome paragraph text that is long enough to matter here.",
+   30,
+   "# Title\n\nSome paragraph text t"
+  ],
+  [
+   "- [Home](/)\n- [About](/about)\n- [Contact](/contact)\n\n# Real Heading\n\nBody text body text body text.",
+   12000,
+   "# Real Heading\n\nBody text body text body text."
+  ],
+  [
+   "- [Home](/)\n- [About](/about)\n- [Contact](/contact)\n\n# Real Heading\n\nBody text body text body text.",
+   30,
+   "# Real Heading\n\nBody text body"
+  ],
+  [
+   "- [A](/a)\n\n- [B](/b)\n- [C](/c)\nParagraph",
+   12000,
+   "Paragraph"
+  ],
+  [
+   "- [A](/a)\n\n- [B](/b)\n- [C](/c)\nParagraph",
+   30,
+   "Paragraph"
+  ],
+  [
+   "* ## Menu heading\n* [x](/x)\n* [y](/y)\nok",
+   12000,
+   "ok"
+  ],
+  [
+   "* ## Menu heading\n* [x](/x)\n* [y](/y)\nok",
+   30,
+   "ok"
+  ],
+  [
+   "- Investor Relations\n- About Us\n- Careers Page\n- Contact\n\nKept paragraph here.",
+   12000,
+   "Kept paragraph here."
+  ],
+  [
+   "- Investor Relations\n- About Us\n- Careers Page\n- Contact\n\nKept paragraph here.",
+   30,
+   "Kept paragraph here."
+  ],
+  [
+   "- Phone : +81 21 555\n- Fax : +81 21 556\n- Email\n- Address\nend",
+   12000,
+   "- Phone : +81 21 555\n- Fax : +81 21 556\n- Email\n- Address\nend"
+  ],
+  [
+   "- Phone : +81 21 555\n- Fax : +81 21 556\n- Email\n- Address\nend",
+   30,
+   "- Phone : +81 21 555\n- Fax : +"
+  ],
+  [
+   "![logo](data:image/png;base64,AAAA) text ![x](http://a/b.png) [link](http://a/c \"title\")",
+   12000,
+   "text  link"
+  ],
+  [
+   "![logo](data:image/png;base64,AAAA) text ![x](http://a/b.png) [link](http://a/c \"title\")",
+   30,
+   "text  link"
+  ],
+  [
+   "data:image/svg+xml;utf8,<svg>hi</svg> left over",
+   12000,
+   "left over"
+  ],
+  [
+   "data:image/svg+xml;utf8,<svg>hi</svg> left over",
+   30,
+   "left over"
+  ],
+  [
+   "Repeated footer line long enough!\nRepeated footer line long enough!\nshort\nshort",
+   12000,
+   "Repeated footer line long enough!\nshort\nshort"
+  ],
+  [
+   "Repeated footer line long enough!\nRepeated footer line long enough!\nshort\nshort",
+   30,
+   "Repeated footer line long enou"
+  ],
+  [
+   "a\n\n\n\n\nb\n---\n|||\n***\nc",
+   12000,
+   "a\n\nb\n\nc"
+  ],
+  [
+   "a\n\n\n\n\nb\n---\n|||\n***\nc",
+   30,
+   "a\n\nb\n\nc"
+  ],
+  [
+   "#   Spaced   title  \nmore",
+   12000,
+   "#   Spaced   title\nmore"
+  ],
+  [
+   "#   Spaced   title  \nmore",
+   30,
+   "#   Spaced   title\nmore"
+  ],
+  [
+   "#NoSpace\n# [Linked](http://x) title",
+   12000,
+   "#NoSpace\n# Linked title"
+  ],
+  [
+   "#NoSpace\n# [Linked](http://x) title",
+   30,
+   "#NoSpace\n# Linked title"
+  ],
+  [
+   "## Not h1\n# Real",
+   12000,
+   "## Not h1\n# Real"
+  ],
+  [
+   "## Not h1\n# Real",
+   30,
+   "## Not h1\n# Real"
+  ],
+  [
+   "line with trailing spaces    \n  indented",
+   12000,
+   "line with trailing spaces\n  indented"
+  ],
+  [
+   "line with trailing spaces    \n  indented",
+   30,
+   "line with trailing spaces\n  in"
+  ],
+  [
+   "[a(b)](http://x/(y)) [c](</bad>) [d]( http://spaced ) [](http://empty-text)",
+   12000,
+   "a(b) c [d]( http://spaced )"
+  ],
+  [
+   "[a(b)](http://x/(y)) [c](</bad>) [d]( http://spaced ) [](http://empty-text)",
+   30,
+   "a(b) c [d]( http://spaced )"
+  ],
+  [
+   "1. [one](/1)\n2. [two](/2)\n3. [three](/3)\nnumbered",
+   12000,
+   "numbered"
+  ],
+  [
+   "1. [one](/1)\n2. [two](/2)\n3. [three](/3)\nnumbered",
+   30,
+   "numbered"
+  ],
+  [
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+   12000,
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+  ],
+  [
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+   30,
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  ],
+  [
+   "- élément un\n- élément deux\n- trois\n- quatre\n- cinq",
+   12000,
+   ""
+  ],
+  [
+   "- élément un\n- élément deux\n- trois\n- quatre\n- cinq",
+   30,
+   ""
+  ],
+  [
+   "Unicode separator para\u001cfs\u001dgs\u001ersnel\u000bvt\ffeed\rcr",
+   12000,
+   "Unicode\nseparator\npara\nfs\ngs\nrs\nnel\nvt\nfeed\ncr"
+  ],
+  [
+   "Unicode separator para\u001cfs\u001dgs\u001ersnel\u000bvt\ffeed\rcr",
+   30,
+   "Unicode\nseparator\npara\nfs\ngs\nr"
+  ]
+ ],
+ "title_of": [
+  [
+   "",
+   null
+  ],
+  [
+   "# Title\n\nSome paragraph text that is long enough to matter here.",
+   "Title"
+  ],
+  [
+   "- [Home](/)\n- [About](/about)\n- [Contact](/contact)\n\n# Real Heading\n\nBody text body text body text.",
+   "Real Heading"
+  ],
+  [
+   "- [A](/a)\n\n- [B](/b)\n- [C](/c)\nParagraph",
+   null
+  ],
+  [
+   "* ## Menu heading\n* [x](/x)\n* [y](/y)\nok",
+   null
+  ],
+  [
+   "- Investor Relations\n- About Us\n- Careers Page\n- Contact\n\nKept paragraph here.",
+   null
+  ],
+  [
+   "- Phone : +81 21 555\n- Fax : +81 21 556\n- Email\n- Address\nend",
+   null
+  ],
+  [
+   "![logo](data:image/png;base64,AAAA) text ![x](http://a/b.png) [link](http://a/c \"title\")",
+   null
+  ],
+  [
+   "data:image/svg+xml;utf8,<svg>hi</svg> left over",
+   null
+  ],
+  [
+   "Repeated footer line long enough!\nRepeated footer line long enough!\nshort\nshort",
+   null
+  ],
+  [
+   "a\n\n\n\n\nb\n---\n|||\n***\nc",
+   null
+  ],
+  [
+   "#   Spaced   title  \nmore",
+   "Spaced   title"
+  ],
+  [
+   "#NoSpace\n# [Linked](http://x) title",
+   "Linked title"
+  ],
+  [
+   "## Not h1\n# Real",
+   "Real"
+  ],
+  [
+   "line with trailing spaces    \n  indented",
+   null
+  ],
+  [
+   "[a(b)](http://x/(y)) [c](</bad>) [d]( http://spaced ) [](http://empty-text)",
+   null
+  ],
+  [
+   "1. [one](/1)\n2. [two](/2)\n3. [three](/3)\nnumbered",
+   null
+  ],
+  [
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+   null
+  ],
+  [
+   "- élément un\n- élément deux\n- trois\n- quatre\n- cinq",
+   null
+  ],
+  [
+   "Unicode separator para\u001cfs\u001dgs\u001ersnel\u000bvt\ffeed\rcr",
+   null
+  ]
+ ],
+ "links": [
+  [
+   "[Home](/) [Rel](page.html) [Up](../up) [Q](?x=1) [Frag](#top) [Abs](https://b.test/p#s) [Mail](mailto:a@b)",
+   "https://www.wika.example/en/company/",
+   {
+    "ok": [
+     {
+      "text": "Home",
+      "href": "https://www.wika.example/"
+     },
+     {
+      "text": "Rel",
+      "href": "https://www.wika.example/en/company/page.html"
+     },
+     {
+      "text": "Up",
+      "href": "https://www.wika.example/en/up"
+     },
+     {
+      "text": "Q",
+      "href": "https://www.wika.example/en/company/?x=1"
+     },
+     {
+      "text": "Abs",
+      "href": "https://b.test/p"
+     }
+    ]
+   }
+  ],
+  [
+   "[Home](/) [Rel](page.html) [Up](../up) [Q](?x=1) [Frag](#top) [Abs](https://b.test/p#s) [Mail](mailto:a@b)",
+   "https://a.test/x/y?q=1#f",
+   {
+    "ok": [
+     {
+      "text": "Home",
+      "href": "https://a.test/"
+     },
+     {
+      "text": "Rel",
+      "href": "https://a.test/x/page.html"
+     },
+     {
+      "text": "Up",
+      "href": "https://a.test/up"
+     },
+     {
+      "text": "Q",
+      "href": "https://a.test/x/y?x=1"
+     },
+     {
+      "text": "Abs",
+      "href": "https://b.test/p"
+     }
+    ]
+   }
+  ],
+  [
+   "[Home](/) [Rel](page.html) [Up](../up) [Q](?x=1) [Frag](#top) [Abs](https://b.test/p#s) [Mail](mailto:a@b)",
+   "http://a.test",
+   {
+    "ok": [
+     {
+      "text": "Home",
+      "href": "http://a.test/"
+     },
+     {
+      "text": "Rel",
+      "href": "http://a.test/page.html"
+     },
+     {
+      "text": "Up",
+      "href": "http://a.test/up"
+     },
+     {
+      "text": "Q",
+      "href": "http://a.test?x=1"
+     },
+     {
+      "text": "Abs",
+      "href": "https://b.test/p"
+     }
+    ]
+   }
+  ],
+  [
+   "[Home](/) [Rel](page.html) [Up](../up) [Q](?x=1) [Frag](#top) [Abs](https://b.test/p#s) [Mail](mailto:a@b)",
+   "https://a.test/dir/",
+   {
+    "ok": [
+     {
+      "text": "Home",
+      "href": "https://a.test/"
+     },
+     {
+      "text": "Rel",
+      "href": "https://a.test/dir/page.html"
+     },
+     {
+      "text": "Up",
+      "href": "https://a.test/up"
+     },
+     {
+      "text": "Q",
+      "href": "https://a.test/dir/?x=1"
+     },
+     {
+      "text": "Abs",
+      "href": "https://b.test/p"
+     }
+    ]
+   }
+  ],
+  [
+   "[Tel](tel:123) [JS](javascript:void(0)) [Data](data:x) [FTP](ftp://f.test/) [Proto](//c.test/z) [Dup](/) [Dup2](/#x)",
+   "https://www.wika.example/en/company/",
+   {
+    "ok": [
+     {
+      "text": "Proto",
+      "href": "https://c.test/z"
+     },
+     {
+      "text": "Dup",
+      "href": "https://www.wika.example/"
+     }
+    ]
+   }
+  ],
+  [
+   "[Tel](tel:123) [JS](javascript:void(0)) [Data](data:x) [FTP](ftp://f.test/) [Proto](//c.test/z) [Dup](/) [Dup2](/#x)",
+   "https://a.test/x/y?q=1#f",
+   {
+    "ok": [
+     {
+      "text": "Proto",
+      "href": "https://c.test/z"
+     },
+     {
+      "text": "Dup",
+      "href": "https://a.test/"
+     }
+    ]
+   }
+  ],
+  [
+   "[Tel](tel:123) [JS](javascript:void(0)) [Data](data:x) [FTP](ftp://f.test/) [Proto](//c.test/z) [Dup](/) [Dup2](/#x)",
+   "http://a.test",
+   {
+    "ok": [
+     {
+      "text": "Proto",
+      "href": "http://c.test/z"
+     },
+     {
+      "text": "Dup",
+      "href": "http://a.test/"
+     }
+    ]
+   }
+  ],
+  [
+   "[Tel](tel:123) [JS](javascript:void(0)) [Data](data:x) [FTP](ftp://f.test/) [Proto](//c.test/z) [Dup](/) [Dup2](/#x)",
+   "https://a.test/dir/",
+   {
+    "ok": [
+     {
+      "text": "Proto",
+      "href": "https://c.test/z"
+     },
+     {
+      "text": "Dup",
+      "href": "https://a.test/"
+     }
+    ]
+   }
+  ],
+  [
+   "![img](/i.png) [Text with **bold**](/b) [Spaces]( /s ) [Paren](/p(1)) [T](/t \"Title\")",
+   "https://www.wika.example/en/company/",
+   {
+    "ok": [
+     {
+      "text": "Text with **bold**",
+      "href": "https://www.wika.example/b"
+     },
+     {
+      "text": "Paren",
+      "href": "https://www.wika.example/p(1)"
+     },
+     {
+      "text": "T",
+      "href": "https://www.wika.example/t"
+     }
+    ]
+   }
+  ],
+  [
+   "![img](/i.png) [Text with **bold**](/b) [Spaces]( /s ) [Paren](/p(1)) [T](/t \"Title\")",
+   "https://a.test/x/y?q=1#f",
+   {
+    "ok": [
+     {
+      "text": "Text with **bold**",
+      "href": "https://a.test/b"
+     },
+     {
+      "text": "Paren",
+      "href": "https://a.test/p(1)"
+     },
+     {
+      "text": "T",
+      "href": "https://a.test/t"
+     }
+    ]
+   }
+  ],
+  [
+   "![img](/i.png) [Text with **bold**](/b) [Spaces]( /s ) [Paren](/p(1)) [T](/t \"Title\")",
+   "http://a.test",
+   {
+    "ok": [
+     {
+      "text": "Text with **bold**",
+      "href": "http://a.test/b"
+     },
+     {
+      "text": "Paren",
+      "href": "http://a.test/p(1)"
+     },
+     {
+      "text": "T",
+      "href": "http://a.test/t"
+     }
+    ]
+   }
+  ],
+  [
+   "![img](/i.png) [Text with **bold**](/b) [Spaces]( /s ) [Paren](/p(1)) [T](/t \"Title\")",
+   "https://a.test/dir/",
+   {
+    "ok": [
+     {
+      "text": "Text with **bold**",
+      "href": "https://a.test/b"
+     },
+     {
+      "text": "Paren",
+      "href": "https://a.test/p(1)"
+     },
+     {
+      "text": "T",
+      "href": "https://a.test/t"
+     }
+    ]
+   }
+  ],
+  [
+   "[%](/a%20b) [Dots](./a/../b/./c) [Many](/a//b) [Semi](/a;p?q) [Empty]()",
+   "https://www.wika.example/en/company/",
+   {
+    "ok": [
+     {
+      "text": "%",
+      "href": "https://www.wika.example/a%20b"
+     },
+     {
+      "text": "Dots",
+      "href": "https://www.wika.example/en/company/b/c"
+     },
+     {
+      "text": "Many",
+      "href": "https://www.wika.example/a//b"
+     },
+     {
+      "text": "Semi",
+      "href": "https://www.wika.example/a;p?q"
+     }
+    ]
+   }
+  ],
+  [
+   "[%](/a%20b) [Dots](./a/../b/./c) [Many](/a//b) [Semi](/a;p?q) [Empty]()",
+   "https://a.test/x/y?q=1#f",
+   {
+    "ok": [
+     {
+      "text": "%",
+      "href": "https://a.test/a%20b"
+     },
+     {
+      "text": "Dots",
+      "href": "https://a.test/x/b/c"
+     },
+     {
+      "text": "Many",
+      "href": "https://a.test/a//b"
+     },
+     {
+      "text": "Semi",
+      "href": "https://a.test/a;p?q"
+     }
+    ]
+   }
+  ],
+  [
+   "[%](/a%20b) [Dots](./a/../b/./c) [Many](/a//b) [Semi](/a;p?q) [Empty]()",
+   "http://a.test",
+   {
+    "ok": [
+     {
+      "text": "%",
+      "href": "http://a.test/a%20b"
+     },
+     {
+      "text": "Dots",
+      "href": "http://a.test/b/c"
+     },
+     {
+      "text": "Many",
+      "href": "http://a.test/a//b"
+     },
+     {
+      "text": "Semi",
+      "href": "http://a.test/a;p?q"
+     }
+    ]
+   }
+  ],
+  [
+   "[%](/a%20b) [Dots](./a/../b/./c) [Many](/a//b) [Semi](/a;p?q) [Empty]()",
+   "https://a.test/dir/",
+   {
+    "ok": [
+     {
+      "text": "%",
+      "href": "https://a.test/a%20b"
+     },
+     {
+      "text": "Dots",
+      "href": "https://a.test/dir/b/c"
+     },
+     {
+      "text": "Many",
+      "href": "https://a.test/a//b"
+     },
+     {
+      "text": "Semi",
+      "href": "https://a.test/a;p?q"
+     }
+    ]
+   }
+  ],
+  [
+   "[LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL](/long)",
+   "https://www.wika.example/en/company/",
+   {
+    "ok": [
+     {
+      "text": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "href": "https://www.wika.example/long"
+     }
+    ]
+   }
+  ],
+  [
+   "[LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL](/long)",
+   "https://a.test/x/y?q=1#f",
+   {
+    "ok": [
+     {
+      "text": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "href": "https://a.test/long"
+     }
+    ]
+   }
+  ],
+  [
+   "[LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL](/long)",
+   "http://a.test",
+   {
+    "ok": [
+     {
+      "text": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "href": "http://a.test/long"
+     }
+    ]
+   }
+  ],
+  [
+   "[LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL](/long)",
+   "https://a.test/dir/",
+   {
+    "ok": [
+     {
+      "text": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+      "href": "https://a.test/long"
+     }
+    ]
+   }
+  ],
+  [
+   "[bad](http://[::1/x) [ok](/ok)",
+   "https://www.wika.example/en/company/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "[bad](http://[::1/x) [ok](/ok)",
+   "https://a.test/x/y?q=1#f",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "[bad](http://[::1/x) [ok](/ok)",
+   "http://a.test",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "[bad](http://[::1/x) [ok](/ok)",
+   "https://a.test/dir/",
+   {
+    "error": "ValueError"
+   }
+  ]
+ ],
+ "check_url": [
+  [
+   "https://example.com/",
+   {
+    "ok": [
+     "https",
+     "example.com",
+     443
+    ]
+   }
+  ],
+  [
+   "http://10.0.0.1/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[::1]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "ftp://example.com/x",
+   {
+    "blocked": "Only http and https addresses can be researched."
+   }
+  ],
+  [
+   "file:///etc/passwd",
+   {
+    "blocked": "Only http and https addresses can be researched."
+   }
+  ],
+  [
+   "http://example.com:5432/",
+   {
+    "blocked": "Only the standard web ports (80, 443) are allowed."
+   }
+  ],
+  [
+   "http://user:pw@example.com/",
+   {
+    "blocked": "Addresses with credentials are not fetched."
+   }
+  ],
+  [
+   "http://user@example.com/",
+   {
+    "blocked": "Addresses with credentials are not fetched."
+   }
+  ],
+  [
+   "http://:pw@x.com/",
+   {
+    "blocked": "Addresses with credentials are not fetched."
+   }
+  ],
+  [
+   "http://@example.com/",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     80
+    ]
+   }
+  ],
+  [
+   "HTTP://Example.COM./path",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     80
+    ]
+   }
+  ],
+  [
+   "http://example.com:0/",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     80
+    ]
+   }
+  ],
+  [
+   "http://example.com:443/",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     443
+    ]
+   }
+  ],
+  [
+   "https://example.com:80/",
+   {
+    "ok": [
+     "https",
+     "example.com",
+     80
+    ]
+   }
+  ],
+  [
+   "http://example.com:99999/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://example.com:8a/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[bad/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[::1",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://]x/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[v1.x]/",
+   {
+    "ok": [
+     "http",
+     "v1.x",
+     80
+    ]
+   }
+  ],
+  [
+   "http://[1.2.3.4]/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[fe80::1%25eth0]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://169.254.169.254/latest",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://100.64.1.1/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://192.0.0.9/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://192.0.2.1/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[64:ff9b::808:808]/",
+   {
+    "ok": [
+     "http",
+     "64:ff9b::808:808",
+     80
+    ]
+   }
+  ],
+  [
+   "http://[64:ff9b::a00:1]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[::ffff:8.8.8.8]/",
+   {
+    "ok": [
+     "http",
+     "::ffff:8.8.8.8",
+     80
+    ]
+   }
+  ],
+  [
+   "http://[2002:808:808::1]/",
+   {
+    "ok": [
+     "http",
+     "2002:808:808::1",
+     80
+    ]
+   }
+  ],
+  [
+   "http://8.8.8.8/",
+   {
+    "ok": [
+     "http",
+     "8.8.8.8",
+     80
+    ]
+   }
+  ],
+  [
+   "http://2130706433/",
+   {
+    "ok": [
+     "http",
+     "2130706433",
+     80
+    ]
+   }
+  ],
+  [
+   "http://0x7f.1/",
+   {
+    "ok": [
+     "http",
+     "0x7f.1",
+     80
+    ]
+   }
+  ],
+  [
+   "http://127.1/",
+   {
+    "ok": [
+     "http",
+     "127.1",
+     80
+    ]
+   }
+  ],
+  [
+   "http:///nohost",
+   {
+    "blocked": "No host in the address."
+   }
+  ],
+  [
+   "http://.../",
+   {
+    "blocked": "No host in the address."
+   }
+  ],
+  [
+   "  http://example.com/  ",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     80
+    ]
+   }
+  ],
+  [
+   "http://exa\tmple.com/",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     80
+    ]
+   }
+  ],
+  [
+   "http://exämple.com/",
+   {
+    "ok": [
+     "http",
+     "exämple.com",
+     80
+    ]
+   }
+  ],
+  [
+   "http://℀.com/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "javascript:alert(1)",
+   {
+    "blocked": "Only http and https addresses can be researched."
+   }
+  ],
+  [
+   "//example.com/",
+   {
+    "blocked": "Only http and https addresses can be researched."
+   }
+  ],
+  [
+   "example.com",
+   {
+    "blocked": "Only http and https addresses can be researched."
+   }
+  ],
+  [
+   "http://a.com:/",
+   {
+    "ok": [
+     "http",
+     "a.com",
+     80
+    ]
+   }
+  ],
+  [
+   "http://a.com:+80/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[2001:db8::1]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[2606:4700::1111]/",
+   {
+    "ok": [
+     "http",
+     "2606:4700::1111",
+     80
+    ]
+   }
+  ],
+  [
+   "http://224.0.0.1/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://255.255.255.255/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://0.0.0.0/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[::]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[fc00::1]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[ff02::1]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[2001::1]/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://[2001:20::1]/",
+   {
+    "ok": [
+     "http",
+     "2001:20::1",
+     80
+    ]
+   }
+  ],
+  [
+   "http://198.18.0.1/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ],
+  [
+   "http://240.0.0.1/",
+   {
+    "blocked": "That address is private or internal."
+   }
+  ]
+ ],
+ "ip_is_public": [
+  [
+   "10.0.0.5",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "172.18.0.3",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "192.168.1.1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "127.0.0.1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "169.254.169.254",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "100.64.1.1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "0.0.0.0",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "fe80::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "::ffff:10.0.0.1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "fd00::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "64:ff9b::a00:1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "2002:a00:1::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "8.8.8.8",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "103.10.20.30",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "2606:4700::1111",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "64:ff9b::6719:c46f",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "192.0.0.9",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "192.0.0.10",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "192.0.0.11",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "192.0.0.170",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "198.51.100.7",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "203.0.113.9",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "1.1.1.1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "2001:db8::",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "2001:4:112::1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "3fff::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "100::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "64:ff9b:1::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "2001:1::1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "2001:1::3",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "2001:3::1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "2001:20::1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "2001:30::1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "fec0::1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "ff00::1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "224.0.0.1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "239.255.255.255",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "255.255.255.255",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "::",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "::ffff:127.0.0.1",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "::ffff:8.8.8.8",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "2002:808:808::1",
+   {
+    "ok": true
+   }
+  ],
+  [
+   "2002::",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "::8.8.8.8",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "1::",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "fe80::1%eth0",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "01.2.3.4",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "1.2.3",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "1.2.3.4.5",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "256.1.1.1",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "1:2:3:4:5:6:7:8",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "1:2:3:4:5:6:7:8:9",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "1::2::3",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   ":1::2",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "1:2:3:4:5:6:7::",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "::1.2.3.4",
+   {
+    "ok": false
+   }
+  ],
+  [
+   "fe80::1%",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "12345::1",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "g::1",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "8.8.8.8 ",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "١.1.1.1",
+   {
+    "error": "ValueError"
+   }
+  ]
+ ],
+ "urljoin": [
+  [
+   "https://a.test/x/y",
+   "z",
+   {
+    "ok": "https://a.test/x/z"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "../z",
+   {
+    "ok": "https://a.test/z"
+   }
+  ],
+  [
+   "https://a.test/x/y/",
+   "../../../z",
+   {
+    "ok": "https://a.test/z"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "/z",
+   {
+    "ok": "https://a.test/z"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "//b.test/z",
+   {
+    "ok": "https://b.test/z"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "?q",
+   {
+    "ok": "https://a.test/x/y?q"
+   }
+  ],
+  [
+   "https://a.test/x/y?p",
+   "#f",
+   {
+    "ok": "https://a.test/x/y?p#f"
+   }
+  ],
+  [
+   "https://a.test/x/y;p",
+   "z",
+   {
+    "ok": "https://a.test/x/z"
+   }
+  ],
+  [
+   "https://a.test",
+   "z",
+   {
+    "ok": "https://a.test/z"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   ".",
+   {
+    "ok": "https://a.test/x/"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "..",
+   {
+    "ok": "https://a.test/"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "http://c.test/",
+   {
+    "ok": "http://c.test/"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "https:z",
+   {
+    "ok": "https://a.test/x/z"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "mailto:a",
+   {
+    "ok": "mailto:a"
+   }
+  ],
+  [
+   "https://a.test/a//b/c",
+   "../d",
+   {
+    "ok": "https://a.test/a/d"
+   }
+  ],
+  [
+   "https://a.test/x/y",
+   "z/./w/../v",
+   {
+    "ok": "https://a.test/x/z/v"
+   }
+  ],
+  [
+   "",
+   "x",
+   {
+    "ok": "x"
+   }
+  ],
+  [
+   "https://a.test/",
+   "",
+   {
+    "ok": "https://a.test/"
+   }
+  ],
+  [
+   "https://a.test/x",
+   "  z",
+   {
+    "ok": "https://a.test/z"
+   }
+  ]
+ ],
+ "urlsplit": [
+  [
+   "https://example.com/",
+   {
+    "ok": [
+     "https",
+     "example.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://10.0.0.1/",
+   {
+    "ok": [
+     "http",
+     "10.0.0.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[::1]/",
+   {
+    "ok": [
+     "http",
+     "[::1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "ftp://example.com/x",
+   {
+    "ok": [
+     "ftp",
+     "example.com",
+     "/x",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "file:///etc/passwd",
+   {
+    "ok": [
+     "file",
+     "",
+     "/etc/passwd",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://example.com:5432/",
+   {
+    "ok": [
+     "http",
+     "example.com:5432",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://user:pw@example.com/",
+   {
+    "ok": [
+     "http",
+     "user:pw@example.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://user@example.com/",
+   {
+    "ok": [
+     "http",
+     "user@example.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://:pw@x.com/",
+   {
+    "ok": [
+     "http",
+     ":pw@x.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://@example.com/",
+   {
+    "ok": [
+     "http",
+     "@example.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "HTTP://Example.COM./path",
+   {
+    "ok": [
+     "http",
+     "Example.COM.",
+     "/path",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://example.com:0/",
+   {
+    "ok": [
+     "http",
+     "example.com:0",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://example.com:443/",
+   {
+    "ok": [
+     "http",
+     "example.com:443",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "https://example.com:80/",
+   {
+    "ok": [
+     "https",
+     "example.com:80",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://example.com:99999/",
+   {
+    "ok": [
+     "http",
+     "example.com:99999",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://example.com:8a/",
+   {
+    "ok": [
+     "http",
+     "example.com:8a",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[bad/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[::1",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://]x/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[v1.x]/",
+   {
+    "ok": [
+     "http",
+     "[v1.x]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[1.2.3.4]/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "http://[fe80::1%25eth0]/",
+   {
+    "ok": [
+     "http",
+     "[fe80::1%25eth0]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://169.254.169.254/latest",
+   {
+    "ok": [
+     "http",
+     "169.254.169.254",
+     "/latest",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://100.64.1.1/",
+   {
+    "ok": [
+     "http",
+     "100.64.1.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://192.0.0.9/",
+   {
+    "ok": [
+     "http",
+     "192.0.0.9",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://192.0.2.1/",
+   {
+    "ok": [
+     "http",
+     "192.0.2.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[64:ff9b::808:808]/",
+   {
+    "ok": [
+     "http",
+     "[64:ff9b::808:808]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[64:ff9b::a00:1]/",
+   {
+    "ok": [
+     "http",
+     "[64:ff9b::a00:1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[::ffff:8.8.8.8]/",
+   {
+    "ok": [
+     "http",
+     "[::ffff:8.8.8.8]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[2002:808:808::1]/",
+   {
+    "ok": [
+     "http",
+     "[2002:808:808::1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://8.8.8.8/",
+   {
+    "ok": [
+     "http",
+     "8.8.8.8",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://2130706433/",
+   {
+    "ok": [
+     "http",
+     "2130706433",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://0x7f.1/",
+   {
+    "ok": [
+     "http",
+     "0x7f.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://127.1/",
+   {
+    "ok": [
+     "http",
+     "127.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http:///nohost",
+   {
+    "ok": [
+     "http",
+     "",
+     "/nohost",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://.../",
+   {
+    "ok": [
+     "http",
+     "...",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "  http://example.com/  ",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     "/  ",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://exa\tmple.com/",
+   {
+    "ok": [
+     "http",
+     "example.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://exämple.com/",
+   {
+    "ok": [
+     "http",
+     "exämple.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://℀.com/",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "javascript:alert(1)",
+   {
+    "ok": [
+     "javascript",
+     "",
+     "alert(1)",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "//example.com/",
+   {
+    "ok": [
+     "",
+     "example.com",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "example.com",
+   {
+    "ok": [
+     "",
+     "",
+     "example.com",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://a.com:/",
+   {
+    "ok": [
+     "http",
+     "a.com:",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://a.com:+80/",
+   {
+    "ok": [
+     "http",
+     "a.com:+80",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[2001:db8::1]/",
+   {
+    "ok": [
+     "http",
+     "[2001:db8::1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[2606:4700::1111]/",
+   {
+    "ok": [
+     "http",
+     "[2606:4700::1111]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://224.0.0.1/",
+   {
+    "ok": [
+     "http",
+     "224.0.0.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://255.255.255.255/",
+   {
+    "ok": [
+     "http",
+     "255.255.255.255",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://0.0.0.0/",
+   {
+    "ok": [
+     "http",
+     "0.0.0.0",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[::]/",
+   {
+    "ok": [
+     "http",
+     "[::]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[fc00::1]/",
+   {
+    "ok": [
+     "http",
+     "[fc00::1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[ff02::1]/",
+   {
+    "ok": [
+     "http",
+     "[ff02::1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[2001::1]/",
+   {
+    "ok": [
+     "http",
+     "[2001::1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://[2001:20::1]/",
+   {
+    "ok": [
+     "http",
+     "[2001:20::1]",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://198.18.0.1/",
+   {
+    "ok": [
+     "http",
+     "198.18.0.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ],
+  [
+   "http://240.0.0.1/",
+   {
+    "ok": [
+     "http",
+     "240.0.0.1",
+     "/",
+     "",
+     ""
+    ]
+   }
+  ]
+ ],
+ "unescape": [
+  [
+   "&amp;&lt;&gt;&quot;&#39;",
+   "&<>\"'"
+  ],
+  [
+   "&notit;",
+   "¬it;"
+  ],
+  [
+   "&notin;",
+   "∉"
+  ],
+  [
+   "&ampx",
+   "&x"
+  ],
+  [
+   "&#65",
+   "A"
+  ],
+  [
+   "&#x41;x",
+   "Ax"
+  ],
+  [
+   "&#0;",
+   "�"
+  ],
+  [
+   "&#128;",
+   "€"
+  ],
+  [
+   "&#1114112;",
+   "�"
+  ],
+  [
+   "&#xD800;",
+   "�"
+  ],
+  [
+   "&#11;",
+   ""
+  ],
+  [
+   "&#65535;",
+   ""
+  ],
+  [
+   "&unknown;",
+   "&unknown;"
+  ],
+  [
+   "&AMP;",
+   "&"
+  ],
+  [
+   "&Amp;",
+   "&Amp;"
+  ],
+  [
+   "& amp;",
+   "& amp;"
+  ],
+  [
+   "&#;",
+   "&#;"
+  ],
+  [
+   "&#x;",
+   "&#x;"
+  ],
+  [
+   "a&b",
+   "a&b"
+  ],
+  [
+   "&lt",
+   "<"
+  ]
+ ],
+ "robots": [
+  [
+   "User-agent: *\nDisallow: /private\n",
+   [
+    [
+     "https://h/private/x",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/public",
+     {
+      "ok": true
+     }
+    ],
+    [
+     "https://h/",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: Mozilla\nDisallow: /\n\nUser-agent: *\nAllow: /\n",
+   [
+    [
+     "https://h/a",
+     {
+      "ok": false
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: zil\nDisallow: /z\n",
+   [
+    [
+     "https://h/z",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/y",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: Granary-Research\nDisallow: /\n",
+   [
+    [
+     "https://h/x",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nDisallow: /*.php\nDisallow: /a b\nAllow: /a\nDisallow: /a\n",
+   [
+    [
+     "https://h/x.php",
+     {
+      "ok": true
+     }
+    ],
+    [
+     "https://h/a%20b",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/a b",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/a",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nDisallow:\n",
+   [
+    [
+     "https://h/x",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "Disallow: /x\nUser-agent: *\n",
+   [
+    [
+     "https://h/x",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\n\nDisallow: /x\n",
+   [
+    [
+     "https://h/x",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "# comment\nUser-agent: * # c\nDisallow: /x # trailing\n",
+   [
+    [
+     "https://h/x",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/x%2F",
+     {
+      "ok": false
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nDisallow: /q?x=1\n",
+   [
+    [
+     "https://h/q?x=1",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/q?x=2",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nDisallow: /%7Euser\n",
+   [
+    [
+     "https://h/~user",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/%7Euser",
+     {
+      "ok": false
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nCrawl-delay: 5\nDisallow: /cd\n",
+   [
+    [
+     "https://h/cd",
+     {
+      "ok": false
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nCrawl-delay: ²\nDisallow: /cd\n",
+   {
+    "error": "ValueError"
+   }
+  ],
+  [
+   "User-agent: *\nDisallow: /été\n",
+   [
+    [
+     "https://h/%C3%A9t%C3%A9",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/été",
+     {
+      "ok": false
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nDisallow: /x;p\n",
+   [
+    [
+     "https://h/x;p",
+     {
+      "ok": false
+     }
+    ],
+    [
+     "https://h/x",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\nDisallow: http://other/path\n",
+   [
+    [
+     "https://h/path",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "",
+   [
+    [
+     "https://h/x",
+     {
+      "ok": true
+     }
+    ]
+   ]
+  ],
+  [
+   "User-agent: *\n   \nDisallow: /x\n",
+   [
+    [
+     "https://h/x",
+     {
+      "ok": false
+     }
+    ]
+   ]
+  ]
+ ]
+}

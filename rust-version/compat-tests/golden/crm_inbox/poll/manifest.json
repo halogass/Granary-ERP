@@ -1,0 +1,182 @@
+{
+ "main": [
+  {
+   "op": "create",
+   "box": "Sent Items"
+  },
+  {
+   "op": "create",
+   "box": "Junk"
+  },
+  {
+   "op": "create",
+   "box": "Trash"
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m01.eml",
+   "seen": false
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m02.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m03.eml",
+   "seen": false
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m04.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m05.eml",
+   "seen": false
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m06.eml",
+   "seen": false
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m07.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m08.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "Sent Items",
+   "file": "s01.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "Sent Items",
+   "file": "s02.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "Junk",
+   "file": "j01.eml",
+   "seen": false
+  },
+  {
+   "op": "poll",
+   "backfill": false
+  },
+  {
+   "op": "dump"
+  },
+  {
+   "op": "seen",
+   "box": "INBOX",
+   "uid": 3,
+   "seen": true
+  },
+  {
+   "op": "seen",
+   "box": "INBOX",
+   "uid": 2,
+   "seen": false
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m09.eml",
+   "seen": false
+  },
+  {
+   "op": "poll",
+   "backfill": false
+  },
+  {
+   "op": "dump"
+  },
+  {
+   "op": "poll",
+   "backfill": true
+  },
+  {
+   "op": "dump"
+  }
+ ],
+ "poison": [
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m02.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "p01.eml",
+   "seen": false
+  },
+  {
+   "op": "poll",
+   "backfill": false
+  },
+  {
+   "op": "dump"
+  }
+ ],
+ "skip": [
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "m02.eml",
+   "seen": true
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "p02.eml",
+   "seen": false
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "p03.eml",
+   "seen": false
+  },
+  {
+   "op": "append",
+   "box": "INBOX",
+   "file": "p04.eml",
+   "seen": false
+  },
+  {
+   "op": "poll",
+   "backfill": false
+  },
+  {
+   "op": "dump"
+  },
+  {
+   "op": "poll",
+   "backfill": false
+  },
+  {
+   "op": "dump"
+  }
+ ]
+}

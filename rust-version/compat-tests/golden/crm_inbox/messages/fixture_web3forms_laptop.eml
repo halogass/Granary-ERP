@@ -1,0 +1,346 @@
+DKIM-Signature: v=1; a=rsa-sha256; s=ivkzbbib4xbxq5r4ggfcfo7x7ivlqcfm;
+ d=web3forms.com; b=FIXTURE
+DKIM-Signature: v=1; a=rsa-sha256; s=224i4yxa5dv7c2xz3womw6peuasteono;
+ d=amazonses.com; b=FIXTURE
+From: ACME Web Form <notify+ao1xd8@web3forms.com>
+Reply-To: andy.harper.lead@example.net
+To: hello@example.com
+Subject: New Lead [web3forms]: Wayne Electricals Ltd
+Date: Mon, 07 Sep 2026 07:50:18 +0000
+Message-ID: <010001a07ad8b721-b474216a-54cf-4517-8465-988ce604b9ee-000000@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7669702961030246374=="
+
+--===============7669702961030246374==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+name  : andy harper
+email  : andy.harper.lead@example.net
+phone  : +919876543210
+company  : Wayne Electricals Ltd
+interested_in  : laptop
+message  : need quote for customised laptops
+from_page  : https://example.com/products/acme-laptop-series/
+submission_source  : web3forms
+
+--===============7669702961030246374==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Simple Transactional Email</title>
+    <style>
+      /* ------------------------------------- INLINED WITH htmlemail.io/inline
+      ------------------------------------- */ /*
+      ------------------------------------- RESPONSIVE AND MOBILE FRIENDLY
+      STYLES ------------------------------------- */ @media only screen and
+      (max-width: 620px) { table[class=body] h1 { font-size: 28px !important;
+      margin-bottom: 10px !important; } table[class=body] p, table[class=body]
+      ul, table[class=body] ol, table[class=body] td, table[class=body] span,
+      table[class=body] a { font-size: 16px !important; } table[class=body]
+      .footer td, table[class=body] .footer span, table[class=body] .footer a {
+      font-size: 12px !important; } table[class=body] .wrapper, table[class=body]
+      .article { padding: 10px !important; }
+      table[class=body] .content { padding: 0 !important; } table[class=body]
+      .container { padding: 0 !important; width: 100% !important; }
+      table[class=body] .main { border-left-width: 0 !important; border-radius:
+      0 !important; border-right-width: 0 !important; } table[class=body] .btn
+      table { width: 100% !important; } table[class=body] .btn a { width: 100%
+      !important; } table[class=body] .img-responsive { height: auto !important;
+      max-width: 100% !important; width: auto !important; } } /*
+      ------------------------------------- PRESERVE THESE STYLES IN THE HEAD
+      ------------------------------------- */ @media all { .ExternalClass {
+      width: 100%; } .ExternalClass, .ExternalClass p, .ExternalClass span,
+      .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height:
+      100%; } .apple-link a { color: inherit !important; font-family: inherit
+      !important; font-size: inherit !important; font-weight: inherit
+      !important; line-height: inherit !important; text-decoration: none
+      !important; } #MessageViewBody a { color: inherit; text-decoration: none;
+      font-size: inherit; font-family: inherit; font-weight: inherit;
+      line-height: inherit; } .btn-primary table td:hover { background-color:
+      #34495e !important; } .btn-primary a:hover { background-color: #34495e
+      !important; border-color: #34495e !important; } .preheader { display:none;
+      } }
+    </style>
+  </head>
+  <body
+    class=""
+    style="background-color: #f9fafb; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; -webkit-font-smoothing: antialiased; font-size: 14px; line-height: 1.4; margin: 0; padding: 0; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;"
+  >
+
+    <table
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      class="body"
+      style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #f9fafb;"
+    >
+
+      <tr>
+        <td> </td>
+
+        <td
+          class="container"
+          style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; vertical-align: top; display: block; Margin: 0 auto; max-width: 580px; padding: 20px; width: 580px;"
+        >
+
+        </td>
+
+        <td></td>
+      </tr>
+
+      <tr>
+        <td
+          style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; vertical-align: top;"
+        >&nbsp;</td>
+        <td
+          class="container"
+          style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; vertical-align: top; display: block; Margin: 0 auto; max-width: 580px; padding: 10px; width: 580px;"
+        >
+          <div
+            class="content"
+            style="box-sizing: border-box; display: block; Margin: 0 auto; max-width: 580px; padding: 10px;"
+          >
+
+            <!-- START CENTERED WHITE CONTAINER -->
+              <span
+                class="preheader"
+                style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;"
+              > Form Submission Data from your website.</span>
+                <div
+                  class="preheader"
+                  style="display:none; font-size:1px; color: #FFFFFF; line-height:1px; opacity:0; overflow:hidden;"
+                >
+                  New form has been submitted on your website, please open to see details. 
+                </div>
+            <table
+              class="main"
+              style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; background-color: #ffffff; border-radius: 8px; border: 1px solid #e5e7eb;"
+            >
+
+              <!-- START MAIN CONTENT AREA -->
+              <tr>
+                <td
+                  class="wrapper"
+                  style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; vertical-align: top; box-sizing: border-box; padding: 20px;"
+                >
+                  <table
+                    border="0"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;"
+                  >
+                    <tr>
+                      <td
+                        style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; vertical-align: top;"
+                      >
+
+                          <p
+                            style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 16px; font-weight: normal; margin: 0; Margin-bottom: 15px; line-height: 18px;"
+                          >Hello, <br> <br> A new form has been submitted on your website. Details below.</p>
+                          <br />
+
+                        <div
+                          style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;"
+                        >
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Name
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                andy harper
+                              </div>
+                            </div>
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Email
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                andy.harper.lead@example.net
+                              </div>
+                            </div>
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Phone
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                +919876543210
+                              </div>
+                            </div>
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Company
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Wayne Electricals Ltd
+                              </div>
+                            </div>
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Interested in
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                laptop
+                              </div>
+                            </div>
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Message
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                need quote for customised laptops
+                              </div>
+                            </div>
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                From page
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                https&#x3A;&#x2F;&#x2F;example.com&#x2F;products&#x2F;acme-laptop-series&#x2F;
+                              </div>
+                            </div>
+                            <div
+                              style="margin-bottom: 16px; padding-bottom: 8px;"
+                            >
+                              <div
+                                style="font-weight: bold; color: #3548cc; font-size: 14px; margin-bottom: 4px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                Submission source
+                              </div>
+                              <div
+                                style="color: #333; font-size: 16px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;"
+                              >
+                                web3forms
+                              </div>
+                            </div>
+
+                        </div>
+
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+
+              <!-- END MAIN CONTENT AREA -->
+            </table>
+
+            <!-- START FOOTER -->
+            <div
+              class="footer"
+              style="clear: both; Margin-top: 10px; text-align: center; width: 100%;"
+            >
+              <table
+                border="0"
+                cellpadding="0"
+                cellspacing="0"
+                style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; text-align: center;"
+              >
+                <tr style="text-align: center;">
+                  <td
+                    class="content-block"
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;"
+                  >
+                    Visitor IP: 203.0.113.10. <a
+                        style="text-decoration: underline; color: #000000; font-size: 12px; font-weight: 600;"
+                        href="https://web3forms.com/"
+                      >Report Spam</a>.
+                    <br />
+                    Don't want these emails anymore?
+                    <a
+                      href="https://web3forms.com/"
+                      style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;"
+                    >Manage Notifications</a>.
+                  </td>
+                </tr>
+                <tr style="text-align: center;">
+                  <td
+                    class="content-block"
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; vertical-align: top; padding-bottom: 0; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;"
+                  >
+                    <span style="color: #999999">
+                      This e-mail was sent from
+                          <a
+                            href="https://example.com/"
+                            target="_blank"
+                            style="color:#999999"
+                          >https://example.com/</a>
+                    </span>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    class="content-block powered-by"
+                    style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; vertical-align: top; padding-bottom: 5px; padding-top: 5px; font-size: 12px; color: #999999; text-align: center;"
+                  >
+                    Powered by
+                    <a
+                      href="https://web3forms.com/"
+                      style="color: #999999; font-size: 12px; text-align: center; text-decoration: none;"
+                    >Web3Forms</a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- END FOOTER -->
+
+            <!-- END CENTERED WHITE CONTAINER -->
+          </div>
+        </td>
+        <td
+          style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-size: 14px; vertical-align: top;"
+        >&nbsp;</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+--===============7669702961030246374==--

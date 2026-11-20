@@ -1,0 +1,408 @@
+[
+ {
+  "kind": "AuthenticationError",
+  "status": 401,
+  "message": "m",
+  "body": null,
+  "str": "raw AuthenticationError",
+  "model": "",
+  "out": "The AI provider rejected the API key. Check it in Settings → Nary & AI → Providers & keys."
+ },
+ {
+  "kind": "AuthenticationError",
+  "status": 401,
+  "message": "m",
+  "body": null,
+  "str": "raw AuthenticationError",
+  "model": "claude-x",
+  "out": "The AI provider rejected the API key. Check it in Settings → Nary & AI → Providers & keys."
+ },
+ {
+  "kind": "X",
+  "status": 401,
+  "message": null,
+  "body": null,
+  "str": "raw X",
+  "model": "",
+  "out": "The AI provider rejected the API key. Check it in Settings → Nary & AI → Providers & keys."
+ },
+ {
+  "kind": "X",
+  "status": 401,
+  "message": null,
+  "body": null,
+  "str": "raw X",
+  "model": "claude-x",
+  "out": "The AI provider rejected the API key. Check it in Settings → Nary & AI → Providers & keys."
+ },
+ {
+  "kind": "PermissionDeniedError",
+  "status": 403,
+  "message": "m",
+  "body": null,
+  "str": "raw PermissionDeniedError",
+  "model": "",
+  "out": "The AI provider refused this request for the configured key."
+ },
+ {
+  "kind": "PermissionDeniedError",
+  "status": 403,
+  "message": "m",
+  "body": null,
+  "str": "raw PermissionDeniedError",
+  "model": "claude-x",
+  "out": "The AI provider refused this request for the configured key."
+ },
+ {
+  "kind": "NotFoundError",
+  "status": 404,
+  "message": "m",
+  "body": null,
+  "str": "raw NotFoundError",
+  "model": "",
+  "out": "The AI provider could not find the requested model."
+ },
+ {
+  "kind": "NotFoundError",
+  "status": 404,
+  "message": "m",
+  "body": null,
+  "str": "raw NotFoundError",
+  "model": "claude-x",
+  "out": "Model 'claude-x' was not found on this provider. Pick another model in Settings → Nary & AI → Model per job."
+ },
+ {
+  "kind": "X",
+  "status": 404,
+  "message": null,
+  "body": null,
+  "str": "raw X",
+  "model": "",
+  "out": "The AI provider could not find the requested model."
+ },
+ {
+  "kind": "X",
+  "status": 404,
+  "message": null,
+  "body": null,
+  "str": "raw X",
+  "model": "claude-x",
+  "out": "Model 'claude-x' was not found on this provider. Pick another model in Settings → Nary & AI → Model per job."
+ },
+ {
+  "kind": "RateLimitError",
+  "status": 429,
+  "message": "m",
+  "body": null,
+  "str": "raw RateLimitError",
+  "model": "",
+  "out": "The AI provider is rate limiting us or the account is out of credit. Try again shortly."
+ },
+ {
+  "kind": "RateLimitError",
+  "status": 429,
+  "message": "m",
+  "body": null,
+  "str": "raw RateLimitError",
+  "model": "claude-x",
+  "out": "The AI provider is rate limiting us or the account is out of credit. Try again shortly."
+ },
+ {
+  "kind": "OverloadedError",
+  "status": 529,
+  "message": "m",
+  "body": null,
+  "str": "raw OverloadedError",
+  "model": "",
+  "out": "The AI provider is overloaded right now. Try again shortly."
+ },
+ {
+  "kind": "OverloadedError",
+  "status": 529,
+  "message": "m",
+  "body": null,
+  "str": "raw OverloadedError",
+  "model": "claude-x",
+  "out": "The AI provider is overloaded right now. Try again shortly."
+ },
+ {
+  "kind": "APITimeoutError",
+  "status": null,
+  "message": "Request timed out.",
+  "body": null,
+  "str": "raw APITimeoutError",
+  "model": "",
+  "out": "The AI provider didn't answer in time. Please try again."
+ },
+ {
+  "kind": "APITimeoutError",
+  "status": null,
+  "message": "Request timed out.",
+  "body": null,
+  "str": "raw APITimeoutError",
+  "model": "claude-x",
+  "out": "The AI provider didn't answer in time. Please try again."
+ },
+ {
+  "kind": "ReadTimeout",
+  "status": null,
+  "message": null,
+  "body": null,
+  "str": "raw ReadTimeout",
+  "model": "",
+  "out": "The AI provider didn't answer in time. Please try again."
+ },
+ {
+  "kind": "ReadTimeout",
+  "status": null,
+  "message": null,
+  "body": null,
+  "str": "raw ReadTimeout",
+  "model": "claude-x",
+  "out": "The AI provider didn't answer in time. Please try again."
+ },
+ {
+  "kind": "APIConnectionError",
+  "status": null,
+  "message": "Connection error.",
+  "body": null,
+  "str": "raw APIConnectionError",
+  "model": "",
+  "out": "Couldn't reach the AI provider. Check the base URL and the server's network."
+ },
+ {
+  "kind": "APIConnectionError",
+  "status": null,
+  "message": "Connection error.",
+  "body": null,
+  "str": "raw APIConnectionError",
+  "model": "claude-x",
+  "out": "Couldn't reach the AI provider. Check the base URL and the server's network."
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - {...}",
+  "body": {
+   "error": {
+    "message": "Invalid schema for function 'x'"
+   }
+  },
+  "str": "raw BadRequestError",
+  "model": "",
+  "out": "The AI provider returned an error (400): Invalid schema for function 'x'"
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - {...}",
+  "body": {
+   "error": {
+    "message": "Invalid schema for function 'x'"
+   }
+  },
+  "str": "raw BadRequestError",
+  "model": "claude-x",
+  "out": "The AI provider returned an error (400): Invalid schema for function 'x'"
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - x",
+  "body": {
+   "message": "top-level message"
+  },
+  "str": "raw BadRequestError",
+  "model": "",
+  "out": "The AI provider returned an error (400): top-level message"
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - x",
+  "body": {
+   "message": "top-level message"
+  },
+  "str": "raw BadRequestError",
+  "model": "claude-x",
+  "out": "The AI provider returned an error (400): top-level message"
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - x",
+  "body": {
+   "error": "a string"
+  },
+  "str": "raw BadRequestError",
+  "model": "",
+  "out": "The AI provider returned an error (400): Error code: 400 - x"
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - x",
+  "body": {
+   "error": "a string"
+  },
+  "str": "raw BadRequestError",
+  "model": "claude-x",
+  "out": "The AI provider returned an error (400): Error code: 400 - x"
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - x",
+  "body": {
+   "error": {
+    "message": ""
+   },
+   "message": "fallback"
+  },
+  "str": "raw BadRequestError",
+  "model": "",
+  "out": "The AI provider returned an error (400): fallback"
+ },
+ {
+  "kind": "BadRequestError",
+  "status": 400,
+  "message": "Error code: 400 - x",
+  "body": {
+   "error": {
+    "message": ""
+   },
+   "message": "fallback"
+  },
+  "str": "raw BadRequestError",
+  "model": "claude-x",
+  "out": "The AI provider returned an error (400): fallback"
+ },
+ {
+  "kind": "InternalServerError",
+  "status": 500,
+  "message": "<html>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</html>",
+  "body": "<html>text body</html>",
+  "str": "raw InternalServerError",
+  "model": "",
+  "out": "The AI provider returned an error (500): <html>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ },
+ {
+  "kind": "InternalServerError",
+  "status": 500,
+  "message": "<html>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</html>",
+  "body": "<html>text body</html>",
+  "str": "raw InternalServerError",
+  "model": "claude-x",
+  "out": "The AI provider returned an error (500): <html>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+ },
+ {
+  "kind": "ClientError",
+  "status": null,
+  "message": "API key not valid.",
+  "body": null,
+  "str": "raw ClientError",
+  "model": "",
+  "out": "The AI request failed: API key not valid."
+ },
+ {
+  "kind": "ClientError",
+  "status": null,
+  "message": "API key not valid.",
+  "body": null,
+  "str": "raw ClientError",
+  "model": "claude-x",
+  "out": "The AI request failed: API key not valid."
+ },
+ {
+  "kind": "ClientError",
+  "status": null,
+  "message": null,
+  "body": null,
+  "str": "raw ClientError",
+  "model": "",
+  "out": "The AI request failed: raw ClientError"
+ },
+ {
+  "kind": "ClientError",
+  "status": null,
+  "message": null,
+  "body": null,
+  "str": "raw ClientError",
+  "model": "claude-x",
+  "out": "The AI request failed: raw ClientError"
+ },
+ {
+  "kind": "ValueError",
+  "status": null,
+  "message": null,
+  "body": null,
+  "str": "raw ValueError",
+  "model": "",
+  "out": "The AI request failed: raw ValueError"
+ },
+ {
+  "kind": "ValueError",
+  "status": null,
+  "message": null,
+  "body": null,
+  "str": "raw ValueError",
+  "model": "claude-x",
+  "out": "The AI request failed: raw ValueError"
+ },
+ {
+  "kind": "APIStatusError",
+  "status": 418,
+  "message": "teapot",
+  "body": null,
+  "str": "raw APIStatusError",
+  "model": "",
+  "out": "The AI provider returned an error (418): teapot"
+ },
+ {
+  "kind": "APIStatusError",
+  "status": 418,
+  "message": "teapot",
+  "body": null,
+  "str": "raw APIStatusError",
+  "model": "claude-x",
+  "out": "The AI provider returned an error (418): teapot"
+ },
+ {
+  "kind": "APIStatusError",
+  "status": 0,
+  "message": "zero",
+  "body": null,
+  "str": "raw APIStatusError",
+  "model": "",
+  "out": "The AI request failed: zero"
+ },
+ {
+  "kind": "APIStatusError",
+  "status": 0,
+  "message": "zero",
+  "body": null,
+  "str": "raw APIStatusError",
+  "model": "claude-x",
+  "out": "The AI request failed: zero"
+ },
+ {
+  "http": "No API key for gemini.",
+  "model": "",
+  "out": "No API key for gemini."
+ },
+ {
+  "http": "No API key for gemini.",
+  "model": "m",
+  "out": "No API key for gemini."
+ },
+ {
+  "http": "budget gone",
+  "model": "",
+  "out": "budget gone"
+ },
+ {
+  "http": "budget gone",
+  "model": "m",
+  "out": "budget gone"
+ }
+]

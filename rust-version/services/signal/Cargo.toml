@@ -1,0 +1,32 @@
+[package]
+license.workspace = true
+name = "granary-signal"
+description = "WebRTC signalling over WebSocket (port of services/signal, Node ws + Express)"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "granary-signal"
+path = "src/main.rs"
+
+[dependencies]
+tokio.workspace = true
+axum.workspace = true
+hyper = "1"
+hyper-util = { version = "0.1", features = ["tokio"] }
+tokio-tungstenite = { version = "0.29", default-features = false }
+futures-util = "0.3"
+indexmap = "2"
+form_urlencoded = "1"
+hmac.workspace = true
+sha2.workspace = true
+sha1.workspace = true
+base64.workspace = true
+
+[dev-dependencies]
+tokio-tungstenite = { version = "0.29", default-features = false, features = ["connect"] }
+granary-compat.workspace = true

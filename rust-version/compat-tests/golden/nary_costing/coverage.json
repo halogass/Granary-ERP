@@ -1,0 +1,8597 @@
+[
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 60
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 75
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 57
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 60
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 43
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 17
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 17
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": null
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 29
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 100
+ },
+ {
+  "content": {},
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 67
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 75
+ },
+ {
+  "content": {
+   "fields": {
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 14
+ },
+ {
+  "content": {
+   "fields": {
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "yes",
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 17
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 43
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 29
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 67
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 40
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 80
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 29
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 40
+ },
+ {
+  "content": {
+   "fields": null
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 40
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 14
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "yes",
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 29
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": null
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": null
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 60
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 29
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 29
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 60
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "yes",
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 43
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": null
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": null
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 14
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 57
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 57
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 57
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 67
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 40
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 29
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 17
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 80
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {},
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 17
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "yes",
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 86
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 43
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 20
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": "yes",
+     "value": null
+    },
+    "budget": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": "",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "yes",
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": "",
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   },
+   {
+    "key": "budget",
+    "label": "budget"
+   }
+  ],
+  "out": 14
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": true,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   }
+  ],
+  "out": 67
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": null,
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": 0,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "site": {
+     "known": 0,
+     "value": null
+    },
+    "integration": {
+     "known": "yes",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 33
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "current_setup": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": "yes",
+     "value": null
+    },
+    "integration": {
+     "known": 1,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {},
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": "",
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": "yes",
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": 0,
+     "value": null
+    },
+    "budget": {
+     "known": true,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": 1,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   }
+  ],
+  "out": 100
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": false,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 40
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": false,
+     "value": null
+    },
+    "current_setup": {
+     "known": true,
+     "value": null
+    },
+    "site": {
+     "known": null,
+     "value": null
+    },
+    "deployment": {
+     "known": true,
+     "value": null
+    },
+    "integration": {
+     "known": true,
+     "value": null
+    },
+    "timeline": {
+     "known": false,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 50
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": 0,
+     "value": null
+    },
+    "deployment": {
+     "known": 0,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   },
+   {
+    "key": "timeline",
+    "label": "timeline"
+   }
+  ],
+  "out": 0
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "site": {
+     "known": 1,
+     "value": null
+    },
+    "integration": {
+     "known": "",
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   }
+  ],
+  "out": 25
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": true,
+     "value": null
+    },
+    "current_setup": {
+     "known": 1,
+     "value": null
+    },
+    "site": {
+     "known": false,
+     "value": null
+    },
+    "deployment": {
+     "known": false,
+     "value": null
+    },
+    "timeline": {
+     "known": true,
+     "value": null
+    },
+    "budget": {
+     "known": 1,
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   },
+   {
+    "key": "site",
+    "label": "site"
+   },
+   {
+    "key": "deployment",
+    "label": "deployment"
+   },
+   {
+    "key": "integration",
+    "label": "integration"
+   }
+  ],
+  "out": 40
+ },
+ {
+  "content": {
+   "fields": {
+    "problem": {
+     "known": null,
+     "value": null
+    },
+    "current_setup": {
+     "known": "",
+     "value": null
+    },
+    "deployment": {
+     "known": "",
+     "value": null
+    },
+    "integration": {
+     "known": null,
+     "value": null
+    },
+    "timeline": {
+     "known": null,
+     "value": null
+    },
+    "budget": {
+     "known": "yes",
+     "value": null
+    }
+   }
+  },
+  "fields": [
+   {
+    "key": "problem",
+    "label": "problem"
+   },
+   {
+    "key": "current_setup",
+    "label": "current_setup"
+   }
+  ],
+  "out": 0
+ }
+]

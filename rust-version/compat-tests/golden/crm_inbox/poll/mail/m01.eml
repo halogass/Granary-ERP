@@ -1,0 +1,8 @@
+Message-ID: <m01@customer.test>
+From: Ann Customer <ann@customer.test>
+To: hello@acme.test
+Subject: Quote please
+Date: {{RECENT}}
+Content-Type: text/plain; charset=utf-8
+
+Please send a quote for 10 units.

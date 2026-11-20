@@ -1,0 +1,72 @@
+[
+ {
+  "a": {
+   "channel": "whatsapp",
+   "chat_id": "1@c.us"
+  },
+  "b": {
+   "channel": "whatsapp",
+   "chat_id": "1@c.us"
+  },
+  "out": true
+ },
+ {
+  "a": {
+   "channel": "whatsapp",
+   "chat_id": ""
+  },
+  "b": {
+   "channel": "whatsapp",
+   "chat_id": ""
+  },
+  "out": false
+ },
+ {
+  "a": {
+   "channel": "whatsapp",
+   "chat_id": "1"
+  },
+  "b": {
+   "channel": "email",
+   "chat_id": "1"
+  },
+  "out": false
+ },
+ {
+  "a": {
+   "channel": "email",
+   "to": "A@x.com"
+  },
+  "b": {
+   "channel": "email",
+   "to": "a@X.com"
+  },
+  "out": true
+ },
+ {
+  "a": {
+   "channel": "email",
+   "to": null
+  },
+  "b": {
+   "channel": "email",
+   "to": null
+  },
+  "out": false
+ },
+ {
+  "a": {
+   "channel": null,
+   "to": "a"
+  },
+  "b": {
+   "to": "a"
+  },
+  "out": true
+ },
+ {
+  "a": {},
+  "b": {},
+  "out": false
+ }
+]

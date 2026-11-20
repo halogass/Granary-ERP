@@ -1,0 +1,115 @@
+[
+ {
+  "cfg": {
+   "ai.routing": "{\"default\": {\"provider\": \"anthropic\", \"model\": \"claude-opus-5-5\"}, \"assistant\": {\"provider\": \"Anthropic\", \"model\": \"claude-opus-5-5\", \"effort\": \"high\", \"max_tokens\": 16000, \"cache_ttl\": \"1h\"}, \"scoring\": {\"provider\": \"anthropic\", \"model\": \"claude-haiku-5-5\", \"effort\": \"\", \"max_tokens\": \"2000\"}, \"odd\": {\"provider\": \"anthropic\", \"model\": \"m\", \"cache_ttl\": \"7d\", \"max_tokens\": 0}, \"floaty\": {\"provider\": \"openai\", \"model\": \"gpt-4o\", \"max_tokens\": 1234.9}, \"empty\": {}, \"nulls\": null, \"noprov\": {\"model\": \"x\"}, \"nomodel\": {\"provider\": \"x\"}, \"numeric\": {\"provider\": 5, \"model\": 7, \"effort\": 3}, \"embedding\": {\"provider\": \"gemini\", \"model\": \"gemini-embedding-001\"}, \"ds\": {\"provider\": \"deepseek\", \"model\": \"deepseek-chat\"}, \"ol\": {\"provider\": \"ollama\", \"model\": \"llama3\"}}",
+   "ai.anthropic.api_key": "gAAAAABq0IuBlo5nW_3gC3QLFbs8qS3lHwwAzVEjqJm-256EYfaFvj2VHWE6DDzcbuZIp-Lk-70ZgryxaOZD6KtYDMpb8BB1HA==",
+   "ai.gemini.api_key": "plain-typed-key",
+   "ai.openai.api_key": "",
+   "ai.openai.base_url": "https://x/v1",
+   "ai.anthropic.base_url": "https://api.deepseek.com",
+   "ai.gemini.base_url": "https://elsewhere",
+   "ai.ollama.base_url": "http://ollama:11434",
+   "ai.deepseek.base_url": ""
+  },
+  "keys": [
+   {
+    "provider": "anthropic",
+    "key": "sk-ant-real",
+    "base_url": null
+   },
+   {
+    "provider": "Anthropic",
+    "key": "sk-ant-real",
+    "base_url": null
+   },
+   {
+    "provider": "gemini",
+    "key": "plain-typed-key",
+    "base_url": null
+   },
+   {
+    "provider": "openai",
+    "key": null,
+    "base_url": "https://x/v1"
+   },
+   {
+    "provider": "deepseek",
+    "key": null,
+    "base_url": null
+   },
+   {
+    "provider": "ollama",
+    "key": null,
+    "base_url": "http://ollama:11434"
+   },
+   {
+    "provider": "mistral",
+    "key": null,
+    "base_url": null
+   },
+   {
+    "provider": "",
+    "key": null,
+    "base_url": null
+   }
+  ],
+  "ready": [
+   {
+    "job": "assistant",
+    "ready": true
+   },
+   {
+    "job": "chat",
+    "ready": true
+   },
+   {
+    "job": "scoring",
+    "ready": true
+   },
+   {
+    "job": "odd",
+    "ready": true
+   },
+   {
+    "job": "floaty",
+    "ready": false
+   },
+   {
+    "job": "empty",
+    "ready": true
+   },
+   {
+    "job": "nulls",
+    "ready": true
+   },
+   {
+    "job": "noprov",
+    "ready": false
+   },
+   {
+    "job": "nomodel",
+    "ready": false
+   },
+   {
+    "job": "numeric",
+    "ready": false
+   },
+   {
+    "job": "embedding",
+    "ready": true
+   },
+   {
+    "job": "ds",
+    "ready": false
+   },
+   {
+    "job": "ol",
+    "ready": true
+   },
+   {
+    "job": "unknown_job",
+    "ready": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,1889 @@
+{
+ "profiles": {
+  "owner": [
+   "a0000000-0000-0000-0000-000000000001",
+   []
+  ],
+  "own": [
+   "a0000000-0000-0000-0000-000000000002",
+   [
+    "crm:view_own",
+    "crm:create_contact",
+    "crm:edit_contact",
+    "crm:log_activity",
+    "crm:create_lead",
+    "crm:view_whatsapp",
+    "projects:view_own"
+   ]
+  ],
+  "rachel_plain": [
+   "a0000000-0000-0000-0000-000000000002",
+   []
+  ],
+  "all": [
+   "a0000000-0000-0000-0000-000000000004",
+   [
+    "crm:view_all",
+    "crm:create_contact",
+    "finance:view_invoices",
+    "finance:view_reports",
+    "projects:view_own",
+    "sales:view_catalog",
+    "sales:create_quotation",
+    "crm:create_deal"
+   ]
+  ],
+  "seller": [
+   "a0000000-0000-0000-0000-000000000003",
+   [
+    "sales:view_catalog"
+   ]
+  ],
+  "costs": [
+   "a0000000-0000-0000-0000-000000000003",
+   [
+    "sales:view_catalog",
+    "sales:view_costs"
+   ]
+  ],
+  "john_proj": [
+   "a0000000-0000-0000-0000-000000000003",
+   [
+    "projects:view_own",
+    "crm:view_own"
+   ]
+  ],
+  "nobody": [
+   "a0000000-0000-0000-0000-000000000003",
+   []
+  ]
+ },
+ "calls": [
+  {
+   "tool": "no_such_tool",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"error\":\"Unknown tool: no_such_tool\"}"
+  },
+  {
+   "tool": "list_overdue_invoices",
+   "profile": "nobody",
+   "args": {},
+   "out": "{\"error\":\"You don't have permission to use this tool.\"}"
+  },
+  {
+   "tool": "get_pipeline_summary",
+   "profile": "rachel_plain",
+   "args": {},
+   "out": "{\"error\":\"You don't have permission to use this tool.\"}"
+  },
+  {
+   "tool": "withdraw_cards",
+   "profile": "nobody",
+   "args": {},
+   "out": "{\"error\":\"withdraw_cards only works in a chat conversation.\"}"
+  },
+  {
+   "tool": "withdraw_cards",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"error\":\"withdraw_cards only works in a chat conversation.\"}"
+  },
+  {
+   "tool": "get_pipeline_summary",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"currency\":\"JPY\",\"by_stage\":[{\"stage\":\"proposal\",\"count\":2,\"total_value\":250000000.1,\"is_closed\":false,\"is_won\":false},{\"stage\":\"won\",\"count\":1,\"total_value\":0.0,\"is_closed\":true,\"is_won\":true,\"unconverted\":[{\"currency\":\"USD\",\"count\":1,\"total_value\":1000.5}]},{\"stage\":\"legacy_x\",\"count\":1,\"total_value\":0.0,\"is_closed\":false,\"is_won\":false}],\"total_value\":250000000.1,\"missing_rates\":[\"USD\"],\"note\":\"Totals are in JPY. Deals in USD are not included in them: no exchange rate to JPY is on record, so their values are listed per currency under \\\"unconverted\\\". Add the rate under Finance → Exchange Rates to include them.\"}"
+  },
+  {
+   "tool": "get_pipeline_summary",
+   "profile": "own",
+   "args": {},
+   "out": "{\"currency\":\"JPY\",\"by_stage\":[{\"stage\":\"proposal\",\"count\":1,\"total_value\":250000000.0,\"is_closed\":false,\"is_won\":false},{\"stage\":\"legacy_x\",\"count\":1,\"total_value\":0.0,\"is_closed\":false,\"is_won\":false}],\"total_value\":250000000.0}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"deals\":[{\"id\":\"e0000000-0000-0000-0000-000000000004\",\"title\":\"Second proposal\",\"deal_number\":\"DL-0004\",\"stage\":\"proposal\",\"value\":0.1,\"currency\":\"JPY\",\"probability\":40,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000003\",\"title\":\"Legacy stage deal\",\"deal_number\":null,\"stage\":\"legacy_x\",\"value\":null,\"currency\":null,\"probability\":null,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000002\",\"title\":\"Steel yard pilot\",\"deal_number\":\"DL-0002\",\"stage\":\"won\",\"value\":1000.5,\"currency\":\"USD\",\"probability\":100,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000001\",\"title\":\"Golden gates rollout\",\"deal_number\":\"DL-0001\",\"stage\":\"proposal\",\"value\":250000000.0,\"currency\":\"JPY\",\"probability\":50,\"expected_close_date\":\"2026-12-01\",\"segment\":null}]}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "owner",
+   "args": {
+    "stage": "proposal",
+    "limit": 1
+   },
+   "out": "{\"deals\":[{\"id\":\"e0000000-0000-0000-0000-000000000004\",\"title\":\"Second proposal\",\"deal_number\":\"DL-0004\",\"stage\":\"proposal\",\"value\":0.1,\"currency\":\"JPY\",\"probability\":40,\"expected_close_date\":null,\"segment\":null}]}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "owner",
+   "args": {
+    "stage": "closed_won"
+   },
+   "out": "{\"error\":\"Unknown stage 'closed_won'. Stages: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified\"}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "owner",
+   "args": {
+    "stage": 5
+   },
+   "out": "{\"error\":\"Unknown stage '5'. Stages: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified\"}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "own",
+   "args": {
+    "limit": "2"
+   },
+   "out": "{\"deals\":[{\"id\":\"e0000000-0000-0000-0000-000000000003\",\"title\":\"Legacy stage deal\",\"deal_number\":null,\"stage\":\"legacy_x\",\"value\":null,\"currency\":null,\"probability\":null,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000001\",\"title\":\"Golden gates rollout\",\"deal_number\":\"DL-0001\",\"stage\":\"proposal\",\"value\":250000000.0,\"currency\":\"JPY\",\"probability\":50,\"expected_close_date\":\"2026-12-01\",\"segment\":null}]}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "all",
+   "args": {
+    "limit": 99
+   },
+   "out": "{\"deals\":[{\"id\":\"e0000000-0000-0000-0000-000000000004\",\"title\":\"Second proposal\",\"deal_number\":\"DL-0004\",\"stage\":\"proposal\",\"value\":0.1,\"currency\":\"JPY\",\"probability\":40,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000003\",\"title\":\"Legacy stage deal\",\"deal_number\":null,\"stage\":\"legacy_x\",\"value\":null,\"currency\":null,\"probability\":null,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000002\",\"title\":\"Steel yard pilot\",\"deal_number\":\"DL-0002\",\"stage\":\"won\",\"value\":1000.5,\"currency\":\"USD\",\"probability\":100,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000001\",\"title\":\"Golden gates rollout\",\"deal_number\":\"DL-0001\",\"stage\":\"proposal\",\"value\":250000000.0,\"currency\":\"JPY\",\"probability\":50,\"expected_close_date\":\"2026-12-01\",\"segment\":null}]}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "owner",
+   "args": {
+    "limit": "many"
+   },
+   "out": "{\"error\":\"Tool failed: invalid literal for int() with base 10: 'many'\"}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "owner",
+   "args": {
+    "limit": 2.9
+   },
+   "out": "{\"deals\":[{\"id\":\"e0000000-0000-0000-0000-000000000004\",\"title\":\"Second proposal\",\"deal_number\":\"DL-0004\",\"stage\":\"proposal\",\"value\":0.1,\"currency\":\"JPY\",\"probability\":40,\"expected_close_date\":null,\"segment\":null},{\"id\":\"e0000000-0000-0000-0000-000000000003\",\"title\":\"Legacy stage deal\",\"deal_number\":null,\"stage\":\"legacy_x\",\"value\":null,\"currency\":null,\"probability\":null,\"expected_close_date\":null,\"segment\":null}]}"
+  },
+  {
+   "tool": "list_deals",
+   "profile": "owner",
+   "args": {
+    "limit": [
+     1
+    ]
+   },
+   "out": "{\"error\":\"Tool failed: int() argument must be a string, a bytes-like object or a real number, not 'list'\"}"
+  },
+  {
+   "tool": "search_contacts",
+   "profile": "owner",
+   "args": {
+    "query": "diana"
+   },
+   "out": "{\"contacts\":[{\"id\":\"c0000000-0000-0000-0000-000000000001\",\"name\":\"Diana Prince\",\"email\":\"diana@globex.test\",\"phone\":\"+1555010001111\",\"organization_id\":\"b0000000-0000-0000-0000-000000000001\"},{\"id\":\"c0000000-0000-0000-0000-000000000003\",\"name\":\"Diana\",\"email\":null,\"phone\":\"+1555010001111\",\"organization_id\":null}]}"
+  },
+  {
+   "tool": "search_contacts",
+   "profile": "own",
+   "args": {
+    "query": " globex.test "
+   },
+   "out": "{\"contacts\":[{\"id\":\"c0000000-0000-0000-0000-000000000001\",\"name\":\"Diana Prince\",\"email\":\"diana@globex.test\",\"phone\":\"+1555010001111\",\"organization_id\":\"b0000000-0000-0000-0000-000000000001\"}]}"
+  },
+  {
+   "tool": "search_contacts",
+   "profile": "john_proj",
+   "args": {
+    "query": ""
+   },
+   "out": "{\"contacts\":[{\"id\":\"c0000000-0000-0000-0000-000000000002\",\"name\":\"John Smith\",\"email\":\"john.h@steel.test\",\"phone\":\"+1555010002222\",\"organization_id\":\"b0000000-0000-0000-0000-000000000002\"}]}"
+  },
+  {
+   "tool": "search_contacts",
+   "profile": "owner",
+   "args": {
+    "query": "+81811",
+    "limit": 1
+   },
+   "out": "{\"contacts\":[]}"
+  },
+  {
+   "tool": "search_contacts",
+   "profile": "owner",
+   "args": {
+    "query": 5
+   },
+   "out": "{\"error\":\"Tool failed: 'int' object has no attribute 'strip'\"}"
+  },
+  {
+   "tool": "get_lead",
+   "profile": "owner",
+   "args": {
+    "lead_id": "d0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"lead\":{\"id\":\"d0000000-0000-0000-0000-000000000001\",\"title\":\"Golden: SDK inquiry\",\"status\":\"new\",\"priority\":\"high\",\"source\":\"email\",\"source_detail\":\"hello@ inbox\",\"organization\":\"Globex Corp\",\"contact\":\"Diana Prince\",\"email\":\"diana@globex.test\",\"phone\":\"+1555010001111\",\"estimated_value\":15000000.5,\"currency\":\"JPY\",\"description\":\"Wants laptops for 3 offices. Globex Corp plant in Shelbyville.\",\"segment\":null}}"
+  },
+  {
+   "tool": "get_lead",
+   "profile": "owner",
+   "args": {
+    "lead_id": "nope"
+   },
+   "out": "{\"error\":\"lead_id is not a valid id\"}"
+  },
+  {
+   "tool": "get_lead",
+   "profile": "owner",
+   "args": {
+    "name": "Shelbyville"
+   },
+   "out": "{\"lead\":{\"id\":\"d0000000-0000-0000-0000-000000000001\",\"title\":\"Golden: SDK inquiry\",\"status\":\"new\",\"priority\":\"high\",\"source\":\"email\",\"source_detail\":\"hello@ inbox\",\"organization\":\"Globex Corp\",\"contact\":\"Diana Prince\",\"email\":\"diana@globex.test\",\"phone\":\"+1555010001111\",\"estimated_value\":15000000.5,\"currency\":\"JPY\",\"description\":\"Wants laptops for 3 offices. Globex Corp plant in Shelbyville.\",\"segment\":null}}"
+  },
+  {
+   "tool": "get_lead",
+   "profile": "own",
+   "args": {
+    "lead_id": "d0000000-0000-0000-0000-000000000002"
+   },
+   "out": "{\"error\":\"Lead not found or not accessible to you\"}"
+  },
+  {
+   "tool": "get_lead",
+   "profile": "owner",
+   "args": {
+    "name": "Orphan"
+   },
+   "out": "{\"lead\":{\"id\":\"d0000000-0000-0000-0000-000000000003\",\"title\":\"Orphan lead\",\"status\":\"new\",\"priority\":null,\"source\":\"referral\",\"source_detail\":null,\"organization\":null,\"contact\":null,\"email\":null,\"phone\":null,\"estimated_value\":null,\"currency\":null,\"description\":\"No contact, no company\",\"segment\":null}}"
+  },
+  {
+   "tool": "get_lead",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"error\":\"Provide lead_id or name\"}"
+  },
+  {
+   "tool": "get_lead",
+   "profile": "owner",
+   "args": {
+    "lead_id": "{d0000000-0000-0000-0000-000000000002}"
+   },
+   "out": "{\"lead\":{\"id\":\"d0000000-0000-0000-0000-000000000002\",\"title\":\"Steel yard safety\",\"status\":\"qualifying\",\"priority\":\"medium\",\"source\":\"website\",\"source_detail\":null,\"organization\":\"Globex Steel\",\"contact\":\"John Smith\",\"email\":\"john.h@steel.test\",\"phone\":\"+1555010002222\",\"estimated_value\":null,\"currency\":null,\"description\":\"\",\"segment\":null}}"
+  },
+  {
+   "tool": "list_overdue_invoices",
+   "profile": "all",
+   "args": {},
+   "out": "{\"count\":2,\"overdue_invoices\":[{\"id\":\"f0000000-0000-0000-0000-000000000001\",\"invoice_number\":\"INV-2020-001\",\"customer_name\":\"Globex Corp\",\"amount_due\":1500000.0,\"currency\":\"JPY\",\"due_date\":\"2020-01-15\",\"status\":\"sent\"},{\"id\":\"f0000000-0000-0000-0000-000000000004\",\"invoice_number\":\"INV-2020-004\",\"customer_name\":null,\"amount_due\":1000.0,\"currency\":\"USD\",\"due_date\":\"2020-02-01\",\"status\":\"partially_paid\"}]}"
+  },
+  {
+   "tool": "list_overdue_invoices",
+   "profile": "owner",
+   "args": {
+    "limit": 1
+   },
+   "out": "{\"count\":1,\"overdue_invoices\":[{\"id\":\"f0000000-0000-0000-0000-000000000001\",\"invoice_number\":\"INV-2020-001\",\"customer_name\":\"Globex Corp\",\"amount_due\":1500000.0,\"currency\":\"JPY\",\"due_date\":\"2020-01-15\",\"status\":\"sent\"}]}"
+  },
+  {
+   "tool": "get_revenue_summary",
+   "profile": "all",
+   "args": {},
+   "out": "{\"note\":\"Amounts are summed nominally across each invoice's own currency.\",\"total_invoiced\":2001544.81,\"total_collected\":500534.81,\"total_outstanding\":1501010.0}"
+  },
+  {
+   "tool": "list_my_projects",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"projects\":[{\"id\":\"10000000-0000-0000-0000-000000000003\",\"name\":\"Internal R&D\",\"project_number\":\"PRJ-003\",\"status\":\"active\",\"start_date\":null,\"end_date\":null},{\"id\":\"10000000-0000-0000-0000-000000000002\",\"name\":\"Steel Yard Pilot\",\"project_number\":\"PRJ-002\",\"status\":\"planning\",\"start_date\":null,\"end_date\":null},{\"id\":\"10000000-0000-0000-0000-000000000001\",\"name\":\"Golden Gates Deployment\",\"project_number\":\"PRJ-001\",\"status\":\"active\",\"start_date\":\"2026-02-01\",\"end_date\":\"2026-06-30\"}]}"
+  },
+  {
+   "tool": "list_my_projects",
+   "profile": "own",
+   "args": {},
+   "out": "{\"projects\":[{\"id\":\"10000000-0000-0000-0000-000000000001\",\"name\":\"Golden Gates Deployment\",\"project_number\":\"PRJ-001\",\"status\":\"active\",\"start_date\":\"2026-02-01\",\"end_date\":\"2026-06-30\"}]}"
+  },
+  {
+   "tool": "list_my_projects",
+   "profile": "john_proj",
+   "args": {},
+   "out": "{\"projects\":[{\"id\":\"10000000-0000-0000-0000-000000000002\",\"name\":\"Steel Yard Pilot\",\"project_number\":\"PRJ-002\",\"status\":\"planning\",\"start_date\":null,\"end_date\":null}]}"
+  },
+  {
+   "tool": "list_my_projects",
+   "profile": "all",
+   "args": {
+    "limit": 1
+   },
+   "out": "{\"projects\":[{\"id\":\"10000000-0000-0000-0000-000000000003\",\"name\":\"Internal R&D\",\"project_number\":\"PRJ-003\",\"status\":\"active\",\"start_date\":null,\"end_date\":null}]}"
+  },
+  {
+   "tool": "get_project",
+   "profile": "own",
+   "args": {
+    "project_id": "10000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"project\":{\"id\":\"10000000-0000-0000-0000-000000000001\",\"name\":\"Golden Gates Deployment\",\"project_number\":\"PRJ-001\",\"status\":\"active\",\"type\":\"deployment\",\"budget\":150000000.0,\"currency\":\"JPY\",\"cost_to_date\":2500.75,\"start_date\":\"2026-02-01\",\"end_date\":\"2026-06-30\",\"description\":\"Install 3 gate readers.\"}}"
+  },
+  {
+   "tool": "get_project",
+   "profile": "own",
+   "args": {
+    "project_id": "10000000-0000-0000-0000-000000000002"
+   },
+   "out": "{\"error\":\"Project not found or not accessible to you\"}"
+  },
+  {
+   "tool": "get_project",
+   "profile": "john_proj",
+   "args": {
+    "name": "steel"
+   },
+   "out": "{\"project\":{\"id\":\"10000000-0000-0000-0000-000000000002\",\"name\":\"Steel Yard Pilot\",\"project_number\":\"PRJ-002\",\"status\":\"planning\",\"type\":\"pilot\",\"budget\":null,\"currency\":null,\"cost_to_date\":null,\"start_date\":null,\"end_date\":null,\"description\":\"\"}}"
+  },
+  {
+   "tool": "get_project",
+   "profile": "owner",
+   "args": {
+    "project_id": "x"
+   },
+   "out": "{\"error\":\"project_id is not a valid id\"}"
+  },
+  {
+   "tool": "get_project",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"error\":\"Provide project_id or name\"}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "zqx"
+   },
+   "out": "{\"currency\":\"JPY\",\"products\":[{\"id\":\"20000000-0000-0000-0000-000000000001\",\"sku\":\"ZQX-BOX-01\",\"name\":\"ZQX Laptop & Docking Kit\",\"unit\":\"unit\",\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":1.0,\"min_term_months\":null,\"modules\":[\"backup\",\"sync\"],\"addon_for\":[],\"included_support_months\":12,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":12500000.0,\"price_source\":\"own\"},{\"id\":\"20000000-0000-0000-0000-000000000008\",\"sku\":\"ZQX-NOP-08\",\"name\":\"ZQX No Price\",\"unit\":null,\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"No JPY list price for ZQX-NOP-08 on 2026-10-15\"},{\"id\":\"20000000-0000-0000-0000-000000000006\",\"sku\":\"ZQX-SUB-06\",\"name\":\"ZQX Cloud Subscription\",\"unit\":\"device\",\"category\":\"software\",\"family\":\"zqx_box\",\"sale_model\":\"recurring\",\"price_metric\":\"device\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":4.0,\"min_term_months\":12,\"modules\":[\"reporting\"],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":150000.0,\"price_source\":\"own\"},{\"id\":\"20000000-0000-0000-0000-000000000004\",\"sku\":\"ZQX-CARE-04\",\"name\":\"ZQX Support\",\"unit\":\"year\",\"category\":\"support\",\"family\":\"zqx_support\",\"sale_model\":\"recurring\",\"price_metric\":\"unit\",\"pricing_mode\":\"percent_of_parent\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":12,\"modules\":[],\"addon_for\":[\"ZQX-BOX-01\"],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"15.0% of the parent line's net unit price; the pricing service works it out on the quotation.\"},{\"id\":\"20000000-0000-0000-0000-000000000003\",\"sku\":\"ZQX-MAN-03\",\"name\":\"ZQX Manual Item\",\"unit\":null,\"category\":\"service\",\"family\":\"zqx_svc\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"manual\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"Priced manually by a person allowed to set prices.\"},{\"id\":\"20000000-0000-0000-0000-000000000002\",\"sku\":\"ZQX-QUOTE-02\",\"name\":\"ZQX Custom Integration\",\"unit\":\"project\",\"category\":\"service\",\"family\":\"zqx_svc\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"quote_only\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"Quote only: tell the user this needs a quote.\"},{\"id\":\"20000000-0000-0000-0000-000000000005\",\"sku\":\"ZQX-WL-05\",\"name\":\"ZQX White Label Branding\",\"unit\":null,\"category\":\"branding\",\"family\":\"zqx_wl\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":true,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"White-label: priced from its parent line by the pricing service.\"}]}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "costs",
+   "args": {
+    "query": "ZQX box"
+   },
+   "out": "{\"currency\":\"JPY\",\"products\":[{\"id\":\"20000000-0000-0000-0000-000000000001\",\"sku\":\"ZQX-BOX-01\",\"name\":\"ZQX Laptop & Docking Kit\",\"unit\":\"unit\",\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":1.0,\"min_term_months\":null,\"modules\":[\"backup\",\"sync\"],\"addon_for\":[],\"included_support_months\":12,\"is_whitelabel\":false,\"currency\":\"JPY\",\"volume_tiers\":[{\"min_qty\":5.0,\"max_qty\":9.0,\"discount_pct\":5.0},{\"min_qty\":10.0,\"max_qty\":null,\"discount_pct\":7.5}],\"whitelabel_free_min_qty\":null,\"whitelabel_rule\":null,\"terms_note\":\"Ships in 2 weeks\",\"cost_price\":9000000.0,\"price\":12500000.0,\"price_source\":\"own\"},{\"id\":\"20000000-0000-0000-0000-000000000008\",\"sku\":\"ZQX-NOP-08\",\"name\":\"ZQX No Price\",\"unit\":null,\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"volume_tiers\":[],\"whitelabel_free_min_qty\":null,\"whitelabel_rule\":null,\"terms_note\":null,\"cost_price\":null,\"price\":null,\"price_note\":\"No JPY list price for ZQX-NOP-08 on 2026-10-15\"},{\"id\":\"20000000-0000-0000-0000-000000000006\",\"sku\":\"ZQX-SUB-06\",\"name\":\"ZQX Cloud Subscription\",\"unit\":\"device\",\"category\":\"software\",\"family\":\"zqx_box\",\"sale_model\":\"recurring\",\"price_metric\":\"device\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":4.0,\"min_term_months\":12,\"modules\":[\"reporting\"],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"volume_tiers\":[],\"whitelabel_free_min_qty\":null,\"whitelabel_rule\":null,\"terms_note\":null,\"cost_price\":120000.0,\"price\":150000.0,\"price_source\":\"own\"}]}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "laptop docking zqx",
+    "currency": "usd"
+   },
+   "out": "{\"currency\":\"USD\",\"products\":[{\"id\":\"20000000-0000-0000-0000-000000000001\",\"sku\":\"ZQX-BOX-01\",\"name\":\"ZQX Laptop & Docking Kit\",\"unit\":\"unit\",\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":1.0,\"min_term_months\":null,\"modules\":[\"backup\",\"sync\"],\"addon_for\":[],\"included_support_months\":12,\"is_whitelabel\":false,\"currency\":\"USD\",\"price\":799.99,\"price_source\":\"own\"}]}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "zqx",
+    "currency": "EUR"
+   },
+   "out": "{\"currency\":\"EUR\",\"products\":[{\"id\":\"20000000-0000-0000-0000-000000000001\",\"sku\":\"ZQX-BOX-01\",\"name\":\"ZQX Laptop & Docking Kit\",\"unit\":\"unit\",\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":1.0,\"min_term_months\":null,\"modules\":[\"backup\",\"sync\"],\"addon_for\":[],\"included_support_months\":12,\"is_whitelabel\":false,\"currency\":\"EUR\",\"price\":null,\"price_note\":\"No USD/EUR exchange rate is on record for 2026-10-15. Add it under Finance → Exchange Rates, or enter the rate on the document.\"},{\"id\":\"20000000-0000-0000-0000-000000000008\",\"sku\":\"ZQX-NOP-08\",\"name\":\"ZQX No Price\",\"unit\":null,\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"EUR\",\"price\":null,\"price_note\":\"No EUR list price for ZQX-NOP-08 on 2026-10-15, and no USD price to convert from\"},{\"id\":\"20000000-0000-0000-0000-000000000006\",\"sku\":\"ZQX-SUB-06\",\"name\":\"ZQX Cloud Subscription\",\"unit\":\"device\",\"category\":\"software\",\"family\":\"zqx_box\",\"sale_model\":\"recurring\",\"price_metric\":\"device\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":4.0,\"min_term_months\":12,\"modules\":[\"reporting\"],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"EUR\",\"price\":null,\"price_note\":\"No EUR list price for ZQX-SUB-06 on 2026-10-15, and no USD price to convert from\"},{\"id\":\"20000000-0000-0000-0000-000000000004\",\"sku\":\"ZQX-CARE-04\",\"name\":\"ZQX Support\",\"unit\":\"year\",\"category\":\"support\",\"family\":\"zqx_support\",\"sale_model\":\"recurring\",\"price_metric\":\"unit\",\"pricing_mode\":\"percent_of_parent\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":12,\"modules\":[],\"addon_for\":[\"ZQX-BOX-01\"],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"EUR\",\"price\":null,\"price_note\":\"15.0% of the parent line's net unit price; the pricing service works it out on the quotation.\"},{\"id\":\"20000000-0000-0000-0000-000000000003\",\"sku\":\"ZQX-MAN-03\",\"name\":\"ZQX Manual Item\",\"unit\":null,\"category\":\"service\",\"family\":\"zqx_svc\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"manual\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"EUR\",\"price\":null,\"price_note\":\"Priced manually by a person allowed to set prices.\"},{\"id\":\"20000000-0000-0000-0000-000000000002\",\"sku\":\"ZQX-QUOTE-02\",\"name\":\"ZQX Custom Integration\",\"unit\":\"project\",\"category\":\"service\",\"family\":\"zqx_svc\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"quote_only\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"EUR\",\"price\":null,\"price_note\":\"Quote only: tell the user this needs a quote.\"},{\"id\":\"20000000-0000-0000-0000-000000000005\",\"sku\":\"ZQX-WL-05\",\"name\":\"ZQX White Label Branding\",\"unit\":null,\"category\":\"branding\",\"family\":\"zqx_wl\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":true,\"currency\":\"EUR\",\"price\":null,\"price_note\":\"White-label: priced from its parent line by the pricing service.\"}]}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "zqxbox01"
+   },
+   "out": "{\"currency\":\"JPY\",\"products\":[{\"id\":\"20000000-0000-0000-0000-000000000001\",\"sku\":\"ZQX-BOX-01\",\"name\":\"ZQX Laptop & Docking Kit\",\"unit\":\"unit\",\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":1.0,\"min_term_months\":null,\"modules\":[\"backup\",\"sync\"],\"addon_for\":[],\"included_support_months\":12,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":12500000.0,\"price_source\":\"own\"}]}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "zqx",
+    "family": "zqx_box",
+    "limit": 1
+   },
+   "out": "{\"currency\":\"JPY\",\"products\":[{\"id\":\"20000000-0000-0000-0000-000000000001\",\"sku\":\"ZQX-BOX-01\",\"name\":\"ZQX Laptop & Docking Kit\",\"unit\":\"unit\",\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":1.0,\"min_term_months\":null,\"modules\":[\"backup\",\"sync\"],\"addon_for\":[],\"included_support_months\":12,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":12500000.0,\"price_source\":\"own\"}],\"note\":\"Only the first 1 matches are shown; narrow the query or family to see the rest.\"}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "zqx",
+    "limit": 0
+   },
+   "out": "{\"currency\":\"JPY\",\"products\":[{\"id\":\"20000000-0000-0000-0000-000000000001\",\"sku\":\"ZQX-BOX-01\",\"name\":\"ZQX Laptop & Docking Kit\",\"unit\":\"unit\",\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":1.0,\"min_term_months\":null,\"modules\":[\"backup\",\"sync\"],\"addon_for\":[],\"included_support_months\":12,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":12500000.0,\"price_source\":\"own\"},{\"id\":\"20000000-0000-0000-0000-000000000008\",\"sku\":\"ZQX-NOP-08\",\"name\":\"ZQX No Price\",\"unit\":null,\"category\":\"hardware\",\"family\":\"zqx_box\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"No JPY list price for ZQX-NOP-08 on 2026-10-15\"},{\"id\":\"20000000-0000-0000-0000-000000000006\",\"sku\":\"ZQX-SUB-06\",\"name\":\"ZQX Cloud Subscription\",\"unit\":\"device\",\"category\":\"software\",\"family\":\"zqx_box\",\"sale_model\":\"recurring\",\"price_metric\":\"device\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":4.0,\"min_term_months\":12,\"modules\":[\"reporting\"],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":150000.0,\"price_source\":\"own\"},{\"id\":\"20000000-0000-0000-0000-000000000004\",\"sku\":\"ZQX-CARE-04\",\"name\":\"ZQX Support\",\"unit\":\"year\",\"category\":\"support\",\"family\":\"zqx_support\",\"sale_model\":\"recurring\",\"price_metric\":\"unit\",\"pricing_mode\":\"percent_of_parent\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":12,\"modules\":[],\"addon_for\":[\"ZQX-BOX-01\"],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"15.0% of the parent line's net unit price; the pricing service works it out on the quotation.\"},{\"id\":\"20000000-0000-0000-0000-000000000003\",\"sku\":\"ZQX-MAN-03\",\"name\":\"ZQX Manual Item\",\"unit\":null,\"category\":\"service\",\"family\":\"zqx_svc\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"manual\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"Priced manually by a person allowed to set prices.\"},{\"id\":\"20000000-0000-0000-0000-000000000002\",\"sku\":\"ZQX-QUOTE-02\",\"name\":\"ZQX Custom Integration\",\"unit\":\"project\",\"category\":\"service\",\"family\":\"zqx_svc\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"quote_only\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":false,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"Quote only: tell the user this needs a quote.\"},{\"id\":\"20000000-0000-0000-0000-000000000005\",\"sku\":\"ZQX-WL-05\",\"name\":\"ZQX White Label Branding\",\"unit\":null,\"category\":\"branding\",\"family\":\"zqx_wl\",\"sale_model\":\"one_time\",\"price_metric\":\"unit\",\"pricing_mode\":\"list\",\"rate_period_months\":null,\"billing_interval_months\":null,\"min_quantity\":null,\"min_term_months\":null,\"modules\":[],\"addon_for\":[],\"included_support_months\":null,\"is_whitelabel\":true,\"currency\":\"JPY\",\"price\":null,\"price_note\":\"White-label: priced from its parent line by the pricing service.\"}]}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "nothing-matches-zqx-qqq"
+   },
+   "out": "{\"currency\":\"JPY\",\"products\":[]}"
+  },
+  {
+   "tool": "search_catalog",
+   "profile": "seller",
+   "args": {
+    "query": "zqx",
+    "currency": 5
+   },
+   "out": "{\"error\":\"Tool failed: 'int' object has no attribute 'upper'\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "lead",
+    "action": "create",
+    "fields": "{\"title\": \"Card lead\", \"source\": \"Email, hello@\"}"
+   },
+   "out": "{\"error\":\"Unknown lead source 'Email, hello@'. Use one of: web3forms, inline_web3forms, whatsapp_direct, whatsapp, email, website_form, linkedin, founder_network, bizdev_network, partner_referral, referral, cold_outreach, event, other, website_inline_form. Fix the card (crm_field_schema lists the allowed values) and propose it again.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "lead",
+    "action": "create",
+    "ref": "@lead",
+    "fields": {
+     "title": "Card lead",
+     "source": "email",
+     "organization_id": "b0000000-0000-0000-0000-000000000001"
+    }
+   },
+   "out": "{\"proposal\":{\"kind\":\"record_change\",\"object_type\":\"lead\",\"action\":\"create\",\"record_id\":null,\"label\":\"Card lead\",\"display\":{\"organization_id\":\"Globex Corp\"},\"before\":{},\"after\":{\"title\":\"Card lead\",\"source\":\"email\",\"organization_id\":\"b0000000-0000-0000-0000-000000000001\"},\"ref\":\"lead\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": " Deal ",
+    "action": "UPDATE",
+    "record_id": "e0000000-0000-0000-0000-000000000001",
+    "fields": "{\"probability\": 70, \"title\": \"Golden gates v2\"}"
+   },
+   "out": "{\"proposal\":{\"kind\":\"record_change\",\"object_type\":\"deal\",\"action\":\"update\",\"record_id\":\"e0000000-0000-0000-0000-000000000001\",\"label\":\"Golden gates rollout\",\"display\":{},\"before\":{\"probability\":50,\"title\":\"Golden gates rollout\"},\"after\":{\"probability\":70,\"title\":\"Golden gates v2\"}},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "deal",
+    "action": "update",
+    "fields": "{}"
+   },
+   "out": "{\"error\":\"A valid record_id is required to update a record.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "deal",
+    "action": "update",
+    "record_id": "x",
+    "fields": "{}"
+   },
+   "out": "{\"error\":\"A valid record_id is required to update a record.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "lead",
+    "action": "update",
+    "ref": "a b",
+    "fields": "{}"
+   },
+   "out": "{\"error\":\"ref must be a short name such as org, contact or lead (letters, digits, - or _).\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "lead",
+    "action": "update",
+    "ref": "lead",
+    "fields": "{}"
+   },
+   "out": "{\"error\":\"Only a create card can have a ref.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "lead",
+    "action": "create",
+    "fields": "not json"
+   },
+   "out": "{\"error\":\"`fields` must be a JSON object, e.g. {\\\"stage\\\": \\\"proposal\\\"}. Fix the card (crm_field_schema lists the allowed values) and propose it again.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "lead",
+    "action": "create",
+    "fields": "[1, 2]"
+   },
+   "out": "{\"error\":\"`fields` must be a JSON object. Fix the card (crm_field_schema lists the allowed values) and propose it again.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "contact",
+    "action": "create",
+    "fields": {
+     "first_name": "Adams",
+     "organization_id": "@org"
+    }
+   },
+   "out": "{\"proposal\":{\"kind\":\"record_change\",\"object_type\":\"contact\",\"action\":\"create\",\"record_id\":null,\"label\":\"Adams\",\"display\":{},\"before\":{},\"after\":{\"first_name\":\"Adams\",\"organization_id\":\"@org\"}},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_record_change",
+   "profile": "own",
+   "args": {
+    "object_type": "activity",
+    "action": "create",
+    "fields": {
+     "entity_type": "lead",
+     "entity_id": "d0000000-0000-0000-0000-000000000001",
+     "activity_type": "call",
+     "subject": "Called Diana"
+    }
+   },
+   "out": "{\"proposal\":{\"kind\":\"record_change\",\"object_type\":\"activity\",\"action\":\"create\",\"record_id\":null,\"label\":\"Called Diana\",\"display\":{\"entity_id\":\"Golden: SDK inquiry\"},\"before\":{},\"after\":{\"entity_type\":\"lead\",\"entity_id\":\"d0000000-0000-0000-0000-000000000001\",\"activity_type\":\"call\",\"subject\":\"Called Diana\"}},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "start_research",
+   "profile": "own",
+   "args": {
+    "object_type": "deal",
+    "name": "x"
+   },
+   "out": "{\"error\":\"object_type must be 'organization' or 'contact'.\"}"
+  },
+  {
+   "tool": "start_research",
+   "profile": "own",
+   "args": {
+    "object_type": "organization"
+   },
+   "out": "{\"error\":\"Give a record_id or a name.\"}"
+  },
+  {
+   "tool": "start_research",
+   "profile": "own",
+   "args": {
+    "object_type": "organization",
+    "record_id": "x"
+   },
+   "out": "{\"error\":\"record_id is not a valid id.\"}"
+  },
+  {
+   "tool": "start_research",
+   "profile": "own",
+   "args": {
+    "object_type": "organization",
+    "name": "Golden Steel"
+   },
+   "out": "{\"error\":\"No organization you can see matches that.\"}"
+  },
+  {
+   "tool": "start_research",
+   "profile": "own",
+   "args": {
+    "object_type": "organization",
+    "name": "Twin"
+   },
+   "out": "{\"error\":\"No organization you can see matches that.\"}"
+  },
+  {
+   "tool": "start_research",
+   "profile": "own",
+   "args": {
+    "object_type": "contact",
+    "name": "zzz"
+   },
+   "out": "{\"error\":\"No contact you can see matches that.\"}"
+  },
+  {
+   "tool": "read_web_page",
+   "profile": "nobody",
+   "args": {
+    "url": "file:///etc/passwd"
+   },
+   "out": "{\"error\":\"Give a full http(s):// address.\"}"
+  },
+  {
+   "tool": "read_web_page",
+   "profile": "nobody",
+   "args": {},
+   "out": "{\"error\":\"Give a full http(s):// address.\"}"
+  },
+  {
+   "tool": "search_web",
+   "profile": "nobody",
+   "args": {
+    "query": "  "
+   },
+   "out": "{\"error\":\"A search query is required.\"}"
+  },
+  {
+   "tool": "search_ai_knowledge",
+   "profile": "nobody",
+   "args": {
+    "query": ""
+   },
+   "out": "{\"error\":\"A query is required.\"}"
+  },
+  {
+   "tool": "search_sops",
+   "profile": "nobody",
+   "args": {},
+   "out": "{\"error\":\"query is required\"}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "rachel_plain",
+   "args": {},
+   "out": "{\"days\":30,\"count\":2,\"emails\":[{\"source\":\"personal\",\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"rachel@example.com\",\"to\":[\"diana@globex.test\",\"boss@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"snippet\":\"Attached is the quotation.\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"to\":[\"rachel@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":false,\"snippet\":\"Hi Rachel, please send the quotation.\",\"date\":\"{{NOW-2d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {},
+   "out": "{\"days\":30,\"count\":6,\"emails\":[{\"source\":\"personal\",\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"rachel@example.com\",\"to\":[\"diana@globex.test\",\"boss@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"snippet\":\"Attached is the quotation.\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":false,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Thanks, can you add Care?\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"to\":[\"rachel@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":false,\"snippet\":\"Hi Rachel, please send the quotation.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":\"ACME\",\"to\":[\"diana@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Here it is.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Please quote 3 gates.\",\"date\":\"{{NOW-3d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":null,\"to\":[\"someone@acme.test\"],\"subject\":\"Outbound only\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000002\",\"snippet\":\"\",\"date\":\"{{NOW-5d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "folder": "sent"
+   },
+   "out": "{\"days\":30,\"count\":3,\"emails\":[{\"source\":\"personal\",\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"rachel@example.com\",\"to\":[\"diana@globex.test\",\"boss@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"snippet\":\"Attached is the quotation.\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":\"ACME\",\"to\":[\"diana@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Here it is.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":null,\"to\":[\"someone@acme.test\"],\"subject\":\"Outbound only\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000002\",\"snippet\":\"\",\"date\":\"{{NOW-5d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "folder": "Inbox ",
+    "unread_only": true
+   },
+   "out": "{\"days\":30,\"count\":2,\"emails\":[{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":false,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Thanks, can you add Care?\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"to\":[\"rachel@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":false,\"snippet\":\"Hi Rachel, please send the quotation.\",\"date\":\"{{NOW-2d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "from": "globex.test",
+    "days": 90
+   },
+   "out": "{\"days\":90,\"count\":3,\"emails\":[{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":false,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Thanks, can you add Care?\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"to\":[\"rachel@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":false,\"snippet\":\"Hi Rachel, please send the quotation.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Please quote 3 gates.\",\"date\":\"{{NOW-3d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "to": "boss@",
+    "query": "quotation"
+   },
+   "out": "{\"days\":30,\"count\":1,\"emails\":[{\"source\":\"personal\",\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"rachel@example.com\",\"to\":[\"diana@globex.test\",\"boss@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"snippet\":\"Attached is the quotation.\",\"date\":\"{{NOW-1d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "days": "1",
+    "limit": 1
+   },
+   "out": "{\"days\":1,\"count\":0,\"emails\":[]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "days": 365
+   },
+   "out": "{\"days\":90,\"count\":7,\"emails\":[{\"source\":\"personal\",\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"rachel@example.com\",\"to\":[\"diana@globex.test\",\"boss@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"snippet\":\"Attached is the quotation.\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":false,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Thanks, can you add Care?\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"to\":[\"rachel@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":false,\"snippet\":\"Hi Rachel, please send the quotation.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":\"ACME\",\"to\":[\"diana@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Here it is.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Please quote 3 gates.\",\"date\":\"{{NOW-3d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":null,\"to\":[\"someone@acme.test\"],\"subject\":\"Outbound only\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000002\",\"snippet\":\"\",\"date\":\"{{NOW-5d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"news@vendor.test\",\"to\":[],\"subject\":\"Old newsletter\",\"is_read\":true,\"snippet\":\"\",\"date\":\"{{NOW-60d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "days": "abc"
+   },
+   "out": "{\"days\":30,\"count\":6,\"emails\":[{\"source\":\"personal\",\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"rachel@example.com\",\"to\":[\"diana@globex.test\",\"boss@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"snippet\":\"Attached is the quotation.\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":false,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Thanks, can you add Care?\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"to\":[\"rachel@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":false,\"snippet\":\"Hi Rachel, please send the quotation.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":\"ACME\",\"to\":[\"diana@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Here it is.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Please quote 3 gates.\",\"date\":\"{{NOW-3d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":null,\"to\":[\"someone@acme.test\"],\"subject\":\"Outbound only\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000002\",\"snippet\":\"\",\"date\":\"{{NOW-5d}}\"}]}"
+  },
+  {
+   "tool": "search_emails",
+   "profile": "own",
+   "args": {
+    "days": 0
+   },
+   "out": "{\"days\":30,\"count\":6,\"emails\":[{\"source\":\"personal\",\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"rachel@example.com\",\"to\":[\"diana@globex.test\",\"boss@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"snippet\":\"Attached is the quotation.\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":false,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Thanks, can you add Care?\",\"date\":\"{{NOW-1d}}\"},{\"source\":\"personal\",\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"to\":[\"rachel@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":false,\"snippet\":\"Hi Rachel, please send the quotation.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":\"ACME\",\"to\":[\"diana@globex.test\"],\"subject\":\"Re: Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Here it is.\",\"date\":\"{{NOW-2d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"inbox\",\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"subject\":\"Quotation for the gates\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"snippet\":\"Please quote 3 gates.\",\"date\":\"{{NOW-3d}}\"},{\"source\":\"crm_inbox\",\"inbox\":\"hello@example.com\",\"cc\":[],\"folder\":\"sent\",\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":null,\"to\":[\"someone@acme.test\"],\"subject\":\"Outbound only\",\"is_read\":true,\"thread_id\":\"40000000-0000-0000-0000-000000000002\",\"snippet\":\"\",\"date\":\"{{NOW-5d}}\"}]}"
+  },
+  {
+   "tool": "get_email_thread",
+   "profile": "own",
+   "args": {
+    "thread_id": "40000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"subject\":\"Quotation for the gates\",\"messages\":[{\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"cc\":[],\"subject\":\"Quotation for the gates\",\"date\":\"{{NOW-3d}}\",\"attachments\":[],\"text\":\"Please quote 3 gates.\"},{\"direction\":\"sent\",\"from\":\"hello@example.com\",\"from_name\":\"ACME\",\"to\":[\"diana@globex.test\"],\"cc\":[],\"subject\":\"Re: Quotation for the gates\",\"date\":\"{{NOW-2d}}\",\"attachments\":[],\"text\":\"Here it is.\"},{\"direction\":\"received\",\"from\":\"diana@globex.test\",\"from_name\":\"Diana Prince\",\"to\":[\"hello@example.com\"],\"cc\":[],\"subject\":\"Re: Quotation for the gates\",\"date\":\"{{NOW-1d}}\",\"attachments\":[\"po-draft.pdf\"],\"text\":\"Thanks, can you add Care?\"}],\"reply_from_inbox\":\"hello@example.com\"}"
+  },
+  {
+   "tool": "get_email_thread",
+   "profile": "own",
+   "args": {
+    "thread_id": "nope"
+   },
+   "out": "{\"error\":\"No such email conversation; use search_emails to find its thread_id.\"}"
+  },
+  {
+   "tool": "get_email_thread",
+   "profile": "own",
+   "args": {},
+   "out": "{\"error\":\"No such email conversation; use search_emails to find its thread_id.\"}"
+  },
+  {
+   "tool": "get_email_thread",
+   "profile": "rachel_plain",
+   "args": {
+    "thread_id": "40000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"error\":\"You don't have permission to use this tool.\"}"
+  },
+  {
+   "tool": "list_meetings",
+   "profile": "own",
+   "args": {},
+   "out": "{\"error\":\"You don't have permission to use this tool.\"}"
+  },
+  {
+   "tool": "list_meetings",
+   "profile": "own",
+   "args": {
+    "past_days": 99
+   },
+   "out": "{\"error\":\"You don't have permission to use this tool.\"}"
+  },
+  {
+   "tool": "propose_meeting_guests",
+   "profile": "own",
+   "args": {
+    "meeting_id": "x",
+    "emails": [
+     "a@b.c"
+    ]
+   },
+   "out": "{\"error\":\"No such meeting; use list_meetings for its id.\"}"
+  },
+  {
+   "tool": "propose_meeting_guests",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000002",
+    "emails": [
+     "a@b.c"
+    ]
+   },
+   "out": "{\"error\":\"Only a booked meeting takes guests (this one is cancelled).\"}"
+  },
+  {
+   "tool": "propose_meeting_guests",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000003",
+    "emails": [
+     "a@b.c"
+    ]
+   },
+   "out": "{\"error\":\"Only a booked meeting takes guests (this one is booked).\"}"
+  },
+  {
+   "tool": "propose_meeting_guests",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "emails": []
+   },
+   "out": "{\"error\":\"Give guest email addresses.\"}"
+  },
+  {
+   "tool": "propose_meeting_guests",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "emails": [
+     "ok@x.test",
+     "bad",
+     " "
+    ]
+   },
+   "out": "{\"error\":\"Give guest email addresses: not valid: bad.\"}"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000002"
+   },
+   "out": "{\"error\":\"That meeting is already cancelled.\"}"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "own",
+   "args": {
+    "meeting_id": "nope"
+   },
+   "out": "{\"error\":\"No such meeting; use list_meetings for its id.\"}"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "message": {
+     "channel": "email",
+     "text": "Sorry"
+    }
+   },
+   "out": "{\"error\":\"Sending the customer a message as Nary needs the Owner's permission; cancel without `message` and tell the customer yourself.\"}"
+  },
+  {
+   "tool": "propose_contact_merge",
+   "profile": "own",
+   "args": {
+    "keep_id": "c0000000-0000-0000-0000-000000000001",
+    "merge_id": "c0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"error\":\"Those are the same contact.\"}"
+  },
+  {
+   "tool": "propose_contact_merge",
+   "profile": "own",
+   "args": {
+    "keep_id": "x",
+    "merge_id": "c0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"error\":\"keep_id and merge_id must be contact ids (search_contacts).\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000004",
+    "action": "done"
+   },
+   "out": "{\"error\":\"No such reminder of yours; list them with list_my_followups.\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000003",
+    "action": "done"
+   },
+   "out": "{\"error\":\"That reminder is already done.\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "later"
+   },
+   "out": "{\"error\":\"action must be snooze, done or cancel\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "done"
+   },
+   "out": "{\"proposal\":{\"kind\":\"reminder_change\",\"reminder_id\":\"50000000-0000-0000-0000-000000000001\",\"action\":\"done\",\"label\":\"Chase the quote\",\"summary\":\"Mark done: “Chase the quote”\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "cancel"
+   },
+   "out": "{\"proposal\":{\"kind\":\"reminder_change\",\"reminder_id\":\"50000000-0000-0000-0000-000000000001\",\"action\":\"cancel\",\"label\":\"Chase the quote\",\"summary\":\"Cancel: “Chase the quote”\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "snooze"
+   },
+   "out": "{\"error\":\"A snooze needs `until`, an ISO date-time\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "snooze",
+    "until": "2020-01-01T10:00"
+   },
+   "out": "{\"error\":\"`until` must be in the future\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "snooze",
+    "until": "2031-07-01T10:00"
+   },
+   "out": "{\"proposal\":{\"kind\":\"reminder_change\",\"reminder_id\":\"50000000-0000-0000-0000-000000000001\",\"action\":\"snooze\",\"label\":\"Chase the quote\",\"until\":\"2031-07-01T10:00:00+09:00\",\"summary\":\"Move “Chase the quote” to Tue 01 Jul 10:00\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "snooze",
+    "until": "2031-07-01T10:00:00Z"
+   },
+   "out": "{\"proposal\":{\"kind\":\"reminder_change\",\"reminder_id\":\"50000000-0000-0000-0000-000000000001\",\"action\":\"snooze\",\"label\":\"Chase the quote\",\"until\":\"2031-07-01T10:00:00+00:00\",\"summary\":\"Move “Chase the quote” to Tue 01 Jul 19:00\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "50000000-0000-0000-0000-000000000001",
+    "action": "snooze",
+    "until": "2031-07-01T23:30:00-05:00"
+   },
+   "out": "{\"proposal\":{\"kind\":\"reminder_change\",\"reminder_id\":\"50000000-0000-0000-0000-000000000001\",\"action\":\"snooze\",\"label\":\"Chase the quote\",\"until\":\"2031-07-01T23:30:00-05:00\",\"summary\":\"Move “Chase the quote” to Wed 02 Jul 13:30\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_reminder_change",
+   "profile": "own",
+   "args": {
+    "reminder_id": "bogus",
+    "action": "done"
+   },
+   "out": "{\"error\":\"No such reminder of yours; list them with list_my_followups.\"}"
+  },
+  {
+   "tool": "list_my_followups",
+   "profile": "own",
+   "args": {},
+   "out": "{\"count\":2,\"items\":[{\"id\":\"50000000-0000-0000-0000-000000000001\",\"title\":\"Chase the quote\",\"note\":\"They wanted Care\",\"source\":\"manual\",\"entity_type\":\"deal\",\"entity_id\":\"e0000000-0000-0000-0000-000000000001\",\"due_at\":\"2020-03-01 12:00\",\"status\":\"open\",\"overdue\":true},{\"id\":\"50000000-0000-0000-0000-000000000002\",\"title\":\"Reply to Diana\",\"note\":null,\"source\":\"no_reply\",\"entity_type\":\"whatsapp_chat\",\"entity_id\":null,\"due_at\":\"2035-05-01 11:30\",\"status\":\"open\",\"overdue\":false}]}"
+  },
+  {
+   "tool": "list_my_followups",
+   "profile": "own",
+   "args": {
+    "overdue": true
+   },
+   "out": "{\"count\":1,\"items\":[{\"id\":\"50000000-0000-0000-0000-000000000001\",\"title\":\"Chase the quote\",\"note\":\"They wanted Care\",\"source\":\"manual\",\"entity_type\":\"deal\",\"entity_id\":\"e0000000-0000-0000-0000-000000000001\",\"due_at\":\"2020-03-01 12:00\",\"status\":\"open\",\"overdue\":true}]}"
+  },
+  {
+   "tool": "list_my_followups",
+   "profile": "own",
+   "args": {
+    "status": "done"
+   },
+   "out": "{\"count\":1,\"items\":[{\"id\":\"50000000-0000-0000-0000-000000000003\",\"title\":\"Done already\",\"note\":null,\"source\":\"manual\",\"entity_type\":\"lead\",\"entity_id\":\"d0000000-0000-0000-0000-000000000001\",\"due_at\":\"2020-02-01 12:00\",\"status\":\"done\",\"overdue\":false}]}"
+  },
+  {
+   "tool": "list_my_followups",
+   "profile": "own",
+   "args": {
+    "status": "any"
+   },
+   "out": "{\"count\":3,\"items\":[{\"id\":\"50000000-0000-0000-0000-000000000003\",\"title\":\"Done already\",\"note\":null,\"source\":\"manual\",\"entity_type\":\"lead\",\"entity_id\":\"d0000000-0000-0000-0000-000000000001\",\"due_at\":\"2020-02-01 12:00\",\"status\":\"done\",\"overdue\":false},{\"id\":\"50000000-0000-0000-0000-000000000001\",\"title\":\"Chase the quote\",\"note\":\"They wanted Care\",\"source\":\"manual\",\"entity_type\":\"deal\",\"entity_id\":\"e0000000-0000-0000-0000-000000000001\",\"due_at\":\"2020-03-01 12:00\",\"status\":\"open\",\"overdue\":true},{\"id\":\"50000000-0000-0000-0000-000000000002\",\"title\":\"Reply to Diana\",\"note\":null,\"source\":\"no_reply\",\"entity_type\":\"whatsapp_chat\",\"entity_id\":null,\"due_at\":\"2035-05-01 11:30\",\"status\":\"open\",\"overdue\":false}]}"
+  },
+  {
+   "tool": "list_my_followups",
+   "profile": "own",
+   "args": {
+    "days": 3650
+   },
+   "out": "{\"count\":2,\"items\":[{\"id\":\"50000000-0000-0000-0000-000000000001\",\"title\":\"Chase the quote\",\"note\":\"They wanted Care\",\"source\":\"manual\",\"entity_type\":\"deal\",\"entity_id\":\"e0000000-0000-0000-0000-000000000001\",\"due_at\":\"2020-03-01 12:00\",\"status\":\"open\",\"overdue\":true},{\"id\":\"50000000-0000-0000-0000-000000000002\",\"title\":\"Reply to Diana\",\"note\":null,\"source\":\"no_reply\",\"entity_type\":\"whatsapp_chat\",\"entity_id\":null,\"due_at\":\"2035-05-01 11:30\",\"status\":\"open\",\"overdue\":false}]}"
+  },
+  {
+   "tool": "list_my_followups",
+   "profile": "own",
+   "args": {
+    "days": "x"
+   },
+   "out": "{\"error\":\"Tool failed: invalid literal for int() with base 10: 'x'\"}"
+  },
+  {
+   "tool": "propose_followup_reminder",
+   "profile": "own",
+   "args": {
+    "entity_type": "whatsapp_chat",
+    "title": "x"
+   },
+   "out": "{\"error\":\"A WhatsApp reminder needs the chat id\"}"
+  },
+  {
+   "tool": "propose_followup_reminder",
+   "profile": "own",
+   "args": {
+    "entity_type": "deal",
+    "title": "x"
+   },
+   "out": "{\"error\":\"A record id is required\"}"
+  },
+  {
+   "tool": "propose_followup_reminder",
+   "profile": "own",
+   "args": {
+    "entity_type": "invoice",
+    "title": "x"
+   },
+   "out": "{\"error\":\"entity_type must be one of contact, lead, deal, quotation, email_thread, whatsapp_chat\"}"
+  },
+  {
+   "tool": "propose_followup_reminder",
+   "profile": "own",
+   "args": {
+    "entity_type": "deal",
+    "entity_id": "e0000000-0000-0000-0000-000000000001",
+    "title": "  Chase Acme X  ",
+    "note": "re quote",
+    "due_at": "2031-01-02T09:00"
+   },
+   "out": "{\"proposal\":{\"kind\":\"followup_reminder\",\"title\":\"Chase Acme X\",\"note\":\"re quote\",\"entity_type\":\"deal\",\"entity_id\":\"e0000000-0000-0000-0000-000000000001\",\"chat_id\":null,\"due_at\":\"2031-01-02T09:00:00+09:00\",\"time_zone\":\"Asia/Tokyo\",\"summary\":\"Remind you to “Chase Acme X” on Thu 02 Jan 09:00\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_followup_reminder",
+   "profile": "own",
+   "args": {
+    "entity_type": "whatsapp_chat",
+    "chat_id": "818@c.us",
+    "title": "",
+    "due_at": "2031-01-02T09:00:00+00:00"
+   },
+   "out": "{\"proposal\":{\"kind\":\"followup_reminder\",\"title\":\"Follow up\",\"note\":null,\"entity_type\":\"whatsapp_chat\",\"entity_id\":null,\"chat_id\":\"818@c.us\",\"due_at\":\"2031-01-02T09:00:00+00:00\",\"time_zone\":\"Asia/Tokyo\",\"summary\":\"Remind you to “Follow up” on Thu 02 Jan 18:00\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_followup_reminder",
+   "profile": "own",
+   "args": {
+    "entity_type": "lead",
+    "entity_id": "d0000000-0000-0000-0000-000000000001",
+    "title": "T",
+    "due_at": "next friday"
+   },
+   "out": "{\"error\":\"due_at must be an ISO date-time\"}"
+  },
+  {
+   "tool": "search_records",
+   "profile": "own",
+   "args": {
+    "object_type": "organization",
+    "filters": [
+     {
+      "field": "city",
+      "op": "eq",
+      "value": "Kyoto"
+     }
+    ]
+   },
+   "out": "{\"object_type\":\"organization\",\"filters\":[{\"field\":\"city\",\"op\":\"eq\",\"value\":\"Kyoto\"}],\"count\":2,\"offset\":0,\"limit\":25,\"has_more\":false,\"items\":[{\"id\":\"b0000000-0000-0000-0000-000000000004\",\"custom\":{},\"label\":\"Initech West\",\"industry\":\"retail\",\"city\":\"Kyoto\",\"country\":null},{\"id\":\"b0000000-0000-0000-0000-000000000003\",\"custom\":{},\"label\":\"Initech East\",\"industry\":\"retail\",\"city\":\"Kyoto\",\"country\":null}]}"
+  },
+  {
+   "tool": "search_records",
+   "profile": "owner",
+   "args": {
+    "object_type": "organization",
+    "filters": [],
+    "limit": 2,
+    "offset": 1
+   },
+   "out": "{\"object_type\":\"organization\",\"filters\":[],\"count\":4,\"offset\":1,\"limit\":2,\"has_more\":true,\"items\":[{\"id\":\"b0000000-0000-0000-0000-000000000003\",\"custom\":{},\"label\":\"Initech East\",\"industry\":\"retail\",\"city\":\"Kyoto\",\"country\":null},{\"id\":\"b0000000-0000-0000-0000-000000000002\",\"custom\":{},\"label\":\"Globex Steel\",\"industry\":\"manufacturing\",\"city\":\"Tokyo\",\"country\":null}]}"
+  },
+  {
+   "tool": "search_records",
+   "profile": "owner",
+   "args": {
+    "object_type": "organization",
+    "filters": [
+     {
+      "field": "kota",
+      "op": "eq",
+      "value": "x"
+     }
+    ]
+   },
+   "out": "{\"error\":\"Unknown field 'kota' on organization\",\"valid_fields\":[\"annual_revenue\",\"city\",\"country\",\"created_at\",\"email\",\"employee_count\",\"industry\",\"name\",\"website\"],\"valid_object_types\":[\"organization\",\"contact\",\"lead\",\"deal\"]}"
+  },
+  {
+   "tool": "search_records",
+   "profile": "owner",
+   "args": {
+    "object_type": "invoice"
+   },
+   "out": "{\"error\":\"object_type must be one of organization, contact, lead, deal\",\"valid_fields\":[],\"valid_object_types\":[\"organization\",\"contact\",\"lead\",\"deal\"]}"
+  },
+  {
+   "tool": "search_records",
+   "profile": "owner",
+   "args": {
+    "object_type": "deal",
+    "filters": [
+     {
+      "field": "stage",
+      "op": "eq",
+      "value": "proposal"
+     }
+    ],
+    "sort": {
+     "field": "value",
+     "direction": "asc"
+    }
+   },
+   "out": "{\"object_type\":\"deal\",\"filters\":[{\"field\":\"stage\",\"op\":\"eq\",\"value\":\"proposal\"}],\"count\":2,\"offset\":0,\"limit\":25,\"has_more\":false,\"items\":[{\"id\":\"e0000000-0000-0000-0000-000000000004\",\"custom\":{},\"label\":\"Second proposal\",\"stage\":\"proposal\",\"value\":0.1,\"currency\":\"JPY\"},{\"id\":\"e0000000-0000-0000-0000-000000000001\",\"custom\":{},\"label\":\"Golden gates rollout\",\"stage\":\"proposal\",\"value\":250000000.0,\"currency\":\"JPY\"}]}"
+  },
+  {
+   "tool": "crm_field_schema",
+   "profile": "own",
+   "args": {
+    "object_type": "lead"
+   },
+   "out": "{\"object_type\":\"lead\",\"writable\":[\"attribution\",\"contact_id\",\"currency\",\"description\",\"disqualification_reason\",\"estimated_value\",\"interested_products\",\"organization_id\",\"priority\",\"source\",\"source_campaign_id\",\"source_detail\",\"status\",\"title\"],\"required_on_create\":[\"source\"],\"allowed_values\":{\"status (on create)\":[\"new\",\"triaging\",\"qualifying\",\"nurture\"],\"status\":[\"new\",\"triaging\",\"qualifying\",\"nurture\",\"disqualified\",\"promoted\"],\"source\":[\"web3forms\",\"inline_web3forms\",\"whatsapp_direct\",\"whatsapp\",\"email\",\"website_form\",\"linkedin\",\"founder_network\",\"bizdev_network\",\"partner_referral\",\"referral\",\"cold_outreach\",\"event\",\"other\",\"website_inline_form\"],\"priority\":[\"low\",\"medium\",\"high\",\"urgent\"],\"disqualification_reason\":[\"free_or_cheap_seeker\",\"beyond_roadmap\",\"below_floor_price\",\"payment_risk\",\"compliance_geography\",\"ip_fishing\",\"timing_only\",\"not_a_buyer\",\"no_response\",\"duplicate\",\"spam\"]},\"fields\":{\"title\":{\"kind\":\"text\",\"custom\":false},\"status\":{\"kind\":\"text\",\"custom\":false},\"priority\":{\"kind\":\"text\",\"custom\":false},\"source\":{\"kind\":\"text\",\"custom\":false},\"segment\":{\"kind\":\"text\",\"custom\":false},\"estimated_value\":{\"kind\":\"number\",\"custom\":false},\"organization_id\":{\"kind\":\"uuid\",\"custom\":false},\"created_at\":{\"kind\":\"datetime\",\"custom\":false}}}"
+  },
+  {
+   "tool": "crm_field_schema",
+   "profile": "own",
+   "args": {
+    "object_type": "deal"
+   },
+   "out": "{\"object_type\":\"deal\",\"writable\":[\"actual_close_date\",\"contact_id\",\"currency\",\"expected_close_date\",\"loss_notes\",\"loss_reason\",\"loss_reasons\",\"notes\",\"organization_id\",\"probability\",\"product_line_ids\",\"stage\",\"title\",\"value\"],\"required_on_create\":[\"title\"],\"allowed_values\":{\"stage\":[\"new\",\"qualifying\",\"discovery\",\"assessment\",\"proposal\",\"contract\",\"won\",\"handover\",\"onboarding\",\"nurture\",\"lost\",\"disqualified\"],\"loss_reasons\":[\"price_too_expensive\",\"price_budget_eliminated\",\"competitor_feature\",\"competitor_relationship\",\"competitor_reputation\",\"timeline_we_too_slow\",\"timeline_customer_not_ready\",\"scope_mismatch\",\"no_decision\",\"lost_contact\",\"qualification_error\",\"procurement_blocker\"]},\"fields\":{\"title\":{\"kind\":\"text\",\"custom\":false},\"stage\":{\"kind\":\"text\",\"custom\":false},\"value\":{\"kind\":\"number\",\"custom\":false},\"probability\":{\"kind\":\"number\",\"custom\":false},\"currency\":{\"kind\":\"text\",\"custom\":false},\"segment\":{\"kind\":\"text\",\"custom\":false},\"expected_close_date\":{\"kind\":\"date\",\"custom\":false},\"organization_id\":{\"kind\":\"uuid\",\"custom\":false},\"created_at\":{\"kind\":\"datetime\",\"custom\":false}}}"
+  },
+  {
+   "tool": "crm_field_schema",
+   "profile": "own",
+   "args": {
+    "object_type": "activity"
+   },
+   "out": "{\"object_type\":\"activity\",\"writable\":[\"activity_type\",\"contact_id\",\"content\",\"deal_id\",\"direction\",\"duration_minutes\",\"entity_id\",\"entity_type\",\"lead_id\",\"next_action\",\"next_action_due\",\"outcome\",\"scheduled_at\",\"subject\"],\"required_on_create\":[\"entity_type\",\"entity_id\",\"activity_type\"],\"allowed_values\":{\"activity_type\":[\"call\",\"email\",\"whatsapp\",\"meeting\",\"task\",\"note\",\"demo\"],\"direction\":[\"inbound\",\"outbound\",\"internal\"],\"entity_type\":[\"lead\",\"deal\",\"contact\",\"organization\",\"project\",\"vendor\"]}}"
+  },
+  {
+   "tool": "crm_field_schema",
+   "profile": "own",
+   "args": {
+    "object_type": "invoice"
+   },
+   "out": "{\"error\":\"object_type must be one of organization, contact, lead, deal, activity\"}"
+  },
+  {
+   "tool": "crm_field_schema",
+   "profile": "own",
+   "args": {},
+   "out": "{\"object_type\":\"organization\",\"writable\":[\"address\",\"city\",\"country\",\"description\",\"email\",\"employee_count\",\"industry\",\"name\",\"notes\",\"phone\",\"postal_code\",\"tax_id\",\"website\"],\"required_on_create\":[\"name\"],\"allowed_values\":{},\"fields\":{\"name\":{\"kind\":\"text\",\"custom\":false},\"industry\":{\"kind\":\"text\",\"custom\":false},\"country\":{\"kind\":\"text\",\"custom\":false},\"city\":{\"kind\":\"text\",\"custom\":false},\"website\":{\"kind\":\"text\",\"custom\":false},\"email\":{\"kind\":\"text\",\"custom\":false},\"employee_count\":{\"kind\":\"number\",\"custom\":false},\"annual_revenue\":{\"kind\":\"number\",\"custom\":false},\"created_at\":{\"kind\":\"datetime\",\"custom\":false}}}"
+  },
+  {
+   "tool": "list_meetings",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"items\":[{\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"title\":\"Acme Ltd x Globex Corp\",\"starts\":\"Mon 10 Mar 2031 13:00\",\"meet_link\":\"https://meet.google.com/abc-defg-hij\",\"channel\":\"whatsapp\",\"chat_id\":\"1555010001111@c.us\",\"contact_id\":\"c0000000-0000-0000-0000-000000000001\",\"deal_id\":\"e0000000-0000-0000-0000-000000000001\",\"lead_id\":null,\"invited\":[\"diana@globex.test\"],\"origin\":\"request\"},{\"meeting_id\":\"60000000-0000-0000-0000-000000000003\",\"title\":null,\"starts\":\"Thu 01 May 2031 11:00\",\"meet_link\":null,\"channel\":\"email\",\"chat_id\":null,\"contact_id\":null,\"deal_id\":null,\"lead_id\":null,\"invited\":[\"a@x.test\",\"b@x.test\"],\"origin\":\"slots\"}]}"
+  },
+  {
+   "tool": "list_meetings",
+   "profile": "owner",
+   "args": {
+    "past_days": "3"
+   },
+   "out": "{\"items\":[{\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"title\":\"Acme Ltd x Globex Corp\",\"starts\":\"Mon 10 Mar 2031 13:00\",\"meet_link\":\"https://meet.google.com/abc-defg-hij\",\"channel\":\"whatsapp\",\"chat_id\":\"1555010001111@c.us\",\"contact_id\":\"c0000000-0000-0000-0000-000000000001\",\"deal_id\":\"e0000000-0000-0000-0000-000000000001\",\"lead_id\":null,\"invited\":[\"diana@globex.test\"],\"origin\":\"request\"},{\"meeting_id\":\"60000000-0000-0000-0000-000000000003\",\"title\":null,\"starts\":\"Thu 01 May 2031 11:00\",\"meet_link\":null,\"channel\":\"email\",\"chat_id\":null,\"contact_id\":null,\"deal_id\":null,\"lead_id\":null,\"invited\":[\"a@x.test\",\"b@x.test\"],\"origin\":\"slots\"}]}"
+  },
+  {
+   "tool": "propose_meeting_guests",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "emails": [
+     "Assistant.Director1@Gmail.com"
+    ],
+    "save_on_contact": 1
+   },
+   "rows": "SELECT action, origin, status, level, payload, rationale, entity_type, entity_id FROM agent_pending_actions ORDER BY created_at, action",
+   "out": "{\"proposal\":{\"kind\":\"nary_action\",\"action\":\"meeting.add_guests\",\"payload\":{\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"emails\":[\"assistant.director1@gmail.com\"],\"save_on_contact\":true},\"summary\":\"Invite assistant.director1@gmail.com to “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google emails them the calendar invitation\",\"label\":\"Invite assistant.director1@gmail.com to “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google emails them the calendar invitation\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}",
+   "rows_out": "[]"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "reason": " a test "
+   },
+   "rows": "SELECT action, origin, status, level, payload, rationale, entity_type, entity_id FROM agent_pending_actions ORDER BY created_at, action",
+   "out": "{\"proposal\":{\"kind\":\"nary_action\",\"action\":\"meeting.cancel\",\"payload\":{\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"reason\":\"a test\"},\"summary\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00 (a test); Google tells the invitees\",\"label\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00 (a test); Google tells the invitees\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}",
+   "rows_out": "[]"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000004"
+   },
+   "out": "{\"proposal\":{\"kind\":\"nary_action\",\"action\":\"meeting.cancel\",\"payload\":{\"meeting_id\":\"60000000-0000-0000-0000-000000000004\",\"reason\":null},\"summary\":\"Cancel “Not booked yet” ; Google tells the invitees\",\"label\":\"Cancel “Not booked yet” ; Google tells the invitees\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "owner",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "message": {
+     "channel": "email",
+     "text": "Sorry",
+     "to": "diana@globex.test",
+     "subject": "Cancelled"
+    }
+   },
+   "out": "{\"proposal\":{\"kind\":\"nary_action\",\"action\":\"meeting.cancel\",\"payload\":{\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"reason\":null},\"summary\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google tells the invitees; then email diana@globex.test\",\"label\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google tells the invitees; then email diana@globex.test\",\"message\":{\"channel\":\"email\",\"text\":\"Sorry\",\"to\":\"diana@globex.test\",\"subject\":\"Cancelled\",\"from_inbox\":\"hello@example.com\",\"recipient\":\"diana@globex.test\"}},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "owner",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "message": {
+     "channel": "email",
+     "text": "Sorry"
+    }
+   },
+   "out": "{\"error\":\"A new email needs `to` (an address) and a subject\"}"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "owner",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "message": {}
+   },
+   "out": "{\"error\":\"channel must be email or whatsapp\"}"
+  },
+  {
+   "tool": "propose_contact_merge",
+   "profile": "own",
+   "args": {
+    "keep_id": "c0000000-0000-0000-0000-000000000001",
+    "merge_id": "c0000000-0000-0000-0000-000000000003"
+   },
+   "out": "{\"proposal\":{\"kind\":\"nary_action\",\"action\":\"contact.merge\",\"payload\":{\"keep_id\":\"c0000000-0000-0000-0000-000000000001\",\"merge_id\":\"c0000000-0000-0000-0000-000000000003\"},\"summary\":\"Merge contact Diana into Diana Prince: moves nothing; fills none; then Diana is removed\",\"label\":\"Merge contact Diana into Diana Prince: moves nothing; fills none; then Diana is removed\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "tool": "propose_contact_merge",
+   "profile": "own",
+   "args": {
+    "keep_id": "c0000000-0000-0000-0000-000000000001",
+    "merge_id": "c0000000-0000-0000-0000-0000000000ff"
+   },
+   "out": "{\"error\":\"Can't merge them: One of the records no longer exists.\"}"
+  },
+  {
+   "sql": "UPDATE system_settings SET value = replace(replace(value, '\"meeting.add_guests\": 1', '\"meeting.add_guests\": 0'), '\"meeting.cancel\": 1', '\"meeting.cancel\": 2') WHERE key = 'nary.autonomy.levels'"
+  },
+  {
+   "tool": "propose_meeting_guests",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "emails": [
+     "guest@pytest.test"
+    ]
+   },
+   "rows": "SELECT action, origin, status, level, payload, rationale, entity_type, entity_id FROM agent_pending_actions ORDER BY created_at, action",
+   "out": "{\"draft_only\":true,\"card\":\"/nary/approvals?card=<uuid>\",\"note\":\"Saved as a draft only: Nary → Autonomy has 'meeting.add_guests' at Shadow, so nothing was done. Tell the user; they can apply it on the Approvals page or change the level.\"}",
+   "rows_out": "[{\"action\":\"meeting.add_guests\",\"origin\":\"chat\",\"status\":\"shadow\",\"level\":0,\"payload\":{\"emails\": [\"guest@pytest.test\"], \"meeting_id\": \"60000000-0000-0000-0000-000000000001\", \"save_on_contact\": false},\"rationale\":\"Asked in the chat by Rachel Sales.\",\"entity_type\":\"nary_meeting\",\"entity_id\":\"60000000-0000-0000-0000-000000000001\"}]"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "own",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001"
+   },
+   "rows": "SELECT action, origin, status, level, payload, rationale, entity_type, entity_id FROM agent_pending_actions ORDER BY created_at, action",
+   "out": "{\"proposal\":{\"kind\":\"nary_action\",\"action\":\"meeting.cancel\",\"payload\":{\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"reason\":null},\"summary\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google tells the invitees\",\"label\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google tells the invitees\",\"auto\":true},\"note\":\"Nary → Autonomy has 'meeting.cancel' at Act and tell: it is done right after your answer; say so.\"}",
+   "rows_out": "[{\"action\":\"meeting.add_guests\",\"origin\":\"chat\",\"status\":\"shadow\",\"level\":0,\"payload\":{\"emails\": [\"guest@pytest.test\"], \"meeting_id\": \"60000000-0000-0000-0000-000000000001\", \"save_on_contact\": false},\"rationale\":\"Asked in the chat by Rachel Sales.\",\"entity_type\":\"nary_meeting\",\"entity_id\":\"60000000-0000-0000-0000-000000000001\"}]"
+  },
+  {
+   "tool": "propose_meeting_cancel",
+   "profile": "owner",
+   "args": {
+    "meeting_id": "60000000-0000-0000-0000-000000000001",
+    "message": {
+     "channel": "email",
+     "text": "Sorry",
+     "thread_id": "40000000-0000-0000-0000-000000000001"
+    }
+   },
+   "out": "{\"proposal\":{\"kind\":\"nary_action\",\"action\":\"meeting.cancel\",\"payload\":{\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"reason\":null},\"summary\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google tells the invitees; then email diana@globex.test\",\"label\":\"Cancel “Acme Ltd x Globex Corp” Mon 10 Mar 13:00; Google tells the invitees; then email diana@globex.test\",\"message\":{\"channel\":\"email\",\"text\":\"Sorry\",\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"to\":\"diana@globex.test\",\"subject\":\"Re: Quotation for the gates\",\"contact_id\":\"c0000000-0000-0000-0000-000000000001\",\"from_inbox\":\"hello@example.com\",\"recipient\":\"diana@globex.test\"}},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm.\"}"
+  },
+  {
+   "sql": "UPDATE system_settings SET value = replace(value, '\"email.reply.send\": 1', '\"email.reply.send\": 3') WHERE key = 'nary.autonomy.levels'"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "to": "new@cust.test",
+    "subject": "Hello",
+    "text": "Dear Sir,\n\nBest regards,"
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"email\",\"text\":\"Dear Sir,\\n\\nBest regards,\",\"to\":\"new@cust.test\",\"subject\":\"Hello\",\"cc\":[],\"bcc\":[],\"from_inbox\":\"hello@example.com\",\"recipient\":\"new@cust.test\",\"summary\":\"Send email from hello@example.com to new@cust.test as Nary: Hello\",\"auto\":true},\"note\":\"Nary → Autonomy has email.reply.send at Silent: it is sent right after your answer, as Nary.\"}"
+  },
+  {
+   "sql": "UPDATE system_settings SET value = replace(value, '\"email.reply.send\": 3', '\"email.reply.send\": 1') WHERE key = 'nary.autonomy.levels'"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "sms",
+    "text": "x"
+   },
+   "out": "{\"error\":\"channel must be email or whatsapp\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "  "
+   },
+   "out": "{\"error\":\"The message text is empty\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Best regards,\n[Your Name]"
+   },
+   "out": "{\"error\":\"The text still has a placeholder such as [Name]. Write the final text; Nary's signature is added automatically.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Hi",
+    "to": "nobody",
+    "subject": "x"
+   },
+   "out": "{\"error\":\"A new email needs `to` (an address) and a subject\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Hi",
+    "to": "a@b.test",
+    "subject": " New "
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"email\",\"text\":\"Hi\",\"to\":\"a@b.test\",\"subject\":\"New\",\"cc\":[],\"bcc\":[],\"from_inbox\":\"hello@example.com\",\"recipient\":\"a@b.test\",\"summary\":\"Send email from hello@example.com to a@b.test as Nary: New\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. It is sent as Nary, with Nary's signature, only when the user confirms; don't say it was sent.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Hi",
+    "thread_id": "40000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"email\",\"text\":\"Hi\",\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"to\":\"diana@globex.test\",\"subject\":\"Re: Quotation for the gates\",\"cc\":[],\"contact_id\":\"c0000000-0000-0000-0000-000000000001\",\"bcc\":[],\"from_inbox\":\"hello@example.com\",\"recipient\":\"diana@globex.test\",\"summary\":\"Send email from hello@example.com to diana@globex.test as Nary: Re: Quotation for the gates\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. It is sent as Nary, with Nary's signature, only when the user confirms; don't say it was sent.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Hi",
+    "thread_id": "40000000-0000-0000-0000-000000000002"
+   },
+   "out": "{\"error\":\"That conversation has no email from the customer to reply to; send a new email with `to`.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Hi",
+    "thread_id": "x"
+   },
+   "out": "{\"error\":\"No such email conversation; use search_emails to find its thread_id.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Join: {link}",
+    "thread_id": "40000000-0000-0000-0000-000000000001",
+    "meeting_id": "60000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"email\",\"text\":\"Join: https://meet.google.com/abc-defg-hij\",\"meeting_id\":\"60000000-0000-0000-0000-000000000001\",\"thread_id\":\"40000000-0000-0000-0000-000000000001\",\"to\":\"diana@globex.test\",\"subject\":\"Re: Quotation for the gates\",\"cc\":[],\"contact_id\":\"c0000000-0000-0000-0000-000000000001\",\"bcc\":[],\"from_inbox\":\"hello@example.com\",\"recipient\":\"diana@globex.test\",\"summary\":\"Send email from hello@example.com to diana@globex.test as Nary: Re: Quotation for the gates\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. It is sent as Nary, with Nary's signature, only when the user confirms; don't say it was sent.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Join",
+    "to": "a@b.test",
+    "subject": "M",
+    "meeting_id": "60000000-0000-0000-0000-000000000003"
+   },
+   "out": "{\"error\":\"That meeting has no meeting link to send.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Join",
+    "to": "a@b.test",
+    "subject": "M",
+    "meeting_id": "nope"
+   },
+   "out": "{\"error\":\"No such meeting; use list_meetings for its id.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Docs",
+    "to": "a@b.test",
+    "subject": "M",
+    "attach": [
+     {
+      "type": "invoice_x",
+      "id": "1"
+     }
+    ]
+   },
+   "out": "{\"error\":\"Only quotation, invoice, sales_document can be attached\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "email",
+    "text": "Docs",
+    "to": "a@b.test",
+    "subject": "M",
+    "attach": "not a list"
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"email\",\"text\":\"Docs\",\"to\":\"a@b.test\",\"subject\":\"M\",\"cc\":[],\"bcc\":[],\"from_inbox\":\"hello@example.com\",\"recipient\":\"a@b.test\",\"summary\":\"Send email from hello@example.com to a@b.test as Nary: M\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. It is sent as Nary, with Nary's signature, only when the user confirms; don't say it was sent.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello Ms Diana",
+    "chat_id": "1555010001111@c.us"
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"whatsapp\",\"text\":\"Hello Ms Diana\",\"chat_id\":\"1555010001111@c.us\",\"recipient\":\"Diana Prince (+1 555010001111)\",\"summary\":\"Send WhatsApp to Diana Prince (+1 555010001111) as Nary\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. It is sent as Nary, with Nary's signature, only when the user confirms; don't say it was sent.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": "+81 811-0000-1111"
+   },
+   "out": "{\"error\":\"Not sent: WhatsApp didn't answer; try again in a few minutes.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": "1555010001111@c.us",
+    "attach": [
+     {
+      "type": "quotation",
+      "id": "x"
+     }
+    ]
+   },
+   "out": "{\"error\":\"No quotation with id or number x\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": "1555010003333@c.us"
+   },
+   "out": "{\"error\":\"Not sent: This is a staff member's chat; customer messages never go there.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": "1555010004444@c.us"
+   },
+   "out": "{\"error\":\"Not sent: This chat was marked personal, so Nary never writes into it. To undo: Nary → Intake → Personal → Include again.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": "1555010005555@c.us"
+   },
+   "out": "{\"error\":\"Not sent: this chat waits for the Owner's business-or-personal decision (Nary → Intake → Held); decide it first.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": "1555010006666@c.us"
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"whatsapp\",\"text\":\"Hello\",\"chat_id\":\"1555010006666@c.us\",\"recipient\":\"~ab (+1 555010006666)\",\"summary\":\"Send WhatsApp to ~ab (+1 555010006666) as Nary\",\"warning\":\"Someone is handling this chat from the phone; your instruction sends it anyway.\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. It is sent as Nary, with Nary's signature, only when the user confirms; don't say it was sent.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": "1555010007777@c.us"
+   },
+   "out": "{\"proposal\":{\"kind\":\"customer_message\",\"channel\":\"whatsapp\",\"text\":\"Hello\",\"chat_id\":\"1555010007777@c.us\",\"recipient\":\"1555010007777@c.us\",\"summary\":\"Send WhatsApp to 1555010007777@c.us as Nary\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. It is sent as Nary, with Nary's signature, only when the user confirms; don't say it was sent.\"}"
+  },
+  {
+   "tool": "propose_customer_message",
+   "profile": "owner",
+   "args": {
+    "channel": "whatsapp",
+    "text": "Hello",
+    "chat_id": ""
+   },
+   "out": "{\"error\":\"Not sent: No WhatsApp chat id given; use list_recent_whatsapp to find it.\"}"
+  },
+  {
+   "tool": "propose_chat_link",
+   "profile": "owner",
+   "args": {
+    "chat_id": "1555010001111@c.us",
+    "contact_id": "c0000000-0000-0000-0000-000000000003"
+   },
+   "out": "{\"proposal\":{\"kind\":\"chat_link\",\"chat_id\":\"1555010001111@c.us\",\"contact_id\":\"c0000000-0000-0000-0000-000000000003\",\"label\":\"Diana\",\"summary\":\"Link the WhatsApp chat Diana Prince (+1 555010001111) to Diana\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. Once linked, the chat's messages count on the contact and its lead or deal.\"}"
+  },
+  {
+   "tool": "propose_chat_link",
+   "profile": "owner",
+   "args": {
+    "chat_id": "0811-0000-7777",
+    "contact_id": "c0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"error\":\"No such WhatsApp chat in Nary's list; use the chat id from list_recent_whatsapp.\"}"
+  },
+  {
+   "tool": "propose_chat_link",
+   "profile": "owner",
+   "args": {
+    "chat_id": "1555010003333@c.us",
+    "contact_id": "c0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"error\":\"That chat is a staff or personal chat; it is never linked to a contact.\"}"
+  },
+  {
+   "tool": "propose_chat_link",
+   "profile": "owner",
+   "args": {
+    "chat_id": "1555010004444@c.us",
+    "contact_id": "c0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"error\":\"That chat is a staff or personal chat; it is never linked to a contact.\"}"
+  },
+  {
+   "tool": "propose_chat_link",
+   "profile": "owner",
+   "args": {
+    "chat_id": "nobody",
+    "contact_id": "c0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"error\":\"No such WhatsApp chat in Nary's list; use the chat id from list_recent_whatsapp.\"}"
+  },
+  {
+   "tool": "propose_chat_link",
+   "profile": "owner",
+   "args": {
+    "chat_id": "1555010001111@c.us",
+    "contact_id": "c0000000-0000-0000-0000-000000000005"
+   },
+   "out": "{\"error\":\"No such contact; look it up with search_contacts first.\"}"
+  },
+  {
+   "tool": "propose_chat_link",
+   "profile": "owner",
+   "args": {
+    "chat_id": "1555010006666@c.us",
+    "contact_id": "x"
+   },
+   "out": "{\"error\":\"No such contact; look it up with search_contacts first.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": ""
+   },
+   "out": "{\"error\":\"The meeting needs a title, e.g. 'Acme Ltd x Globex Corp'\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "tomorrow"
+   },
+   "out": "{\"error\":\"`start` must be an ISO date-time (company time if no zone), e.g. 2026-10-14T11:00\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2020-01-01T10:00"
+   },
+   "out": "{\"error\":\"That time has already passed; check the date.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "duration_minutes": "abc"
+   },
+   "out": "{\"error\":\"duration_minutes must be a number of minutes\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "duration_minutes": 700
+   },
+   "out": "{\"error\":\"The duration must be between 5 and 600 minutes\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "staff": [
+     "Gus"
+    ]
+   },
+   "out": "{\"error\":\"'Gus' matches several people: Adam Scott (gus.s@example.com); Gus Wilson (gus.w@example.com). Ask which one.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "staff": [
+     "Nobody Pytest"
+    ]
+   },
+   "out": "{\"error\":\"No ERP user matches 'Nobody Pytest'. Ask who is meant, or leave them out.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "staff": [
+     "gone@example.com"
+    ]
+   },
+   "out": "{\"error\":\"No ERP user matches 'gone@example.com'. Ask who is meant, or leave them out.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "deal_id": "x"
+   },
+   "out": "{\"error\":\"No such deal; look it up first.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "contact_id": "c0000000-0000-0000-0000-000000000005"
+   },
+   "out": "{\"error\":\"No such contact; look it up first.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "customer_email": "nope"
+   },
+   "out": "{\"error\":\"customer_email isn't an email address\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": " Acme Ltd x Globex Corp ",
+    "start": "2031-03-10T11:00",
+    "duration_minutes": 45,
+    "staff": [
+     "Adam Scott",
+     "rachel@example.com",
+     "Owner Golden"
+    ],
+    "deal_id": "e0000000-0000-0000-0000-000000000001"
+   },
+   "out": "{\"proposal\":{\"kind\":\"meeting\",\"title\":\"Acme Ltd x Globex Corp\",\"start\":\"2031-03-10T11:00:00+09:00\",\"duration_minutes\":45,\"time_zone\":\"Asia/Tokyo\",\"staff_ids\":[\"a0000000-0000-0000-0000-000000000001\",\"a0000000-0000-0000-0000-000000000005\",\"a0000000-0000-0000-0000-000000000002\"],\"staff\":[\"Owner Golden\",\"Adam Scott\",\"Rachel Sales\"],\"customer_email\":\"diana@globex.test\",\"deal_id\":\"e0000000-0000-0000-0000-000000000001\",\"lead_id\":null,\"contact_id\":\"c0000000-0000-0000-0000-000000000001\",\"label\":\"Acme Ltd x Globex Corp\",\"summary\":\"Book “Acme Ltd x Globex Corp” Mon 10 Mar 11:00, 45 min, with Owner Golden, Adam Scott, Rachel Sales, diana@globex.test; Google Meet\"},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. On confirm the Google Calendar event is created with a Meet link and Google emails the invitations.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T04:00:00Z",
+    "lead_id": "d0000000-0000-0000-0000-000000000001",
+    "message": {
+     "channel": "whatsapp",
+     "chat_id": "1555010001111@c.us",
+     "text": "Hello Ms Diana, tomorrow 11:00"
+    }
+   },
+   "out": "{\"proposal\":{\"kind\":\"meeting\",\"title\":\"Call\",\"start\":\"2031-03-10T04:00:00+00:00\",\"duration_minutes\":60,\"time_zone\":\"Asia/Tokyo\",\"staff_ids\":[\"a0000000-0000-0000-0000-000000000001\"],\"staff\":[\"Owner Golden\"],\"customer_email\":\"diana@globex.test\",\"deal_id\":null,\"lead_id\":\"d0000000-0000-0000-0000-000000000001\",\"contact_id\":\"c0000000-0000-0000-0000-000000000001\",\"label\":\"Call\",\"summary\":\"Book “Call” Mon 10 Mar 13:00, 60 min, with Owner Golden, diana@globex.test; Google Meet; then WhatsApp Diana Prince (+1 555010001111) the link\",\"message\":{\"channel\":\"whatsapp\",\"text\":\"Hello Ms Diana, tomorrow 11:00\\n{link}\",\"chat_id\":\"1555010001111@c.us\",\"recipient\":\"Diana Prince (+1 555010001111)\"}},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. On confirm the Google Calendar event is created with a Meet link and Google emails the invitations. Then the message goes out as Nary with {link} replaced by the Meet link.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00+08:00",
+    "contact_id": "c0000000-0000-0000-0000-000000000003",
+    "customer_email": "x@y.test",
+    "message": {
+     "channel": "email",
+     "text": "See you {link}",
+     "to": "x@y.test",
+     "subject": "Meeting"
+    }
+   },
+   "out": "{\"proposal\":{\"kind\":\"meeting\",\"title\":\"Call\",\"start\":\"2031-03-10T11:00:00+08:00\",\"duration_minutes\":60,\"time_zone\":\"Asia/Tokyo\",\"staff_ids\":[\"a0000000-0000-0000-0000-000000000001\"],\"staff\":[\"Owner Golden\"],\"customer_email\":\"x@y.test\",\"deal_id\":null,\"lead_id\":null,\"contact_id\":\"c0000000-0000-0000-0000-000000000003\",\"label\":\"Call\",\"summary\":\"Book “Call” Mon 10 Mar 12:00, 60 min, with Owner Golden, x@y.test; Google Meet; then email x@y.test the link\",\"message\":{\"channel\":\"email\",\"text\":\"See you {link}\",\"to\":\"x@y.test\",\"subject\":\"Meeting\",\"recipient\":\"x@y.test\",\"from_inbox\":\"hello@example.com\"}},\"note\":\"Shown to the user as a confirm card. Nothing has been saved. Do not call this tool again for the same request; tell the user to review the card and confirm. On confirm the Google Calendar event is created with a Meet link and Google emails the invitations. Then the message goes out as Nary with {link} replaced by the Meet link.\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "owner",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "message": {
+     "channel": "whatsapp",
+     "chat_id": "1555010003333@c.us",
+     "text": "Link: {link}"
+    }
+   },
+   "out": "{\"error\":\"Not sent: This is a staff member's chat; customer messages never go there. The meeting can still be booked without `message`; the user then sends the Meet link another way (email, or by hand).\"}"
+  },
+  {
+   "tool": "propose_meeting",
+   "profile": "own",
+   "args": {
+    "title": "Call",
+    "start": "2031-03-10T11:00",
+    "lead_id": "d0000000-0000-0000-0000-000000000001",
+    "message": {
+     "channel": "whatsapp",
+     "chat_id": "1555010001111@c.us",
+     "text": "x"
+    }
+   },
+   "out": "{\"error\":\"You don't have permission to use this tool.\"}"
+  },
+  {
+   "tool": "propose_skill",
+   "profile": "owner",
+   "args": {
+    "title": "",
+    "when": "x",
+    "steps": "y"
+   },
+   "out": "{\"error\":\"Tool failed: 400: A skill needs a title, when to use it, and its steps\"}"
+  },
+  {
+   "tool": "use_skill",
+   "profile": "owner",
+   "args": {
+    "title": "white-label"
+   },
+   "out": "{\"error\":\"No approved skills yet.\"}"
+  },
+  {
+   "tool": "propose_tool_idea",
+   "profile": "owner",
+   "args": {
+    "title": "T",
+    "problem": "P",
+    "what_it_should_do": "W"
+   },
+   "out": "{\"error\":\"Tool failed: 400: Setting 'nary.skills.tool_ideas_project' is not set (the R&D project for Nary's tool ideas). Set it in Settings → Nary & AI → Skills & style.\"}"
+  },
+  {
+   "tool": "erp_guide",
+   "profile": "owner",
+   "args": {},
+   "out": "{\"topics\":[{\"topic\":\"approvals-and-signing\",\"title\":\"Approvals, QR verification, sending to clients and e-sign\",\"summary\":\"One approval engine decides every document that needs a yes; an approved document carries a QR code anyone can check, can be sent to the client from the ERP, and can be signed electronically.\"},{\"topic\":\"crm\",\"title\":\"CRM: organisations, contacts, leads, deals, activities, inboxes\",\"summary\":\"The CRM holds who the company sells to and where each opportunity stands: organisations and their contacts, leads (unqualified interest) and deals (qualified opportunities moving through stages), with activities, follow-ups and the shared i\"},{\"topic\":\"finance\",\"title\":\"Finance: invoices, payments, schedules, expenses, ledger, tax, FX, assets, budgets\",\"summary\":\"Finance bills customers, records what is paid, reimburses expenses and keeps the general ledger, with taxes and exchange rates from settings.\"},{\"topic\":\"hr\",\"title\":\"HR: employees, attendance, leave, payroll, hiring and offers\",\"summary\":\"HR keeps the people side: employees and the org chart, attendance by face, leave, payroll with income tax and social contributions, and hiring from request to offer letter.\"},{\"topic\":\"knowledge-and-ai\",\"title\":\"Knowledge base, SOPs and AI Knowledge\",\"summary\":\"Two libraries: the Knowledge Base for people (articles and SOPs, which also ground the AI), and AI Knowledge, documents only the AI reads (price rules, playbooks, product facts, and this ERP guide).\"},{\"topic\":\"manufacturing\",\"title\":\"Manufacturing and inventory: BOMs, production, units, QC, warranty, stock\",\"summary\":\"Manufacturing builds the company's hardware: bills of materials, production orders, a registry of every unit with its QC, warranty and RMA, and the stock it uses.\"},{\"topic\":\"marketing\",\"title\":\"Marketing: campaigns, content calendar, email marketing\",\"summary\":\"Marketing plans campaigns, publishes content through approval, and sends email campaigns with a global unsubscribe.\"},{\"topic\":\"nary\",\"title\":\"Nary: the AI sales and operations assistant\",\"summary\":\"Nary is the ERP's AI assistant: it answers staff in the chat (web and WhatsApp), runs the sales playbooks with customers, and proposes actions the Owner approves.\"},{\"topic\":\"operations\",\"title\":\"Operations: helpdesk, maintenance, fleet\",\"summary\":\"The operations modules keep customers supported and the company's own equipment and vehicles running.\"},{\"topic\":\"overview\",\"title\":\"Overview: how Granary fits together\",\"summary\":\"Granary is an open-source ERP: CRM and sales, finance, projects, HR, manufacturing, procurement, partners, operations, knowledge and Nary (the AI assistant) in one system, with one approval engine and one permission model.\"},{\"topic\":\"partners-and-vendors\",\"title\":\"Procurement (vendors, RFQs, POs, receipts, vendor invoices) and partners\",\"summary\":\"Procurement buys what the company needs from vendors and contractors; partner management runs the resellers who sell the company's products (deal registrations, commissions, MDF).\"},{\"topic\":\"projects\",\"title\":\"Projects and R&D: delivery after a deal is won, and product development\",\"summary\":\"Projects deliver what was sold: a Won deal is handed over to a project with phases, milestones, tasks and time logs. R&D tracks the company's own product development.\"},{\"topic\":\"sales\",\"title\":\"Sales: quotations, proposals, contracts, catalog and pricing\",\"summary\":\"Sales turns a deal into priced, approved documents: quotations (the price), Solution Proposals (the scope and story), and contracts, all priced from the product catalog.\"},{\"topic\":\"settings-and-roles\",\"title\":\"Settings, users and roles\",\"summary\":\"Everything configurable lives in Settings, and every user's access comes from their roles' permission codes.\"},{\"topic\":\"permissions\",\"title\":\"Roles and permission codes\",\"summary\":\"Which roles exist and every permission code (module:action) with what it allows.\"},{\"topic\":\"crm-picklists\",\"title\":\"CRM picklists (allowed values)\",\"summary\":\"The exact keys for deal stages, lead statuses and moves, sources, priorities, reasons and activity types.\"},{\"topic\":\"crm-fields\",\"title\":\"CRM record fields a card may write\",\"summary\":\"The writable fields of organizations, contacts, leads, deals and activities, and what a create needs.\"},{\"topic\":\"settings\",\"title\":\"Where the settings live\",\"summary\":\"Every setting key by category with what it controls (business numbers are settings, not code).\"},{\"topic\":\"api\",\"title\":\"API map\",\"summary\":\"Every API route by area, so you know what the ERP can do.\"}]}"
+  },
+  {
+   "tool": "erp_guide",
+   "profile": "owner",
+   "args": {
+    "topic": "crm-picklists"
+   },
+   "out": "{\"topic\":\"crm-picklists\",\"title\":\"CRM picklists (allowed values)\",\"text\":\"The allowed values (KEYS) of every CRM picklist, read from settings when this guide was built. Cards and the API take the key, never the label.\\n\\n## Deal stages (in order)\\n- `new`: New, probability 5%\\n- `qualifying`: Qualifying, probability 10%\\n- `discovery`: Discovery, probability 20%\\n- `assessment`: Assessment, probability 35%\\n- `proposal`: Proposal, probability 50%\\n- `contract`: Contract, probability 80%\\n- `won`: Won, probability 100%\\n- `handover`: Handover, probability 100%\\n- `onboarding`: Onboarding, probability 100%\\n- `nurture`: Nurture, probability 5%\\n- `lost`: Lost, probability 0%\\n- `disqualified`: Disqualified, probability 0%\\n\\n## Lead statuses\\n- `new`: New\\n- `triaging`: Triaging\\n- `qualifying`: Qualifying\\n- `nurture`: Nurture\\n- `disqualified`: Disqualified\\n- `promoted`: Promoted\\nA new lead starts as one of: new, triaging, qualifying, nurture.\\nAllowed lead moves: new → disqualified, nurture, qualifying, triaging; triaging → disqualified, new, nurture, qualifying; qualifying → disqualified, nurture, triaging; nurture → disqualified, qualifying, triaging; disqualified → new, nurture; promoted → \\n\\n## Lead sources\\n- `web3forms`: Website form (Web3forms email)\\n- `inline_web3forms`: Website inline form (Web3forms email)\\n- `whatsapp_direct`: WhatsApp (direct, no form)\\n- `whatsapp`: WhatsApp\\n- `email`: Email\\n- `website_form`: Website form\\n- `linkedin`: LinkedIn\\n- `founder_network`: Founder network\\n- `bizdev_network`: BizDev network\\n- `partner_referral`: Partner referral\\n- `referral`: Referral\\n- `cold_outreach`: Cold outreach\\n- `event`: Event\\n- `other`: Other\\n- `website_inline_form`: Website inline form\\n\\n## Lead priorities\\n- `low`: Low\\n- `medium`: Medium\\n- `high`: High\\n- `urgent`: Urgent\\n\\n## Loss reasons (a lost deal needs at least one)\\n- `price_too_expensive`: Price: too expensive\\n- `price_budget_eliminated`: Price: budget eliminated\\n- `competitor_feature`: Competitor: feature\\n- `competitor_relationship`: Competitor: relationship\\n- `competitor_reputation`: Competitor: reputation / trust\\n- `timeline_we_too_slow`: Timeline: our delivery too slow\\n- `timeline_customer_not_ready`: Timeline: customer not ready\\n- `scope_mismatch`: Scope mismatch\\n- `no_decision`: No decision\\n- `lost_contact`: Lost contact\\n- `qualification_error`: Qualification error\\n- `procurement_blocker`: Procurement blocker\\n\\n## Disqualify reasons (a disqualified lead or deal needs one)\\n- `free_or_cheap_seeker`: Looking for a free or very cheap alternative\\n- `beyond_roadmap`: Needs capabilities beyond our products\\n- `below_floor_price`: Expects pricing below our floor price\\n- `payment_risk`: Payment default or bad payment history\\n- `compliance_geography`: Export control or compliance issue\\n- `ip_fishing`: Fishing for IP without purchase intent\\n- `timing_only`: Timing only\\n- `not_a_buyer`: Not a buyer (vendor, job seeker, student)\\n- `no_response`: Never responded\\n- `duplicate`: Duplicate\\n- `spam`: Spam\\n\\n## Activity types\\n- `call`: Call\\n- `email`: Email\\n- `whatsapp`: WhatsApp\\n- `meeting`: Meeting\\n- `task`: Task\\n- `note`: Note\\n- `demo`: Demo\\nActivity direction: inbound, outbound, internal. Logged on: lead, deal, contact, organization, project, vendor.\"}"
+  },
+  {
+   "tool": "erp_guide",
+   "profile": "owner",
+   "args": {
+    "topic": "zzzz qqqq"
+   },
+   "out": "{\"error\":\"No section matches 'zzzz qqqq'.\",\"topics\":[{\"topic\":\"approvals-and-signing\",\"title\":\"Approvals, QR verification, sending to clients and e-sign\",\"summary\":\"One approval engine decides every document that needs a yes; an approved document carries a QR code anyone can check, can be sent to the client from the ERP, and can be signed electronically.\"},{\"topic\":\"crm\",\"title\":\"CRM: organisations, contacts, leads, deals, activities, inboxes\",\"summary\":\"The CRM holds who the company sells to and where each opportunity stands: organisations and their contacts, leads (unqualified interest) and deals (qualified opportunities moving through stages), with activities, follow-ups and the shared i\"},{\"topic\":\"finance\",\"title\":\"Finance: invoices, payments, schedules, expenses, ledger, tax, FX, assets, budgets\",\"summary\":\"Finance bills customers, records what is paid, reimburses expenses and keeps the general ledger, with taxes and exchange rates from settings.\"},{\"topic\":\"hr\",\"title\":\"HR: employees, attendance, leave, payroll, hiring and offers\",\"summary\":\"HR keeps the people side: employees and the org chart, attendance by face, leave, payroll with income tax and social contributions, and hiring from request to offer letter.\"},{\"topic\":\"knowledge-and-ai\",\"title\":\"Knowledge base, SOPs and AI Knowledge\",\"summary\":\"Two libraries: the Knowledge Base for people (articles and SOPs, which also ground the AI), and AI Knowledge, documents only the AI reads (price rules, playbooks, product facts, and this ERP guide).\"},{\"topic\":\"manufacturing\",\"title\":\"Manufacturing and inventory: BOMs, production, units, QC, warranty, stock\",\"summary\":\"Manufacturing builds the company's hardware: bills of materials, production orders, a registry of every unit with its QC, warranty and RMA, and the stock it uses.\"},{\"topic\":\"marketing\",\"title\":\"Marketing: campaigns, content calendar, email marketing\",\"summary\":\"Marketing plans campaigns, publishes content through approval, and sends email campaigns with a global unsubscribe.\"},{\"topic\":\"nary\",\"title\":\"Nary: the AI sales and operations assistant\",\"summary\":\"Nary is the ERP's AI assistant: it answers staff in the chat (web and WhatsApp), runs the sales playbooks with customers, and proposes actions the Owner approves.\"},{\"topic\":\"operations\",\"title\":\"Operations: helpdesk, maintenance, fleet\",\"summary\":\"The operations modules keep customers supported and the company's own equipment and vehicles running.\"},{\"topic\":\"overview\",\"title\":\"Overview: how Granary fits together\",\"summary\":\"Granary is an open-source ERP: CRM and sales, finance, projects, HR, manufacturing, procurement, partners, operations, knowledge and Nary (the AI assistant) in one system, with one approval engine and one permission model.\"},{\"topic\":\"partners-and-vendors\",\"title\":\"Procurement (vendors, RFQs, POs, receipts, vendor invoices) and partners\",\"summary\":\"Procurement buys what the company needs from vendors and contractors; partner management runs the resellers who sell the company's products (deal registrations, commissions, MDF).\"},{\"topic\":\"projects\",\"title\":\"Projects and R&D: delivery after a deal is won, and product development\",\"summary\":\"Projects deliver what was sold: a Won deal is handed over to a project with phases, milestones, tasks and time logs. R&D tracks the company's own product development.\"},{\"topic\":\"sales\",\"title\":\"Sales: quotations, proposals, contracts, catalog and pricing\",\"summary\":\"Sales turns a deal into priced, approved documents: quotations (the price), Solution Proposals (the scope and story), and contracts, all priced from the product catalog.\"},{\"topic\":\"settings-and-roles\",\"title\":\"Settings, users and roles\",\"summary\":\"Everything configurable lives in Settings, and every user's access comes from their roles' permission codes.\"},{\"topic\":\"permissions\",\"title\":\"Roles and permission codes\",\"summary\":\"Which roles exist and every permission code (module:action) with what it allows.\"},{\"topic\":\"crm-picklists\",\"title\":\"CRM picklists (allowed values)\",\"summary\":\"The exact keys for deal stages, lead statuses and moves, sources, priorities, reasons and activity types.\"},{\"topic\":\"crm-fields\",\"title\":\"CRM record fields a card may write\",\"summary\":\"The writable fields of organizations, contacts, leads, deals and activities, and what a create needs.\"},{\"topic\":\"settings\",\"title\":\"Where the settings live\",\"summary\":\"Every setting key by category with what it controls (business numbers are settings, not code).\"},{\"topic\":\"api\",\"title\":\"API map\",\"summary\":\"Every API route by area, so you know what the ERP can do.\"}]}"
+  }
+ ]
+}

@@ -1,0 +1,4699 @@
+[
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to John: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to +81813: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to None: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to John: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to None: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to None: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to John: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to John: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to None: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to None: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to John: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to John: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to None: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to John: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to None: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to John: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to None: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to None: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to None: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to None: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to John: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to None: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to John: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to John: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to John: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to None: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to John: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to John: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to None: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to None: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to None: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to John: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to None: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to John: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to John: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to None: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to +81813: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to +81813: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to None: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to None: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "WhatsApp to John: line\nbreak",
+   "after": {
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to John: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to John: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to John: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to John: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to None: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": null,
+   "phone": null
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to None: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "WhatsApp to +81813: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+   "after": {
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "",
+   "phone": "+81813"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "WhatsApp to +81813: Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 ",
+   "after": {
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to John: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to 123@lid: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "John",
+   "phone": "+81812"
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to John: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": null,
+  "p": {
+   "chat_id": "81812@c.us",
+   "text": ""
+  },
+  "out": {
+   "label": "WhatsApp to 81812@c.us: ",
+   "after": {
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "text",
+  "chat": {
+   "display_name": "Susan 😀",
+   "phone": null
+  },
+  "p": {
+   "chat_id": "123@lid",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "WhatsApp to Susan 😀: Hello Mr John",
+   "after": {
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Quotation",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to : Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Quotation",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Quotation",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to : Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Quotation",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Quotation",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to : Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "",
+   "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+  "out": {
+   "label": "Email to john@x.test: ",
+   "after": {
+    "subject": "",
+    "text": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Quotation",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to : Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Ünï 😀",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to john@x.test: Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": ""
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": ""
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "",
+   "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+  },
+  "out": {
+   "label": "Email to : ",
+   "after": {
+    "subject": "",
+    "text": "Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 Ünïcödé 😀 "
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "",
+   "subject": "Ünï 😀",
+   "text": "line\nbreak"
+  },
+  "out": {
+   "label": "Email to : Ünï 😀",
+   "after": {
+    "subject": "Ünï 😀",
+    "text": "line\nbreak"
+   }
+  }
+ },
+ {
+  "kind": "email",
+  "p": {
+   "to": "john@x.test",
+   "subject": "Quotation",
+   "text": "Hello Mr John"
+  },
+  "out": {
+   "label": "Email to john@x.test: Quotation",
+   "after": {
+    "subject": "Quotation",
+    "text": "Hello Mr John"
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "ba542222-adae-4973-a7cc-b9ce754f8400"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "ba4e8100-ac2b-48bd-b1b0-e951e535f0b4"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "76483a3f-0405-45aa-966a-5d6939ec9a79"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "cbc5f031-a5f5-4b8a-9109-b5e07ad5374e"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "a3346551-cfd0-4c5c-803a-afc3ce6f08b8"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "ab0e2fce-e0e1-4ee8-9e19-fdbaf7bed199"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "798c4602-808a-4fe8-9c9f-f1eec36afdd8"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "0a30720f-39be-46d5-9054-23828d35ebee"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "df640e4a-f989-4e80-a883-795c2bcab5cf"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "08914789-0fc5-4619-93cf-617803732279"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "309b2e17-e117-45ff-8c4b-e3c14bdd599e"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "eaf37514-0f7e-42c6-a9fc-bc763cbee682"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "304baf41-b70e-4200-93c1-5441535372ac"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "41020039-fb59-416f-9d73-9906f1cc8d8b"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "1e510235-5ac2-47fe-bcf1-4173dbdc5d2d"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "757b9f51-8a59-4068-89af-b97881254a2b"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "15a7a9bb-6175-4281-922d-a6cdda152028"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "5ed8104d-a02b-4b94-bdf9-bc430767908a"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "1918d031-3161-4ac9-abc8-01f04218d811"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "22ba3a27-679c-414e-9642-f9e138adb86c"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "6cad8edd-1058-4467-94e5-67f3bfc1f2f1"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "28a22e64-6024-40d5-85a5-dee63cd80feb"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "305cad18-70ff-4aa7-9c2c-062d42f523d4"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "696e6ded-c15a-4ac6-b8f1-12385f4450d1"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "7fddf5a2-a042-4c2a-b003-3b5cc5f4e4f9"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "bcb03842-11f5-4728-a7d6-d897e3dee56c"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "184843ce-8a58-4475-850e-ec21d257ec62"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "f92b6451-1d91-41be-aa02-e2923bbab5e6"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "01181a0e-44c4-4598-879b-b966ca04c6d2"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "5f7b9c16-811d-44f0-9889-a4aea2d3f6ac"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "23e89a2b-8125-41f5-9b00-440bb3865561"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "52dd62e9-245b-44b6-ac78-12c32c921d2e"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "a1264614-1280-4e7b-9138-6577d042120d"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "776c13c3-53b5-4a4f-bb90-6b8c1a157c0b"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "e438f38b-806a-442c-af66-25eba2f0b34e"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "48c68470-81fd-4d4d-9e0d-36b2cbde3f26"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "63222e14-dcba-4979-8103-d4074dca1c2a"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "dcd00e49-694d-4c89-b57e-8856bd49a60a"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "88b7289c-bd4d-42c0-842a-e723c58e32e5"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "a4460a82-b002-4bc8-b9ac-153ee60f4017"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "23a6d775-eb1b-4f67-9a7b-3df0dc60fc8f"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "2b63ca35-e5a1-442b-94f6-cf5bc7a9bdea"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "0beef61b-dc2e-48ed-b30d-2ac151a21198"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "0a2647ef-d50d-41f6-b19d-8f1189fc4dae"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "48e4d2aa-548a-427f-a1e8-1cd8bf2c33ea"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "12c4dae8-4380-42d6-82a5-8ba1083cbbdb"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "d9ecb0fd-4cd9-409a-b90c-4fab69ba7234"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "a2984211-0aae-497a-af54-685a825ec9a1"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "9b1e27e1-323b-41bf-9c8e-4b4cb4c6779b"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "576fb71b-11f4-4993-aa67-eb9d85570858"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "20592cec-df82-4188-a02d-3bb9f51d6d56"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "1a1e1823-5c6f-404e-bd69-583f87855c07"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "e52225f3-753e-49ac-80ac-03071385bc72"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "c0c8b161-423f-48cf-ad94-bc8d3d2c1ccb"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "fec2cdfc-48f4-4f67-bb95-1df5d253ccd2"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "c34d223b-b9bf-4081-8f2a-dbc307837d80"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "dfc93117-de81-4238-b844-eb9eaee91acc"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "b0c20335-1d8a-4f91-8f52-2f821188df5c"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "ad355aae-c917-4975-b90c-99d5ef03f5e9"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "873a5c85-ae51-4ede-996d-44a140a0a3a1"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "57ee9d2c-05e3-4c0a-ac58-c1c577c112e9"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "452297f0-f5bf-42ff-8968-83f23ede61ce"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "4e82ea54-6a49-49d8-86c1-7671e20ad21d"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "db7ceca9-b280-48bf-af4c-e8b99de986dc"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "b35c4c04-8d8c-443e-b4b8-acf6da01a981"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "72fcd0e8-0f3f-409d-baf6-a7879e93c829"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "43590f5c-4729-44b1-86a1-3f813ccf724d"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "d4b7c9a9-ad75-47cb-88d2-8149a94952eb"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "9a37cdac-d160-4062-ad4b-88aa8e18ea93"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "a2d44671-e396-4a86-933e-f9e6a08e9848"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "68ccbf32-240b-4bb4-8deb-5e043feeed07"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "8689cc71-6914-418a-bc08-dbf0f21de22e"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "9b02c009-c90d-4d4b-9226-7d2dc745c1ab"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": null,
+  "p": {
+   "link_id": "5afa3540-9be7-4f5f-a509-c9598b819869"
+  },
+  "out": {
+   "label": "unknown match"
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "f94cfbe0-ae4b-48c3-8f74-0f9e6fae034e"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "cab0e832-e084-494d-a98c-e1b39bcb1d8a"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "6a76030c-c8ae-4651-a569-83a181ebcdcb"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": null
+  },
+  "p": {
+   "link_id": "098e7ee7-ae7a-47ba-9c3c-d0cfa466db92"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": null
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "123@lid",
+   "signals": [
+    {
+     "signal": "phone",
+     "score": 90,
+     "detail": "same number"
+    },
+    {
+     "signal": "name",
+     "score": 55,
+     "detail": "John ≈ John S."
+    },
+    {
+     "signal": "target",
+     "kind": "contact",
+     "id": "00000000-0000-0000-0000-000000000003",
+     "score": 0,
+     "detail": "John"
+    }
+   ]
+  },
+  "p": {
+   "link_id": "324d7ae4-c2e0-419c-832e-ba7c8f929dc0"
+  },
+  "out": {
+   "label": "Is chat 123@lid the same as this record? (phone: same number; name: John ≈ John S.; target: John)",
+   "after": {
+    "signals": [
+     {
+      "signal": "phone",
+      "score": 90,
+      "detail": "same number"
+     },
+     {
+      "signal": "name",
+      "score": 55,
+      "detail": "John ≈ John S."
+     },
+     {
+      "signal": "target",
+      "kind": "contact",
+      "id": "00000000-0000-0000-0000-000000000003",
+      "score": 0,
+      "detail": "John"
+     }
+    ]
+   }
+  }
+ },
+ {
+  "kind": "identity",
+  "link": {
+   "subject_ref": "81812@c.us",
+   "signals": []
+  },
+  "p": {
+   "link_id": "a5d9fdc7-5129-40b3-bb8c-d40f05493e2e"
+  },
+  "out": {
+   "label": "Is chat 81812@c.us the same as this record? ()",
+   "after": {
+    "signals": []
+   }
+  }
+ }
+]

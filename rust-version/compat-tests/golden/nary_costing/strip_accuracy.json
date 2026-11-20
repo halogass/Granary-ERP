@@ -1,0 +1,127 @@
+[
+ {
+  "in": "The sync service runs on 15 laptops. Accuracy is 98% in our tests. Forecast accuracy reached 95,5%. Coverage is 100% of the office.",
+  "text": "The sync service runs on 15 laptops. Coverage is 100% of the office.",
+  "removed": [
+   "Accuracy is 98% in our tests.",
+   "Forecast accuracy reached 95,5%."
+  ]
+ },
+ {
+  "in": "We propose 5 workstations. Accuracy is 97% in tests.",
+  "text": "We propose 5 workstations.",
+  "removed": [
+   "Accuracy is 97% in tests."
+  ]
+ },
+ {
+  "in": "We reach 99.5 % precision on invoices.\nRecall: 90%.\nNo figure here.",
+  "text": "Recall: 90%.\nNo figure here.",
+  "removed": [
+   "We reach 99.5 % precision on invoices."
+  ]
+ },
+ {
+  "in": "Match rate of 92% at night. Uptime 99.9%.",
+  "text": "Match rate of 92% at night. Uptime 99.9%.",
+  "removed": []
+ },
+ {
+  "in": "PRECISION above 90 % and recall above 85 %; fill rate of 88%. Done.",
+  "text": "Done.",
+  "removed": [
+   "PRECISION above 90 % and recall above 85 %; fill rate of 88%."
+  ]
+ },
+ {
+  "in": "The ACCURACY figures are not published. 50% deposit.",
+  "text": "The ACCURACY figures are not published. 50% deposit.",
+  "removed": []
+ },
+ {
+  "in": "accurate to 98%",
+  "text": "",
+  "removed": [
+   "accurate to 98%"
+  ]
+ },
+ {
+  "in": "98 % accurately. 97% accuracy",
+  "text": "",
+  "removed": [
+   "98 % accurately.",
+   "97% accuracy"
+  ]
+ },
+ {
+  "in": "",
+  "text": "",
+  "removed": []
+ },
+ {
+  "in": "   ",
+  "text": "",
+  "removed": []
+ },
+ {
+  "in": "No numbers at all.",
+  "text": "No numbers at all.",
+  "removed": []
+ },
+ {
+  "in": "Precision 9%",
+  "text": "",
+  "removed": [
+   "Precision 9%"
+  ]
+ },
+ {
+  "in": "1,5% accuracy... and more.",
+  "text": ".. and more.",
+  "removed": [
+   "1,5% accuracy."
+  ]
+ },
+ {
+  "in": "Sentence one. accuracy 5%. accuracy 6%.\n\naccuracy 7%",
+  "text": "Sentence one.",
+  "removed": [
+   "accuracy 5%.",
+   "accuracy 6%.",
+   "accuracy 7%"
+  ]
+ },
+ {
+  "in": "Precisión 90% (Spanish, accent): accuracy 80% high.",
+  "text": "",
+  "removed": [
+   "Precisión 90% (Spanish, accent): accuracy 80% high."
+  ]
+ },
+ {
+  "in": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx accuracy 1 %",
+  "text": "",
+  "removed": [
+   "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx accuracy 1 %"
+  ]
+ },
+ {
+  "in": "Fill rate 80%.",
+  "text": "Fill rate 80%.",
+  "removed": []
+ },
+ {
+  "in": "ACCURACY: ９５% (fullwidth digits).",
+  "text": "",
+  "removed": [
+   "ACCURACY: ９５% (fullwidth digits)."
+  ]
+ },
+ {
+  "in": "état accuracy 9%.",
+  "text": "",
+  "removed": [
+   "état accuracy 9%."
+  ]
+ }
+]

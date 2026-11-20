@@ -1,0 +1,70 @@
+[
+ {
+  "in": null,
+  "out": null
+ },
+ {
+  "in": "",
+  "out": null
+ },
+ {
+  "in": "_",
+  "out": "_"
+ },
+ {
+  "in": "__",
+  "out": "__"
+ },
+ {
+  "in": "___",
+  "out": "___"
+ },
+ {
+  "in": "a_b",
+  "out": "a_b"
+ },
+ {
+  "in": "a_b_",
+  "out": "a_b_"
+ },
+ {
+  "in": "true_8181@c.us_3EB0ABC",
+  "out": "3EB0ABC"
+ },
+ {
+  "in": "true_123456789@lid_3EB0ABC",
+  "out": "3EB0ABC"
+ },
+ {
+  "in": "true_120363@g.us_3EB0XYZ_81811@c.us",
+  "out": "3EB0XYZ"
+ },
+ {
+  "in": "false_x_KEY",
+  "out": "KEY"
+ },
+ {
+  "in": "true__KEY",
+  "out": "KEY"
+ },
+ {
+  "in": "true_x__p",
+  "out": "true_x__p"
+ },
+ {
+  "in": "plain",
+  "out": "plain"
+ },
+ {
+  "in": "a_b_c_d_e",
+  "out": "c"
+ },
+ {
+  "in": "true_x_ KEY ",
+  "out": " KEY "
+ },
+ {
+  "in": "true_x_kéy_ü",
+  "out": "kéy"
+ }
+]

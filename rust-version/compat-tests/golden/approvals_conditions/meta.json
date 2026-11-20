@@ -1,0 +1,159 @@
+[
+ {
+  "rules": {
+   "amount_gt_base": {
+    "label": "Value above (base currency)",
+    "value": "amount"
+   },
+   "amount_gte_base": {
+    "label": "Value at least (base currency)",
+    "value": "amount"
+   },
+   "single_line_gt_base": {
+    "label": "Any single item above (base currency)",
+    "value": "amount"
+   },
+   "discount_gt_pct": {
+    "label": "Any discount above (%)",
+    "value": "pct"
+   },
+   "discount_outside_allowance": {
+    "label": "Discount above (%) not covered by an allowance",
+    "value": "pct"
+   },
+   "allowance_notify_owner": {
+    "label": "An allowance that informs the Owner was used",
+    "value": "none"
+   },
+   "margin_lt_pct": {
+    "label": "Gross margin below (%)",
+    "value": "pct"
+   },
+   "margin_unknown": {
+    "label": "Gross margin cannot be verified",
+    "value": "none"
+   },
+   "has_custom_line": {
+    "label": "Contains custom (non-catalog) lines",
+    "value": "none"
+   },
+   "not_catalog_list_price": {
+    "label": "Not every line is a catalog item at list price (a volume tier counts as list)",
+    "value": "none"
+   },
+   "terms_gt_days": {
+    "label": "Payment terms longer than (days)",
+    "value": "days"
+   },
+   "terms_differ_from_contract": {
+    "label": "Payment terms differ from contract/quotation",
+    "value": "none"
+   },
+   "procurement_type_in": {
+    "label": "Procurement type is one of",
+    "value": "list",
+    "options": [
+     "government",
+     "white_label",
+     "oem"
+    ]
+   },
+   "is_multi_year_bundle": {
+    "label": "Hardware combined with a multi-year service",
+    "value": "none"
+   },
+   "is_credit_note": {
+    "label": "Is a credit note",
+    "value": "none"
+   },
+   "is_first_invoice_for_customer": {
+    "label": "First invoice to the customer",
+    "value": "none"
+   },
+   "fx_rate_missing": {
+    "label": "No exchange rate to the base currency",
+    "value": "none"
+   },
+   "above_cr_estimate": {
+    "label": "Above the approved contractor request estimate",
+    "value": "none"
+   },
+   "content_type_in": {
+    "label": "Content type is one of",
+    "value": "list",
+    "options": [
+     "blog",
+     "case_study",
+     "whitepaper",
+     "datasheet",
+     "linkedin_post",
+     "social_post",
+     "email",
+     "video",
+     "press_release"
+    ]
+   },
+   "flag_set": {
+    "label": "Submitter marked the document as",
+    "value": "flag",
+    "options": [
+     "disputed_milestone",
+     "customer_reference",
+     "budget_exception",
+     "pre_approved"
+    ]
+   }
+  },
+  "preconditions": {
+   "missing_discount_type": {
+    "label": "Discounted lines must state a discount type",
+    "value": "none"
+   },
+   "missing_vendor_quotes": {
+    "label": "Needs vendor quotes above an amount",
+    "value": "quotes"
+   },
+   "missing_approved_contractor_request": {
+    "label": "Must link an approved contractor request",
+    "value": "none"
+   },
+   "missing_closed_wo_po": {
+    "label": "Must link a closed work order or purchase order",
+    "value": "none"
+   },
+   "flag_missing_above_base": {
+    "label": "Above an amount, the submitter must confirm a flag",
+    "value": "flag_amount"
+   }
+  },
+  "rule_names": [
+   "amount_gt_base",
+   "amount_gte_base",
+   "single_line_gt_base",
+   "discount_gt_pct",
+   "discount_outside_allowance",
+   "allowance_notify_owner",
+   "margin_lt_pct",
+   "margin_unknown",
+   "has_custom_line",
+   "not_catalog_list_price",
+   "terms_gt_days",
+   "terms_differ_from_contract",
+   "procurement_type_in",
+   "is_multi_year_bundle",
+   "is_credit_note",
+   "is_first_invoice_for_customer",
+   "fx_rate_missing",
+   "above_cr_estimate",
+   "content_type_in",
+   "flag_set"
+  ],
+  "precondition_names": [
+   "missing_discount_type",
+   "missing_vendor_quotes",
+   "missing_approved_contractor_request",
+   "missing_closed_wo_po",
+   "flag_missing_above_base"
+  ]
+ }
+]

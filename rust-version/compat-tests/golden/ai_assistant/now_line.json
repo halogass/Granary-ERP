@@ -1,0 +1,152 @@
+[
+ {
+  "now": "2026-10-13T04:35:00+00:00",
+  "tz": "Asia/Tokyo",
+  "out": "NOW: Tuesday 13 October 2026, 13:35 JST (company time, Asia/Tokyo). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-10-13T04:35:00+00:00",
+  "tz": "Asia/Shanghai",
+  "out": "NOW: Tuesday 13 October 2026, 12:35 CST (company time, Asia/Shanghai). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-10-13T04:35:00+00:00",
+  "tz": "UTC",
+  "out": "NOW: Tuesday 13 October 2026, 04:35 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-10-13T04:35:00+00:00",
+  "tz": "Europe/Amsterdam",
+  "out": "NOW: Tuesday 13 October 2026, 06:35 CEST (company time, Europe/Amsterdam). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-10-13T04:35:00+00:00",
+  "tz": "America/New_York",
+  "out": "NOW: Tuesday 13 October 2026, 00:35 EDT (company time, America/New_York). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-10-13T04:35:00+00:00",
+  "tz": null,
+  "out": "NOW: Tuesday 13 October 2026, 04:35 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-01-01T00:00:00+00:00",
+  "tz": "Asia/Tokyo",
+  "out": "NOW: Thursday 01 January 2026, 09:00 JST (company time, Asia/Tokyo). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-01-01T00:00:00+00:00",
+  "tz": "Asia/Shanghai",
+  "out": "NOW: Thursday 01 January 2026, 08:00 CST (company time, Asia/Shanghai). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-01-01T00:00:00+00:00",
+  "tz": "UTC",
+  "out": "NOW: Thursday 01 January 2026, 00:00 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-01-01T00:00:00+00:00",
+  "tz": "Europe/Amsterdam",
+  "out": "NOW: Thursday 01 January 2026, 01:00 CET (company time, Europe/Amsterdam). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-01-01T00:00:00+00:00",
+  "tz": "America/New_York",
+  "out": "NOW: Wednesday 31 December 2025, 19:00 EST (company time, America/New_York). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-01-01T00:00:00+00:00",
+  "tz": null,
+  "out": "NOW: Thursday 01 January 2026, 00:00 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-03-29T01:30:00+00:00",
+  "tz": "Asia/Tokyo",
+  "out": "NOW: Sunday 29 March 2026, 10:30 JST (company time, Asia/Tokyo). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-03-29T01:30:00+00:00",
+  "tz": "Asia/Shanghai",
+  "out": "NOW: Sunday 29 March 2026, 09:30 CST (company time, Asia/Shanghai). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-03-29T01:30:00+00:00",
+  "tz": "UTC",
+  "out": "NOW: Sunday 29 March 2026, 01:30 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-03-29T01:30:00+00:00",
+  "tz": "Europe/Amsterdam",
+  "out": "NOW: Sunday 29 March 2026, 03:30 CEST (company time, Europe/Amsterdam). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-03-29T01:30:00+00:00",
+  "tz": "America/New_York",
+  "out": "NOW: Saturday 28 March 2026, 21:30 EDT (company time, America/New_York). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-03-29T01:30:00+00:00",
+  "tz": null,
+  "out": "NOW: Sunday 29 March 2026, 01:30 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-12-31T23:59:59+00:00",
+  "tz": "Asia/Tokyo",
+  "out": "NOW: Friday 01 January 2027, 08:59 JST (company time, Asia/Tokyo). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-12-31T23:59:59+00:00",
+  "tz": "Asia/Shanghai",
+  "out": "NOW: Friday 01 January 2027, 07:59 CST (company time, Asia/Shanghai). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-12-31T23:59:59+00:00",
+  "tz": "UTC",
+  "out": "NOW: Thursday 31 December 2026, 23:59 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-12-31T23:59:59+00:00",
+  "tz": "Europe/Amsterdam",
+  "out": "NOW: Friday 01 January 2027, 00:59 CET (company time, Europe/Amsterdam). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-12-31T23:59:59+00:00",
+  "tz": "America/New_York",
+  "out": "NOW: Thursday 31 December 2026, 18:59 EST (company time, America/New_York). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-12-31T23:59:59+00:00",
+  "tz": null,
+  "out": "NOW: Thursday 31 December 2026, 23:59 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-07-04T12:00:00+00:00",
+  "tz": "Asia/Tokyo",
+  "out": "NOW: Saturday 04 July 2026, 21:00 JST (company time, Asia/Tokyo). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-07-04T12:00:00+00:00",
+  "tz": "Asia/Shanghai",
+  "out": "NOW: Saturday 04 July 2026, 20:00 CST (company time, Asia/Shanghai). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-07-04T12:00:00+00:00",
+  "tz": "UTC",
+  "out": "NOW: Saturday 04 July 2026, 12:00 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-07-04T12:00:00+00:00",
+  "tz": "Europe/Amsterdam",
+  "out": "NOW: Saturday 04 July 2026, 14:00 CEST (company time, Europe/Amsterdam). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-07-04T12:00:00+00:00",
+  "tz": "America/New_York",
+  "out": "NOW: Saturday 04 July 2026, 08:00 EDT (company time, America/New_York). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ },
+ {
+  "now": "2026-07-04T12:00:00+00:00",
+  "tz": null,
+  "out": "NOW: Saturday 04 July 2026, 12:00 UTC (company time, UTC). Use it for greetings (Good morning until 12:00, Good afternoon until 18:00, Good evening after), for today and tomorrow, and for what is past or still to come."
+ }
+]

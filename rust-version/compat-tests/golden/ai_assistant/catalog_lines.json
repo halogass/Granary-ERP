@@ -1,0 +1,337 @@
+[
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": null,
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "",
+   "70000000.00": "",
+   "0": "",
+   "99.99": "",
+   "250.5": ""
+  }
+ },
+ {
+  "product": {
+   "sale_model": "recurring",
+   "price_metric": "device",
+   "rate_period_months": 1,
+   "billing_interval_months": 12,
+   "min_quantity": "1.00",
+   "min_term_months": 12,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": null,
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": null
+  },
+  "sold": "recurring, per device, rate per 1 mo, billed every 12 mo, min term 12 mo",
+  "full": {
+   "None": "",
+   "70000000.00": "",
+   "0": "",
+   "99.99": "",
+   "250.5": ""
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": "2.50",
+   "min_term_months": null,
+   "addon_for": [
+    "LAPTOP-14",
+    "LAPTOP-16"
+   ],
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": null,
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": 12
+  },
+  "sold": "one_time, per unit, min 2.5, 12 mo support included, add-on for LAPTOP-14, LAPTOP-16",
+  "full": {
+   "None": "",
+   "70000000.00": "",
+   "0": "",
+   "99.99": "",
+   "250.5": ""
+  }
+ },
+ {
+  "product": {
+   "sale_model": "",
+   "price_metric": "",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": "0",
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": null,
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": null
+  },
+  "sold": "",
+  "full": {
+   "None": "",
+   "70000000.00": "",
+   "0": "",
+   "99.99": "",
+   "250.5": ""
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [
+    {
+     "min_qty": "21",
+     "max_qty": null,
+     "discount_pct": "17.5"
+    },
+    {
+     "min_qty": "5",
+     "max_qty": "20.00",
+     "discount_pct": "10.000"
+    },
+    {
+     "min_qty": "1000000",
+     "max_qty": "0",
+     "discount_pct": "0.125"
+    }
+   ],
+   "whitelabel_free_min_qty": 50,
+   "whitelabel_rule": {
+    "mode": "percent",
+    "value": 12.5
+   },
+   "terms_note": "TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT",
+   "cost_price": "35000000.00",
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "tiers 5-20: -10%, 21+: -17.5%, 1e+06+: -0.125%; white-label free from 50 units; white-label +12.5% of the parent line; terms: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT; cost 35,000,000",
+   "70000000.00": "tiers 5-20: -10%, 21+: -17.5%, 1e+06+: -0.125%; white-label free from 50 units; white-label +12.5% of the parent line; terms: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT; cost 35,000,000; margin at list 50%",
+   "0": "tiers 5-20: -10%, 21+: -17.5%, 1e+06+: -0.125%; white-label free from 50 units; white-label +12.5% of the parent line; terms: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT; cost 35,000,000",
+   "99.99": "tiers 5-20: -10%, 21+: -17.5%, 1e+06+: -0.125%; white-label free from 50 units; white-label +12.5% of the parent line; terms: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT; cost 35,000,000; margin at list -35003400%",
+   "250.5": "tiers 5-20: -10%, 21+: -17.5%, 1e+06+: -0.125%; white-label free from 50 units; white-label +12.5% of the parent line; terms: TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT; cost 35,000,000; margin at list -13971956%"
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": {
+    "mode": "fixed",
+    "value": 1500000
+   },
+   "terms_note": null,
+   "cost_price": "1234.56",
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "white-label fixed 1500000; cost 1,235",
+   "70000000.00": "white-label fixed 1500000; cost 1,235; margin at list 100%",
+   "0": "white-label fixed 1500000; cost 1,235",
+   "99.99": "white-label fixed 1500000; cost 1,235; margin at list -1135%",
+   "250.5": "white-label fixed 1500000; cost 1,235; margin at list -393%"
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": {
+    "mode": "fixed",
+    "value": "abc"
+   },
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "white-label fixed abc",
+   "70000000.00": "white-label fixed abc",
+   "0": "white-label fixed abc",
+   "99.99": "white-label fixed abc",
+   "250.5": "white-label fixed abc"
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": {
+    "mode": "fixed"
+   },
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "white-label fixed None",
+   "70000000.00": "white-label fixed None",
+   "0": "white-label fixed None",
+   "99.99": "white-label fixed None",
+   "250.5": "white-label fixed None"
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": {
+    "mode": "percent"
+   },
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "white-label +0% of the parent line",
+   "70000000.00": "white-label +0% of the parent line",
+   "0": "white-label +0% of the parent line",
+   "99.99": "white-label +0% of the parent line",
+   "250.5": "white-label +0% of the parent line"
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": {
+    "mode": "percent",
+    "value": "7"
+   },
+   "terms_note": null,
+   "cost_price": null,
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "white-label +7% of the parent line",
+   "70000000.00": "white-label +7% of the parent line",
+   "0": "white-label +7% of the parent line",
+   "99.99": "white-label +7% of the parent line",
+   "250.5": "white-label +7% of the parent line"
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": {},
+   "terms_note": "",
+   "cost_price": "0",
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "",
+   "70000000.00": "",
+   "0": "",
+   "99.99": "",
+   "250.5": ""
+  }
+ },
+ {
+  "product": {
+   "sale_model": "one_time",
+   "price_metric": "unit",
+   "rate_period_months": null,
+   "billing_interval_months": null,
+   "min_quantity": null,
+   "min_term_months": null,
+   "addon_for": null,
+   "volume_tiers": [],
+   "whitelabel_free_min_qty": null,
+   "whitelabel_rule": null,
+   "terms_note": "ññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññ",
+   "cost_price": "100",
+   "included_support_months": null
+  },
+  "sold": "one_time, per unit",
+  "full": {
+   "None": "terms: ññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññ; cost 100",
+   "70000000.00": "terms: ññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññ; cost 100; margin at list 100%",
+   "0": "terms: ññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññ; cost 100",
+   "99.99": "terms: ññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññ; cost 100; margin at list -0%",
+   "250.5": "terms: ññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññññ; cost 100; margin at list 60%"
+  }
+ }
+]

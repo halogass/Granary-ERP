@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9.5pt; color: #1a1a1a; }
+  .page { padding: 32px 40px; }
+
+  .top-bar { height: 4px; background: #1f4e79; margin-bottom: 24px; }
+
+  /* Letterhead image (primary) */
+  .letterhead-img { width: 100%; display: block; margin-bottom: 20px; }
+
+  /* Text fallback header */
+  .header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; }
+  .brand { font-size: 15pt; font-weight: 800; letter-spacing: 1px; color: #1f4e79; }
+  .brand-sub { font-size: 8pt; color: #888; margin-top: 2px; }
+  .company-info { text-align: right; font-size: 8pt; line-height: 1.6; color: #555; }
+  .company-info .name { font-size: 10.5pt; font-weight: 700; color: #1a1a1a; }
+
+  .doc-title-row {
+    display: flex; justify-content: space-between; align-items: center;
+    border-top: 2px solid #1a1a1a; border-bottom: 1px solid #ccc;
+    padding: 8px 0; margin-bottom: 20px;
+  }
+  .doc-title { font-size: 14pt; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; }
+  .memo-number { font-size: 10pt; font-weight: 700; color: #1f4e79; font-family: 'Courier New', monospace; }
+
+  .type-badge {
+    display: inline-block; padding: 2px 10px; border-radius: 100px; font-size: 7.5pt;
+    font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
+  }
+  .directive   { background: #fef2f2; color: #1f4e79;  border: 1px solid #fca5a5; }
+  .information { background: #eff6ff; color: #1d4ed8;  border: 1px solid #93c5fd; }
+  .request     { background: #f5f3ff; color: #6d28d9;  border: 1px solid #c4b5fd; }
+  .approval    { background: #f0fdf4; color: #15803d;  border: 1px solid #86efac; }
+
+  .meta-section { background: #f9f9f9; border: 1px solid #e5e5e5; border-radius: 4px;
+                  padding: 14px 16px; margin-bottom: 20px; }
+  .meta-row { display: grid; grid-template-columns: 110px 1fr; gap: 6px; margin-bottom: 8px; align-items: baseline; }
+  .meta-row:last-child { margin-bottom: 0; }
+  .meta-label { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; }
+  .meta-value { font-size: 9.5pt; font-weight: 600; }
+  .meta-value.light { font-weight: 400; color: #444; }
+
+  .subject-label { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px;
+                   font-weight: 600; margin-bottom: 5px; }
+  .subject-text { font-size: 13pt; font-weight: 700; line-height: 1.3; }
+
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 18px 0; }
+
+  .body-label { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px;
+                font-weight: 600; margin-bottom: 10px; }
+  .body-content { font-size: 10pt; line-height: 1.8; color: #1a1a1a; white-space: pre-wrap;
+                  padding: 16px; background: #fff; border: 1px solid #e8e8e8; border-radius: 4px; min-height: 80px; }
+
+  .status-row { margin-top: 18px; display: flex; align-items: center; gap: 8px; }
+  .status-chip { font-size: 7.5pt; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase;
+                 padding: 3px 10px; border-radius: 100px; }
+  .chip-sent                  { background: #fff7ed; color: #b45309; border: 1px solid #fcd34d; }
+  .chip-acknowledged          { background: #f0fdf4; color: #15803d; border: 1px solid #86efac; }
+  .chip-partially_acknowledged { background: #fefce8; color: #854d0e; border: 1px solid #fde68a; }
+  .chip-recalled              { background: #fef2f2; color: #b91c1c; border: 1px solid #fca5a5; }
+
+  .sig-section { margin-top: 36px; }
+  .sig-title { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px;
+               font-weight: 600; margin-bottom: 16px; }
+  .sig-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  .sig-box { border-top: 2px solid #1a1a1a; padding-top: 12px; }
+  .sig-role { font-size: 7.5pt; text-transform: uppercase; color: #888; margin-bottom: 5px; font-weight: 600; }
+  .sig-name { font-size: 10.5pt; font-weight: 700; margin-bottom: 2px; }
+  .sig-position { font-size: 8.5pt; color: #555; margin-bottom: 2px; }
+  .sig-date { font-size: 8pt; color: #888; }
+  .sig-stamp { font-size: 7.5pt; color: #1f4e79; font-weight: 600; margin-top: 6px; }
+
+  .ack-section { margin-top: 28px; }
+  .ack-title { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px;
+               font-weight: 600; margin-bottom: 10px; }
+  table { width: 100%; border-collapse: collapse; }
+  th { font-size: 7.5pt; text-transform: uppercase; color: #888; font-weight: 600;
+       text-align: left; padding: 5px 8px; background: #f5f5f5; border: 1px solid #e5e5e5; }
+  td { font-size: 8.5pt; padding: 6px 8px; border: 1px solid #eee; color: #333; }
+  tr:nth-child(even) td { background: #fafafa; }
+
+  .footer { margin-top: 40px; border-top: 1px solid #e5e5e5; padding-top: 10px;
+            font-size: 7.5pt; color: #aaa; text-align: center; line-height: 1.5; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  {{#if letterhead_url}}
+  {{! Letterhead image — use it as the full header }}
+  <img class="letterhead-img" src="{{letterhead_url}}" alt="Company Letterhead" />
+  {{else}}
+  {{! Fallback: colour bar + text header }}
+  <div class="top-bar"></div>
+  <div class="header">
+    <div>
+      <div class="brand">{{company_trade}}</div>
+      <div class="brand-sub">{{company_legal}}</div>
+    </div>
+    <div class="company-info">
+      <div class="name">Internal Memorandum</div>
+      {{#if company_website}}<div>{{company_website}}</div>{{/if}}
+      {{#if company_email}}<div>{{company_email}}</div>{{/if}}
+      {{#if company_phone}}<div>{{company_phone}}</div>{{/if}}
+    </div>
+  </div>
+  {{/if}}
+
+  <div class="doc-title-row">
+    <div class="doc-title">Formal Memo</div>
+    <div class="memo-number">{{memo_number}}</div>
+  </div>
+
+  <div class="meta-section">
+    <div class="meta-row">
+      <div class="meta-label">Date</div>
+      <div class="meta-value light">{{formatted_date}}</div>
+    </div>
+    <div class="meta-row">
+      <div class="meta-label">Type</div>
+      <div class="meta-value">
+        <span class="type-badge {{memo_type}}">{{memo_type_label}}</span>
+      </div>
+    </div>
+    <div class="meta-row">
+      <div class="meta-label">From</div>
+      <div class="meta-value">{{sender_name}}{{#if sender_position}} &mdash; {{sender_position}}{{/if}}{{#if sender_department}}, {{sender_department}}{{/if}}</div>
+    </div>
+    <div class="meta-row">
+      <div class="meta-label">To</div>
+      <div class="meta-value">{{to_line}}</div>
+    </div>
+  </div>
+
+  <div class="subject-label">Subject</div>
+  <div class="subject-text">{{subject}}</div>
+
+  <hr>
+
+  <div class="body-label">Memo Content</div>
+  <div class="body-content">{{body}}</div>
+
+  <div class="status-row">
+    <span style="font-size:8pt;color:#888">Status:</span>
+    <span class="status-chip chip-{{status}}">{{status_label}}</span>
+    {{#if recalled_at}}<span style="font-size:8pt;color:#b91c1c">— Recalled on {{recalled_date}}</span>{{/if}}
+  </div>
+
+  <div class="sig-section">
+    <div class="sig-title">Signatures</div>
+    <div class="sig-grid">
+      <div class="sig-box">
+        <div class="sig-role">Issued &amp; Signed By</div>
+        <div class="sig-name">{{sender_name}}</div>
+        {{#if sender_position}}<div class="sig-position">{{sender_position}}{{#if sender_department}}, {{sender_department}}{{/if}}</div>{{/if}}
+        <div class="sig-date">{{sender_signed_date}}</div>
+        <div class="sig-stamp">✦ Digitally Signed</div>
+      </div>
+
+      {{#if single_ack}}
+      <div class="sig-box">
+        <div class="sig-role">Acknowledged By</div>
+        <div class="sig-name">{{single_ack.name}}</div>
+        {{#if single_ack.position}}<div class="sig-position">{{single_ack.position}}</div>{{/if}}
+        <div class="sig-date">{{single_ack.acknowledged_at}}</div>
+        <div class="sig-stamp">✓ Acknowledged</div>
+      </div>
+      {{else}}
+      <div class="sig-box">
+        <div class="sig-role">Acknowledged By</div>
+        <div class="sig-name" style="color:#aaa;font-weight:400">Pending acknowledgement</div>
+      </div>
+      {{/if}}
+    </div>
+  </div>
+
+  {{#if acknowledgements.length}}
+  <div class="ack-section">
+    <div class="ack-title">Acknowledgement Log ({{acknowledgements.length}} of {{total_recipients}} recipients)</div>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Position</th>
+          <th>Acknowledged At</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each acknowledgements}}
+        <tr>
+          <td>{{lineNumber @index}}</td>
+          <td>{{name}}</td>
+          <td>{{position}}</td>
+          <td>{{acknowledged_at}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+  {{/if}}
+
+  <div class="footer">
+    Official internal document issued via {{company_name}} &nbsp;|&nbsp; {{memo_number}} &nbsp;|&nbsp; Confidential &mdash; Internal Use Only
+  </div>
+</div>
+</body>
+</html>

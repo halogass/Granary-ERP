@@ -1,0 +1,31 @@
+{
+ "sign": [
+  {
+   "input": "fitz.pdf",
+   "level": "pades-b-b",
+   "validates": false
+  },
+  {
+   "input": "fixed.pdf",
+   "level": "pades-b-b"
+  },
+  {
+   "input": "info.pdf",
+   "level": "pades-b-b"
+  },
+  {
+   "input": "xrefstream.pdf",
+   "level": "pades-b-b"
+  },
+  {
+   "input": "fixed.pdf",
+   "level": "pades-b-t",
+   "tsa": "selfsigned"
+  },
+  {
+   "input": "fixed.pdf",
+   "level": "pades-b-lta",
+   "tsa": "pki"
+  }
+ ]
+}

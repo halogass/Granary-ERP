@@ -1,0 +1,282 @@
+{
+ "hhmm": [
+  {
+   "value": "08:00",
+   "ok": "08:00"
+  },
+  {
+   "value": "7:30",
+   "ok": "07:30"
+  },
+  {
+   "value": " 9 : 05 ",
+   "ok": "09:05"
+  },
+  {
+   "value": "24:00",
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('24:00'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "23:59",
+   "ok": "23:59"
+  },
+  {
+   "value": "8",
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('8'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "08:00:00",
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('08:00:00'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "",
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM (''). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": null,
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('None'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": 9,
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('9'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": 9.5,
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('9.5'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": true,
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('True'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "x:y",
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('x:y'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "-1:30",
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('-1:30'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "+8:+5",
+   "ok": "08:05"
+  },
+  {
+   "value": "1_0:00",
+   "ok": "10:00"
+  },
+  {
+   "value": "٣:00",
+   "ok": "03:00"
+  },
+  {
+   "value": "08:60",
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('08:60'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": [
+    "8",
+    "0"
+   ],
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('['8', '0']'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": {
+    "a": 1
+   },
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('{'a': 1}'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "0:0",
+   "ok": "00:00"
+  }
+ ],
+ "working_hours": [
+  {
+   "value": {
+    "days": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "start": "08:00",
+    "end": "17:00"
+   },
+   "ok": {
+    "days": [
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "start": "08:00",
+    "end": "17:00"
+   }
+  },
+  {
+   "value": {
+    "days": [],
+    "start": "08:00",
+    "end": "17:00"
+   },
+   "error": "Setting 'nary.working_hours' must be {days, start, end}. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": {
+    "days": [
+     "1",
+     2.7,
+     true
+    ],
+    "start": "8:00",
+    "end": "17:30"
+   },
+   "ok": {
+    "days": [
+     1,
+     2,
+     1
+    ],
+    "start": "08:00",
+    "end": "17:30"
+   }
+  },
+  {
+   "value": {
+    "start": "08:00"
+   },
+   "error": "Setting 'nary.working_hours' must be {days, start, end}. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": [],
+   "error": "Setting 'nary.working_hours' must be {days, start, end}. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "x",
+   "error": "Setting 'nary.working_hours' must be {days, start, end}. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": null,
+   "error": "Setting 'nary.working_hours' must be {days, start, end}. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": 0,
+   "error": "Setting 'nary.working_hours' must be {days, start, end}. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": {
+    "days": [
+     1
+    ],
+    "start": "8",
+    "end": "17:00"
+   },
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('8'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": {
+    "days": [
+     1
+    ],
+    "start": "08:00"
+   },
+   "error": "Setting 'nary.working_hours' has a time that isn't HH:MM ('None'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": {
+    "days": "15",
+    "start": "1:00",
+    "end": "2:00"
+   },
+   "ok": {
+    "days": [
+     1,
+     5
+    ],
+    "start": "01:00",
+    "end": "02:00"
+   }
+  },
+  {
+   "value": {
+    "days": {
+     "3": 1,
+     "4": 2
+    },
+    "start": "00:00",
+    "end": "23:59"
+   },
+   "ok": {
+    "days": [
+     3,
+     4
+    ],
+    "start": "00:00",
+    "end": "23:59"
+   }
+  }
+ ],
+ "brief_slots": [
+  {
+   "value": {
+    "morning": "08:30",
+    "midday": null,
+    "wrapup": "17:00"
+   },
+   "ok": [
+    [
+     "morning",
+     "08:30"
+    ],
+    [
+     "wrapup",
+     "17:00"
+    ]
+   ]
+  },
+  {
+   "value": {
+    "morning": "",
+    "x": "7:00"
+   },
+   "ok": [
+    [
+     "x",
+     "07:00"
+    ]
+   ]
+  },
+  {
+   "value": [],
+   "error": "Setting 'nary.brief_times' must be an object of slot → HH:MM. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": "x",
+   "error": "Setting 'nary.brief_times' must be an object of slot → HH:MM. Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": {},
+   "ok": []
+  },
+  {
+   "value": {
+    "a": "25:00"
+   },
+   "error": "Setting 'nary.brief_times' has a time that isn't HH:MM ('25:00'). Set it in Settings → Nary & AI → Nary's day."
+  },
+  {
+   "value": {
+    "b": 0,
+    "c": "1:00"
+   },
+   "ok": [
+    [
+     "c",
+     "01:00"
+    ]
+   ]
+  }
+ ]
+}

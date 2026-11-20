@@ -1,0 +1,4091 @@
+{
+ "permissions": [
+  [
+   "system:superadmin",
+   "Full unrestricted access to everything"
+  ],
+  [
+   "system:admin",
+   "System administration (settings, users, roles)"
+  ],
+  [
+   "system:view_settings",
+   "View system settings"
+  ],
+  [
+   "system:manage_settings",
+   "Create and update system settings"
+  ],
+  [
+   "system:manage_tax",
+   "Configure tax rules and frameworks"
+  ],
+  [
+   "system:manage_users",
+   "Create, update, deactivate users"
+  ],
+  [
+   "system:manage_roles",
+   "Create and assign roles"
+  ],
+  [
+   "system:view_audit_log",
+   "View audit trail"
+  ],
+  [
+   "system:manage_document_sequences",
+   "Configure document numbering"
+  ],
+  [
+   "crm:view_own",
+   "View own contacts/leads/deals"
+  ],
+  [
+   "crm:view_all",
+   "View all contacts/leads/deals"
+  ],
+  [
+   "crm:create_contact",
+   "Create contacts and organizations"
+  ],
+  [
+   "crm:edit_contact",
+   "Edit contacts and organizations"
+  ],
+  [
+   "crm:delete_contact",
+   "Delete/archive contacts"
+  ],
+  [
+   "crm:create_lead",
+   "Create and log leads"
+  ],
+  [
+   "crm:edit_lead",
+   "Edit lead details"
+  ],
+  [
+   "crm:create_deal",
+   "Create deals"
+  ],
+  [
+   "crm:edit_deal",
+   "Edit deals"
+  ],
+  [
+   "crm:delete_deal",
+   "Archive deals"
+  ],
+  [
+   "crm:log_activity",
+   "Log activities (calls, emails, WA)"
+  ],
+  [
+   "crm:assign_leads",
+   "Re-assign leads to other users"
+  ],
+  [
+   "crm:view_whatsapp",
+   "View WhatsApp conversation threads"
+  ],
+  [
+   "crm:send_whatsapp",
+   "Send WhatsApp messages from CRM"
+  ],
+  [
+   "crm:manage_attributes",
+   "Define custom and AI attributes on CRM records"
+  ],
+  [
+   "sales:view_quotations",
+   "View quotations"
+  ],
+  [
+   "sales:create_quotation",
+   "Create new quotations"
+  ],
+  [
+   "sales:edit_quotation",
+   "Edit draft quotations"
+  ],
+  [
+   "sales:send_quotation",
+   "Send quotations to customers"
+  ],
+  [
+   "sales:view_contracts",
+   "View contracts"
+  ],
+  [
+   "sales:create_contract",
+   "Create contracts"
+  ],
+  [
+   "sales:manage_catalog",
+   "View the product catalog with its cost prices (editing stays with the Owner and the Executive role)"
+  ],
+  [
+   "sales:view_catalog",
+   "View product catalog and pricing"
+  ],
+  [
+   "sales:apply_discount",
+   "Apply discounts to quotation items"
+  ],
+  [
+   "sales:price_manual",
+   "Enter a manual price (custom services, quote-only items, off-list prices)"
+  ],
+  [
+   "sales:view_costs",
+   "See internal cost sheets and the rate card (never shown to customers)"
+  ],
+  [
+   "sales:manage_costs",
+   "Change the rate card"
+  ],
+  [
+   "finance:view_invoices",
+   "View all invoices"
+  ],
+  [
+   "finance:create_invoice",
+   "Create invoices"
+  ],
+  [
+   "finance:edit_invoice",
+   "Edit draft invoices"
+  ],
+  [
+   "finance:send_invoice",
+   "Send invoices to customers"
+  ],
+  [
+   "finance:mark_paid",
+   "Mark invoices as paid"
+  ],
+  [
+   "finance:view_payments",
+   "View payments"
+  ],
+  [
+   "finance:confirm_payment",
+   "Confirm received payments"
+  ],
+  [
+   "finance:view_expenses",
+   "View expenses"
+  ],
+  [
+   "finance:submit_expense",
+   "Submit expense for reimbursement"
+  ],
+  [
+   "finance:approve_expense",
+   "Approve expense reimbursements"
+  ],
+  [
+   "finance:view_reports",
+   "View financial reports and dashboards"
+  ],
+  [
+   "finance:export_reports",
+   "Export financial data"
+  ],
+  [
+   "finance:manage_tax_config",
+   "View and update tax configuration (alias for system:manage_tax)"
+  ],
+  [
+   "finance:manage_accounts",
+   "Create and update Chart of Accounts"
+  ],
+  [
+   "finance:view_journal",
+   "View journal entries and general ledger"
+  ],
+  [
+   "finance:post_journal",
+   "Post and unpost journal entries"
+  ],
+  [
+   "finance:manage_bank",
+   "Manage bank accounts and reconciliation"
+  ],
+  [
+   "finance:manage_fx",
+   "Manage foreign exchange rates"
+  ],
+  [
+   "projects:view_own",
+   "View projects assigned to me"
+  ],
+  [
+   "projects:view_all",
+   "View all projects"
+  ],
+  [
+   "projects:create",
+   "Create new projects"
+  ],
+  [
+   "projects:edit",
+   "Edit project details"
+  ],
+  [
+   "projects:assign_team",
+   "Assign team members to projects"
+  ],
+  [
+   "projects:log_time",
+   "Log time entries"
+  ],
+  [
+   "projects:view_time",
+   "View all time logs"
+  ],
+  [
+   "projects:manage_milestones",
+   "Create/update project milestones"
+  ],
+  [
+   "projects:trigger_invoice",
+   "Trigger invoice from milestone"
+  ],
+  [
+   "projects:close_project",
+   "Mark projects as completed"
+  ],
+  [
+   "rnd:view",
+   "View R&D projects, backlog & sprints"
+  ],
+  [
+   "rnd:manage",
+   "Create/manage R&D projects, backlog & sprints"
+  ],
+  [
+   "hr:view_own_profile",
+   "View own employee profile"
+  ],
+  [
+   "hr:view_all_employees",
+   "View all employee records"
+  ],
+  [
+   "hr:manage_employees",
+   "Create and update employee records"
+  ],
+  [
+   "hr:view_leave",
+   "View leave requests"
+  ],
+  [
+   "hr:submit_leave",
+   "Submit leave requests"
+  ],
+  [
+   "hr:approve_leave",
+   "Approve/reject leave requests"
+  ],
+  [
+   "hr:request_hire",
+   "Submit hiring request (executive/management/team_lead only)"
+  ],
+  [
+   "hr:manage_job_openings",
+   "Create and manage job openings"
+  ],
+  [
+   "hr:manage_applicants",
+   "Review and progress applicants"
+  ],
+  [
+   "hr:initiate_termination",
+   "Initiate termination (direct senior only)"
+  ],
+  [
+   "hr:process_hr_admin",
+   "Process HR admin (contracts, onboarding, offboarding)"
+  ],
+  [
+   "hr:view_compensation",
+   "View salary/compensation data"
+  ],
+  [
+   "hr:manage_compensation",
+   "Edit salary/compensation data"
+  ],
+  [
+   "hr:view_attendance",
+   "View attendance records"
+  ],
+  [
+   "hr:manage_attendance",
+   "Record and correct attendance"
+  ],
+  [
+   "manufacturing:view_products",
+   "View hardware products and BOMs"
+  ],
+  [
+   "manufacturing:manage_bom",
+   "Create and update BOMs (requires R&D sign-off)"
+  ],
+  [
+   "manufacturing:view_inventory",
+   "View component inventory"
+  ],
+  [
+   "manufacturing:manage_inventory",
+   "Update inventory quantities"
+  ],
+  [
+   "manufacturing:create_production_order",
+   "Create production orders"
+  ],
+  [
+   "manufacturing:manage_production",
+   "Update production order status"
+  ],
+  [
+   "manufacturing:log_qc",
+   "Log QC results per unit"
+  ],
+  [
+   "manufacturing:view_qc",
+   "View QC records"
+  ],
+  [
+   "manufacturing:manage_warranty",
+   "Manage warranty records and RMA"
+  ],
+  [
+   "manufacturing:view_rma",
+   "View RMA cases"
+  ],
+  [
+   "marketing:view",
+   "View marketing campaigns and content"
+  ],
+  [
+   "marketing:manage_campaigns",
+   "Create and manage campaigns"
+  ],
+  [
+   "marketing:manage_content",
+   "Create and schedule content"
+  ],
+  [
+   "marketing:email",
+   "Email marketing: mailing lists, email campaigns and sending"
+  ],
+  [
+   "partner_mgmt:view",
+   "View partner accounts"
+  ],
+  [
+   "partner_mgmt:manage",
+   "Create and manage partner accounts"
+  ],
+  [
+   "partner_mgmt:approve_deals",
+   "Approve/reject partner deal registrations"
+  ],
+  [
+   "partner_mgmt:manage_commissions",
+   "Process partner commissions"
+  ],
+  [
+   "partner_mgmt:approve_commission",
+   "Approve or cancel partner commissions"
+  ],
+  [
+   "partner_mgmt:pay_commission",
+   "Mark partner commissions paid"
+  ],
+  [
+   "partner_mgmt:manage_resources",
+   "Manage partner resource library"
+  ],
+  [
+   "vendor_mgmt:view",
+   "View vendors and contractors"
+  ],
+  [
+   "vendor_mgmt:manage_vendors",
+   "Onboard and manage vendors"
+  ],
+  [
+   "vendor_mgmt:manage_rfq",
+   "Run RFQs: record vendor quotes and close"
+  ],
+  [
+   "vendor_mgmt:request_contractor",
+   "Submit contractor request (team_lead+ only)"
+  ],
+  [
+   "vendor_mgmt:create_work_order",
+   "Create work orders"
+  ],
+  [
+   "vendor_mgmt:approve_work_order",
+   "Approve work orders and POs"
+  ],
+  [
+   "vendor_mgmt:approve_timesheet",
+   "Approve contractor timesheets"
+  ],
+  [
+   "vendor_mgmt:process_vendor_invoice",
+   "Review and approve vendor invoices"
+  ],
+  [
+   "vendor_mgmt:create_purchase_order",
+   "Create purchase orders"
+  ],
+  [
+   "vendor_mgmt:approve_purchase_order",
+   "Approve purchase orders"
+  ],
+  [
+   "kb:view",
+   "View published knowledge base articles"
+  ],
+  [
+   "kb:create",
+   "Create and edit KB articles/SOPs"
+  ],
+  [
+   "kb:publish",
+   "Publish KB articles"
+  ],
+  [
+   "kb:manage_categories",
+   "Manage KB category structure"
+  ],
+  [
+   "kb:view_restricted",
+   "View restricted/sensitive articles"
+  ],
+  [
+   "kb:manage_sops",
+   "Create, edit, and publish SOPs (executive management)"
+  ],
+  [
+   "nary:view",
+   "See Nary's runs, approval queue, memory and status"
+  ],
+  [
+   "nary:approve",
+   "Apply, edit or reject the actions Nary proposes"
+  ],
+  [
+   "nary:manage",
+   "Pause Nary, change autonomy, edit its memory, roles and staff chat links"
+  ],
+  [
+   "approvals:view",
+   "See the approvals inbox and the approval trail on documents"
+  ],
+  [
+   "approvals:manage_policies",
+   "Configure approval policies, steps, thresholds, and discount allowances"
+  ],
+  [
+   "verification:issue",
+   "Issue or re-issue the verified (QR) PDF of an approved document"
+  ],
+  [
+   "verification:revoke",
+   "Revoke a document's QR verification token"
+  ],
+  [
+   "verification:view_log",
+   "See who scanned a document's QR and when"
+  ],
+  [
+   "finance:view_assets",
+   "View fixed asset register and depreciation schedules"
+  ],
+  [
+   "finance:manage_assets",
+   "Create assets, post depreciation, and record disposals"
+  ],
+  [
+   "finance:view_budget",
+   "View budgets and budget vs actual reports"
+  ],
+  [
+   "finance:manage_budget",
+   "Create, edit, and approve budgets"
+  ],
+  [
+   "inventory:view",
+   "View warehouses, stock locations, and stock movements"
+  ],
+  [
+   "inventory:manage",
+   "Manage warehouses, locations, and record stock moves"
+  ],
+  [
+   "fleet:view",
+   "View fleet vehicles, assignments, fuel logs, and service records"
+  ],
+  [
+   "fleet:manage",
+   "Manage vehicles, record assignments, fuel, and service"
+  ],
+  [
+   "maintenance:view",
+   "View maintenance equipment, requests, and work orders"
+  ],
+  [
+   "maintenance:manage",
+   "Create and close maintenance work orders and plans"
+  ],
+  [
+   "maintenance:request",
+   "Submit a maintenance request for equipment (any employee)"
+  ],
+  [
+   "helpdesk:view",
+   "View and respond to helpdesk tickets"
+  ],
+  [
+   "helpdesk:manage",
+   "Assign, escalate, and close helpdesk tickets"
+  ],
+  [
+   "helpdesk:configure",
+   "Configure helpdesk teams, categories, and SLA policies"
+  ],
+  [
+   "sign:view",
+   "View signing requests and audit trails"
+  ],
+  [
+   "sign:manage",
+   "Create signing requests, upload documents, and manage signers"
+  ],
+  [
+   "sign:send",
+   "Send documents for signing to external parties"
+  ]
+ ],
+ "role_permissions": [
+  [
+   "superadmin",
+   [
+    "system:superadmin",
+    "system:admin",
+    "system:view_settings",
+    "system:manage_settings",
+    "system:manage_tax",
+    "system:manage_users",
+    "system:manage_roles",
+    "system:view_audit_log",
+    "system:manage_document_sequences",
+    "crm:view_own",
+    "crm:view_all",
+    "crm:create_contact",
+    "crm:edit_contact",
+    "crm:delete_contact",
+    "crm:create_lead",
+    "crm:edit_lead",
+    "crm:create_deal",
+    "crm:edit_deal",
+    "crm:delete_deal",
+    "crm:log_activity",
+    "crm:assign_leads",
+    "crm:view_whatsapp",
+    "crm:send_whatsapp",
+    "crm:manage_attributes",
+    "sales:view_quotations",
+    "sales:create_quotation",
+    "sales:edit_quotation",
+    "sales:send_quotation",
+    "sales:view_contracts",
+    "sales:create_contract",
+    "sales:manage_catalog",
+    "sales:view_catalog",
+    "sales:apply_discount",
+    "sales:price_manual",
+    "sales:view_costs",
+    "sales:manage_costs",
+    "finance:view_invoices",
+    "finance:create_invoice",
+    "finance:edit_invoice",
+    "finance:send_invoice",
+    "finance:mark_paid",
+    "finance:view_payments",
+    "finance:confirm_payment",
+    "finance:view_expenses",
+    "finance:submit_expense",
+    "finance:approve_expense",
+    "finance:view_reports",
+    "finance:export_reports",
+    "finance:manage_tax_config",
+    "finance:manage_accounts",
+    "finance:view_journal",
+    "finance:post_journal",
+    "finance:manage_bank",
+    "finance:manage_fx",
+    "projects:view_own",
+    "projects:view_all",
+    "projects:create",
+    "projects:edit",
+    "projects:assign_team",
+    "projects:log_time",
+    "projects:view_time",
+    "projects:manage_milestones",
+    "projects:trigger_invoice",
+    "projects:close_project",
+    "rnd:view",
+    "rnd:manage",
+    "hr:view_own_profile",
+    "hr:view_all_employees",
+    "hr:manage_employees",
+    "hr:view_leave",
+    "hr:submit_leave",
+    "hr:approve_leave",
+    "hr:request_hire",
+    "hr:manage_job_openings",
+    "hr:manage_applicants",
+    "hr:initiate_termination",
+    "hr:process_hr_admin",
+    "hr:view_compensation",
+    "hr:manage_compensation",
+    "hr:view_attendance",
+    "hr:manage_attendance",
+    "manufacturing:view_products",
+    "manufacturing:manage_bom",
+    "manufacturing:view_inventory",
+    "manufacturing:manage_inventory",
+    "manufacturing:create_production_order",
+    "manufacturing:manage_production",
+    "manufacturing:log_qc",
+    "manufacturing:view_qc",
+    "manufacturing:manage_warranty",
+    "manufacturing:view_rma",
+    "marketing:view",
+    "marketing:manage_campaigns",
+    "marketing:manage_content",
+    "marketing:email",
+    "partner_mgmt:view",
+    "partner_mgmt:manage",
+    "partner_mgmt:approve_deals",
+    "partner_mgmt:manage_commissions",
+    "partner_mgmt:approve_commission",
+    "partner_mgmt:pay_commission",
+    "partner_mgmt:manage_resources",
+    "vendor_mgmt:view",
+    "vendor_mgmt:manage_vendors",
+    "vendor_mgmt:manage_rfq",
+    "vendor_mgmt:request_contractor",
+    "vendor_mgmt:create_work_order",
+    "vendor_mgmt:approve_work_order",
+    "vendor_mgmt:approve_timesheet",
+    "vendor_mgmt:process_vendor_invoice",
+    "vendor_mgmt:create_purchase_order",
+    "vendor_mgmt:approve_purchase_order",
+    "kb:view",
+    "kb:create",
+    "kb:publish",
+    "kb:manage_categories",
+    "kb:view_restricted",
+    "kb:manage_sops",
+    "nary:view",
+    "nary:approve",
+    "nary:manage",
+    "approvals:view",
+    "approvals:manage_policies",
+    "verification:issue",
+    "verification:revoke",
+    "verification:view_log",
+    "finance:view_assets",
+    "finance:manage_assets",
+    "finance:view_budget",
+    "finance:manage_budget",
+    "inventory:view",
+    "inventory:manage",
+    "fleet:view",
+    "fleet:manage",
+    "maintenance:view",
+    "maintenance:manage",
+    "maintenance:request",
+    "helpdesk:view",
+    "helpdesk:manage",
+    "helpdesk:configure",
+    "sign:view",
+    "sign:manage",
+    "sign:send"
+   ]
+  ],
+  [
+   "executive",
+   [
+    "approvals:view",
+    "approvals:manage_policies",
+    "verification:issue",
+    "verification:revoke",
+    "verification:view_log",
+    "crm:view_all",
+    "crm:manage_attributes",
+    "crm:create_contact",
+    "crm:edit_contact",
+    "crm:create_lead",
+    "crm:edit_lead",
+    "crm:create_deal",
+    "crm:edit_deal",
+    "crm:log_activity",
+    "crm:assign_leads",
+    "crm:view_whatsapp",
+    "crm:send_whatsapp",
+    "sales:view_quotations",
+    "sales:create_quotation",
+    "sales:edit_quotation",
+    "sales:send_quotation",
+    "sales:view_contracts",
+    "sales:create_contract",
+    "sales:manage_catalog",
+    "sales:view_catalog",
+    "sales:apply_discount",
+    "sales:price_manual",
+    "sales:view_costs",
+    "sales:manage_costs",
+    "finance:view_invoices",
+    "finance:create_invoice",
+    "finance:edit_invoice",
+    "finance:send_invoice",
+    "finance:mark_paid",
+    "finance:view_payments",
+    "finance:confirm_payment",
+    "finance:view_expenses",
+    "finance:approve_expense",
+    "finance:view_reports",
+    "finance:export_reports",
+    "finance:manage_accounts",
+    "finance:view_journal",
+    "finance:post_journal",
+    "finance:manage_bank",
+    "finance:manage_fx",
+    "finance:manage_tax_config",
+    "projects:view_all",
+    "projects:create",
+    "projects:edit",
+    "projects:assign_team",
+    "projects:manage_milestones",
+    "projects:trigger_invoice",
+    "projects:close_project",
+    "hr:view_all_employees",
+    "hr:request_hire",
+    "hr:manage_job_openings",
+    "hr:manage_applicants",
+    "hr:approve_leave",
+    "hr:initiate_termination",
+    "hr:view_compensation",
+    "hr:manage_compensation",
+    "hr:view_attendance",
+    "hr:manage_attendance",
+    "manufacturing:view_products",
+    "manufacturing:view_inventory",
+    "manufacturing:create_production_order",
+    "manufacturing:manage_production",
+    "manufacturing:view_qc",
+    "manufacturing:manage_warranty",
+    "manufacturing:view_rma",
+    "marketing:view",
+    "marketing:manage_campaigns",
+    "partner_mgmt:view",
+    "partner_mgmt:manage",
+    "partner_mgmt:approve_deals",
+    "partner_mgmt:manage_commissions",
+    "partner_mgmt:approve_commission",
+    "partner_mgmt:pay_commission",
+    "partner_mgmt:manage_resources",
+    "vendor_mgmt:view",
+    "vendor_mgmt:manage_vendors",
+    "vendor_mgmt:manage_rfq",
+    "vendor_mgmt:request_contractor",
+    "vendor_mgmt:create_work_order",
+    "vendor_mgmt:approve_work_order",
+    "vendor_mgmt:approve_purchase_order",
+    "vendor_mgmt:process_vendor_invoice",
+    "kb:view",
+    "kb:create",
+    "kb:publish",
+    "kb:view_restricted",
+    "kb:manage_sops",
+    "nary:view",
+    "nary:approve",
+    "nary:manage",
+    "rnd:view",
+    "rnd:manage",
+    "finance:view_assets",
+    "finance:manage_assets",
+    "finance:view_budget",
+    "finance:manage_budget",
+    "inventory:view",
+    "inventory:manage",
+    "fleet:view",
+    "fleet:manage",
+    "maintenance:view",
+    "maintenance:manage",
+    "maintenance:request",
+    "helpdesk:view",
+    "helpdesk:manage",
+    "helpdesk:configure",
+    "sign:view",
+    "sign:manage",
+    "sign:send"
+   ]
+  ],
+  [
+   "team_lead",
+   [
+    "approvals:view",
+    "verification:issue",
+    "crm:view_all",
+    "crm:manage_attributes",
+    "crm:create_contact",
+    "crm:edit_contact",
+    "crm:create_lead",
+    "crm:edit_lead",
+    "crm:create_deal",
+    "crm:edit_deal",
+    "crm:log_activity",
+    "crm:view_whatsapp",
+    "sales:view_quotations",
+    "sales:create_quotation",
+    "sales:edit_quotation",
+    "sales:view_contracts",
+    "sales:view_catalog",
+    "finance:view_invoices",
+    "finance:view_payments",
+    "finance:view_expenses",
+    "finance:submit_expense",
+    "finance:view_reports",
+    "projects:view_all",
+    "projects:create",
+    "projects:edit",
+    "projects:assign_team",
+    "projects:log_time",
+    "projects:view_time",
+    "projects:manage_milestones",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "hr:approve_leave",
+    "hr:request_hire",
+    "hr:manage_job_openings",
+    "hr:manage_applicants",
+    "hr:initiate_termination",
+    "hr:process_hr_admin",
+    "hr:view_attendance",
+    "hr:manage_attendance",
+    "manufacturing:view_products",
+    "manufacturing:view_inventory",
+    "manufacturing:create_production_order",
+    "manufacturing:manage_production",
+    "manufacturing:manage_warranty",
+    "manufacturing:log_qc",
+    "manufacturing:view_qc",
+    "marketing:view",
+    "marketing:manage_content",
+    "partner_mgmt:view",
+    "vendor_mgmt:view",
+    "vendor_mgmt:request_contractor",
+    "vendor_mgmt:create_work_order",
+    "vendor_mgmt:approve_timesheet",
+    "vendor_mgmt:create_purchase_order",
+    "vendor_mgmt:manage_rfq",
+    "kb:view",
+    "kb:create",
+    "rnd:view",
+    "rnd:manage",
+    "inventory:view",
+    "maintenance:view",
+    "maintenance:request",
+    "fleet:view",
+    "helpdesk:view",
+    "sign:view"
+   ]
+  ],
+  [
+   "sales_bizdev",
+   [
+    "approvals:view",
+    "verification:issue",
+    "crm:view_own",
+    "crm:create_contact",
+    "crm:edit_contact",
+    "crm:create_lead",
+    "crm:edit_lead",
+    "crm:create_deal",
+    "crm:edit_deal",
+    "crm:log_activity",
+    "crm:view_whatsapp",
+    "crm:send_whatsapp",
+    "sales:view_quotations",
+    "sales:create_quotation",
+    "sales:edit_quotation",
+    "sales:send_quotation",
+    "sales:view_contracts",
+    "sales:view_catalog",
+    "sales:apply_discount",
+    "sales:price_manual",
+    "finance:view_invoices",
+    "finance:view_payments",
+    "projects:view_own",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "kb:view",
+    "sign:view",
+    "sign:manage",
+    "sign:send"
+   ]
+  ],
+  [
+   "marketing",
+   [
+    "approvals:view",
+    "crm:view_all",
+    "crm:manage_attributes",
+    "crm:create_contact",
+    "crm:edit_contact",
+    "crm:create_lead",
+    "crm:log_activity",
+    "marketing:view",
+    "marketing:manage_campaigns",
+    "marketing:manage_content",
+    "marketing:email",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "kb:view",
+    "kb:create",
+    "sign:view"
+   ]
+  ],
+  [
+   "engineer",
+   [
+    "approvals:view",
+    "crm:view_own",
+    "crm:log_activity",
+    "projects:view_own",
+    "projects:log_time",
+    "rnd:view",
+    "rnd:manage",
+    "manufacturing:view_products",
+    "manufacturing:view_inventory",
+    "manufacturing:log_qc",
+    "manufacturing:view_qc",
+    "vendor_mgmt:view",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "kb:view",
+    "kb:create",
+    "maintenance:request",
+    "inventory:view",
+    "sign:view"
+   ]
+  ],
+  [
+   "project_manager",
+   [
+    "approvals:view",
+    "verification:issue",
+    "crm:view_all",
+    "crm:log_activity",
+    "sales:view_quotations",
+    "sales:view_contracts",
+    "finance:view_invoices",
+    "finance:view_payments",
+    "finance:submit_expense",
+    "projects:view_all",
+    "projects:create",
+    "projects:edit",
+    "projects:assign_team",
+    "projects:log_time",
+    "projects:view_time",
+    "projects:manage_milestones",
+    "projects:trigger_invoice",
+    "projects:close_project",
+    "rnd:view",
+    "rnd:manage",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "vendor_mgmt:view",
+    "vendor_mgmt:request_contractor",
+    "vendor_mgmt:create_work_order",
+    "vendor_mgmt:approve_timesheet",
+    "kb:view",
+    "inventory:view",
+    "maintenance:view",
+    "helpdesk:view",
+    "sign:view",
+    "sign:manage",
+    "sign:send"
+   ]
+  ],
+  [
+   "finance_admin",
+   [
+    "approvals:view",
+    "verification:issue",
+    "verification:revoke",
+    "verification:view_log",
+    "crm:view_all",
+    "sales:view_quotations",
+    "sales:view_contracts",
+    "finance:view_invoices",
+    "finance:create_invoice",
+    "finance:edit_invoice",
+    "finance:send_invoice",
+    "finance:mark_paid",
+    "finance:view_payments",
+    "partner_mgmt:pay_commission",
+    "finance:confirm_payment",
+    "finance:view_expenses",
+    "finance:submit_expense",
+    "finance:approve_expense",
+    "finance:view_reports",
+    "finance:export_reports",
+    "finance:manage_accounts",
+    "finance:view_journal",
+    "finance:post_journal",
+    "finance:manage_bank",
+    "finance:manage_fx",
+    "finance:manage_tax_config",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "hr:process_hr_admin",
+    "hr:view_attendance",
+    "hr:manage_attendance",
+    "vendor_mgmt:view",
+    "vendor_mgmt:process_vendor_invoice",
+    "vendor_mgmt:create_purchase_order",
+    "vendor_mgmt:manage_rfq",
+    "kb:view",
+    "finance:view_assets",
+    "finance:manage_assets",
+    "finance:view_budget",
+    "finance:manage_budget",
+    "sign:view",
+    "sign:manage",
+    "sign:send"
+   ]
+  ],
+  [
+   "hr_admin",
+   [
+    "approvals:view",
+    "verification:issue",
+    "hr:view_own_profile",
+    "hr:view_all_employees",
+    "hr:manage_employees",
+    "hr:view_leave",
+    "hr:submit_leave",
+    "hr:approve_leave",
+    "hr:manage_job_openings",
+    "hr:manage_applicants",
+    "hr:process_hr_admin",
+    "hr:view_attendance",
+    "hr:manage_attendance",
+    "kb:view",
+    "helpdesk:view",
+    "sign:view"
+   ]
+  ],
+  [
+   "manufacturing_tech",
+   [
+    "approvals:view",
+    "verification:issue",
+    "manufacturing:view_products",
+    "manufacturing:view_inventory",
+    "manufacturing:manage_inventory",
+    "manufacturing:manage_production",
+    "manufacturing:log_qc",
+    "manufacturing:view_qc",
+    "manufacturing:manage_warranty",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "kb:view",
+    "inventory:view",
+    "inventory:manage",
+    "maintenance:view",
+    "maintenance:manage",
+    "maintenance:request",
+    "fleet:view"
+   ]
+  ],
+  [
+   "system_admin",
+   [
+    "approvals:view",
+    "approvals:manage_policies",
+    "verification:revoke",
+    "verification:view_log",
+    "system:admin",
+    "system:view_settings",
+    "system:manage_settings",
+    "system:manage_tax",
+    "system:manage_users",
+    "system:manage_roles",
+    "system:view_audit_log",
+    "system:manage_document_sequences",
+    "crm:view_all",
+    "sales:view_quotations",
+    "sales:view_contracts",
+    "finance:view_invoices",
+    "finance:view_payments",
+    "finance:view_reports",
+    "projects:view_all",
+    "hr:view_all_employees",
+    "manufacturing:view_products",
+    "manufacturing:view_inventory",
+    "partner_mgmt:view",
+    "vendor_mgmt:view",
+    "kb:view",
+    "kb:create",
+    "kb:publish",
+    "kb:manage_categories",
+    "kb:view_restricted",
+    "rnd:view",
+    "finance:view_assets",
+    "finance:manage_assets",
+    "finance:view_budget",
+    "finance:manage_budget",
+    "inventory:view",
+    "inventory:manage",
+    "fleet:view",
+    "fleet:manage",
+    "maintenance:view",
+    "maintenance:manage",
+    "helpdesk:view",
+    "helpdesk:manage",
+    "helpdesk:configure",
+    "sign:view",
+    "sign:manage",
+    "sign:send"
+   ]
+  ],
+  [
+   "helpdesk_support",
+   [
+    "approvals:view",
+    "helpdesk:view",
+    "helpdesk:manage",
+    "crm:view_own",
+    "crm:view_whatsapp",
+    "kb:view",
+    "hr:view_own_profile",
+    "hr:submit_leave",
+    "sign:view"
+   ]
+  ],
+  [
+   "inventory_controller",
+   [
+    "approvals:view",
+    "inventory:view",
+    "inventory:manage",
+    "manufacturing:view_products",
+    "manufacturing:view_inventory",
+    "manufacturing:manage_inventory",
+    "vendor_mgmt:view",
+    "vendor_mgmt:create_purchase_order",
+    "vendor_mgmt:manage_rfq",
+    "kb:view",
+    "hr:view_own_profile",
+    "hr:submit_leave"
+   ]
+  ],
+  [
+   "maintenance_facilities_tech",
+   [
+    "approvals:view",
+    "maintenance:view",
+    "maintenance:manage",
+    "maintenance:request",
+    "inventory:view",
+    "fleet:view",
+    "fleet:manage",
+    "finance:view_assets",
+    "vendor_mgmt:view",
+    "kb:view",
+    "hr:view_own_profile",
+    "hr:submit_leave"
+   ]
+  ],
+  [
+   "partner_portal",
+   []
+  ],
+  [
+   "vendor_portal",
+   []
+  ]
+ ],
+ "system_settings": [
+  [
+   "company_name",
+   "Your Company Ltd",
+   "string",
+   "company",
+   true,
+   "Legal Company Name"
+  ],
+  [
+   "company_trade_name",
+   "Your Company",
+   "string",
+   "company",
+   true,
+   "Trade Name / Brand"
+  ],
+  [
+   "company_email",
+   "hello@example.com",
+   "string",
+   "company",
+   true,
+   "Company Email"
+  ],
+  [
+   "company_phone",
+   "",
+   "string",
+   "company",
+   true,
+   "Phone / WhatsApp"
+  ],
+  [
+   "company_website",
+   "https://example.com",
+   "string",
+   "company",
+   true,
+   "Website"
+  ],
+  [
+   "company_address",
+   "",
+   "string",
+   "company",
+   true,
+   "Head Office Address"
+  ],
+  [
+   "company_rd_office",
+   "",
+   "string",
+   "company",
+   true,
+   "R&D Office Address"
+  ],
+  [
+   "company_tax_id",
+   "",
+   "string",
+   "company",
+   false,
+   "Company tax ID"
+  ],
+  [
+   "company_registration_no",
+   "",
+   "string",
+   "company",
+   false,
+   "Company registration number"
+  ],
+  [
+   "company_signatory",
+   "",
+   "string",
+   "company",
+   false,
+   "Authorized Signatory Name"
+  ],
+  [
+   "company_signatory_title",
+   "",
+   "string",
+   "company",
+   false,
+   "Signatory Title / Position"
+  ],
+  [
+   "invoice_due_days",
+   "14",
+   "int",
+   "finance",
+   false,
+   "Invoice Due Days"
+  ],
+  [
+   "quotation_validity_days",
+   "30",
+   "int",
+   "sales",
+   false,
+   "Quotation Validity Days"
+  ],
+  [
+   "max_discount_pct_without_approval",
+   "15",
+   "decimal",
+   "sales",
+   false,
+   "Max Discount % Without Approval"
+  ],
+  [
+   "email_smtp_host",
+   "smtp.gmail.com",
+   "string",
+   "email",
+   false,
+   "System SMTP Host"
+  ],
+  [
+   "email_smtp_port",
+   "587",
+   "int",
+   "email",
+   false,
+   "System SMTP Port"
+  ],
+  [
+   "email_smtp_user",
+   "",
+   "string",
+   "email",
+   false,
+   "System SMTP Username"
+  ],
+  [
+   "email_smtp_password",
+   "",
+   "string",
+   "email",
+   false,
+   "System SMTP Password"
+  ],
+  [
+   "email_smtp_from_name",
+   "Granary",
+   "string",
+   "email",
+   false,
+   "System Email From Name"
+  ],
+  [
+   "email_smtp_from_email",
+   "",
+   "string",
+   "email",
+   false,
+   "System Email From Address"
+  ],
+  [
+   "email_smtp_tls",
+   "true",
+   "bool",
+   "email",
+   false,
+   "System SMTP Use TLS"
+  ],
+  [
+   "crm_smtp_host",
+   "smtp.gmail.com",
+   "string",
+   "crm_email",
+   false,
+   "CRM SMTP Host"
+  ],
+  [
+   "crm_smtp_port",
+   "587",
+   "int",
+   "crm_email",
+   false,
+   "CRM SMTP Port"
+  ],
+  [
+   "crm_smtp_user",
+   "",
+   "string",
+   "crm_email",
+   false,
+   "CRM SMTP Username"
+  ],
+  [
+   "crm_smtp_password",
+   "",
+   "string",
+   "crm_email",
+   false,
+   "CRM SMTP Password"
+  ],
+  [
+   "crm_smtp_from_name",
+   "Your Company",
+   "string",
+   "crm_email",
+   false,
+   "CRM Email From Name"
+  ],
+  [
+   "crm_smtp_from_email",
+   "",
+   "string",
+   "crm_email",
+   false,
+   "CRM Email From Address"
+  ],
+  [
+   "crm_smtp_tls",
+   "true",
+   "bool",
+   "crm_email",
+   false,
+   "CRM SMTP Use TLS"
+  ],
+  [
+   "crm_imap_host",
+   "imap.gmail.com",
+   "string",
+   "crm_email",
+   false,
+   "CRM IMAP Host"
+  ],
+  [
+   "crm_imap_port",
+   "993",
+   "int",
+   "crm_email",
+   false,
+   "CRM IMAP Port"
+  ],
+  [
+   "crm_imap_user",
+   "",
+   "string",
+   "crm_email",
+   false,
+   "CRM IMAP Username"
+  ],
+  [
+   "crm_imap_password",
+   "",
+   "string",
+   "crm_email",
+   false,
+   "CRM IMAP Password"
+  ],
+  [
+   "crm_imap_ssl",
+   "true",
+   "bool",
+   "crm_email",
+   false,
+   "CRM IMAP Use SSL"
+  ],
+  [
+   "wa_session_auto_reconnect",
+   "true",
+   "bool",
+   "integrations",
+   false,
+   "WhatsApp Auto-Reconnect"
+  ],
+  [
+   "branding.logo_type",
+   "text",
+   "string",
+   "branding",
+   true,
+   "Logo Type (text | image)"
+  ],
+  [
+   "branding.logo_text",
+   "Granary",
+   "string",
+   "branding",
+   true,
+   "Logo Text (shown when type=text)"
+  ],
+  [
+   "branding.logo_subtitle",
+   "ERP",
+   "string",
+   "branding",
+   true,
+   "Logo Subtitle / App Name"
+  ],
+  [
+   "branding.logo_image_data",
+   "",
+   "string",
+   "branding",
+   true,
+   "Logo Image (base64 data URL)"
+  ],
+  [
+   "branding.favicon_data",
+   "",
+   "string",
+   "branding",
+   true,
+   "Favicon (base64 data URL, PNG/SVG/ICO)"
+  ],
+  [
+   "timezone",
+   "UTC",
+   "string",
+   "system",
+   true,
+   "Timezone"
+  ],
+  [
+   "default_currency",
+   "USD",
+   "string",
+   "system",
+   true,
+   "Default Currency"
+  ],
+  [
+   "date_format",
+   "DD/MM/YYYY",
+   "string",
+   "system",
+   true,
+   "Date Format"
+  ],
+  [
+   "quotation_prefix",
+   "QUO",
+   "string",
+   "documents",
+   false,
+   "Quotation Number Prefix"
+  ],
+  [
+   "invoice_prefix",
+   "INV",
+   "string",
+   "documents",
+   false,
+   "Invoice Number Prefix"
+  ],
+  [
+   "proforma_prefix",
+   "PRO",
+   "string",
+   "documents",
+   false,
+   "Proforma Invoice Prefix"
+  ],
+  [
+   "payment_terms_default",
+   "14",
+   "string",
+   "documents",
+   false,
+   "Default Payment Terms (days)"
+  ],
+  [
+   "hr.face_match_distance",
+   "0.50",
+   "decimal",
+   "hr",
+   false,
+   "Face match strictness (max distance)"
+  ],
+  [
+   "hr.geo_max_accuracy_m",
+   "100",
+   "decimal",
+   "hr",
+   false,
+   "Max GPS inaccuracy for clock-in (m)"
+  ],
+  [
+   "hr.work_start_time",
+   "09:00",
+   "string",
+   "hr",
+   false,
+   "Work Start Time (24h, for late detection)"
+  ],
+  [
+   "finance.gl_autopost_from",
+   "",
+   "string",
+   "finance",
+   false,
+   "Automatic GL posting from (YYYY-MM-DD; blank = off)"
+  ],
+  [
+   "procurement.default_withholding_rate",
+   "0",
+   "decimal",
+   "procurement",
+   false,
+   "Withholding tax rate for new vendors that withhold it (%)"
+  ],
+  [
+   "procurement.receipt_over_tolerance_pct",
+   "5",
+   "decimal",
+   "procurement",
+   false,
+   "Goods receipt: over-delivery tolerance (%)"
+  ],
+  [
+   "sign.signature_max_bytes",
+   "500000",
+   "int",
+   "signing",
+   false,
+   "Max signature image size (bytes)"
+  ],
+  [
+   "payroll.contributions",
+   "[]",
+   "json",
+   "hr",
+   false,
+   "Payroll contributions: [{key, label, employee_rate %, employer_rate %, base_cap, employer_taxable, employee_deductible}]"
+  ],
+  [
+   "payroll.income_tax",
+   "{\"method\": \"none\"}",
+   "json",
+   "hr",
+   false,
+   "Payroll income tax: {\"method\": \"none\"} or progressive brackets with allowances per tax status"
+  ],
+  [
+   "payroll.overtime_hours_divisor",
+   "173",
+   "decimal",
+   "hr",
+   false,
+   "Overtime: hourly wage = monthly fixed wage ÷ this"
+  ],
+  [
+   "payroll.overtime_multipliers",
+   "{\"workday\": [[1, 1.5], [null, 2]], \"rest_day\": [[8, 2], [9, 3], [null, 4]]}",
+   "json",
+   "hr",
+   false,
+   "Overtime multiples: [cumulative hour upper bound, × hourly wage]"
+  ],
+  [
+   "payroll.rest_weekdays",
+   "[5, 6]",
+   "json",
+   "hr",
+   false,
+   "Rest days for overtime (Monday = 0 … Sunday = 6)"
+  ],
+  [
+   "marketing.email_daily_limit",
+   "100",
+   "int",
+   "marketing",
+   false,
+   "Email campaigns: max emails sent per day (company time)"
+  ],
+  [
+   "marketing.email_min_delay_seconds",
+   "30",
+   "int",
+   "marketing",
+   false,
+   "Email campaigns: minimum seconds between sends"
+  ],
+  [
+   "marketing.email_max_delay_seconds",
+   "60",
+   "int",
+   "marketing",
+   false,
+   "Email campaigns: maximum seconds between sends"
+  ],
+  [
+   "marketing.queue_lock_ttl_seconds",
+   "180",
+   "int",
+   "marketing",
+   false,
+   "Email campaigns: sender lease TTL (seconds, must exceed the max delay)"
+  ],
+  [
+   "mail.sync_lock_ttl_seconds",
+   "600",
+   "int",
+   "email",
+   false,
+   "Mail sync: lock TTL per account folder (seconds)"
+  ],
+  [
+   "auth.login_max_attempts",
+   "5",
+   "int",
+   "system",
+   false,
+   "Login: failed attempts allowed per IP per window"
+  ],
+  [
+   "auth.login_window_seconds",
+   "900",
+   "int",
+   "system",
+   false,
+   "Login: rate-limit window (seconds)"
+  ],
+  [
+   "sign.reminder_window_hours",
+   "48",
+   "int",
+   "signing",
+   false,
+   "Signing: remind signers when the deadline is within (hours)"
+  ],
+  [
+   "sign.reminder_interval_hours",
+   "24",
+   "int",
+   "signing",
+   false,
+   "Signing: hours between reminders to the same signer"
+  ],
+  [
+   "catalog.conversion_base_currency",
+   "USD",
+   "string",
+   "sales",
+   false,
+   "Catalog: currency other prices are converted from"
+  ],
+  [
+   "catalog.independent_currencies",
+   "[\"USD\"]",
+   "json",
+   "sales",
+   false,
+   "Catalog: currencies with their own price list (never converted)"
+  ],
+  [
+   "sales.split_payment_min_unit_equivalents",
+   "21",
+   "decimal",
+   "sales",
+   false,
+   "Payment terms: unit-equivalents from which products are paid in two parts"
+  ],
+  [
+   "sales.split_payment_on_order_pct",
+   "60",
+   "decimal",
+   "sales",
+   false,
+   "Payment terms: share paid on order when split (%)"
+  ],
+  [
+   "sales.service_down_payment_pct",
+   "50",
+   "decimal",
+   "sales",
+   false,
+   "Payment terms: down payment on services (%)"
+  ],
+  [
+   "fleet.expiry_warning_days",
+   "30",
+   "int",
+   "fleet",
+   false,
+   "Fleet: days before an insurance/registration expiry or service shows as soon"
+  ],
+  [
+   "maintenance.due_soon_days",
+   "7",
+   "int",
+   "maintenance",
+   false,
+   "Maintenance: days before a plan is due that it shows as due soon"
+  ],
+  [
+   "hr.overnight_shift_hours",
+   "16",
+   "int",
+   "hr",
+   false,
+   "Attendance: hours a shift may run past midnight and still be clocked out"
+  ],
+  [
+   "crm.followup.due_hour",
+   "9",
+   "string",
+   "crm",
+   false,
+   "Hour of day (company time) rule-made and default follow-ups fall due"
+  ],
+  [
+   "crm.followup.escalate_after_hours",
+   "24",
+   "string",
+   "crm",
+   false,
+   "Email a follow-up still open this many hours after its due notice"
+  ],
+  [
+   "projects.monthly_hours",
+   "173",
+   "decimal",
+   "projects",
+   false,
+   "Working hours in a month (hourly cost = salary ÷ this)"
+  ],
+  [
+   "projects.default_hourly_cost",
+   "",
+   "decimal",
+   "projects",
+   false,
+   "Hourly cost for users without an employee record (functional currency)"
+  ],
+  [
+   "finance.invoice_reminder_days",
+   "[1, 7, 14, 30]",
+   "json",
+   "finance",
+   false,
+   "Overdue invoice reminders: days after the due date"
+  ],
+  [
+   "finance.invoice_reminder_repeat_days",
+   "30",
+   "int",
+   "finance",
+   false,
+   "Then remind every N days (0 = stop)"
+  ],
+  [
+   "finance.default_sales_tax",
+   "{}",
+   "json",
+   "finance",
+   true,
+   "Default sales tax by currency (tax code)"
+  ],
+  [
+   "currency.decimals",
+   "{\"USD\": 2, \"EUR\": 2, \"GBP\": 2, \"SGD\": 2, \"JPY\": 0, \"CNY\": 2, \"AUD\": 2}",
+   "json",
+   "finance",
+   true,
+   "Decimal places per currency"
+  ],
+  [
+   "crm.scheduled.max_attempts",
+   "12",
+   "int",
+   "crm",
+   false,
+   "Scheduled messages: attempts before failing"
+  ],
+  [
+   "crm.scheduled.stuck_after_minutes",
+   "30",
+   "int",
+   "crm",
+   false,
+   "Scheduled messages: fail a send stuck this many minutes"
+  ],
+  [
+   "crm.followup.default_delay_days",
+   "3",
+   "string",
+   "crm",
+   false,
+   "Default follow-up delay (business days)"
+  ],
+  [
+   "crm.followup.no_reply_days",
+   "3",
+   "string",
+   "crm",
+   false,
+   "Remind when a customer has not replied for (days)"
+  ],
+  [
+   "crm.followup.lead_idle_days",
+   "7",
+   "string",
+   "crm",
+   false,
+   "Remind when a lead has had no activity for (days)"
+  ],
+  [
+   "crm.followup.deal_stage_idle_days",
+   "14",
+   "string",
+   "crm",
+   false,
+   "Remind when a deal sits in one stage for (days)"
+  ],
+  [
+   "crm.followup.quotation_followup_days",
+   "5",
+   "string",
+   "crm",
+   false,
+   "Remind when a sent quotation has no answer for (days)"
+  ],
+  [
+   "crm.followup.max_per_rule_pass",
+   "25",
+   "string",
+   "crm",
+   false,
+   "Most reminders one rule may raise in a day"
+  ],
+  [
+   "crm.followup.quiet_from",
+   "08:00",
+   "string",
+   "crm",
+   false,
+   "Reminders are delivered from"
+  ],
+  [
+   "crm.followup.quiet_to",
+   "20:00",
+   "string",
+   "crm",
+   false,
+   "Reminders are delivered until"
+  ],
+  [
+   "crm.followup.digest_weekday",
+   "1",
+   "string",
+   "crm",
+   false,
+   "Weekly Owner digest weekday (1 = Monday)"
+  ],
+  [
+   "crm.followup.digest_time",
+   "08:00",
+   "string",
+   "crm",
+   false,
+   "Weekly Owner digest time"
+  ],
+  [
+   "crm.followup.rule_no_reply",
+   "true",
+   "string",
+   "crm",
+   false,
+   "Rule: remind when the customer has not replied"
+  ],
+  [
+   "crm.followup.rule_stale_lead",
+   "true",
+   "string",
+   "crm",
+   false,
+   "Rule: remind about idle leads"
+  ],
+  [
+   "crm.followup.rule_stale_deal",
+   "true",
+   "string",
+   "crm",
+   false,
+   "Rule: remind about deals stuck in a stage"
+  ],
+  [
+   "crm.followup.rule_quotation",
+   "true",
+   "string",
+   "crm",
+   false,
+   "Rule: remind about sent quotations with no answer"
+  ],
+  [
+   "crm.funnel.stage_probabilities",
+   "{\"new\": 5, \"qualifying\": 10, \"discovery\": 20, \"assessment\": 35, \"proposal\": 50, \"contract\": 80, \"won\": 100, \"handover\": 100, \"onboarding\": 100, \"nurture\": 5, \"lost\": 0, \"disqualified\": 0}",
+   "json",
+   "crm",
+   false,
+   "Funnel: default probability (%) per deal stage, set when a deal enters the stage"
+  ],
+  [
+   "crm.funnel.loss_reasons",
+   "[{\"key\": \"price_too_expensive\", \"label\": \"Price: too expensive\", \"recontact_months\": 6}, {\"key\": \"price_budget_eliminated\", \"label\": \"Price: budget eliminated\", \"recontact_months\": 3}, {\"key\": \"competitor_feature\", \"label\": \"Competitor: feature\", \"recontact_months\": 6}, {\"key\": \"competitor_relationship\", \"label\": \"Competitor: relationship\", \"recontact_months\": 12}, {\"key\": \"competitor_reputation\", \"label\": \"Competitor: reputation / trust\", \"recontact_months\": 12}, {\"key\": \"timeline_we_too_slow\", \"label\": \"Timeline: our delivery too slow\", \"recontact_months\": 3}, {\"key\": \"timeline_customer_not_ready\", \"label\": \"Timeline: customer not ready\", \"recontact_months\": 4}, {\"key\": \"scope_mismatch\", \"label\": \"Scope mismatch\", \"recontact_months\": 6}, {\"key\": \"no_decision\", \"label\": \"No decision\", \"recontact_months\": 3}, {\"key\": \"lost_contact\", \"label\": \"Lost contact\", \"recontact_months\": 12}, {\"key\": \"qualification_error\", \"label\": \"Qualification error\", \"recontact_months\": null}, {\"key\": \"procurement_blocker\", \"label\": \"Procurement blocker\", \"recontact_months\": 12}]",
+   "json",
+   "crm",
+   false,
+   "Funnel: loss reasons and re-contact interval in months (null = none)"
+  ],
+  [
+   "crm.funnel.disqualify_reasons",
+   "[{\"key\": \"free_or_cheap_seeker\", \"label\": \"Looking for a free or very cheap alternative\", \"recontact_months\": null}, {\"key\": \"beyond_roadmap\", \"label\": \"Needs capabilities beyond our products\", \"recontact_months\": null}, {\"key\": \"below_floor_price\", \"label\": \"Expects pricing below our floor price\", \"recontact_months\": null}, {\"key\": \"payment_risk\", \"label\": \"Payment default or bad payment history\", \"recontact_months\": null}, {\"key\": \"compliance_geography\", \"label\": \"Export control or compliance issue\", \"recontact_months\": null}, {\"key\": \"ip_fishing\", \"label\": \"Fishing for IP without purchase intent\", \"recontact_months\": null}, {\"key\": \"timing_only\", \"label\": \"Timing only\", \"recontact_months\": 6}, {\"key\": \"not_a_buyer\", \"label\": \"Not a buyer (vendor, job seeker, student)\", \"recontact_months\": null}, {\"key\": \"no_response\", \"label\": \"Never responded\", \"recontact_months\": null}, {\"key\": \"duplicate\", \"label\": \"Duplicate\", \"recontact_months\": null}, {\"key\": \"spam\", \"label\": \"Spam\", \"recontact_months\": null}]",
+   "json",
+   "crm",
+   false,
+   "Funnel: disqualification reasons and re-contact interval in months (null = none)"
+  ],
+  [
+   "crm.funnel.lead_sources",
+   "[{\"key\": \"web3forms\", \"label\": \"Website form (Web3forms email)\"}, {\"key\": \"inline_web3forms\", \"label\": \"Website inline form (Web3forms email)\"}, {\"key\": \"whatsapp_direct\", \"label\": \"WhatsApp (direct, no form)\"}, {\"key\": \"whatsapp\", \"label\": \"WhatsApp\"}, {\"key\": \"email\", \"label\": \"Email\"}, {\"key\": \"website_form\", \"label\": \"Website form\"}, {\"key\": \"linkedin\", \"label\": \"LinkedIn\"}, {\"key\": \"founder_network\", \"label\": \"Founder network\"}, {\"key\": \"bizdev_network\", \"label\": \"BizDev network\"}, {\"key\": \"partner_referral\", \"label\": \"Partner referral\"}, {\"key\": \"referral\", \"label\": \"Referral\"}, {\"key\": \"cold_outreach\", \"label\": \"Cold outreach\"}, {\"key\": \"event\", \"label\": \"Event\"}, {\"key\": \"other\", \"label\": \"Other\"}, {\"key\": \"website_inline_form\", \"label\": \"Website inline form\"}]",
+   "json",
+   "crm",
+   false,
+   "Funnel: lead sources"
+  ],
+  [
+   "crm.funnel.default_lead_owner_email",
+   "",
+   "string",
+   "crm",
+   false,
+   "Funnel: owner of leads that arrive with nobody behind them (user email)"
+  ],
+  [
+   "crm.followup.rule_next_action",
+   "true",
+   "string",
+   "crm",
+   false,
+   "Rule: remind when an activity next action falls due"
+  ],
+  [
+   "ai.routing",
+   "{\"assistant\": {\"effort\": \"high\", \"max_tokens\": 16000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\", \"cache_ttl\": \"1h\"}, \"crm_ai_field\": {\"effort\": \"low\", \"max_tokens\": 2000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"crm_enrichment\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"crm_research\": {\"effort\": \"medium\", \"max_tokens\": 8000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"default\": {\"effort\": \"medium\", \"max_tokens\": 8000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"doc_intel\": {\"effort\": \"medium\", \"max_tokens\": 8000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"embedding\": {\"effort\": null, \"max_tokens\": null, \"model\": \"gemini-embedding-001\", \"provider\": \"gemini\"}, \"nary.brief\": {\"effort\": \"medium\", \"max_tokens\": 8000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.card\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.cascade_review\": {\"effort\": \"medium\", \"max_tokens\": 2000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.owner_chat\": {\"cache_ttl\": \"1h\", \"effort\": \"high\", \"max_tokens\": 16000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.classify\": {\"effort\": \"low\", \"max_tokens\": 1000, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"nary.cost_estimate\": {\"effort\": \"medium\", \"max_tokens\": 6000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.fit_check\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.followup_draft\": {\"effort\": \"medium\", \"max_tokens\": 3000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.handoff\": {\"effort\": \"high\", \"max_tokens\": 8000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.history_classify\": {\"effort\": \"low\", \"max_tokens\": 1000, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"nary.history_read\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.identity_match\": {\"effort\": \"low\", \"max_tokens\": 1000, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"nary.lost_reply\": {\"effort\": \"medium\", \"max_tokens\": 2000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.meeting_brief\": {\"effort\": \"medium\", \"max_tokens\": 3000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.memory\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.negotiation\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.proposal_draft\": {\"effort\": \"high\", \"max_tokens\": 16000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.proposal_edit\": {\"effort\": \"medium\", \"max_tokens\": 12000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.quote_lines\": {\"effort\": \"low\", \"max_tokens\": 2000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.rate_research\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.reply_alert\": {\"effort\": \"low\", \"max_tokens\": 400, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"nary.reply_draft\": {\"effort\": \"high\", \"max_tokens\": 4000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.report\": {\"effort\": \"medium\", \"max_tokens\": 6000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.score\": {\"effort\": \"low\", \"max_tokens\": 1500, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"nary.slot_pick\": {\"effort\": \"low\", \"max_tokens\": 500, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"nary.sop_revision\": {\"effort\": \"high\", \"max_tokens\": 16000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.summary_email\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"nary.transcript_extract\": {\"effort\": \"medium\", \"max_tokens\": 6000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.triage\": {\"effort\": \"low\", \"max_tokens\": 1000, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"nary.vision\": {\"effort\": \"low\", \"max_tokens\": 2000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"nary.web3forms_extract\": {\"effort\": \"low\", \"max_tokens\": 2000, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"pdf_import\": {\"effort\": \"low\", \"max_tokens\": 32000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"record_brief\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-sonnet-5-5\", \"provider\": \"anthropic\"}, \"scoring\": {\"effort\": \"low\", \"max_tokens\": 2000, \"model\": \"claude-haiku-5-5\", \"provider\": \"anthropic\"}, \"suggestion\": {\"effort\": \"medium\", \"max_tokens\": 4000, \"model\": \"claude-opus-5-5\", \"provider\": \"anthropic\"}, \"web_search\": {\"effort\": null, \"max_tokens\": null, \"model\": \"gemini-2.0-flash\", \"provider\": \"gemini\"}, \"nary.document_read\": {\"model\": \"claude-sonnet-5-5\", \"effort\": \"low\", \"provider\": \"anthropic\", \"max_tokens\": 4000}, \"nary.visual_check\": {\"model\": \"claude-sonnet-5-5\", \"effort\": \"low\", \"provider\": \"anthropic\", \"max_tokens\": 1500}, \"nary.visual_spec\": {\"model\": \"claude-sonnet-5-5\", \"effort\": \"medium\", \"provider\": \"anthropic\", \"max_tokens\": 8000}}",
+   "json",
+   "ai",
+   false,
+   "AI routing: job → provider, model, effort, max tokens"
+  ],
+  [
+   "ai.pricing",
+   "{\"claude-haiku-5-5\": {\"cache_read\": 0.01, \"cache_write\": 0.125, \"cache_write_1h\": 0.2, \"input\": 0.1, \"output\": 0.5}, \"claude-opus-4-8\": {\"cache_read\": 0.5, \"cache_write\": 6.25, \"cache_write_1h\": 10.0, \"input\": 5.0, \"output\": 25.0}, \"claude-opus-5\": {\"cache_read\": 0.5, \"cache_write\": 6.25, \"cache_write_1h\": 10.0, \"input\": 5.0, \"output\": 25.0}, \"claude-opus-5-5\": {\"cache_read\": 0.2, \"cache_write\": 5.0, \"cache_write_1h\": 8.0, \"input\": 4.0, \"output\": 20.0}, \"claude-sonnet-5\": {\"cache_read\": 0.2, \"cache_write\": 2.5, \"cache_write_1h\": 4.0, \"input\": 2.0, \"output\": 10.0}, \"claude-sonnet-5-5\": {\"cache_read\": 0.2, \"cache_write\": 2.5, \"cache_write_1h\": 4.0, \"input\": 2.0, \"output\": 10.0}, \"deepseek-chat\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.28, \"output\": 0.42}, \"deepseek-reasoner\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.28, \"output\": 0.42}, \"gemini-2.0-flash\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.1, \"output\": 0.4}, \"gemini-2.5-flash\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.3, \"output\": 2.5}, \"gemini-2.5-pro\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 1.25, \"output\": 10.0}, \"gemini-embedding\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.15, \"output\": 0}, \"gpt-4.1\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 2.0, \"output\": 8.0}, \"gpt-4.1-mini\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.4, \"output\": 1.6}, \"gpt-4.1-nano\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.1, \"output\": 0.4}, \"gpt-4o\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 2.5, \"output\": 10.0}, \"gpt-4o-mini\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.15, \"output\": 0.6}, \"gpt-5\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 1.25, \"output\": 10.0}, \"gpt-5-mini\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.25, \"output\": 2.0}, \"gpt-5-nano\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 0.05, \"output\": 0.4}, \"o3\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 2.0, \"output\": 8.0}, \"o3-mini\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 1.1, \"output\": 4.4}, \"o4-mini\": {\"cache_read\": 0, \"cache_write\": 0, \"input\": 1.1, \"output\": 4.4}}",
+   "json",
+   "ai",
+   false,
+   "AI prices: model prefix → USD per 1M tokens (input, output, cache read, cache write)"
+  ],
+  [
+   "ai.pricing.batch_discount_pct",
+   "50",
+   "decimal",
+   "ai",
+   false,
+   "AI prices: Batch API discount (%)"
+  ],
+  [
+   "ai.budget.warn_pct",
+   "80",
+   "decimal",
+   "ai",
+   false,
+   "AI budget: warn the Owner at this share of the monthly cap (%)"
+  ],
+  [
+   "ai.budget.stop_pct",
+   "100",
+   "decimal",
+   "ai",
+   false,
+   "AI budget: stop non-essential jobs at (%)"
+  ],
+  [
+   "ai.budget.hard_stop_pct",
+   "150",
+   "decimal",
+   "ai",
+   false,
+   "AI budget: stop every job, essential ones too, at (%)"
+  ],
+  [
+   "ai.budget.essential_jobs",
+   "[\"nary.ack\", \"nary.reply_draft\", \"nary.triage\", \"nary.score\", \"nary.slot_pick\"]",
+   "json",
+   "ai",
+   false,
+   "AI budget: jobs that keep running past the stop threshold"
+  ],
+  [
+   "ai.budget.job_caps",
+   "{}",
+   "json",
+   "ai",
+   false,
+   "AI budget: optional monthly cap per job (USD)"
+  ],
+  [
+   "ai.budget.monthly_usd",
+   "100",
+   "decimal",
+   "ai",
+   false,
+   "AI budget: monthly cap in USD (0 = no cap)"
+  ],
+  [
+   "nary.paused",
+   "false",
+   "boolean",
+   "nary",
+   false,
+   "Nary: paused (no runs, no actions; briefs still go out)"
+  ],
+  [
+   "nary.shadow_mode",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Nary: shadow mode (customer-facing drafts are stored, never sent)"
+  ],
+  [
+   "nary.autonomy.levels",
+   "{\"deal.won\": 1, \"deal.merge\": 1, \"email.link\": 1, \"reply.draft\": 0, \"lead.promote\": 1, \"mcp.proposal\": 1, \"meeting.book\": 3, \"reminder.add\": 1, \"activity.void\": 1, \"contact.merge\": 1, \"document.send\": 1, \"identity.link\": 1, \"mcp.crm_write\": 1, \"partner.route\": 1, \"proposal.edit\": 1, \"proposal.send\": 1, \"catalog.change\": 1, \"contact.delete\": 1, \"email.ack.send\": 3, \"meeting.cancel\": 1, \"proforma.raise\": 1, \"quotation.send\": 1, \"handoff.kickoff\": 1, \"lost.reply.send\": 1, \"proposal.reject\": 1, \"proposal.revise\": 1, \"proposal.visual\": 1, \"chat.held_decide\": 1, \"email.reply.send\": 1, \"quotation.cancel\": 1, \"quotation.update\": 1, \"assessment.update\": 1, \"crm.record_change\": 1, \"price.answer.send\": 1, \"quotation.reprice\": 1, \"reengagement.send\": 1, \"whatsapp.ack.send\": 3, \"lead.from_whatsapp\": 1, \"meeting.add_guests\": 1, \"meeting.slots.send\": 1, \"organization.merge\": 1, \"proposal.from_chat\": 1, \"proposal.quotation\": 1, \"quotation.revision\": 1, \"quotation.withdraw\": 1, \"summary.email.send\": 1, \"lead.open_returning\": 1, \"quotation.link_deal\": 1, \"whatsapp.reply.send\": 1, \"catalog.product_file\": 1, \"rates.propose_update\": 1, \"cadence.followup.send\": 1, \"contract.create_draft\": 1, \"meeting.reminder.send\": 3, \"proposal.create_draft\": 1, \"proposal.from_sections\": 1, \"quotation.create_draft\": 1, \"message.cancel_scheduled\": 1, \"proposal.discovery.start\": 1, \"proposal.update_requirements\": 1}",
+   "json",
+   "nary",
+   false,
+   "Nary: autonomy level per action (0 shadow, 1 ask, 2 act and tell, 3 silent)"
+  ],
+  [
+   "nary.autonomy.promotion_count",
+   "10",
+   "int",
+   "nary",
+   false,
+   "Nary: approvals in a row without a meaningful edit before an action can be promoted"
+  ],
+  [
+   "nary.autonomy.edit_threshold_pct",
+   "10",
+   "decimal",
+   "nary",
+   false,
+   "Nary: an approver's edit counts as meaningful above this share of changed text (%)"
+  ],
+  [
+   "nary.autonomy.demotion_floor",
+   "1",
+   "int",
+   "nary",
+   false,
+   "Nary: lowest level an automatic demotion goes to"
+  ],
+  [
+   "nary.autonomy.never_promote",
+   "[\"quotation.create_draft\", \"reengagement.send\", \"discount.apply\", \"payment.record\", \"email.outbound_first_touch\", \"quotation.send\", \"proforma.raise\", \"contract.create_draft\", \"proposal.send\", \"rates.propose_update\", \"lead.open_returning\", \"mcp.crm_write\", \"mcp.proposal\", \"organization.merge\", \"contact.delete\", \"document.send\", \"catalog.change\", \"deal.merge\", \"activity.void\", \"quotation.cancel\", \"chat.held_decide\", \"deal.won\", \"catalog.product_file\"]",
+   "json",
+   "nary",
+   false,
+   "Nary: actions that are never promoted past asking"
+  ],
+  [
+   "nary.autonomy.never_promote_unlocked",
+   "false",
+   "boolean",
+   "nary",
+   false,
+   "Nary: allow a superadmin to edit the never-promote list"
+  ],
+  [
+   "nary.working_hours",
+   "{\"days\": [1, 2, 3, 4, 5], \"start\": \"08:00\", \"end\": \"17:00\"}",
+   "json",
+   "nary",
+   false,
+   "Nary: working hours, company time (days 1 = Monday)"
+  ],
+  [
+   "nary.heartbeat_minutes",
+   "30",
+   "int",
+   "nary",
+   false,
+   "Nary: heartbeat every N minutes inside working hours"
+  ],
+  [
+   "nary.brief_times",
+   "{\"morning\": \"08:00\", \"midday\": null, \"wrapup\": \"17:00\"}",
+   "json",
+   "nary",
+   false,
+   "Nary: brief times, company time (null = off)"
+  ],
+  [
+   "nary.urgent",
+   "{\"hot_score\": 10, \"customer_wait_minutes\": 60, \"segments\": [\"government\", \"enterprise\"], \"events\": [\"quotation.signed\", \"contract.signed\", \"payment.recorded\"]}",
+   "json",
+   "nary",
+   false,
+   "Nary: what interrupts the Owner inside working hours"
+  ],
+  [
+   "nary.events.batch_size",
+   "50",
+   "int",
+   "nary",
+   false,
+   "Nary: events handed to subscribers per dispatch"
+  ],
+  [
+   "nary.events.max_attempts",
+   "5",
+   "int",
+   "nary",
+   false,
+   "Nary: attempts before an event is parked as failed"
+  ],
+  [
+   "nary.pending.expire_days",
+   "7",
+   "int",
+   "nary",
+   false,
+   "Nary: an approval card nobody decided expires after (days)"
+  ],
+  [
+   "nary.errors.dedupe_hours",
+   "24",
+   "int",
+   "nary",
+   false,
+   "Nary: repeat an error card for the same problem at most every (hours)"
+  ],
+  [
+   "nary.shadow_exempt_actions",
+   "[\"whatsapp.ack.send\", \"email.ack.send\", \"meeting.book\", \"meeting.reminder.send\"]",
+   "json",
+   "nary",
+   false,
+   "Nary: customer actions that still go out in shadow mode (the acknowledgement)"
+  ],
+  [
+   "nary.ack.enabled",
+   "false",
+   "boolean",
+   "nary",
+   false,
+   "Nary: send the automatic acknowledgement (turn on together with turning off WhatsApp's own greeting)"
+  ],
+  [
+   "nary.ack.templates",
+   "{\"en\": {\"in_hours\": \"Hi {name}, thank you for contacting us.\\nWe have received your message and will reply within {reply_window}.\", \"after_hours\": \"Hi {name}, thank you for contacting us.\\nWe have received your message and will reply on the next working day.\", \"late_prefix\": \"Apologies for the delayed reply.\", \"name_fallback\": \"there\", \"reply_window\": \"2 working hours\", \"email_subject\": \"Thank you for contacting us\"}}",
+   "json",
+   "nary",
+   false,
+   "Nary: acknowledgement texts per language ({name}, {reply_window}); in hours, after hours, late prefix"
+  ],
+  [
+   "nary.ack.default_language",
+   "en",
+   "string",
+   "nary",
+   false,
+   "Nary: acknowledgement language when the customer's can't be told (a key of nary.ack.templates)"
+  ],
+  [
+   "nary.ack.ongoing_days",
+   "30",
+   "int",
+   "nary",
+   false,
+   "Nary: a chat with a message in the last N days is ongoing (no acknowledgement)"
+  ],
+  [
+   "nary.ack.late_after_minutes",
+   "30",
+   "int",
+   "nary",
+   false,
+   "Nary: an acknowledgement sent later than this after the message starts with the apology"
+  ],
+  [
+   "nary.intake.arrival_window_minutes",
+   "120",
+   "int",
+   "nary",
+   false,
+   "Nary: wait this long for the WhatsApp chat a [whatsapp] web form promised, then tell the Owner"
+  ],
+  [
+   "nary.intake.currency_by_country",
+   "{\"*\": \"USD\"}",
+   "json",
+   "nary",
+   false,
+   "Intake: quoting currency by the customer's country (ISO code; * = everyone else)"
+  ],
+  [
+   "nary.web3forms.sender_domains",
+   "[\"web3forms.com\"]",
+   "json",
+   "nary",
+   false,
+   "Web3forms: sender domains of the form notification emails"
+  ],
+  [
+   "nary.web3forms.dkim_domains",
+   "[\"web3forms.com\"]",
+   "json",
+   "nary",
+   false,
+   "Web3forms: a DKIM signature from one of these domains is required"
+  ],
+  [
+   "nary.web3forms.known_fields",
+   "[\"name\", \"email\", \"phone\", \"company\", \"interested_in\", \"message\", \"from_page\", \"submission_source\", \"timezone\", \"landing_page\", \"first_referrer\", \"request_type\", \"submission_id\"]",
+   "json",
+   "nary",
+   false,
+   "Web3forms: the fields the form sends (another field → format-drift warning, still stored)"
+  ],
+  [
+   "nary.web3forms.required_fields",
+   "[\"name\", \"submission_source\"]",
+   "json",
+   "nary",
+   false,
+   "Web3forms: fields every submission must have (missing → AI extraction and a warning)"
+  ],
+  [
+   "nary.web3forms.routes",
+   "{\"inline_whatsapp\": \"whatsapp\", \"web3forms\": \"email\", \"inline_web3forms\": \"email\", \"whatsapp\": \"whatsapp\"}",
+   "json",
+   "nary",
+   false,
+   "Web3forms: submission_source → journey (email: reply by email; whatsapp: expect the chat)"
+  ],
+  [
+   "nary.web3forms.interest_map",
+   "{\"general\": null}",
+   "json",
+   "nary",
+   false,
+   "Web3forms: interested_in code → product family (a hint; Nary reads the message)"
+  ],
+  [
+   "nary.web3forms.poll_junk",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Web3forms: also fetch form emails that landed in the Junk folder"
+  ],
+  [
+   "nary.identity.default_country",
+   "US",
+   "string",
+   "nary",
+   false,
+   "Identity: country for phone numbers written without a country code (ISO code)"
+  ],
+  [
+   "nary.identity.prefill_labels",
+   "{\"name\": [\"name\"], \"company\": [\"company\"], \"email\": [\"email\", \"e-mail\"], \"phone\": [\"phone\", \"whatsapp\"], \"product\": [\"product\", \"interested in\"], \"message\": [\"message\"]}",
+   "json",
+   "nary",
+   false,
+   "Identity: labels in the website's pre-filled WhatsApp text → field"
+  ],
+  [
+   "nary.identity.thresholds",
+   "{\"certain\": 90, \"likely\": 70, \"weak\": 45}",
+   "json",
+   "nary",
+   false,
+   "Identity: match score from which a match is certain (auto-link), likely (link + tell), weak (ask)"
+  ],
+  [
+   "nary.identity.signal_scores",
+   "{\"phone\": 100, \"text_email\": 95, \"text_phone\": 95, \"form_text\": 85, \"name_company\": 75, \"email_domain\": 50}",
+   "json",
+   "nary",
+   false,
+   "Identity: score of each matching signal (the best signal counts)"
+  ],
+  [
+   "nary.identity.honorifics",
+   "[\"mr\", \"mrs\", \"ms\", \"miss\", \"dr\", \"prof\"]",
+   "json",
+   "nary",
+   false,
+   "Identity: honorifics ignored when comparing names"
+  ],
+  [
+   "nary.identity.recent_form_days",
+   "14",
+   "int",
+   "nary",
+   false,
+   "Identity: a chat can match a [whatsapp] web form sent within this many days"
+  ],
+  [
+   "nary.triage.example_count",
+   "20",
+   "int",
+   "nary",
+   false,
+   "Triage: the Owner's latest corrections shown to the model as examples"
+  ],
+  [
+   "nary.triage.business_signals",
+   "[\"price\", \"pricing\", \"quotation\", \"quote\", \"demo\", \"project\", \"tender\", \"rfp\", \"procurement\", \"invoice\", \"company\", \"order\", \"purchase\"]",
+   "json",
+   "nary",
+   false,
+   "Triage: words that send a spam or personal verdict to the second model for review"
+  ],
+  [
+   "nary.wa.signature",
+   "_— Nary_",
+   "string",
+   "nary",
+   false,
+   "WhatsApp: Nary's sign-off"
+  ],
+  [
+   "nary.wa.max_per_hour",
+   "20",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: most messages Nary sends in an hour (ban risk)"
+  ],
+  [
+   "nary.wa.max_per_day",
+   "100",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: most messages Nary sends in a day (ban risk)"
+  ],
+  [
+   "nary.wa.takeover_hours",
+   "24",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: Nary stays silent in a chat this long after a person replies from the phone"
+  ],
+  [
+   "nary.wa.gapcheck_minutes",
+   "30",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: look for missed messages every N minutes"
+  ],
+  [
+   "nary.wa.gapcheck_lookback_hours",
+   "48",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: the missed-message check covers chats active in the last N hours"
+  ],
+  [
+   "nary.wa.health_minutes",
+   "10",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: check the link and Nary's queue every N minutes"
+  ],
+  [
+   "nary.wa.health_backlog_minutes",
+   "15",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: an event waiting longer than this means Nary is stuck (the Owner is emailed)"
+  ],
+  [
+   "nary.wa.media_max_mb",
+   "25",
+   "int",
+   "nary",
+   false,
+   "WhatsApp: largest attachment stored (MB)"
+  ],
+  [
+   "nary.wa.card_notices",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "WhatsApp: send approval cards to the Owner's WhatsApp in working hours (reply 1 apply, 2 view, 3 skip)"
+  ],
+  [
+   "nary.wa.labels_enabled",
+   "false",
+   "boolean",
+   "nary",
+   false,
+   "WhatsApp: keep WhatsApp Business labels in step with the funnel stage"
+  ],
+  [
+   "nary.wa.label_map",
+   "{}",
+   "json",
+   "nary",
+   false,
+   "WhatsApp: deal stage (or \"lead:<status>\") → the name of an existing WhatsApp Business label"
+  ],
+  [
+   "nary.history.full_read_months",
+   "6",
+   "int",
+   "nary",
+   false,
+   "History import: chats active in the last N months are read in full, older ones summarised"
+  ],
+  [
+   "nary.history.chats_per_run",
+   "3",
+   "int",
+   "nary",
+   false,
+   "History import: chats imported per run (ban risk)"
+  ],
+  [
+   "nary.history.page_size",
+   "100",
+   "int",
+   "nary",
+   false,
+   "History import: messages fetched per request"
+  ],
+  [
+   "nary.history.pause_seconds",
+   "5",
+   "int",
+   "nary",
+   false,
+   "History import: pause between requests (ban risk)"
+  ],
+  [
+   "nary.history.run_minutes",
+   "10",
+   "int",
+   "nary",
+   false,
+   "History import: run every N minutes"
+  ],
+  [
+   "nary.history.pages_per_run",
+   "10",
+   "int",
+   "nary",
+   false,
+   "History import: message pages fetched per chat per run"
+  ],
+  [
+   "nary.history.batch_size",
+   "100",
+   "int",
+   "nary",
+   false,
+   "History import: chats sent to the AI in one batch"
+  ],
+  [
+   "nary.history.sync_attempts",
+   "2",
+   "int",
+   "nary",
+   false,
+   "History import: times older messages are requested from the phone before a chat counts as complete"
+  ],
+  [
+   "nary.history.style_sample",
+   "200",
+   "int",
+   "nary",
+   false,
+   "History import: the Owner's own business replies read to learn the writing style"
+  ],
+  [
+   "nary.history.missed_after_days",
+   "14",
+   "int",
+   "nary",
+   false,
+   "History import: a business chat left unanswered this long is a missed opportunity"
+  ],
+  [
+   "nary.stt.max_seconds",
+   "600",
+   "int",
+   "nary",
+   false,
+   "Speech-to-text: longest voice note transcribed (seconds)"
+  ],
+  [
+   "nary.score.rubric",
+   "{\"budget\": {\"3\": \"budget confirmed and sufficient for the scope\", \"1\": \"a budget exists, size unknown\", \"0\": \"no budget yet, must request it internally\", \"disqualify\": \"explicitly looking for free or very cheap alternatives\"}, \"authority\": {\"3\": \"direct decision-maker\", \"2\": \"strong influencer with a named decision-maker\", \"0\": \"researcher without access to the decision-maker\"}, \"need\": {\"3\": \"a clear, urgent, specific problem our products solve\", \"1\": \"general interest, no specific pain\", \"0\": \"vague, or outside what we offer\"}, \"timeline\": {\"3\": \"live within 30 days\", \"2\": \"30 to 90 days\", \"1\": \"90 to 180 days\", \"0\": \"no timeline, exploratory\"}}",
+   "json",
+   "nary",
+   false,
+   "Scoring: BANT rubric, points per answer"
+  ],
+  [
+   "nary.score.classes",
+   "{\"hot\": [10, 12], \"warm\": [7, 9], \"cool\": [4, 6], \"cold\": [0, 3]}",
+   "json",
+   "nary",
+   false,
+   "Scoring: class → [lowest, highest] total (0 to 12)"
+  ],
+  [
+   "nary.score.boundary_margin",
+   "1",
+   "int",
+   "nary",
+   false,
+   "Scoring: a total this close to a class boundary is re-scored by the second model"
+  ],
+  [
+   "nary.score.red_flags",
+   "[\"wants capabilities beyond our products without a custom project\", \"expects prices far below our floor margin\", \"a known payment default\", \"a geography with export-control or compliance issues\", \"fishing for our methods without purchase intent\"]",
+   "json",
+   "nary",
+   false,
+   "Scoring: fit red flags (consider disqualifying)"
+  ],
+  [
+   "nary.score.green_flags",
+   "[\"has bought similar solutions before\", \"has a team able to adopt and maintain it\", \"a use case in an industry we already serve\"]",
+   "json",
+   "nary",
+   false,
+   "Scoring: fit green flags"
+  ],
+  [
+   "nary.reply.questions",
+   "{\"pricing_vague\": {\"en\": [\"Which product are you interested in?\", \"Is it for your company or for a project?\"]}}",
+   "json",
+   "nary",
+   false,
+   "Replies: up to two qualifying questions per product interest, per language"
+  ],
+  [
+   "nary.reply.max_questions",
+   "2",
+   "int",
+   "nary",
+   false,
+   "Replies: most questions in one message"
+  ],
+  [
+   "nary.reply.max_lines",
+   "5",
+   "int",
+   "nary",
+   false,
+   "Replies: most lines in one WhatsApp bubble"
+  ],
+  [
+   "nary.price.catalog_terms",
+   "{\"pricing_vague\": [\"\"]}",
+   "json",
+   "nary",
+   false,
+   "Price answers: catalog search words per product (a key of the qualifying questions)"
+  ],
+  [
+   "nary.email.reply_window_hours",
+   "48",
+   "int",
+   "nary",
+   false,
+   "Email: only emails received in the last N hours start Nary's reply playbook (older mail is history)"
+  ],
+  [
+   "nary.cadence.steps",
+   "[{\"day\": 1, \"channel\": \"whatsapp\", \"intent\": \"confirm the quotation arrived; offer to answer first questions\", \"topic\": \"receipt\", \"news\": false}, {\"day\": 3, \"channel\": \"email\", \"intent\": \"one paragraph on our differentiator that matches what they said mattered\", \"topic\": \"value\", \"news\": true}, {\"day\": 7, \"channel\": \"whatsapp\", \"intent\": \"ask where they are in the review and whether any question is open\", \"topic\": \"process\", \"news\": false}, {\"day\": 14, \"channel\": \"email\", \"intent\": \"a short summary of one comparable deployment (same industry or use case)\", \"topic\": \"proof\", \"news\": true}, {\"day\": 21, \"channel\": \"call\", \"intent\": \"call them: validity ends in 9 days; offer to extend, modify or discuss; ask the decision timeline\", \"topic\": \"timeline\", \"news\": false}, {\"day\": 28, \"channel\": \"whatsapp\", \"intent\": \"the quotation expires in 2 days; offer to extend the validity\", \"topic\": \"expiry\", \"news\": false}, {\"day\": 30, \"channel\": \"erp\", \"intent\": \"the quotation expires: extend, revise or move to nurture\", \"topic\": \"expiry_decision\", \"news\": false}]",
+   "json",
+   "nary",
+   false,
+   "Follow-up: steps after a quotation is sent (day, channel whatsapp/email/call/erp, intent, topic, news)"
+  ],
+  [
+   "nary.cadence.min_gap_days",
+   "2",
+   "int",
+   "nary",
+   false,
+   "Follow-up: never two messages on the same topic within this many days"
+  ],
+  [
+   "nary.cadence.max_without_news",
+   "2",
+   "int",
+   "nary",
+   false,
+   "Follow-up: most follow-ups in a row without new information"
+  ],
+  [
+   "nary.cadence.at_risk_silent_days",
+   "7",
+   "int",
+   "nary",
+   false,
+   "Follow-up: no answer this many days before expiry → the deal is at risk"
+  ],
+  [
+   "nary.cadence.nurture_silent_days",
+   "14",
+   "int",
+   "nary",
+   false,
+   "Follow-up: silent this long after expiry → propose nurture"
+  ],
+  [
+   "nary.cadence.recontact_days",
+   "60",
+   "int",
+   "nary",
+   false,
+   "Follow-up: re-engagement reminder after moving to nurture (days)"
+  ],
+  [
+   "nary.negotiation.scripts",
+   "{\"price_too_high\": \"Ask the gap between the price and their budget; offer a phased approach or a different scope before any discount.\", \"comparing_competitors\": \"Ask their top 2 or 3 decision criteria and position our offer on those; never attack a competitor.\", \"need_more_time\": \"Agree a date to revisit and set the reminder.\", \"internal_approval\": \"Offer a one-page executive summary for the approver, or a call with them.\", \"timeline_too_long\": \"Offer a phased rollout: one site first, scale later.\", \"on_hold\": \"Ask when the situation changes and check in then.\", \"competitor_cheaper\": \"Ask what exactly they offer at that price; compare support, local presence, warranty and terms like for like.\"}",
+   "json",
+   "nary",
+   false,
+   "Negotiation: value-first answers per objection, Owner-only"
+  ],
+  [
+   "nary.negotiation.competitor_checklist",
+   "[\"same scope and quantity\", \"what is included and what is extra\", \"delivery and data location\", \"warranty length and what it covers\", \"support hours and local presence\", \"installation and training included\", \"licence model and renewal price\"]",
+   "json",
+   "nary",
+   false,
+   "Negotiation: what to compare like for like against a competitor's offer"
+  ],
+  [
+   "sales.margins",
+   "{\"products\": {\"label\": \"Products\", \"target\": \"40\", \"floor\": \"10\", \"families\": []}, \"services\": {\"label\": \"Services\", \"target\": \"45\", \"floor\": \"10\", \"families\": []}}",
+   "json",
+   "sales",
+   false,
+   "Margins: target and floor gross margin % per product category, and the catalog families in it (internal)"
+  ],
+  [
+   "nary.contract.nudge_days",
+   "3",
+   "int",
+   "nary",
+   false,
+   "Contract: remind about an unsigned contract every N days"
+  ],
+  [
+   "nary.contract.won_needs_dp",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Contract: the deal moves to Won only when the contract is signed and the down payment is paid"
+  ],
+  [
+   "nary.google.client_id",
+   "",
+   "string",
+   "nary",
+   false,
+   "Google Calendar: OAuth client ID (Google Cloud console)"
+  ],
+  [
+   "nary.google.client_secret",
+   "",
+   "string",
+   "nary",
+   false,
+   "Google Calendar: OAuth client secret"
+  ],
+  [
+   "nary.google.account_email",
+   "",
+   "string",
+   "nary",
+   false,
+   "Google Calendar: the account meetings are booked in"
+  ],
+  [
+   "nary.google.calendar_id",
+   "primary",
+   "string",
+   "nary",
+   false,
+   "Google Calendar: calendar ID"
+  ],
+  [
+   "nary.meetings.rules",
+   "{\"duration_minutes\": 60, \"buffer_minutes\": 20, \"max_per_day\": 3, \"start_window\": [\"09:00\", \"15:40\"], \"blocks\": [{\"days\": [1, 2, 3, 4, 5], \"from\": \"12:00\", \"to\": \"13:00\"}], \"workdays\": [1, 2, 3, 4, 5], \"slots_offered\": 3, \"horizon_days\": 10, \"min_notice_hours\": 18, \"step_minutes\": 20, \"extended_windows\": [[\"07:00\", \"09:00\"], [\"18:00\", \"21:00\"]]}",
+   "json",
+   "nary",
+   false,
+   "Meetings: length, buffer, per day, start window (company time zone), blocks, slots offered, horizon, extended windows"
+  ],
+  [
+   "nary.meetings.holidays",
+   "[]",
+   "json",
+   "nary",
+   false,
+   "Meetings: public holidays (no meetings), as YYYY-MM-DD dates. Update each year"
+  ],
+  [
+   "nary.meetings.reduced_hours_periods",
+   "[]",
+   "json",
+   "nary",
+   false,
+   "Meetings: periods with a shorter start window"
+  ],
+  [
+   "nary.meetings.customer_hours",
+   "{\"*\": {\"days\": [1, 2, 3, 4, 5], \"start\": \"09:00\", \"end\": \"17:00\"}, \"SA\": {\"days\": [7, 1, 2, 3, 4], \"start\": \"09:00\", \"end\": \"17:00\"}, \"QA\": {\"days\": [7, 1, 2, 3, 4], \"start\": \"08:00\", \"end\": \"16:00\"}, \"KW\": {\"days\": [7, 1, 2, 3, 4], \"start\": \"08:00\", \"end\": \"16:00\"}, \"OM\": {\"days\": [7, 1, 2, 3, 4], \"start\": \"08:00\", \"end\": \"16:00\"}, \"BH\": {\"days\": [7, 1, 2, 3, 4], \"start\": \"08:00\", \"end\": \"16:00\"}}",
+   "json",
+   "nary",
+   false,
+   "Meetings: the customer's working week by country (ISO; * = default; days 1 = Monday)"
+  ],
+  [
+   "nary.meetings.text",
+   "{\"en\": {\"recording\": \"This meeting may be recorded for our internal notes.\", \"slots_intro\": \"Here are some times for an online meeting (60 minutes). Please reply with the number you prefer:\", \"extended\": \"outside usual working hours\", \"reminder_day\": \"Reminder: our meeting is tomorrow, {when}. Link: {link}\", \"reminder_hour\": \"Reminder: our meeting starts in 1 hour ({when}). Link: {link}\", \"title\": \"Meeting: {company}\"}}",
+   "json",
+   "nary",
+   false,
+   "Meetings: texts sent to the customer (slots, reminders, recording notice) per language"
+  ],
+  [
+   "nary.meetings.reminders",
+   "{\"day_before_at\": \"09:00\", \"hour_before_minutes\": 60, \"owner_brief_minutes\": 30, \"no_show_minutes\": 15}",
+   "json",
+   "nary",
+   false,
+   "Meetings: reminder times (day before at HH:MM company time, minutes before) and when a missing customer is a no-show"
+  ],
+  [
+   "nary.handoff.kickoff_tasks",
+   "[\"Internal kickoff: walk the team through the handoff package\", \"Confirm the site survey or environment access with the customer\", \"Agree the delivery and installation schedule\", \"Prepare the onboarding and training plan\", \"Set up the support channel and introduce the customer to it\"]",
+   "json",
+   "nary",
+   false,
+   "Handoff: kickoff tasks on the new project"
+  ],
+  [
+   "nary.partners.routing",
+   "[]",
+   "json",
+   "nary",
+   false,
+   "Partners: routing rules [{region, industry, partner_account_id}] (a matching lead is proposed to that partner)"
+  ],
+  [
+   "nary.partners.warn_days",
+   "14",
+   "int",
+   "nary",
+   false,
+   "Partners: warn this many days before a deal registration's protection ends"
+  ],
+  [
+   "nary.report.kpi_targets",
+   "{\"response_sla_pct\": 90, \"lead_to_sql_pct\": 25, \"sql_to_deal_pct\": 60, \"quote_to_win_pct\": 35, \"win_rate_pct\": 40, \"quote_to_decision_days\": 30, \"loss_reason_pct\": 100}",
+   "json",
+   "nary",
+   false,
+   "Weekly report: SOP KPI targets"
+  ],
+  [
+   "nary.report.weekday",
+   "1",
+   "int",
+   "nary",
+   false,
+   "Weekly report: day of the week it comes with the morning brief (1 = Monday)"
+  ],
+  [
+   "nary.report.window_days",
+   "90",
+   "int",
+   "nary",
+   false,
+   "Weekly report: conversion KPIs cover the last N days"
+  ],
+  [
+   "nary.report.response_sla_minutes",
+   "120",
+   "int",
+   "nary",
+   false,
+   "Weekly report: a first customer message answered within this many minutes meets the response SLA"
+  ],
+  [
+   "nary.sop_revisions.briefs",
+   "{}",
+   "json",
+   "nary",
+   false,
+   "SOP revisions: what each SOP draft must change"
+  ],
+  [
+   "nary.sop_revisions.codes",
+   "{\"related\": [], \"new\": \"\"}",
+   "json",
+   "nary",
+   false,
+   "SOP revisions: related SOP codes read as house-format reference, and the code of a new SOP Nary may draft (empty: none)"
+  ],
+  [
+   "documents.proposal.template",
+   "[{\"key\": \"executive_summary\", \"title\": \"Executive Summary\", \"blocks\": [\"text\", \"kv\"], \"guidance\": \"What the customer needs, what we propose, and a commercial basis table (item, price basis, payment, delivery terms) that only repeats the linked quotation.\"}, {\"key\": \"requirements\", \"title\": \"Requirement Coverage\", \"blocks\": [\"coverage\"], \"guidance\": \"Every requirement the customer stated, in their words, with a status (included, optional_custom, not_in_scope, to_confirm) and a note. Grouped by theme when there are many.\"}, {\"key\": \"solution\", \"title\": \"Proposed Solution\", \"blocks\": [\"text\", \"table\"], \"guidance\": \"What is delivered: a components table (component, quantity, role) and how the parts work together.\"}, {\"key\": \"client_obligations\", \"title\": \"Client Obligations\", \"blocks\": [\"text\"], \"guidance\": \"What the customer provides for delivery (access, people, data, facilities), each with a bold lead-in. Delivery and acceptance depend on them.\"}, {\"key\": \"implementation\", \"title\": \"Implementation Plan\", \"blocks\": [\"table\"], \"guidance\": \"Phases with timing and scope, from order to acceptance.\"}, {\"key\": \"acceptance\", \"title\": \"Acceptance\", \"blocks\": [\"text\"], \"guidance\": \"How the delivery is accepted: the criteria agreed with the customer and when they are checked.\"}, {\"key\": \"support\", \"title\": \"Support and Warranty\", \"blocks\": [\"text\"], \"guidance\": \"What the quotation includes (support period, warranty) and renewals as quoted. Support hours and language.\"}, {\"key\": \"commercial\", \"title\": \"Commercial Summary\", \"blocks\": [\"commercial\"], \"guidance\": \"Generated from the linked quotation(s); never typed.\"}, {\"key\": \"terms\", \"title\": \"Terms and Next Steps\", \"blocks\": [\"text\"], \"guidance\": \"Validity, taxes and exclusions, payment terms as quoted, then numbered next steps.\"}, {\"key\": \"about\", \"title\": \"About Us\", \"blocks\": [\"text\"], \"guidance\": \"One paragraph from approved company facts, and references only from the knowledge base. A contact line.\"}, {\"key\": \"approval\", \"title\": \"Approval\", \"blocks\": [\"stamp\"], \"guidance\": \"The approval stamp.\"}]",
+   "json",
+   "documents",
+   false,
+   "Proposals: the sections, their headings, first blocks and what Nary writes in each"
+  ],
+  [
+   "documents.proposal.labels",
+   "{\"en\": {\"kind\": \"Solution Proposal\", \"prepared_for\": \"Prepared for\", \"attention\": \"Attention\", \"prepared_by\": \"Prepared by\", \"reference\": \"Reference\", \"revision\": \"Revision\", \"date\": \"Date\", \"validity\": \"Validity\", \"validity_value\": \"{days} days from the date of issue\", \"classification\": \"Classification\", \"requirement\": \"Requirement\", \"status\": \"Status\", \"notes\": \"Notes\", \"figure\": \"Figure\", \"included\": \"Included\", \"optional_custom\": \"Optional\", \"not_in_scope\": \"Not in scope\", \"to_confirm\": \"To confirm\", \"item\": \"Item\", \"amount\": \"Amount\", \"payment\": \"Payment\", \"total\": \"Total\", \"approved\": \"APPROVED ELECTRONICALLY\", \"awaiting\": \"AWAITING APPROVAL\", \"verify\": \"Verify with the QR code on this page\", \"draft\": \"DRAFT\", \"header\": \"Confidential\", \"page\": \"Page\", \"coverage_legend\": \"Included = delivered in this scope. Optional = outside this scope, available as an add-on.\"}}",
+   "json",
+   "documents",
+   false,
+   "Proposals: the document's fixed words per language (cover, coverage statuses, stamp, header)"
+  ],
+  [
+   "documents.proposal.validity_days",
+   "30",
+   "int",
+   "documents",
+   false,
+   "Proposals: days a proposal is valid"
+  ],
+  [
+   "documents.proposal.classification",
+   "{\"en\": \"Confidential\"}",
+   "json",
+   "documents",
+   false,
+   "Proposals: classification line per language"
+  ],
+  [
+   "documents.proposal.prepared_by",
+   "{\"en\": \"\"}",
+   "json",
+   "documents",
+   false,
+   "Proposals: the 'prepared by' line per language"
+  ],
+  [
+   "proposal.discovery.fields",
+   "[{\"key\": \"problem\", \"label\": \"Problem and the outcome they want\", \"ask\": \"What problem should this solve, and what result would make it a success?\"}, {\"key\": \"current_setup\", \"label\": \"What they use today\", \"ask\": \"What do you use for this today?\"}, {\"key\": \"scope\", \"label\": \"Scope: sites, users or quantities\", \"ask\": \"How many sites, users or units does this cover?\"}, {\"key\": \"deployment\", \"label\": \"Delivery: on-premise or managed; buy or subscribe\", \"ask\": \"Should it run on your premises or as a managed service, and do you prefer to buy or subscribe?\"}, {\"key\": \"integration\", \"label\": \"Integration with their systems\", \"ask\": \"Does it need to connect to another system?\"}, {\"key\": \"timeline\", \"label\": \"Timeline\", \"ask\": \"When should it be live?\"}, {\"key\": \"budget\", \"label\": \"Budget\", \"ask\": \"Is there a budget range for this?\"}, {\"key\": \"decision\", \"label\": \"Decision process and tender format\", \"ask\": \"Who decides, and is it a tender with a required format?\"}, {\"key\": \"language\", \"label\": \"Document language\", \"ask\": \"Which language should the proposal be in?\"}]",
+   "json",
+   "documents",
+   false,
+   "Proposals: the requirement discovery checklist (what Nary asks, one or two at a time)"
+  ],
+  [
+   "proposal.discovery.min_coverage_pct",
+   "60",
+   "int",
+   "documents",
+   false,
+   "Proposals: the share of the checklist known before Nary drafts (the rest become assumptions)"
+  ],
+  [
+   "proposal.cost.contingency_pct",
+   "15",
+   "decimal",
+   "documents",
+   false,
+   "Cost breakdown: contingency on labour and non-labour (%)"
+  ],
+  [
+   "proposal.cost.days_per_month",
+   "21",
+   "int",
+   "documents",
+   false,
+   "Cost breakdown: working days per month (a monthly salary → a man-day)"
+  ],
+  [
+   "proposal.cost.load_factor",
+   "1.2",
+   "decimal",
+   "documents",
+   false,
+   "Cost breakdown: employer load on a gross salary (social security, bonuses) for a man-day cost"
+  ],
+  [
+   "proposal.cost.min_monthly",
+   "0",
+   "decimal",
+   "documents",
+   false,
+   "Cost breakdown: the minimum monthly wage that floors any rate (0 = no floor)"
+  ],
+  [
+   "proposal.cost.update_threshold_pct",
+   "10",
+   "decimal",
+   "documents",
+   false,
+   "Cost breakdown: Nary proposes a rate change only above this difference (%)"
+  ],
+  [
+   "nary.staff_chat.enabled",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: linked staff can chat with Nary from their own WhatsApp"
+  ],
+  [
+   "nary.staff_chat.session_hours",
+   "12",
+   "integer",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: start a new conversation after this many quiet hours"
+  ],
+  [
+   "nary.staff_chat.max_bubbles",
+   "3",
+   "integer",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: at most this many WhatsApp messages per answer (the rest: a link to the ERP)"
+  ],
+  [
+   "nary.staff_chat.bubble_chars",
+   "1500",
+   "integer",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: characters per WhatsApp message"
+  ],
+  [
+   "nary.staff_chat.voice",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: transcribe voice notes on this server and answer them"
+  ],
+  [
+   "nary.owner.enabled",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: Nary raises approvals, consults, questions, alerts and briefs in your chat"
+  ],
+  [
+   "nary.owner.urgent_kinds",
+   "[\"hot_lead\", \"money\", \"failure\"]",
+   "json",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: what may reach you outside working hours (hot_lead, money, failure)"
+  ],
+  [
+   "nary.owner.bundle_minutes",
+   "5",
+   "integer",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: things raised within these minutes go out as one message"
+  ],
+  [
+   "nary.owner.remind_working_hours",
+   "3",
+   "integer",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: remind you once after this many working hours without an answer"
+  ],
+  [
+   "nary.owner.default_language",
+   "en",
+   "string",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: Nary's language until you write; then it mirrors yours"
+  ],
+  [
+   "nary.owner.consult_quotations",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: consult you on a quotation request before drafting it"
+  ],
+  [
+   "nary.owner.consult_proposals",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: walk you through a drafted proposal (scope, assumptions, cost, price)"
+  ],
+  [
+   "nary.owner.topics_in_context",
+   "10",
+   "integer",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: how many open topics Nary keeps in mind when you reply"
+  ],
+  [
+   "nary.email.intake_enabled",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Email: Nary reads new mail to the CRM inbox that isn't from an open lead or deal (triage, lead, reply)"
+  ],
+  [
+   "nary.email.skip_rules",
+   "{\"list_headers\": [\"List-Unsubscribe\", \"List-Id\", \"List-Post\"], \"precedence\": [\"bulk\", \"list\", \"junk\"], \"auto_submitted\": true, \"sender_prefixes\": [\"noreply\", \"no-reply\", \"no_reply\", \"donotreply\", \"do-not-reply\", \"mailer-daemon\", \"postmaster\", \"bounce\", \"bounces\", \"newsletter\", \"news\", \"marketing\", \"notification\", \"notifications\", \"alerts\", \"info-noreply\"], \"sender_domains\": []}",
+   "json",
+   "nary",
+   false,
+   "Email: mail Nary skips before any AI call (list headers, Precedence, Auto-Submitted, sender names and domains)"
+  ],
+  [
+   "nary.email.signature_fields",
+   "{\"name\": \"Nary\", \"title\": \"Sales Assistant\", \"position\": \"Sales Assistant\", \"department\": \"Sales\", \"email\": \"\", \"mobile\": \"\", \"phone\": \"\", \"city\": \"\"}",
+   "json",
+   "nary",
+   false,
+   "Email: Nary's values for the company email signature template (name, title, email, mobile…)"
+  ],
+  [
+   "crm.funnel.lead_priorities",
+   "[{\"key\": \"low\", \"label\": \"Low\"}, {\"key\": \"medium\", \"label\": \"Medium\"}, {\"key\": \"high\", \"label\": \"High\"}, {\"key\": \"urgent\", \"label\": \"Urgent\"}]",
+   "json",
+   "crm",
+   false,
+   "Funnel: lead priorities (JSON list of {key, label})"
+  ],
+  [
+   "crm.activity_types",
+   "[{\"key\": \"call\", \"label\": \"Call\"}, {\"key\": \"email\", \"label\": \"Email\"}, {\"key\": \"whatsapp\", \"label\": \"WhatsApp\"}, {\"key\": \"meeting\", \"label\": \"Meeting\"}, {\"key\": \"task\", \"label\": \"Task\"}, {\"key\": \"note\", \"label\": \"Note\"}, {\"key\": \"demo\", \"label\": \"Demo\"}]",
+   "json",
+   "crm",
+   false,
+   "CRM: activity types (JSON list of {key, label})"
+  ],
+  [
+   "nary.staff_chat.max_lines",
+   "8",
+   "integer",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: most lines in one message; more topics wait for your answer"
+  ],
+  [
+   "nary.owner.one_at_a_time",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: raise one topic at a time; the next comes after you answer (urgent ones still go at once)"
+  ],
+  [
+   "nary.briefs.items_per_section",
+   "3",
+   "integer",
+   "nary",
+   false,
+   "Briefs: items shown per section; reply \"more\" for the rest"
+  ],
+  [
+   "ai.assistant.catalog_digest_max_items",
+   "300",
+   "integer",
+   "ai",
+   false,
+   "AI chat: most products listed in its catalog overview (above this, families only)"
+  ],
+  [
+   "ai.erp_guide.enabled",
+   "true",
+   "boolean",
+   "ai",
+   false,
+   "AI chat: keep the ERP guide (how the ERP works, built from the code) in AI Knowledge"
+  ],
+  [
+   "nary.skills.max_in_prompt",
+   "30",
+   "integer",
+   "nary",
+   false,
+   "Nary skills: most approved skills listed in the chat's prompt (the rest are found with use_skill)"
+  ],
+  [
+   "nary.skills.tool_ideas_project",
+   "",
+   "string",
+   "nary",
+   false,
+   "Nary skills: the R&D project (name) where Nary files ideas for tools it lacks"
+  ],
+  [
+   "nary.style.refresh_days",
+   "30",
+   "integer",
+   "nary",
+   false,
+   "Nary style guide: re-learn your WhatsApp and email style every N days (proposed for your approval)"
+  ],
+  [
+   "mcp.oauth.access_minutes",
+   "60",
+   "integer",
+   "ai",
+   false,
+   "MCP access: minutes an agent's login token lasts (it renews itself)"
+  ],
+  [
+   "mcp.oauth.refresh_days",
+   "30",
+   "integer",
+   "ai",
+   false,
+   "MCP access: days an agent stays logged in without being used"
+  ],
+  [
+   "mcp.oauth.code_minutes",
+   "10",
+   "integer",
+   "ai",
+   false,
+   "MCP access: minutes a login code is valid during sign-in"
+  ],
+  [
+   "mcp.pat.default_days",
+   "90",
+   "integer",
+   "ai",
+   false,
+   "MCP access: default lifetime of a personal token (days)"
+  ],
+  [
+   "mcp.pat.max_days_power",
+   "90",
+   "integer",
+   "ai",
+   false,
+   "MCP access: longest life of a token that can act (days)"
+  ],
+  [
+   "mcp.owner.confirm_minutes",
+   "10",
+   "integer",
+   "ai",
+   false,
+   "MCP full power: minutes a confirm code stays valid (the Owner's yes to a message, meeting or invoice)"
+  ],
+  [
+   "mcp.apply.require_totp",
+   "true",
+   "boolean",
+   "ai",
+   false,
+   "MCP full power: nary_apply asks for the code from the authenticator app (customer messages, invoices, meetings, money, deletes and merges)"
+  ],
+  [
+   "nary.staff_chat.wait_seconds",
+   "120",
+   "integer",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: a message waits up to this many seconds for Nary's answer to the one before it"
+  ],
+  [
+   "nary.staff_chat.late_reply_hours",
+   "24",
+   "integer",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: a message the live feed missed is still answered (marked late) within this many hours"
+  ],
+  [
+   "nary.wa.gapcheck_grace_seconds",
+   "120",
+   "integer",
+   "nary",
+   false,
+   "WhatsApp: the missed-message check leaves messages younger than this to the live feed"
+  ],
+  [
+   "nary.owner.quiet_minutes",
+   "3",
+   "integer",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: a new topic waits until you have been quiet this many minutes (urgent ones don't)"
+  ],
+  [
+   "nary.owner.alert_stale_hours",
+   "6",
+   "integer",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: an alert still waiting to be sent after this many hours is dropped as old news"
+  ],
+  [
+   "nary.owner.confirm_twice_actions",
+   "[\"quotation.create_draft\", \"quotation.send\", \"discount.apply\", \"payment.record\", \"proforma.raise\", \"contract.create_draft\", \"proposal.send\", \"rates.propose_update\", \"catalog.change\", \"catalog.product_file\"]",
+   "json",
+   "nary",
+   false,
+   "Nary and you on WhatsApp: decisions that touch money, confirmed a second time on their final version"
+  ],
+  [
+   "crm.followup.digest_max_items",
+   "10",
+   "string",
+   "crm",
+   false,
+   "Follow-ups that fall due together arrive as one WhatsApp listing this many"
+  ],
+  [
+   "sales.quotation.expire_grace_days",
+   "0",
+   "integer",
+   "sales",
+   false,
+   "Days after its validity ends before a sent quotation is marked expired (0 = the day after)"
+  ],
+  [
+   "sales.quotation.expired_nudge_days",
+   "14",
+   "integer",
+   "sales",
+   false,
+   "Re-quote reminder only for quotations whose validity ended within this many days (older ones expire quietly)"
+  ],
+  [
+   "nary.reply_alerts.enabled",
+   "true",
+   "boolean",
+   "nary",
+   false,
+   "Reply alerts: tell the Owner when a customer answers one of our messages"
+  ],
+  [
+   "nary.reply_alerts.mode",
+   "action_needed",
+   "string",
+   "nary",
+   false,
+   "Reply alerts: action_needed (only replies that need something from us; the rest go in the brief) or every_reply"
+  ],
+  [
+   "nary.staff_chat.card_window_minutes",
+   "60",
+   "integer",
+   "nary",
+   false,
+   "Nary chat on WhatsApp: minutes a card list stays answerable by number after Nary wrote something else"
+  ],
+  [
+   "crm.enrich.on_create",
+   "true",
+   "string",
+   "crm",
+   false,
+   "Research a new company as soon as it is created"
+  ],
+  [
+   "crm.enrich.fields",
+   "website,industry,country,city,employee_count,annual_revenue,description",
+   "string",
+   "crm",
+   false,
+   "Fields enrichment may fill (empty ones only)"
+  ],
+  [
+   "crm.enrich.min_confidence",
+   "70",
+   "string",
+   "crm",
+   false,
+   "Confidence a value needs to be written (0-100)"
+  ],
+  [
+   "crm.enrich.refresh_days",
+   "30",
+   "string",
+   "crm",
+   false,
+   "Re-research a company after (days)"
+  ],
+  [
+   "crm.enrich.daily_limit",
+   "50",
+   "string",
+   "crm",
+   false,
+   "Most companies refreshed in one day"
+  ],
+  [
+   "partner.training.max_attempts",
+   "5",
+   "integer",
+   "partner",
+   false,
+   "Partner training: quiz submissions allowed per module"
+  ],
+  [
+   "public.forms.requests_per_minute",
+   "10",
+   "integer",
+   "system",
+   false,
+   "Public forms: submissions per minute from one address (support tickets, portal sign-ups, call waiting room)"
+  ],
+  [
+   "calls.guest_wait.max_waiting",
+   "50",
+   "integer",
+   "calls",
+   false,
+   "Video calls: most guests waiting to be admitted to one room"
+  ],
+  [
+   "calls.max_participants",
+   "10",
+   "integer",
+   "calls",
+   false,
+   "Video calls: most people in one call"
+  ],
+  [
+   "calls.stun_urls",
+   "[]",
+   "json",
+   "calls",
+   false,
+   "Video calls: extra STUN servers (JSON list of stun: URLs); empty uses only this installation's own TURN/STUN"
+  ],
+  [
+   "vendor.portal.max_upload_mb",
+   "10",
+   "integer",
+   "vendor",
+   false,
+   "Vendor portal: largest document a vendor may upload (MB)"
+  ]
+ ],
+ "rate_source": "",
+ "rates": [],
+ "approval_policies": [
+  {
+   "policy": {
+    "entity_type": "quotation",
+    "name": "Quotation approval",
+    "sop_reference": null,
+    "description": "Catalog items at list price with no discount are approved automatically; the Owner approves every other quotation.",
+    "preconditions": [
+     {
+      "rule": "missing_discount_type",
+      "message": "Every discounted line must state its discount type (volume, bundle, loyalty, multi-year SaaS or Owner exception)."
+     }
+    ],
+    "signature_flow": "none",
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": true,
+    "requires_login": false,
+    "token_ttl_days": 365,
+    "sla_hours": 24,
+    "whatsapp_escalate_above_base": 200000000
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 24,
+     "condition": {
+      "rule": "not_catalog_list_price"
+     }
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "sales_document",
+    "name": "Solution Proposal approval",
+    "sop_reference": null,
+    "description": "The Owner approves every Solution Proposal; any edit after approval needs approval again. The approval is the signature stamp, and the QR on every page proves it.",
+    "signature_flow": "none",
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": true,
+    "requires_login": false,
+    "token_ttl_days": 365,
+    "sla_hours": 24,
+    "whatsapp_escalate_above_base": 0
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 24
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "invoice",
+    "name": "Invoice approval",
+    "sop_reference": null,
+    "description": "The Owner approves every invoice (and every credit note) before it is sent.",
+    "signature_flow": "none",
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": true,
+    "requires_login": false,
+    "token_ttl_days": 365,
+    "sla_hours": 24,
+    "whatsapp_escalate_above_base": 150000000
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 24
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "sales_contract",
+    "name": "Contract approval",
+    "sop_reference": null,
+    "description": "The Owner reviews every contract before it goes to the customer's authorized signatory.",
+    "signature_flow": "counterparty",
+    "signer_role": "owner",
+    "sign_deadline_days": 5,
+    "max_extension_days": 10,
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": true,
+    "requires_login": false,
+    "token_ttl_days": 1095,
+    "sla_hours": 48
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner review",
+     "approver_mode": "owner",
+     "sla_hours": 48
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "purchase_order",
+    "name": "Purchase order approval",
+    "sop_reference": null,
+    "description": "Manufacturing Lead approves up to 5M (base currency); the Owner above that. 10M+ needs two vendor quotes.",
+    "preconditions": [
+     {
+      "rule": "missing_vendor_quotes",
+      "value": {
+       "min_amount_base": 10000000,
+       "min_quotes": 2
+      },
+      "message": "Purchases of 10,000,000 (base currency) or more need at least 2 vendor quotes (an RFQ with two responses, or two quote files attached)."
+     }
+    ],
+    "signature_flow": "none",
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": true,
+    "requires_login": false,
+    "token_ttl_days": 365,
+    "sla_hours": 72,
+    "whatsapp_escalate_above_base": 5000000
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Manufacturing Lead approval",
+     "approver_mode": "role",
+     "role_slug": "team_lead",
+     "department": "Manufacturing",
+     "sla_hours": 24,
+     "condition": {
+      "not": {
+       "rule": "amount_gt_base",
+       "value": 5000000
+      }
+     }
+    },
+    {
+     "sequence": 2,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 72,
+     "condition": {
+      "rule": "amount_gt_base",
+      "value": 5000000
+     }
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "bom",
+    "name": "Bill of materials approval",
+    "sop_reference": null,
+    "description": "The Manufacturing Lead approves a bill of materials; the Owner too when one unit costs more than 25M (base currency). Production uses only an approved BOM.",
+    "sla_hours": 72
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Manufacturing Lead approval",
+     "approver_mode": "role",
+     "role_slug": "team_lead",
+     "department": "Manufacturing",
+     "sla_hours": 48
+    },
+    {
+     "sequence": 2,
+     "name": "Owner approval (high unit cost)",
+     "approver_mode": "owner",
+     "sla_hours": 72,
+     "condition": {
+      "rule": "amount_gt_base",
+      "value": 25000000
+     }
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "contractor_request",
+    "name": "Contractor request approval",
+    "sop_reference": null,
+    "description": "The Owner authorizes every external contractor engagement before any commitment.",
+    "sla_hours": 120
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 120
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "work_order",
+    "name": "Work order issuance",
+    "sop_reference": null,
+    "description": "A work order must link an Owner-approved contractor request; value above the approved estimate needs the Owner.",
+    "preconditions": [
+     {
+      "rule": "missing_approved_contractor_request",
+      "message": "A work order must link an Owner-approved contractor request."
+     }
+    ],
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": true,
+    "requires_login": false,
+    "token_ttl_days": 365,
+    "sla_hours": 24
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval (above approved estimate)",
+     "approver_mode": "owner",
+     "sla_hours": 24,
+     "condition": {
+      "rule": "above_cr_estimate"
+     }
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "vendor_invoice",
+    "name": "Vendor / contractor invoice approval",
+    "sop_reference": null,
+    "description": "< 5M Finance Admin; 5–25M Finance Admin + PM/Dept Head; 25–75M Owner; > 75M Owner with WO/PO evidence.",
+    "preconditions": [
+     {
+      "rule": "missing_closed_wo_po",
+      "message": "Finance processes no invoice without a closed, approved work order or purchase order."
+     }
+    ],
+    "sla_hours": 72,
+    "whatsapp_escalate_above_base": 25000000
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Finance Admin review",
+     "approver_mode": "role",
+     "role_slug": "finance_admin",
+     "allow_self_approval": true,
+     "sla_hours": 48,
+     "condition": {
+      "not": {
+       "rule": "amount_gt_base",
+       "value": 25000000
+      }
+     }
+    },
+    {
+     "sequence": 2,
+     "name": "PM / Dept Head confirmation",
+     "approver_mode": "snapshot_user",
+     "snapshot_user_key": "responsible_user_id",
+     "sla_hours": 48,
+     "condition": {
+      "all": [
+       {
+        "rule": "amount_gte_base",
+        "value": 5000000
+       },
+       {
+        "not": {
+         "rule": "amount_gt_base",
+         "value": 25000000
+        }
+       }
+      ]
+     }
+    },
+    {
+     "sequence": 3,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 72,
+     "condition": {
+      "rule": "amount_gt_base",
+      "value": 25000000
+     }
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "expense",
+    "name": "Expense claim approval",
+    "sop_reference": null,
+    "description": "Line manager, then Finance Admin; the Owner too above 2M per claim or 1.5M per item (base currency).",
+    "preconditions": [
+     {
+      "rule": "flag_missing_above_base",
+      "value": {
+       "amount_base": 500000,
+       "flag": "pre_approved"
+      },
+      "message": "Expenses above 500,000 (base currency) need manager pre-approval before they are incurred; confirm pre-approval when submitting."
+     }
+    ],
+    "sla_hours": 72
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Line manager approval",
+     "approver_mode": "manager",
+     "sla_hours": 72
+    },
+    {
+     "sequence": 2,
+     "name": "Finance Admin review",
+     "approver_mode": "role",
+     "role_slug": "finance_admin",
+     "sla_hours": 48
+    },
+    {
+     "sequence": 3,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 48,
+     "condition": {
+      "any": [
+       {
+        "rule": "amount_gt_base",
+        "value": 2000000
+       },
+       {
+        "rule": "single_line_gt_base",
+        "value": 1500000
+       },
+       {
+        "rule": "fx_rate_missing"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "marketing_content",
+    "name": "External content approval",
+    "sop_reference": null,
+    "description": "Technical content gets an R&D Lead review and customer references a PM review before the Owner approves.",
+    "sla_hours": 48
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "R&D Lead technical review",
+     "approver_mode": "role",
+     "role_slug": "team_lead",
+     "department": "R&D",
+     "sla_hours": 48,
+     "condition": {
+      "rule": "content_type_in",
+      "value": [
+       "blog",
+       "case_study",
+       "whitepaper",
+       "datasheet"
+      ]
+     }
+    },
+    {
+     "sequence": 2,
+     "name": "PM review of customer references",
+     "approver_mode": "role",
+     "role_slug": "project_manager",
+     "sla_hours": 48,
+     "condition": {
+      "rule": "flag_set",
+      "value": "customer_reference"
+     }
+    },
+    {
+     "sequence": 3,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 24
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "hiring_request",
+    "name": "Headcount approval",
+    "sop_reference": null,
+    "description": "The Owner approves every headcount request.",
+    "sla_hours": 72
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 72
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "offer_letter",
+    "name": "Offer letter approval",
+    "sop_reference": null,
+    "description": "The Owner decides the offer; HR issues it; the candidate accepts within 5 business days.",
+    "signature_flow": "counterparty",
+    "signer_role": "owner",
+    "sign_deadline_days": 5,
+    "max_extension_days": 0,
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": false,
+    "requires_login": true,
+    "token_ttl_days": 180,
+    "sla_hours": 24
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 24
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "sop_article",
+    "name": "SOP publication approval",
+    "sop_reference": "Knowledge base",
+    "description": "The Owner approves an SOP before it is published. Author/Owner signing stays in the KB flow.",
+    "qr_enabled": true,
+    "view_scope": "metadata_document",
+    "allow_download": false,
+    "requires_login": false,
+    "token_ttl_days": 730,
+    "sla_hours": 72
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 72
+    }
+   ]
+  },
+  {
+   "policy": {
+    "entity_type": "payroll_run",
+    "name": "Payroll run approval",
+    "sop_reference": "HR payroll",
+    "description": "The Owner approves each monthly payroll run before it is paid.",
+    "sla_hours": 48
+   },
+   "steps": [
+    {
+     "sequence": 1,
+     "name": "Owner approval",
+     "approver_mode": "owner",
+     "sla_hours": 48
+    }
+   ]
+  }
+ ],
+ "discount_allowances": [],
+ "column_defaults": {
+  "permissions": {
+   "is_system_permission": false
+  },
+  "roles": {
+   "is_system_role": false
+  },
+  "users": {
+   "email_signature_enabled": true,
+   "is_active": true,
+   "is_superadmin": false,
+   "is_system_admin": false,
+   "portal_type": "internal",
+   "must_change_password": false
+  },
+  "employees": {
+   "status": "active",
+   "salary_currency": "USD",
+   "id_type": "national_id",
+   "is_deleted": false
+  },
+  "tax_configs": {
+   "currency_symbol": "$",
+   "currency_format": "{symbol}{amount}",
+   "decimal_separator": ".",
+   "thousands_separator": ",",
+   "fiscal_year_start_month": 1,
+   "date_format": "DD-MM-YYYY",
+   "is_active": false
+  },
+  "tax_rules": {
+   "is_percentage": true,
+   "is_compound": false,
+   "is_withholding": false,
+   "applies_to_sales": true,
+   "applies_to_purchases": false,
+   "applies_to_services": true,
+   "applies_to_products": true,
+   "applies_to_imports": false,
+   "applies_to_vendor_invoices": false,
+   "show_on_quotation": false,
+   "show_on_invoice": true,
+   "show_on_vendor_invoice": false,
+   "registration_number_required": false,
+   "display_order": 0,
+   "is_active": true
+  },
+  "document_sequences": {
+   "suffix_separator": "-",
+   "current_sequence": 0,
+   "sequence_padding": 5
+  },
+  "nary_rate_card": {
+   "status": "active",
+   "proposed_by_nary": false
+  },
+  "system_settings": {
+   "value_type": "string",
+   "is_public": false,
+   "is_encrypted": false
+  },
+  "approval_policies": {
+   "is_active": true,
+   "version": 1,
+   "preconditions": [],
+   "signature_flow": "none",
+   "qr_enabled": false,
+   "view_scope": "metadata_document",
+   "allow_download": false,
+   "requires_login": false,
+   "token_ttl_days": 365
+  },
+  "approval_policy_steps": {
+   "is_notify_only": false,
+   "allow_self_approval": false
+  },
+  "discount_allowances": {
+   "notify_owner": false,
+   "is_active": true
+  },
+  "accounts": {
+   "is_active": true,
+   "normal_balance": "debit",
+   "currency": "USD",
+   "allow_direct_posting": true,
+   "is_deleted": false
+  },
+  "gl_account_roles": {},
+  "taxes": {
+   "rate_base": "subtotal",
+   "is_active": true,
+   "applies_to_sales": true,
+   "applies_to_purchases": false,
+   "is_deleted": false
+  },
+  "fiscal_periods": {
+   "is_locked": false,
+   "is_deleted": false
+  }
+ }
+}

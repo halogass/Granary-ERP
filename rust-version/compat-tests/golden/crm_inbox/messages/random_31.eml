@@ -1,0 +1,14 @@
+Reply-To: >\> x
+Content-ID: 13 Oct 2026 10.20.30 +0590Sun, 1 Jan 2006 1:2:3 -0000
+Content-Type: multipart/mixed; boundary=Q
+
+--Q
+Content-Type: text/plain; charset=utf-8
+
+café
+--Q
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<i>x=3Dy</i>
+--Q--

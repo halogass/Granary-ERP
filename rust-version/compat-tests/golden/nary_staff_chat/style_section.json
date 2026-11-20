@@ -1,0 +1,122 @@
+[
+ {
+  "text": "What changed: x\n## On WhatsApp\nShort lines.\n## By email\nFormal.\n",
+  "channel": null,
+  "out": "## On WhatsApp\nShort lines.\n## By email\nFormal."
+ },
+ {
+  "text": "What changed: x\n## On WhatsApp\nShort lines.\n## By email\nFormal.\n",
+  "channel": "whatsapp",
+  "out": "## On WhatsApp\nShort lines."
+ },
+ {
+  "text": "What changed: x\n## On WhatsApp\nShort lines.\n## By email\nFormal.\n",
+  "channel": "email",
+  "out": "## By email\nFormal."
+ },
+ {
+  "text": "What changed: x\n## On WhatsApp\nShort lines.\n## By email\nFormal.\n",
+  "channel": "sms",
+  "out": "## On WhatsApp\nShort lines.\n## By email\nFormal."
+ },
+ {
+  "text": "No sections",
+  "channel": null,
+  "out": "No sections"
+ },
+ {
+  "text": "No sections",
+  "channel": "whatsapp",
+  "out": "No sections"
+ },
+ {
+  "text": "No sections",
+  "channel": "email",
+  "out": "No sections"
+ },
+ {
+  "text": "No sections",
+  "channel": "sms",
+  "out": "No sections"
+ },
+ {
+  "text": "",
+  "channel": null,
+  "out": ""
+ },
+ {
+  "text": "",
+  "channel": "whatsapp",
+  "out": ""
+ },
+ {
+  "text": "",
+  "channel": "email",
+  "out": ""
+ },
+ {
+  "text": "",
+  "channel": "sms",
+  "out": ""
+ },
+ {
+  "text": null,
+  "channel": null,
+  "out": ""
+ },
+ {
+  "text": null,
+  "channel": "whatsapp",
+  "out": ""
+ },
+ {
+  "text": null,
+  "channel": "email",
+  "out": ""
+ },
+ {
+  "text": null,
+  "channel": "sms",
+  "out": ""
+ },
+ {
+  "text": "## by EMAIL\nonly email",
+  "channel": null,
+  "out": "## by EMAIL\nonly email"
+ },
+ {
+  "text": "## by EMAIL\nonly email",
+  "channel": "whatsapp",
+  "out": "## by EMAIL\nonly email"
+ },
+ {
+  "text": "## by EMAIL\nonly email",
+  "channel": "email",
+  "out": "## by EMAIL\nonly email"
+ },
+ {
+  "text": "## by EMAIL\nonly email",
+  "channel": "sms",
+  "out": "## by EMAIL\nonly email"
+ },
+ {
+  "text": "what CHANGED\n## On WhatsApp\n",
+  "channel": null,
+  "out": "## On WhatsApp"
+ },
+ {
+  "text": "what CHANGED\n## On WhatsApp\n",
+  "channel": "whatsapp",
+  "out": "## On WhatsApp"
+ },
+ {
+  "text": "what CHANGED\n## On WhatsApp\n",
+  "channel": "email",
+  "out": "## On WhatsApp"
+ },
+ {
+  "text": "what CHANGED\n## On WhatsApp\n",
+  "channel": "sms",
+  "out": "## On WhatsApp"
+ }
+]

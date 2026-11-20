@@ -1,0 +1,551 @@
+{
+ "settings_bundle": {
+  "thresholds": {
+   "certain": 90,
+   "likely": 70,
+   "weak": 45
+  },
+  "scores": {
+   "phone": 100,
+   "text_email": 95,
+   "text_phone": 95,
+   "form_text": 85,
+   "name_company": 75,
+   "email_domain": 50
+  },
+  "labels": {
+   "name": [
+    "name"
+   ],
+   "company": [
+    "company"
+   ],
+   "email": [
+    "email",
+    "e-mail"
+   ],
+   "phone": [
+    "phone",
+    "whatsapp"
+   ],
+   "product": [
+    "product",
+    "interested in"
+   ],
+   "message": [
+    "message"
+   ]
+  },
+  "honorifics": [
+   "mr",
+   "mrs",
+   "ms",
+   "miss",
+   "dr",
+   "prof"
+  ],
+  "recent_days": 14,
+  "country": "US"
+ },
+ "cases": [
+  {
+   "chat": {
+    "phone": "+966501234567",
+    "display_name": "Dave",
+    "contact": null
+   },
+   "text": "Hello, I filled your form about laptop order",
+   "extra": null,
+   "out": [
+    {
+     "kind": "arrival",
+     "target": "arrival Dave",
+     "label": "Dave Stark (STARKSAFE)",
+     "score": 100,
+     "signals": [
+      {
+       "signal": "phone",
+       "score": 100,
+       "detail": "+966501234567"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181111111111",
+    "display_name": null,
+    "contact": null
+   },
+   "text": "Name: Dave Stark\nEmail: dave@starktrading-example.com\nMessage: laptop order",
+   "extra": null,
+   "out": [
+    {
+     "kind": "arrival",
+     "target": "arrival Dave",
+     "label": "Dave Stark (STARKSAFE)",
+     "score": 95,
+     "signals": [
+      {
+       "signal": "text_email",
+       "score": 95,
+       "detail": "dave@starktrading-example.com"
+      },
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%"
+      }
+     ]
+    },
+    {
+     "kind": "contact",
+     "target": "Dave",
+     "label": "Dave Stark <dave@starktrading-example.com>",
+     "score": 95,
+     "signals": [
+      {
+       "signal": "text_email",
+       "score": 95,
+       "detail": "dave@starktrading-example.com"
+      },
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%, no company given"
+      },
+      {
+       "signal": "email_domain",
+       "score": 50,
+       "detail": "starktrading-example.com"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181222222222",
+    "display_name": "Harper",
+    "contact": null
+   },
+   "text": "Name: Mr Harper Wilson\nCompany: Northwind Traders\nCan we continue the Laptop discussion",
+   "extra": null,
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Harper",
+     "label": "Harper Wilson <harper@northwind.example>",
+     "score": 75,
+     "signals": [
+      {
+       "signal": "name_company",
+       "score": 75,
+       "detail": "name 100%, company 100%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181333333333",
+    "display_name": "Rachel Greenwood",
+    "contact": null
+   },
+   "text": "Hello, another question about the monitors",
+   "extra": null,
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Rachel",
+     "label": "Rachel Greenwood",
+     "score": 45,
+     "signals": [
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%, no company given"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": null,
+    "display_name": "+60 11-6120 3686",
+    "contact": null
+   },
+   "text": "Hi, I sent the form on your website",
+   "extra": null,
+   "out": []
+  },
+  {
+   "chat": {
+    "phone": "+601161203686",
+    "display_name": null,
+    "contact": null
+   },
+   "text": "We need Laptop for 3 warehouses",
+   "extra": null,
+   "out": [
+    {
+     "kind": "arrival",
+     "target": "arrival Andy",
+     "label": "Andy Reed (web form)",
+     "score": 100,
+     "signals": [
+      {
+       "signal": "phone",
+       "score": 100,
+       "detail": "+601161203686"
+      },
+      {
+       "signal": "form_text",
+       "score": 72,
+       "detail": "85% like the form's message"
+      }
+     ]
+    },
+    {
+     "kind": "arrival",
+     "target": "arrival Dave",
+     "label": "Dave Stark (STARKSAFE)",
+     "score": 65,
+     "signals": [
+      {
+       "signal": "form_text",
+       "score": 65,
+       "detail": "76% like the form's message"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181234567890",
+    "display_name": "Bob",
+    "contact": "88000000-0000-0000-0000-00000000000d"
+   },
+   "text": "hello",
+   "extra": null,
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Bob S",
+     "label": "Bob Sanders <Bob@Globex.example>",
+     "score": 100,
+     "signals": [
+      {
+       "signal": "phone",
+       "score": 100,
+       "detail": "+8181234567890"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181444444444",
+    "display_name": "Bob Sanders",
+    "contact": null
+   },
+   "text": "My office number is 090 1111 2222",
+   "extra": null,
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Bob S",
+     "label": "Bob Sanders <Bob@Globex.example>",
+     "score": 45,
+     "signals": [
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%, no company given"
+      }
+     ]
+    },
+    {
+     "kind": "contact",
+     "target": "Sanders B",
+     "label": "Sanders Bob",
+     "score": 45,
+     "signals": [
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%, no company given"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181555555555",
+    "display_name": "Ms Susan",
+    "business_profile": {
+     "email": "Susan@Northwind.example"
+    },
+    "contact": null
+   },
+   "text": "Good afternoon",
+   "extra": null,
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Susan",
+     "label": "Susan <susan@northwind.example>",
+     "score": 95,
+     "signals": [
+      {
+       "signal": "text_email",
+       "score": 95,
+       "detail": "susan@northwind.example"
+      },
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%, no company given"
+      },
+      {
+       "signal": "email_domain",
+       "score": 50,
+       "detail": "northwind.example"
+      }
+     ]
+    },
+    {
+     "kind": "contact",
+     "target": "Harper",
+     "label": "Harper Wilson <harper@northwind.example>",
+     "score": 50,
+     "signals": [
+      {
+       "signal": "email_domain",
+       "score": 50,
+       "detail": "northwind.example"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181666666666",
+    "display_name": "Shop",
+    "business_profile": {
+     "website": [
+      "https://www.northwind.example/about"
+     ]
+    },
+    "contact": null
+   },
+   "text": "Hello",
+   "extra": null,
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Harper",
+     "label": "Harper Wilson <harper@northwind.example>",
+     "score": 50,
+     "signals": [
+      {
+       "signal": "email_domain",
+       "score": 50,
+       "detail": "northwind.example"
+      }
+     ]
+    },
+    {
+     "kind": "contact",
+     "target": "Susan",
+     "label": "Susan <susan@northwind.example>",
+     "score": 50,
+     "signals": [
+      {
+       "signal": "email_domain",
+       "score": 50,
+       "detail": "northwind.example"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181777777777",
+    "display_name": "Sanders Bob",
+    "contact": null
+   },
+   "text": "Company: Globex",
+   "extra": null,
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Bob S",
+     "label": "Bob Sanders <Bob@Globex.example>",
+     "score": 75,
+     "signals": [
+      {
+       "signal": "name_company",
+       "score": 75,
+       "detail": "name 100%, company 100%"
+      }
+     ]
+    },
+    {
+     "kind": "contact",
+     "target": "Sanders B",
+     "label": "Sanders Bob",
+     "score": 45,
+     "signals": [
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%, company 0%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181888888888",
+    "display_name": "x",
+    "contact": null
+   },
+   "text": "Hello, I have a question",
+   "extra": {
+    "name": "Bob Sanders",
+    "company": "Globex Corp",
+    "emails": [
+     "bob@globex.example"
+    ],
+    "phones": []
+   },
+   "out": [
+    {
+     "kind": "contact",
+     "target": "Bob S",
+     "label": "Bob Sanders <Bob@Globex.example>",
+     "score": 95,
+     "signals": [
+      {
+       "signal": "text_email",
+       "score": 95,
+       "detail": "bob@globex.example"
+      },
+      {
+       "signal": "name_company",
+       "score": 75,
+       "detail": "name 100%, company 100%"
+      },
+      {
+       "signal": "email_domain",
+       "score": 50,
+       "detail": "globex.example"
+      }
+     ]
+    },
+    {
+     "kind": "contact",
+     "target": "Sanders B",
+     "label": "Sanders Bob",
+     "score": 45,
+     "signals": [
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%, company 0%"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "chat": {
+    "phone": "+8181999999999",
+    "display_name": null,
+    "contact": null
+   },
+   "text": "",
+   "extra": null,
+   "out": []
+  },
+  {
+   "chat": {
+    "phone": "+8181299990000",
+    "display_name": "Harper",
+    "contact": null
+   },
+   "text": "Can we discuss the Laptop",
+   "extra": null,
+   "out": [
+    {
+     "kind": "arrival",
+     "target": "arrival Harper",
+     "label": "Mr Harper (Northwind Traders)",
+     "score": 100,
+     "signals": [
+      {
+       "signal": "phone",
+       "score": 100,
+       "detail": "+8181299990000"
+      },
+      {
+       "signal": "form_text",
+       "score": 85,
+       "detail": "100% like the form's message"
+      },
+      {
+       "signal": "name_company",
+       "score": 45,
+       "detail": "name 100%"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "scenario": [
+  "INSERT INTO organizations (is_deleted, id, name, custom) VALUES (false, '88000000-0000-0000-0000-000000000001', 'Northwind Traders plc', '{}')",
+  "INSERT INTO organizations (is_deleted, id, name, custom) VALUES (false, '88000000-0000-0000-0000-000000000002', 'Globex LLC', '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, last_name, organization_id, email, custom) VALUES (false, '88000000-0000-0000-0000-00000000000b', 'Harper', 'Wilson', '88000000-0000-0000-0000-000000000001', 'harper@northwind.example', '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, last_name, custom) VALUES (false, '88000000-0000-0000-0000-00000000000c', 'Rachel', 'Greenwood', '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, last_name, organization_id, email, whatsapp, custom) VALUES (false, '88000000-0000-0000-0000-00000000000d', 'Bob', 'Sanders', '88000000-0000-0000-0000-000000000002', 'Bob@Globex.example', '+8181234567890', '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, last_name, email, custom) VALUES (false, '88000000-0000-0000-0000-00000000000e', 'Bob', 'Harper', 'bob.h@gmail.com', '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, organization_id, email, custom) VALUES (false, '88000000-0000-0000-0000-00000000000f', 'Susan', '88000000-0000-0000-0000-000000000001', 'susan@northwind.example', '{}')",
+  "INSERT INTO contacts (id, first_name, last_name, is_deleted, custom) VALUES ('88000000-0000-0000-0000-000000000010', 'Harper', 'Wilson', true, '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, last_name, email, custom) VALUES (false, '88000000-0000-0000-0000-000000000011', 'Dave', 'Stark', 'dave@starktrading-example.com', '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, last_name, phone, custom) VALUES (false, '88000000-0000-0000-0000-000000000012', 'Sarah', NULL, '090 1111 2222', '{}')",
+  "INSERT INTO contacts (is_deleted, id, first_name, last_name, custom) VALUES (false, '88000000-0000-0000-0000-000000000013', 'Sanders', 'Bob', '{}')",
+  "INSERT INTO leads (is_deleted, id, title, source, status, custom) VALUES (false, '88000000-0000-0000-0000-00000000001f', 'Form lead', 'whatsapp', 'new', '{}')",
+  "INSERT INTO nary_expected_arrivals (id, lead_id, phone, email, name, company, message, due_at, status) VALUES ('88000000-0000-0000-0000-000000000015', '88000000-0000-0000-0000-00000000001f', '+966501234567', 'Dave@StarkTrading-Example.com', 'Dave Stark', 'STARKSAFE', 'We need laptop order for 3 sites', now() + interval '2 hours', 'pending')",
+  "INSERT INTO nary_expected_arrivals (id, phone, name, message, due_at, status) VALUES ('88000000-0000-0000-0000-000000000016', '+601161203686', 'Andy Reed', 'Laptop for 3 warehouses', now() - interval '1 hour', 'missed')",
+  "INSERT INTO nary_expected_arrivals (id, phone, name, company, message, due_at, status) VALUES ('88000000-0000-0000-0000-000000000017', '+8181299990000', 'Mr Harper', 'Northwind Traders', 'Can we discuss the Laptop', now(), 'pending')",
+  "INSERT INTO nary_expected_arrivals (id, phone, name, message, due_at, status) VALUES ('88000000-0000-0000-0000-000000000018', '+601161203686', 'Andy Reed', 'Laptop', now(), 'arrived')",
+  "INSERT INTO nary_expected_arrivals (id, phone, name, message, due_at, status, created_at) VALUES ('88000000-0000-0000-0000-000000000019', '+601161203686', 'Andy Reed', 'Laptop', now(), 'pending', now() - interval '30 days')"
+ ],
+ "labels": {
+  "88000000-0000-0000-0000-00000000000b": "Harper",
+  "88000000-0000-0000-0000-00000000000c": "Rachel",
+  "88000000-0000-0000-0000-00000000000d": "Bob S",
+  "88000000-0000-0000-0000-00000000000e": "Bob H",
+  "88000000-0000-0000-0000-00000000000f": "Susan",
+  "88000000-0000-0000-0000-000000000010": "Harper deleted",
+  "88000000-0000-0000-0000-000000000011": "Dave",
+  "88000000-0000-0000-0000-000000000012": "Sarah",
+  "88000000-0000-0000-0000-000000000013": "Sanders B",
+  "88000000-0000-0000-0000-000000000015": "arrival Dave",
+  "88000000-0000-0000-0000-000000000016": "arrival Andy",
+  "88000000-0000-0000-0000-000000000017": "arrival Harper",
+  "88000000-0000-0000-0000-000000000018": "arrival arrived",
+  "88000000-0000-0000-0000-000000000019": "arrival old"
+ }
+}

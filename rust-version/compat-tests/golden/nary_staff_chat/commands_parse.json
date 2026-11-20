@@ -1,0 +1,1511 @@
+[
+ {
+  "text": "Nary pause",
+  "prompt": null,
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary pause",
+  "prompt": {},
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary pause",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary pause",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary pause",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary pause",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary pause",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "pause   NARY",
+  "prompt": null,
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "pause   NARY",
+  "prompt": {},
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "pause   NARY",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "pause   NARY",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "pause   NARY",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "pause   NARY",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "pause   NARY",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "nary stop",
+  "prompt": null,
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "nary stop",
+  "prompt": {},
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "nary stop",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "nary stop",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "nary stop",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "nary stop",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "nary stop",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": {
+   "kind": "pause",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary Resume",
+  "prompt": null,
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary Resume",
+  "prompt": {},
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary Resume",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary Resume",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary Resume",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary Resume",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "Nary Resume",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "resume nary",
+  "prompt": null,
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "resume nary",
+  "prompt": {},
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "resume nary",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "resume nary",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "resume nary",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "resume nary",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "resume nary",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "NARY START",
+  "prompt": null,
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "NARY START",
+  "prompt": {},
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "NARY START",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "NARY START",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "NARY START",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "NARY START",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "NARY START",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": {
+   "kind": "resume",
+   "numbers": []
+  }
+ },
+ {
+  "text": "1",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    1
+   ]
+  }
+ },
+ {
+  "text": "1",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "business",
+   "numbers": []
+  }
+ },
+ {
+  "text": "1",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    1
+   ]
+  }
+ },
+ {
+  "text": "1",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "2",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "2",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "2",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "view",
+   "numbers": [
+    1
+   ]
+  }
+ },
+ {
+  "text": "2",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "personal",
+   "numbers": []
+  }
+ },
+ {
+  "text": "2",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "2",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    2
+   ]
+  }
+ },
+ {
+  "text": "2",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "3",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "3",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "3",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "skip",
+   "numbers": [
+    1
+   ]
+  }
+ },
+ {
+  "text": "3",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "3",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "3",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "mismatch",
+   "numbers": [
+    3
+   ]
+  }
+ },
+ {
+  "text": "3",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "4",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "4",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "4",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "4",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "4",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "4",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "mismatch",
+   "numbers": [
+    4
+   ]
+  }
+ },
+ {
+  "text": "4",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "1 2",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1 2",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1 2",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "1 2",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "1 2",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1 2",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "text": "1 2",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "1,2",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1,2",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1,2",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "1,2",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "1,2",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1,2",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "text": "1,2",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "10",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "10",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "10",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "10",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "10",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "10",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    10
+   ]
+  }
+ },
+ {
+  "text": "10",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "1 10",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1 10",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1 10",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "1 10",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "1 10",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1 10",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    1,
+    10
+   ]
+  }
+ },
+ {
+  "text": "1 10",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "1;2",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1;2",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1;2",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "1;2",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "1;2",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1;2",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "text": "1;2",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "1.2",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1.2",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1.2",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "1.2",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "1.2",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1.2",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "text": "1.2",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "1234",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1234",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1234",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "1234",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "1234",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1234",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": null
+ },
+ {
+  "text": "1234",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "0",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "0",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "0",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "0",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "0",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "0",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "mismatch",
+   "numbers": [
+    0
+   ]
+  }
+ },
+ {
+  "text": "0",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": " 2 ",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": " 2 ",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": " 2 ",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "view",
+   "numbers": [
+    1
+   ]
+  }
+ },
+ {
+  "text": " 2 ",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": {
+   "kind": "personal",
+   "numbers": []
+  }
+ },
+ {
+  "text": " 2 ",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": " 2 ",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "apply",
+   "numbers": [
+    2
+   ]
+  }
+ },
+ {
+  "text": " 2 ",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "hi",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "hi",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "hi",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "hi",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "hi",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "hi",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": null
+ },
+ {
+  "text": "hi",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": null
+ },
+ {
+  "text": "",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": null,
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": null,
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": null,
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": null,
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": null,
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": null,
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": null
+ },
+ {
+  "text": null,
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "1 2 3",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "1 2 3",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "1 2 3",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": null
+ },
+ {
+  "text": "1 2 3",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "1 2 3",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "1 2 3",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "mismatch",
+   "numbers": [
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "text": "1 2 3",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ },
+ {
+  "text": "٣",
+  "prompt": null,
+  "out": null
+ },
+ {
+  "text": "٣",
+  "prompt": {},
+  "out": null
+ },
+ {
+  "text": "٣",
+  "prompt": {
+   "kind": "card",
+   "card_id": "c"
+  },
+  "out": {
+   "kind": "skip",
+   "numbers": [
+    1
+   ]
+  }
+ },
+ {
+  "text": "٣",
+  "prompt": {
+   "kind": "held",
+   "chat_id": "x"
+  },
+  "out": null
+ },
+ {
+  "text": "٣",
+  "prompt": {
+   "kind": "list",
+   "items": {}
+  },
+  "out": null
+ },
+ {
+  "text": "٣",
+  "prompt": {
+   "kind": "list",
+   "items": {
+    "1": "a",
+    "2": "b",
+    "10": "c"
+   }
+  },
+  "out": {
+   "kind": "mismatch",
+   "numbers": [
+    3
+   ]
+  }
+ },
+ {
+  "text": "٣",
+  "prompt": {
+   "kind": "other"
+  },
+  "out": null
+ }
+]

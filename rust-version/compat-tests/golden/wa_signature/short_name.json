@@ -1,0 +1,430 @@
+[
+ {
+  "in": null,
+  "out": ""
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": " ",
+  "out": ""
+ },
+ {
+  "in": "Bob",
+  "out": "Bob"
+ },
+ {
+  "in": "Bob Sanders Wilson",
+  "out": "Bob S. W."
+ },
+ {
+  "in": "  bob   sanders  ",
+  "out": "bob S."
+ },
+ {
+  "in": "Bob Sanders, S.T.",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob Sanders,S.T., M.Kom",
+  "out": "Bob S."
+ },
+ {
+  "in": ", Bob",
+  "out": ""
+ },
+ {
+  "in": "Bob ,Sanders",
+  "out": "Bob"
+ },
+ {
+  "in": "Dr. Bob Sanders",
+  "out": "Dr. B. S."
+ },
+ {
+  "in": "Bob 2nd Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob (Ops) Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob _x _y",
+  "out": "Bob"
+ },
+ {
+  "in": "Bob\tSanders\nWilson",
+  "out": "Bob S. W."
+ },
+ {
+  "in": "Bob Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob\u001cSanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob​Sanders",
+  "out": "Bob​Sanders"
+ },
+ {
+  "in": "muhammad rizki pratama",
+  "out": "muhammad R. P."
+ },
+ {
+  "in": "Ömer çelik",
+  "out": "Ömer Ç."
+ },
+ {
+  "in": "José ñandú",
+  "out": "José Ñ."
+ },
+ {
+  "in": "straße ßtraße",
+  "out": "straße SS."
+ },
+ {
+  "in": "Ǆemal ǆoković",
+  "out": "Ǆemal Ǆ."
+ },
+ {
+  "in": "Ǳ ǳ",
+  "out": "Ǳ Ǳ."
+ },
+ {
+  "in": "ŉ ŉame",
+  "out": "ŉ ʼN."
+ },
+ {
+  "in": "Σωκράτης σωκράτης",
+  "out": "Σωκράτης Σ."
+ },
+ {
+  "in": "Иван иванович петров",
+  "out": "Иван И. П."
+ },
+ {
+  "in": "محمد علي",
+  "out": "محمد ع."
+ },
+ {
+  "in": "李 小龙",
+  "out": "李 小."
+ },
+ {
+  "in": "山田 太郎",
+  "out": "山田 太."
+ },
+ {
+  "in": "Bob 😀Sanders",
+  "out": "Bob"
+ },
+ {
+  "in": "Bob ́Sanders",
+  "out": "Bob"
+ },
+ {
+  "in": "Bob Ⅻ Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob ½ Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob 五 Sanders",
+  "out": "Bob 五. S."
+ },
+ {
+  "in": "a b c d e f g",
+  "out": "a B. C. D. E. F. G."
+ },
+ {
+  "in": "A-B C-D",
+  "out": "A-B C."
+ },
+ {
+  "in": "O'Brien d'Arcy",
+  "out": "O'Brien D."
+ },
+ {
+  "in": "Bob.Sanders",
+  "out": "Bob.Sanders"
+ },
+ {
+  "in": "Bob　Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "Bob Sanders",
+  "out": "Bob S."
+ },
+ {
+  "in": "ﬁona ﬂores",
+  "out": "ﬁona FL."
+ },
+ {
+  "in": "ʼn x",
+  "out": "ʼn X."
+ },
+ {
+  "in": "İsmail ıspanak",
+  "out": "İsmail I."
+ },
+ {
+  "in": "Ⓐbc Ⓑcd",
+  "out": "Ⓐbc"
+ },
+ {
+  "in": "ǅx ǅy",
+  "out": "ǅx Ǆ."
+ },
+ {
+  "in": "'f李_e1.é- ΣA -A1e'C1j,C",
+  "out": "'f李_e1.é- Σ."
+ },
+ {
+  "in": "hb\t,\t 李-",
+  "out": "hb"
+ },
+ {
+  "in": "ΣéΣB 1i_Cégc\t gdBda bAiBd",
+  "out": "ΣéΣB G. B."
+ },
+ {
+  "in": "Bcee1 _iAbA\te",
+  "out": "Bcee1 E."
+ },
+ {
+  "in": "g",
+  "out": "g"
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "-'aaicA'\t",
+  "out": "-'aaicA'"
+ },
+ {
+  "in": " . d1Aaiad_é.\taga fg' \th",
+  "out": ". D. A. F. H."
+ },
+ {
+  "in": "jaged ééghd",
+  "out": "jaged É."
+ },
+ {
+  "in": "gA'i-e11ßgeaa,1é-..ß,李",
+  "out": "gA'i-e11ßgeaa"
+ },
+ {
+  "in": "\ta. ,1jih_1jc11B.AA1éeCC.",
+  "out": "a."
+ },
+ {
+  "in": "..BßhBCjA",
+  "out": "..BßhBCjA"
+ },
+ {
+  "in": "dh,é李Σf_gBbe",
+  "out": "dh"
+ },
+ {
+  "in": " i.h CBc 'd",
+  "out": "i.h C."
+ },
+ {
+  "in": "-ba1efCjj h李",
+  "out": "-ba1efCjj H."
+ },
+ {
+  "in": ",\tdjh,AfcΣ",
+  "out": ""
+ },
+ {
+  "in": "'gAd-é1ß1a李g,hßΣ 1",
+  "out": "'gAd-é1ß1a李g"
+ },
+ {
+  "in": "\tA-",
+  "out": "A-"
+ },
+ {
+  "in": ",f fΣCgßidbfC ' dC",
+  "out": ""
+ },
+ {
+  "in": "b d李__f'B",
+  "out": "b D."
+ },
+ {
+  "in": "d",
+  "out": "d"
+ },
+ {
+  "in": "-1CA_Σ李fcΣ\t-ßB",
+  "out": "-1CA_Σ李fcΣ"
+ },
+ {
+  "in": "ßi,",
+  "out": "ßi"
+ },
+ {
+  "in": "jiffh-b",
+  "out": "jiffh-b"
+ },
+ {
+  "in": "édcéhß李AA.B .b李b",
+  "out": "édcéhß李AA.B"
+ },
+ {
+  "in": "éaßgf\t 李 李C李C_",
+  "out": "éaßgf 李. 李."
+ },
+ {
+  "in": "cfhbaB李,,jeh-Afg",
+  "out": "cfhbaB李"
+ },
+ {
+  "in": "李李éB",
+  "out": "李李éB"
+ },
+ {
+  "in": "éfd",
+  "out": "éfd"
+ },
+ {
+  "in": "hfffi,cbB f  Bf1é",
+  "out": "hfffi"
+ },
+ {
+  "in": "c'bé李 A,ii fé.,",
+  "out": "c'bé李 A."
+ },
+ {
+  "in": "bΣji李_bBßb ",
+  "out": "bΣji李_bBßb"
+ },
+ {
+  "in": "jda._e i",
+  "out": "jda._e I."
+ },
+ {
+  "in": "ca ΣBC'ej\tfée,fbéa_ CjBc",
+  "out": "ca Σ. F."
+ },
+ {
+  "in": "",
+  "out": ""
+ },
+ {
+  "in": "éB-Ac, cd egB",
+  "out": "éB-Ac"
+ },
+ {
+  "in": " hbcgA,h李C ",
+  "out": "hbcgA"
+ },
+ {
+  "in": ", c'-i ab\tje",
+  "out": ""
+ },
+ {
+  "in": ",gdB李_",
+  "out": ""
+ },
+ {
+  "in": "李fgg gC'dBC",
+  "out": "李fgg G."
+ },
+ {
+  "in": "e李.",
+  "out": "e李."
+ },
+ {
+  "in": "ß_égf.eiaé 1aC\t'",
+  "out": "ß_égf.eiaé"
+ },
+ {
+  "in": "iΣ_dab_Σg,-biji_da-",
+  "out": "iΣ_dab_Σg"
+ },
+ {
+  "in": ",C",
+  "out": ""
+ },
+ {
+  "in": "Σ'\t",
+  "out": "Σ'"
+ },
+ {
+  "in": "hßCahhC_j _-ß李\t-\t\t_ B'i d",
+  "out": "hßCahhC_j B. D."
+ },
+ {
+  "in": "_é- 'aΣ_..1géga_jA\tΣde,-i",
+  "out": "_é- Σ."
+ },
+ {
+  "in": "C1-BΣf",
+  "out": "C1-BΣf"
+ },
+ {
+  "in": ",'Ai--",
+  "out": ""
+ },
+ {
+  "in": "id",
+  "out": "id"
+ },
+ {
+  "in": "1dc",
+  "out": "1dc"
+ },
+ {
+  "in": "dc.d,é,_gh.j'-",
+  "out": "dc.d"
+ },
+ {
+  "in": "\tggi\tdifc1aß",
+  "out": "ggi D."
+ },
+ {
+  "in": "hgi,A,\ta_ g,c",
+  "out": "hgi"
+ },
+ {
+  "in": ",.i_李géΣ'd-",
+  "out": ""
+ },
+ {
+  "in": "A-李béb\te李.gé李 d\t_. agß",
+  "out": "A-李béb E. D. A."
+ },
+ {
+  "in": "g id11g1A i.A' 李dBjBjΣBΣ",
+  "out": "g I. I. 李."
+ },
+ {
+  "in": "e",
+  "out": "e"
+ },
+ {
+  "in": " fC1i",
+  "out": "fC1i"
+ },
+ {
+  "in": "'ßdBeadßj,_a_",
+  "out": "'ßdBeadßj"
+ }
+]

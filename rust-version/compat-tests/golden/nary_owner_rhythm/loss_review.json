@@ -1,0 +1,6729 @@
+[
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-02",
+   "losses": []
+  },
+  "title": "Loss review 2027-02",
+  "body": "Loss review 2027-02: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "",
+     "analysis": "  trailing  "
+    },
+    "title": "SSD"
+   }
+  ],
+  "data": {
+   "month": "2027-01",
+   "losses": [
+    {
+     "deal": "SSD",
+     "reasons": null,
+     "analysis": "  trailing  ",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-01",
+  "body": "MODEL:Loss review 2027-01: 1 lost deal(s).\n- SSD: no reason. ",
+  "entity_id": "loss:2027-01"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null
+    },
+    "title": "  "
+   }
+  ],
+  "data": {
+   "month": "2027-04",
+   "losses": [
+    {
+     "deal": "  ",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-04",
+  "body": "MODEL:Loss review 2027-04: 1 lost deal(s).\n-   : no reason. ",
+  "entity_id": "loss:2027-04"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-08",
+   "losses": []
+  },
+  "title": "Loss review 2027-08",
+  "body": "Loss review 2027-08: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-08"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "",
+     "analysis": "hot lead a: a:"
+    },
+    "title": "quotation"
+   }
+  ],
+  "data": {
+   "month": "2025-12",
+   "losses": [
+    {
+     "deal": "quotation",
+     "reasons": [],
+     "analysis": "hot lead a: a:",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2025-12",
+  "body": "MODEL:Loss review 2025-12: 1 lost deal(s).\n- quotation: no reason. ",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-01",
+   "losses": []
+  },
+  "title": "Loss review 2026-01",
+  "body": "Loss review 2026-01: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-01"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "analysis": "None 1. first ٣ items →"
+    },
+    "title": "2) second"
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "2) second",
+     "reasons": null,
+     "analysis": "None 1. first ٣ items →",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 1 lost deal(s).\n- 2) second: no reason. ",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-04",
+   "losses": []
+  },
+  "title": "Loss review 2027-04",
+  "body": "Loss review 2027-04: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-04"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-11",
+   "losses": []
+  },
+  "title": "Loss review 2026-11",
+  "body": "Loss review 2026-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-03",
+   "losses": []
+  },
+  "title": "Loss review 2026-03",
+  "body": "Loss review 2026-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-10",
+   "losses": []
+  },
+  "title": "Loss review 2026-10",
+  "body": "Loss review 2026-10: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "_it_ 日本"
+    },
+    "title": "quotation :"
+   },
+   {
+    "content": {
+     "lesson": null
+    },
+    "title": ":"
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "quotation :",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "_it_ 日本",
+     "lesson": null
+    },
+    {
+     "deal": ":",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 2 lost deal(s).\n- quotation :: price. \n- :: no reason. ",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-09",
+   "losses": []
+  },
+  "title": "Loss review 2027-09",
+  "body": "Loss review 2027-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": "tab\there"
+   },
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": "None"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "x\r\ny"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "\\back _it_"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2025-12",
+   "losses": [
+    {
+     "deal": "tab\there",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "None",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "x\r\ny",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": "\\back _it_"
+    }
+   ]
+  },
+  "title": "Loss review 2025-12",
+  "body": "MODEL:Loss review 2025-12: 4 lost deal(s).\n- tab\there: price, timing, 日本. \n- None: no reason. \n- x\r\ny: price, timing, 日本. \n- : no reason. \\back _it_",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "2) second ²nd line sep"
+    },
+    "title": "x\r\ny 😀"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": "\\back"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "quotation   trailing   hot lead quotation"
+    },
+    "title": "'q'"
+   }
+  ],
+  "data": {
+   "month": "2027-05",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "x\r\ny 😀",
+     "reasons": null,
+     "analysis": "2) second ²nd line sep",
+     "lesson": null
+    },
+    {
+     "deal": "\\back",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "'q'",
+     "reasons": null,
+     "analysis": "quotation   trailing   hot lead quotation",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-05",
+  "body": "MODEL:Loss review 2027-05: 4 lost deal(s).\n- : no reason. \n- x\r\ny 😀: no reason. \n- \\back: no reason. \n- 'q': no reason. ",
+  "entity_id": "loss:2027-05"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "*bold*"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-10",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": "*bold*"
+    }
+   ]
+  },
+  "title": "Loss review 2027-10",
+  "body": "MODEL:Loss review 2027-10: 2 lost deal(s).\n- : no reason. \n- : price, timing, 日本. *bold*",
+  "entity_id": "loss:2027-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "analysis": "line sep"
+    },
+    "title": "x\ny"
+   }
+  ],
+  "data": {
+   "month": "2026-03",
+   "losses": [
+    {
+     "deal": "x\ny",
+     "reasons": [],
+     "analysis": "line sep",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-03",
+  "body": "MODEL:Loss review 2026-03: 1 lost deal(s).\n- x\ny: no reason. ",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": "2) second"
+   }
+  ],
+  "data": {
+   "month": "2027-09",
+   "losses": [
+    {
+     "deal": "2) second",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-09",
+  "body": "MODEL:Loss review 2027-09: 1 lost deal(s).\n- 2) second: no reason. ",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-05",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-05",
+  "body": "MODEL:Loss review 2027-05: 1 lost deal(s).\n- : price, timing, 日本. ",
+  "entity_id": "loss:2027-05"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "x\r\ny"
+   },
+   {
+    "content": {
+     "lesson": "a: → Hello"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "a:"
+    },
+    "title": "laptop "
+   }
+  ],
+  "data": {
+   "month": "2027-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "x\r\ny",
+     "reasons": [],
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "a: → Hello"
+    },
+    {
+     "deal": "laptop ",
+     "reasons": null,
+     "analysis": "a:",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-04",
+  "body": "MODEL:Loss review 2027-04: 4 lost deal(s).\n- : price, timing, 日本. \n- x\r\ny: no reason. \n- : no reason. a: → Hello\n- laptop : no reason. ",
+  "entity_id": "loss:2027-04"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2025-12",
+   "losses": []
+  },
+  "title": "Loss review 2025-12",
+  "body": "Loss review 2025-12: 0 lost deal(s).\n",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "quotation SSD"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": "😀"
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "JPY 15,000,000 😀 ²nd quotation"
+    },
+    "title": ":"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "*bold* Hello"
+    },
+    "title": "line sep 1. first"
+   }
+  ],
+  "data": {
+   "month": "2027-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "quotation SSD",
+     "lesson": null
+    },
+    {
+     "deal": "😀",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": ":",
+     "reasons": null,
+     "analysis": "JPY 15,000,000 😀 ²nd quotation",
+     "lesson": ""
+    },
+    {
+     "deal": "line sep 1. first",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": "*bold* Hello"
+    }
+   ]
+  },
+  "title": "Loss review 2027-04",
+  "body": "MODEL:Loss review 2027-04: 4 lost deal(s).\n- : no reason. \n- 😀: no reason. \n- :: no reason. \n- line sep 1. first: price. *bold* Hello",
+  "entity_id": "loss:2027-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "tab\there \"dq\"",
+     "analysis": "quotation    a:"
+    },
+    "title": "²nd"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "²nd",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "quotation    a:",
+     "lesson": "tab\there \"dq\""
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 2 lost deal(s).\n- ²nd: price. tab\there \"dq\"\n- : no reason. ",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-11",
+   "losses": []
+  },
+  "title": "Loss review 2027-11",
+  "body": "Loss review 2027-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-10",
+   "losses": []
+  },
+  "title": "Loss review 2026-10",
+  "body": "Loss review 2026-10: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-11",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-11",
+  "body": "MODEL:Loss review 2026-11: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "*bold* é"
+    },
+    "title": "Hello"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": "hot lead 1. first"
+   }
+  ],
+  "data": {
+   "month": "2026-11",
+   "losses": [
+    {
+     "deal": "Hello",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": "*bold* é"
+    },
+    {
+     "deal": "hot lead 1. first",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-11",
+  "body": "MODEL:Loss review 2026-11: 2 lost deal(s).\n- Hello: price. *bold* é\n- hot lead 1. first: price, timing, 日本. ",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "Hello tab\there ٣ items line sep"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-03",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "Hello tab\there ٣ items line sep",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-03",
+  "body": "MODEL:Loss review 2027-03: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "\\back line sep gate x\r\ny"
+    },
+    "title": " quotation"
+   }
+  ],
+  "data": {
+   "month": "2027-10",
+   "losses": [
+    {
+     "deal": " quotation",
+     "reasons": null,
+     "analysis": "\\back line sep gate x\r\ny",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-10",
+  "body": "MODEL:Loss review 2027-10: 1 lost deal(s).\n-  quotation: no reason. ",
+  "entity_id": "loss:2027-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": ""
+    },
+    "title": "²nd"
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "²nd",
+     "reasons": [],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 2 lost deal(s).\n- : price. \n- ²nd: no reason. ",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-02",
+   "losses": []
+  },
+  "title": "Loss review 2027-02",
+  "body": "Loss review 2027-02: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-03",
+   "losses": []
+  },
+  "title": "Loss review 2026-03",
+  "body": "Loss review 2026-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "laptop"
+    },
+    "title": "SSD é"
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "SSD é",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "laptop",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 2 lost deal(s).\n- : price. \n- SSD é: price, timing, 日本. ",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "hot lead 日本 x\r\ny"
+    },
+    "title": "SSD"
+   },
+   {
+    "content": {
+     "lesson": "1. first",
+     "analysis": "hot lead 'q'"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "",
+     "analysis": "None Acme Co"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "gate"
+    },
+    "title": "Acme Co"
+   }
+  ],
+  "data": {
+   "month": "2026-06",
+   "losses": [
+    {
+     "deal": "SSD",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": "hot lead 日本 x\r\ny"
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "hot lead 'q'",
+     "lesson": "1. first"
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "None Acme Co",
+     "lesson": ""
+    },
+    {
+     "deal": "Acme Co",
+     "reasons": null,
+     "analysis": "gate",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-06",
+  "body": "MODEL:Loss review 2026-06: 4 lost deal(s).\n- SSD: price, timing, 日本. hot lead 日本 x\r\ny\n- : no reason. 1. first\n- : no reason. \n- Acme Co: no reason. ",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-03",
+   "losses": []
+  },
+  "title": "Loss review 2027-03",
+  "body": "Loss review 2027-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-12",
+   "losses": []
+  },
+  "title": "Loss review 2026-12",
+  "body": "Loss review 2026-12: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "None   trailing  "
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "Hello *bold*"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ": a:",
+     "analysis": "a:"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "None   trailing  ",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": "Hello *bold*"
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "a:",
+     "lesson": ": a:"
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 4 lost deal(s).\n- : no reason. \n- None   trailing  : price, timing, 日本. \n- : price, timing, 日本. Hello *bold*\n- : no reason. : a:",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-11",
+   "losses": []
+  },
+  "title": "Loss review 2026-11",
+  "body": "Loss review 2026-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-11",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-11",
+  "body": "MODEL:Loss review 2026-11: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-07",
+   "losses": []
+  },
+  "title": "Loss review 2026-07",
+  "body": "Loss review 2026-07: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "Initech \"dq\""
+    },
+    "title": ":"
+   },
+   {
+    "content": {
+     "lesson": "x\ny 😀"
+    },
+    "title": "JPY 15,000,000"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "Hello → None"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-07",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": ":",
+     "reasons": [],
+     "analysis": null,
+     "lesson": "Initech \"dq\""
+    },
+    {
+     "deal": "JPY 15,000,000",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "x\ny 😀"
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "Hello → None"
+    }
+   ]
+  },
+  "title": "Loss review 2027-07",
+  "body": "MODEL:Loss review 2027-07: 4 lost deal(s).\n- : price, timing, 日本. \n- :: no reason. Initech \"dq\"\n- JPY 15,000,000: no reason. x\ny 😀\n- : no reason. Hello → None",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "a: gate gate SSD"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-06",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "a: gate gate SSD",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-06",
+  "body": "MODEL:Loss review 2026-06: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "JPY 15,000,000 x\r\ny",
+     "analysis": "日本 Hello _it_"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "日本 Hello _it_",
+     "lesson": "JPY 15,000,000 x\r\ny"
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 2 lost deal(s).\n- : no reason. \n- : no reason. JPY 15,000,000 x\r\ny",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2025-12",
+   "losses": []
+  },
+  "title": "Loss review 2025-12",
+  "body": "Loss review 2025-12: 0 lost deal(s).\n",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-02",
+   "losses": []
+  },
+  "title": "Loss review 2026-02",
+  "body": "Loss review 2026-02: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "analysis": "é ٣ items"
+    },
+    "title": "\"dq\""
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "\"dq\"",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "é ٣ items",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 1 lost deal(s).\n- \"dq\": price. ",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "\\back \"dq\""
+    },
+    "title": "Acme Co é"
+   }
+  ],
+  "data": {
+   "month": "2026-07",
+   "losses": [
+    {
+     "deal": "Acme Co é",
+     "reasons": [],
+     "analysis": null,
+     "lesson": "\\back \"dq\""
+    }
+   ]
+  },
+  "title": "Loss review 2026-07",
+  "body": "MODEL:Loss review 2026-07: 1 lost deal(s).\n- Acme Co é: no reason. \\back \"dq\"",
+  "entity_id": "loss:2026-07"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-03",
+   "losses": []
+  },
+  "title": "Loss review 2026-03",
+  "body": "Loss review 2026-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-12",
+   "losses": []
+  },
+  "title": "Loss review 2026-12",
+  "body": "Loss review 2026-12: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": ""
+    },
+    "title": "é"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "",
+     "analysis": "é quotation a: quotation"
+    },
+    "title": "x\r\ny _it_"
+   }
+  ],
+  "data": {
+   "month": "2027-01",
+   "losses": [
+    {
+     "deal": "é",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "",
+     "lesson": ""
+    },
+    {
+     "deal": "x\r\ny _it_",
+     "reasons": [],
+     "analysis": "é quotation a: quotation",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-01",
+  "body": "MODEL:Loss review 2027-01: 2 lost deal(s).\n- é: price. \n- x\r\ny _it_: no reason. ",
+  "entity_id": "loss:2027-01"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-10",
+   "losses": []
+  },
+  "title": "Loss review 2026-10",
+  "body": "Loss review 2026-10: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-04",
+   "losses": []
+  },
+  "title": "Loss review 2026-04",
+  "body": "Loss review 2026-04: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": null
+    },
+    "title": "\\back \"dq\""
+   },
+   {
+    "content": {
+     "lesson": ": _it_",
+     "analysis": "Hello "
+    },
+    "title": "\"dq\""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": "laptop gate"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null
+    },
+    "title": "é"
+   }
+  ],
+  "data": {
+   "month": "2027-03",
+   "losses": [
+    {
+     "deal": "\\back \"dq\"",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "\"dq\"",
+     "reasons": null,
+     "analysis": "Hello ",
+     "lesson": ": _it_"
+    },
+    {
+     "deal": "laptop gate",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "é",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-03",
+  "body": "MODEL:Loss review 2027-03: 4 lost deal(s).\n- \\back \"dq\": no reason. \n- \"dq\": no reason. : _it_\n- laptop gate: price, timing, 日本. \n- é: price. ",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2025-12",
+   "losses": []
+  },
+  "title": "Loss review 2025-12",
+  "body": "Loss review 2025-12: 0 lost deal(s).\n",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "Acme Co"
+    },
+    "title": "2) second  "
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "*bold* Hello"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "None 'q'"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": ""
+    },
+    "title": "'q'"
+   }
+  ],
+  "data": {
+   "month": "2026-02",
+   "losses": [
+    {
+     "deal": "2) second  ",
+     "reasons": null,
+     "analysis": "Acme Co",
+     "lesson": ""
+    },
+    {
+     "deal": "*bold* Hello",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": "None 'q'"
+    },
+    {
+     "deal": "'q'",
+     "reasons": [],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-02",
+  "body": "MODEL:Loss review 2026-02: 4 lost deal(s).\n- 2) second  : no reason. \n- *bold* Hello: price, timing, 日本. \n- : price. None 'q'\n- 'q': no reason. ",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-07",
+   "losses": []
+  },
+  "title": "Loss review 2026-07",
+  "body": "Loss review 2026-07: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "→"
+    },
+    "title": "Hello"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "None → é",
+     "analysis": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "analysis": ""
+    },
+    "title": "_it_"
+   }
+  ],
+  "data": {
+   "month": "2027-07",
+   "losses": [
+    {
+     "deal": "Hello",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "→",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "",
+     "lesson": "None → é"
+    },
+    {
+     "deal": "_it_",
+     "reasons": null,
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-07",
+  "body": "MODEL:Loss review 2027-07: 4 lost deal(s).\n- Hello: price. \n- : no reason. \n- : no reason. None → é\n- _it_: no reason. ",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "   trailing    \\back"
+    },
+    "title": " ²nd"
+   },
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": "a: :"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "😀 gate"
+   },
+   {
+    "content": {},
+    "title": "laptop JPY 15,000,000"
+   }
+  ],
+  "data": {
+   "month": "2026-07",
+   "losses": [
+    {
+     "deal": " ²nd",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "   trailing    \\back",
+     "lesson": null
+    },
+    {
+     "deal": "a: :",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "😀 gate",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "laptop JPY 15,000,000",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-07",
+  "body": "MODEL:Loss review 2026-07: 4 lost deal(s).\n-  ²nd: price. \n- a: :: no reason. \n- 😀 gate: price, timing, 日本. \n- laptop JPY 15,000,000: no reason. ",
+  "entity_id": "loss:2026-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {},
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "1. first 2) second"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "x\ny"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "quotation"
+    },
+    "title": "1. first   trailing  "
+   },
+   {
+    "content": {},
+    "title": "²nd x\ny"
+   }
+  ],
+  "data": {
+   "month": "2026-12",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "1. first 2) second",
+     "lesson": ""
+    },
+    {
+     "deal": "x\ny",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "1. first   trailing  ",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "quotation"
+    },
+    {
+     "deal": "²nd x\ny",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-12",
+  "body": "MODEL:Loss review 2026-12: 4 lost deal(s).\n- : price, timing, 日本. \n- x\ny: price, timing, 日本. \n- 1. first   trailing  : no reason. quotation\n- ²nd x\ny: no reason. ",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-09",
+   "losses": []
+  },
+  "title": "Loss review 2026-09",
+  "body": "Loss review 2026-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "²nd SSD \"dq\""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "None _it_"
+    },
+    "title": "\"dq\" _it_"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "é",
+     "analysis": "hot lead"
+    },
+    "title": "Hello é"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "  trailing   gate"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-03",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "²nd SSD \"dq\"",
+     "lesson": ""
+    },
+    {
+     "deal": "\"dq\" _it_",
+     "reasons": null,
+     "analysis": "None _it_",
+     "lesson": null
+    },
+    {
+     "deal": "Hello é",
+     "reasons": [],
+     "analysis": "hot lead",
+     "lesson": "é"
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "  trailing   gate",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-03",
+  "body": "MODEL:Loss review 2026-03: 4 lost deal(s).\n- : no reason. \n- \"dq\" _it_: no reason. \n- Hello é: no reason. é\n- : price. ",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-03",
+   "losses": []
+  },
+  "title": "Loss review 2027-03",
+  "body": "Loss review 2027-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-04",
+   "losses": []
+  },
+  "title": "Loss review 2026-04",
+  "body": "Loss review 2026-04: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "analysis": "²nd _it_ x\ny 1. first"
+    },
+    "title": "laptop"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": "1. first"
+   },
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": "😀"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ]
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-09",
+   "losses": [
+    {
+     "deal": "laptop",
+     "reasons": null,
+     "analysis": "²nd _it_ x\ny 1. first",
+     "lesson": null
+    },
+    {
+     "deal": "1. first",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "😀",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-09",
+  "body": "MODEL:Loss review 2027-09: 4 lost deal(s).\n- laptop: no reason. \n- 1. first: no reason. \n- 😀: no reason. \n- : price. ",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-08",
+   "losses": []
+  },
+  "title": "Loss review 2027-08",
+  "body": "Loss review 2027-08: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-08"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "gate \\back"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-03",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "gate \\back",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-03",
+  "body": "MODEL:Loss review 2026-03: 1 lost deal(s).\n- : price, timing, 日本. ",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "²nd _it_  "
+    },
+    "title": "😀"
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "😀",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "²nd _it_  ",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 1 lost deal(s).\n- 😀: price, timing, 日本. ",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "None Acme Co"
+    },
+    "title": "2) second é"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": ""
+    },
+    "title": "  trailing  "
+   }
+  ],
+  "data": {
+   "month": "2027-09",
+   "losses": [
+    {
+     "deal": "2) second é",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "None Acme Co"
+    },
+    {
+     "deal": "  trailing  ",
+     "reasons": [],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-09",
+  "body": "MODEL:Loss review 2027-09: 2 lost deal(s).\n- 2) second é: no reason. None Acme Co\n-   trailing  : no reason. ",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-08",
+   "losses": []
+  },
+  "title": "Loss review 2026-08",
+  "body": "Loss review 2026-08: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-09",
+   "losses": []
+  },
+  "title": "Loss review 2027-09",
+  "body": "Loss review 2027-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-11",
+   "losses": []
+  },
+  "title": "Loss review 2027-11",
+  "body": "Loss review 2027-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": ""
+    },
+    "title": "é \"dq\""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "analysis": "line sep   trailing  "
+    },
+    "title": "quotation ²nd"
+   },
+   {
+    "content": {
+     "analysis": "Hello 1. first tab\there"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "analysis": "→ Initech hot lead"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-07",
+   "losses": [
+    {
+     "deal": "é \"dq\"",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "quotation ²nd",
+     "reasons": [],
+     "analysis": "line sep   trailing  ",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "Hello 1. first tab\there",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "→ Initech hot lead",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-07",
+  "body": "MODEL:Loss review 2026-07: 4 lost deal(s).\n- é \"dq\": price, timing, 日本. \n- quotation ²nd: no reason. \n- : no reason. \n- : no reason. ",
+  "entity_id": "loss:2026-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": "line sep"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "gate é Initech 日本"
+    },
+    "title": "  trailing   é"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "tab\there"
+    },
+    "title": ": None"
+   },
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": "Initech"
+   }
+  ],
+  "data": {
+   "month": "2027-10",
+   "losses": [
+    {
+     "deal": "line sep",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "  trailing   é",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "gate é Initech 日本",
+     "lesson": ""
+    },
+    {
+     "deal": ": None",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "tab\there"
+    },
+    {
+     "deal": "Initech",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-10",
+  "body": "MODEL:Loss review 2027-10: 4 lost deal(s).\n- line sep: no reason. \n-   trailing   é: price. \n- : None: no reason. tab\there\n- Initech: no reason. ",
+  "entity_id": "loss:2027-10"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-10",
+   "losses": []
+  },
+  "title": "Loss review 2026-10",
+  "body": "Loss review 2026-10: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-06",
+   "losses": []
+  },
+  "title": "Loss review 2027-06",
+  "body": "Loss review 2027-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-10",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-10",
+  "body": "MODEL:Loss review 2026-10: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-06",
+   "losses": []
+  },
+  "title": "Loss review 2027-06",
+  "body": "Loss review 2027-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-06",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-06",
+  "body": "MODEL:Loss review 2027-06: 1 lost deal(s).\n- : price, timing, 日本. ",
+  "entity_id": "loss:2027-06"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": "gate"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ]
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": "→ laptop"
+   }
+  ],
+  "data": {
+   "month": "2026-05",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "gate"
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "→ laptop",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-05",
+  "body": "MODEL:Loss review 2026-05: 4 lost deal(s).\n- : no reason. \n- : no reason. gate\n- : price, timing, 日本. \n- → laptop: no reason. ",
+  "entity_id": "loss:2026-05"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "→ Hello line sep ²nd"
+    },
+    "title": "é \"dq\""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": "JPY 15,000,000 laptop *bold*"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": "tab\there x\ny"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "²nd"
+   }
+  ],
+  "data": {
+   "month": "2026-08",
+   "losses": [
+    {
+     "deal": "é \"dq\"",
+     "reasons": null,
+     "analysis": "→ Hello line sep ²nd",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "JPY 15,000,000 laptop *bold*",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "tab\there x\ny"
+    },
+    {
+     "deal": "²nd",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-08",
+  "body": "MODEL:Loss review 2026-08: 4 lost deal(s).\n- é \"dq\": no reason. \n- : price, timing, 日本. \n- : no reason. tab\there x\ny\n- ²nd: price, timing, 日本. ",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "é tab\there ٣ items line sep"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": "²nd gate",
+     "analysis": "😀"
+    },
+    "title": "→"
+   }
+  ],
+  "data": {
+   "month": "2026-12",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "é tab\there ٣ items line sep",
+     "lesson": null
+    },
+    {
+     "deal": "→",
+     "reasons": null,
+     "analysis": "😀",
+     "lesson": "²nd gate"
+    }
+   ]
+  },
+  "title": "Loss review 2026-12",
+  "body": "MODEL:Loss review 2026-12: 2 lost deal(s).\n- : no reason. \n- →: no reason. ²nd gate",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-11",
+   "losses": []
+  },
+  "title": "Loss review 2027-11",
+  "body": "Loss review 2027-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "2) second"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "x\ny 1. first",
+     "analysis": "日本 x\r\ny gate None"
+    },
+    "title": "😀"
+   }
+  ],
+  "data": {
+   "month": "2026-07",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "2) second",
+     "lesson": null
+    },
+    {
+     "deal": "😀",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "日本 x\r\ny gate None",
+     "lesson": "x\ny 1. first"
+    }
+   ]
+  },
+  "title": "Loss review 2026-07",
+  "body": "MODEL:Loss review 2026-07: 2 lost deal(s).\n- : price, timing, 日本. \n- 😀: price. x\ny 1. first",
+  "entity_id": "loss:2026-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": "quotation x\r\ny"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-10",
+   "losses": [
+    {
+     "deal": "quotation x\r\ny",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-10",
+  "body": "MODEL:Loss review 2026-10: 2 lost deal(s).\n- quotation x\r\ny: no reason. \n- : no reason. ",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "'q'"
+   }
+  ],
+  "data": {
+   "month": "2026-08",
+   "losses": [
+    {
+     "deal": "'q'",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-08",
+  "body": "MODEL:Loss review 2026-08: 1 lost deal(s).\n- 'q': price, timing, 日本. ",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": "tab\there"
+   },
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "x\ny tab\there   laptop"
+    },
+    "title": "_it_"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "\"dq\" Initech gate"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "tab\there",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "_it_",
+     "reasons": null,
+     "analysis": "x\ny tab\there   laptop",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "\"dq\" Initech gate",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-04",
+  "body": "MODEL:Loss review 2027-04: 4 lost deal(s).\n- : no reason. \n- tab\there: price, timing, 日本. \n- _it_: no reason. \n- : price, timing, 日本. ",
+  "entity_id": "loss:2027-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "\"dq\""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "*bold* é"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "analysis": "tab\there"
+    },
+    "title": "*bold*"
+   },
+   {
+    "content": {
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-09",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "\"dq\"",
+     "lesson": null
+    },
+    {
+     "deal": "*bold* é",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "*bold*",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "tab\there",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-09",
+  "body": "MODEL:Loss review 2026-09: 4 lost deal(s).\n- : price. \n- *bold* é: price. \n- *bold*: price. \n- : no reason. ",
+  "entity_id": "loss:2026-09"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-05",
+   "losses": []
+  },
+  "title": "Loss review 2027-05",
+  "body": "Loss review 2027-05: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-05"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ]
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "SSD a:"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-06",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "SSD a:",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-06",
+  "body": "MODEL:Loss review 2026-06: 4 lost deal(s).\n- : price, timing, 日本. \n- : price, timing, 日本. \n- : no reason. \n- : no reason. ",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "\\back ²nd tab\there  "
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2025-12",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "\\back ²nd tab\there  ",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2025-12",
+  "body": "MODEL:Loss review 2025-12: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": "x\ny JPY 15,000,000 \\back"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "hot lead"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "2) second",
+     "analysis": "gate Hello"
+    },
+    "title": "x\ny"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "Hello"
+    },
+    "title": "a: é"
+   }
+  ],
+  "data": {
+   "month": "2027-03",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "x\ny JPY 15,000,000 \\back",
+     "lesson": null
+    },
+    {
+     "deal": "hot lead",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "x\ny",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "gate Hello",
+     "lesson": "2) second"
+    },
+    {
+     "deal": "a: é",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "Hello",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-03",
+  "body": "MODEL:Loss review 2027-03: 4 lost deal(s).\n- : price, timing, 日本. \n- hot lead: price. \n- x\ny: price, timing, 日本. 2) second\n- a: é: price, timing, 日本. ",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": "'q'"
+   },
+   {
+    "content": {},
+    "title": "\\back 1. first"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "analysis": "2) second"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "x\r\ny  é Acme Co"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-01",
+   "losses": [
+    {
+     "deal": "'q'",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "\\back 1. first",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "2) second",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "x\r\ny  é Acme Co",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-01",
+  "body": "MODEL:Loss review 2026-01: 4 lost deal(s).\n- 'q': no reason. \n- \\back 1. first: no reason. \n- : price. \n- : price. ",
+  "entity_id": "loss:2026-01"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-10",
+   "losses": []
+  },
+  "title": "Loss review 2027-10",
+  "body": "Loss review 2027-10: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-10"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-09",
+   "losses": []
+  },
+  "title": "Loss review 2027-09",
+  "body": "Loss review 2027-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "line sep"
+   }
+  ],
+  "data": {
+   "month": "2027-08",
+   "losses": [
+    {
+     "deal": "line sep",
+     "reasons": null,
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-08",
+  "body": "MODEL:Loss review 2027-08: 1 lost deal(s).\n- line sep: no reason. ",
+  "entity_id": "loss:2027-08"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-03",
+   "losses": []
+  },
+  "title": "Loss review 2027-03",
+  "body": "Loss review 2027-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "analysis": "Hello"
+    },
+    "title": "laptop →"
+   },
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": "tab\there None"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "tab\there"
+    },
+    "title": "None"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "",
+     "analysis": "1. first a: line sep tab\there"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "laptop →",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "Hello",
+     "lesson": null
+    },
+    {
+     "deal": "tab\there None",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "None",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "tab\there",
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "1. first a: line sep tab\there",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 4 lost deal(s).\n- laptop →: price. \n- tab\there None: no reason. \n- None: price. \n- : no reason. ",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "1. first é"
+   }
+  ],
+  "data": {
+   "month": "2027-09",
+   "losses": [
+    {
+     "deal": "1. first é",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-09",
+  "body": "MODEL:Loss review 2027-09: 1 lost deal(s).\n- 1. first é: price. ",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "Acme Co",
+     "analysis": ""
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-06",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": "Acme Co"
+    }
+   ]
+  },
+  "title": "Loss review 2026-06",
+  "body": "MODEL:Loss review 2026-06: 1 lost deal(s).\n- : price, timing, 日本. Acme Co",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2025-12",
+   "losses": []
+  },
+  "title": "Loss review 2025-12",
+  "body": "Loss review 2025-12: 0 lost deal(s).\n",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-08",
+   "losses": []
+  },
+  "title": "Loss review 2027-08",
+  "body": "Loss review 2027-08: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-08"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-07",
+   "losses": []
+  },
+  "title": "Loss review 2027-07",
+  "body": "Loss review 2027-07: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-11",
+   "losses": []
+  },
+  "title": "Loss review 2026-11",
+  "body": "Loss review 2026-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "→ Hello"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-01",
+   "losses": [
+    {
+     "deal": "→ Hello",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-01",
+  "body": "MODEL:Loss review 2026-01: 2 lost deal(s).\n- → Hello: price. \n- : no reason. ",
+  "entity_id": "loss:2026-01"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-03",
+   "losses": []
+  },
+  "title": "Loss review 2026-03",
+  "body": "Loss review 2026-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {},
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "é"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null
+    },
+    "title": "日本 Hello"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "*bold*  "
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": "é"
+    },
+    {
+     "deal": "日本 Hello",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "*bold*  ",
+     "reasons": [],
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 4 lost deal(s).\n- : no reason. \n- : price. é\n- 日本 Hello: no reason. \n- *bold*  : no reason. ",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "²nd ٣ items a:"
+    },
+    "title": "😀 Hello"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "  trailing  "
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "laptop",
+     "analysis": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "\"dq\" line sep gate"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2025-12",
+   "losses": [
+    {
+     "deal": "😀 Hello",
+     "reasons": null,
+     "analysis": "²nd ٣ items a:",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "  trailing  "
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": "laptop"
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": "\"dq\" line sep gate"
+    }
+   ]
+  },
+  "title": "Loss review 2025-12",
+  "body": "MODEL:Loss review 2025-12: 4 lost deal(s).\n- 😀 Hello: no reason. \n- : no reason.   trailing  \n- : price, timing, 日本. laptop\n- : no reason. \"dq\" line sep gate",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "  trailing   *bold* a:",
+     "analysis": "quotation a:"
+    },
+    "title": "\\back _it_"
+   }
+  ],
+  "data": {
+   "month": "2026-01",
+   "losses": [
+    {
+     "deal": "\\back _it_",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "quotation a:",
+     "lesson": "  trailing   *bold* a:"
+    }
+   ]
+  },
+  "title": "Loss review 2026-01",
+  "body": "MODEL:Loss review 2026-01: 1 lost deal(s).\n- \\back _it_: price.   trailing   *bold* a:",
+  "entity_id": "loss:2026-01"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-06",
+   "losses": []
+  },
+  "title": "Loss review 2027-06",
+  "body": "Loss review 2027-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "→"
+    },
+    "title": "tab\there"
+   }
+  ],
+  "data": {
+   "month": "2026-08",
+   "losses": [
+    {
+     "deal": "tab\there",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "→"
+    }
+   ]
+  },
+  "title": "Loss review 2026-08",
+  "body": "MODEL:Loss review 2026-08: 1 lost deal(s).\n- tab\there: no reason. →",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-11",
+   "losses": []
+  },
+  "title": "Loss review 2027-11",
+  "body": "Loss review 2027-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-08",
+   "losses": []
+  },
+  "title": "Loss review 2027-08",
+  "body": "Loss review 2027-08: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-08"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "\\back line sep"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "Hello  1. first  "
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-05",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "\\back line sep"
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "Hello  1. first  ",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-05",
+  "body": "MODEL:Loss review 2027-05: 2 lost deal(s).\n- : no reason. \\back line sep\n- : price. ",
+  "entity_id": "loss:2027-05"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-04",
+   "losses": []
+  },
+  "title": "Loss review 2026-04",
+  "body": "Loss review 2026-04: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "'q' *bold* Acme Co",
+     "analysis": "tab\there SSD laptop   trailing  "
+    },
+    "title": "→"
+   }
+  ],
+  "data": {
+   "month": "2027-09",
+   "losses": [
+    {
+     "deal": "→",
+     "reasons": [],
+     "analysis": "tab\there SSD laptop   trailing  ",
+     "lesson": "'q' *bold* Acme Co"
+    }
+   ]
+  },
+  "title": "Loss review 2027-09",
+  "body": "MODEL:Loss review 2027-09: 1 lost deal(s).\n- →: no reason. 'q' *bold* Acme Co",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "",
+     "analysis": "→ 😀 "
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-09",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "→ 😀 ",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-09",
+  "body": "MODEL:Loss review 2026-09: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2026-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "analysis": "'q' tab\there quotation _it_"
+    },
+    "title": "*bold*"
+   }
+  ],
+  "data": {
+   "month": "2026-06",
+   "losses": [
+    {
+     "deal": "*bold*",
+     "reasons": null,
+     "analysis": "'q' tab\there quotation _it_",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-06",
+  "body": "MODEL:Loss review 2026-06: 1 lost deal(s).\n- *bold*: no reason. ",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "hot lead"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-11",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "hot lead"
+    }
+   ]
+  },
+  "title": "Loss review 2026-11",
+  "body": "MODEL:Loss review 2026-11: 2 lost deal(s).\n- : no reason. \n- : no reason. hot lead",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-07",
+   "losses": []
+  },
+  "title": "Loss review 2027-07",
+  "body": "Loss review 2027-07: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-01",
+   "losses": []
+  },
+  "title": "Loss review 2026-01",
+  "body": "Loss review 2026-01: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-01"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "٣ items"
+    },
+    "title": "²nd"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": ""
+    },
+    "title": "_it_"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": ""
+    },
+    "title": "2) second"
+   },
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": "Initech"
+   }
+  ],
+  "data": {
+   "month": "2027-06",
+   "losses": [
+    {
+     "deal": "²nd",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "٣ items",
+     "lesson": ""
+    },
+    {
+     "deal": "_it_",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "",
+     "lesson": ""
+    },
+    {
+     "deal": "2) second",
+     "reasons": [],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "Initech",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-06",
+  "body": "MODEL:Loss review 2027-06: 4 lost deal(s).\n- ²nd: price. \n- _it_: price. \n- 2) second: no reason. \n- Initech: no reason. ",
+  "entity_id": "loss:2027-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": null,
+     "analysis": ": a:"
+    },
+    "title": "tab\there"
+   }
+  ],
+  "data": {
+   "month": "2025-12",
+   "losses": [
+    {
+     "deal": "tab\there",
+     "reasons": null,
+     "analysis": ": a:",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2025-12",
+  "body": "MODEL:Loss review 2025-12: 1 lost deal(s).\n- tab\there: no reason. ",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "1. first"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "→ x\r\ny"
+    },
+    "title": "quotation 1. first"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": ":"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": "laptop"
+   }
+  ],
+  "data": {
+   "month": "2026-10",
+   "losses": [
+    {
+     "deal": "1. first",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "quotation 1. first",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "→ x\r\ny"
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": ":"
+    },
+    {
+     "deal": "laptop",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-10",
+  "body": "MODEL:Loss review 2026-10: 4 lost deal(s).\n- 1. first: price, timing, 日本. \n- quotation 1. first: no reason. → x\r\ny\n- : no reason. :\n- laptop: price, timing, 日本. ",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "None"
+    },
+    "title": "Initech"
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "Initech",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": "None"
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 1 lost deal(s).\n- Initech: price, timing, 日本. None",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "line sep"
+    },
+    "title": "SSD Acme Co"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "٣ items   trailing    ",
+     "analysis": "JPY 15,000,000 Initech → →"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "*bold* quotation hot lead Hello"
+    },
+    "title": "\\back"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "gate"
+   }
+  ],
+  "data": {
+   "month": "2025-12",
+   "losses": [
+    {
+     "deal": "SSD Acme Co",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": "line sep"
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "JPY 15,000,000 Initech → →",
+     "lesson": "٣ items   trailing    "
+    },
+    {
+     "deal": "\\back",
+     "reasons": null,
+     "analysis": "*bold* quotation hot lead Hello",
+     "lesson": ""
+    },
+    {
+     "deal": "gate",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2025-12",
+  "body": "MODEL:Loss review 2025-12: 4 lost deal(s).\n- SSD Acme Co: price, timing, 日本. line sep\n- : price, timing, 日本. ٣ items   trailing    \n- \\back: no reason. \n- gate: price. ",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "  Initech"
+   }
+  ],
+  "data": {
+   "month": "2027-03",
+   "losses": [
+    {
+     "deal": "  Initech",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-03",
+  "body": "MODEL:Loss review 2027-03: 1 lost deal(s).\n-   Initech: price. ",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "*bold* 2) second a:"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-12",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "*bold* 2) second a:",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-12",
+  "body": "MODEL:Loss review 2026-12: 2 lost deal(s).\n- : no reason. \n- : no reason. ",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "analysis": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "analysis": "→ ٣ items : a:"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "日本"
+   }
+  ],
+  "data": {
+   "month": "2027-09",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "→ ٣ items : a:",
+     "lesson": null
+    },
+    {
+     "deal": "日本",
+     "reasons": null,
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-09",
+  "body": "MODEL:Loss review 2027-09: 4 lost deal(s).\n- : no reason. \n- : no reason. \n- : no reason. \n- 日本: no reason. ",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-09",
+   "losses": []
+  },
+  "title": "Loss review 2026-09",
+  "body": "Loss review 2026-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-09"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-11",
+   "losses": []
+  },
+  "title": "Loss review 2027-11",
+  "body": "Loss review 2027-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": ": quotation"
+    },
+    "title": "→ ٣ items"
+   }
+  ],
+  "data": {
+   "month": "2026-05",
+   "losses": [
+    {
+     "deal": "→ ٣ items",
+     "reasons": [
+      "price"
+     ],
+     "analysis": ": quotation",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-05",
+  "body": "MODEL:Loss review 2026-05: 1 lost deal(s).\n- → ٣ items: price. ",
+  "entity_id": "loss:2026-05"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-04",
+   "losses": []
+  },
+  "title": "Loss review 2026-04",
+  "body": "Loss review 2026-04: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": "  trailing  "
+   },
+   {
+    "content": {
+     "reasons": null,
+     "analysis": "gate JPY 15,000,000"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "analysis": "_it_"
+    },
+    "title": "  trailing  "
+   },
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "hot lead a:"
+    },
+    "title": "line sep"
+   }
+  ],
+  "data": {
+   "month": "2027-05",
+   "losses": [
+    {
+     "deal": "  trailing  ",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "gate JPY 15,000,000",
+     "lesson": null
+    },
+    {
+     "deal": "  trailing  ",
+     "reasons": [],
+     "analysis": "_it_",
+     "lesson": null
+    },
+    {
+     "deal": "line sep",
+     "reasons": null,
+     "analysis": "hot lead a:",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-05",
+  "body": "MODEL:Loss review 2027-05: 4 lost deal(s).\n-   trailing  : no reason. \n- : no reason. \n-   trailing  : no reason. \n- line sep: no reason. ",
+  "entity_id": "loss:2027-05"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "quotation Hello  Hello"
+    },
+    "title": "laptop tab\there"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "'q' x\r\ny None",
+     "analysis": "SSD é"
+    },
+    "title": "laptop line sep"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "2) second 😀"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "\"dq\" None quotation x\r\ny"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "laptop tab\there",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "quotation Hello  Hello",
+     "lesson": ""
+    },
+    {
+     "deal": "laptop line sep",
+     "reasons": null,
+     "analysis": "SSD é",
+     "lesson": "'q' x\r\ny None"
+    },
+    {
+     "deal": "2) second 😀",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "\"dq\" None quotation x\r\ny",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 4 lost deal(s).\n- laptop tab\there: price, timing, 日本. \n- laptop line sep: no reason. 'q' x\r\ny None\n- 2) second 😀: price. \n- : price. ",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-04",
+   "losses": []
+  },
+  "title": "Loss review 2026-04",
+  "body": "Loss review 2026-04: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {},
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "None JPY 15,000,000"
+    },
+    "title": "  trailing   line sep"
+   }
+  ],
+  "data": {
+   "month": "2026-02",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "  trailing   line sep",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "None JPY 15,000,000"
+    }
+   ]
+  },
+  "title": "Loss review 2026-02",
+  "body": "MODEL:Loss review 2026-02: 2 lost deal(s).\n- : no reason. \n-   trailing   line sep: no reason. None JPY 15,000,000",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-10",
+   "losses": []
+  },
+  "title": "Loss review 2027-10",
+  "body": "Loss review 2027-10: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "Hello 日本 :",
+     "analysis": "Acme Co"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": ""
+    },
+    "title": "²nd →"
+   }
+  ],
+  "data": {
+   "month": "2027-08",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "Acme Co",
+     "lesson": "Hello 日本 :"
+    },
+    {
+     "deal": "²nd →",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-08",
+  "body": "MODEL:Loss review 2027-08: 4 lost deal(s).\n- : price. \n- : price. \n- : no reason. Hello 日本 :\n- ²nd →: price, timing, 日本. ",
+  "entity_id": "loss:2027-08"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-09",
+   "losses": []
+  },
+  "title": "Loss review 2027-09",
+  "body": "Loss review 2027-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "1. first x\ny"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "hot lead _it_"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "analysis": "Initech"
+    },
+    "title": "2) second 2) second"
+   },
+   {
+    "content": {
+     "lesson": ""
+    },
+    "title": "Hello é"
+   }
+  ],
+  "data": {
+   "month": "2027-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "1. first x\ny",
+     "lesson": null
+    },
+    {
+     "deal": "hot lead _it_",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "2) second 2) second",
+     "reasons": [],
+     "analysis": "Initech",
+     "lesson": null
+    },
+    {
+     "deal": "Hello é",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-04",
+  "body": "MODEL:Loss review 2027-04: 4 lost deal(s).\n- : price. \n- hot lead _it_: price. \n- 2) second 2) second: no reason. \n- Hello é: no reason. ",
+  "entity_id": "loss:2027-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "",
+     "analysis": "quotation Hello"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": "line sep"
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "quotation Hello",
+     "lesson": ""
+    },
+    {
+     "deal": "line sep",
+     "reasons": [],
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 2 lost deal(s).\n- : no reason. \n- line sep: no reason. ",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "x\r\ny JPY 15,000,000"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-12",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "x\r\ny JPY 15,000,000",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-12",
+  "body": "MODEL:Loss review 2026-12: 2 lost deal(s).\n- : no reason. \n- : no reason. ",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null,
+     "analysis": "Hello"
+    },
+    "title": "gate →"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "a: hot lead"
+    },
+    "title": "x\ny 1. first"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "x\r\ny a:"
+    },
+    "title": "²nd ²nd"
+   },
+   {
+    "content": {
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2025-12",
+   "losses": [
+    {
+     "deal": "gate →",
+     "reasons": null,
+     "analysis": "Hello",
+     "lesson": null
+    },
+    {
+     "deal": "x\ny 1. first",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "a: hot lead",
+     "lesson": ""
+    },
+    {
+     "deal": "²nd ²nd",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "x\r\ny a:",
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2025-12",
+  "body": "MODEL:Loss review 2025-12: 4 lost deal(s).\n- gate →: no reason. \n- x\ny 1. first: price. \n- ²nd ²nd: price, timing, 日本. \n- : no reason. ",
+  "entity_id": "loss:2025-12"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-07",
+   "losses": []
+  },
+  "title": "Loss review 2027-07",
+  "body": "Loss review 2027-07: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-02",
+   "losses": []
+  },
+  "title": "Loss review 2026-02",
+  "body": "Loss review 2026-02: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "_it_"
+   },
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": "x\r\ny _it_"
+   }
+  ],
+  "data": {
+   "month": "2026-10",
+   "losses": [
+    {
+     "deal": "_it_",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "x\r\ny _it_",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-10",
+  "body": "MODEL:Loss review 2026-10: 2 lost deal(s).\n- _it_: price, timing, 日本. \n- x\r\ny _it_: no reason. ",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "    a:"
+    },
+    "title": "_it_"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": "hot lead"
+   }
+  ],
+  "data": {
+   "month": "2026-05",
+   "losses": [
+    {
+     "deal": "_it_",
+     "reasons": null,
+     "analysis": "    a:",
+     "lesson": ""
+    },
+    {
+     "deal": "hot lead",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-05",
+  "body": "MODEL:Loss review 2026-05: 2 lost deal(s).\n- _it_: no reason. \n- hot lead: price, timing, 日本. ",
+  "entity_id": "loss:2026-05"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ]
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-04",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-04",
+  "body": "MODEL:Loss review 2026-04: 1 lost deal(s).\n- : price, timing, 日本. ",
+  "entity_id": "loss:2026-04"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "x\ny Acme Co",
+     "analysis": ""
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-02",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "",
+     "lesson": "x\ny Acme Co"
+    }
+   ]
+  },
+  "title": "Loss review 2027-02",
+  "body": "MODEL:Loss review 2027-02: 1 lost deal(s).\n- : price. x\ny Acme Co",
+  "entity_id": "loss:2027-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-01",
+   "losses": []
+  },
+  "title": "Loss review 2027-01",
+  "body": "Loss review 2027-01: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-01"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-02",
+   "losses": []
+  },
+  "title": "Loss review 2026-02",
+  "body": "Loss review 2026-02: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ]
+    },
+    "title": "*bold*"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null
+    },
+    "title": "laptop 'q'"
+   }
+  ],
+  "data": {
+   "month": "2026-12",
+   "losses": [
+    {
+     "deal": "*bold*",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "laptop 'q'",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-12",
+  "body": "MODEL:Loss review 2026-12: 2 lost deal(s).\n- *bold*: price. \n- laptop 'q': price. ",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": "٣ items"
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": " x\ny Hello"
+    },
+    "title": "Hello"
+   }
+  ],
+  "data": {
+   "month": "2027-01",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "٣ items",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "Hello",
+     "reasons": null,
+     "analysis": " x\ny Hello",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-01",
+  "body": "MODEL:Loss review 2027-01: 4 lost deal(s).\n- : price, timing, 日本. \n- : no reason. \n- ٣ items: price. \n- Hello: no reason. ",
+  "entity_id": "loss:2027-01"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "²nd x\ny hot lead 日本"
+    },
+    "title": "1. first"
+   }
+  ],
+  "data": {
+   "month": "2026-09",
+   "losses": [
+    {
+     "deal": "1. first",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "²nd x\ny hot lead 日本",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-09",
+  "body": "MODEL:Loss review 2026-09: 1 lost deal(s).\n- 1. first: price. ",
+  "entity_id": "loss:2026-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": ""
+    },
+    "title": "²nd"
+   }
+  ],
+  "data": {
+   "month": "2027-11",
+   "losses": [
+    {
+     "deal": "²nd",
+     "reasons": null,
+     "analysis": null,
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-11",
+  "body": "MODEL:Loss review 2027-11: 1 lost deal(s).\n- ²nd: no reason. ",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "",
+     "analysis": "日本 Acme Co 😀 Acme Co"
+    },
+    "title": "tab\there "
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null
+    },
+    "title": "hot lead ٣ items"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": ""
+    },
+    "title": "SSD 'q'"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": ""
+    },
+    "title": "x\r\ny"
+   }
+  ],
+  "data": {
+   "month": "2027-07",
+   "losses": [
+    {
+     "deal": "tab\there ",
+     "reasons": null,
+     "analysis": "日本 Acme Co 😀 Acme Co",
+     "lesson": ""
+    },
+    {
+     "deal": "hot lead ٣ items",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "SSD 'q'",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": ""
+    },
+    {
+     "deal": "x\r\ny",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-07",
+  "body": "MODEL:Loss review 2027-07: 4 lost deal(s).\n- tab\there : no reason. \n- hot lead ٣ items: no reason. \n- SSD 'q': price, timing, 日本. \n- x\r\ny: price. ",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-03",
+   "losses": []
+  },
+  "title": "Loss review 2027-03",
+  "body": "Loss review 2027-03: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": "²nd \"dq\""
+   }
+  ],
+  "data": {
+   "month": "2027-11",
+   "losses": [
+    {
+     "deal": "²nd \"dq\"",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-11",
+  "body": "MODEL:Loss review 2027-11: 1 lost deal(s).\n- ²nd \"dq\": no reason. ",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "analysis": "→"
+    },
+    "title": "a: :"
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": ""
+    },
+    "title": "x\ny \\back"
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": "Acme Co laptop 日本"
+    },
+    "title": "²nd"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "",
+     "analysis": "²nd"
+    },
+    "title": "*bold*"
+   }
+  ],
+  "data": {
+   "month": "2027-07",
+   "losses": [
+    {
+     "deal": "a: :",
+     "reasons": null,
+     "analysis": "→",
+     "lesson": null
+    },
+    {
+     "deal": "x\ny \\back",
+     "reasons": null,
+     "analysis": "",
+     "lesson": ""
+    },
+    {
+     "deal": "²nd",
+     "reasons": null,
+     "analysis": "Acme Co laptop 日本",
+     "lesson": ""
+    },
+    {
+     "deal": "*bold*",
+     "reasons": null,
+     "analysis": "²nd",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-07",
+  "body": "MODEL:Loss review 2027-07: 4 lost deal(s).\n- a: :: no reason. \n- x\ny \\back: no reason. \n- ²nd: no reason. \n- *bold*: no reason. ",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "laptop a:"
+    },
+    "title": "None a:"
+   }
+  ],
+  "data": {
+   "month": "2026-12",
+   "losses": [
+    {
+     "deal": "None a:",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "laptop a:",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-12",
+  "body": "MODEL:Loss review 2026-12: 1 lost deal(s).\n- None a:: price, timing, 日本. ",
+  "entity_id": "loss:2026-12"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null
+    },
+    "title": "é \\back"
+   }
+  ],
+  "data": {
+   "month": "2027-01",
+   "losses": [
+    {
+     "deal": "é \\back",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-01",
+  "body": "MODEL:Loss review 2027-01: 1 lost deal(s).\n- é \\back: no reason. ",
+  "entity_id": "loss:2027-01"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null
+    },
+    "title": "\"dq\" a:"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "a: quotation"
+   },
+   {
+    "content": {
+     "reasons": []
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": "",
+     "analysis": " 😀"
+    },
+    "title": "x\r\ny hot lead"
+   }
+  ],
+  "data": {
+   "month": "2027-09",
+   "losses": [
+    {
+     "deal": "\"dq\" a:",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "a: quotation",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "x\r\ny hot lead",
+     "reasons": null,
+     "analysis": " 😀",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-09",
+  "body": "MODEL:Loss review 2027-09: 4 lost deal(s).\n- \"dq\" a:: price. \n- a: quotation: price, timing, 日本. \n- : no reason. \n- x\r\ny hot lead: no reason. ",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "1. first",
+     "analysis": "tab\there 2) second line sep"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-02",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "tab\there 2) second line sep",
+     "lesson": "1. first"
+    }
+   ]
+  },
+  "title": "Loss review 2026-02",
+  "body": "MODEL:Loss review 2026-02: 1 lost deal(s).\n- : price, timing, 日本. 1. first",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "analysis": "a: ٣ items SSD _it_"
+    },
+    "title": "2) second"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "\"dq\" Acme Co"
+    },
+    "title": "日本"
+   }
+  ],
+  "data": {
+   "month": "2026-03",
+   "losses": [
+    {
+     "deal": "2) second",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "a: ٣ items SSD _it_",
+     "lesson": null
+    },
+    {
+     "deal": "日本",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "\"dq\" Acme Co"
+    }
+   ]
+  },
+  "title": "Loss review 2026-03",
+  "body": "MODEL:Loss review 2026-03: 2 lost deal(s).\n- 2) second: price. \n- 日本: no reason. \"dq\" Acme Co",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "",
+     "analysis": ""
+    },
+    "title": "²nd"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "analysis": "'q' →"
+    },
+    "title": "hot lead"
+   }
+  ],
+  "data": {
+   "month": "2027-05",
+   "losses": [
+    {
+     "deal": "²nd",
+     "reasons": null,
+     "analysis": "",
+     "lesson": ""
+    },
+    {
+     "deal": "hot lead",
+     "reasons": null,
+     "analysis": "'q' →",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-05",
+  "body": "MODEL:Loss review 2027-05: 2 lost deal(s).\n- ²nd: no reason. \n- hot lead: no reason. ",
+  "entity_id": "loss:2027-05"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-08",
+   "losses": []
+  },
+  "title": "Loss review 2026-08",
+  "body": "Loss review 2026-08: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-11",
+   "losses": []
+  },
+  "title": "Loss review 2026-11",
+  "body": "Loss review 2026-11: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-06",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-06",
+  "body": "MODEL:Loss review 2026-06: 1 lost deal(s).\n- : no reason. ",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-10",
+   "losses": []
+  },
+  "title": "Loss review 2026-10",
+  "body": "Loss review 2026-10: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-10"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "analysis": "line sep a:"
+    },
+    "title": "2) second a:"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": ": : "
+    },
+    "title": "\\back"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "",
+     "analysis": "tab\there None 日本 hot lead"
+    },
+    "title": "٣ items →"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "",
+     "analysis": "é"
+    },
+    "title": "2) second hot lead"
+   }
+  ],
+  "data": {
+   "month": "2027-06",
+   "losses": [
+    {
+     "deal": "2) second a:",
+     "reasons": null,
+     "analysis": "line sep a:",
+     "lesson": null
+    },
+    {
+     "deal": "\\back",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": ": : ",
+     "lesson": ""
+    },
+    {
+     "deal": "٣ items →",
+     "reasons": null,
+     "analysis": "tab\there None 日本 hot lead",
+     "lesson": ""
+    },
+    {
+     "deal": "2) second hot lead",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "é",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2027-06",
+  "body": "MODEL:Loss review 2027-06: 4 lost deal(s).\n- 2) second a:: no reason. \n- \\back: price, timing, 日本. \n- ٣ items →: no reason. \n- 2) second hot lead: price, timing, 日本. ",
+  "entity_id": "loss:2027-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null
+    },
+    "title": "😀"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "analysis": ""
+    },
+    "title": "Hello quotation"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "None JPY 15,000,000 x\ny"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "analysis": "quotation"
+    },
+    "title": "\"dq\""
+   }
+  ],
+  "data": {
+   "month": "2026-01",
+   "losses": [
+    {
+     "deal": "😀",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "Hello quotation",
+     "reasons": [],
+     "analysis": "",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "None JPY 15,000,000 x\ny",
+     "lesson": ""
+    },
+    {
+     "deal": "\"dq\"",
+     "reasons": null,
+     "analysis": "quotation",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-01",
+  "body": "MODEL:Loss review 2026-01: 4 lost deal(s).\n- 😀: no reason. \n- Hello quotation: no reason. \n- : price. \n- \"dq\": no reason. ",
+  "entity_id": "loss:2026-01"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ]
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "",
+     "analysis": ""
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-08",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-08",
+  "body": "MODEL:Loss review 2026-08: 2 lost deal(s).\n- : price. \n- : no reason. ",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "SSD",
+     "analysis": ""
+    },
+    "title": "_it_ é"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "",
+     "analysis": "  _it_ 2) second quotation"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-03",
+   "losses": [
+    {
+     "deal": "_it_ é",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": "SSD"
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": "  _it_ 2) second quotation",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-03",
+  "body": "MODEL:Loss review 2026-03: 2 lost deal(s).\n- _it_ é: price, timing, 日本. SSD\n- : no reason. ",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-07",
+   "losses": []
+  },
+  "title": "Loss review 2027-07",
+  "body": "Loss review 2027-07: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": null,
+     "analysis": "é ²nd  "
+    },
+    "title": "'q'"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "1. first tab\there → quotation"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-11",
+   "losses": [
+    {
+     "deal": "'q'",
+     "reasons": null,
+     "analysis": "é ²nd  ",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "1. first tab\there → quotation",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-11",
+  "body": "MODEL:Loss review 2027-11: 2 lost deal(s).\n- 'q': no reason. \n- : price. ",
+  "entity_id": "loss:2027-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "lesson": null
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ]
+    },
+    "title": "   "
+   }
+  ],
+  "data": {
+   "month": "2026-08",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "   ",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-08",
+  "body": "MODEL:Loss review 2026-08: 2 lost deal(s).\n- : no reason. \n-    : price, timing, 日本. ",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": "",
+     "analysis": "Hello 日本 SSD"
+    },
+    "title": "laptop \"dq\""
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null,
+     "analysis": " x\ny   trailing   x\ny"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": "gate",
+     "analysis": "tab\there SSD 😀"
+    },
+    "title": "a:"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "",
+     "analysis": "SSD Hello Initech"
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-08",
+   "losses": [
+    {
+     "deal": "laptop \"dq\"",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "Hello 日本 SSD",
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": " x\ny   trailing   x\ny",
+     "lesson": null
+    },
+    {
+     "deal": "a:",
+     "reasons": null,
+     "analysis": "tab\there SSD 😀",
+     "lesson": "gate"
+    },
+    {
+     "deal": "",
+     "reasons": [],
+     "analysis": "SSD Hello Initech",
+     "lesson": ""
+    }
+   ]
+  },
+  "title": "Loss review 2026-08",
+  "body": "MODEL:Loss review 2026-08: 4 lost deal(s).\n- laptop \"dq\": price. \n- : no reason. \n- a:: no reason. gate\n- : no reason. ",
+  "entity_id": "loss:2026-08"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": " x\ny a:",
+     "analysis": ""
+    },
+    "title": " 😀"
+   },
+   {
+    "content": {
+     "reasons": [],
+     "lesson": null,
+     "analysis": "line sep Acme Co  SSD"
+    },
+    "title": "\\back JPY 15,000,000"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": null,
+     "analysis": "a: Acme Co"
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-07",
+   "losses": [
+    {
+     "deal": " 😀",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "",
+     "lesson": " x\ny a:"
+    },
+    {
+     "deal": "\\back JPY 15,000,000",
+     "reasons": [],
+     "analysis": "line sep Acme Co  SSD",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "a: Acme Co",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-07",
+  "body": "MODEL:Loss review 2027-07: 4 lost deal(s).\n-  😀: price.  x\ny a:\n- \\back JPY 15,000,000: no reason. \n- : price. \n- : no reason. ",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "lesson": "Hello :"
+    },
+    "title": "\"dq\""
+   },
+   {
+    "content": {
+     "lesson": "²nd tab\there é",
+     "analysis": ""
+    },
+    "title": "*bold* a:"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null
+    },
+    "title": "日本"
+   },
+   {
+    "content": {
+     "lesson": "tab\there gate"
+    },
+    "title": "None _it_"
+   }
+  ],
+  "data": {
+   "month": "2026-11",
+   "losses": [
+    {
+     "deal": "\"dq\"",
+     "reasons": [],
+     "analysis": null,
+     "lesson": "Hello :"
+    },
+    {
+     "deal": "*bold* a:",
+     "reasons": null,
+     "analysis": "",
+     "lesson": "²nd tab\there é"
+    },
+    {
+     "deal": "日本",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "None _it_",
+     "reasons": null,
+     "analysis": null,
+     "lesson": "tab\there gate"
+    }
+   ]
+  },
+  "title": "Loss review 2026-11",
+  "body": "MODEL:Loss review 2026-11: 4 lost deal(s).\n- \"dq\": no reason. Hello :\n- *bold* a:: no reason. ²nd tab\there é\n- 日本: no reason. \n- None _it_: no reason. tab\there gate",
+  "entity_id": "loss:2026-11"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-03",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-03",
+  "body": "MODEL:Loss review 2026-03: 1 lost deal(s).\n- : price, timing, 日本. ",
+  "entity_id": "loss:2026-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-09",
+   "losses": []
+  },
+  "title": "Loss review 2026-09",
+  "body": "Loss review 2026-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [],
+     "analysis": "²nd *bold* 1. first"
+    },
+    "title": "٣ items quotation"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": "a: é SSD",
+     "analysis": ""
+    },
+    "title": "2) second Acme Co"
+   }
+  ],
+  "data": {
+   "month": "2027-03",
+   "losses": [
+    {
+     "deal": "٣ items quotation",
+     "reasons": [],
+     "analysis": "²nd *bold* 1. first",
+     "lesson": null
+    },
+    {
+     "deal": "2) second Acme Co",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": "a: é SSD"
+    }
+   ]
+  },
+  "title": "Loss review 2027-03",
+  "body": "MODEL:Loss review 2027-03: 2 lost deal(s).\n- ٣ items quotation: no reason. \n- 2) second Acme Co: price, timing, 日本. a: é SSD",
+  "entity_id": "loss:2027-03"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-05",
+   "losses": []
+  },
+  "title": "Loss review 2027-05",
+  "body": "Loss review 2027-05: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-05"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-09",
+   "losses": []
+  },
+  "title": "Loss review 2027-09",
+  "body": "Loss review 2027-09: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-09"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "analysis": "x\r\ny :"
+    },
+    "title": "2) second"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "  trailing  "
+    },
+    "title": "é None"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price"
+     ],
+     "lesson": ""
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2027-04",
+   "losses": [
+    {
+     "deal": "2) second",
+     "reasons": [
+      "price"
+     ],
+     "analysis": "x\r\ny :",
+     "lesson": null
+    },
+    {
+     "deal": "é None",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "  trailing  ",
+     "lesson": null
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price"
+     ],
+     "analysis": null,
+     "lesson": ""
+    },
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-04",
+  "body": "MODEL:Loss review 2027-04: 4 lost deal(s).\n- 2) second: price. \n- é None: price, timing, 日本. \n- : price. \n- : price, timing, 日本. ",
+  "entity_id": "loss:2027-04"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2027-01",
+   "losses": []
+  },
+  "title": "Loss review 2027-01",
+  "body": "Loss review 2027-01: 0 lost deal(s).\n",
+  "entity_id": "loss:2027-01"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": ""
+    },
+    "title": ""
+   }
+  ],
+  "data": {
+   "month": "2026-02",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": "",
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-02",
+  "body": "MODEL:Loss review 2026-02: 1 lost deal(s).\n- : price, timing, 日本. ",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-06",
+   "losses": []
+  },
+  "title": "Loss review 2026-06",
+  "body": "Loss review 2026-06: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-06"
+ },
+ {
+  "rows": [],
+  "data": {
+   "month": "2026-02",
+   "losses": []
+  },
+  "title": "Loss review 2026-02",
+  "body": "Loss review 2026-02: 0 lost deal(s).\n",
+  "entity_id": "loss:2026-02"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": null
+    },
+    "title": ""
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null
+    },
+    "title": "None 😀"
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": "  trailing  "
+   },
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null
+    },
+    "title": ":"
+   }
+  ],
+  "data": {
+   "month": "2027-07",
+   "losses": [
+    {
+     "deal": "",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "None 😀",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": "  trailing  ",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    },
+    {
+     "deal": ":",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2027-07",
+  "body": "MODEL:Loss review 2027-07: 4 lost deal(s).\n- : no reason. \n- None 😀: no reason. \n-   trailing  : price, timing, 日本. \n- :: price, timing, 日本. ",
+  "entity_id": "loss:2027-07"
+ },
+ {
+  "rows": [
+   {
+    "content": {
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "lesson": null,
+     "analysis": " → : x\ny"
+    },
+    "title": "hot lead Hello"
+   },
+   {
+    "content": {
+     "reasons": null,
+     "lesson": null
+    },
+    "title": "٣ items Acme Co"
+   }
+  ],
+  "data": {
+   "month": "2026-08",
+   "losses": [
+    {
+     "deal": "hot lead Hello",
+     "reasons": [
+      "price",
+      "timing",
+      "日本"
+     ],
+     "analysis": " → : x\ny",
+     "lesson": null
+    },
+    {
+     "deal": "٣ items Acme Co",
+     "reasons": null,
+     "analysis": null,
+     "lesson": null
+    }
+   ]
+  },
+  "title": "Loss review 2026-08",
+  "body": "MODEL:Loss review 2026-08: 2 lost deal(s).\n- hot lead Hello: price, timing, 日本. \n- ٣ items Acme Co: no reason. ",
+  "entity_id": "loss:2026-08"
+ }
+]

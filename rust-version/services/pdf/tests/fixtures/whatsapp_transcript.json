@@ -1,0 +1,273 @@
+{
+ "template": "whatsapp_transcript",
+ "data": {
+  "company_name": "Your Company Ltd",
+  "company_legal": "Your Company Limited",
+  "company_email": "hello@example.com",
+  "company_phone": "+1 555 0100",
+  "company_website": "example.com",
+  "message_count": 40,
+  "chat_title": "Jordan Lee",
+  "contact_name": "Jordan (Acme Ltd)",
+  "chat_id": "15550100042@c.us",
+  "period": "19 to 22 October 2026",
+  "exported_by": "Alex Owner",
+  "exported_at": "22 October 2026 17:00",
+  "messages": [
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "09:00",
+    "day_separator": "19 October 2026",
+    "body": "Hello, good morning!"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "09:07",
+    "body": "Sure, sending it now. 👍"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "09:14",
+    "body": "What is the price per laptop?"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "09:21",
+    "quoted": "Can you send the quotation?",
+    "body": "日本語のテキストも大丈夫です"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "09:28",
+    "body": "Line\nbreaks\nkept"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "09:35",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMCAIAAAC283GzAAACCElEQVR42u3WsYnDABREQZWtclyiSnBwOLBjPePlRjxQpkAMyz+u13M+Tumujuv98Ud0D6y/F1tKYH3Ywku3wTJdCmGxpQoWXgphsaUKloteFSzTpRCW6VIFy3QphMWWKlh4KYTFlipYLnpVsEyXQlimSxUs06UQFluqYOGlEBZbOrpPu+jBOr/Dy+8Gy3Tp52GZLrDY0iAsvMBiS4OwXPRgmS4NwjJdYJkuDcJiCyy8NAiLLbBc9FqDZbrAMl0ahGW6wGJLg7DwAostDcJy0YNlusDat4UXWKYLLLb0n2HhBRZbYLnoBZbpAst0gWW6BBZbYOEFFlsCy0UPlukCy3QJLNMFFltg4SWw2ALLRQ+W6RJYpgss0wUWWwILL7DYAostvMAyXWCZLrBkusBiCyy8wBJbYLnowTJdYMl0gWW6wGILLOEFFltguejBkukCy3SBZbrAEltg4QUWW2DJRQ+W6QLLdIEl0wUWW2DhNckLLLbAYmuHF1imCyy2dqYLLNMFlnZsgYUXWNqxBZaLHiztTBdYpgss7UwXWGyBpR1eYLEFlnYuerBMF1jamS6wTBdY2rEFFl4XWJqxBRZbCS+wlEwXWEqmCywl0wWWEltgKeEFlhJbYCm56MFSMl1gKZkusJRMF1hKbIGlhBdYSmyBpeSiB0vJdIGlZLrAUjJdYCmxBZYSXk9AlNpk7DnpfQAAAABJRU5ErkJggg==",
+    "body": "<b>not bold</b> & escaped"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "10:42",
+    "placeholder": "[voice note, 0:42]"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "10:49",
+    "body": "Sure, sending it now. 👍"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "10:56",
+    "body": "What is the price per laptop?"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "10:03",
+    "body": "日本語のテキストも大丈夫です"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "10:10",
+    "day_separator": "20 October 2026",
+    "quoted": "Can you send the quotation?",
+    "body": "Line\nbreaks\nkept"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "10:17",
+    "body": "<b>not bold</b> & escaped"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "11:24",
+    "body": "Hello, good morning!"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "11:31",
+    "body": "Sure, sending it now. 👍"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "11:38",
+    "body": "What is the price per laptop?"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "11:45",
+    "body": "日本語のテキストも大丈夫です"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "11:52",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMCAIAAAC283GzAAACCElEQVR42u3WsYnDABREQZWtclyiSnBwOLBjPePlRjxQpkAMyz+u13M+Tumujuv98Ud0D6y/F1tKYH3Ywku3wTJdCmGxpQoWXgphsaUKloteFSzTpRCW6VIFy3QphMWWKlh4KYTFlipYLnpVsEyXQlimSxUs06UQFluqYOGlEBZbOrpPu+jBOr/Dy+8Gy3Tp52GZLrDY0iAsvMBiS4OwXPRgmS4NwjJdYJkuDcJiCyy8NAiLLbBc9FqDZbrAMl0ahGW6wGJLg7DwAostDcJy0YNlusDat4UXWKYLLLb0n2HhBRZbYLnoBZbpAst0gWW6BBZbYOEFFlsCy0UPlukCy3QJLNMFFltg4SWw2ALLRQ+W6RJYpgss0wUWWwILL7DYAostvMAyXWCZLrBkusBiCyy8wBJbYLnowTJdYMl0gWW6wGILLOEFFltguejBkukCy3SBZbrAEltg4QUWW2DJRQ+W6QLLdIEl0wUWW2DhNckLLLbAYmuHF1imCyy2dqYLLNMFlnZsgYUXWNqxBZaLHiztTBdYpgss7UwXWGyBpR1eYLEFlnYuerBMF1jamS6wTBdY2rEFFl4XWJqxBRZbCS+wlEwXWEqmCywl0wWWEltgKeEFlhJbYCm56MFSMl1gKZkusJRMF1hKbIGlhBdYSmyBpeSiB0vJdIGlZLrAUjJdYCmxBZYSXk9AlNpk7DnpfQAAAABJRU5ErkJggg==",
+    "body": "Line\nbreaks\nkept"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "11:59",
+    "quoted": "Can you send the quotation?",
+    "body": "<b>not bold</b> & escaped"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "12:06",
+    "body": "Hello, good morning!"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "12:13",
+    "placeholder": "[voice note, 0:42]"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "12:20",
+    "day_separator": "21 October 2026",
+    "body": "What is the price per laptop?"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "12:27",
+    "body": "日本語のテキストも大丈夫です"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "12:34",
+    "body": "Line\nbreaks\nkept"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "12:41",
+    "body": "<b>not bold</b> & escaped"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "13:48",
+    "quoted": "Can you send the quotation?",
+    "body": "Hello, good morning!"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "13:55",
+    "body": "Sure, sending it now. 👍"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "13:02",
+    "body": "What is the price per laptop?"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "13:09",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMCAIAAAC283GzAAACCElEQVR42u3WsYnDABREQZWtclyiSnBwOLBjPePlRjxQpkAMyz+u13M+Tumujuv98Ud0D6y/F1tKYH3Ywku3wTJdCmGxpQoWXgphsaUKloteFSzTpRCW6VIFy3QphMWWKlh4KYTFlipYLnpVsEyXQlimSxUs06UQFluqYOGlEBZbOrpPu+jBOr/Dy+8Gy3Tp52GZLrDY0iAsvMBiS4OwXPRgmS4NwjJdYJkuDcJiCyy8NAiLLbBc9FqDZbrAMl0ahGW6wGJLg7DwAostDcJy0YNlusDat4UXWKYLLLb0n2HhBRZbYLnoBZbpAst0gWW6BBZbYOEFFlsCy0UPlukCy3QJLNMFFltg4SWw2ALLRQ+W6RJYpgss0wUWWwILL7DYAostvMAyXWCZLrBkusBiCyy8wBJbYLnowTJdYMl0gWW6wGILLOEFFltguejBkukCy3SBZbrAEltg4QUWW2DJRQ+W6QLLdIEl0wUWW2DhNckLLLbAYmuHF1imCyy2dqYLLNMFlnZsgYUXWNqxBZaLHiztTBdYpgss7UwXWGyBpR1eYLEFlnYuerBMF1jamS6wTBdY2rEFFl4XWJqxBRZbCS+wlEwXWEqmCywl0wWWEltgKeEFlhJbYCm56MFSMl1gKZkusJRMF1hKbIGlhBdYSmyBpeSiB0vJdIGlZLrAUjJdYCmxBZYSXk9AlNpk7DnpfQAAAABJRU5ErkJggg==",
+    "body": "日本語のテキストも大丈夫です"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "13:16",
+    "body": "Line\nbreaks\nkept"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "13:23",
+    "body": "<b>not bold</b> & escaped"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "14:30",
+    "day_separator": "22 October 2026",
+    "body": "Hello, good morning!"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "14:37",
+    "quoted": "Can you send the quotation?",
+    "body": "Sure, sending it now. 👍"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "14:44",
+    "placeholder": "[voice note, 0:42]"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "14:51",
+    "body": "日本語のテキストも大丈夫です"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "14:58",
+    "body": "Line\nbreaks\nkept"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "14:05",
+    "body": "<b>not bold</b> & escaped"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "15:12",
+    "body": "Hello, good morning!"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "15:19",
+    "body": "Sure, sending it now. 👍"
+   },
+   {
+    "sender": "Jordan",
+    "from_me": false,
+    "time": "15:26",
+    "quoted": "Can you send the quotation?",
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAACMCAIAAAC283GzAAACCElEQVR42u3WsYnDABREQZWtclyiSnBwOLBjPePlRjxQpkAMyz+u13M+Tumujuv98Ud0D6y/F1tKYH3Ywku3wTJdCmGxpQoWXgphsaUKloteFSzTpRCW6VIFy3QphMWWKlh4KYTFlipYLnpVsEyXQlimSxUs06UQFluqYOGlEBZbOrpPu+jBOr/Dy+8Gy3Tp52GZLrDY0iAsvMBiS4OwXPRgmS4NwjJdYJkuDcJiCyy8NAiLLbBc9FqDZbrAMl0ahGW6wGJLg7DwAostDcJy0YNlusDat4UXWKYLLLb0n2HhBRZbYLnoBZbpAst0gWW6BBZbYOEFFlsCy0UPlukCy3QJLNMFFltg4SWw2ALLRQ+W6RJYpgss0wUWWwILL7DYAostvMAyXWCZLrBkusBiCyy8wBJbYLnowTJdYMl0gWW6wGILLOEFFltguejBkukCy3SBZbrAEltg4QUWW2DJRQ+W6QLLdIEl0wUWW2DhNckLLLbAYmuHF1imCyy2dqYLLNMFlnZsgYUXWNqxBZaLHiztTBdYpgss7UwXWGyBpR1eYLEFlnYuerBMF1jamS6wTBdY2rEFFl4XWJqxBRZbCS+wlEwXWEqmCywl0wWWEltgKeEFlhJbYCm56MFSMl1gKZkusJRMF1hKbIGlhBdYSmyBpeSiB0vJdIGlZLrAUjJdYCmxBZYSXk9AlNpk7DnpfQAAAABJRU5ErkJggg==",
+    "body": "What is the price per laptop?"
+   },
+   {
+    "sender": "Your Company (Sales)",
+    "from_me": true,
+    "time": "15:33",
+    "body": "日本語のテキストも大丈夫です"
+   }
+  ]
+ }
+}

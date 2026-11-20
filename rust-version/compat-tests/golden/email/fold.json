@@ -1,0 +1,2597 @@
+[
+ {
+  "name": "References",
+  "value": "Initech Globex =?utf-8?q?x?= İ Re: c,d   x\ty c,d Re: x\ty Globex naïve  a;b <msg.1@x> ",
+  "out": "References: =?utf-8?b?SW5pdGVjaCBHbG9iZXggPT91dGYtOD9xP3g/PSDEsCBSZTogYyxk?=\r\n =?utf-8?b?IMKgIHgJeSBjLGQgUmU6IHgJeSBHbG9iZXggbmHDr3ZlICBhO2IgPG1zZy4xQHg+?=\r\n =?utf-8?b?IA==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "QUO-2026-0001 <msg.1@x> c,d",
+  "out": "Content-Disposition: QUO-2026-0001 <msg.1@x> c,d\r\n"
+ },
+ {
+  "name": "References",
+  "value": "  İ   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d 😀  İ café — c,d café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp Quotation Ltd",
+  "out": "References: =?utf-8?q?=C2=A0_=C4=B0_=C2=A0_LongTokenWithoutAnySpacesLongToke?=\r\n =?utf-8?q?nWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?es_c=2Cd_=F0=9F=98=80__=C4=B0_caf=C3=A9_=E2=80=94_c=2Cd_caf=C3=A9?=\r\n =?utf-8?q?_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpaces_Corp_Quotation_Ltd?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "x\ty",
+  "out": "From: x\ty\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Corp  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces — Globex Globex",
+  "out": "Content-Disposition: =?utf-8?q?Corp__LongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_?=\r\n =?utf-8?q?=E2=80=94_Globex_Globex?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "😀 x\ty QUO-2026-0001 x\ty Globex QUO-2026-0001 café Quotation a;b Re: naïve Quotation Quotation 😀 — x\ty naïve =?utf-8?q?x?= Corp x\ty Quotation 😀 Quotation Corp",
+  "out": "Subject: =?utf-8?b?8J+YgCB4CXkgUVVPLTIwMjYtMDAwMSB4CXkgR2xvYmV4IFFVTy0yMDI2?=\r\n =?utf-8?b?LTAwMDEgY2Fmw6kgUXVvdGF0aW9uIGE7YiBSZTogbmHDr3ZlIFF1b3RhdGlvbiBR?=\r\n =?utf-8?b?dW90YXRpb24g8J+YgCDigJQgeAl5IG5hw692ZSA9P3V0Zi04P3E/eD89IENvcnAg?=\r\n =?utf-8?b?eAl5IFF1b3RhdGlvbiDwn5iAIFF1b3RhdGlvbiBDb3Jw?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Quotation café Quotation Initech café naïve c,d 日本語 x\ty a;b Quotation café Globex Corp İ",
+  "out": "Subject: =?utf-8?b?UXVvdGF0aW9uIGNhZsOpIFF1b3RhdGlvbiBJbml0ZWNoIGNhZsOpIG5h?=\r\n =?utf-8?b?w692ZSBjLGQg5pel5pys6KqeIHgJeSBhO2IgUXVvdGF0aW9uIGNhZsOpIEdsb2Jl?=\r\n =?utf-8?b?eCBDb3JwIMSw?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "日本語 Corp café x\ty naïve 😀",
+  "out": "From: =?utf-8?b?5pel5pys6KqeIENvcnAgY2Fmw6kgeAl5IG5hw692ZSDwn5iA?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "ΣΟΦΟΣ café Globex Quotation",
+  "out": "Content-Disposition: =?utf-8?b?zqPOn86mzp/OoyBjYWbDqSBHbG9iZXggUXVvdGF0aW9u?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "İ Re: =?utf-8?q?x?=",
+  "out": "References: =?utf-8?b?xLAgUmU6ID0/dXRmLTg/cT94Pz0=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "<msg.1@x> Quotation =?utf-8?q?x?= <msg.1@x> a;b 😀 日本語 a;b —",
+  "out": "References: =?utf-8?b?PG1zZy4xQHg+IFF1b3RhdGlvbiA9P3V0Zi04P3E/eD89IDxtc2cu?=\r\n =?utf-8?b?MUB4PiBhO2Ig8J+YgCDml6XmnKzoqp4gYTtiIOKAlA==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "x\ty x\ty İ Globex   =?utf-8?q?x?=",
+  "out": "From: =?utf-8?b?eAl5IHgJeSDEsCBHbG9iZXggICA9P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "=?utf-8?q?x?= LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ 日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces  a;b",
+  "out": "List-Unsubscribe: =?utf-8?q?=3D=3Futf-8=3Fq=3Fx=3F=3D_LongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpaces_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_=E6=97=A5=E6=9C=AC?=\r\n =?utf-8?q?=E8=AA=9E_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpaces__a=3Bb?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Corp 日本語 <msg.1@x> İ   Initech",
+  "out": "List-Unsubscribe: =?utf-8?b?Q29ycCDml6XmnKzoqp4gPG1zZy4xQHg+IMSwIMKgIEluaXRl?=\r\n =?utf-8?b?Y2g=?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "QUO-2026-0001 Globex x\ty",
+  "out": "From: QUO-2026-0001 Globex x\ty\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "=?utf-8?q?x?= 日本語  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "Subject: =?utf-8?q?=3D=3Futf-8=3Fq=3Fx=3F=3D_=E6=97=A5=E6=9C=AC=E8=AA=9E__Lo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpacesLongTokenWithoutAnySpaces?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "naïve Corp",
+  "out": "List-Unsubscribe: =?utf-8?q?na=C3=AFve_Corp?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "QUO-2026-0001 Quotation Globex  a;b a;b 日本語",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?UVVPLTIwMjYtMDAwMSBR?=\r\n =?utf-8?b?dW90YXRpb24gR2xvYmV4ICBhO2IgYTtiIOaXpeacrOiqng==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "<msg.1@x> Corp a;b 日本語 <msg.1@x> x\ty Initech —   İ",
+  "out": "Content-Disposition: =?utf-8?b?PG1zZy4xQHg+IENvcnAgYTtiIOaXpeacrOiqniA8bXNn?=\r\n =?utf-8?b?LjFAeD4geAl5IEluaXRlY2gg4oCUIMKgIMSw?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "x\ty Re Ltd: İ ΣΟΦΟΣ Quotation",
+  "out": "Subject: =?utf-8?b?eAl5IFJlIEx0ZDogxLAgzqPOn86mzp/OoyBRdW90YXRpb24=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "<msg.1@x> 日本語 ΣΟΦΟΣ   Corp x\ty",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?PG1zZy4xQHg+IOaXpQ==?=\r\n =?utf-8?b?5pys6KqeIM6jzp/Ops6fzqMgwqAgQ29ycCB4CXk=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "<msg.1@x> Initech c,d Initech    café ΣΟΦΟΣ 😀 QUO-2026-0001 Initech Ltd  c,d naïve Corp  a;b",
+  "out": "Cc: =?utf-8?b?PG1zZy4xQHg+IEluaXRlY2ggYyxkIEluaXRlY2ggwqAgIGNhZsOpIM6jzp8=?=\r\n =?utf-8?b?zqbOn86jIPCfmIAgUVVPLTIwMjYtMDAwMSBJbml0ZWNoIEx0ZCAgYyxkIG5hw692?=\r\n =?utf-8?b?ZSBDb3JwICBhO2I=?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Initech naïve LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces QUO-2026-0001 Corp <msg.1@x> Re:  x\ty   Initech —   Re: ΣΟΦΟΣ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp ΣΟΦΟΣ 😀 <msg.1@x> 日本語 a;b 😀 Initech",
+  "out": "List-Unsubscribe: =?utf-8?b?SW5pdGVjaCBuYcOvdmUgTG9uZ1Rva2VuV2l0aG91dEFueVNw?=\r\n =?utf-8?b?YWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55?=\r\n =?utf-8?b?U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlcyBRVU8tMjAyNi0wMDAxIENv?=\r\n =?utf-8?b?cnAgPG1zZy4xQHg+IFJlOiAgeAl5IMKgIEluaXRlY2gg4oCUIMKgIFJlOiDOo86f?=\r\n =?utf-8?b?zqbOn86jIExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0?=\r\n =?utf-8?b?QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhv?=\r\n =?utf-8?b?dXRBbnlTcGFjZXMgQ29ycCDOo86fzqbOn86jIPCfmIAgPG1zZy4xQHg+IOaXpQ==?=\r\n =?utf-8?b?5pys6KqeIGE7YiDwn5iAIEluaXRlY2g=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Re:",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: Re:\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "References",
+  "value": "ΣΟΦΟΣ",
+  "out": "References: =?utf-8?b?zqPOn86mzp/Oow==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "x\ty =?utf-8?q?x?= LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d =?utf-8?q?x?= QUO-2026-0001 QUO-2026-0001 <msg.1@x> İ Quotation ΣΟΦΟΣ",
+  "out": "From: =?utf-8?q?x=09y_=3D=3Futf-8=3Fq=3Fx=3F=3D_LongTokenWithoutAnySpacesLon?=\r\n =?utf-8?q?gTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAn?=\r\n =?utf-8?q?ySpaces_c=2Cd_=3D=3Futf-8=3Fq=3Fx=3F=3D_QUO-2026-0001_QUO-2026-00?=\r\n =?utf-8?q?01_=3Cmsg=2E1=40x=3E_=C4=B0_Quotation_=CE=A3=CE=9F=CE=A6=CE=9F?=\r\n =?utf-8?q?=CE=A3?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "c,d",
+  "out": "In-Reply-To: c,d\r\n"
+ },
+ {
+  "name": "To",
+  "value": "  Re: — Initech 日本語 QUO-2026-0001 Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces <msg.1@x>",
+  "out": "To: =?utf-8?q?__Re=3A_=E2=80=94_Initech_=E6=97=A5=E6=9C=AC=E8=AA=9E_QUO-2026?=\r\n =?utf-8?q?-0001_Quotation_LongTokenWithoutAnySpacesLongTokenWithoutAnySpace?=\r\n =?utf-8?q?sLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=3Cmsg=2E1=40?=\r\n =?utf-8?q?x=3E?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Globex 日本語 Re: x\ty",
+  "out": "List-Unsubscribe: =?utf-8?b?R2xvYmV4IOaXpeacrOiqniBSZTogeAl5?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Globex",
+  "out": "References: Globex\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "İ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp İ Initech Corp naïve 日本語 Initech Initech Initech 😀 <msg.1@x> — QUO-2026-0001 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Initech LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Initech İ =?utf-8?q?x?=",
+  "out": "Cc: =?utf-8?q?=C4=B0_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpaces_Corp_=C4=B0_Initech?=\r\n =?utf-8?q?_Corp_na=C3=AFve_=E6=97=A5=E6=9C=AC=E8=AA=9E_Initech_Initech_Init?=\r\n =?utf-8?q?ech_=F0=9F=98=80_=3Cmsg=2E1=40x=3E_=E2=80=94_QUO-2026-0001_LongTo?=\r\n =?utf-8?q?kenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySp?=\r\n =?utf-8?q?acesLongTokenWithoutAnySpaces_Initech_LongTokenWithoutAnySpacesLo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpaces_Initech_=C4=B0_=3D=3Futf-8=3Fq=3Fx=3F=3D?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "x\ty <msg.1@x> 😀 😀 c,d Initech İ =?utf-8?q?x?= <msg.1@x> x\ty QUO-2026-0001   a;b 😀 QUO-2026-0001 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ QUO-2026-0001 c,d 😀 a;b",
+  "out": "List-Unsubscribe: =?utf-8?b?eAl5IDxtc2cuMUB4PiDwn5iAIPCfmIAgYyxkIEluaXRlY2gg?=\r\n =?utf-8?b?xLAgPT91dGYtOD9xP3g/PSA8bXNnLjFAeD4geAl5IFFVTy0yMDI2LTAwMDEgwqAg?=\r\n =?utf-8?b?YTtiIPCfmIAgUVVPLTIwMjYtMDAwMSBMb25nVG9rZW5XaXRob3V0QW55U3BhY2Vz?=\r\n =?utf-8?b?TG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFj?=\r\n =?utf-8?b?ZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzIM6jzp/Ops6fzqMgUVVPLTIwMjYt?=\r\n =?utf-8?b?MDAwMSBjLGQg8J+YgCBhO2I=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "c,d 😀",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?YyxkIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces  naïve Globex a;b Initech İ Globex <msg.1@x> Initech QUO-2026-0001 İ Quotation c,d  a;b LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces — Quotation ",
+  "out": "Subject: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpaces__na=C3=AFve_Globex_a?=\r\n =?utf-8?q?=3Bb_Initech_=C4=B0_Globex_=3Cmsg=2E1=40x=3E_Initech_QUO-2026-000?=\r\n =?utf-8?q?1_=C4=B0_Quotation_c=2Cd__a=3Bb_LongTokenWithoutAnySpacesLongToke?=\r\n =?utf-8?q?nWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?es_=E2=80=94_Quotation_?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Re: x\ty — <msg.1@x> c,d — Corp c,d Globex café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces x\ty",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?Re=3A_x=09y_=E2=80=94?=\r\n =?utf-8?q?_=3Cmsg=2E1=40x=3E_c=2Cd_=E2=80=94_Corp_c=2Cd_Globex_caf=C3=A9_Lo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpacesLongTokenWithoutAnySpaces_x=09y?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "QUO-2026-0001 — café x\ty <msg.1@x> 日本語 ",
+  "out": "To: =?utf-8?b?UVVPLTIwMjYtMDAwMSDigJQgY2Fmw6kgeAl5IDxtc2cuMUB4PiDml6XmnKw=?=\r\n =?utf-8?b?6KqeIA==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "<msg.1@x> c,d — naïve Re: 😀 c,d Quotation QUO-2026-0001 a;b Globex café",
+  "out": "Cc: =?utf-8?b?PG1zZy4xQHg+IGMsZCDigJQgbmHDr3ZlIFJlOiDwn5iAIGMsZCBRdW90YXRp?=\r\n =?utf-8?b?b24gUVVPLTIwMjYtMDAwMSBhO2IgR2xvYmV4IGNhZsOp?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd x\ty",
+  "out": "In-Reply-To: \r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n Ltd x\ty\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "café café café  naïve",
+  "out": "Cc: =?utf-8?b?Y2Fmw6kgY2Fmw6kgY2Fmw6kgIG5hw692ZQ==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": " Globex Ltd",
+  "out": "Cc:  Globex Ltd\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Re: ΣΟΦΟΣ İ café Initech =?utf-8?q?x?= Globex 😀 Quotation İ c,d Quotation  naïve ΣΟΦΟΣ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?UmU6IM6jzp/Ops6fzqMg?=\r\n =?utf-8?b?xLAgY2Fmw6kgSW5pdGVjaCA9P3V0Zi04P3E/eD89IEdsb2JleCDwn5iAIFF1b3Rh?=\r\n =?utf-8?b?dGlvbiDEsCBjLGQgUXVvdGF0aW9uICBuYcOvdmUgzqPOn86mzp/Oow==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Quotation QUO-2026-0001 Ltd   café <msg.1@x> Re: QUO-2026-0001 😀 a;b",
+  "out": "Subject: =?utf-8?b?UXVvdGF0aW9uIFFVTy0yMDI2LTAwMDEgTHRkIMKgIGNhZsOpIDxtc2cu?=\r\n =?utf-8?b?MUB4PiBSZTogUVVPLTIwMjYtMDAwMSDwn5iAIGE7Yg==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Quotation",
+  "out": "Subject: Quotation\r\n"
+ },
+ {
+  "name": "From",
+  "value": "<msg.1@x> ",
+  "out": "From: <msg.1@x> \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "ΣΟΦΟΣ",
+  "out": "List-Unsubscribe: =?utf-8?b?zqPOn86mzp/Oow==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "",
+  "out": "From: \r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Re: ΣΟΦΟΣ Re: c,d LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "List-Unsubscribe: =?utf-8?q?Re=3A_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_Re=3A_c=2Cd?=\r\n =?utf-8?q?_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpaces?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Corp İ Re: naïve Quotation   =?utf-8?q?x?= =?utf-8?q?x?=",
+  "out": "References: =?utf-8?b?Q29ycCDEsCBSZTogbmHDr3ZlIFF1b3RhdGlvbiDCoCA9P3V0Zi04?=\r\n =?utf-8?b?P3E/eD89ID0/dXRmLTg/cT94Pz0=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Quotation",
+  "out": "In-Reply-To: Quotation\r\n"
+ },
+ {
+  "name": "References",
+  "value": "  Globex Ltd <msg.1@x> Re:",
+  "out": "References: =?utf-8?b?wqAgR2xvYmV4IEx0ZCA8bXNnLjFAeD4gUmU6?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": " Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "References:  Re:\r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "café <msg.1@x> naïve x\ty 😀",
+  "out": "Subject: =?utf-8?b?Y2Fmw6kgPG1zZy4xQHg+IG5hw692ZSB4CXkg8J+YgA==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "— 😀 Corp Corp Ltd — <msg.1@x> Corp — =?utf-8?q?x?= Corp <msg.1@x> İ <msg.1@x> café 日本語",
+  "out": "Subject: =?utf-8?b?4oCUIPCfmIAgQ29ycCBDb3JwIEx0ZCDigJQgPG1zZy4xQHg+IENvcnAg?=\r\n =?utf-8?b?4oCUID0/dXRmLTg/cT94Pz0gQ29ycCA8bXNnLjFAeD4gxLAgPG1zZy4xQHg+IGNh?=\r\n =?utf-8?b?ZsOpIOaXpeacrOiqng==?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "naïve Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?na=C3=AFve_Re=3A_Long?=\r\n =?utf-8?q?TokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAny?=\r\n =?utf-8?q?SpacesLongTokenWithoutAnySpaces_caf=C3=A9?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Corp 😀",
+  "out": "From: =?utf-8?b?Q29ycCDwn5iA?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "From",
+  "value": "日本語 café 😀",
+  "out": "From: =?utf-8?b?5pel5pys6KqeIGNhZsOpIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "<msg.1@x> Quotation café <msg.1@x> —",
+  "out": "From: =?utf-8?b?PG1zZy4xQHg+IFF1b3RhdGlvbiBjYWbDqSA8bXNnLjFAeD4g4oCU?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "=?utf-8?q?x?= 😀 café İ   naïve Corp",
+  "out": "References: =?utf-8?b?PT91dGYtOD9xP3g/PSDwn5iAIGNhZsOpIMSwIMKgIG5hw692ZSBD?=\r\n =?utf-8?b?b3Jw?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "x\ty Re: QUO-2026-0001 İ QUO-2026-0001 Globex =?utf-8?q?x?= café İ Corp =?utf-8?q?x?= c,d Quotation café ΣΟΦΟΣ café c,d 😀 Corp café x\ty c,d",
+  "out": "List-Unsubscribe: =?utf-8?b?eAl5IFJlOiBRVU8tMjAyNi0wMDAxIMSwIFFVTy0yMDI2LTAw?=\r\n =?utf-8?b?MDEgR2xvYmV4ID0/dXRmLTg/cT94Pz0gY2Fmw6kgxLAgQ29ycCA9P3V0Zi04P3E/?=\r\n =?utf-8?b?eD89IGMsZCBRdW90YXRpb24gY2Fmw6kgzqPOn86mzp/OoyBjYWbDqSBjLGQg?=\r\n =?utf-8?b?8J+YgCBDb3JwIGNhZsOpIHgJeSBjLGQ=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "x\ty naïve LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd a;b LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b",
+  "out": "References: =?utf-8?q?x=09y_na=C3=AFve_LongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_L?=\r\n =?utf-8?q?td_a=3Bb_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpacesLongTokenWithoutAnySpaces_a=3Bb?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "  QUO-2026-0001 Globex c,d Initech  😀  naïve ΣΟΦΟΣ Corp",
+  "out": "In-Reply-To: =?utf-8?b?wqAgUVVPLTIwMjYtMDAwMSBHbG9iZXggYyxkIEluaXRlY2ggIA==?=\r\n =?utf-8?b?8J+YgCAgbmHDr3ZlIM6jzp/Ops6fzqMgQ29ycA==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Quotation Corp",
+  "out": "References: Quotation Corp\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "a;b <msg.1@x> Quotation café 😀 <msg.1@x> 日本語 =?utf-8?q?x?= café =?utf-8?q?x?= QUO-2026-0001 naïve  日本語 日本語 Quotation     naïve c,d x\ty <msg.1@x> 日本語 ΣΟΦΟΣ Re: <msg.1@x> café QUO-2026-0001 QUO-2026-0001",
+  "out": "List-Unsubscribe: =?utf-8?b?YTtiIDxtc2cuMUB4PiBRdW90YXRpb24gY2Fmw6kg8J+YgCA8?=\r\n =?utf-8?b?bXNnLjFAeD4g5pel5pys6KqeID0/dXRmLTg/cT94Pz0gY2Fmw6kgPT91dGYtOD9x?=\r\n =?utf-8?b?P3g/PSBRVU8tMjAyNi0wMDAxIG5hw692ZSAg5pel5pys6KqeIOaXpeacrOiqniBR?=\r\n =?utf-8?b?dW90YXRpb24gwqAgwqAgbmHDr3ZlIGMsZCB4CXkgPG1zZy4xQHg+IOaXpeacrA==?=\r\n =?utf-8?b?6KqeIM6jzp/Ops6fzqMgUmU6IDxtc2cuMUB4PiBjYWbDqSBRVU8tMjAyNi0wMDAx?=\r\n =?utf-8?b?IFFVTy0yMDI2LTAwMDE=?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 😀 naïve <msg.1@x> café —",
+  "out": "List-Unsubscribe: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?esLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=F0=9F=98=80?=\r\n =?utf-8?q?_na=C3=AFve_=3Cmsg=2E1=40x=3E_caf=C3=A9_=E2=80=94?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "",
+  "out": "Content-Disposition: \r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "a;b café a;b",
+  "out": "Subject: =?utf-8?b?YTtiIGNhZsOpIGE7Yg==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "a;b =?utf-8?q?x?=",
+  "out": "Content-Disposition: a;b =?utf-8?q?x?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Initech",
+  "out": "References: Initech\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Re: c,d",
+  "out": "From: Re: c,d\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "café Quotation",
+  "out": "In-Reply-To: =?utf-8?q?caf=C3=A9_Quotation?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": " x\ty Quotation Initech =?utf-8?q?x?= c,d naïve",
+  "out": "References: =?utf-8?b?IHgJeSBRdW90YXRpb24gSW5pdGVjaCA9P3V0Zi04P3E/eD89IGMs?=\r\n =?utf-8?b?ZCBuYcOvdmU=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Corp =?utf-8?q?x?= Quotation café",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?Q29ycCA9P3V0Zi04P3E/?=\r\n =?utf-8?b?eD89IFF1b3RhdGlvbiBjYWbDqQ==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "QUO-2026-0001 <msg.1@x> İ",
+  "out": "References: =?utf-8?b?UVVPLTIwMjYtMDAwMSA8bXNnLjFAeD4gxLA=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "",
+  "out": "Cc: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "naïve 😀 x\ty",
+  "out": "Content-Disposition: =?utf-8?b?bmHDr3ZlIPCfmIAgeAl5?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "QUO-2026-0001 ΣΟΦΟΣ QUO-2026-0001 Corp Ltd  Re: Corp =?utf-8?q?x?= =?utf-8?q?x?= =?utf-8?q?x?= Initech café c,d naïve Re Ltd: Globex c,d Initech 日本語 日本語 Corp İ",
+  "out": "References: =?utf-8?b?UVVPLTIwMjYtMDAwMSDOo86fzqbOn86jIFFVTy0yMDI2LTAwMDEg?=\r\n =?utf-8?b?Q29ycCBMdGQgIFJlOiBDb3JwID0/dXRmLTg/cT94Pz0gPT91dGYtOD9xP3g/PSA9?=\r\n =?utf-8?b?P3V0Zi04P3E/eD89IEluaXRlY2ggY2Fmw6kgYyxkIG5hw692ZSBSZSBMdGQ6IEds?=\r\n =?utf-8?b?b2JleCBjLGQgSW5pdGVjaCDml6XmnKzoqp4g5pel5pys6KqeIENvcnAgxLA=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd 日本語 日本語 ΣΟΦΟΣ Quotation Globex Re: Initech",
+  "out": "Cc: =?utf-8?q?Quotation_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpaces_Ltd_=E6=97=A5?=\r\n =?utf-8?q?=E6=9C=AC=E8=AA=9E_=E6=97=A5=E6=9C=AC=E8=AA=9E_=CE=A3=CE=9F=CE=A6?=\r\n =?utf-8?q?=CE=9F=CE=A3_Quotation_Globex_Re=3A_Initech?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "日本語 İ 😀",
+  "out": "To: =?utf-8?b?5pel5pys6KqeIMSwIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "=?utf-8?q?x?= naïve",
+  "out": "In-Reply-To: =?utf-8?b?PT91dGYtOD9xP3g/PSBuYcOvdmU=?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "QUO-2026-0001 Quotation x\ty 😀 QUO-2026-0001 x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp x\ty İ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Re: 😀 Globex    c,d 日本語 <msg.1@x> Re: QUO-2026-0001 =?utf-8?q?x?= 日本語 Globex ΣΟΦΟΣ a;b",
+  "out": "To: =?utf-8?q?QUO-2026-0001_Quotation_x=09y_=F0=9F=98=80_QUO-2026-0001_x=09y?=\r\n =?utf-8?q?_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpaces_Corp_x=09y_=C4=B0_LongTokenW?=\r\n =?utf-8?q?ithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces?=\r\n =?utf-8?q?LongTokenWithoutAnySpaces_Re=3A_=F0=9F=98=80_Globex_=C2=A0__c=2Cd?=\r\n =?utf-8?q?_=E6=97=A5=E6=9C=AC=E8=AA=9E_=3Cmsg=2E1=40x=3E_Re=3A_QUO-2026-000?=\r\n =?utf-8?q?1_=3D=3Futf-8=3Fq=3Fx=3F=3D_=E6=97=A5=E6=9C=AC=E8=AA=9E_Globex_?=\r\n =?utf-8?q?=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_a=3Bb?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "<msg.1@x>",
+  "out": "Cc: <msg.1@x>\r\n"
+ },
+ {
+  "name": "References",
+  "value": " Corp naïve Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Re:",
+  "out": "References: =?utf-8?q?_Corp_na=C3=AFve_Globex_LongTokenWithoutAnySpacesLongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnyS?=\r\n =?utf-8?q?paces_Re=3A?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Corp  Quotation  Globex   日本語 a;b     — 日本語 x\ty ΣΟΦΟΣ =?utf-8?q?x?= a;b café =?utf-8?q?x?= QUO-2026-0001 日本語 😀 Quotation İ x\ty QUO-2026-0001 =?utf-8?q?x?=",
+  "out": "Subject: =?utf-8?b?Q29ycCAgUXVvdGF0aW9uICBHbG9iZXggwqAg5pel5pys6KqeIGE7YiA=?=\r\n =?utf-8?b?wqAgwqAg4oCUIOaXpeacrOiqniB4CXkgzqPOn86mzp/OoyA9P3V0Zi04P3E/eD89?=\r\n =?utf-8?b?IGE7YiBjYWbDqSA9P3V0Zi04P3E/eD89IFFVTy0yMDI2LTAwMDEg5pel5pys6Kqe?=\r\n =?utf-8?b?IPCfmIAgUXVvdGF0aW9uIMSwIHgJeSBRVU8tMjAyNi0wMDAxID0/dXRmLTg/cT94?=\r\n =?utf-8?b?Pz0=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "  c,d Initech",
+  "out": "References: =?utf-8?q?=C2=A0_c=2Cd_Initech?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Globex QUO-2026-0001 Corp   Re: naïve =?utf-8?q?x?= naïve",
+  "out": "Content-Disposition: =?utf-8?b?R2xvYmV4IFFVTy0yMDI2LTAwMDEgQ29ycCDCoCBSZTog?=\r\n =?utf-8?b?bmHDr3ZlID0/dXRmLTg/cT94Pz0gbmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd İ — café <msg.1@x> a;b a;b Re: ΣΟΦΟΣ 😀 Quotation — Initech  Globex <msg.1@x> x\ty Quotation    Globex — Globex  ΣΟΦΟΣ a;b naïve",
+  "out": "Subject: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpaces_Globex_LongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLong?=\r\n =?utf-8?q?TokenWithoutAnySpaces_Ltd_=C4=B0_=E2=80=94_caf=C3=A9_=3Cmsg=2E1?=\r\n =?utf-8?q?=40x=3E_a=3Bb_a=3Bb_Re=3A_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_?=\r\n =?utf-8?q?=F0=9F=98=80_Quotation_=E2=80=94_Initech__Globex_=3Cmsg=2E1=40x?=\r\n =?utf-8?q?=3E_x=09y_Quotation__=C2=A0_Globex_=E2=80=94_Globex__=CE=A3=CE=9F?=\r\n =?utf-8?q?=CE=A6=CE=9F=CE=A3_a=3Bb_na=C3=AFve?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "a;b Initech Corp",
+  "out": "In-Reply-To: a;b Initech Corp\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café x\ty naïve x\ty Re: a;b c,d ΣΟΦΟΣ naïve naïve Globex  Quotation Globex 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces   Globex =?utf-8?q?x?=   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Re: ΣΟΦΟΣ naïve",
+  "out": "List-Unsubscribe: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?esLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_caf=C3=A9_x?=\r\n =?utf-8?q?=09y_na=C3=AFve_x=09y_Re=3A_a=3Bb_c=2Cd_=CE=A3=CE=9F=CE=A6=CE=9F?=\r\n =?utf-8?q?=CE=A3_na=C3=AFve_na=C3=AFve_Globex__Quotation_Globex_?=\r\n =?utf-8?q?=F0=9F=98=80_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=C2=A0_Globex_?=\r\n =?utf-8?q?=3D=3Futf-8=3Fq=3Fx=3F=3D_=C2=A0_LongTokenWithoutAnySpacesLongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?ces_Re=3A_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_na=C3=AFve?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "日本語 =?utf-8?q?x?=",
+  "out": "References: =?utf-8?b?5pel5pys6KqeID0/dXRmLTg/cT94Pz0=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "😀 =?utf-8?q?x?=",
+  "out": "In-Reply-To: =?utf-8?b?8J+YgCA9P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "😀     naïve",
+  "out": "In-Reply-To: =?utf-8?b?8J+YgCDCoCAgIG5hw692ZQ==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Initech 日本語 a;b 😀 Globex QUO-2026-0001 İ — — Re: 日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ ΣΟΦΟΣ <msg.1@x> x\ty a;b café ΣΟΦΟΣ 😀 a;b QUO-2026-0001",
+  "out": "Subject: =?utf-8?b?wqAgTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhv?=\r\n =?utf-8?b?dXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0?=\r\n =?utf-8?b?aG91dEFueVNwYWNlcyBJbml0ZWNoIOaXpeacrOiqniBhO2Ig8J+YgCBHbG9iZXgg?=\r\n =?utf-8?b?UVVPLTIwMjYtMDAwMSDEsCDigJQg4oCUIFJlOiDml6XmnKzoqp4gTG9uZ1Rva2Vu?=\r\n =?utf-8?b?V2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9r?=\r\n =?utf-8?b?ZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlcyDOo86f?=\r\n =?utf-8?b?zqbOn86jIM6jzp/Ops6fzqMgPG1zZy4xQHg+IHgJeSBhO2IgY2Fmw6kgzqPOn86m?=\r\n =?utf-8?b?zp/OoyDwn5iAIGE7YiBRVU8tMjAyNi0wMDAx?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Quotation",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: Quotation\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "<msg.1@x> Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces QUO-2026-0001 Corp Ltd c,d",
+  "out": "Content-Disposition: <msg.1@x> Quotation\r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n QUO-2026-0001 Corp Ltd c,d\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "c,d Initech Re:",
+  "out": "In-Reply-To: c,d Initech Re:\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "c,d =?utf-8?q?x?= café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces —   Re: x\ty Re: x\ty 日本語 —",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?YyxkID0/dXRmLTg/cT94?=\r\n =?utf-8?b?Pz0gY2Fmw6kgTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhv?=\r\n =?utf-8?b?dXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0?=\r\n =?utf-8?b?aG91dEFueVNwYWNlcyDigJQgwqAgUmU6IHgJeSBSZTogeAl5IOaXpeacrOiqniA=?=\r\n =?utf-8?b?4oCU?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "QUO-2026-0001 naïve — Quotation 😀 c,d",
+  "out": "Subject: =?utf-8?b?UVVPLTIwMjYtMDAwMSBuYcOvdmUg4oCUIFF1b3RhdGlvbiDwn5iAIGMs?=\r\n =?utf-8?b?ZA==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "",
+  "out": "From: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "x\ty Initech <msg.1@x> c,d   Globex Ltd —  ΣΟΦΟΣ Quotation <msg.1@x> c,d x\ty   naïve  İ",
+  "out": "Content-Disposition: =?utf-8?b?eAl5IEluaXRlY2ggPG1zZy4xQHg+IGMsZCDCoCBHbG9i?=\r\n =?utf-8?b?ZXggTHRkIOKAlCAgzqPOn86mzp/OoyBRdW90YXRpb24gPG1zZy4xQHg+IGMsZCB4?=\r\n =?utf-8?b?CXkgwqAgbmHDr3ZlICDEsA==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "İ 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Globex — <msg.1@x> x\ty 😀 =?utf-8?q?x?= Quotation Quotation 😀 a;b a;b =?utf-8?q?x?= LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Globex naïve 😀   ΣΟΦΟΣ ΣΟΦΟΣ",
+  "out": "To: =?utf-8?b?xLAg8J+YgCBMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0?=\r\n =?utf-8?b?aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5X?=\r\n =?utf-8?b?aXRob3V0QW55U3BhY2VzIEdsb2JleCDigJQgPG1zZy4xQHg+IHgJeSDwn5iAID0/?=\r\n =?utf-8?b?dXRmLTg/cT94Pz0gUXVvdGF0aW9uIFF1b3RhdGlvbiDwn5iAIGE7YiBhO2IgPT91?=\r\n =?utf-8?b?dGYtOD9xP3g/PSBMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0?=\r\n =?utf-8?b?aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5X?=\r\n =?utf-8?b?aXRob3V0QW55U3BhY2VzIEdsb2JleCBuYcOvdmUg8J+YgCDCoCDOo86fzqbOn86j?=\r\n =?utf-8?b?IM6jzp/Ops6fzqM=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Re:",
+  "out": "In-Reply-To: Re:\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "  Initech —",
+  "out": "List-Unsubscribe: =?utf-8?b?wqAgSW5pdGVjaCDigJQ=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Corp   QUO-2026-0001 c,d Initech a;b =?utf-8?q?x?= İ 日本語 Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces =?utf-8?q?x?= — Initech Ltd — QUO-2026-0001 a;b =?utf-8?q?x?= Corp x\ty",
+  "out": "Cc: =?utf-8?q?Corp_=C2=A0_QUO-2026-0001_c=2Cd_Initech_a=3Bb_=3D=3Futf-8=3Fq?=\r\n =?utf-8?q?=3Fx=3F=3D_=C4=B0_=E6=97=A5=E6=9C=AC=E8=AA=9E_Re=3A_LongTokenWith?=\r\n =?utf-8?q?outAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLon?=\r\n =?utf-8?q?gTokenWithoutAnySpaces_=3D=3Futf-8=3Fq=3Fx=3F=3D_=E2=80=94_Initec?=\r\n =?utf-8?q?h_Ltd_=E2=80=94_QUO-2026-0001_a=3Bb_=3D=3Futf-8=3Fq=3Fx=3F=3D_Cor?=\r\n =?utf-8?q?p_x=09y?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "References",
+  "value": "ΣΟΦΟΣ İ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 日本語 日本語 İ Corp café Quotation Corp <msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces <msg.1@x> 日本語 Re: Globex Globex İ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "References: =?utf-8?q?=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_=C4=B0_LongTokenWithout?=\r\n =?utf-8?q?AnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpaces_=E6=97=A5=E6=9C=AC=E8=AA=9E_=E6=97=A5?=\r\n =?utf-8?q?=E6=9C=AC=E8=AA=9E_=C4=B0_Corp_caf=C3=A9_Quotation_Corp_=3Cmsg=2E?=\r\n =?utf-8?q?1=40x=3E_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpacesLongTokenWithoutAnySpaces_=3Cmsg=2E1=40x=3E_?=\r\n =?utf-8?q?=E6=97=A5=E6=9C=AC=E8=AA=9E_Re=3A_Globex_Globex_=C4=B0_LongTokenW?=\r\n =?utf-8?q?ithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces?=\r\n =?utf-8?q?LongTokenWithoutAnySpaces?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "😀 <msg.1@x> QUO-2026-0001 a;b <msg.1@x> — Globex",
+  "out": "Subject: =?utf-8?b?8J+YgCA8bXNnLjFAeD4gUVVPLTIwMjYtMDAwMSBhO2IgPG1zZy4xQHg+?=\r\n =?utf-8?b?IOKAlCBHbG9iZXg=?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "—  Quotation Quotation Globex Ltd =?utf-8?q?x?= <msg.1@x> — =?utf-8?q?x?=   Initech a;b",
+  "out": "List-Unsubscribe: =?utf-8?b?4oCUICBRdW90YXRpb24gUXVvdGF0aW9uIEdsb2JleCBMdGQg?=\r\n =?utf-8?b?PT91dGYtOD9xP3g/PSA8bXNnLjFAeD4g4oCUID0/dXRmLTg/cT94Pz0gwqAgSW5p?=\r\n =?utf-8?b?dGVjaCBhO2I=?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "İ 日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd 日本語",
+  "out": "Content-Disposition: =?utf-8?q?=C4=B0_=E6=97=A5=E6=9C=AC=E8=AA=9E_LongTokenW?=\r\n =?utf-8?q?ithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces?=\r\n =?utf-8?q?LongTokenWithoutAnySpaces_Ltd_=E6=97=A5=E6=9C=AC=E8=AA=9E?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "QUO-2026-0001 c,d",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: QUO-2026-0001 c,d\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "a;b 日本語 c,d LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces x\ty",
+  "out": "Cc: =?utf-8?q?a=3Bb_=E6=97=A5=E6=9C=AC=E8=AA=9E_c=2Cd_LongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpaces_x=09y?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "  — İ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?wqAg4oCUIMSw?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "ΣΟΦΟΣ 😀",
+  "out": "From: =?utf-8?b?zqPOn86mzp/OoyDwn5iA?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Corp naïve",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?Corp_na=C3=AFve?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "<msg.1@x> x\ty naïve QUO-2026-0001 —",
+  "out": "References: =?utf-8?b?PG1zZy4xQHg+IHgJeSBuYcOvdmUgUVVPLTIwMjYtMDAwMSDigJQ=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "café c,d c,d a;b Re: a;b Quotation",
+  "out": "Cc: =?utf-8?b?Y2Fmw6kgYyxkIGMsZCBhO2IgUmU6IGE7YiBRdW90YXRpb24=?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "=?utf-8?q?x?= a;b Quotation 😀",
+  "out": "To: =?utf-8?b?PT91dGYtOD9xP3g/PSBhO2IgUXVvdGF0aW9uIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "日本語 café 😀 =?utf-8?q?x?= Quotation",
+  "out": "References: =?utf-8?b?5pel5pys6KqeIGNhZsOpIPCfmIAgPT91dGYtOD9xP3g/PSBRdW90?=\r\n =?utf-8?b?YXRpb24=?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "QUO-2026-0001 naïve  Initech c,d Globex ΣΟΦΟΣ a;b 日本語 ΣΟΦΟΣ Globex 😀 c,d",
+  "out": "Subject: =?utf-8?b?UVVPLTIwMjYtMDAwMSBuYcOvdmUgIEluaXRlY2ggYyxkIEdsb2JleCA=?=\r\n =?utf-8?b?zqPOn86mzp/OoyBhO2Ig5pel5pys6KqeIM6jzp/Ops6fzqMgR2xvYmV4IPCfmIAg?=\r\n =?utf-8?b?Yyxk?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "日本語 İ Quotation — =?utf-8?q?x?= x\ty Corp 日本語 naïve QUO-2026-0001",
+  "out": "In-Reply-To: =?utf-8?b?5pel5pys6KqeIMSwIFF1b3RhdGlvbiDigJQgPT91dGYtOD9xP3g/?=\r\n =?utf-8?b?PSB4CXkgQ29ycCDml6XmnKzoqp4gbmHDr3ZlIFFVTy0yMDI2LTAwMDE=?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "<msg.1@x> 日本語 x\ty <msg.1@x> c,d Corp =?utf-8?q?x?= café café 😀",
+  "out": "Content-Disposition: =?utf-8?b?PG1zZy4xQHg+IOaXpeacrOiqniB4CXkgPG1zZy4xQHg+?=\r\n =?utf-8?b?IGMsZCBDb3JwID0/dXRmLTg/cT94Pz0gY2Fmw6kgY2Fmw6kg8J+YgA==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "c,d naïve Re: Initech Re: 日本語 c,d İ Corp =?utf-8?q?x?= <msg.1@x> Initech Initech ΣΟΦΟΣ Re: İ =?utf-8?q?x?= =?utf-8?q?x?= Globex naïve — 😀 QUO-2026-0001 <msg.1@x> — a;b café 日本語 x\ty",
+  "out": "Cc: =?utf-8?b?YyxkIG5hw692ZSBSZTogSW5pdGVjaCBSZTog5pel5pys6KqeIGMsZCDEsCBD?=\r\n =?utf-8?b?b3JwID0/dXRmLTg/cT94Pz0gPG1zZy4xQHg+IEluaXRlY2ggSW5pdGVjaCDOo86f?=\r\n =?utf-8?b?zqbOn86jIFJlOiDEsCA9P3V0Zi04P3E/eD89ID0/dXRmLTg/cT94Pz0gR2xvYmV4?=\r\n =?utf-8?b?IG5hw692ZSDigJQg8J+YgCBRVU8tMjAyNi0wMDAxIDxtc2cuMUB4PiDigJQgYTti?=\r\n =?utf-8?b?IGNhZsOpIOaXpeacrOiqniB4CXk=?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "Content-Disposition: \r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n"
+ },
+ {
+  "name": "References",
+  "value": "QUO-2026-0001 x\ty =?utf-8?q?x?=  日本語",
+  "out": "References: =?utf-8?b?UVVPLTIwMjYtMDAwMSB4CXkgPT91dGYtOD9xP3g/PSAg5pel5pys?=\r\n =?utf-8?b?6Kqe?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Corp c,d ",
+  "out": "Cc: Corp c,d \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "  ΣΟΦΟΣ Quotation",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?wqAgzqPOn86mzp/OoyBR?=\r\n =?utf-8?b?dW90YXRpb24=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces =?utf-8?q?x?= — naïve Re: Re:",
+  "out": "In-Reply-To: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLon?=\r\n =?utf-8?q?gTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=3D=3Futf-8=3Fq?=\r\n =?utf-8?q?=3Fx=3F=3D_=E2=80=94_na=C3=AFve_Re=3A_Re=3A?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "İ Quotation Corp x\ty =?utf-8?q?x?= naïve  QUO-2026-0001 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 😀   x\ty 日本語 😀",
+  "out": "List-Unsubscribe: =?utf-8?q?=C4=B0_Quotation_Corp_x=09y_=3D=3Futf-8=3Fq=3Fx?=\r\n =?utf-8?q?=3F=3D_na=C3=AFve__QUO-2026-0001_LongTokenWithoutAnySpacesLongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?ces_=F0=9F=98=80_=C2=A0_x=09y_=E6=97=A5=E6=9C=AC=E8=AA=9E_?=\r\n =?utf-8?q?=F0=9F=98=80?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "naïve =?utf-8?q?x?= Corp <msg.1@x> Corp ΣΟΦΟΣ 😀 c,d",
+  "out": "Subject: =?utf-8?b?bmHDr3ZlID0/dXRmLTg/cT94Pz0gQ29ycCA8bXNnLjFAeD4gQ29ycCA=?=\r\n =?utf-8?b?zqPOn86mzp/OoyDwn5iAIGMsZA==?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "ΣΟΦΟΣ",
+  "out": "List-Unsubscribe: =?utf-8?b?zqPOn86mzp/Oow==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces   <msg.1@x>",
+  "out": "Cc: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpacesLongTokenWithoutAnySpaces_=C2=A0_=3Cmsg=2E1=40x=3E?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "café a;b ΣΟΦΟΣ",
+  "out": "Subject: =?utf-8?b?Y2Fmw6kgYTtiIM6jzp/Ops6fzqM=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "x\ty Re: =?utf-8?q?x?=",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: x\ty Re: =?utf-8?q?x?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "<msg.1@x> 日本語 QUO-2026-0001 😀 Re: x\ty c,d Quotation Corp Ltd c,d   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Quotation =?utf-8?q?x?= İ café 😀 ΣΟΦΟΣ c,d c,d Quotation QUO-2026-0001 — x\ty c,d   Re: İ",
+  "out": "In-Reply-To: =?utf-8?q?=3Cmsg=2E1=40x=3E_=E6=97=A5=E6=9C=AC=E8=AA=9E_QUO-202?=\r\n =?utf-8?q?6-0001_=F0=9F=98=80_Re=3A_x=09y_c=2Cd_Quotation_Corp_Ltd_c=2Cd_?=\r\n =?utf-8?q?=C2=A0_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongToke?=\r\n =?utf-8?q?nWithoutAnySpacesLongTokenWithoutAnySpaces_LongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpaces_Quotation_=3D=3Futf-8=3Fq=3Fx=3F=3D_=C4=B0_caf?=\r\n =?utf-8?q?=C3=A9_=F0=9F=98=80_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_c=2Cd_c=2Cd_Qu?=\r\n =?utf-8?q?otation_QUO-2026-0001_=E2=80=94_x=09y_c=2Cd_=C2=A0_Re=3A_=C4=B0?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "ΣΟΦΟΣ c,d 日本語 😀 Corp café Initech Globex 😀 Corp   Corp c,d Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ 日本語 — Initech Globex x\ty a;b x\ty =?utf-8?q?x?= Corp <msg.1@x> QUO-2026-0001 😀",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?zqPOn86mzp/OoyBjLGQg?=\r\n =?utf-8?b?5pel5pys6KqeIPCfmIAgQ29ycCBjYWbDqSBJbml0ZWNoIEdsb2JleCDwn5iAIENv?=\r\n =?utf-8?b?cnAgwqAgQ29ycCBjLGQgUXVvdGF0aW9uIExvbmdUb2tlbldpdGhvdXRBbnlTcGFj?=\r\n =?utf-8?b?ZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNw?=\r\n =?utf-8?b?YWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXMgzqPOn86mzp/OoyDml6XmnKw=?=\r\n =?utf-8?b?6KqeIOKAlCBJbml0ZWNoIEdsb2JleCB4CXkgYTtiIHgJeSA9P3V0Zi04P3E/eD89?=\r\n =?utf-8?b?IENvcnAgPG1zZy4xQHg+IFFVTy0yMDI2LTAwMDEg8J+YgA==?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "x\ty",
+  "out": "List-Unsubscribe: x\ty\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Initech LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d",
+  "out": "Content-Disposition: Initech\r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n c,d\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "—",
+  "out": "Content-Disposition: =?utf-8?b?4oCU?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "—",
+  "out": "Subject: =?utf-8?b?4oCU?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": " Corp  ΣΟΦΟΣ naïve QUO-2026-0001  日本語 x\ty Quotation     LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d",
+  "out": "To: =?utf-8?q?_Corp__=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_na=C3=AFve_QUO-2026-0001?=\r\n =?utf-8?q?__=E6=97=A5=E6=9C=AC=E8=AA=9E_x=09y_Quotation_=C2=A0_=C2=A0_LongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnyS?=\r\n =?utf-8?q?pacesLongTokenWithoutAnySpaces_c=2Cd?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp ",
+  "out": "To: \r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n Corp \r\n"
+ },
+ {
+  "name": "To",
+  "value": "x\ty café İ",
+  "out": "To: =?utf-8?b?eAl5IGNhZsOpIMSw?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Re:",
+  "out": "List-Unsubscribe: Re:\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "<msg.1@x> 日本語   <msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d 日本語 Globex Re:",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?PG1zZy4xQHg+IOaXpQ==?=\r\n =?utf-8?b?5pys6KqeIMKgIDxtc2cuMUB4PiBMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9u?=\r\n =?utf-8?b?Z1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNM?=\r\n =?utf-8?b?b25nVG9rZW5XaXRob3V0QW55U3BhY2VzIGMsZCDml6XmnKzoqp4gR2xvYmV4IFJl?=\r\n =?utf-8?b?Og==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Quotation a;b <msg.1@x> c,d Quotation Quotation",
+  "out": "From: Quotation a;b <msg.1@x> c,d Quotation Quotation\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "References",
+  "value": "a;b Re: café",
+  "out": "References: =?utf-8?b?YTtiIFJlOiBjYWbDqQ==?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Initech 日本語 Corp ΣΟΦΟΣ —   café naïve  café",
+  "out": "In-Reply-To: =?utf-8?b?SW5pdGVjaCDml6XmnKzoqp4gQ29ycCDOo86fzqbOn86jIOKAlCA=?=\r\n =?utf-8?b?wqAgY2Fmw6kgbmHDr3ZlICBjYWbDqQ==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "naïve   Quotation Re: c,d",
+  "out": "Content-Disposition: =?utf-8?b?bmHDr3ZlIMKgIFF1b3RhdGlvbiBSZTogYyxk?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "naïve",
+  "out": "From: =?utf-8?b?bmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "İ x\ty",
+  "out": "In-Reply-To: =?utf-8?b?xLAgeAl5?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "<msg.1@x>  <msg.1@x> — <msg.1@x>  <msg.1@x> QUO-2026-0001 ",
+  "out": "From: =?utf-8?b?PG1zZy4xQHg+ICA8bXNnLjFAeD4g4oCUIDxtc2cuMUB4PiAgPG1zZy4xQHg+?=\r\n =?utf-8?b?IFFVTy0yMDI2LTAwMDEg?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Corp Ltd İ Initech",
+  "out": "Subject: =?utf-8?q?Corp_Ltd_=C4=B0_Initech?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "x\ty",
+  "out": "List-Unsubscribe: x\ty\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Quotation 😀",
+  "out": "In-Reply-To: =?utf-8?b?UXVvdGF0aW9uIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "c,d QUO-2026-0001",
+  "out": "Subject: c,d QUO-2026-0001\r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "— naïve c,d  Quotation   — café <msg.1@x> Corp   Re: Quotation Quotation",
+  "out": "Content-Disposition: =?utf-8?b?4oCUIG5hw692ZSBjLGQgIFF1b3RhdGlvbiDCoCDigJQg?=\r\n =?utf-8?b?Y2Fmw6kgPG1zZy4xQHg+IENvcnAgwqAgUmU6IFF1b3RhdGlvbiBRdW90YXRpb24=?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "日本語 c,d café naïve 😀 c,d İ Quotation",
+  "out": "Content-Disposition: =?utf-8?b?5pel5pys6KqeIGMsZCBjYWbDqSBuYcOvdmUg8J+YgCBj?=\r\n =?utf-8?b?LGQgxLAgUXVvdGF0aW9u?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "a;b İ c,d",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?YTtiIMSwIGMsZA==?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Corp   QUO-2026-0001 Quotation Ltd   Quotation Re:",
+  "out": "In-Reply-To: =?utf-8?q?Corp_=C2=A0_QUO-2026-0001_Quotation_Ltd_=C2=A0_Quotat?=\r\n =?utf-8?q?ion_Re=3A?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "— 😀 c,d Re: naïve QUO-2026-0001 café Globex İ  <msg.1@x> c,d LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Initech naïve",
+  "out": "References: =?utf-8?q?=E2=80=94_=F0=9F=98=80_c=2Cd_Re=3A_na=C3=AFve_QUO-2026?=\r\n =?utf-8?q?-0001_caf=C3=A9_Globex_=C4=B0__=3Cmsg=2E1=40x=3E_c=2Cd_LongTokenW?=\r\n =?utf-8?q?ithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces?=\r\n =?utf-8?q?LongTokenWithoutAnySpaces_Initech_na=C3=AFve?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "  <msg.1@x> QUO-2026-0001",
+  "out": "In-Reply-To: =?utf-8?b?wqAgPG1zZy4xQHg+IFFVTy0yMDI2LTAwMDE=?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "Globex Re: =?utf-8?q?x?= Globex ΣΟΦΟΣ =?utf-8?q?x?= c,d   x\ty   x\ty naïve   c,d <msg.1@x> ΣΟΦΟΣ café 日本語 Initech c,d   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 日本語 日本語 — c,d",
+  "out": "To: =?utf-8?b?R2xvYmV4IFJlOiA9P3V0Zi04P3E/eD89IEdsb2JleCDOo86fzqbOn86jID0/?=\r\n =?utf-8?b?dXRmLTg/cT94Pz0gYyxkIMKgIHgJeSDCoCB4CXkgbmHDr3ZlIMKgIGMsZCA8bXNn?=\r\n =?utf-8?b?LjFAeD4gzqPOn86mzp/OoyBjYWbDqSDml6XmnKzoqp4gSW5pdGVjaCBjLGQgwqAg?=\r\n =?utf-8?b?TG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFj?=\r\n =?utf-8?b?ZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNw?=\r\n =?utf-8?b?YWNlcyDml6XmnKzoqp4g5pel5pys6KqeIOKAlCBjLGQ=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Initech 日本語",
+  "out": "Cc: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpacesLongTokenWithoutAnySpaces_Initech_=E6=97=A5=E6=9C=AC?=\r\n =?utf-8?q?=E8=AA=9E?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "<msg.1@x>",
+  "out": "References: <msg.1@x>\r\n"
+ },
+ {
+  "name": "To",
+  "value": "Initech",
+  "out": "To: Initech\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": " =?utf-8?q?x?=",
+  "out": "Subject:  =?utf-8?q?x?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "x\ty İ 日本語 ΣΟΦΟΣ",
+  "out": "List-Unsubscribe: =?utf-8?b?eAl5IMSwIOaXpeacrOiqniDOo86fzqbOn86j?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "naïve",
+  "out": "References: =?utf-8?b?bmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "  Quotation 日本語 Initech x\ty x\ty =?utf-8?q?x?= Re: ",
+  "out": "Cc: =?utf-8?b?ICBRdW90YXRpb24g5pel5pys6KqeIEluaXRlY2ggeAl5IHgJeSA9P3V0Zi04?=\r\n =?utf-8?b?P3E/eD89IFJlOiA=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": " LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ 日本語 c,d",
+  "out": "List-Unsubscribe: =?utf-8?q?_LongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=CE=A3?=\r\n =?utf-8?q?=CE=9F=CE=A6=CE=9F=CE=A3_=E6=97=A5=E6=9C=AC=E8=AA=9E_c=2Cd?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Re: <msg.1@x> Re: <msg.1@x> Quotation a;b <msg.1@x> 😀 naïve",
+  "out": "Subject: =?utf-8?b?UmU6IDxtc2cuMUB4PiBSZTogPG1zZy4xQHg+IFF1b3RhdGlvbiBhO2Ig?=\r\n =?utf-8?b?PG1zZy4xQHg+IPCfmIAgbmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Quotation",
+  "out": "References: Quotation\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "x\ty",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: x\ty\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Globex café",
+  "out": "References: =?utf-8?q?Globex_caf=C3=A9?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "ΣΟΦΟΣ   café c,d   Re: ΣΟΦΟΣ Corp  日本語 café Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ 日本語 QUO-2026-0001 Re: naïve 日本語    — Globex",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?zqPOn86mzp/OoyDCoCBj?=\r\n =?utf-8?b?YWbDqSBjLGQgwqAgUmU6IM6jzp/Ops6fzqMgQ29ycCAg5pel5pys6KqeIGNhZsOp?=\r\n =?utf-8?b?IFF1b3RhdGlvbiBMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0?=\r\n =?utf-8?b?aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5X?=\r\n =?utf-8?b?aXRob3V0QW55U3BhY2VzIM6jzp/Ops6fzqMg5pel5pys6KqeIFFVTy0yMDI2LTAw?=\r\n =?utf-8?b?MDEgUmU6IG5hw692ZSDml6XmnKzoqp4gIMKgIOKAlCBHbG9iZXg=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: \r\n"
+ },
+ {
+  "name": "References",
+  "value": "ΣΟΦΟΣ  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces —   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces — Re:",
+  "out": "References: =?utf-8?q?=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3__LongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpaces_=E2=80=94_=C2=A0_LongTokenWithoutAnySpacesLongToken?=\r\n =?utf-8?q?WithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpace?=\r\n =?utf-8?q?s_=E2=80=94_Re=3A?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "naïve",
+  "out": "Cc: =?utf-8?b?bmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "— naïve Corp  Globex a;b",
+  "out": "Content-Disposition: =?utf-8?b?4oCUIG5hw692ZSBDb3JwICBHbG9iZXggYTti?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "Initech a;b",
+  "out": "To: Initech a;b\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "naïve   =?utf-8?q?x?= a;b c,d Globex Globex",
+  "out": "Cc: =?utf-8?b?bmHDr3ZlIMKgID0/dXRmLTg/cT94Pz0gYTtiIGMsZCBHbG9iZXggR2xvYmV4?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "=?utf-8?q?x?=",
+  "out": "List-Unsubscribe: =?utf-8?q?x?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Globex —",
+  "out": "Cc: =?utf-8?q?Globex_=E2=80=94?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "😀 Initech   QUO-2026-0001 ΣΟΦΟΣ x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d =?utf-8?q?x?= Initech QUO-2026-0001 Initech LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd x\ty a;b café naïve İ <msg.1@x> café café —",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?=F0=9F=98=80_Initech_?=\r\n =?utf-8?q?=C2=A0_QUO-2026-0001_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_x=09y_LongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpaces_c=2Cd_=3D=3Futf-8=3Fq=3Fx=3F=3D_Init?=\r\n =?utf-8?q?ech_QUO-2026-0001_Initech_LongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_Lon?=\r\n =?utf-8?q?gTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAn?=\r\n =?utf-8?q?ySpacesLongTokenWithoutAnySpaces_Ltd_x=09y_a=3Bb_caf=C3=A9_na?=\r\n =?utf-8?q?=C3=AFve_=C4=B0_=3Cmsg=2E1=40x=3E_caf=C3=A9_caf=C3=A9_=E2=80=94?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "a;b 😀",
+  "out": "In-Reply-To: =?utf-8?b?YTtiIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "x\ty x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 日本語 QUO-2026-0001  Re: Corp 😀 ΣΟΦΟΣ c,d Initech =?utf-8?q?x?=",
+  "out": "Cc: =?utf-8?b?eAl5IHgJeSBMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0?=\r\n =?utf-8?b?aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5X?=\r\n =?utf-8?b?aXRob3V0QW55U3BhY2VzIOaXpeacrOiqniBRVU8tMjAyNi0wMDAxICBSZTogQ29y?=\r\n =?utf-8?b?cCDwn5iAIM6jzp/Ops6fzqMgYyxkIEluaXRlY2ggPT91dGYtOD9xP3g/PQ==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "日本語 naïve ΣΟΦΟΣ",
+  "out": "Subject: =?utf-8?b?5pel5pys6KqeIG5hw692ZSDOo86fzqbOn86j?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "naïve Globex =?utf-8?q?x?=",
+  "out": "Subject: =?utf-8?b?bmHDr3ZlIEdsb2JleCA9P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "İ",
+  "out": "From: =?utf-8?b?xLA=?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "x\ty",
+  "out": "List-Unsubscribe: x\ty\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "=?utf-8?q?x?= café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces x\ty =?utf-8?q?x?= Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces <msg.1@x>",
+  "out": "Subject: =?utf-8?q?=3D=3Futf-8=3Fq=3Fx=3F=3D_caf=C3=A9_LongTokenWithoutAnySp?=\r\n =?utf-8?q?acesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWi?=\r\n =?utf-8?q?thoutAnySpaces_x=09y_=3D=3Futf-8=3Fq=3Fx=3F=3D_Quotation_LongToke?=\r\n =?utf-8?q?nWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?esLongTokenWithoutAnySpaces_=3Cmsg=2E1=40x=3E?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Corp a;b c,d ΣΟΦΟΣ İ x\ty 日本語 —",
+  "out": "From: =?utf-8?b?Q29ycCBhO2IgYyxkIM6jzp/Ops6fzqMgxLAgeAl5IOaXpeacrOiqniDigJQ=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "",
+  "out": "Cc: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "— — 日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ café a;b x\ty",
+  "out": "Content-Disposition: =?utf-8?b?4oCUIOKAlCDml6XmnKzoqp4gTG9uZ1Rva2VuV2l0aG91?=\r\n =?utf-8?b?dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRo?=\r\n =?utf-8?b?b3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlcyDOo86fzqbOn86j?=\r\n =?utf-8?b?IGNhZsOpIGE7YiB4CXk=?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "café x\ty ",
+  "out": "Subject: =?utf-8?q?caf=C3=A9_x=09y_?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "a;b QUO-2026-0001 Ltd",
+  "out": "Cc: a;b QUO-2026-0001 Ltd\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Re: café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces x\ty =?utf-8?q?x?= ",
+  "out": "List-Unsubscribe: =?utf-8?q?Re=3A_caf=C3=A9_LongTokenWithoutAnySpacesLongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?ces_x=09y_=3D=3Futf-8=3Fq=3Fx=3F=3D_?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "— <msg.1@x> Re: QUO-2026-0001 QUO-2026-0001 x\ty Corp  a;b Initech LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Re:",
+  "out": "In-Reply-To: =?utf-8?q?=E2=80=94_=3Cmsg=2E1=40x=3E_Re=3A_QUO-2026-0001_QUO-2?=\r\n =?utf-8?q?026-0001_x=09y_Corp__a=3Bb_Initech_LongTokenWithoutAnySpacesLongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnyS?=\r\n =?utf-8?q?paces_Re=3A?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": " ",
+  "out": "Cc: =?utf-8?b?wqA=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "QUO-2026-0001 Ltd x\ty",
+  "out": "Content-Disposition: QUO-2026-0001 Ltd x\ty\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Globex <msg.1@x> — café  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces x\ty Re: Quotation",
+  "out": "List-Unsubscribe: =?utf-8?q?Globex_=3Cmsg=2E1=40x=3E_=E2=80=94_caf=C3=A9__Lo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpacesLongTokenWithoutAnySpaces_LongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySp?=\r\n =?utf-8?q?aces_x=09y_Re=3A_Quotation?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "   — — <msg.1@x>  Re: café",
+  "out": "In-Reply-To: =?utf-8?b?wqAgIOKAlCDigJQgPG1zZy4xQHg+ICBSZTogY2Fmw6k=?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Re:   ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?UmU6IMKgIM6jzp/Ops6fzqM=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "naïve İ Initech Initech İ Initech Ltd x\ty Re: Globex <msg.1@x> Initech Re: Quotation Re: =?utf-8?q?x?= x\ty Re: ΣΟΦΟΣ  c,d Globex x\ty x\ty 日本語 =?utf-8?q?x?=",
+  "out": "In-Reply-To: =?utf-8?b?bmHDr3ZlIMSwIEluaXRlY2ggSW5pdGVjaCDEsCBJbml0ZWNoIEx0?=\r\n =?utf-8?b?ZCB4CXkgUmU6IEdsb2JleCA8bXNnLjFAeD4gSW5pdGVjaCBSZTogUXVvdGF0aW9u?=\r\n =?utf-8?b?IFJlOiA9P3V0Zi04P3E/eD89IHgJeSBSZTogzqPOn86mzp/OoyAgYyxkIEdsb2Jl?=\r\n =?utf-8?b?eCB4CXkgeAl5IOaXpeacrOiqniA9P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "=?utf-8?q?x?= café Re:",
+  "out": "In-Reply-To: =?utf-8?b?PT91dGYtOD9xP3g/PSBjYWbDqSBSZTo=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "x\ty — x\ty Corp a;b Re: 😀 a;b 😀",
+  "out": "In-Reply-To: =?utf-8?b?eAl5IOKAlCB4CXkgQ29ycCBhO2IgUmU6IPCfmIAgYTtiIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "😀 QUO-2026-0001 a;b x\ty   Initech QUO-2026-0001 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd ΣΟΦΟΣ Quotation c,d <msg.1@x> a;b LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 日本語 x\ty",
+  "out": "From: =?utf-8?q?=F0=9F=98=80_QUO-2026-0001_a=3Bb_x=09y_=C2=A0_Initech_QUO-20?=\r\n =?utf-8?q?26-0001_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpaces_Ltd_=CE=A3=CE=9F?=\r\n =?utf-8?q?=CE=A6=CE=9F=CE=A3_Quotation_c=2Cd_=3Cmsg=2E1=40x=3E_a=3Bb_LongTo?=\r\n =?utf-8?q?kenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySp?=\r\n =?utf-8?q?acesLongTokenWithoutAnySpaces_=E6=97=A5=E6=9C=AC=E8=AA=9E_x=09y?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": " Re: İ a;b İ 😀",
+  "out": "In-Reply-To: =?utf-8?b?IFJlOiDEsCBhO2IgxLAg8J+YgA==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Quotation café café café naïve   <msg.1@x> Globex naïve Initech   QUO-2026-0001 Globex =?utf-8?q?x?= Globex",
+  "out": "Subject: =?utf-8?b?UXVvdGF0aW9uIGNhZsOpIGNhZsOpIGNhZsOpIG5hw692ZSDCoCA8bXNn?=\r\n =?utf-8?b?LjFAeD4gR2xvYmV4IG5hw692ZSBJbml0ZWNoIMKgIFFVTy0yMDI2LTAwMDEgR2xv?=\r\n =?utf-8?b?YmV4ID0/dXRmLTg/cT94Pz0gR2xvYmV4?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "—",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?4oCU?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "QUO-2026-0001 café — Initech İ <msg.1@x> Initech",
+  "out": "Subject: =?utf-8?b?UVVPLTIwMjYtMDAwMSBjYWbDqSDigJQgSW5pdGVjaCDEsCA8bXNnLjFA?=\r\n =?utf-8?b?eD4gSW5pdGVjaA==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "",
+  "out": "Cc: \r\n"
+ },
+ {
+  "name": "To",
+  "value": "Initech ΣΟΦΟΣ İ   Re: c,d Initech 日本語 İ Quotation",
+  "out": "To: =?utf-8?b?SW5pdGVjaCDOo86fzqbOn86jIMSwIMKgIFJlOiBjLGQgSW5pdGVjaCDml6U=?=\r\n =?utf-8?b?5pys6KqeIMSwIFF1b3RhdGlvbg==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": " Corp",
+  "out": "References:  Corp\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Quotation Re: Initech",
+  "out": "Content-Disposition: Quotation Re: Initech\r\n"
+ },
+ {
+  "name": "To",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café",
+  "out": "To: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpacesLongTokenWithoutAnySpaces_caf=C3=A9?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "naïve",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?bmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "İ <msg.1@x>",
+  "out": "References: =?utf-8?b?xLAgPG1zZy4xQHg+?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "  Re: ΣΟΦΟΣ x\ty",
+  "out": "From: =?utf-8?b?wqAgUmU6IM6jzp/Ops6fzqMgeAl5?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "naïve — —",
+  "out": "References: =?utf-8?b?bmHDr3ZlIOKAlCDigJQ=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Initech Ltd    ΣΟΦΟΣ Initech QUO-2026-0001 c,d QUO-2026-0001  <msg.1@x> a;b Globex — — 😀 QUO-2026-0001 =?utf-8?q?x?= Globex =?utf-8?q?x?= QUO-2026-0001 =?utf-8?q?x?= <msg.1@x>",
+  "out": "Cc: =?utf-8?b?SW5pdGVjaCBMdGQgwqAgIM6jzp/Ops6fzqMgSW5pdGVjaCBRVU8tMjAyNi0w?=\r\n =?utf-8?b?MDAxIGMsZCBRVU8tMjAyNi0wMDAxICA8bXNnLjFAeD4gYTtiIEdsb2JleCDigJQg?=\r\n =?utf-8?b?4oCUIPCfmIAgUVVPLTIwMjYtMDAwMSA9P3V0Zi04P3E/eD89IEdsb2JleCA9P3V0?=\r\n =?utf-8?b?Zi04P3E/eD89IFFVTy0yMDI2LTAwMDEgPT91dGYtOD9xP3g/PSA8bXNnLjFAeD4=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "",
+  "out": "Cc: \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Corp",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: Corp\r\n"
+ },
+ {
+  "name": "To",
+  "value": "ΣΟΦΟΣ   — ΣΟΦΟΣ  İ ",
+  "out": "To: =?utf-8?b?zqPOn86mzp/OoyDCoCDigJQgzqPOn86mzp/OoyAgxLAg?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "ΣΟΦΟΣ x\ty   =?utf-8?q?x?= Globex  日本語 c,d a;b x\ty Corp Quotation Ltd    İ x\ty Globex x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces naïve",
+  "out": "In-Reply-To: =?utf-8?b?zqPOn86mzp/OoyB4CXkgwqAgPT91dGYtOD9xP3g/PSBHbG9iZXgg?=\r\n =?utf-8?b?IOaXpeacrOiqniBjLGQgYTtiIHgJeSBDb3JwIFF1b3RhdGlvbiBMdGQgIMKgIMSw?=\r\n =?utf-8?b?IHgJeSBHbG9iZXggeAl5IExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9r?=\r\n =?utf-8?b?ZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdU?=\r\n =?utf-8?b?b2tlbldpdGhvdXRBbnlTcGFjZXMgbmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "naïve",
+  "out": "In-Reply-To: =?utf-8?b?bmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Globex 日本語  a;b c,d 日本語 Globex  c,d c,d 😀 İ Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces   a;b <msg.1@x> Re: a;b café 😀 Corp <msg.1@x> — a;b — a;b ΣΟΦΟΣ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "Cc: =?utf-8?b?R2xvYmV4IOaXpeacrOiqniAgYTtiIGMsZCDml6XmnKzoqp4gR2xvYmV4ICBj?=\r\n =?utf-8?b?LGQgYyxkIPCfmIAgxLAgUmU6IExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25n?=\r\n =?utf-8?b?VG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xv?=\r\n =?utf-8?b?bmdUb2tlbldpdGhvdXRBbnlTcGFjZXMgwqAgYTtiIDxtc2cuMUB4PiBSZTogYTti?=\r\n =?utf-8?b?IGNhZsOpIPCfmIAgQ29ycCA8bXNnLjFAeD4g4oCUIGE7YiDigJQgYTtiIM6jzp8=?=\r\n =?utf-8?b?zqbOn86jIExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0?=\r\n =?utf-8?b?QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhv?=\r\n =?utf-8?b?dXRBbnlTcGFjZXM=?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "—",
+  "out": "To: =?utf-8?b?4oCU?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "<msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ İ İ Re: Quotation café ",
+  "out": "Cc: =?utf-8?q?=3Cmsg=2E1=40x=3E_LongTokenWithoutAnySpacesLongTokenWithoutAny?=\r\n =?utf-8?q?SpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=CE=A3?=\r\n =?utf-8?q?=CE=9F=CE=A6=CE=9F=CE=A3_=C4=B0_=C4=B0_Re=3A_Quotation_caf=C3=A9_?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "naïve =?utf-8?q?x?=",
+  "out": "List-Unsubscribe: =?utf-8?b?bmHDr3ZlID0/dXRmLTg/cT94Pz0=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "日本語 ",
+  "out": "Cc: =?utf-8?b?5pel5pys6KqeIA==?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Quotation =?utf-8?q?x?=",
+  "out": "In-Reply-To: Quotation =?utf-8?q?x?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces — LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces     Re: Re: — Quotation —",
+  "out": "In-Reply-To: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLon?=\r\n =?utf-8?q?gTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=E2=80=94_LongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpaces_=C2=A0_=C2=A0_Re=3A_Re=3A_=E2=80=94_?=\r\n =?utf-8?q?Quotation_=E2=80=94?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Corp",
+  "out": "Content-Disposition: Corp\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "From",
+  "value": "=?utf-8?q?x?=",
+  "out": "From: =?utf-8?q?x?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "— x\ty QUO-2026-0001 ΣΟΦΟΣ QUO-2026-0001 Quotation Ltd x\ty",
+  "out": "In-Reply-To: =?utf-8?b?4oCUIHgJeSBRVU8tMjAyNi0wMDAxIM6jzp/Ops6fzqMgUVVPLTIw?=\r\n =?utf-8?b?MjYtMDAwMSBRdW90YXRpb24gTHRkIHgJeQ==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "😀 c,d 日本語 c,d QUO-2026-0001 İ Globex  ",
+  "out": "Subject: =?utf-8?b?8J+YgCBjLGQg5pel5pys6KqeIGMsZCBRVU8tMjAyNi0wMDAxIMSwIEds?=\r\n =?utf-8?b?b2JleCDCoA==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "a;b =?utf-8?q?x?= a;b ΣΟΦΟΣ 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces   naïve a;b naïve <msg.1@x> a;b x\ty <msg.1@x> x\ty Re: a;b =?utf-8?q?x?=",
+  "out": "To: =?utf-8?b?YTtiID0/dXRmLTg/cT94Pz0gYTtiIM6jzp/Ops6fzqMg8J+YgCBMb25nVG9r?=\r\n =?utf-8?b?ZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdU?=\r\n =?utf-8?b?b2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzIMKg?=\r\n =?utf-8?b?IG5hw692ZSBhO2IgbmHDr3ZlIDxtc2cuMUB4PiBhO2IgeAl5IDxtc2cuMUB4PiB4?=\r\n =?utf-8?b?CXkgUmU6IGE7YiA9P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Globex café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Globex c,d",
+  "out": "Cc: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpacesLongTokenWithoutAnySpaces_Globex_caf=C3=A9_LongToken?=\r\n =?utf-8?q?WithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpace?=\r\n =?utf-8?q?sLongTokenWithoutAnySpaces_Globex_c=2Cd?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "ΣΟΦΟΣ ΣΟΦΟΣ Re: 日本語   c,d =?utf-8?q?x?=  日本語 — Globex c,d =?utf-8?q?x?= =?utf-8?q?x?= =?utf-8?q?x?= =?utf-8?q?x?=",
+  "out": "In-Reply-To: =?utf-8?b?zqPOn86mzp/OoyDOo86fzqbOn86jIFJlOiDml6XmnKzoqp4gwqAg?=\r\n =?utf-8?b?YyxkID0/dXRmLTg/cT94Pz0gIOaXpeacrOiqniDigJQgR2xvYmV4IGMsZCA9P3V0?=\r\n =?utf-8?b?Zi04P3E/eD89ID0/dXRmLTg/cT94Pz0gPT91dGYtOD9xP3g/PSA9P3V0Zi04P3E/?=\r\n =?utf-8?b?eD89?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "<msg.1@x> x\ty Initech QUO-2026-0001 <msg.1@x> x\ty café QUO-2026-0001",
+  "out": "To: =?utf-8?b?PG1zZy4xQHg+IHgJeSBJbml0ZWNoIFFVTy0yMDI2LTAwMDEgPG1zZy4xQHg+?=\r\n =?utf-8?b?IHgJeSBjYWbDqSBRVU8tMjAyNi0wMDAx?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "QUO-2026-0001",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: QUO-2026-0001\r\n"
+ },
+ {
+  "name": "To",
+  "value": "café İ ΣΟΦΟΣ — <msg.1@x> <msg.1@x> Re:",
+  "out": "To: =?utf-8?b?Y2Fmw6kgxLAgzqPOn86mzp/OoyDigJQgPG1zZy4xQHg+IDxtc2cuMUB4PiBS?=\r\n =?utf-8?b?ZTo=?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "ΣΟΦΟΣ Globex",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?zqPOn86mzp/OoyBHbG9i?=\r\n =?utf-8?b?ZXg=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "İ x\ty  Re:   x\ty café 日本語 a;b 日本語 Globex a;b a;b =?utf-8?q?x?= LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces =?utf-8?q?x?= — 日本語 x\ty x\ty x\ty <msg.1@x> Re: QUO-2026-0001 a;b Re:",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?xLAgeAl5ICBSZTogwqAg?=\r\n =?utf-8?b?eAl5IGNhZsOpIOaXpeacrOiqniBhO2Ig5pel5pys6KqeIEdsb2JleCBhO2IgYTti?=\r\n =?utf-8?b?ID0/dXRmLTg/cT94Pz0gTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tl?=\r\n =?utf-8?b?bldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rv?=\r\n =?utf-8?b?a2VuV2l0aG91dEFueVNwYWNlcyA9P3V0Zi04P3E/eD89IOKAlCDml6XmnKzoqp4g?=\r\n =?utf-8?b?eAl5IHgJeSB4CXkgPG1zZy4xQHg+IFJlOiBRVU8tMjAyNi0wMDAxIGE7YiBSZTo=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "naïve   café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Quotation a;b  — QUO-2026-0001 c,d c,d",
+  "out": "In-Reply-To: =?utf-8?q?na=C3=AFve_=C2=A0_caf=C3=A9_LongTokenWithoutAnySpaces?=\r\n =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithou?=\r\n =?utf-8?q?tAnySpaces_Quotation_a=3Bb__=E2=80=94_QUO-2026-0001_c=2Cd_c=2Cd?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Globex  ΣΟΦΟΣ    日本語 <msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "From: =?utf-8?b?R2xvYmV4ICDOo86fzqbOn86jICDCoCDml6XmnKzoqp4gPG1zZy4xQHg+IExv?=\r\n =?utf-8?b?bmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2Vz?=\r\n =?utf-8?b?TG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFj?=\r\n =?utf-8?b?ZXM=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "=?utf-8?q?x?= İ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces naïve café Re:   =?utf-8?q?x?= İ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?=3D=3Futf-8=3Fq=3Fx?=\r\n =?utf-8?q?=3F=3D_=C4=B0_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesL?=\r\n =?utf-8?q?ongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_na=C3=AFve_caf?=\r\n =?utf-8?q?=C3=A9_Re=3A_=C2=A0_=3D=3Futf-8=3Fq=3Fx=3F=3D_=C4=B0?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "İ",
+  "out": "Content-Disposition: =?utf-8?b?xLA=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "日本語 QUO-2026-0001",
+  "out": "References: =?utf-8?b?5pel5pys6KqeIFFVTy0yMDI2LTAwMDE=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Initech Initech a;b   =?utf-8?q?x?= café 😀 a;b   Re: café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 日本語 a;b <msg.1@x> — <msg.1@x> naïve   İ —",
+  "out": "In-Reply-To: =?utf-8?b?SW5pdGVjaCBJbml0ZWNoIGE7YiDCoCA9P3V0Zi04P3E/eD89IGNh?=\r\n =?utf-8?b?ZsOpIPCfmIAgYTtiIMKgIFJlOiBjYWbDqSBMb25nVG9rZW5XaXRob3V0QW55U3Bh?=\r\n =?utf-8?b?Y2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlT?=\r\n =?utf-8?b?cGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzIOaXpeacrOiqniBhO2IgPG1z?=\r\n =?utf-8?b?Zy4xQHg+IOKAlCA8bXNnLjFAeD4gbmHDr3ZlIMKgIMSwIOKAlA==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "=?utf-8?q?x?= ",
+  "out": "From: =?utf-8?q?x?= \r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "café 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café",
+  "out": "In-Reply-To: =?utf-8?q?caf=C3=A9_=F0=9F=98=80_LongTokenWithoutAnySpacesLongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnyS?=\r\n =?utf-8?q?paces_caf=C3=A9?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "İ Corp",
+  "out": "In-Reply-To: =?utf-8?q?=C4=B0_Corp?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "😀",
+  "out": "Content-Disposition: =?utf-8?b?8J+YgA==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "café Re: 😀 ΣΟΦΟΣ   😀 Initech",
+  "out": "To: =?utf-8?b?Y2Fmw6kgUmU6IPCfmIAgzqPOn86mzp/OoyDCoCDwn5iAIEluaXRlY2g=?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "c,d   a;b",
+  "out": "Content-Disposition: =?utf-8?b?YyxkIMKgIGE7Yg==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "QUO-2026-0001 café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces <msg.1@x> a;b <msg.1@x>",
+  "out": "References: =?utf-8?q?QUO-2026-0001_caf=C3=A9_LongTokenWithoutAnySpacesLongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnyS?=\r\n =?utf-8?q?paces_=3Cmsg=2E1=40x=3E_a=3Bb_=3Cmsg=2E1=40x=3E?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Re:",
+  "out": "Content-Disposition: Re:\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "<msg.1@x>",
+  "out": "List-Unsubscribe: <msg.1@x>\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Globex Globex Re: Initech =?utf-8?q?x?= =?utf-8?q?x?= x\ty Initech Corp İ =?utf-8?q?x?= x\ty Initech Ltd — QUO-2026-0001 😀 Re: ΣΟΦΟΣ Quotation c,d — =?utf-8?q?x?= Globex",
+  "out": "From: =?utf-8?b?R2xvYmV4IEdsb2JleCBSZTogSW5pdGVjaCA9P3V0Zi04P3E/eD89ID0/dXRm?=\r\n =?utf-8?b?LTg/cT94Pz0geAl5IEluaXRlY2ggQ29ycCDEsCA9P3V0Zi04P3E/eD89IHgJeSBJ?=\r\n =?utf-8?b?bml0ZWNoIEx0ZCDigJQgUVVPLTIwMjYtMDAwMSDwn5iAIFJlOiDOo86fzqbOn86j?=\r\n =?utf-8?b?IFF1b3RhdGlvbiBjLGQg4oCUID0/dXRmLTg/cT94Pz0gR2xvYmV4?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Initech",
+  "out": "Content-Disposition: Initech\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Quotation c,d Quotation ΣΟΦΟΣ 😀 Quotation Ltd =?utf-8?q?x?=",
+  "out": "Cc: =?utf-8?b?UXVvdGF0aW9uIGMsZCBRdW90YXRpb24gzqPOn86mzp/OoyDwn5iAIFF1b3Rh?=\r\n =?utf-8?b?dGlvbiBMdGQgPT91dGYtOD9xP3g/PQ==?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "a;b",
+  "out": "In-Reply-To: a;b\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "😀 c,d",
+  "out": "Subject: =?utf-8?b?8J+YgCBjLGQ=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Globex ΣΟΦΟΣ  Re: café Globex =?utf-8?q?x?=",
+  "out": "In-Reply-To: =?utf-8?b?R2xvYmV4IM6jzp/Ops6fzqMgIFJlOiBjYWbDqSBHbG9iZXggPT91?=\r\n =?utf-8?b?dGYtOD9xP3g/PQ==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "— <msg.1@x> 日本語",
+  "out": "Cc: =?utf-8?b?4oCUIDxtc2cuMUB4PiDml6XmnKzoqp4=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Globex ΣΟΦΟΣ x\ty x\ty Quotation =?utf-8?q?x?= Globex a;b LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d Re: Initech   Globex 日本語 İ Quotation Ltd    Globex ΣΟΦΟΣ =?utf-8?q?x?= İ café Re: Re:   <msg.1@x>",
+  "out": "Content-Disposition: =?utf-8?b?R2xvYmV4IM6jzp/Ops6fzqMgeAl5IHgJeSBRdW90YXRp?=\r\n =?utf-8?b?b24gPT91dGYtOD9xP3g/PSBHbG9iZXggYTtiIExvbmdUb2tlbldpdGhvdXRBbnlT?=\r\n =?utf-8?b?cGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFu?=\r\n =?utf-8?b?eVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXMgYyxkIFJlOiBJbml0ZWNo?=\r\n =?utf-8?b?IMKgIEdsb2JleCDml6XmnKzoqp4gxLAgUXVvdGF0aW9uIEx0ZCDCoCAgR2xvYmV4?=\r\n =?utf-8?b?IM6jzp/Ops6fzqMgPT91dGYtOD9xP3g/PSDEsCBjYWbDqSBSZTogUmU6IMKgIDxt?=\r\n =?utf-8?b?c2cuMUB4Pg==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "Quotation — LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b a;b Quotation  Corp naïve Re: QUO-2026-0001 Initech c,d — Corp İ ΣΟΦΟΣ Quotation 日本語 😀 x\ty c,d naïve",
+  "out": "To: =?utf-8?q?Quotation_=E2=80=94_LongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_a=3Bb_?=\r\n =?utf-8?q?a=3Bb_Quotation__Corp_na=C3=AFve_Re=3A_QUO-2026-0001_Initech_c=2C?=\r\n =?utf-8?q?d_=E2=80=94_Corp_=C4=B0_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_Quotation_?=\r\n =?utf-8?q?=E6=97=A5=E6=9C=AC=E8=AA=9E_=F0=9F=98=80_x=09y_c=2Cd_na=C3=AFve?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Globex Ltd naïve",
+  "out": "In-Reply-To: =?utf-8?q?Quotation_LongTokenWithoutAnySpacesLongTokenWithoutAn?=\r\n =?utf-8?q?ySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_Globex_?=\r\n =?utf-8?q?Ltd_na=C3=AFve?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Quotation Ltd naïve Initech İ Corp <msg.1@x> x\ty x\ty",
+  "out": "References: =?utf-8?b?UXVvdGF0aW9uIEx0ZCBuYcOvdmUgSW5pdGVjaCDEsCBDb3JwIDxt?=\r\n =?utf-8?b?c2cuMUB4PiB4CXkgeAl5?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": " İ Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "In-Reply-To: =?utf-8?q?_=C4=B0_Globex_LongTokenWithoutAnySpacesLongTokenWith?=\r\n =?utf-8?q?outAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "İ =?utf-8?q?x?= c,d — LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 😀 Quotation Corp",
+  "out": "In-Reply-To: =?utf-8?q?=C4=B0_=3D=3Futf-8=3Fq=3Fx=3F=3D_c=2Cd_=E2=80=94_Long?=\r\n =?utf-8?q?TokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAny?=\r\n =?utf-8?q?SpacesLongTokenWithoutAnySpaces_=F0=9F=98=80_Quotation_Corp?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "café 😀  Quotation c,d  Re: QUO-2026-0001 naïve c,d Initech 😀 ΣΟΦΟΣ  ΣΟΦΟΣ QUO-2026-0001 c,d x\ty QUO-2026-0001  ΣΟΦΟΣ QUO-2026-0001 Re: İ 😀 Corp café",
+  "out": "From: =?utf-8?b?Y2Fmw6kg8J+YgCAgUXVvdGF0aW9uIGMsZCAgUmU6IFFVTy0yMDI2LTAwMDEg?=\r\n =?utf-8?b?bmHDr3ZlIGMsZCBJbml0ZWNoIPCfmIAgzqPOn86mzp/OoyAgzqPOn86mzp/OoyBR?=\r\n =?utf-8?b?VU8tMjAyNi0wMDAxIGMsZCB4CXkgUVVPLTIwMjYtMDAwMSAgzqPOn86mzp/OoyBR?=\r\n =?utf-8?b?VU8tMjAyNi0wMDAxIFJlOiDEsCDwn5iAIENvcnAgY2Fmw6k=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "QUO-2026-0001 İ  ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?QUO-2026-0001_=C4=B0_?=\r\n =?utf-8?q?=C2=A0?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "QUO-2026-0001 c,d İ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp Ltd 日本語",
+  "out": "Cc: =?utf-8?q?QUO-2026-0001_c=2Cd_=C4=B0_LongTokenWithoutAnySpacesLongTokenW?=\r\n =?utf-8?q?ithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces?=\r\n =?utf-8?q?_Corp_Ltd_=E6=97=A5=E6=9C=AC=E8=AA=9E?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "ΣΟΦΟΣ <msg.1@x> café naïve Corp <msg.1@x> 😀 Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ 😀 Corp 😀 Re: café x\ty  Quotation Initech İ x\ty Globex QUO-2026-0001",
+  "out": "List-Unsubscribe: =?utf-8?b?zqPOn86mzp/OoyA8bXNnLjFAeD4gY2Fmw6kgbmHDr3ZlIENv?=\r\n =?utf-8?b?cnAgPG1zZy4xQHg+IPCfmIAgR2xvYmV4IExvbmdUb2tlbldpdGhvdXRBbnlTcGFj?=\r\n =?utf-8?b?ZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNw?=\r\n =?utf-8?b?YWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXMgzqPOn86mzp/OoyDwn5iAIENv?=\r\n =?utf-8?b?cnAg8J+YgCBSZTogY2Fmw6kgeAl5ICBRdW90YXRpb24gSW5pdGVjaCDEsCB4CXkg?=\r\n =?utf-8?b?R2xvYmV4IFFVTy0yMDI2LTAwMDE=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "c,d",
+  "out": "Content-Disposition: c,d\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?zqPOn86mzp/Oow==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "References: \r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Re: İ Initech İ 😀 Corp 日本語 ",
+  "out": "Content-Disposition: =?utf-8?b?UmU6IMSwIEluaXRlY2ggxLAg8J+YgCBDb3JwIOaXpQ==?=\r\n =?utf-8?b?5pys6KqeIA==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Initech <msg.1@x> x\ty a;b — <msg.1@x> café",
+  "out": "From: =?utf-8?b?SW5pdGVjaCA8bXNnLjFAeD4geAl5IGE7YiDigJQgPG1zZy4xQHg+IGNhZsOp?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "日本語",
+  "out": "List-Unsubscribe: =?utf-8?b?5pel5pys6Kqe?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Quotation x\ty QUO-2026-0001 Re: 日本語 Initech LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Quotation 日本語 x\ty x\ty a;b — — Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?Quotation_x=09y_QUO-2?=\r\n =?utf-8?q?026-0001_Re=3A_=E6=97=A5=E6=9C=AC=E8=AA=9E_Initech_LongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLong?=\r\n =?utf-8?q?TokenWithoutAnySpaces_Quotation_=E6=97=A5=E6=9C=AC=E8=AA=9E_x=09y?=\r\n =?utf-8?q?_x=09y_a=3Bb_=E2=80=94_=E2=80=94_Globex_LongTokenWithoutAnySpaces?=\r\n =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithou?=\r\n =?utf-8?q?tAnySpaces_c=2Cd_LongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?esLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=CE=A3=CE=9F?=\r\n =?utf-8?q?=CE=A6=CE=9F=CE=A3_?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd x\ty x\ty <msg.1@x> İ <msg.1@x>   ",
+  "out": "Content-Disposition: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnyS?=\r\n =?utf-8?q?pacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_Ltd_x=09y?=\r\n =?utf-8?q?_x=09y_=3Cmsg=2E1=40x=3E_=C4=B0_=3Cmsg=2E1=40x=3E_=C2=A0_?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "a;b <msg.1@x> İ Corp Ltd ΣΟΦΟΣ =?utf-8?q?x?= Quotation café QUO-2026-0001  Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b c,d Quotation Initech naïve QUO-2026-0001",
+  "out": "Cc: =?utf-8?q?a=3Bb_=3Cmsg=2E1=40x=3E_=C4=B0_Corp_Ltd_=CE=A3=CE=9F=CE=A6?=\r\n =?utf-8?q?=CE=9F=CE=A3_=3D=3Futf-8=3Fq=3Fx=3F=3D_Quotation_caf=C3=A9_QUO-20?=\r\n =?utf-8?q?26-0001__Globex_LongTokenWithoutAnySpacesLongTokenWithoutAnySpace?=\r\n =?utf-8?q?sLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_LongTokenWith?=\r\n =?utf-8?q?outAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLon?=\r\n =?utf-8?q?gTokenWithoutAnySpaces_a=3Bb_c=2Cd_Quotation_Initech_na=C3=AFve_Q?=\r\n =?utf-8?q?UO-2026-0001?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": " naïve QUO-2026-0001",
+  "out": "To: =?utf-8?q?_na=C3=AFve_QUO-2026-0001?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "  İ c,d Corp 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b Initech 😀 café 😀 Globex İ Quotation café c,d — naïve",
+  "out": "References: =?utf-8?q?=C2=A0_=C4=B0_c=2Cd_Corp_=F0=9F=98=80_LongTokenWithout?=\r\n =?utf-8?q?AnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpaces_a=3Bb_Initech_=F0=9F=98=80_caf=C3=A9_?=\r\n =?utf-8?q?=F0=9F=98=80_Globex_=C4=B0_Quotation_caf=C3=A9_c=2Cd_=E2=80=94_na?=\r\n =?utf-8?q?=C3=AFve?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "naïve",
+  "out": "References: =?utf-8?b?bmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "References: Globex\r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces QUO-2026-0001  =?utf-8?q?x?= naïve x\ty x\ty",
+  "out": "In-Reply-To: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLon?=\r\n =?utf-8?q?gTokenWithoutAnySpacesLongTokenWithoutAnySpaces_QUO-2026-0001__?=\r\n =?utf-8?q?=3D=3Futf-8=3Fq=3Fx=3F=3D_na=C3=AFve_x=09y_x=09y?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "  QUO-2026-0001 =?utf-8?q?x?= — <msg.1@x> café",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?wqAgUVVPLTIwMjYtMDAw?=\r\n =?utf-8?b?MSA9P3V0Zi04P3E/eD89IOKAlCA8bXNnLjFAeD4gY2Fmw6k=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "=?utf-8?q?x?= 日本語 İ Initech  ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?PT91dGYtOD9xP3g/PSDml6XmnKzoqp4gxLAgSW5pdGVjaCAgzqPOn86mzp8=?=\r\n =?utf-8?b?zqM=?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "😀",
+  "out": "From: =?utf-8?b?8J+YgA==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "— Corp  Corp Initech Ltd ",
+  "out": "Content-Disposition: =?utf-8?q?=E2=80=94_Corp__Corp_Initech_Ltd_?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "ΣΟΦΟΣ 😀 x\ty ΣΟΦΟΣ",
+  "out": "References: =?utf-8?b?zqPOn86mzp/OoyDwn5iAIHgJeSDOo86fzqbOn86j?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "c,d a;b a;b Re: Initech Re Ltd: x\ty",
+  "out": "Content-Disposition: c,d a;b a;b Re: Initech Re Ltd: x\ty\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "café  c,d x\ty naïve 日本語 Globex café 😀 ΣΟΦΟΣ  =?utf-8?q?x?=",
+  "out": "Content-Disposition: =?utf-8?b?Y2Fmw6kgIGMsZCB4CXkgbmHDr3ZlIOaXpeacrOiqniBH?=\r\n =?utf-8?b?bG9iZXggY2Fmw6kg8J+YgCDOo86fzqbOn86jICA9P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "=?utf-8?q?x?= 日本語 <msg.1@x> QUO-2026-0001    =?utf-8?q?x?=   Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces =?utf-8?q?x?= <msg.1@x>   Globex  ",
+  "out": "List-Unsubscribe: =?utf-8?b?PT91dGYtOD9xP3g/PSDml6XmnKzoqp4gPG1zZy4xQHg+IFFV?=\r\n =?utf-8?b?Ty0yMDI2LTAwMDEgIMKgID0/dXRmLTg/cT94Pz0gwqAgUXVvdGF0aW9uIExvbmdU?=\r\n =?utf-8?b?b2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9u?=\r\n =?utf-8?b?Z1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXMg?=\r\n =?utf-8?b?PT91dGYtOD9xP3g/PSA8bXNnLjFAeD4gwqAgR2xvYmV4IMKg?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Globex",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: Globex\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "=?utf-8?q?x?= 😀 — c,d naïve =?utf-8?q?x?= naïve <msg.1@x> 😀 x\ty İ café c,d Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ",
+  "out": "Cc: =?utf-8?b?PT91dGYtOD9xP3g/PSDwn5iAIOKAlCBjLGQgbmHDr3ZlID0/dXRmLTg/cT94?=\r\n =?utf-8?b?Pz0gbmHDr3ZlIDxtc2cuMUB4PiDwn5iAIHgJeSDEsCBjYWbDqSBjLGQgUmU6IExv?=\r\n =?utf-8?b?bmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2Vz?=\r\n =?utf-8?b?TG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFj?=\r\n =?utf-8?b?ZXMg?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "日本語 <msg.1@x> 😀",
+  "out": "In-Reply-To: =?utf-8?b?5pel5pys6KqeIDxtc2cuMUB4PiDwn5iA?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "😀 Re: Re: c,d — a;b 日本語 😀 a;b",
+  "out": "Subject: =?utf-8?b?8J+YgCBSZTogUmU6IGMsZCDigJQgYTtiIOaXpeacrOiqniDwn5iAIGE7?=\r\n =?utf-8?b?Yg==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "QUO-2026-0001 <msg.1@x>",
+  "out": "References: QUO-2026-0001 <msg.1@x>\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": " Re:",
+  "out": "Cc:  Re:\r\n"
+ },
+ {
+  "name": "References",
+  "value": "😀 Quotation naïve naïve Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "References: =?utf-8?q?=F0=9F=98=80_Quotation_na=C3=AFve_na=C3=AFve_Re=3A_Lon?=\r\n =?utf-8?q?gTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAn?=\r\n =?utf-8?q?ySpacesLongTokenWithoutAnySpaces?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "    QUO-2026-0001 İ Quotation Ltd İ Re: Re: Re Ltd:",
+  "out": "Cc: =?utf-8?b?wqAgwqAgUVVPLTIwMjYtMDAwMSDEsCBRdW90YXRpb24gTHRkIMSwIFJlOiBS?=\r\n =?utf-8?b?ZTogUmUgTHRkOg==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "naïve",
+  "out": "To: =?utf-8?b?bmHDr3Zl?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "naïve café   x\ty",
+  "out": "To: =?utf-8?b?bmHDr3ZlIGNhZsOpIMKgIHgJeQ==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "ΣΟΦΟΣ — İ",
+  "out": "Content-Disposition: =?utf-8?b?zqPOn86mzp/OoyDigJQgxLA=?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Globex  <msg.1@x> Corp  x\ty 日本語 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café",
+  "out": "From: =?utf-8?q?Globex__=3Cmsg=2E1=40x=3E_Corp__x=09y_=E6=97=A5=E6=9C=AC?=\r\n =?utf-8?q?=E8=AA=9E_=F0=9F=98=80_LongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_caf?=\r\n =?utf-8?q?=C3=A9?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "İ",
+  "out": "List-Unsubscribe: =?utf-8?b?xLA=?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "İ",
+  "out": "From: =?utf-8?b?xLA=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Re: =?utf-8?q?x?= İ QUO-2026-0001 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Initech QUO-2026-0001 naïve",
+  "out": "Cc: =?utf-8?q?Re=3A_=3D=3Futf-8=3Fq=3Fx=3F=3D_=C4=B0_QUO-2026-0001_LongToken?=\r\n =?utf-8?q?WithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpace?=\r\n =?utf-8?q?sLongTokenWithoutAnySpaces_Initech_QUO-2026-0001_na=C3=AFve?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "<msg.1@x> Initech c,d a;b Quotation naïve naïve",
+  "out": "List-Unsubscribe: =?utf-8?b?PG1zZy4xQHg+IEluaXRlY2ggYyxkIGE7YiBRdW90YXRpb24g?=\r\n =?utf-8?b?bmHDr3ZlIG5hw692ZQ==?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Quotation x\ty — 😀   Corp <msg.1@x>",
+  "out": "List-Unsubscribe: =?utf-8?b?UXVvdGF0aW9uIHgJeSDigJQg8J+YgCDCoCBDb3JwIDxtc2cu?=\r\n =?utf-8?b?MUB4Pg==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Quotation",
+  "out": "Cc: Quotation\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "日本語 QUO-2026-0001 c,d Quotation",
+  "out": "List-Unsubscribe: =?utf-8?b?5pel5pys6KqeIFFVTy0yMDI2LTAwMDEgYyxkIFF1b3RhdGlv?=\r\n =?utf-8?b?bg==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "=?utf-8?q?x?= c,d İ Quotation",
+  "out": "To: =?utf-8?b?PT91dGYtOD9xP3g/PSBjLGQgxLAgUXVvdGF0aW9u?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "<msg.1@x> Quotation QUO-2026-0001 <msg.1@x> café c,d naïve <msg.1@x>",
+  "out": "Cc: =?utf-8?b?PG1zZy4xQHg+IFF1b3RhdGlvbiBRVU8tMjAyNi0wMDAxIDxtc2cuMUB4PiBj?=\r\n =?utf-8?b?YWbDqSBjLGQgbmHDr3ZlIDxtc2cuMUB4Pg==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "=?utf-8?q?x?=  İ x\ty Initech c,d İ",
+  "out": "From: =?utf-8?b?PT91dGYtOD9xP3g/PSAgxLAgeAl5IEluaXRlY2ggYyxkIMSw?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "a;b ΣΟΦΟΣ x\ty",
+  "out": "List-Unsubscribe: =?utf-8?b?YTtiIM6jzp/Ops6fzqMgeAl5?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "😀 Re: =?utf-8?q?x?= İ İ 日本語 日本語 =?utf-8?q?x?= =?utf-8?q?x?= x\ty a;b 日本語 Initech Re: Globex 日本語  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces <msg.1@x>  — 日本語 c,d a;b café Initech x\ty",
+  "out": "In-Reply-To: =?utf-8?b?8J+YgCBSZTogPT91dGYtOD9xP3g/PSDEsCDEsCDml6XmnKzoqp4g?=\r\n =?utf-8?b?5pel5pys6KqeID0/dXRmLTg/cT94Pz0gPT91dGYtOD9xP3g/PSB4CXkgYTtiIA==?=\r\n =?utf-8?b?5pel5pys6KqeIEluaXRlY2ggUmU6IEdsb2JleCDml6XmnKzoqp4gIExvbmdUb2tl?=\r\n =?utf-8?b?bldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rv?=\r\n =?utf-8?b?a2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXMgPG1z?=\r\n =?utf-8?b?Zy4xQHg+ICDigJQg5pel5pys6KqeIGMsZCBhO2IgY2Fmw6kgSW5pdGVjaCB4CXk=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "x\ty x\ty ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: x\ty x\ty \r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Quotation 😀 Initech   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp ΣΟΦΟΣ — x\ty Initech Quotation Re:",
+  "out": "Subject: =?utf-8?q?Quotation_=F0=9F=98=80_Initech_=C2=A0_LongTokenWithoutAny?=\r\n =?utf-8?q?SpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongToken?=\r\n =?utf-8?q?WithoutAnySpaces_Corp_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_=E2=80=94_x?=\r\n =?utf-8?q?=09y_Initech_Quotation_Re=3A?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Re:",
+  "out": "Cc: Re:\r\n"
+ },
+ {
+  "name": "References",
+  "value": "café 😀 Quotation <msg.1@x> Re: x\ty a;b Globex café 😀   x\ty ΣΟΦΟΣ c,d LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b   Re: a;b",
+  "out": "References: =?utf-8?q?caf=C3=A9_=F0=9F=98=80_Quotation_=3Cmsg=2E1=40x=3E_Re?=\r\n =?utf-8?q?=3A_x=09y_a=3Bb_Globex_caf=C3=A9_=F0=9F=98=80_=C2=A0_x=09y_=CE=A3?=\r\n =?utf-8?q?=CE=9F=CE=A6=CE=9F=CE=A3_c=2Cd_LongTokenWithoutAnySpacesLongToken?=\r\n =?utf-8?q?WithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpace?=\r\n =?utf-8?q?s_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWith?=\r\n =?utf-8?q?outAnySpacesLongTokenWithoutAnySpaces_a=3Bb_=C2=A0_Re=3A_a=3Bb?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Quotation 日本語 café — Corp",
+  "out": "In-Reply-To: =?utf-8?b?UXVvdGF0aW9uIOaXpeacrOiqniBjYWbDqSDigJQgQ29ycA==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces =?utf-8?q?x?= Quotation 😀 QUO-2026-0001 😀",
+  "out": "To: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpacesLongTokenWithoutAnySpaces_=3D=3Futf-8=3Fq=3Fx=3F=3D_?=\r\n =?utf-8?q?Quotation_=F0=9F=98=80_QUO-2026-0001_=F0=9F=98=80?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Globex  Initech x\ty Globex Re: Initech café ΣΟΦΟΣ — 日本語 naïve 😀 Re: 日本語 ΣΟΦΟΣ ΣΟΦΟΣ",
+  "out": "Content-Disposition: =?utf-8?b?R2xvYmV4ICBJbml0ZWNoIHgJeSBHbG9iZXggUmU6IElu?=\r\n =?utf-8?b?aXRlY2ggY2Fmw6kgzqPOn86mzp/OoyDigJQg5pel5pys6KqeIG5hw692ZSDwn5iA?=\r\n =?utf-8?b?IFJlOiDml6XmnKzoqp4gzqPOn86mzp/OoyDOo86fzqbOn86j?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "İ  ",
+  "out": "To: =?utf-8?b?xLAgwqA=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Quotation 😀",
+  "out": "Cc: =?utf-8?b?UXVvdGF0aW9uIPCfmIA=?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "— 日本語 Quotation Globex Quotation a;b",
+  "out": "To: =?utf-8?b?4oCUIOaXpeacrOiqniBRdW90YXRpb24gR2xvYmV4IFF1b3RhdGlvbiBhO2I=?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "ΣΟΦΟΣ   =?utf-8?q?x?= Quotation LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces  Corp",
+  "out": "List-Unsubscribe: =?utf-8?q?=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_=C2=A0_=3D=3Futf-?=\r\n =?utf-8?q?8=3Fq=3Fx=3F=3D_Quotation_LongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces__Co?=\r\n =?utf-8?q?rp?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "😀 <msg.1@x> Quotation naïve Quotation Initech Corp Ltd   日本語 café <msg.1@x> Quotation İ <msg.1@x> İ Re:   naïve",
+  "out": "List-Unsubscribe: =?utf-8?b?8J+YgCA8bXNnLjFAeD4gUXVvdGF0aW9uIG5hw692ZSBRdW90?=\r\n =?utf-8?b?YXRpb24gSW5pdGVjaCBDb3JwIEx0ZCDCoCDml6XmnKzoqp4gY2Fmw6kgPG1zZy4x?=\r\n =?utf-8?b?QHg+IFF1b3RhdGlvbiDEsCA8bXNnLjFAeD4gxLAgUmU6IMKgIG5hw692ZQ==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "x\ty",
+  "out": "Subject: x\ty\r\n"
+ },
+ {
+  "name": "References",
+  "value": "<msg.1@x> Corp",
+  "out": "References: <msg.1@x> Corp\r\n"
+ },
+ {
+  "name": "From",
+  "value": "日本語 İ x\ty ΣΟΦΟΣ naïve =?utf-8?q?x?= 😀  c,d İ x\ty   ΣΟΦΟΣ 日本語 =?utf-8?q?x?= 😀 naïve İ 日本語 Re: — Corp naïve İ a;b Re:",
+  "out": "From: =?utf-8?b?5pel5pys6KqeIMSwIHgJeSDOo86fzqbOn86jIG5hw692ZSA9P3V0Zi04P3E/?=\r\n =?utf-8?b?eD89IPCfmIAgIGMsZCDEsCB4CXkgwqAgzqPOn86mzp/OoyDml6XmnKzoqp4gPT91?=\r\n =?utf-8?b?dGYtOD9xP3g/PSDwn5iAIG5hw692ZSDEsCDml6XmnKzoqp4gUmU6IOKAlCBDb3Jw?=\r\n =?utf-8?b?IG5hw692ZSDEsCBhO2IgUmU6?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "İ café ΣΟΦΟΣ   a;b c,d QUO-2026-0001 Globex café c,d =?utf-8?q?x?= Initech İ naïve LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ 日本語 QUO-2026-0001 Re: Initech Quotation İ   naïve naïve",
+  "out": "Cc: =?utf-8?b?xLAgY2Fmw6kgzqPOn86mzp/OoyDCoCBhO2IgYyxkIFFVTy0yMDI2LTAwMDEg?=\r\n =?utf-8?b?R2xvYmV4IGNhZsOpIGMsZCA9P3V0Zi04P3E/eD89IEluaXRlY2ggxLAgbmHDr3Zl?=\r\n =?utf-8?b?IExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3Bh?=\r\n =?utf-8?b?Y2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlT?=\r\n =?utf-8?b?cGFjZXMgzqPOn86mzp/OoyDml6XmnKzoqp4gUVVPLTIwMjYtMDAwMSBSZTogSW5p?=\r\n =?utf-8?b?dGVjaCBRdW90YXRpb24gxLAgwqAgbmHDr3ZlIG5hw692ZQ==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "— c,d Initech    Re Ltd: Globex Quotation Corp x\ty x\ty =?utf-8?q?x?= QUO-2026-0001 <msg.1@x> 日本語 naïve a;b =?utf-8?q?x?= café 😀   ΣΟΦΟΣ =?utf-8?q?x?= c,d 日本語 QUO-2026-0001 naïve ΣΟΦΟΣ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "References: =?utf-8?b?4oCUIGMsZCBJbml0ZWNoIMKgICBSZSBMdGQ6IEdsb2JleCBRdW90?=\r\n =?utf-8?b?YXRpb24gQ29ycCB4CXkgeAl5ID0/dXRmLTg/cT94Pz0gUVVPLTIwMjYtMDAwMSA8?=\r\n =?utf-8?b?bXNnLjFAeD4g5pel5pys6KqeIG5hw692ZSBhO2IgPT91dGYtOD9xP3g/PSBjYWY=?=\r\n =?utf-8?b?w6kg8J+YgCDCoCDOo86fzqbOn86jID0/dXRmLTg/cT94Pz0gYyxkIOaXpeacrA==?=\r\n =?utf-8?b?6KqeIFFVTy0yMDI2LTAwMDEgbmHDr3ZlIM6jzp/Ops6fzqMgTG9uZ1Rva2VuV2l0?=\r\n =?utf-8?b?aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5X?=\r\n =?utf-8?b?aXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlcw==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "",
+  "out": "From: \r\n"
+ },
+ {
+  "name": "From",
+  "value": "QUO-2026-0001",
+  "out": "From: QUO-2026-0001\r\n"
+ },
+ {
+  "name": "References",
+  "value": "<msg.1@x> café",
+  "out": "References: =?utf-8?b?PG1zZy4xQHg+IGNhZsOp?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "café naïve  x\ty naïve Globex Globex a;b Quotation   Corp café café Quotation Corp 日本語 ΣΟΦΟΣ",
+  "out": "References: =?utf-8?b?Y2Fmw6kgbmHDr3ZlICB4CXkgbmHDr3ZlIEdsb2JleCBHbG9iZXgg?=\r\n =?utf-8?b?YTtiIFF1b3RhdGlvbiDCoCBDb3JwIGNhZsOpIGNhZsOpIFF1b3RhdGlvbiBDb3Jw?=\r\n =?utf-8?b?IOaXpeacrOiqniDOo86fzqbOn86j?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Quotation Globex <msg.1@x>",
+  "out": "In-Reply-To: Quotation Globex <msg.1@x>\r\n"
+ },
+ {
+  "name": "To",
+  "value": "日本語 naïve Globex a;b Globex =?utf-8?q?x?= Corp <msg.1@x> <msg.1@x> c,d",
+  "out": "To: =?utf-8?b?5pel5pys6KqeIG5hw692ZSBHbG9iZXggYTtiIEdsb2JleCA9P3V0Zi04P3E/?=\r\n =?utf-8?b?eD89IENvcnAgPG1zZy4xQHg+IDxtc2cuMUB4PiBjLGQ=?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "x\ty",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: x\ty\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "Globex İ naïve Corp ΣΟΦΟΣ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp  ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?Globex_=C4=B0_na?=\r\n =?utf-8?q?=C3=AFve_Corp_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_LongTokenWithoutAnyS?=\r\n =?utf-8?q?pacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenW?=\r\n =?utf-8?q?ithoutAnySpaces_LongTokenWithoutAnySpacesLongTokenWithoutAnySpace?=\r\n =?utf-8?q?sLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_Corp_=C2=A0?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "QUO-2026-0001 日本語 =?utf-8?q?x?= Quotation c,d Re: QUO-2026-0001 Ltd <msg.1@x>",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?UVVPLTIwMjYtMDAwMSA=?=\r\n =?utf-8?b?5pel5pys6KqeID0/dXRmLTg/cT94Pz0gUXVvdGF0aW9uIGMsZCBSZTogUVVPLTIw?=\r\n =?utf-8?b?MjYtMDAwMSBMdGQgPG1zZy4xQHg+?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "naïve x\ty   😀 Corp 日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces <msg.1@x> x\ty   =?utf-8?q?x?= Quotation Corp İ",
+  "out": "To: =?utf-8?b?bmHDr3ZlIHgJeSDCoCDwn5iAIENvcnAg5pel5pys6KqeIExvbmdUb2tlbldp?=\r\n =?utf-8?b?dGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2Vu?=\r\n =?utf-8?b?V2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXMgPG1zZy4x?=\r\n =?utf-8?b?QHg+IHgJeSDCoCA9P3V0Zi04P3E/eD89IFF1b3RhdGlvbiBDb3JwIMSw?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "  Quotation café Quotation naïve İ naïve café ΣΟΦΟΣ café x\ty — =?utf-8?q?x?= Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 日本語 <msg.1@x> Re: x\ty naïve Quotation Globex 😀 =?utf-8?q?x?=",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?wqAgUXVvdGF0aW9uIGNh?=\r\n =?utf-8?b?ZsOpIFF1b3RhdGlvbiBuYcOvdmUgxLAgbmHDr3ZlIGNhZsOpIM6jzp/Ops6fzqMg?=\r\n =?utf-8?b?Y2Fmw6kgeAl5IOKAlCA9P3V0Zi04P3E/eD89IFJlOiBMb25nVG9rZW5XaXRob3V0?=\r\n =?utf-8?b?QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhv?=\r\n =?utf-8?b?dXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzIOaXpeacrOiqniA8?=\r\n =?utf-8?b?bXNnLjFAeD4gUmU6IHgJeSBuYcOvdmUgUXVvdGF0aW9uIEdsb2JleCDwn5iAID0/?=\r\n =?utf-8?b?dXRmLTg/cT94Pz0=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "x\ty 日本語  😀 c,d Corp a;b  x\ty 日本語 — x\ty 😀 QUO-2026-0001 Quotation Initech Ltd <msg.1@x> naïve 日本語 a;b Re: Initech 日本語 Quotation c,d Quotation",
+  "out": "In-Reply-To: =?utf-8?b?eAl5IOaXpeacrOiqniAg8J+YgCBjLGQgQ29ycCBhO2IgIHgJeSA=?=\r\n =?utf-8?b?5pel5pys6KqeIOKAlCB4CXkg8J+YgCBRVU8tMjAyNi0wMDAxIFF1b3RhdGlvbiBJ?=\r\n =?utf-8?b?bml0ZWNoIEx0ZCA8bXNnLjFAeD4gbmHDr3ZlIOaXpeacrOiqniBhO2IgUmU6IElu?=\r\n =?utf-8?b?aXRlY2gg5pel5pys6KqeIFF1b3RhdGlvbiBjLGQgUXVvdGF0aW9u?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "日本語 😀 <msg.1@x> =?utf-8?q?x?= <msg.1@x> c,d =?utf-8?q?x?= café",
+  "out": "Content-Disposition: =?utf-8?b?5pel5pys6KqeIPCfmIAgPG1zZy4xQHg+ID0/dXRmLTg/?=\r\n =?utf-8?b?cT94Pz0gPG1zZy4xQHg+IGMsZCA9P3V0Zi04P3E/eD89IGNhZsOp?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "<msg.1@x> ΣΟΦΟΣ ",
+  "out": "Subject: =?utf-8?b?PG1zZy4xQHg+IM6jzp/Ops6fzqMg?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "<msg.1@x> 😀",
+  "out": "Content-Disposition: =?utf-8?b?PG1zZy4xQHg+IPCfmIA=?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Initech café",
+  "out": "Subject: =?utf-8?q?Initech_caf=C3=A9?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "  日本語 naïve İ café =?utf-8?q?x?= 日本語  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café  café Globex naïve  ΣΟΦΟΣ İ 😀",
+  "out": "Content-Disposition: =?utf-8?b?wqAg5pel5pys6KqeIG5hw692ZSDEsCBjYWbDqSA9P3V0?=\r\n =?utf-8?b?Zi04P3E/eD89IOaXpeacrOiqniAgTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xv?=\r\n =?utf-8?b?bmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2Vz?=\r\n =?utf-8?b?TG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlcyBhO2IgTG9uZ1Rva2VuV2l0aG91dEFu?=\r\n =?utf-8?b?eVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0?=\r\n =?utf-8?b?QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlcyBjYWbDqSAgY2Fmw6kg?=\r\n =?utf-8?b?R2xvYmV4IG5hw692ZSAgzqPOn86mzp/OoyDEsCDwn5iA?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "İ café 😀",
+  "out": "Content-Disposition: =?utf-8?b?xLAgY2Fmw6kg8J+YgA==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Re:",
+  "out": "Content-Disposition: Re:\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "  c,d ΣΟΦΟΣ Initech LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ <msg.1@x> QUO-2026-0001 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces <msg.1@x> Re: Re: Re: c,d   日本語 x\ty İ c,d 日本語 ΣΟΦΟΣ",
+  "out": "List-Unsubscribe: =?utf-8?q?=C2=A0_c=2Cd_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_Init?=\r\n =?utf-8?q?ech_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWi?=\r\n =?utf-8?q?thoutAnySpacesLongTokenWithoutAnySpaces_Ltd_=F0=9F=98=80_LongToke?=\r\n =?utf-8?q?nWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?esLongTokenWithoutAnySpaces_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_=3Cmsg?=\r\n =?utf-8?q?=2E1=40x=3E_QUO-2026-0001_LongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=3C?=\r\n =?utf-8?q?msg=2E1=40x=3E_Re=3A_Re=3A_Re=3A_c=2Cd_=C2=A0_=E6=97=A5=E6=9C=AC?=\r\n =?utf-8?q?=E8=AA=9E_x=09y_=C4=B0_c=2Cd_=E6=97=A5=E6=9C=AC=E8=AA=9E_=CE=A3?=\r\n =?utf-8?q?=CE=9F=CE=A6=CE=9F=CE=A3?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: \r\n"
+ },
+ {
+  "name": "References",
+  "value": "x\ty Globex Ltd 😀",
+  "out": "References: =?utf-8?b?eAl5IEdsb2JleCBMdGQg8J+YgA==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "x\ty",
+  "out": "Subject: x\ty\r\n"
+ },
+ {
+  "name": "References",
+  "value": "café 😀 café naïve 😀 😀",
+  "out": "References: =?utf-8?b?Y2Fmw6kg8J+YgCBjYWbDqSBuYcOvdmUg8J+YgCDwn5iA?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "😀 x\ty İ",
+  "out": "List-Unsubscribe: =?utf-8?b?8J+YgCB4CXkgxLA=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "café İ Re:",
+  "out": "References: =?utf-8?b?Y2Fmw6kgxLAgUmU6?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "",
+  "out": "Content-Disposition: \r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "x\ty Initech c,d",
+  "out": "Content-Disposition: x\ty Initech c,d\r\n"
+ },
+ {
+  "name": "From",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Re: Globex İ 😀 Quotation naïve Corp",
+  "out": "From: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenW?=\r\n =?utf-8?q?ithoutAnySpacesLongTokenWithoutAnySpaces_Re=3A_Globex_=C4=B0_?=\r\n =?utf-8?q?=F0=9F=98=80_Quotation_na=C3=AFve_Corp?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Quotation café Re:  x\ty QUO-2026-0001 a;b =?utf-8?q?x?= LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b a;b  <msg.1@x> Initech =?utf-8?q?x?= a;b café <msg.1@x> =?utf-8?q?x?= LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b x\ty <msg.1@x> café Re: ΣΟΦΟΣ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces =?utf-8?q?x?=",
+  "out": "Subject: =?utf-8?q?Quotation_caf=C3=A9_Re=3A__x=09y_QUO-2026-0001_a=3Bb_=3D?=\r\n =?utf-8?q?=3Futf-8=3Fq=3Fx=3F=3D_LongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_a=3Bb_?=\r\n =?utf-8?q?a=3Bb__=3Cmsg=2E1=40x=3E_Initech_=3D=3Futf-8=3Fq=3Fx=3F=3D_a=3Bb_?=\r\n =?utf-8?q?caf=C3=A9_=3Cmsg=2E1=40x=3E_=3D=3Futf-8=3Fq=3Fx=3F=3D_LongTokenWi?=\r\n =?utf-8?q?thoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesL?=\r\n =?utf-8?q?ongTokenWithoutAnySpaces_a=3Bb_x=09y_=3Cmsg=2E1=40x=3E_caf=C3=A9_?=\r\n =?utf-8?q?Re=3A_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_LongTokenWithoutAnySpacesLon?=\r\n =?utf-8?q?gTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAn?=\r\n =?utf-8?q?ySpaces_=3D=3Futf-8=3Fq=3Fx=3F=3D?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "=?utf-8?q?x?= Globex café Re: =?utf-8?q?x?= Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ΣΟΦΟΣ  日本語 <msg.1@x> —   Re: Quotation c,d   QUO-2026-0001 İ",
+  "out": "Cc: =?utf-8?b?PT91dGYtOD9xP3g/PSBHbG9iZXggY2Fmw6kgUmU6ID0/dXRmLTg/cT94Pz0g?=\r\n =?utf-8?b?R2xvYmV4IExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0?=\r\n =?utf-8?b?QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhv?=\r\n =?utf-8?b?dXRBbnlTcGFjZXMgzqPOn86mzp/OoyAg5pel5pys6KqeIDxtc2cuMUB4PiDigJQg?=\r\n =?utf-8?b?wqAgUmU6IFF1b3RhdGlvbiBjLGQgwqAgUVVPLTIwMjYtMDAwMSDEsA==?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "日本語 日本語 c,d 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?5pel5pys6KqeIOaXpQ==?=\r\n =?utf-8?b?5pys6KqeIGMsZCDwn5iAIExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9r?=\r\n =?utf-8?b?ZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdU?=\r\n =?utf-8?b?b2tlbldpdGhvdXRBbnlTcGFjZXM=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "İ <msg.1@x> a;b ΣΟΦΟΣ 😀 Re: — ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?xLAgPG1zZy4xQHg+IGE7YiDOo86fzqbOn86jIPCfmIAgUmU6IOKAlCDOo86f?=\r\n =?utf-8?b?zqbOn86j?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": " c,d  c,d Re: <msg.1@x> café Globex Re: Re:   c,d =?utf-8?q?x?=   =?utf-8?q?x?=",
+  "out": "References: =?utf-8?b?IGMsZCAgYyxkIFJlOiA8bXNnLjFAeD4gY2Fmw6kgR2xvYmV4IFJl?=\r\n =?utf-8?b?OiBSZTogICBjLGQgPT91dGYtOD9xP3g/PSDCoCA9P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces   =?utf-8?q?x?= café   c,d   Globex Quotation =?utf-8?q?x?=",
+  "out": "Subject: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTok?=\r\n =?utf-8?q?enWithoutAnySpacesLongTokenWithoutAnySpaces_=C2=A0_=3D=3Futf-8=3F?=\r\n =?utf-8?q?q=3Fx=3F=3D_caf=C3=A9_=C2=A0_c=2Cd_=C2=A0_Globex_Quotation_=3D=3F?=\r\n =?utf-8?q?utf-8=3Fq=3Fx=3F=3D?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "— a;b c,d — 日本語 日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp İ café — Re: Initech  naïve 日本語 日本語 <msg.1@x> — x\ty ΣΟΦΟΣ c,d naïve ΣΟΦΟΣ Globex café   İ =?utf-8?q?x?=",
+  "out": "Cc: =?utf-8?b?4oCUIGE7YiBjLGQg4oCUIOaXpeacrOiqniDml6XmnKzoqp4gTG9uZ1Rva2Vu?=\r\n =?utf-8?b?V2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9r?=\r\n =?utf-8?b?ZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlcyBDb3Jw?=\r\n =?utf-8?b?IMSwIGNhZsOpIOKAlCBSZTogSW5pdGVjaCAgbmHDr3ZlIOaXpeacrOiqniDml6U=?=\r\n =?utf-8?b?5pys6KqeIDxtc2cuMUB4PiDigJQgeAl5IM6jzp/Ops6fzqMgYyxkIG5hw692ZSA=?=\r\n =?utf-8?b?zqPOn86mzp/OoyBHbG9iZXggY2Fmw6kgwqAgxLAgPT91dGYtOD9xP3g/PQ==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "a;b Corp 😀 c,d café café  Globex   QUO-2026-0001",
+  "out": "Subject: =?utf-8?b?YTtiIENvcnAg8J+YgCBjLGQgY2Fmw6kgY2Fmw6kgIEdsb2JleCDCoCBR?=\r\n =?utf-8?b?VU8tMjAyNi0wMDAx?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "QUO-2026-0001 Quotation Globex Re: 日本語  Initech café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces QUO-2026-0001",
+  "out": "List-Unsubscribe: =?utf-8?q?QUO-2026-0001_Quotation_Globex_Re=3A_=E6=97=A5?=\r\n =?utf-8?q?=E6=9C=AC=E8=AA=9E__Initech_caf=C3=A9_LongTokenWithoutAnySpacesLo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpaces_QUO-2026-0001?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "x\ty naïve Quotation <msg.1@x> naïve x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "Subject: =?utf-8?q?x=09y_na=C3=AFve_Quotation_=3Cmsg=2E1=40x=3E_na=C3=AFve_x?=\r\n =?utf-8?q?=09y_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenW?=\r\n =?utf-8?q?ithoutAnySpacesLongTokenWithoutAnySpaces?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "日本語 İ café",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?5pel5pys6KqeIMSwIGNh?=\r\n =?utf-8?b?ZsOp?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Globex Globex =?utf-8?q?x?= café a;b naïve",
+  "out": "Subject: =?utf-8?b?R2xvYmV4IEdsb2JleCA9P3V0Zi04P3E/eD89IGNhZsOpIGE7YiBuYcOv?=\r\n =?utf-8?b?dmU=?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "c,d Re: — ΣΟΦΟΣ  ",
+  "out": "References: =?utf-8?b?YyxkIFJlOiDigJQgzqPOn86mzp/OoyDCoA==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "  ΣΟΦΟΣ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b <msg.1@x> a;b Corp",
+  "out": "Cc: =?utf-8?q?=C2=A0_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_LongTokenWithoutAnySpace?=\r\n =?utf-8?q?sLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpaces_a=3Bb_=3Cmsg=2E1=40x=3E_a=3Bb_Corp?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "naïve <msg.1@x> Corp İ —   — café 日本語 Quotation <msg.1@x> a;b Globex ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?bmHDr3ZlIDxtc2cuMUB4PiBDb3JwIMSwIOKAlCDCoCDigJQgY2Fmw6kg5pel?=\r\n =?utf-8?b?5pys6KqeIFF1b3RhdGlvbiA8bXNnLjFAeD4gYTtiIEdsb2JleCDOo86fzqbOn86j?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: \r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "ΣΟΦΟΣ Quotation a;b",
+  "out": "In-Reply-To: =?utf-8?b?zqPOn86mzp/OoyBRdW90YXRpb24gYTti?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "",
+  "out": "Content-Disposition: \r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "😀",
+  "out": "In-Reply-To: =?utf-8?b?8J+YgA==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "— QUO-2026-0001",
+  "out": "Subject: =?utf-8?q?=E2=80=94_QUO-2026-0001?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Corp",
+  "out": "List-Unsubscribe: Corp\r\n"
+ },
+ {
+  "name": "References",
+  "value": "=?utf-8?q?x?= QUO-2026-0001",
+  "out": "References: =?utf-8?q?x?= QUO-2026-0001\r\n"
+ },
+ {
+  "name": "From",
+  "value": "日本語 =?utf-8?q?x?= Quotation a;b LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces  x\ty =?utf-8?q?x?= Initech   x\ty Globex ΣΟΦΟΣ QUO-2026-0001 Globex   Re: 😀 ΣΟΦΟΣ =?utf-8?q?x?= İ ΣΟΦΟΣ ΣΟΦΟΣ 😀 a;b =?utf-8?q?x?=",
+  "out": "From: =?utf-8?b?5pel5pys6KqeID0/dXRmLTg/cT94Pz0gUXVvdGF0aW9uIGE7YiBMb25nVG9r?=\r\n =?utf-8?b?ZW5XaXRob3V0QW55U3BhY2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdU?=\r\n =?utf-8?b?b2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3BhY2VzICB4?=\r\n =?utf-8?b?CXkgPT91dGYtOD9xP3g/PSBJbml0ZWNoIMKgIHgJeSBHbG9iZXggzqPOn86mzp8=?=\r\n =?utf-8?b?zqMgUVVPLTIwMjYtMDAwMSBHbG9iZXggwqAgUmU6IPCfmIAgzqPOn86mzp/OoyA9?=\r\n =?utf-8?b?P3V0Zi04P3E/eD89IMSwIM6jzp/Ops6fzqMgzqPOn86mzp/OoyDwn5iAIGE7YiA9?=\r\n =?utf-8?b?P3V0Zi04P3E/eD89?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "日本語 Quotation",
+  "out": "Content-Disposition: =?utf-8?b?5pel5pys6KqeIFF1b3RhdGlvbg==?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "",
+  "out": "Content-Disposition: \r\n"
+ },
+ {
+  "name": "To",
+  "value": "  Quotation Initech Re: İ Re: QUO-2026-0001 İ İ İ Corp   x\ty Quotation  —  Initech  ΣΟΦΟΣ    Quotation Quotation a;b café Quotation <msg.1@x>",
+  "out": "To: =?utf-8?b?wqAgUXVvdGF0aW9uIEluaXRlY2ggUmU6IMSwIFJlOiBRVU8tMjAyNi0wMDAx?=\r\n =?utf-8?b?IMSwIMSwIMSwIENvcnAgwqAgeAl5IFF1b3RhdGlvbiAg4oCUICBJbml0ZWNoICA=?=\r\n =?utf-8?b?zqPOn86mzp/OoyAgwqAgUXVvdGF0aW9uIFF1b3RhdGlvbiBhO2IgY2Fmw6kgUXVv?=\r\n =?utf-8?b?dGF0aW9uIDxtc2cuMUB4Pg==?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces İ Initech QUO-2026-0001 Corp",
+  "out": "In-Reply-To: =?utf-8?q?Re=3A_LongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=C4=B0_Init?=\r\n =?utf-8?q?ech_QUO-2026-0001_Corp?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": " İ",
+  "out": "Cc: =?utf-8?b?IMSw?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Globex   Globex İ a;b   naïve —",
+  "out": "Content-Disposition: =?utf-8?b?R2xvYmV4IMKgIEdsb2JleCDEsCBhO2IgwqAgbmHDr3Zl?=\r\n =?utf-8?b?IOKAlA==?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "— 日本語",
+  "out": "References: =?utf-8?b?4oCUIOaXpeacrOiqng==?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "Initech 日本語 naïve Corp ΣΟΦΟΣ Globex <msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces x\ty",
+  "out": "List-Unsubscribe: =?utf-8?q?Initech_=E6=97=A5=E6=9C=AC=E8=AA=9E_na=C3=AFve_C?=\r\n =?utf-8?q?orp_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_Globex_=3Cmsg=2E1=40x=3E_LongT?=\r\n =?utf-8?q?okenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnyS?=\r\n =?utf-8?q?pacesLongTokenWithoutAnySpaces_x=09y?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "naïve 日本語 Globex 😀 — ΣΟΦΟΣ  a;b",
+  "out": "Subject: =?utf-8?b?bmHDr3ZlIOaXpeacrOiqniBHbG9iZXgg8J+YgCDigJQgzqPOn86mzp8=?=\r\n =?utf-8?b?zqMgIGE7Yg==?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "😀 Re: =?utf-8?q?x?= ΣΟΦΟΣ İ İ ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?8J+YgCBSZTogPT91dGYt?=\r\n =?utf-8?b?OD9xP3g/PSDOo86fzqbOn86jIMSwIMSwIA==?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces —",
+  "out": "In-Reply-To: =?utf-8?q?x=09y_LongTokenWithoutAnySpacesLongTokenWithoutAnySpa?=\r\n =?utf-8?q?cesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_=E2=80=94?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?q?=F0=9F=98=80_LongToke?=\r\n =?utf-8?q?nWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpac?=\r\n =?utf-8?q?esLongTokenWithoutAnySpaces?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "café 日本語 =?utf-8?q?x?= Globex 😀   a;b",
+  "out": "Subject: =?utf-8?b?Y2Fmw6kg5pel5pys6KqeID0/dXRmLTg/cT94Pz0gR2xvYmV4IPCfmIAg?=\r\n =?utf-8?b?wqAgYTti?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "=?utf-8?q?x?= ΣΟΦΟΣ İ Quotation ",
+  "out": "List-Unsubscribe: =?utf-8?b?PT91dGYtOD9xP3g/PSDOo86fzqbOn86jIMSwIFF1b3RhdGlv?=\r\n =?utf-8?b?biA=?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "Quotation QUO-2026-0001 İ ΣΟΦΟΣ   naïve c,d",
+  "out": "From: =?utf-8?b?UXVvdGF0aW9uIFFVTy0yMDI2LTAwMDEgxLAgzqPOn86mzp/OoyDCoCBuYcOv?=\r\n =?utf-8?b?dmUgYyxk?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "References",
+  "value": "Globex Re:",
+  "out": "References: Globex Re:\r\n"
+ },
+ {
+  "name": "To",
+  "value": "İ Re: Initech Globex café LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 😀 Re: c,d Corp café 日本語 Initech 日本語 Re:",
+  "out": "To: =?utf-8?q?=C4=B0_Re=3A_Initech_Globex_caf=C3=A9_LongTokenWithoutAnySpace?=\r\n =?utf-8?q?sLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpaces_=F0=9F=98=80_Re=3A_c=2Cd_Corp_caf=C3=A9_=E6=97=A5?=\r\n =?utf-8?q?=E6=9C=AC=E8=AA=9E_Initech_=E6=97=A5=E6=9C=AC=E8=AA=9E_Re=3A?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "ΣΟΦΟΣ İ 日本語 café  QUO-2026-0001",
+  "out": "List-Unsubscribe: =?utf-8?b?zqPOn86mzp/OoyDEsCDml6XmnKzoqp4gY2Fmw6kgIFFVTy0y?=\r\n =?utf-8?b?MDI2LTAwMDE=?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Re: <msg.1@x>   QUO-2026-0001 c,d Globex naïve x\ty QUO-2026-0001 a;b c,d Re: Globex x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces —   a;b İ",
+  "out": "Subject: =?utf-8?q?Re=3A_=3Cmsg=2E1=40x=3E_=C2=A0_QUO-2026-0001_c=2Cd_Globex?=\r\n =?utf-8?q?_na=C3=AFve_x=09y_QUO-2026-0001_a=3Bb_c=2Cd_Re=3A_Globex_x=09y_Lo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpacesLongTokenWithoutAnySpaces_=E2=80=94_=C2=A0_a=3Bb_=C4=B0?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "x\ty — c,d Re: =?utf-8?q?x?=   Corp c,d QUO-2026-0001 😀 café",
+  "out": "In-Reply-To: =?utf-8?b?eAl5IOKAlCBjLGQgUmU6ID0/dXRmLTg/cT94Pz0gwqAgQ29ycCBj?=\r\n =?utf-8?b?LGQgUVVPLTIwMjYtMDAwMSDwn5iAIGNhZsOp?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": " QUO-2026-0001",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room:  QUO-2026-0001\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Globex ΣΟΦΟΣ a;b",
+  "out": "References: =?utf-8?b?R2xvYmV4IM6jzp/Ops6fzqMgYTti?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "café QUO-2026-0001 ΣΟΦΟΣ Re: Globex   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café",
+  "out": "List-Unsubscribe: =?utf-8?q?caf=C3=A9_QUO-2026-0001_=CE=A3=CE=9F=CE=A6=CE=9F?=\r\n =?utf-8?q?=CE=A3_Re=3A_Globex_=C2=A0_LongTokenWithoutAnySpacesLongTokenWith?=\r\n =?utf-8?q?outAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_ca?=\r\n =?utf-8?q?f=C3=A9?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "=?utf-8?q?x?= Quotation ΣΟΦΟΣ c,d Globex   ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?PT91dGYtOD9xP3g/PSBRdW90YXRpb24gzqPOn86mzp/OoyBjLGQgR2xvYmV4?=\r\n =?utf-8?b?IMKgIM6jzp/Ops6fzqM=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "x\ty —   İ <msg.1@x> <msg.1@x>",
+  "out": "In-Reply-To: =?utf-8?b?eAl5IOKAlCDCoCDEsCA8bXNnLjFAeD4gPG1zZy4xQHg+?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Globex café x\ty LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Corp naïve QUO-2026-0001 <msg.1@x>",
+  "out": "References: =?utf-8?q?Globex_caf=C3=A9_x=09y_LongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySp?=\r\n =?utf-8?q?aces_Corp_na=C3=AFve_QUO-2026-0001_=3Cmsg=2E1=40x=3E?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Corp 日本語  x\ty ΣΟΦΟΣ Quotation",
+  "out": "References: =?utf-8?b?Q29ycCDml6XmnKzoqp4gIHgJeSDOo86fzqbOn86jIFF1b3RhdGlv?=\r\n =?utf-8?b?bg==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "",
+  "out": "To: \r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "😀",
+  "out": "In-Reply-To: =?utf-8?b?8J+YgA==?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "=?utf-8?q?x?= 😀 İ 😀 Re: Globex naïve 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces naïve Initech c,d 😀 Re:   x\ty   <msg.1@x> 😀 x\ty Quotation c,d 😀 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces QUO-2026-0001",
+  "out": "From: =?utf-8?q?=3D=3Futf-8=3Fq=3Fx=3F=3D_=F0=9F=98=80_=C4=B0_=F0=9F=98=80_R?=\r\n =?utf-8?q?e=3A_Globex_na=C3=AFve_=F0=9F=98=80_LongTokenWithoutAnySpacesLong?=\r\n =?utf-8?q?TokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAny?=\r\n =?utf-8?q?Spaces_na=C3=AFve_Initech_c=2Cd_=F0=9F=98=80_Re=3A_=C2=A0_x=09y_?=\r\n =?utf-8?q?=C2=A0_=3Cmsg=2E1=40x=3E_=F0=9F=98=80_x=09y_Quotation_c=2Cd_?=\r\n =?utf-8?q?=F0=9F=98=80_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpaces_LongTokenWithout?=\r\n =?utf-8?q?AnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpaces_QUO-2026-0001?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "c,d",
+  "out": "Content-Disposition: c,d\r\n"
+ },
+ {
+  "name": "To",
+  "value": "Globex ΣΟΦΟΣ ΣΟΦΟΣ — <msg.1@x> 😀 Initech Corp   x\ty Quotation Ltd İ İ Initech a;b  café naïve naïve   a;b 日本語",
+  "out": "To: =?utf-8?b?R2xvYmV4IM6jzp/Ops6fzqMgzqPOn86mzp/OoyDigJQgPG1zZy4xQHg+IA==?=\r\n =?utf-8?b?8J+YgCBJbml0ZWNoIENvcnAgwqAgeAl5IFF1b3RhdGlvbiBMdGQgxLAgxLAgSW5p?=\r\n =?utf-8?b?dGVjaCBhO2IgIGNhZsOpIG5hw692ZSBuYcOvdmUgwqAgYTtiIOaXpeacrOiqng==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces c,d <msg.1@x> Re: Re: İ ΣΟΦΟΣ 日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café Quotation c,d — =?utf-8?q?x?= —",
+  "out": "Cc: =?utf-8?q?LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWit?=\r\n =?utf-8?q?houtAnySpacesLongTokenWithoutAnySpaces_c=2Cd_=3Cmsg=2E1=40x=3E_Re?=\r\n =?utf-8?q?=3A_Re=3A_=C4=B0_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_=E6=97=A5?=\r\n =?utf-8?q?=E6=9C=AC=E8=AA=9E_LongTokenWithoutAnySpacesLongTokenWithoutAnySp?=\r\n =?utf-8?q?acesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_caf=C3=A9_?=\r\n =?utf-8?q?Quotation_c=2Cd_=E2=80=94_=3D=3Futf-8=3Fq=3Fx=3F=3D_=E2=80=94?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "x\ty Initech",
+  "out": "Cc: x\ty Initech\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "café =?utf-8?q?x?=",
+  "out": "List-Unsubscribe: =?utf-8?b?Y2Fmw6kgPT91dGYtOD9xP3g/PQ==?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "Corp İ ΣΟΦΟΣ a;b <msg.1@x> Initech Quotation naïve c,d 😀 İ c,d Quotation Quotation a;b x\ty x\ty",
+  "out": "Cc: =?utf-8?b?Q29ycCDEsCDOo86fzqbOn86jIGE7YiA8bXNnLjFAeD4gSW5pdGVjaCBRdW90?=\r\n =?utf-8?b?YXRpb24gbmHDr3ZlIGMsZCDwn5iAIMSwIGMsZCBRdW90YXRpb24gUXVvdGF0aW9u?=\r\n =?utf-8?b?IGE7YiB4CXkgeAl5?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "naïve naïve",
+  "out": "In-Reply-To: =?utf-8?b?bmHDr3ZlIG5hw692ZQ==?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "References",
+  "value": "日本語 café Globex Corp <msg.1@x> c,d   Globex Globex",
+  "out": "References: =?utf-8?b?5pel5pys6KqeIGNhZsOpIEdsb2JleCBDb3JwIDxtc2cuMUB4PiBj?=\r\n =?utf-8?b?LGQgICBHbG9iZXggR2xvYmV4?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "a;b — =?utf-8?q?x?= İ <msg.1@x> QUO-2026-0001 =?utf-8?q?x?= Corp 😀 a;b a;b  İ LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café 😀",
+  "out": "List-Unsubscribe: =?utf-8?b?YTtiIOKAlCA9P3V0Zi04P3E/eD89IMSwIDxtc2cuMUB4PiBR?=\r\n =?utf-8?b?VU8tMjAyNi0wMDAxID0/dXRmLTg/cT94Pz0gQ29ycCDwn5iAIGE7YiBhO2IgIMSw?=\r\n =?utf-8?b?IExvbmdUb2tlbldpdGhvdXRBbnlTcGFjZXNMb25nVG9rZW5XaXRob3V0QW55U3Bh?=\r\n =?utf-8?b?Y2VzTG9uZ1Rva2VuV2l0aG91dEFueVNwYWNlc0xvbmdUb2tlbldpdGhvdXRBbnlT?=\r\n =?utf-8?b?cGFjZXMgY2Fmw6kg8J+YgA==?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": " QUO-2026-0001   c,d Initech Re: LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Globex",
+  "out": "To: =?utf-8?q?_QUO-2026-0001_=C2=A0_c=2Cd_Initech_Re=3A_LongTokenWithoutAnyS?=\r\n =?utf-8?q?pacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenW?=\r\n =?utf-8?q?ithoutAnySpaces_Globex?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": " Quotation Corp — LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces ",
+  "out": "In-Reply-To: =?utf-8?q?_Quotation_Corp_=E2=80=94_LongTokenWithoutAnySpacesLo?=\r\n =?utf-8?q?ngTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutA?=\r\n =?utf-8?q?nySpaces_?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "日本語 LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b  a;b Quotation Quotation   <msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces —  LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces x\ty İ ΣΟΦΟΣ Initech Globex Quotation",
+  "out": "References: =?utf-8?q?=E6=97=A5=E6=9C=AC=E8=AA=9E_LongTokenWithoutAnySpacesL?=\r\n =?utf-8?q?ongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithout?=\r\n =?utf-8?q?AnySpaces_a=3Bb__a=3Bb_Quotation_Quotation_=C2=A0_=3Cmsg=2E1=40x?=\r\n =?utf-8?q?=3E_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWi?=\r\n =?utf-8?q?thoutAnySpacesLongTokenWithoutAnySpaces_=E2=80=94__LongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLong?=\r\n =?utf-8?q?TokenWithoutAnySpaces_x=09y_=C4=B0_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3?=\r\n =?utf-8?q?_Initech_Globex_Quotation?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "Initech Corp Ltd <msg.1@x> a;b  Globex x\ty 😀 Globex Corp LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces Ltd x\ty naïve naïve <msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces 😀 café a;b",
+  "out": "References: =?utf-8?q?Initech_Corp_Ltd_=3Cmsg=2E1=40x=3E_a=3Bb__Globex_x=09y?=\r\n =?utf-8?q?_=F0=9F=98=80_Globex_Corp_LongTokenWithoutAnySpacesLongTokenWitho?=\r\n =?utf-8?q?utAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_Ltd?=\r\n =?utf-8?q?_x=09y_na=C3=AFve_na=C3=AFve_=3Cmsg=2E1=40x=3E_LongTokenWithoutAn?=\r\n =?utf-8?q?ySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongToke?=\r\n =?utf-8?q?nWithoutAnySpaces_=F0=9F=98=80_caf=C3=A9_a=3Bb?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "İ café",
+  "out": "From: =?utf-8?b?xLAgY2Fmw6k=?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "a;b Corp Ltd <msg.1@x>   Initech",
+  "out": "Content-Disposition: =?utf-8?b?YTtiIENvcnAgTHRkIDxtc2cuMUB4PiDCoCBJbml0ZWNo?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "",
+  "out": "References: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "Initech <msg.1@x> İ <msg.1@x> 😀  café café <msg.1@x> İ ΣΟΦΟΣ Quotation Globex Quotation 日本語 <msg.1@x> —",
+  "out": "In-Reply-To: =?utf-8?b?SW5pdGVjaCA8bXNnLjFAeD4gxLAgPG1zZy4xQHg+IPCfmIAgIGNh?=\r\n =?utf-8?b?ZsOpIGNhZsOpIDxtc2cuMUB4PiDEsCDOo86fzqbOn86jIFF1b3RhdGlvbiBHbG9i?=\r\n =?utf-8?b?ZXggUXVvdGF0aW9uIOaXpeacrOiqniA8bXNnLjFAeD4g4oCU?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "  café c,d",
+  "out": "From: =?utf-8?b?wqAgY2Fmw6kgYyxk?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "",
+  "out": "List-Unsubscribe: \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "c,d",
+  "out": "List-Unsubscribe: c,d\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "x\ty",
+  "out": "Subject: x\ty\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "ΣΟΦΟΣ Quotation a;b 😀 — Initech Globex café ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?zqPOn86mzp/OoyBRdW90YXRpb24gYTtiIPCfmIAg4oCUIEluaXRlY2ggR2xv?=\r\n =?utf-8?b?YmV4IGNhZsOpIM6jzp/Ops6fzqM=?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "日本語",
+  "out": "In-Reply-To: =?utf-8?b?5pel5pys6Kqe?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "",
+  "out": "Cc: \r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "café 日本語 İ ΣΟΦΟΣ İ Quotation",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: =?utf-8?b?Y2Fmw6kg5pel5pys6Kqe?=\r\n =?utf-8?b?IMSwIM6jzp/Ops6fzqMgxLAgUXVvdGF0aW9u?=\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "a;b",
+  "out": "List-Unsubscribe: a;b\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "a;b 日本語 —   LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café QUO-2026-0001 Quotation QUO-2026-0001 <msg.1@x>",
+  "out": "Content-Disposition: =?utf-8?q?a=3Bb_=E6=97=A5=E6=9C=AC=E8=AA=9E_=E2=80=94_?=\r\n =?utf-8?q?=C2=A0_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongToke?=\r\n =?utf-8?q?nWithoutAnySpacesLongTokenWithoutAnySpaces_caf=C3=A9_QUO-2026-000?=\r\n =?utf-8?q?1_Quotation_QUO-2026-0001_=3Cmsg=2E1=40x=3E?=\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "",
+  "out": "In-Reply-To: \r\n"
+ },
+ {
+  "name": "To",
+  "value": " LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces a;b x\ty — QUO-2026-0001 Re: x\ty 日本語 a;b İ c,d a;b Globex ΣΟΦΟΣ Re: Re: Quotation Corp ",
+  "out": "To: =?utf-8?q?_LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWi?=\r\n =?utf-8?q?thoutAnySpacesLongTokenWithoutAnySpaces_a=3Bb_x=09y_=E2=80=94_QUO?=\r\n =?utf-8?q?-2026-0001_Re=3A_x=09y_=E6=97=A5=E6=9C=AC=E8=AA=9E_a=3Bb_=C4=B0_c?=\r\n =?utf-8?q?=2Cd_a=3Bb_Globex_=CE=A3=CE=9F=CE=A6=CE=9F=CE=A3_Re=3A_Re=3A_Quot?=\r\n =?utf-8?q?ation_Corp_?=\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: \r\n LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces\r\n"
+ },
+ {
+  "name": "References",
+  "value": "=?utf-8?q?x?= c,d c,d   x\ty — c,d   Initech café naïve QUO-2026-0001 c,d İ =?utf-8?q?x?= İ Re: Quotation",
+  "out": "References: =?utf-8?b?PT91dGYtOD9xP3g/PSBjLGQgYyxkIMKgIHgJeSDigJQgYyxkIMKg?=\r\n =?utf-8?b?IEluaXRlY2ggY2Fmw6kgbmHDr3ZlIFFVTy0yMDI2LTAwMDEgYyxkIMSwID0/dXRm?=\r\n =?utf-8?b?LTg/cT94Pz0gxLAgUmU6IFF1b3RhdGlvbg==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "Re:  QUO-2026-0001 Ltd naïve naïve  QUO-2026-0001",
+  "out": "Subject: =?utf-8?q?Re=3A__QUO-2026-0001_Ltd_na=C3=AFve_na=C3=AFve__QUO-2026-?=\r\n =?utf-8?q?0001?=\r\n"
+ },
+ {
+  "name": "To",
+  "value": "ΣΟΦΟΣ Re: 日本語",
+  "out": "To: =?utf-8?b?zqPOn86mzp/OoyBSZTog5pel5pys6Kqe?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "<msg.1@x> c,d 日本語 x\ty <msg.1@x> LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces café a;b İ",
+  "out": "Content-Disposition: =?utf-8?q?=3Cmsg=2E1=40x=3E_c=2Cd_=E6=97=A5=E6=9C=AC?=\r\n =?utf-8?q?=E8=AA=9E_x=09y_=3Cmsg=2E1=40x=3E_LongTokenWithoutAnySpacesLongTo?=\r\n =?utf-8?q?kenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySp?=\r\n =?utf-8?q?aces_caf=C3=A9_a=3Bb_=C4=B0?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "Re: <msg.1@x> Corp —  a;b café c,d Globex LongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces İ a;b",
+  "out": "Content-Disposition: =?utf-8?q?Re=3A_=3Cmsg=2E1=40x=3E_Corp_=E2=80=94__a=3Bb?=\r\n =?utf-8?q?_caf=C3=A9_c=2Cd_Globex_LongTokenWithoutAnySpacesLongTokenWithout?=\r\n =?utf-8?q?AnySpacesLongTokenWithoutAnySpacesLongTokenWithoutAnySpaces_?=\r\n =?utf-8?q?=C4=B0_a=3Bb?=\r\n"
+ },
+ {
+  "name": "From",
+  "value": "",
+  "out": "From: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "c,d Globex",
+  "out": "Cc: c,d Globex\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "<msg.1@x> Globex =?utf-8?q?x?= İ QUO-2026-0001 Quotation",
+  "out": "In-Reply-To: =?utf-8?b?PG1zZy4xQHg+IEdsb2JleCA9P3V0Zi04P3E/eD89IMSwIFFVTy0y?=\r\n =?utf-8?b?MDI2LTAwMDEgUXVvdGF0aW9u?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "ΣΟΦΟΣ <msg.1@x> 日本語 x\ty <msg.1@x> Re: İ a;b — Globex ΣΟΦΟΣ <msg.1@x>   Initech 日本語 naïve =?utf-8?q?x?= naïve — Globex x\ty QUO-2026-0001 — c,d ΣΟΦΟΣ",
+  "out": "Content-Disposition: =?utf-8?b?zqPOn86mzp/OoyA8bXNnLjFAeD4g5pel5pys6KqeIHgJ?=\r\n =?utf-8?b?eSA8bXNnLjFAeD4gUmU6IMSwIGE7YiDigJQgR2xvYmV4IM6jzp/Ops6fzqMgPG1z?=\r\n =?utf-8?b?Zy4xQHg+IMKgIEluaXRlY2gg5pel5pys6KqeIG5hw692ZSA9P3V0Zi04P3E/eD89?=\r\n =?utf-8?b?IG5hw692ZSDigJQgR2xvYmV4IHgJeSBRVU8tMjAyNi0wMDAxIOKAlCBjLGQgzqM=?=\r\n =?utf-8?b?zp/Ops6fzqM=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "İ Globex =?utf-8?q?x?= a;b ΣΟΦΟΣ Quotation x\ty <msg.1@x> 😀 日本語 — QUO-2026-0001  <msg.1@x>  ΣΟΦΟΣ Initech 日本語 ΣΟΦΟΣ Initech café <msg.1@x> İ Corp İ =?utf-8?q?x?= <msg.1@x> ΣΟΦΟΣ",
+  "out": "Cc: =?utf-8?b?xLAgR2xvYmV4ID0/dXRmLTg/cT94Pz0gYTtiIM6jzp/Ops6fzqMgUXVvdGF0?=\r\n =?utf-8?b?aW9uIHgJeSA8bXNnLjFAeD4g8J+YgCDml6XmnKzoqp4g4oCUIFFVTy0yMDI2LTAw?=\r\n =?utf-8?b?MDEgIDxtc2cuMUB4PiAgzqPOn86mzp/OoyBJbml0ZWNoIOaXpeacrOiqniDOo86f?=\r\n =?utf-8?b?zqbOn86jIEluaXRlY2ggY2Fmw6kgPG1zZy4xQHg+IMSwIENvcnAgxLAgPT91dGYt?=\r\n =?utf-8?b?OD9xP3g/PSA8bXNnLjFAeD4gzqPOn86mzp/Oow==?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "",
+  "out": "Subject: \r\n"
+ },
+ {
+  "name": "Cc",
+  "value": " ",
+  "out": "Cc:  \r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "out": "Subject: \r\n aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a ",
+  "out": "List-Unsubscribe: a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a\r\n a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a \r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "éééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééééé",
+  "out": "List-Unsubscribe: =?utf-8?b?w6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOp?=\r\n =?utf-8?b?w6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOp?=\r\n =?utf-8?b?w6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOp?=\r\n =?utf-8?b?w6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOpw6nDqcOp?=\r\n =?utf-8?b?w6nDqcOpw6nDqcOpw6nDqcOpw6k=?=\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é é ",
+  "out": "Cc: =?utf-8?b?w6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kg?=\r\n =?utf-8?b?w6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kg?=\r\n =?utf-8?b?w6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kg?=\r\n =?utf-8?b?w6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kgw6kg?=\r\n"
+ },
+ {
+  "name": "References",
+  "value": "x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;",
+  "out": "References: \r\n x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;x;\r\n"
+ },
+ {
+  "name": "In-Reply-To",
+  "value": "line1\nline2",
+  "out": "In-Reply-To: line1\r\nline2\r\n"
+ },
+ {
+  "name": "References",
+  "value": "line1\n line2",
+  "out": "References: line1\r\n line2\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": "a\nX-Evil: 1",
+  "error": "HeaderParseError"
+ },
+ {
+  "name": "References",
+  "value": "a\n\tb",
+  "out": "References: a\r\n\tb\r\n"
+ },
+ {
+  "name": "References",
+  "value": "a\r\nb",
+  "out": "References: a\r\nb\r\n"
+ },
+ {
+  "name": "List-Unsubscribe",
+  "value": "émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀émoji 😀",
+  "out": "List-Unsubscribe: =?utf-8?b?w6ltb2ppIPCfmIDDqW1vamkg8J+YgMOpbW9qaSDwn5iAw6lt?=\r\n =?utf-8?b?b2ppIPCfmIDDqW1vamkg8J+YgMOpbW9qaSDwn5iAw6ltb2ppIPCfmIDDqW1vamkg?=\r\n =?utf-8?b?8J+YgMOpbW9qaSDwn5iAw6ltb2ppIPCfmIDDqW1vamkg8J+YgMOpbW9qaSDwn5iA?=\r\n"
+ },
+ {
+  "name": "Content-Disposition",
+  "value": " lead",
+  "out": "Content-Disposition:  lead\r\n"
+ },
+ {
+  "name": "X-A-Really-Long-Header-Name-That-Takes-Room",
+  "value": "trail ",
+  "out": "X-A-Really-Long-Header-Name-That-Takes-Room: trail \r\n"
+ },
+ {
+  "name": "References",
+  "value": "a b",
+  "out": "References: =?utf-8?q?a?=\r\n =?utf-8?q?_b?=\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "<a@b> <c@d> <e@f> <g@h> <i@j> <k@l> <m@n> <o@p> <q@r> <s@t> <u@v> <w@x>",
+  "out": "Subject: <a@b> <c@d> <e@f> <g@h> <i@j> <k@l> <m@n> <o@p> <q@r> <s@t> <u@v>\r\n <w@x>\r\n"
+ },
+ {
+  "name": "Cc",
+  "value": "multipart/alternative; boundary=\"===============1234567890123456789==\"",
+  "out": "Cc: multipart/alternative; boundary=\"===============1234567890123456789==\"\r\n"
+ },
+ {
+  "name": "Subject",
+  "value": "application/octet-stream; Name*=utf-8''%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E8%A6%8B%E7%A9%8D%E6%9B%B8.pdf",
+  "out": "Subject: application/octet-stream;\r\n Name*=utf-8''%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%81%AE%E8%A6%8B%E7%A9%8D%E6%9B%B8.pdf\r\n"
+ }
+]

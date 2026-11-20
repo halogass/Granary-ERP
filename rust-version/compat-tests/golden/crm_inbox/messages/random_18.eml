@@ -1,0 +1,16 @@
+Date: base64
+Message-ID: été <filename*1="b"; =?utf-8?x?y?=> 1.0
+MIME-Version: text/plain=?gb2312?b?xOO6ww==?= <�> [
+Content-Type: multipart/mixed; boundary=Q
+
+--Q
+Content-Type: text/plain; charset=utf-8
+
+hello
+world
+--Q
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<i>x=3Dy</i>
+--Q--

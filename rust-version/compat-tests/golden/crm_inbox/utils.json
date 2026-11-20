@@ -1,0 +1,7426 @@
+[
+ {
+  "kind": "parseaddr",
+  "in": "",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@b",
+  "out": [
+   "",
+   "a@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@b",
+  "out": [
+   [
+    "",
+    "a@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "Ann <ann@x.y>",
+  "out": [
+   "Ann",
+   "ann@x.y"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "Ann <ann@x.y>",
+  "out": [
+   [
+    "Ann",
+    "ann@x.y"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"Doe, John\" <j@x.y>",
+  "out": [
+   "Doe, John",
+   "j@x.y"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"Doe, John\" <j@x.y>",
+  "out": [
+   [
+    "Doe, John",
+    "j@x.y"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "j@x.y (John)",
+  "out": [
+   "John",
+   "j@x.y"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "j@x.y (John)",
+  "out": [
+   [
+    "John",
+    "j@x.y"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<a@b>",
+  "out": [
+   "",
+   "a@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<a@b>",
+  "out": [
+   [
+    "",
+    "a@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@b, c@d",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@b, c@d",
+  "out": [
+   [
+    "",
+    "a@b"
+   ],
+   [
+    "",
+    "c@d"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "Group: a@b;",
+  "out": [
+   "",
+   "a@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "Group: a@b;",
+  "out": [
+   [
+    "",
+    "a@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@b <c@d>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@b <c@d>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(a@b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(a@b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@b)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@b)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"(\" <a@b>",
+  "out": [
+   "(",
+   "a@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"(\" <a@b>",
+  "out": [
+   [
+    "(",
+    "a@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@[1.2.3.4]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@[1.2.3.4]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@b@c",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@b@c",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x <a@b> y",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x <a@b> y",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"\" <a@b>",
+  "out": [
+   "",
+   "a@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"\" <a@b>",
+  "out": [
+   [
+    "",
+    "a@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a.b.@c",
+  "out": [
+   "",
+   "a.b.@c"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a.b.@c",
+  "out": [
+   [
+    "",
+    "a.b.@c"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a .b@c",
+  "out": [
+   "",
+   "a.b@c"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a .b@c",
+  "out": [
+   [
+    "",
+    "a.b@c"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "Jörg <j@x>",
+  "out": [
+   "Jörg",
+   "j@x"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "Jörg <j@x>",
+  "out": [
+   [
+    "Jörg",
+    "j@x"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "=?utf-8?q?x?= <a@b>",
+  "out": [
+   "=?utf-8?q?x?=",
+   "a@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "=?utf-8?q?x?= <a@b>",
+  "out": [
+   [
+    "=?utf-8?q?x?=",
+    "a@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@b,",
+  "out": [
+   "",
+   "a@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@b,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",a@b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",a@b",
+  "out": [
+   [
+    "",
+    ""
+   ],
+   [
+    "",
+    "a@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a\\@b",
+  "out": [
+   "",
+   "a\\@b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a\\@b",
+  "out": [
+   [
+    "",
+    "a\\@b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"a\\\"b\" <c@d>",
+  "out": [
+   "a\"b",
+   "c@d"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"a\\\"b\" <c@d>",
+  "out": [
+   [
+    "a\"b",
+    "c@d"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z>[:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z>[:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".",
+  "out": [
+   "",
+   "."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".",
+  "out": [
+   [
+    "",
+    "."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é<(,ab:<@:[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é<(,ab:<@:[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".@b[b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".@b[b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";\"]:x@y.z<(]@x@y.z[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";\"]:x@y.z<(]@x@y.z[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".é)x@y.z\\@(é\\é(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".é)x@y.z\\@(é\\é(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b)(>é::é:@>é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b)(>é::é:@>é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "; (",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "; (",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<x@y.z<bé[x@y.z;b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<x@y.z<bé[x@y.z;b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z(é(@[<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z(é(@[<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\@\"[;[:\\)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\@\"[;[:\\)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".@>>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".@>>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "ax@y.z\\]<\\(:a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "ax@y.z\\]<\\(:a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@@<;)[\\b;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@@<;)[\\b;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "aa])]\\é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "aa])]\\é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":b\";@ax@y.z.",
+  "out": [
+   "",
+   "b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":b\";@ax@y.z.",
+  "out": [
+   [
+    "",
+    "b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@.,\" x@y.zx@y.z(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@.,\" x@y.zx@y.z(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<;@é a ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<;@é a ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " ,(\\b\"(@<]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " ,(\\b\"(@<]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".",
+  "out": [
+   "",
+   "."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".",
+  "out": [
+   [
+    "",
+    "."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<> \"@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<> \"@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":[>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":[>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".\\x@y.z.",
+  "out": [
+   "",
+   ".\\x@y.z."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".\\x@y.z.",
+  "out": [
+   [
+    "",
+    ".\\x@y.z."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@.é).@x@y.z,@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@.é).@x@y.z,@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".<x@y.z:",
+  "out": [
+   ".",
+   "x@y.z"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".<x@y.z:",
+  "out": [
+   [
+    ".",
+    "x@y.z"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\: ](",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\: ](",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]<\".,).\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]<\".,).\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":,>):\"<\"]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":,>):\"<\"]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "], <@x@y.z\\(.\"\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "], <@x@y.z\\(.\"\"",
+  "out": [
+   [
+    "",
+    ""
+   ],
+   [
+    " (.\"\")",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a\\@.a",
+  "out": [
+   "",
+   "a\\@.a"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a\\@.a",
+  "out": [
+   [
+    "",
+    "a\\@.a"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<(>[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<(>[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.zx@y.z<.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.zx@y.z<.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a ",
+  "out": [
+   "",
+   "a"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a ",
+  "out": [
+   [
+    "",
+    "a"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\<;:.( \\é[a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\<;:.( \\é[a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z)]:@.x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z)]:@.x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<[@.<,",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<[@.<,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é><:\\(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é><:\\(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ");[];\\.]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ");[];\\.]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",..\")",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",..\")",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " é)bx@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " é)bx@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",><",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",><",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<é(x@y.z)",
+  "out": [
+   " (x@y.z)",
+   "é"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<é(x@y.z)",
+  "out": [
+   [
+    " (x@y.z)",
+    "é"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(\"@)[@;>):",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(\"@)[@;>):",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".,\\ [>)@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".,\\ [>)@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";x@y.zaa[.a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";x@y.zaa[.a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z\\b,@ ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z\\b,@ ",
+  "out": [
+   [
+    "",
+    "x@y.z\\b"
+   ],
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "aax@y.z\\: ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "aax@y.z\\: ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a,]é:bbx@y.z)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a,]é:bbx@y.z)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">[@;)<.\"[a]x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">[@;)<.\"[a]x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"b\\(b ;\"b  ",
+  "out": [
+   "",
+   "b(b ;"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"b\\(b ;\"b  ",
+  "out": [
+   [
+    "",
+    "b(b ;"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a]<>;,;><.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a]<>;,;><.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@x@y.z.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@x@y.z.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")@x@y.z(([",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")@x@y.z(([",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "ba\\",
+  "out": [
+   "",
+   "ba\\"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "ba\\",
+  "out": [
+   [
+    "",
+    "ba\\"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",a\\<@\"x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",a\\<@\"x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ],
+   [
+    "a\\",
+    "\"x@y.z\""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a><,x@y.z@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a><,x@y.z@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")\"éa",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")\"éa",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":.\"",
+  "out": [
+   "",
+   "."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":.\"",
+  "out": [
+   [
+    "",
+    "."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",:.x@y.z]bé:,[:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",:.x@y.z]bé:,[:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a\\b",
+  "out": [
+   "",
+   "a\\b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a\\b",
+  "out": [
+   [
+    "",
+    "a\\b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"é>])a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"é>])a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[a>é; >]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[a>é; >]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é:(:[<;,]@\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é:(:[<;,]@\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "):a:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "):a:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<;\"):bé ,",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<;\"):bé ,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]\\)]])",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]\\)]])",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\";>:>([>@x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\";>:>([>@x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";.:b<)@\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";.:b<)@\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\<é (",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\<é (",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]).[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]).[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">;.b@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">;.b@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",é)ba\"@:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",é)ba\"@:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "].@aaa\\\"b>@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "].@aaa\\\"b>@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "bax@y.z\",)@\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "bax@y.z\",)@\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<éx@y.z]@x@y.z\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<éx@y.z]@x@y.z\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":(<:;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":(<:;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")\\]<:]é;\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")\\]<:]é;\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[:)@)>[ ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[:)@)>[ ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]x@y.zb:x@y.z:é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]x@y.zb:x@y.z:é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "< <",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "< <",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "].)<@[@aé(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "].)<@[@aé(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",aé(,)]b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",aé(,)]b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<é , ",
+  "out": [
+   "",
+   "é"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<é , ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":<[\"ba)a((",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":<[\"ba)a((",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",,.\",,b<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",,.\",,b<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\" a[é@:\"]>\":",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\" a[é@:\"]>\":",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(\")a[x@y.z)] <@a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(\")a[x@y.z)] <@a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";(,b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";(,b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[ <\",],[b:..",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[ <\",],[b:..",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é\\@>(x@y.zéa>><",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é\\@>(x@y.zéa>><",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<(\\a>..é.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<(\\a>..é.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\" \\([>,:é@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\" \\([>,:é@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")a(,",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")a(,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"[;éé(\\b([<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"[;éé(\\b([<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b, ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b, ",
+  "out": [
+   [
+    "",
+    "b"
+   ],
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b.@[x@y.z((>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b.@[x@y.z((>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\\"@",
+  "out": [
+   "",
+   "\\"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\\"@",
+  "out": [
+   [
+    "",
+    "\\"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z",
+  "out": [
+   "",
+   "x@y.z"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z",
+  "out": [
+   [
+    "",
+    "x@y.z"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é.aé\"[:é@",
+  "out": [
+   "",
+   "é.aé"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é.aé\"[:é@",
+  "out": [
+   [
+    "",
+    "é.aé"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " [()]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " [()]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".",
+  "out": [
+   "",
+   "."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".",
+  "out": [
+   [
+    "",
+    "."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b <:\\.:éb, \\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b <:\\.:éb, \\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b<bx@y.z;><;éé<a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b<bx@y.z;><;éé<a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]<b@@]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]<b@@]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z\\:>b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z\\:>b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " ,é;x@y.z\\[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " ,é;x@y.z\\[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "aé;x@y.z\\>\"\"(.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "aé;x@y.z\\>\"\"(.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "([[\"\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "([[\"\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b<,;),\"[,>(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b<,;),\"[,>(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "éaé,](>((",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "éaé,](>((",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a>x@y.z[x@y.z \"@ x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a>x@y.z[x@y.z \"@ x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(éx@y.zx@y.z@:;:[b(\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(éx@y.zx@y.z@:;:[b(\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">][ ) ]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">][ ) ]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@]])\"a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@]])\"a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[[)]>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[[)]>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b\"@aa\\.[b[",
+  "out": [
+   "",
+   "b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b\"@aa\\.[b[",
+  "out": [
+   [
+    "",
+    "b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[]:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[]:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<]\"[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<]\"[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "],\":\";[éb",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "],\":\";[éb",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",:\")]é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",:\")]é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é[;@ .b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é[;@ .b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "éx@y.z\".x@y.z\"b[\",",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "éx@y.z\".x@y.z\"b[\",",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "])[:;)[,\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "])[:;)[,\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "([",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "([",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":][>é;a;é ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":][>é;a;é ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".@@a\\ éb(]>.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".@@a\\ éb(]>.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".:.é",
+  "out": [
+   "",
+   ".é"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".:.é",
+  "out": [
+   [
+    "",
+    ".é"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b,",
+  "out": [
+   "",
+   "b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a\": .(é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a\": .(é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":\"@],",
+  "out": [
+   "",
+   "@],"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":\"@],",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<\\b",
+  "out": [
+   "",
+   "\\b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<\\b",
+  "out": [
+   [
+    "",
+    "\\b"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":a)b\"\"é;é)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":a)b\"\"é;é)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "éa..",
+  "out": [
+   "",
+   "éa.."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "éa..",
+  "out": [
+   [
+    "",
+    "éa.."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",);:b, ;\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",);:b, ;\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":>;;.é .;\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":>;;.é .;\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";): é(><é([x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";): é(><é([x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@;[>@)).x@y.z.ab",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@;[>@)).x@y.z.ab",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">](<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">](<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@\\\\)<é(ba\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@\\\\)<é(ba\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a@aé ]a[x@y.z<>é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a@aé ]a[x@y.z<>é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b>,(x@y.z@:<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b>,(x@y.z@:<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":\"@@\\;;\\@;]a",
+  "out": [
+   "",
+   "@@;;@;]a"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":\"@@\\;;\\@;]a",
+  "out": [
+   [
+    "",
+    "@@;;@;]a"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\a:< ];[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\a:< ];[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " é;[\"[<[x@y.z\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " é;[\"[<[x@y.z\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]])::",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]])::",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a @\"\\,:]\\)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a @\"\\,:]\\)",
+  "out": [
+   [
+    "",
+    ""
+   ],
+   [
+    "",
+    ",:])"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]<<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]<<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<b)[.\">;;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<b)[.\">;;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"]",
+  "out": [
+   "",
+   "]"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"]",
+  "out": [
+   [
+    "",
+    "]"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">),)].)>\":x@y.zé",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">),)].)>\":x@y.zé",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(< :>x@y.z;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(< :>x@y.z;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@@\\,\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@@\\,\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z((a ,[ ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z((a ,[ ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b<b ",
+  "out": [
+   "b",
+   "b "
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b<b ",
+  "out": [
+   [
+    "b",
+    "b "
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",,",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";é.\\\\.\"bx@y.z;x@y.z<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";é.\\\\.\"bx@y.z;x@y.z<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z \\ ",
+  "out": [
+   "",
+   "x@y.z\\"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z \\ ",
+  "out": [
+   [
+    "",
+    "x@y.z\\"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<][@b<b@.\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<][@b<b@.\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a.a]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a.a]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".(@;@.é@\\]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".(@;@.é@\\]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\>,<]<x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\>,<]<x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é .",
+  "out": [
+   "",
+   "é"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é .",
+  "out": [
+   [
+    "",
+    "é"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\":aa(\"[ ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\":aa(\"[ ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\a@aaax@y.zx@y.z(\",\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\a@aaax@y.zx@y.z(\",\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<@\"",
+  "out": [
+   "",
+   "\"\""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<@\"",
+  "out": [
+   [
+    "",
+    "\"\""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@\\;[:b:>\"\\:x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@\\;[:b:>\"\\:x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z,\"é ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z,\"é ",
+  "out": [
+   [
+    "",
+    "x@y.z"
+   ],
+   [
+    "",
+    "é "
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":\\(<(.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":\\(<(.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "aé",
+  "out": [
+   "",
+   "aé"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "aé",
+  "out": [
+   [
+    "",
+    "aé"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(];]>:\",",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(];]>:\",",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":\"] b)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":\"] b)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<< ((x@y.z.a)x@y.z)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<< ((x@y.z.a)x@y.z)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é.é:,\"\"x@y.z]",
+  "out": [
+   "",
+   "\"\"x@y.z"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é.é:,\"\"x@y.z]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.zb",
+  "out": [
+   "",
+   "x@y.zb"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.zb",
+  "out": [
+   [
+    "",
+    "x@y.zb"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a)é\\,[\\>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a)é\\,[\\>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[\"\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[\"\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".é\\]@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".é\\]@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".<\\",
+  "out": [
+   ".",
+   "\\"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".<\\",
+  "out": [
+   [
+    ".",
+    "\\"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a:]>\\@b.é b",
+  "out": [
+   "",
+   "\\@b.éb"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a:]>\\@b.é b",
+  "out": [
+   [
+    "",
+    "\\@b.éb"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"\"])é;,;>x@y.z;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"\"])é;,;>x@y.z;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b>x@y.z[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b>x@y.z[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"(:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"(:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(:[\\@<.>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(:[\\@<.>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ");aba;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ");aba;",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",( éb\":.<\"x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",( éb\":.<\"x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")a:)@.;\\:,(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")a:)@.;\\:,(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(;a\"<>\\<;\"bx@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(;a\"<>\\<;\"bx@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",\"éb(x@y.za",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",\"éb(x@y.za",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "éaa",
+  "out": [
+   "",
+   "éaa"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "éaa",
+  "out": [
+   [
+    "",
+    "éaa"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@:a,,(x@y.z\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@:a,,(x@y.z\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">\\\\)\".b\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">\\\\)\".b\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "..:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "..:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ", a@ .[;a@(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ", a@ .[;a@(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",:(\\@a\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",:(\\@a\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "..",
+  "out": [
+   "",
+   ".."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "..",
+  "out": [
+   [
+    "",
+    ".."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]\"\"[b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]\"\"[b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",;",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",;",
+  "out": [
+   [
+    "",
+    ""
+   ],
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " [ @",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " [ @",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b\\,][@;[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b\\,][@;[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]\"[x@y.z]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]\"[x@y.z]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é(b:,",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é(b:,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">b,,\"; ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">b,,\"; ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é:<]));x@y.z\\()",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é:<]));x@y.z\\()",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";a<x@y.z)\\(:bé",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";a<x@y.z)\\(:bé",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ". )\\x@y.z\"\\< é.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ". )\\x@y.z\"\\< é.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a]\\>x@y.z)]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a]\\>x@y.z)]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ": ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ": ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\".:\\\"",
+  "out": [
+   "",
+   ".:\""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\".:\\\"",
+  "out": [
+   [
+    "",
+    ".:\""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " \"<(;[>> ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " \"<(;[>> ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " .é",
+  "out": [
+   "",
+   ".é"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " .é",
+  "out": [
+   [
+    "",
+    ".é"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " [,,,x@y.z[(x@y.z](",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " [,,,x@y.z[(x@y.z](",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z\";)\\b[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z\";)\\b[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é,] x@y.z(.)b:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é,] x@y.z(.)b:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\";\\:]]\\;].;:",
+  "out": [
+   "",
+   ";:]];].;:"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\";\\:]]\\;].;:",
+  "out": [
+   [
+    "",
+    ";:]];].;:"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b[\"b)(:\",@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b[\"b)(:\",@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é,a:b@ ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é,a:b@ ",
+  "out": [
+   [
+    "",
+    "é"
+   ],
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "( ]>",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "( ]>",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z\\x@y.z (\\<<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z\\x@y.z (\\<<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " (<>)<\\x@y.z",
+  "out": [
+   " (<>)",
+   "\\x@y.z"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " (<>)<\\x@y.z",
+  "out": [
+   [
+    " (<>)",
+    "\\x@y.z"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "](:;)[\\ab>]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "](:;)[\\ab>]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";.é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";.é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " ;\\>éa>:a.]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " ;\\>éa>:a.]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z:,,;(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z:,,;(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@\\b\\(",
+  "out": [
+   "",
+   "@\\b\\"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@\\b\\(",
+  "out": [
+   [
+    "",
+    "@\\b\\"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">\\.a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">\\.a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")<@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")<@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<@\"",
+  "out": [
+   "",
+   "\"\""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<@\"",
+  "out": [
+   [
+    "",
+    "\"\""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"(@>, :;\":",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"(@>, :;\":",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";x@y.z.é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";x@y.z.é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\" ,@\\(@< ",
+  "out": [
+   "",
+   " ,@(@< "
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\" ,@\\(@< ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":b>,x@y.z:x@y.z:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":b>,x@y.z:x@y.z:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ", ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ", ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@é.(>\\,a(\\",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@é.(>\\,a(\\",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@ ...",
+  "out": [
+   "",
+   "@..."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@ ...",
+  "out": [
+   [
+    "",
+    "@..."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".",
+  "out": [
+   "",
+   "."
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".",
+  "out": [
+   [
+    "",
+    "."
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "( .:](",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "( .:](",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",x@y.z\\é\">x@y.z..é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",x@y.z\\é\">x@y.z..é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.z(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.z(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]é(<:];é ,x@y.z]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]é(<:];é ,x@y.z]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "a(]@@)\\",
+  "out": [
+   "]@@",
+   "a"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "a(]@@)\\",
+  "out": [
+   [
+    "]@@",
+    "a"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "aab",
+  "out": [
+   "",
+   "aab"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "aab",
+  "out": [
+   [
+    "",
+    "aab"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "> :",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "> :",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "\\,,é>b(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "\\,,é>b(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "(\"><é\" >[(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "(\"><é\" >[(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "([<:é(\"é",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "([<:é(\"é",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "] ((@\\\"][)",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "] ((@\\\"][)",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b[a]:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b[a]:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "é;a",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "é;a",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">\"\\b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">\"\\b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">.",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">.",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "x@y.zax@y.z,]a\\\\(<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "x@y.zax@y.z,]a\\\\(<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[; )][é \"]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[; )][é \"]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<< [\"b",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<< [\"b",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[x@y.z",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[x@y.z",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "<>\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "<>\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[)].[(é]ax@y.z\"",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[)].[(é]ax@y.z\"",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "@]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "@]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";>::><[a<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";>::><[a<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "b@",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "b@",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ">a\"()a:(x@y.zé,",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ">a\"()a:(x@y.zé,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "]",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "]",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ".@\"\"x@y.z.[é\\[",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ".@\"\"x@y.z.[é\\[",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ",\")[:éx@y.z,>:",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ",\")[:éx@y.z,>:",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": " :  a@.b,",
+  "out": [
+   "",
+   "a@.b"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": " :  a@.b,",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[é;\\ :@x@y.z ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[é;\\ :@x@y.z ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ":ax@y.z>",
+  "out": [
+   "",
+   "ax@y.z"
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ":ax@y.z>",
+  "out": [
+   [
+    "",
+    "ax@y.z"
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ";)ab;<",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ";)ab;<",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": ")x@y.zb\"(",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": ")x@y.zb\"(",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "parseaddr",
+  "in": "[.) ",
+  "out": [
+   "",
+   ""
+  ]
+ },
+ {
+  "kind": "getaddresses",
+  "in": "[.) ",
+  "out": [
+   [
+    "",
+    ""
+   ]
+  ]
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct 2026 10:00:00 +0700",
+  "out": "2026-10-13T10:00:00+07:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 +0700"
+ },
+ {
+  "kind": "date",
+  "in": "13 Oct 2026 10:00 GMT",
+  "out": "2026-10-13T10:00:00+00:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 +0000"
+ },
+ {
+  "kind": "date",
+  "in": "Tue, 32 Oct 2026 10:00:00 +0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "  ",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon,13 Oct 26 25:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct 2026 10:00:60 +0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 Oct 2026 10.20.30 +0590",
+  "out": "2026-10-13T10:20:30+06:30",
+  "formatted": "Tue, 13 Oct 2026 10:20:30 +0630"
+ },
+ {
+  "kind": "date",
+  "in": "Oct 13 2026 10:00 EST",
+  "out": "2026-10-13T10:00:00-05:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 -0500"
+ },
+ {
+  "kind": "date",
+  "in": "2026-10-13T10:00:00Z",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1 Jan 0050 00:00 +0000",
+  "out": "2050-01-01T00:00:00+00:00",
+  "formatted": "Sat, 01 Jan 2050 00:00:00 +0000"
+ },
+ {
+  "kind": "date",
+  "in": "13-Oct-2026 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct 2026 10:00:00 -0000",
+  "out": "2026-10-13T10:00:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 -0000"
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct 2026 10:00:00 +2400",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct 1_999 1:2:3",
+  "out": "1999-10-13T01:02:03",
+  "formatted": "Wed, 13 Oct 1999 01:02:03 -0000"
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct -5 1:2:3 +0000",
+  "out": "2000-10-13T01:02:03-00:05",
+  "formatted": "Fri, 13 Oct 2000 01:02:03 -0005"
+ },
+ {
+  "kind": "date",
+  "in": "13 October 2026 10:00:00 PDT",
+  "out": "2026-10-13T10:00:00-07:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 -0700"
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct 2026 10:00 +0000 (UTC)",
+  "out": "2026-10-13T10:00:00+00:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 +0000"
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 Oct 2026, 10:00:00 +0000",
+  "out": "2026-10-13T10:00:00+00:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 +0000"
+ },
+ {
+  "kind": "date",
+  "in": "13 Oct 2026 10:00:00 +05:30",
+  "out": "2026-10-13T10:00:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 -0000"
+ },
+ {
+  "kind": "date",
+  "in": "Sat, 29 Feb 2025 1:1:1 +0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 99 29 Feb Oct , 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 1.2.3 Feb 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 10:00:00 Mon, 29 99 Mon, 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 13 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 13 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb 13 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT Feb 2026",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 Feb 99 99 -0000 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 x 29 x 99 +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 x , 1:2 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb 10:00:00 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 1:2 +0700 13 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 1:2 x 99 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 1.2.3 Oct 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 , GMT GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 x Mon, , +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 x 2026 GMT 29 Mon, -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 13 10:00:00 Oct 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 10:00:00 GMT 10:00:00 Oct x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct 10:00:00 x 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 99 +0700 13 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 99 10:00:00 Mon, GMT 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 +0700 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 Feb 99 2026 , x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 1.2.3 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 +0700 1.2.3 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 1.2.3 GMT , , x 2026",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 29 29 -0000 99 Mon, 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", Feb 2026 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb x GMT Mon, 13 GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1.2.3 2026 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 1.2.3 -0000 10:00:00 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", Oct 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 13 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT 29 1.2.3 1:2 , 29 +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT 99 Feb 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT x Mon, GMT 10:00:00 1.2.3 x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct Oct 10:00:00 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 Oct 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 x 1.2.3 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 2026 10:00:00 Oct 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 10:00:00 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", 29 +0700 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb Mon, -0000 1.2.3 29 x 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 29 x ,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT Mon, 1:2 -0000 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", 1:2 Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 GMT 2026 x GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 1:2 ,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 Oct GMT 2026 29 2026",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 13 Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 2026",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", 2026 99 1:2 +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 2026 Oct 29 Oct GMT 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 Mon, 99 -0000 Mon, -0000 Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", , 1:2 , 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x -0000 -0000 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 ,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 Oct GMT 13 29 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", x Mon, 29 x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb 1:2 Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 10:00:00 10:00:00 GMT 13 1:2 Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 13 2026 , , Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, -0000 1.2.3 1:2 Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 Feb Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 13 29 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ",",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 -0000 29 99 Oct Feb Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 GMT -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1.2.3 1:2 -0000 2026 -0000 10:00:00 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct 99 +0700 GMT Mon, x +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 , GMT 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct 2026",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct 13 10:00:00 GMT 2026 +0700",
+  "out": "2026-10-13T10:00:00+00:00",
+  "formatted": "Tue, 13 Oct 2026 10:00:00 +0000"
+ },
+ {
+  "kind": "date",
+  "in": ", +0700 Mon, GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb 2026 99 -0000 Feb 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1.2.3 Mon, 99 13 1:2 ,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 10:00:00 Feb 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 1.2.3 GMT +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 1:2 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 1.2.3 1.2.3 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 GMT GMT 99 ,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT -0000 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb , 29 99 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 13 x Mon, Mon, Oct Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 GMT 1.2.3 13 -0000 1:2 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 13 10:00:00 10:00:00 -0000 x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 -0000 29 2026 2026 +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", Oct 10:00:00 x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT +0700 29 2026",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1.2.3 29 -0000 GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 x 29 29 29 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 x 10:00:00 29 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 1.2.3 1.2.3 10:00:00 -0000 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 , +0700 1:2 10:00:00 GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 1.2.3 GMT -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 Oct x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", 1.2.3 Feb GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 2026 GMT 2026 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x +0700 -0000 1:2 ,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct , GMT",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 Mon, 1:2 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 x Feb 99 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 -0000 10:00:00 Mon, Mon, 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 1:2 x +0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 x GMT 29 10:00:00 10:00:00 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", 13 Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 1.2.3 10:00:00 1:2 10:00:00 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 Oct , Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 Oct 29 Oct Mon, 1.2.3 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 10:00:00 1:2 Oct 99 Oct 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 1.2.3 99 29 10:00:00 99 2026",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct 1:2 +0700 13 Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 29 , 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 2026 Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct +0700 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "13 1:2 1:2 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 99 1.2.3 Feb 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 29 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 Feb , +0700 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1:2 Feb 13 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, Mon, Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb 29 Feb -0000 2026 x 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "x 99 1.2.3 Mon, , 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, GMT 1.2.3 10:00:00 GMT -0000 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 Oct Feb , 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, , GMT 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "2026 x 10:00:00 1.2.3 10:00:00 GMT 99",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, x 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 29 GMT -0000 Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 99 13 10:00:00 10:00:00",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Oct , 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb GMT +0700 2026 1.2.3 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "29 x +0700 , 13",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 29 Oct",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "-0000 13 +0700 29 29",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "GMT 1.2.3 GMT 2026 , x",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": ", -0000 -0000 1.2.3",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Mon, 1.2.3 GMT , Feb 13 -0000",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 Feb x x Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "99 Feb",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "10:00:00 1.2.3 1:2 , 2026 ,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "Feb x 1:2 1:2",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "1.2.3 10:00:00 29 x 1.2.3 GMT Mon,",
+  "out": {
+   "exc": "ValueError"
+  }
+ },
+ {
+  "kind": "date",
+  "in": "+0700 x",
+  "out": {
+   "exc": "ValueError"
+  }
+ }
+]

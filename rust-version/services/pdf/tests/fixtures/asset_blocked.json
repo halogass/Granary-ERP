@@ -1,0 +1,25 @@
+{
+ "template": "invoice",
+ "data": {
+  "company": {
+   "trade_name": "Your Company Ltd",
+   "legal_name": "Your Company Limited",
+   "address": "1 Example Street, Springfield 12345",
+   "email": "sales@example.com",
+   "website": "example.com",
+   "tax_id": "TAX-0000-0001",
+   "registration_no": "REG-0000-0001",
+   "signatory": "Alex Owner",
+   "signatory_title": "Chief Executive Officer",
+   "logo_url": "http://localhost:39431/logo.png"
+  },
+  "number": "INV-BLOCKED",
+  "customer": {
+   "company_name": "X"
+  },
+  "items": [],
+  "tax_lines": [],
+  "subtotal": 1,
+  "grand_total": 1
+ }
+}

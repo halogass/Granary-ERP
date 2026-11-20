@@ -1,0 +1,355 @@
+[
+ {
+  "rows": [],
+  "out": []
+ },
+ {
+  "rows": [
+   {
+    "role": "user",
+    "content": "list deals",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "Here are 3 deals.",
+    "tool_calls": {
+     "cards": [
+      {
+       "object_type": "deal",
+       "filters": [
+        {
+         "field": "stage",
+         "op": "eq",
+         "value": "won"
+        }
+       ],
+       "offset": 0,
+       "limit": 25,
+       "count": 73
+      }
+     ]
+    }
+   },
+   {
+    "role": "user",
+    "content": "try again",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "I wasn't able to complete that request.",
+    "tool_calls": null
+   }
+  ],
+  "out": [
+   {
+    "role": "user",
+    "content": "list deals"
+   },
+   {
+    "role": "assistant",
+    "content": "Here are 3 deals.\n\n[Table shown: search_records object_type=deal filters=[{\"field\": \"stage\", \"op\": \"eq\", \"value\": \"won\"}] offset=0 limit=25 count=73]"
+   },
+   {
+    "role": "user",
+    "content": "try again"
+   }
+  ]
+ },
+ {
+  "rows": [
+   {
+    "role": "user",
+    "content": null,
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": null,
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "  ",
+    "tool_calls": null
+   },
+   {
+    "role": "system",
+    "content": "ignored",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "I don't have enough information to answer that.",
+    "tool_calls": {
+     "proposals": [
+      {
+       "kind": "record_change",
+       "action": "update",
+       "object_type": "deal",
+       "label": "PT X",
+       "status": "applied"
+      },
+      {
+       "kind": "sop",
+       "title": "Warranty claims",
+       "status": "pending"
+      }
+     ]
+    }
+   }
+  ],
+  "out": [
+   {
+    "role": "user",
+    "content": ""
+   },
+   {
+    "role": "assistant",
+    "content": "[Confirm card: update deal (PT X), confirmed and saved by the user]\n[Confirm card: sop (Warranty claims), not confirmed yet]"
+   }
+  ]
+ },
+ {
+  "rows": [
+   {
+    "role": "user",
+    "content": "turn 0",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 1",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 2",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 3",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 4",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 5",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 6",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 7",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 8",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 9",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 10",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 11",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 12",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 13",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 14",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 15",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 16",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 17",
+    "tool_calls": null
+   },
+   {
+    "role": "user",
+    "content": "turn 18",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "turn 19",
+    "tool_calls": null
+   }
+  ],
+  "out": [
+   {
+    "role": "user",
+    "content": "turn 8"
+   },
+   {
+    "role": "assistant",
+    "content": "turn 9"
+   },
+   {
+    "role": "user",
+    "content": "turn 10"
+   },
+   {
+    "role": "assistant",
+    "content": "turn 11"
+   },
+   {
+    "role": "user",
+    "content": "turn 12"
+   },
+   {
+    "role": "assistant",
+    "content": "turn 13"
+   },
+   {
+    "role": "user",
+    "content": "turn 14"
+   },
+   {
+    "role": "assistant",
+    "content": "turn 15"
+   },
+   {
+    "role": "user",
+    "content": "turn 16"
+   },
+   {
+    "role": "assistant",
+    "content": "turn 17"
+   },
+   {
+    "role": "user",
+    "content": "turn 18"
+   },
+   {
+    "role": "assistant",
+    "content": "turn 19"
+   }
+  ]
+ },
+ {
+  "rows": [
+   {
+    "role": "user",
+    "content": "go",
+    "tool_calls": null
+   },
+   {
+    "role": "assistant",
+    "content": "part one [[next]] part two [[next]] part three",
+    "tool_calls": {
+     "queued": [
+      "x"
+     ]
+    }
+   },
+   {
+    "role": "user",
+    "content": "yes",
+    "tool_calls": null
+   }
+  ],
+  "out": [
+   {
+    "role": "user",
+    "content": "go"
+   },
+   {
+    "role": "assistant",
+    "content": "part one [[next]] part two [[next]] part three\n\n[On WhatsApp, the last 1 part(s) of this answer (after [[next]]) have not been sent yet; they go out when the user replies \"next\".]\n[On WhatsApp the user has seen parts 1-2 of 3. The last part on their screen: \"part two\". A short reply (yes, no, a number) answers that part.]"
+   },
+   {
+    "role": "user",
+    "content": "yes"
+   }
+  ]
+ },
+ {
+  "rows": [
+   {
+    "role": "assistant",
+    "content": "  padded answer  ",
+    "tool_calls": {
+     "proposals": [
+      {
+       "kind": "customer_message",
+       "summary": "Reply to Bob",
+       "status": "superseded"
+      },
+      {
+       "kind": "customer_message",
+       "customer": "PT Y",
+       "status": "withdrawn"
+      },
+      {
+       "kind": "nary_action",
+       "status": "failed"
+      },
+      {
+       "kind": "quotation",
+       "status": "discarded"
+      },
+      {
+       "kind": null,
+       "status": "weird"
+      },
+      {}
+     ]
+    }
+   },
+   {
+    "role": "user",
+    "content": "  spaced question  ",
+    "tool_calls": null
+   }
+  ],
+  "out": [
+   {
+    "role": "assistant",
+    "content": "padded answer\n\n[Confirm card: customer_message (Reply to Bob), replaced by a newer card]\n[Confirm card: customer_message (PT Y), withdrawn by you]\n[Confirm card: nary_action, it failed when applied]\n[Confirm card: quotation, discarded by the user]\n[Confirm card: None, not confirmed yet]\n[Confirm card: None, not confirmed yet]"
+   },
+   {
+    "role": "user",
+    "content": "  spaced question  "
+   }
+  ]
+ }
+]

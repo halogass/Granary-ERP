@@ -1,0 +1,34 @@
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture1;
+ d=web3forms.com; b=FIXTURE
+DKIM-Signature: v=1; a=rsa-sha256; s=fixture2;
+ d=amazonses.com; b=FIXTURE
+From: Web Form <notify+c0qh64@web3forms.com>
+Reply-To: lee.chen.lead@example.org
+To: hello@example.com
+Subject: New Lead [web3forms]: ACME RETAIL LIMITED
+Date: Tue, 08 Sep 2026 11:55:33 +0000
+Message-ID: <0100-fixture-second-0003@email.amazonses.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============5658211179647250125=="
+
+--===============5658211179647250125==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+name  : LEE CHEN
+email  : lee.chen.lead@example.org
+phone  : +6591234567
+company  : ACME RETAIL LIMITED
+interested_in  : general
+message  : i need a support plan for our store laptops
+from_page  : https://www.example.com/blog/choosing-a-support-plan/
+submission_source  : web3forms
+
+--===============5658211179647250125==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body><p>New form submission</p><p>company: ACME RETAIL LIMITED</p></body></html>
+
+--===============5658211179647250125==--

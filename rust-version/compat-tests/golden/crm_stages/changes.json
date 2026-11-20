@@ -1,0 +1,1231 @@
+[
+ {
+  "name": "advance",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "contract",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "contract",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 80,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000401",
+     "from_stage": "proposal",
+     "to_stage": "contract",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "rest",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000401",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"contract\", \"from\": \"proposal\", \"origin\": \"rest\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "same",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "proposal",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "ok": false,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "proposal",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 50,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_reasons",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "lost",
+  "by": "00000000-0000-0000-0000-0000000000a2",
+  "origin": "ai_confirmed",
+  "reasons": [
+   "price_too_expensive",
+   "no_decision",
+   "price_too_expensive"
+  ],
+  "note": "Too pricey",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "lost",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 0,
+     "actual_close_date": "{today}",
+     "loss_reason": "price_too_expensive",
+     "loss_reasons": "[\"price_too_expensive\", \"no_decision\"]",
+     "loss_notes": "Too pricey",
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000401",
+     "from_stage": "proposal",
+     "to_stage": "lost",
+     "by_id": "00000000-0000-0000-0000-0000000000a2",
+     "origin": "ai_confirmed",
+     "reasons": "[\"price_too_expensive\", \"no_decision\"]",
+     "note": "Too pricey"
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000401",
+     "actor_id": "00000000-0000-0000-0000-0000000000a2",
+     "payload": "{\"to\": \"lost\", \"from\": \"proposal\", \"origin\": \"ai_confirmed\", \"reasons\": [\"price_too_expensive\", \"no_decision\"]}"
+    }
+   ],
+   "reminders": [
+    {
+     "owner_user_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": "00000000-0000-0000-0000-0000000000a2",
+     "source": "recontact",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000401",
+     "title": "Re-contact: Globex rollout",
+     "note": "Lost {today}, reason: Price: too expensive, No decision. Re-approach angle: what has changed that makes us a better fit now?",
+     "due_at": "{today+3m}T00:00:00+00:00",
+     "original_due_at": "{today+3m}T00:00:00+00:00",
+     "status": "open",
+     "rule_key": "recontact:deal:00000000-0000-0000-0000-000000000401:{today+3m}"
+    }
+   ],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_str_reason_empty_note",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "lost",
+  "by": null,
+  "origin": "mcp",
+  "reasons": "qualification_error",
+  "note": "",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "lost",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 0,
+     "actual_close_date": "{today}",
+     "loss_reason": "qualification_error",
+     "loss_reasons": "[\"qualification_error\"]",
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000401",
+     "from_stage": "proposal",
+     "to_stage": "lost",
+     "by_id": null,
+     "origin": "mcp",
+     "reasons": "[\"qualification_error\"]",
+     "note": ""
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000401",
+     "actor_id": null,
+     "payload": "{\"to\": \"lost\", \"from\": \"proposal\", \"origin\": \"mcp\", \"reasons\": [\"qualification_error\"]}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_no_reason",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "lost",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "err": "A lost deal needs at least one reason",
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "proposal",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 50,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_bogus",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "lost",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "reasons": [
+   "bogus"
+  ],
+  "err": "Unknown lost reason(s): bogus. Use one of: competitor_feature, competitor_relationship, competitor_reputation, lost_contact, no_decision, price_budget_eliminated, price_too_expensive, procurement_blocker, qualification_error, scope_mismatch, timeline_customer_not_ready, timeline_we_too_slow",
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "proposal",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 50,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "unknown_stage",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "Won",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "err": "Unknown deal stage 'Won'. Use one of: new, qualifying, discovery, assessment, proposal, contract, won, handover, onboarding, nurture, lost, disqualified",
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "proposal",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 50,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "won_close_date",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "won",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "close_date": "2026-06-30",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "won",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 100,
+     "actual_close_date": "2026-06-30",
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000401",
+     "from_stage": "proposal",
+     "to_stage": "won",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "rest",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000401",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"won\", \"from\": \"proposal\", \"origin\": \"rest\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "won_today",
+  "deal": "00000000-0000-0000-0000-000000000401",
+  "to": "won",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000401",
+     "title": "Globex rollout",
+     "stage": "won",
+     "value": "50000.00",
+     "currency": "USD",
+     "probability": 100,
+     "actual_close_date": "{today}",
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": null,
+     "custom": "{\"segment\": \"Enterprise\"}",
+     "deal_number": null,
+     "expected_close_date": "2026-12-01"
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000401",
+     "from_stage": "proposal",
+     "to_stage": "won",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "rest",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000401",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"won\", \"from\": \"proposal\", \"origin\": \"rest\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "reopen_won",
+  "deal": "00000000-0000-0000-0000-000000000402",
+  "to": "proposal",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000402",
+     "title": "Globex pilot",
+     "stage": "proposal",
+     "value": "0.00",
+     "currency": "JPY",
+     "probability": 50,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a2",
+     "created_by_id": null,
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": "2026-06-01"
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000402",
+     "from_stage": "won",
+     "to_stage": "proposal",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "rest",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000402",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"proposal\", \"from\": \"won\", \"origin\": \"rest\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "won_to_handover",
+  "deal": "00000000-0000-0000-0000-000000000402",
+  "to": "handover",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000402",
+     "title": "Globex pilot",
+     "stage": "handover",
+     "value": "0.00",
+     "currency": "JPY",
+     "probability": 100,
+     "actual_close_date": "{today}",
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a2",
+     "created_by_id": null,
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": "2026-06-01"
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000402",
+     "from_stage": "won",
+     "to_stage": "handover",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "rest",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000402",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"handover\", \"from\": \"won\", \"origin\": \"rest\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "reopen_lost",
+  "deal": "00000000-0000-0000-0000-000000000403",
+  "to": "discovery",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000403",
+     "title": "Acme Holdings",
+     "stage": "discovery",
+     "value": "1234.56",
+     "currency": null,
+     "probability": 20,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": "null",
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000103",
+     "assigned_to_id": null,
+     "created_by_id": null,
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000403",
+     "from_stage": "lost",
+     "to_stage": "discovery",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "rest",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000403",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"discovery\", \"from\": \"lost\", \"origin\": \"rest\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_to_disqualified",
+  "deal": "00000000-0000-0000-0000-000000000403",
+  "to": "disqualified",
+  "by": "00000000-0000-0000-0000-0000000000a2",
+  "origin": "rest",
+  "reasons": [
+   "timing_only",
+   "spam"
+  ],
+  "note": "n",
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000403",
+     "title": "Acme Holdings",
+     "stage": "disqualified",
+     "value": "1234.56",
+     "currency": null,
+     "probability": 0,
+     "actual_close_date": "2026-05-10",
+     "loss_reason": "timing_only",
+     "loss_reasons": "[\"timing_only\", \"spam\"]",
+     "loss_notes": "n",
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000103",
+     "assigned_to_id": null,
+     "created_by_id": null,
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000403",
+     "from_stage": "lost",
+     "to_stage": "disqualified",
+     "by_id": "00000000-0000-0000-0000-0000000000a2",
+     "origin": "rest",
+     "reasons": "[\"timing_only\", \"spam\"]",
+     "note": "n"
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000403",
+     "actor_id": "00000000-0000-0000-0000-0000000000a2",
+     "payload": "{\"to\": \"disqualified\", \"from\": \"lost\", \"origin\": \"rest\", \"reasons\": [\"timing_only\", \"spam\"]}"
+    }
+   ],
+   "reminders": [
+    {
+     "owner_user_id": "00000000-0000-0000-0000-0000000000a2",
+     "created_by_id": "00000000-0000-0000-0000-0000000000a2",
+     "source": "recontact",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000403",
+     "title": "Re-contact: Acme Holdings",
+     "note": "Disqualified {today}, reason: Timing only, Spam. Re-approach angle: what has changed that makes us a better fit now?",
+     "due_at": "{today+6m}T00:00:00+00:00",
+     "original_due_at": "{today+6m}T00:00:00+00:00",
+     "status": "open",
+     "rule_key": "recontact:deal:00000000-0000-0000-0000-000000000403:{today+6m}"
+    }
+   ],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_to_disqualified_no_owner",
+  "deal": "00000000-0000-0000-0000-000000000403",
+  "to": "disqualified",
+  "by": null,
+  "origin": "rest",
+  "reasons": [
+   "timing_only"
+  ],
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000403",
+     "title": "Acme Holdings",
+     "stage": "disqualified",
+     "value": "1234.56",
+     "currency": null,
+     "probability": 0,
+     "actual_close_date": "2026-05-10",
+     "loss_reason": "timing_only",
+     "loss_reasons": "[\"timing_only\"]",
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000103",
+     "assigned_to_id": null,
+     "created_by_id": null,
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000403",
+     "from_stage": "lost",
+     "to_stage": "disqualified",
+     "by_id": null,
+     "origin": "rest",
+     "reasons": "[\"timing_only\"]",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000403",
+     "actor_id": null,
+     "payload": "{\"to\": \"disqualified\", \"from\": \"lost\", \"origin\": \"rest\", \"reasons\": [\"timing_only\"]}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_to_lost",
+  "deal": "00000000-0000-0000-0000-000000000403",
+  "to": "lost",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "reasons": [
+   "no_decision"
+  ],
+  "ok": false,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000403",
+     "title": "Acme Holdings",
+     "stage": "lost",
+     "value": "1234.56",
+     "currency": null,
+     "probability": 0,
+     "actual_close_date": "2026-05-10",
+     "loss_reason": "price_too_expensive",
+     "loss_reasons": "[\"price_too_expensive\"]",
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000103",
+     "assigned_to_id": null,
+     "created_by_id": null,
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "lost_closed_keeps_date",
+  "deal": "00000000-0000-0000-0000-000000000403",
+  "to": "disqualified",
+  "by": "00000000-0000-0000-0000-0000000000a1",
+  "origin": "rest",
+  "reasons": [
+   "spam"
+  ],
+  "ok": true,
+  "after": {
+   "deals": [
+    {
+     "id": "00000000-0000-0000-0000-000000000403",
+     "title": "Acme Holdings",
+     "stage": "disqualified",
+     "value": "1234.56",
+     "currency": null,
+     "probability": 0,
+     "actual_close_date": "2026-05-10",
+     "loss_reason": "spam",
+     "loss_reasons": "[\"spam\"]",
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": null,
+     "lead_id": null,
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000103",
+     "assigned_to_id": null,
+     "created_by_id": null,
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "00000000-0000-0000-0000-000000000403",
+     "from_stage": "lost",
+     "to_stage": "disqualified",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "rest",
+     "reasons": "[\"spam\"]",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.staged",
+     "entity_type": "deal",
+     "entity_id": "00000000-0000-0000-0000-000000000403",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"disqualified\", \"from\": \"lost\", \"origin\": \"rest\", \"reasons\": [\"spam\"]}"
+    }
+   ],
+   "reminders": [],
+   "leads": []
+  }
+ },
+ {
+  "name": "promote_new",
+  "lead": "00000000-0000-0000-0000-000000000301",
+  "user": "own_a1",
+  "ok": {
+   "created": true,
+   "lead_id": "00000000-0000-0000-0000-000000000301"
+  },
+  "after": {
+   "deals": [
+    {
+     "id": "{new}",
+     "title": "Facility laptops for 12 sites",
+     "stage": "qualifying",
+     "value": "25000.00",
+     "currency": "USD",
+     "probability": 10,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [
+      "laptops",
+      "support"
+     ],
+     "product_line_ids": [],
+     "notes": "Promoted from lead (web3forms: homepage).",
+     "lead_id": "00000000-0000-0000-0000-000000000301",
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": "00000000-0000-0000-0000-0000000000a1",
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "{new}",
+     "from_stage": null,
+     "to_stage": "qualifying",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "promote",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.created",
+     "entity_type": "deal",
+     "entity_id": "{new}",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"qualifying\", \"from\": null, \"origin\": \"promote\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": [
+    {
+     "id": "00000000-0000-0000-0000-000000000301",
+     "status": "promoted",
+     "converted": true,
+     "has_converted_at": true
+    }
+   ]
+  }
+ },
+ {
+  "name": "promote_twice",
+  "lead": "00000000-0000-0000-0000-000000000301",
+  "user": "own_a1",
+  "twice": true,
+  "ok": {
+   "created": false,
+   "lead_id": "00000000-0000-0000-0000-000000000301"
+  },
+  "after": {
+   "deals": [
+    {
+     "id": "{new}",
+     "title": "Facility laptops for 12 sites",
+     "stage": "qualifying",
+     "value": "25000.00",
+     "currency": "USD",
+     "probability": 10,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [
+      "laptops",
+      "support"
+     ],
+     "product_line_ids": [],
+     "notes": "Promoted from lead (web3forms: homepage).",
+     "lead_id": "00000000-0000-0000-0000-000000000301",
+     "contact_id": "00000000-0000-0000-0000-000000000201",
+     "organization_id": "00000000-0000-0000-0000-000000000101",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a1",
+     "created_by_id": "00000000-0000-0000-0000-0000000000a1",
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "{new}",
+     "from_stage": null,
+     "to_stage": "qualifying",
+     "by_id": "00000000-0000-0000-0000-0000000000a1",
+     "origin": "promote",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.created",
+     "entity_type": "deal",
+     "entity_id": "{new}",
+     "actor_id": "00000000-0000-0000-0000-0000000000a1",
+     "payload": "{\"to\": \"qualifying\", \"from\": null, \"origin\": \"promote\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": [
+    {
+     "id": "00000000-0000-0000-0000-000000000301",
+     "status": "promoted",
+     "converted": true,
+     "has_converted_at": true
+    }
+   ]
+  }
+ },
+ {
+  "name": "promote_untitled",
+  "lead": "00000000-0000-0000-0000-000000000302",
+  "user": "super",
+  "origin": "nary",
+  "ok": {
+   "created": true,
+   "lead_id": "00000000-0000-0000-0000-000000000302"
+  },
+  "after": {
+   "deals": [
+    {
+     "id": "{new}",
+     "title": "Untitled opportunity",
+     "stage": "qualifying",
+     "value": null,
+     "currency": "USD",
+     "probability": 10,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": "Promoted from lead (email).",
+     "lead_id": "00000000-0000-0000-0000-000000000302",
+     "contact_id": null,
+     "organization_id": null,
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a0",
+     "created_by_id": "00000000-0000-0000-0000-0000000000a0",
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "{new}",
+     "from_stage": null,
+     "to_stage": "qualifying",
+     "by_id": "00000000-0000-0000-0000-0000000000a0",
+     "origin": "nary",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.created",
+     "entity_type": "deal",
+     "entity_id": "{new}",
+     "actor_id": "00000000-0000-0000-0000-0000000000a0",
+     "payload": "{\"to\": \"qualifying\", \"from\": null, \"origin\": \"nary\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": [
+    {
+     "id": "00000000-0000-0000-0000-000000000302",
+     "status": "promoted",
+     "converted": true,
+     "has_converted_at": true
+    }
+   ]
+  }
+ },
+ {
+  "name": "promote_disqualified",
+  "lead": "00000000-0000-0000-0000-000000000303",
+  "user": "super",
+  "http": [
+   400,
+   "A disqualified lead can't be promoted"
+  ],
+  "after": {
+   "deals": [],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": [
+    {
+     "id": "00000000-0000-0000-0000-000000000303",
+     "status": "disqualified",
+     "converted": false,
+     "has_converted_at": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "promote_other_owner",
+  "lead": "00000000-0000-0000-0000-000000000304",
+  "user": "own_a1",
+  "http": [
+   403,
+   "This record is assigned to someone else"
+  ],
+  "after": {
+   "deals": [],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": [
+    {
+     "id": "00000000-0000-0000-0000-000000000304",
+     "status": "triaging",
+     "converted": false,
+     "has_converted_at": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "promote_no_perm",
+  "lead": "00000000-0000-0000-0000-000000000301",
+  "user": "none_a2",
+  "http": [
+   403,
+   "Permission required: crm:view_own"
+  ],
+  "after": {
+   "deals": [],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": [
+    {
+     "id": "00000000-0000-0000-0000-000000000301",
+     "status": "new",
+     "converted": false,
+     "has_converted_at": false
+    }
+   ]
+  }
+ },
+ {
+  "name": "promote_triaging",
+  "lead": "00000000-0000-0000-0000-000000000304",
+  "user": "all_a2",
+  "ok": {
+   "created": true,
+   "lead_id": "00000000-0000-0000-0000-000000000304"
+  },
+  "after": {
+   "deals": [
+    {
+     "id": "{new}",
+     "title": "Acme Holdings traffic",
+     "stage": "qualifying",
+     "value": "0.00",
+     "currency": "SGD",
+     "probability": 10,
+     "actual_close_date": null,
+     "loss_reason": null,
+     "loss_reasons": null,
+     "loss_notes": null,
+     "product_interests": [],
+     "product_line_ids": [],
+     "notes": "Promoted from lead (linkedin).",
+     "lead_id": "00000000-0000-0000-0000-000000000304",
+     "contact_id": null,
+     "organization_id": "00000000-0000-0000-0000-000000000103",
+     "assigned_to_id": "00000000-0000-0000-0000-0000000000a2",
+     "created_by_id": "00000000-0000-0000-0000-0000000000a2",
+     "custom": "{}",
+     "deal_number": null,
+     "expected_close_date": null
+    }
+   ],
+   "events": [
+    {
+     "deal_id": "{new}",
+     "from_stage": null,
+     "to_stage": "qualifying",
+     "by_id": "00000000-0000-0000-0000-0000000000a2",
+     "origin": "promote",
+     "reasons": "null",
+     "note": null
+    }
+   ],
+   "domain_events": [
+    {
+     "type": "deal.created",
+     "entity_type": "deal",
+     "entity_id": "{new}",
+     "actor_id": "00000000-0000-0000-0000-0000000000a2",
+     "payload": "{\"to\": \"qualifying\", \"from\": null, \"origin\": \"promote\", \"reasons\": []}"
+    }
+   ],
+   "reminders": [],
+   "leads": [
+    {
+     "id": "00000000-0000-0000-0000-000000000304",
+     "status": "promoted",
+     "converted": true,
+     "has_converted_at": true
+    }
+   ]
+  }
+ },
+ {
+  "name": "promote_missing",
+  "lead": "00000000-0000-0000-0000-000000000005",
+  "user": "super",
+  "http": [
+   404,
+   "Lead not found"
+  ],
+  "after": {
+   "deals": [],
+   "events": [],
+   "domain_events": [],
+   "reminders": [],
+   "leads": []
+  }
+ }
+]

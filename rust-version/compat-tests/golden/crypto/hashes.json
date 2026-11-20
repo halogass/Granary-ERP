@@ -1,0 +1,132 @@
+{
+ "send_keys": [
+  {
+   "entity_type": "invoice",
+   "entity_id": "11111111-2222-3333-4444-555555555555",
+   "channel": "email",
+   "to": [
+    "A@x.com",
+    "b@y.com"
+   ],
+   "key": "docsend:invoice:11111111-2222-3333-4444-555555555555:email:7061e44e4856cd5f"
+  },
+  {
+   "entity_type": "invoice",
+   "entity_id": "11111111-2222-3333-4444-555555555555",
+   "channel": "email",
+   "to": [
+    "b@y.com",
+    "a@X.com"
+   ],
+   "key": "docsend:invoice:11111111-2222-3333-4444-555555555555:email:7061e44e4856cd5f"
+  },
+  {
+   "entity_type": "invoice",
+   "entity_id": "11111111-2222-3333-4444-555555555555",
+   "channel": "email",
+   "to": [],
+   "key": "docsend:invoice:11111111-2222-3333-4444-555555555555:email:da39a3ee5e6b4b0d"
+  },
+  {
+   "entity_type": "invoice",
+   "entity_id": "11111111-2222-3333-4444-555555555555",
+   "channel": "email",
+   "to": [
+    "ÜNÏ@Ex.com",
+    "zeta@a.io",
+    "Alpha@a.io"
+   ],
+   "key": "docsend:invoice:11111111-2222-3333-4444-555555555555:email:e965a4bd1dc62bff"
+  },
+  {
+   "entity_type": "invoice",
+   "entity_id": "11111111-2222-3333-4444-555555555555",
+   "channel": "email",
+   "to": [
+    "İstanbul@x.tr",
+    "ΣΑΣ@x.gr"
+   ],
+   "key": "docsend:invoice:11111111-2222-3333-4444-555555555555:email:d95691319a67737e"
+  }
+ ],
+ "fingerprints": [
+  {
+   "parts": [
+    "send_failed",
+    "wa",
+    "timeout"
+   ],
+   "fingerprint": "423d27dd0c4c"
+  },
+  {
+   "parts": [
+    "",
+    "x"
+   ],
+   "fingerprint": "5a56232b1804"
+  },
+  {
+   "parts": [
+    "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "b"
+   ],
+   "fingerprint": "5d869ec93575"
+  },
+  {
+   "parts": [
+    "ünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünïünï"
+   ],
+   "fingerprint": "4b9d5d2dc9c3"
+  },
+  {
+   "parts": [],
+   "fingerprint": "da39a3ee5e6b"
+  },
+  {
+   "parts": [
+    "one"
+   ],
+   "fingerprint": "fe05bcdcdc49"
+  },
+  {
+   "parts": [
+    "",
+    "",
+    "42"
+   ],
+   "fingerprint": "88b8e1ffbe5d",
+   "python_args": "None, 0, 42"
+  }
+ ],
+ "gallery": [
+  {
+   "count": 0,
+   "stamp_str": "None",
+   "version": "ee6674d514cb5241"
+  },
+  {
+   "count": 12,
+   "stamp_str": "2026-10-14 01:02:03.123456+00:00",
+   "version": "f0757d27bbd4502d"
+  },
+  {
+   "count": 3,
+   "stamp_str": "2026-01-01 00:00:00+00:00",
+   "version": "3e0dfa5de762ba34"
+  }
+ ],
+ "message_ids": [
+  {
+   "raw_hex": "",
+   "message_id": "<auto-d41d8cd98f00b204e9800998ecf8427e@crm.granary>"
+  },
+  {
+   "raw_hex": "5375626a6563743a2068690d0a0d0a626f6479",
+   "message_id": "<auto-c8e502eb55449acc3f6d61fa954cf511@crm.granary>"
+  },
+  {
+   "raw_hex": "000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff000102030405060708090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f303132333435363738393a3b3c3d3e3f404142434445464748494a4b4c4d4e4f505152535455565758595a5b5c5d5e5f606162636465666768696a6b6c6d6e6f707172737475767778797a7b7c7d7e7f808182838485868788898a8b8c8d8e8f909192939495969798999a9b9c9d9e9fa0a1a2a3a4a5a6a7a8a9aaabacadaeafb0b1b2b3b4b5b6b7b8b9babbbcbdbebfc0c1c2c3c4c5c6c7c8c9cacbcccdcecfd0d1d2d3d4d5d6d7d8d9dadbdcdddedfe0e1e2e3e4e5e6e7e8e9eaebecedeeeff0f1f2f3f4f5f6f7f8f9fafbfcfdfeff",
+   "message_id": "<auto-17b3839204f7b81a93eb2718b1379e6f@crm.granary>"
+  }
+ ]
+}

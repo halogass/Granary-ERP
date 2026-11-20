@@ -1,0 +1,36 @@
+[package]
+license.workspace = true
+name = "granary-face"
+description = "Face engine sidecar (port of services/face: face-api.js 1.7.15 on tfjs-node) on ONNX Runtime"
+edition.workspace = true
+version.workspace = true
+publish.workspace = true
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "granary-face"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { workspace = true }
+axum = { workspace = true }
+serde_json = { workspace = true }
+chrono = { workspace = true }
+sha1 = { workspace = true }
+base64 = { workspace = true }
+dotenvy = "0.15"
+futures-util = "0.3"
+multer = "3"
+bytes = "1"
+# ONNX Runtime, linked statically from pyke's prebuilt binaries (download-binaries): the binary needs no
+# onnxruntime shared library at run time.
+ort = { version = "=2.0.0-rc.14", default-features = false, features = ["std", "download-binaries", "tls-rustls", "api-24"] }
+png = "0.18"
+gif = "0.14"
+image = { version = "0.25", default-features = false, features = ["bmp"] }
+
+[dev-dependencies]
+tower = { workspace = true }
+http-body-util = "0.1"

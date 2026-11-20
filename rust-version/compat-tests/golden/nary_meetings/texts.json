@@ -1,0 +1,152 @@
+{
+ "slots_message": {
+  "t": {
+   "slots_intro": "Options:",
+   "extended": "outside office hours",
+   "recording": "Recorded."
+  },
+  "cases": [
+   {
+    "slots": [],
+    "result": "Options:\nRecorded."
+   },
+   {
+    "slots": [
+     {
+      "company": "Mon 19 Oct 09:00"
+     }
+    ],
+    "result": "Options:\n1. Mon 19 Oct 09:00\nRecorded."
+   },
+   {
+    "slots": [
+     {
+      "company": "A",
+      "customer": "B",
+      "extended": true
+     },
+     {
+      "start": "x",
+      "company": "C",
+      "customer": "",
+      "extended": false
+     },
+     {
+      "company": "D",
+      "extended": 1
+     }
+    ],
+    "result": "Options:\n1. B (outside office hours)\n2. C\n3. D (outside office hours)\nRecorded."
+   }
+  ]
+ },
+ "with_link": [
+  {
+   "text": "Join {link} now",
+   "link": null,
+   "result": "Join  now"
+  },
+  {
+   "text": "Join {link} now",
+   "link": "",
+   "result": "Join  now"
+  },
+  {
+   "text": "Join {link} now",
+   "link": "https://meet.google.com/abc-defg-hij",
+   "result": "Join https://meet.google.com/abc-defg-hij now"
+  },
+  {
+   "text": "See you then  \n",
+   "link": null,
+   "result": "See you then"
+  },
+  {
+   "text": "See you then  \n",
+   "link": "",
+   "result": "See you then"
+  },
+  {
+   "text": "See you then  \n",
+   "link": "https://meet.google.com/abc-defg-hij",
+   "result": "See you then\nhttps://meet.google.com/abc-defg-hij"
+  },
+  {
+   "text": "",
+   "link": null,
+   "result": ""
+  },
+  {
+   "text": "",
+   "link": "",
+   "result": ""
+  },
+  {
+   "text": "",
+   "link": "https://meet.google.com/abc-defg-hij",
+   "result": "\nhttps://meet.google.com/abc-defg-hij"
+  },
+  {
+   "text": "{link}",
+   "link": null,
+   "result": ""
+  },
+  {
+   "text": "{link}",
+   "link": "",
+   "result": ""
+  },
+  {
+   "text": "{link}",
+   "link": "https://meet.google.com/abc-defg-hij",
+   "result": "https://meet.google.com/abc-defg-hij"
+  },
+  {
+   "text": "  hi {link} {link} ",
+   "link": null,
+   "result": "hi"
+  },
+  {
+   "text": "  hi {link} {link} ",
+   "link": "",
+   "result": "hi"
+  },
+  {
+   "text": "  hi {link} {link} ",
+   "link": "https://meet.google.com/abc-defg-hij",
+   "result": "  hi https://meet.google.com/abc-defg-hij https://meet.google.com/abc-defg-hij "
+  }
+ ],
+ "transcript_text": [
+  {
+   "filename": "call.txt",
+   "data": "ICBwbGFpbiB0ZXh0DQpsaW5lIHR3byAK",
+   "result": "plain text\r\nline two"
+  },
+  {
+   "filename": "call.SRT",
+   "data": "MQowMDowMDowMSwwMDAgLS0+IDAwOjAwOjAyLDAwMApIZWxsbwoKMgowMDowMDowMyw1MDAgLS0+IDAwOjAwOjA0LDAwMApXb3JsZAoKCg==",
+   "result": "Hello\nWorld"
+  },
+  {
+   "filename": "call.vtt",
+   "data": "V0VCVlRUCgowMDowMDowMS4wMDAgLS0+IDAwOjAwOjAyLjAwMCBhbGlnbjpzdGFydApIZWxsbyDDogoKMTIgClNlZSB5b3Ugc29vbgo=",
+   "result": "Hello â\nSee you soon"
+  },
+  {
+   "filename": "x.docx",
+   "data": "UEsDBBQAAAAAAJpQT12lsfoemgAAAJoAAAARAAAAd29yZC9kb2N1bWVudC54bWw8dzpkb2N1bWVudD48dzpib2R5Pjx3OnA+PHc6cj48dzp0PkhlbGxvIE93bmVyPC93OnQ+PC93OnI+PC93OnA+PHc6cD48dzpyPjx3OnQgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+QnVkZ2V0IGlzIDUwayA8L3c6dD48L3c6cj48L3c6cD48L3c6Ym9keT48L3c6ZG9jdW1lbnQ+UEsBAhQDFAAAAAAAmlBPXaWx+h6aAAAAmgAAABEAAAAAAAAAAAAAAIABAAAAAHdvcmQvZG9jdW1lbnQueG1sUEsFBgAAAAABAAEAPwAAAMkAAAAAAA==",
+   "result": "Hello Owner\nBudget is 50k"
+  },
+  {
+   "filename": "",
+   "data": "//5hYmM=",
+   "result": "abc"
+  },
+  {
+   "filename": "notes.md",
+   "data": "Y2Fmw6kg4oCUIG9rCgoK",
+   "result": "café — ok"
+  }
+ ]
+}

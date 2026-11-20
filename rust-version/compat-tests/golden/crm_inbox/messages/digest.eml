@@ -1,0 +1,15 @@
+From: a@b
+Content-Type: multipart/digest; boundary=D
+
+pre
+--D
+
+Subject: in digest
+
+digest body
+--D
+Content-Type: text/plain
+
+plain
+--D--
+epi

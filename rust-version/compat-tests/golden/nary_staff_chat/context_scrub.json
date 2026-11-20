@@ -1,0 +1,69 @@
+[
+ {
+  "in": {
+   "cost_price": 1,
+   "name": "x",
+   "nested": {
+    "margin": 2,
+    "keep": [
+     {
+      "tiers": [],
+      "ok": 1
+     }
+    ]
+   }
+  },
+  "out": {
+   "name": "x",
+   "nested": {
+    "keep": [
+     {
+      "ok": 1
+     }
+    ]
+   }
+  }
+ },
+ {
+  "in": [
+   1,
+   {
+    "notes": "n"
+   }
+  ],
+  "out": [
+   1,
+   {}
+  ]
+ },
+ {
+  "in": "s",
+  "out": "s"
+ },
+ {
+  "in": {
+   "products": [
+    {
+     "sku": "A",
+     "cost": 5,
+     "list_price": {
+      "currency": "JPY",
+      "list_price": "1"
+     },
+     "contingency": 1
+    }
+   ]
+  },
+  "out": {
+   "products": [
+    {
+     "sku": "A",
+     "list_price": {
+      "currency": "JPY",
+      "list_price": "1"
+     }
+    }
+   ]
+  }
+ }
+]

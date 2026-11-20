@@ -1,0 +1,67 @@
+{
+ "template": "memo",
+ "data": {
+  "company_trade": "Your Company Ltd",
+  "company_legal": "Your Company Limited",
+  "company_website": "example.com",
+  "company_email": "hello@example.com",
+  "company_phone": "+1 555 0100",
+  "memo_number": "MEMO/2026/10/016",
+  "formatted_date": "20 October 2026",
+  "memo_type": "announcement",
+  "memo_type_label": "Announcement",
+  "sender_name": "Riley Chen",
+  "to_line": "Engineering, Sales",
+  "subject": "Quarterly review (Q3) & next steps",
+  "body": "Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two Line one\nLine two ",
+  "status": "recalled",
+  "status_label": "Recalled",
+  "recalled_at": "2026-10-21",
+  "recalled_date": "21 October 2026",
+  "sender_signed_date": "20 October 2026",
+  "acknowledgements": [
+   {
+    "name": "Staff 1",
+    "position": "Sales",
+    "acknowledged_at": "21 October 2026"
+   },
+   {
+    "name": "Staff 2",
+    "position": "",
+    "acknowledged_at": "22 October 2026"
+   },
+   {
+    "name": "Staff 3",
+    "position": "Engineer",
+    "acknowledged_at": "23 October 2026"
+   },
+   {
+    "name": "Staff 4",
+    "position": "Sales",
+    "acknowledged_at": "24 October 2026"
+   },
+   {
+    "name": "Staff 5",
+    "position": "",
+    "acknowledged_at": "25 October 2026"
+   },
+   {
+    "name": "Staff 6",
+    "position": "Engineer",
+    "acknowledged_at": "26 October 2026"
+   },
+   {
+    "name": "Staff 7",
+    "position": "Sales",
+    "acknowledged_at": "27 October 2026"
+   },
+   {
+    "name": "Staff 8",
+    "position": "",
+    "acknowledged_at": "28 October 2026"
+   }
+  ],
+  "total_recipients": 12,
+  "company_name": "Your Company Ltd"
+ }
+}

@@ -1,0 +1,15 @@
+To: )13 Oct 2026 10:00 GMT, boundary="=_b"
+Cc: name*1*=%A9
+Subject: =?bogus?q?x?=>
+Content-Type: multipart/mixed; boundary=Q
+
+--Q
+Content-Type: text/plain; charset=utf-8
+
+=C3=A9 qp
+--Q
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+
+<i>x=3Dy</i>
+--Q--

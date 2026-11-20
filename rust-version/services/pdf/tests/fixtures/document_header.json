@@ -1,0 +1,49 @@
+{
+ "template": "document",
+ "data": {
+  "company": {},
+  "doc_title": "WORK ORDER",
+  "number": "WO-7",
+  "meta": [
+   {
+    "label": "Site",
+    "value": "Warehouse 3"
+   }
+  ],
+  "rows": [
+   [
+    {
+     "text": "Install"
+    },
+    {
+     "text": "1",
+     "right": true
+    }
+   ]
+  ],
+  "columns": [
+   {
+    "label": "Task"
+   },
+   {
+    "label": "Qty",
+    "right": true
+   }
+  ],
+  "signatures": [
+   {
+    "name": "Sam Taylor",
+    "title": "Supervisor"
+   }
+  ]
+ },
+ "footer": {
+  "qr_data_uri": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAIAAADZ8fBYAAAAgElEQVR42rXWyQ2AMAxE0em/aZA4REHBwfb8uIB38C49cdGhEbA727B7gtaaEdhlaUV1hF2K1r77YNenlZkZ2HVo5Scddnu0qvsJdqt0MWtpul7oHN3qzQTdHac/2tgAW9pbWjFt79mAJk7DFw1ds4XmDvCbRn+GiabfnEPv06BvBVnTnVAjjh4AAAAASUVORK5CYII=",
+  "title": "WORK ORDER WO-7",
+  "line": "Draft, not for distribution",
+  "code": ""
+ },
+ "header": {
+  "text": "Your Company Ltd | Confidential"
+ }
+}

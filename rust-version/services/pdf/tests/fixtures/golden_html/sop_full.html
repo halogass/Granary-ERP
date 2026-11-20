@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9.5pt; color: #1a1a1a; }
+  .page { padding: 32px 40px; }
+
+  /* Letterhead */
+  .letterhead-img { width: 100%; display: block; margin-bottom: 20px; }
+  .top-bar { height: 4px; background: #1f4e79; margin-bottom: 20px; }
+  .text-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
+  .brand { font-size: 15pt; font-weight: 800; letter-spacing: 1px; color: #1f4e79; }
+  .brand-sub { font-size: 8pt; color: #888; margin-top: 2px; }
+  .company-info { text-align: right; font-size: 8pt; line-height: 1.6; color: #555; }
+  .company-info .name { font-size: 10.5pt; font-weight: 700; color: #1a1a1a; }
+
+  /* Document type band */
+  .type-band {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    color: #fff;
+    padding: 8px 14px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+  }
+  .type-label { font-size: 8pt; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #fff/80; }
+  .type-code  { font-family: 'Courier New', monospace; font-size: 10pt; font-weight: 700; color: #1f4e79; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 3px; }
+
+  /* Title */
+  .doc-title { font-size: 20pt; font-weight: 800; color: #0f0f0f; margin-bottom: 16px; line-height: 1.2; }
+
+  /* Metadata grid */
+  .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border: 1px solid #e5e5e5; border-radius: 4px; margin-bottom: 18px; overflow: hidden; }
+  .meta-cell { padding: 8px 12px; border-bottom: 1px solid #f0f0f0; }
+  .meta-cell:nth-child(odd) { border-right: 1px solid #f0f0f0; background: #fafafa; }
+  .meta-label { font-size: 7pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; margin-bottom: 3px; }
+  .meta-value { font-size: 9pt; font-weight: 600; color: #1a1a1a; }
+
+  /* Summary box */
+  .summary-box { background: #f9f9f9; border-left: 4px solid #1f4e79; padding: 10px 14px; margin-bottom: 18px; border-radius: 0 4px 4px 0; }
+  .summary-label { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; margin-bottom: 5px; }
+  .summary-text  { font-size: 9.5pt; line-height: 1.6; color: #333; }
+
+  /* Content body */
+  .content-label { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; margin-bottom: 8px; }
+  .content-body  { font-size: 9.5pt; line-height: 1.8; color: #1a1a1a; white-space: pre-wrap; word-wrap: break-word; }
+
+  /* Tags */
+  .tags-row { margin-top: 14px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { background: #fef2f2; color: #1f4e79; border: 1px solid #fecaca; padding: 2px 10px; border-radius: 20px; font-size: 7.5pt; font-weight: 600; }
+
+  /* Signature section */
+  .sig-section { margin-top: 32px; page-break-inside: avoid; }
+  .sig-divider  { border: none; border-top: 2px solid #1a1a1a; margin-bottom: 14px; }
+  .sig-heading  { font-size: 7.5pt; color: #888; text-transform: uppercase; letter-spacing: 0.5px; font-weight: 600; margin-bottom: 16px; }
+  .sig-grid     { display: grid; gap: 32px; }
+  .sig-grid.one  { grid-template-columns: 1fr; max-width: 260px; }
+  .sig-grid.two  { grid-template-columns: 1fr 1fr; }
+  .sig-box      { border-top: 2px solid #1a1a1a; padding-top: 12px; }
+  .sig-role     { font-size: 7.5pt; text-transform: uppercase; color: #888; margin-bottom: 5px; font-weight: 600; }
+  .sig-name     { font-size: 10.5pt; font-weight: 700; margin-bottom: 2px; }
+  .sig-position { font-size: 8.5pt; color: #555; margin-bottom: 2px; }
+  .sig-date     { font-size: 8pt; color: #888; }
+  .sig-stamp    { font-size: 7.5pt; color: #22c55e; font-weight: 700; margin-top: 5px; }
+  .sig-pending  { font-size: 8.5pt; color: #aaa; font-style: italic; margin-top: 4px; }
+  .sig-image    { max-height: 40px; max-width: 120px; margin: 6px 0; }
+
+  /* Footer */
+  .footer { margin-top: 36px; border-top: 1px solid #e5e5e5; padding-top: 8px; font-size: 7.5pt; color: #aaa; text-align: center; line-height: 1.5; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <img class="letterhead-img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAlgAAABaCAIAAADrU7+pAAABxElEQVR42u3VoQ0AIAADQcZhJqZjREKCZwEEBkMvOVVZ86W2fmnMBQCfKfchlEYAPgzhcVVHAKJDqI4ACKE0AiCE6giAEKojAEIojQAIoToCIITqCIAQSiMAQqiOAAihOgIghNIIgBCqIwBCqI7qCCCE0iiNAEKojuoIIITqqI4AQog0Aggh6ggghKgjgBAijQBCiDoCCCHqCCCESCOAEKKOAEKIOgIIIdIIIISoI4AQoo4AQog0Aggh6uhAQAhRR3UEhBBplEZACFFHdQSEENQREEKQRkAIQR0BIQR1BIQQpBEQQlBHQAhBHQEhBGkEhBDUERBCUEdACEEaASEEdQSEENQREEKQRkAIQR3VESEE1FEdEUJAGqURIQTUUR0RQgB1RAgBpBEhBFBHhBBAHRFCAGlECAHUESEEUEeEEEAaEUIAdUQIAdQRIQSQRoQQQB0RQgB1RAgBpFEahRBAHdVRCAHUUR2FEEAapVEIAVBHIQRAHYUQAGkUQgDUUQgBUEchBEAahRAAdRRCANRRCAGQRiEEQB2FEAB1FEIApFEIAVBHIQRAHV/UUQgBiE6jEAIQXUchBCC6jkIIQHQahRCA6DpupKw/fwxwAlIAAAAASUVORK5CYII&#x3D;" alt="Company Letterhead" />
+
+  <div class="type-band">
+    <span class="type-label">Standard Operating Procedure</span>
+    <span class="type-code">SOP-007 &nbsp;&middot;&nbsp; v3.1</span>
+  </div>
+
+  <div class="doc-title">Onboarding a new employee</div>
+
+  <div class="meta-grid">
+    <div class="meta-cell"><div class="meta-label">SOP Code</div><div class="meta-value">SOP-007</div></div>
+    <div class="meta-cell"><div class="meta-label">Status</div><div class="meta-value">published</div></div>
+    <div class="meta-cell"><div class="meta-label">Version</div><div class="meta-value">3.1</div></div>
+    <div class="meta-cell"><div class="meta-label">Date</div><div class="meta-value">01 October 2026</div></div>
+    <div class="meta-cell"><div class="meta-label">Owner Role</div><div class="meta-value">HR Lead</div></div>
+    <div class="meta-cell"><div class="meta-label">Author</div><div class="meta-value">Sam Taylor</div></div>
+  </div>
+
+  <div class="summary-box">
+    <div class="summary-label">Trigger</div>
+    <div class="summary-text">A signed offer letter</div>
+  </div>
+
+  <div class="summary-box" style="border-left-color:#6366f1;">
+    <div class="summary-label">Summary</div>
+    <div class="summary-text">From signed offer to first-week review.</div>
+  </div>
+
+  <div class="content-label">Content</div>
+  <div class="content-body">1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+1. Prepare the laptop.
+2. Create the accounts.
+3. Book the induction.
+</div>
+
+  <div class="tags-row">
+    hr, onboarding
+  </div>
+
+  <div class="sig-section">
+    <hr class="sig-divider" />
+    <div class="sig-heading">Document Signatures</div>
+
+    <div class="sig-grid two">
+
+      <div class="sig-box">
+        <div class="sig-role">Author</div>
+        <div class="sig-name">Sam Taylor</div>
+        <div class="sig-position">HR Lead</div>
+        <img class="sig-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAoCAIAAAC6iKlyAAAAuklEQVR42u3TuQ3DQAwF0V+EinX3VqbAjjXLY4gNmO3gAcx1fX7e13lh8g+t+CvQz6Y4BK04Da04Da04Da04Da04Da04Da04Da04Da04Da04Da04Db1ZPGe/3yOeIh3jxVMtaKp4ypYNE0/9xBniadTaWjwdz7CjeEvojuK9oRuJD4GuLz4Nuqz4WOhq4vOhi4gvgj4rvhH6iPhqaFJcaEhcaEhcaEhcaEhcaEhcaEhcaEhcaEhcaEj8Bq/SxjMrFwXAAAAAAElFTkSuQmCC" alt="Author Signature" />
+        <div class="sig-date">02 October 2026</div>
+        <div class="sig-stamp">✦ Digitally Signed</div>
+      </div>
+
+      <div class="sig-box">
+        <div class="sig-role">Owner</div>
+        <div class="sig-name">Alex Owner</div>
+        <div class="sig-position">Owner</div>
+        <img class="sig-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAAoCAIAAAC6iKlyAAAAuklEQVR42u3TuQ3DQAwF0V+EinX3VqbAjjXLY4gNmO3gAcx1fX7e13lh8g+t+CvQz6Y4BK04Da04Da04Da04Da04Da04Da04Da04Da04Da04Da04Db1ZPGe/3yOeIh3jxVMtaKp4ypYNE0/9xBniadTaWjwdz7CjeEvojuK9oRuJD4GuLz4Nuqz4WOhq4vOhi4gvgj4rvhH6iPhqaFJcaEhcaEhcaEhcaEhcaEhcaEhcaEhcaEhcaEj8Bq/SxjMrFwXAAAAAAElFTkSuQmCC" alt="Owner Signature" />
+        <div class="sig-date">03 October 2026</div>
+        <div class="sig-stamp">✦ Digitally Signed</div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer">
+    Your Company Ltd &nbsp;|&nbsp; SOP-007 &nbsp;|&nbsp; v3.1 &nbsp;|&nbsp; Confidential — Internal Use Only
+  </div>
+
+</div>
+</body>
+</html>

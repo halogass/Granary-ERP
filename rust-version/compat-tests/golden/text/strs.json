@@ -1,0 +1,7446 @@
+{
+ "split": [
+  {
+   "in": "Bob Sanders",
+   "out": [
+    "Bob",
+    "Sanders"
+   ]
+  },
+  {
+   "in": "bob sanders",
+   "out": [
+    "bob",
+    "sanders"
+   ]
+  },
+  {
+   "in": "Sanders Bob",
+   "out": [
+    "Sanders",
+    "Bob"
+   ]
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": [
+    "Mr",
+    "Bob",
+    "Sanders,",
+    "Esq."
+   ]
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": [
+    "Ms",
+    "Susan",
+    "Reed"
+   ]
+  },
+  {
+   "in": "Globex Corp",
+   "out": [
+    "Globex",
+    "Corp"
+   ]
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": [
+    "Globex",
+    "Corp.,",
+    "plc"
+   ]
+  },
+  {
+   "in": "Globex plc",
+   "out": [
+    "Globex",
+    "plc"
+   ]
+  },
+  {
+   "in": "Initech LLC",
+   "out": [
+    "Initech",
+    "LLC"
+   ]
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": [
+    "Initech",
+    "Holdings",
+    "LLC"
+   ]
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": [
+    "Acme",
+    "Ltd",
+    "Solutions",
+    "Japan"
+   ]
+  },
+  {
+   "in": "Acme Ltd",
+   "out": [
+    "Acme",
+    "Ltd"
+   ]
+  },
+  {
+   "in": "Acme Tech",
+   "out": [
+    "Acme",
+    "Tech"
+   ]
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": [
+    "Nippon",
+    "Telecom",
+    "(Holdings)",
+    "plc"
+   ]
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": [
+    "Nippon",
+    "Telecom"
+   ]
+  },
+  {
+   "in": "First Central Bank",
+   "out": [
+    "First",
+    "Central",
+    "Bank"
+   ]
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": [
+    "First",
+    "Central",
+    "Bank",
+    "plc"
+   ]
+  },
+  {
+   "in": "FCB",
+   "out": [
+    "FCB"
+   ]
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": [
+    "Dr.",
+    "Mr.",
+    "Bob",
+    "Sanders,",
+    "M.B.A."
+   ]
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": [
+    "Dr.",
+    "Steven",
+    "Clarke"
+   ]
+  },
+  {
+   "in": "Steven Clarke",
+   "out": [
+    "Steven",
+    "Clarke"
+   ]
+  },
+  {
+   "in": "Adam Clark",
+   "out": [
+    "Adam",
+    "Clark"
+   ]
+  },
+  {
+   "in": "John Smith",
+   "out": [
+    "John",
+    "Smith"
+   ]
+  },
+  {
+   "in": "Jon Smyth",
+   "out": [
+    "Jon",
+    "Smyth"
+   ]
+  },
+  {
+   "in": "J. Smyth",
+   "out": [
+    "J.",
+    "Smyth"
+   ]
+  },
+  {
+   "in": "Susan Maryann",
+   "out": [
+    "Susan",
+    "Maryann"
+   ]
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": [
+    "Susan",
+    "Mary",
+    "Ann"
+   ]
+  },
+  {
+   "in": "José García",
+   "out": [
+    "José",
+    "García"
+   ]
+  },
+  {
+   "in": "Jose Garcia",
+   "out": [
+    "Jose",
+    "Garcia"
+   ]
+  },
+  {
+   "in": "Müller GmbH",
+   "out": [
+    "Müller",
+    "GmbH"
+   ]
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": [
+    "Mueller",
+    "GmbH"
+   ]
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": [
+    "Zoë",
+    "O'Brien-Smith"
+   ]
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": [
+    "ZOË",
+    "O'BRIEN",
+    "SMITH"
+   ]
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": [
+    "Đặng",
+    "Văn",
+    "Lâm"
+   ]
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": [
+    "Dang",
+    "Van",
+    "Lam"
+   ]
+  },
+  {
+   "in": "山田太郎",
+   "out": [
+    "山田太郎"
+   ]
+  },
+  {
+   "in": "山田 太郎",
+   "out": [
+    "山田",
+    "太郎"
+   ]
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": [
+    "Ελληνική",
+    "Εταιρεία"
+   ]
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": [
+    "ΟΔΥΣΣΕΥΣ"
+   ]
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": [
+    "İstanbul",
+    "Ltd"
+   ]
+  },
+  {
+   "in": "istanbul ltd",
+   "out": [
+    "istanbul",
+    "ltd"
+   ]
+  },
+  {
+   "in": "Straße GmbH",
+   "out": [
+    "Straße",
+    "GmbH"
+   ]
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": [
+    "STRASSE",
+    "GMBH"
+   ]
+  },
+  {
+   "in": "",
+   "out": []
+  },
+  {
+   "in": " ",
+   "out": []
+  },
+  {
+   "in": "a",
+   "out": [
+    "a"
+   ]
+  },
+  {
+   "in": "ab",
+   "out": [
+    "ab"
+   ]
+  },
+  {
+   "in": "abc",
+   "out": [
+    "abc"
+   ]
+  },
+  {
+   "in": "￶‍Adam",
+   "out": [
+    "￶‍Adam"
+   ]
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": [
+    "Adam​",
+    "Joseph"
+   ]
+  },
+  {
+   "in": "Rachel Green",
+   "out": [
+    "Rachel",
+    "Green"
+   ]
+  },
+  {
+   "in": "Rachel  Green",
+   "out": [
+    "Rachel",
+    "Green"
+   ]
+  },
+  {
+   "in": "école",
+   "out": [
+    "école"
+   ]
+  },
+  {
+   "in": "école",
+   "out": [
+    "école"
+   ]
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": [
+    "ﬁnance",
+    "Corp"
+   ]
+  },
+  {
+   "in": "finance corp",
+   "out": [
+    "finance",
+    "corp"
+   ]
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": [
+    "Ⅻ",
+    "Holdings"
+   ]
+  },
+  {
+   "in": "１２３ Store",
+   "out": [
+    "１２３",
+    "Store"
+   ]
+  },
+  {
+   "in": "123 Store",
+   "out": [
+    "123",
+    "Store"
+   ]
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": [
+    "Global-Tech",
+    "(Asia)",
+    "Pte.",
+    "Ltd."
+   ]
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": [
+    "Global",
+    "Tech",
+    "Asia"
+   ]
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": [
+    "o'neil",
+    "&",
+    "sons,",
+    "inc."
+   ]
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": [
+    "O",
+    "Neil",
+    "and",
+    "Sons",
+    "Inc"
+   ]
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": [
+    "Andy_Wilson"
+   ]
+  },
+  {
+   "in": "andy wilson",
+   "out": [
+    "andy",
+    "wilson"
+   ]
+  },
+  {
+   "in": "R&D Center",
+   "out": [
+    "R&D",
+    "Center"
+   ]
+  },
+  {
+   "in": "R D Center",
+   "out": [
+    "R",
+    "D",
+    "Center"
+   ]
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": [
+    "multiple",
+    "spaces",
+    "here"
+   ]
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": [
+    "x",
+    "y",
+    "z"
+   ]
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": [
+    "ǆemal",
+    "ǅuro"
+   ]
+  },
+  {
+   "in": "Ǆ",
+   "out": [
+    "Ǆ"
+   ]
+  },
+  {
+   "in": "ſ",
+   "out": [
+    "ſ"
+   ]
+  },
+  {
+   "in": "ﬃ",
+   "out": [
+    "ﬃ"
+   ]
+  },
+  {
+   "in": "ß",
+   "out": [
+    "ß"
+   ]
+  },
+  {
+   "in": "ŉ",
+   "out": [
+    "ŉ"
+   ]
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": [
+    "ΣΑΣ",
+    "ΟΔΟΣ"
+   ]
+  },
+  {
+   "in": "Σ",
+   "out": [
+    "Σ"
+   ]
+  },
+  {
+   "in": "aΣ",
+   "out": [
+    "aΣ"
+   ]
+  },
+  {
+   "in": "aΣb",
+   "out": [
+    "aΣb"
+   ]
+  },
+  {
+   "in": "a.Σ",
+   "out": [
+    "a.Σ"
+   ]
+  },
+  {
+   "in": "A'Σ'",
+   "out": [
+    "A'Σ'"
+   ]
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": [
+    "ᾳ",
+    "ᾼ"
+   ]
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": [
+    "Hello",
+    "Mr",
+    "Bob,",
+    "thank",
+    "you",
+    "for",
+    "your",
+    "time",
+    "yesterday.",
+    "Attached",
+    "is",
+    "our",
+    "price",
+    "quotation",
+    "for",
+    "ACME",
+    "Laptop",
+    "Series",
+    "Office",
+    "Monitor",
+    "for",
+    "4",
+    "units",
+    "with",
+    "a",
+    "software",
+    "licence",
+    "for",
+    "12",
+    "months.",
+    "Please",
+    "confirm",
+    "if",
+    "there",
+    "are",
+    "questions",
+    "about",
+    "the",
+    "laptop",
+    "specifications",
+    "or",
+    "the",
+    "delivery",
+    "schedule",
+    "on",
+    "site.",
+    "Regards."
+   ]
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": [
+    "Hello",
+    "Mr",
+    "Bob,",
+    "thank",
+    "you",
+    "for",
+    "your",
+    "time",
+    "yesterday.",
+    "Attached",
+    "is",
+    "our",
+    "price",
+    "quotation",
+    "for",
+    "ACME",
+    "Laptop",
+    "Series",
+    "Office",
+    "Monitor",
+    "for",
+    "6",
+    "units",
+    "with",
+    "a",
+    "software",
+    "licence",
+    "for",
+    "24",
+    "months.",
+    "Please",
+    "confirm",
+    "should",
+    "there",
+    "be",
+    "questions",
+    "regarding",
+    "the",
+    "laptop",
+    "specifications",
+    "or",
+    "the",
+    "delivery",
+    "schedule",
+    "at",
+    "your",
+    "site.",
+    "Warm",
+    "regards."
+   ]
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": [
+    "Dear",
+    "Ms.",
+    "Susan,",
+    "following",
+    "our",
+    "call",
+    "I",
+    "am",
+    "sending",
+    "the",
+    "quotation",
+    "for",
+    "the",
+    "laptop",
+    "and",
+    "support",
+    "plan",
+    "rollout",
+    "for",
+    "your",
+    "three",
+    "branch",
+    "offices",
+    "in",
+    "Tokyo,",
+    "Osaka",
+    "and",
+    "Sapporo.",
+    "The",
+    "price",
+    "includes",
+    "installation,",
+    "training",
+    "for",
+    "your",
+    "HR",
+    "team",
+    "and",
+    "one",
+    "year",
+    "of",
+    "support.",
+    "Please",
+    "let",
+    "me",
+    "know",
+    "if",
+    "anything",
+    "should",
+    "change."
+   ]
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": [
+    "Dear",
+    "Ms",
+    "Susan,",
+    "as",
+    "discussed",
+    "on",
+    "our",
+    "call,",
+    "attached",
+    "is",
+    "the",
+    "quotation",
+    "for",
+    "the",
+    "laptop",
+    "and",
+    "support",
+    "plan",
+    "rollout",
+    "covering",
+    "your",
+    "branch",
+    "offices",
+    "in",
+    "Tokyo",
+    "and",
+    "Sapporo.",
+    "Pricing",
+    "includes",
+    "installation",
+    "and",
+    "training",
+    "for",
+    "the",
+    "HR",
+    "team,",
+    "plus",
+    "one",
+    "year",
+    "of",
+    "support.",
+    "Let",
+    "me",
+    "know",
+    "if",
+    "anything",
+    "needs",
+    "to",
+    "change",
+    "before",
+    "you",
+    "sign."
+   ]
+  },
+  {
+   "in": "\t a b \n",
+   "out": [
+    "a",
+    "b"
+   ]
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": [
+    "x"
+   ]
+  },
+  {
+   "in": "​zero​width",
+   "out": [
+    "​zero​width"
+   ]
+  },
+  {
+   "in": " nbsp ",
+   "out": [
+    "nbsp"
+   ]
+  },
+  {
+   "in": "　ideo　",
+   "out": [
+    "ideo"
+   ]
+  },
+  {
+   "in": "nel",
+   "out": [
+    "nel"
+   ]
+  },
+  {
+   "in": " ls ps",
+   "out": [
+    "ls",
+    "ps"
+   ]
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": [
+    "line1",
+    "line2",
+    "line3",
+    "line4",
+    "line5",
+    "line6",
+    "line7",
+    "line8",
+    "line9",
+    "line10",
+    "line11",
+    "line12"
+   ]
+  },
+  {
+   "in": "trailing\n",
+   "out": [
+    "trailing"
+   ]
+  },
+  {
+   "in": "\n",
+   "out": []
+  },
+  {
+   "in": "",
+   "out": []
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": []
+  },
+  {
+   "in": "hello world",
+   "out": [
+    "hello",
+    "world"
+   ]
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": [
+    "HELLO",
+    "WORLD"
+   ]
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": [
+    "they're",
+    "bill's",
+    "friends",
+    "from",
+    "the",
+    "UK"
+   ]
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": [
+    "o'neil",
+    "mcdonald-smith"
+   ]
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": [
+    "1st",
+    "2nd",
+    "3rd"
+   ]
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": [
+    "ǉubljana",
+    "ǈ"
+   ]
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": [
+    "ﬀ",
+    "ﬂ",
+    "ﬄ"
+   ]
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": [
+    "ʼn",
+    "ǰ",
+    "ΐ"
+   ]
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": [
+    "ΣΣ",
+    "ΑΣ",
+    "ΑΣ.",
+    "Σ.Σ"
+   ]
+  },
+  {
+   "in": "İIıi",
+   "out": [
+    "İIıi"
+   ]
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": [
+    "ŉAPOLEON"
+   ]
+  },
+  {
+   "in": "ǅ",
+   "out": [
+    "ǅ"
+   ]
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": [
+    "ᾈᾉ"
+   ]
+  },
+  {
+   "in": "ͅx",
+   "out": [
+    "ͅx"
+   ]
+  },
+  {
+   "in": "ABͅC",
+   "out": [
+    "ABͅC"
+   ]
+  },
+  {
+   "in": "ȧΣ",
+   "out": [
+    "ȧΣ"
+   ]
+  },
+  {
+   "in": "sale_order line_item",
+   "out": [
+    "sale_order",
+    "line_item"
+   ]
+  },
+  {
+   "in": "deep_reasoner",
+   "out": [
+    "deep_reasoner"
+   ]
+  },
+  {
+   "in": "x­Σ",
+   "out": [
+    "x­Σ"
+   ]
+  },
+  {
+   "in": "Σ­",
+   "out": [
+    "Σ­"
+   ]
+  },
+  {
+   "in": "wordאΣ",
+   "out": [
+    "wordאΣ"
+   ]
+  }
+ ],
+ "strip": [
+  {
+   "in": "Bob Sanders",
+   "out": "Bob Sanders"
+  },
+  {
+   "in": "bob sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Sanders Bob",
+   "out": "Sanders Bob"
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": "Mr Bob Sanders, Esq."
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": "Ms Susan Reed"
+  },
+  {
+   "in": "Globex Corp",
+   "out": "Globex Corp"
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": "Globex Corp., plc"
+  },
+  {
+   "in": "Globex plc",
+   "out": "Globex plc"
+  },
+  {
+   "in": "Initech LLC",
+   "out": "Initech LLC"
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": "Initech Holdings LLC"
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": "Acme Ltd Solutions Japan"
+  },
+  {
+   "in": "Acme Ltd",
+   "out": "Acme Ltd"
+  },
+  {
+   "in": "Acme Tech",
+   "out": "Acme Tech"
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": "Nippon Telecom (Holdings) plc"
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": "Nippon Telecom"
+  },
+  {
+   "in": "First Central Bank",
+   "out": "First Central Bank"
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": "First Central Bank plc"
+  },
+  {
+   "in": "FCB",
+   "out": "FCB"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "Dr. Mr. Bob Sanders, M.B.A."
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": "Dr. Steven Clarke"
+  },
+  {
+   "in": "Steven Clarke",
+   "out": "Steven Clarke"
+  },
+  {
+   "in": "Adam Clark",
+   "out": "Adam Clark"
+  },
+  {
+   "in": "John Smith",
+   "out": "John Smith"
+  },
+  {
+   "in": "Jon Smyth",
+   "out": "Jon Smyth"
+  },
+  {
+   "in": "J. Smyth",
+   "out": "J. Smyth"
+  },
+  {
+   "in": "Susan Maryann",
+   "out": "Susan Maryann"
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": "Susan Mary Ann"
+  },
+  {
+   "in": "José García",
+   "out": "José García"
+  },
+  {
+   "in": "Jose Garcia",
+   "out": "Jose Garcia"
+  },
+  {
+   "in": "Müller GmbH",
+   "out": "Müller GmbH"
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": "Mueller GmbH"
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": "Zoë O'Brien-Smith"
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": "ZOË O'BRIEN SMITH"
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": "Đặng Văn Lâm"
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": "Dang Van Lam"
+  },
+  {
+   "in": "山田太郎",
+   "out": "山田太郎"
+  },
+  {
+   "in": "山田 太郎",
+   "out": "山田 太郎"
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": "Ελληνική Εταιρεία"
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": "ΟΔΥΣΣΕΥΣ"
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": "İstanbul Ltd"
+  },
+  {
+   "in": "istanbul ltd",
+   "out": "istanbul ltd"
+  },
+  {
+   "in": "Straße GmbH",
+   "out": "Straße GmbH"
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": "STRASSE GMBH"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "out": ""
+  },
+  {
+   "in": "a",
+   "out": "a"
+  },
+  {
+   "in": "ab",
+   "out": "ab"
+  },
+  {
+   "in": "abc",
+   "out": "abc"
+  },
+  {
+   "in": "￶‍Adam",
+   "out": "￶‍Adam"
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": "Adam​ Joseph"
+  },
+  {
+   "in": "Rachel Green",
+   "out": "Rachel Green"
+  },
+  {
+   "in": "Rachel  Green",
+   "out": "Rachel  Green"
+  },
+  {
+   "in": "école",
+   "out": "école"
+  },
+  {
+   "in": "école",
+   "out": "école"
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": "ﬁnance Corp"
+  },
+  {
+   "in": "finance corp",
+   "out": "finance corp"
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": "Ⅻ Holdings"
+  },
+  {
+   "in": "１２３ Store",
+   "out": "１２３ Store"
+  },
+  {
+   "in": "123 Store",
+   "out": "123 Store"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": "Global-Tech (Asia) Pte. Ltd."
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": "Global Tech Asia"
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": "o'neil & sons, inc."
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": "O Neil and Sons Inc"
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": "Andy_Wilson"
+  },
+  {
+   "in": "andy wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "R&D Center",
+   "out": "R&D Center"
+  },
+  {
+   "in": "R D Center",
+   "out": "R D Center"
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": "multiple   spaces\there"
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": "x\u001cy\u001dz"
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": "ǆemal ǅuro"
+  },
+  {
+   "in": "Ǆ",
+   "out": "Ǆ"
+  },
+  {
+   "in": "ſ",
+   "out": "ſ"
+  },
+  {
+   "in": "ﬃ",
+   "out": "ﬃ"
+  },
+  {
+   "in": "ß",
+   "out": "ß"
+  },
+  {
+   "in": "ŉ",
+   "out": "ŉ"
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": "ΣΑΣ ΟΔΟΣ"
+  },
+  {
+   "in": "Σ",
+   "out": "Σ"
+  },
+  {
+   "in": "aΣ",
+   "out": "aΣ"
+  },
+  {
+   "in": "aΣb",
+   "out": "aΣb"
+  },
+  {
+   "in": "a.Σ",
+   "out": "a.Σ"
+  },
+  {
+   "in": "A'Σ'",
+   "out": "A'Σ'"
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": "ᾳ ᾼ"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards."
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards."
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change."
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign."
+  },
+  {
+   "in": "\t a b \n",
+   "out": "a b"
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": "x"
+  },
+  {
+   "in": "​zero​width",
+   "out": "​zero​width"
+  },
+  {
+   "in": " nbsp ",
+   "out": "nbsp"
+  },
+  {
+   "in": "　ideo　",
+   "out": "ideo"
+  },
+  {
+   "in": "nel",
+   "out": "nel"
+  },
+  {
+   "in": " ls ps",
+   "out": "ls ps"
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12"
+  },
+  {
+   "in": "trailing\n",
+   "out": "trailing"
+  },
+  {
+   "in": "\n",
+   "out": ""
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": ""
+  },
+  {
+   "in": "hello world",
+   "out": "hello world"
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": "HELLO WORLD"
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": "they're bill's friends from the UK"
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": "o'neil mcdonald-smith"
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": "1st 2nd 3rd"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": "ǉubljana ǈ"
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": "ﬀ ﬂ ﬄ"
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": "ʼn ǰ ΐ"
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": "ΣΣ ΑΣ ΑΣ. Σ.Σ"
+  },
+  {
+   "in": "İIıi",
+   "out": "İIıi"
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": "ŉAPOLEON"
+  },
+  {
+   "in": "ǅ",
+   "out": "ǅ"
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": "ᾈᾉ"
+  },
+  {
+   "in": "ͅx",
+   "out": "ͅx"
+  },
+  {
+   "in": "ABͅC",
+   "out": "ABͅC"
+  },
+  {
+   "in": "ȧΣ",
+   "out": "ȧΣ"
+  },
+  {
+   "in": "sale_order line_item",
+   "out": "sale_order line_item"
+  },
+  {
+   "in": "deep_reasoner",
+   "out": "deep_reasoner"
+  },
+  {
+   "in": "x­Σ",
+   "out": "x­Σ"
+  },
+  {
+   "in": "Σ­",
+   "out": "Σ­"
+  },
+  {
+   "in": "wordאΣ",
+   "out": "wordאΣ"
+  }
+ ],
+ "lower": [
+  {
+   "in": "Bob Sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "bob sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Sanders Bob",
+   "out": "sanders bob"
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": "mr bob sanders, esq."
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": "ms susan reed"
+  },
+  {
+   "in": "Globex Corp",
+   "out": "globex corp"
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": "globex corp., plc"
+  },
+  {
+   "in": "Globex plc",
+   "out": "globex plc"
+  },
+  {
+   "in": "Initech LLC",
+   "out": "initech llc"
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": "initech holdings llc"
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": "acme ltd solutions japan"
+  },
+  {
+   "in": "Acme Ltd",
+   "out": "acme ltd"
+  },
+  {
+   "in": "Acme Tech",
+   "out": "acme tech"
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": "nippon telecom (holdings) plc"
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": "nippon telecom"
+  },
+  {
+   "in": "First Central Bank",
+   "out": "first central bank"
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": "first central bank plc"
+  },
+  {
+   "in": "FCB",
+   "out": "fcb"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "dr. mr. bob sanders, m.b.a."
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": "dr. steven clarke"
+  },
+  {
+   "in": "Steven Clarke",
+   "out": "steven clarke"
+  },
+  {
+   "in": "Adam Clark",
+   "out": "adam clark"
+  },
+  {
+   "in": "John Smith",
+   "out": "john smith"
+  },
+  {
+   "in": "Jon Smyth",
+   "out": "jon smyth"
+  },
+  {
+   "in": "J. Smyth",
+   "out": "j. smyth"
+  },
+  {
+   "in": "Susan Maryann",
+   "out": "susan maryann"
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": "susan mary ann"
+  },
+  {
+   "in": "José García",
+   "out": "josé garcía"
+  },
+  {
+   "in": "Jose Garcia",
+   "out": "jose garcia"
+  },
+  {
+   "in": "Müller GmbH",
+   "out": "müller gmbh"
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": "mueller gmbh"
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": "zoë o'brien-smith"
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": "zoë o'brien smith"
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": "đặng văn lâm"
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": "dang van lam"
+  },
+  {
+   "in": "山田太郎",
+   "out": "山田太郎"
+  },
+  {
+   "in": "山田 太郎",
+   "out": "山田 太郎"
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": "ελληνική εταιρεία"
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": "οδυσσευς"
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": "i̇stanbul ltd"
+  },
+  {
+   "in": "istanbul ltd",
+   "out": "istanbul ltd"
+  },
+  {
+   "in": "Straße GmbH",
+   "out": "straße gmbh"
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": "strasse gmbh"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "out": " "
+  },
+  {
+   "in": "a",
+   "out": "a"
+  },
+  {
+   "in": "ab",
+   "out": "ab"
+  },
+  {
+   "in": "abc",
+   "out": "abc"
+  },
+  {
+   "in": "￶‍Adam",
+   "out": "￶‍adam"
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": "adam​ joseph"
+  },
+  {
+   "in": "Rachel Green",
+   "out": "rachel green"
+  },
+  {
+   "in": "Rachel  Green",
+   "out": "rachel  green"
+  },
+  {
+   "in": "école",
+   "out": "école"
+  },
+  {
+   "in": "école",
+   "out": "école"
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": "ﬁnance corp"
+  },
+  {
+   "in": "finance corp",
+   "out": "finance corp"
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": "ⅻ holdings"
+  },
+  {
+   "in": "１２３ Store",
+   "out": "１２３ store"
+  },
+  {
+   "in": "123 Store",
+   "out": "123 store"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": "global-tech (asia) pte. ltd."
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": "global tech asia"
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": "o'neil & sons, inc."
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": "o neil and sons inc"
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": "andy_wilson"
+  },
+  {
+   "in": "andy wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "R&D Center",
+   "out": "r&d center"
+  },
+  {
+   "in": "R D Center",
+   "out": "r d center"
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": "  multiple   spaces\there\n"
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": "x\u001cy\u001dz"
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": "ǆemal ǆuro"
+  },
+  {
+   "in": "Ǆ",
+   "out": "ǆ"
+  },
+  {
+   "in": "ſ",
+   "out": "ſ"
+  },
+  {
+   "in": "ﬃ",
+   "out": "ﬃ"
+  },
+  {
+   "in": "ß",
+   "out": "ß"
+  },
+  {
+   "in": "ŉ",
+   "out": "ŉ"
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": "σας οδος"
+  },
+  {
+   "in": "Σ",
+   "out": "σ"
+  },
+  {
+   "in": "aΣ",
+   "out": "aς"
+  },
+  {
+   "in": "aΣb",
+   "out": "aσb"
+  },
+  {
+   "in": "a.Σ",
+   "out": "a.ς"
+  },
+  {
+   "in": "A'Σ'",
+   "out": "a'ς'"
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": "ᾳ ᾳ"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "hello mr bob, thank you for your time yesterday. attached is our price quotation for acme laptop series office monitor for 4 units with a software licence for 12 months. please confirm if there are questions about the laptop specifications or the delivery schedule on site. regards."
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "hello mr bob, thank you for your time yesterday. attached is our price quotation for acme laptop series office monitor for 6 units with a software licence for 24 months. please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. warm regards."
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": "dear ms. susan, following our call i am sending the quotation for the laptop and support plan rollout for your three branch offices in tokyo, osaka and sapporo. the price includes installation, training for your hr team and one year of support. please let me know if anything should change."
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": "dear ms susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in tokyo and sapporo. pricing includes installation and training for the hr team, plus one year of support. let me know if anything needs to change before you sign."
+  },
+  {
+   "in": "\t a b \n",
+   "out": "\t a b \n"
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": "\u001c\u001d\u001e\u001fx\u001f"
+  },
+  {
+   "in": "​zero​width",
+   "out": "​zero​width"
+  },
+  {
+   "in": " nbsp ",
+   "out": " nbsp "
+  },
+  {
+   "in": "　ideo　",
+   "out": "　ideo　"
+  },
+  {
+   "in": "nel",
+   "out": "nel"
+  },
+  {
+   "in": " ls ps",
+   "out": " ls ps"
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n"
+  },
+  {
+   "in": "trailing\n",
+   "out": "trailing\n"
+  },
+  {
+   "in": "\n",
+   "out": "\n"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": "\r\n\r\n"
+  },
+  {
+   "in": "hello world",
+   "out": "hello world"
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": "hello world"
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": "they're bill's friends from the uk"
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": "o'neil mcdonald-smith"
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": "1st 2nd 3rd"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": "ǉubljana ǉ"
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": "ﬀ ﬂ ﬄ"
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": "ʼn ǰ ΐ"
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": "σς ας ας. σ.ς"
+  },
+  {
+   "in": "İIıi",
+   "out": "i̇iıi"
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": "ŉapoleon"
+  },
+  {
+   "in": "ǅ",
+   "out": "ǆ"
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": "ᾀᾁ"
+  },
+  {
+   "in": "ͅx",
+   "out": "ͅx"
+  },
+  {
+   "in": "ABͅC",
+   "out": "abͅc"
+  },
+  {
+   "in": "ȧΣ",
+   "out": "ȧς"
+  },
+  {
+   "in": "sale_order line_item",
+   "out": "sale_order line_item"
+  },
+  {
+   "in": "deep_reasoner",
+   "out": "deep_reasoner"
+  },
+  {
+   "in": "x­Σ",
+   "out": "x­ς"
+  },
+  {
+   "in": "Σ­",
+   "out": "σ­"
+  },
+  {
+   "in": "wordאΣ",
+   "out": "wordאσ"
+  }
+ ],
+ "title": [
+  {
+   "in": "Bob Sanders",
+   "out": "Bob Sanders"
+  },
+  {
+   "in": "bob sanders",
+   "out": "Bob Sanders"
+  },
+  {
+   "in": "Sanders Bob",
+   "out": "Sanders Bob"
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": "Mr Bob Sanders, Esq."
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": "Ms Susan Reed"
+  },
+  {
+   "in": "Globex Corp",
+   "out": "Globex Corp"
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": "Globex Corp., Plc"
+  },
+  {
+   "in": "Globex plc",
+   "out": "Globex Plc"
+  },
+  {
+   "in": "Initech LLC",
+   "out": "Initech Llc"
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": "Initech Holdings Llc"
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": "Acme Ltd Solutions Japan"
+  },
+  {
+   "in": "Acme Ltd",
+   "out": "Acme Ltd"
+  },
+  {
+   "in": "Acme Tech",
+   "out": "Acme Tech"
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": "Nippon Telecom (Holdings) Plc"
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": "Nippon Telecom"
+  },
+  {
+   "in": "First Central Bank",
+   "out": "First Central Bank"
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": "First Central Bank Plc"
+  },
+  {
+   "in": "FCB",
+   "out": "Fcb"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "Dr. Mr. Bob Sanders, M.B.A."
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": "Dr. Steven Clarke"
+  },
+  {
+   "in": "Steven Clarke",
+   "out": "Steven Clarke"
+  },
+  {
+   "in": "Adam Clark",
+   "out": "Adam Clark"
+  },
+  {
+   "in": "John Smith",
+   "out": "John Smith"
+  },
+  {
+   "in": "Jon Smyth",
+   "out": "Jon Smyth"
+  },
+  {
+   "in": "J. Smyth",
+   "out": "J. Smyth"
+  },
+  {
+   "in": "Susan Maryann",
+   "out": "Susan Maryann"
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": "Susan Mary Ann"
+  },
+  {
+   "in": "José García",
+   "out": "José García"
+  },
+  {
+   "in": "Jose Garcia",
+   "out": "Jose Garcia"
+  },
+  {
+   "in": "Müller GmbH",
+   "out": "Müller Gmbh"
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": "Mueller Gmbh"
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": "Zoë O'Brien-Smith"
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": "Zoë O'Brien Smith"
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": "Đặng Văn Lâm"
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": "Dang Van Lam"
+  },
+  {
+   "in": "山田太郎",
+   "out": "山田太郎"
+  },
+  {
+   "in": "山田 太郎",
+   "out": "山田 太郎"
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": "Ελληνική Εταιρεία"
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": "Οδυσσευς"
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": "İstanbul Ltd"
+  },
+  {
+   "in": "istanbul ltd",
+   "out": "Istanbul Ltd"
+  },
+  {
+   "in": "Straße GmbH",
+   "out": "Straße Gmbh"
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": "Strasse Gmbh"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "out": " "
+  },
+  {
+   "in": "a",
+   "out": "A"
+  },
+  {
+   "in": "ab",
+   "out": "Ab"
+  },
+  {
+   "in": "abc",
+   "out": "Abc"
+  },
+  {
+   "in": "￶‍Adam",
+   "out": "￶‍Adam"
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": "Adam​ Joseph"
+  },
+  {
+   "in": "Rachel Green",
+   "out": "Rachel Green"
+  },
+  {
+   "in": "Rachel  Green",
+   "out": "Rachel  Green"
+  },
+  {
+   "in": "école",
+   "out": "ÉCole"
+  },
+  {
+   "in": "école",
+   "out": "École"
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": "Finance Corp"
+  },
+  {
+   "in": "finance corp",
+   "out": "Finance Corp"
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": "Ⅻ Holdings"
+  },
+  {
+   "in": "１２３ Store",
+   "out": "１２３ Store"
+  },
+  {
+   "in": "123 Store",
+   "out": "123 Store"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": "Global-Tech (Asia) Pte. Ltd."
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": "Global Tech Asia"
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": "O'Neil & Sons, Inc."
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": "O Neil And Sons Inc"
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": "Andy_Wilson"
+  },
+  {
+   "in": "andy wilson",
+   "out": "Andy Wilson"
+  },
+  {
+   "in": "R&D Center",
+   "out": "R&D Center"
+  },
+  {
+   "in": "R D Center",
+   "out": "R D Center"
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": "  Multiple   Spaces\tHere\n"
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": "X\u001cY\u001dZ"
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": "ǅemal ǅuro"
+  },
+  {
+   "in": "Ǆ",
+   "out": "ǅ"
+  },
+  {
+   "in": "ſ",
+   "out": "S"
+  },
+  {
+   "in": "ﬃ",
+   "out": "Ffi"
+  },
+  {
+   "in": "ß",
+   "out": "Ss"
+  },
+  {
+   "in": "ŉ",
+   "out": "ʼN"
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": "Σας Οδος"
+  },
+  {
+   "in": "Σ",
+   "out": "Σ"
+  },
+  {
+   "in": "aΣ",
+   "out": "Aς"
+  },
+  {
+   "in": "aΣb",
+   "out": "Aσb"
+  },
+  {
+   "in": "a.Σ",
+   "out": "A.Σ"
+  },
+  {
+   "in": "A'Σ'",
+   "out": "A'Σ'"
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": "ᾼ ᾼ"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "Hello Mr Bob, Thank You For Your Time Yesterday. Attached Is Our Price Quotation For Acme Laptop Series Office Monitor For 4 Units With A Software Licence For 12 Months. Please Confirm If There Are Questions About The Laptop Specifications Or The Delivery Schedule On Site. Regards."
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "Hello Mr Bob, Thank You For Your Time Yesterday. Attached Is Our Price Quotation For Acme Laptop Series Office Monitor For 6 Units With A Software Licence For 24 Months. Please Confirm Should There Be Questions Regarding The Laptop Specifications Or The Delivery Schedule At Your Site. Warm Regards."
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": "Dear Ms. Susan, Following Our Call I Am Sending The Quotation For The Laptop And Support Plan Rollout For Your Three Branch Offices In Tokyo, Osaka And Sapporo. The Price Includes Installation, Training For Your Hr Team And One Year Of Support. Please Let Me Know If Anything Should Change."
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": "Dear Ms Susan, As Discussed On Our Call, Attached Is The Quotation For The Laptop And Support Plan Rollout Covering Your Branch Offices In Tokyo And Sapporo. Pricing Includes Installation And Training For The Hr Team, Plus One Year Of Support. Let Me Know If Anything Needs To Change Before You Sign."
+  },
+  {
+   "in": "\t a b \n",
+   "out": "\t A B \n"
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": "\u001c\u001d\u001e\u001fX\u001f"
+  },
+  {
+   "in": "​zero​width",
+   "out": "​Zero​Width"
+  },
+  {
+   "in": " nbsp ",
+   "out": " Nbsp "
+  },
+  {
+   "in": "　ideo　",
+   "out": "　Ideo　"
+  },
+  {
+   "in": "nel",
+   "out": "Nel"
+  },
+  {
+   "in": " ls ps",
+   "out": " Ls Ps"
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "Line1\nLine2\r\nLine3\rLine4\u000bLine5\fLine6\u001cLine7\u001dLine8\u001eLine9Line10 Line11 Line12\n"
+  },
+  {
+   "in": "trailing\n",
+   "out": "Trailing\n"
+  },
+  {
+   "in": "\n",
+   "out": "\n"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": "\r\n\r\n"
+  },
+  {
+   "in": "hello world",
+   "out": "Hello World"
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": "Hello World"
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": "They'Re Bill'S Friends From The Uk"
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": "O'Neil Mcdonald-Smith"
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": "1St 2Nd 3Rd"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": "ǈubljana ǈ"
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": "Ff Fl Ffl"
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": "ʼN J̌ Ϊ́"
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": "Σς Ας Ας. Σ.Σ"
+  },
+  {
+   "in": "İIıi",
+   "out": "İiıi"
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": "ʼNapoleon"
+  },
+  {
+   "in": "ǅ",
+   "out": "ǅ"
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": "ᾈᾁ"
+  },
+  {
+   "in": "ͅx",
+   "out": "Ιx"
+  },
+  {
+   "in": "ABͅC",
+   "out": "Abͅc"
+  },
+  {
+   "in": "ȧΣ",
+   "out": "ȦΣ"
+  },
+  {
+   "in": "sale_order line_item",
+   "out": "Sale_Order Line_Item"
+  },
+  {
+   "in": "deep_reasoner",
+   "out": "Deep_Reasoner"
+  },
+  {
+   "in": "x­Σ",
+   "out": "X­Σ"
+  },
+  {
+   "in": "Σ­",
+   "out": "Σ­"
+  },
+  {
+   "in": "wordאΣ",
+   "out": "WordאΣ"
+  }
+ ],
+ "splitlines": [
+  {
+   "in": "Bob Sanders",
+   "out": [
+    "Bob Sanders"
+   ]
+  },
+  {
+   "in": "bob sanders",
+   "out": [
+    "bob sanders"
+   ]
+  },
+  {
+   "in": "Sanders Bob",
+   "out": [
+    "Sanders Bob"
+   ]
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": [
+    "Mr Bob Sanders, Esq."
+   ]
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": [
+    "Ms Susan Reed"
+   ]
+  },
+  {
+   "in": "Globex Corp",
+   "out": [
+    "Globex Corp"
+   ]
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": [
+    "Globex Corp., plc"
+   ]
+  },
+  {
+   "in": "Globex plc",
+   "out": [
+    "Globex plc"
+   ]
+  },
+  {
+   "in": "Initech LLC",
+   "out": [
+    "Initech LLC"
+   ]
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": [
+    "Initech Holdings LLC"
+   ]
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": [
+    "Acme Ltd Solutions Japan"
+   ]
+  },
+  {
+   "in": "Acme Ltd",
+   "out": [
+    "Acme Ltd"
+   ]
+  },
+  {
+   "in": "Acme Tech",
+   "out": [
+    "Acme Tech"
+   ]
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": [
+    "Nippon Telecom (Holdings) plc"
+   ]
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": [
+    "Nippon Telecom"
+   ]
+  },
+  {
+   "in": "First Central Bank",
+   "out": [
+    "First Central Bank"
+   ]
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": [
+    "First Central Bank plc"
+   ]
+  },
+  {
+   "in": "FCB",
+   "out": [
+    "FCB"
+   ]
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": [
+    "Dr. Mr. Bob Sanders, M.B.A."
+   ]
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": [
+    "Dr. Steven Clarke"
+   ]
+  },
+  {
+   "in": "Steven Clarke",
+   "out": [
+    "Steven Clarke"
+   ]
+  },
+  {
+   "in": "Adam Clark",
+   "out": [
+    "Adam Clark"
+   ]
+  },
+  {
+   "in": "John Smith",
+   "out": [
+    "John Smith"
+   ]
+  },
+  {
+   "in": "Jon Smyth",
+   "out": [
+    "Jon Smyth"
+   ]
+  },
+  {
+   "in": "J. Smyth",
+   "out": [
+    "J. Smyth"
+   ]
+  },
+  {
+   "in": "Susan Maryann",
+   "out": [
+    "Susan Maryann"
+   ]
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": [
+    "Susan Mary Ann"
+   ]
+  },
+  {
+   "in": "José García",
+   "out": [
+    "José García"
+   ]
+  },
+  {
+   "in": "Jose Garcia",
+   "out": [
+    "Jose Garcia"
+   ]
+  },
+  {
+   "in": "Müller GmbH",
+   "out": [
+    "Müller GmbH"
+   ]
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": [
+    "Mueller GmbH"
+   ]
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": [
+    "Zoë O'Brien-Smith"
+   ]
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": [
+    "ZOË O'BRIEN SMITH"
+   ]
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": [
+    "Đặng Văn Lâm"
+   ]
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": [
+    "Dang Van Lam"
+   ]
+  },
+  {
+   "in": "山田太郎",
+   "out": [
+    "山田太郎"
+   ]
+  },
+  {
+   "in": "山田 太郎",
+   "out": [
+    "山田 太郎"
+   ]
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": [
+    "Ελληνική Εταιρεία"
+   ]
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": [
+    "ΟΔΥΣΣΕΥΣ"
+   ]
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": [
+    "İstanbul Ltd"
+   ]
+  },
+  {
+   "in": "istanbul ltd",
+   "out": [
+    "istanbul ltd"
+   ]
+  },
+  {
+   "in": "Straße GmbH",
+   "out": [
+    "Straße GmbH"
+   ]
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": [
+    "STRASSE GMBH"
+   ]
+  },
+  {
+   "in": "",
+   "out": []
+  },
+  {
+   "in": " ",
+   "out": [
+    " "
+   ]
+  },
+  {
+   "in": "a",
+   "out": [
+    "a"
+   ]
+  },
+  {
+   "in": "ab",
+   "out": [
+    "ab"
+   ]
+  },
+  {
+   "in": "abc",
+   "out": [
+    "abc"
+   ]
+  },
+  {
+   "in": "￶‍Adam",
+   "out": [
+    "￶‍Adam"
+   ]
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": [
+    "Adam​ Joseph"
+   ]
+  },
+  {
+   "in": "Rachel Green",
+   "out": [
+    "Rachel Green"
+   ]
+  },
+  {
+   "in": "Rachel  Green",
+   "out": [
+    "Rachel  Green"
+   ]
+  },
+  {
+   "in": "école",
+   "out": [
+    "école"
+   ]
+  },
+  {
+   "in": "école",
+   "out": [
+    "école"
+   ]
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": [
+    "ﬁnance Corp"
+   ]
+  },
+  {
+   "in": "finance corp",
+   "out": [
+    "finance corp"
+   ]
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": [
+    "Ⅻ Holdings"
+   ]
+  },
+  {
+   "in": "１２３ Store",
+   "out": [
+    "１２３ Store"
+   ]
+  },
+  {
+   "in": "123 Store",
+   "out": [
+    "123 Store"
+   ]
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": [
+    "Global-Tech (Asia) Pte. Ltd."
+   ]
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": [
+    "Global Tech Asia"
+   ]
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": [
+    "o'neil & sons, inc."
+   ]
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": [
+    "O Neil and Sons Inc"
+   ]
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": [
+    "Andy_Wilson"
+   ]
+  },
+  {
+   "in": "andy wilson",
+   "out": [
+    "andy wilson"
+   ]
+  },
+  {
+   "in": "R&D Center",
+   "out": [
+    "R&D Center"
+   ]
+  },
+  {
+   "in": "R D Center",
+   "out": [
+    "R D Center"
+   ]
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": [
+    "  multiple   spaces\there"
+   ]
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": [
+    "x",
+    "y",
+    "z"
+   ]
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": [
+    "ǆemal ǅuro"
+   ]
+  },
+  {
+   "in": "Ǆ",
+   "out": [
+    "Ǆ"
+   ]
+  },
+  {
+   "in": "ſ",
+   "out": [
+    "ſ"
+   ]
+  },
+  {
+   "in": "ﬃ",
+   "out": [
+    "ﬃ"
+   ]
+  },
+  {
+   "in": "ß",
+   "out": [
+    "ß"
+   ]
+  },
+  {
+   "in": "ŉ",
+   "out": [
+    "ŉ"
+   ]
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": [
+    "ΣΑΣ ΟΔΟΣ"
+   ]
+  },
+  {
+   "in": "Σ",
+   "out": [
+    "Σ"
+   ]
+  },
+  {
+   "in": "aΣ",
+   "out": [
+    "aΣ"
+   ]
+  },
+  {
+   "in": "aΣb",
+   "out": [
+    "aΣb"
+   ]
+  },
+  {
+   "in": "a.Σ",
+   "out": [
+    "a.Σ"
+   ]
+  },
+  {
+   "in": "A'Σ'",
+   "out": [
+    "A'Σ'"
+   ]
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": [
+    "ᾳ ᾼ"
+   ]
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": [
+    "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards."
+   ]
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": [
+    "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards."
+   ]
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": [
+    "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change."
+   ]
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": [
+    "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign."
+   ]
+  },
+  {
+   "in": "\t a b \n",
+   "out": [
+    "\t a b "
+   ]
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": [
+    "",
+    "",
+    "",
+    "\u001fx\u001f"
+   ]
+  },
+  {
+   "in": "​zero​width",
+   "out": [
+    "​zero​width"
+   ]
+  },
+  {
+   "in": " nbsp ",
+   "out": [
+    " nbsp "
+   ]
+  },
+  {
+   "in": "　ideo　",
+   "out": [
+    "　ideo　"
+   ]
+  },
+  {
+   "in": "nel",
+   "out": [
+    "",
+    "nel"
+   ]
+  },
+  {
+   "in": " ls ps",
+   "out": [
+    "",
+    "ls",
+    "ps"
+   ]
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": [
+    "line1",
+    "line2",
+    "line3",
+    "line4",
+    "line5",
+    "line6",
+    "line7",
+    "line8",
+    "line9",
+    "line10",
+    "line11",
+    "line12"
+   ]
+  },
+  {
+   "in": "trailing\n",
+   "out": [
+    "trailing"
+   ]
+  },
+  {
+   "in": "\n",
+   "out": [
+    ""
+   ]
+  },
+  {
+   "in": "",
+   "out": []
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": [
+    "",
+    ""
+   ]
+  },
+  {
+   "in": "hello world",
+   "out": [
+    "hello world"
+   ]
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": [
+    "HELLO WORLD"
+   ]
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": [
+    "they're bill's friends from the UK"
+   ]
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": [
+    "o'neil mcdonald-smith"
+   ]
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": [
+    "1st 2nd 3rd"
+   ]
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": [
+    "ǉubljana ǈ"
+   ]
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": [
+    "ﬀ ﬂ ﬄ"
+   ]
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": [
+    "ʼn ǰ ΐ"
+   ]
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": [
+    "ΣΣ ΑΣ ΑΣ. Σ.Σ"
+   ]
+  },
+  {
+   "in": "İIıi",
+   "out": [
+    "İIıi"
+   ]
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": [
+    "ŉAPOLEON"
+   ]
+  },
+  {
+   "in": "ǅ",
+   "out": [
+    "ǅ"
+   ]
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": [
+    "ᾈᾉ"
+   ]
+  },
+  {
+   "in": "ͅx",
+   "out": [
+    "ͅx"
+   ]
+  },
+  {
+   "in": "ABͅC",
+   "out": [
+    "ABͅC"
+   ]
+  },
+  {
+   "in": "ȧΣ",
+   "out": [
+    "ȧΣ"
+   ]
+  },
+  {
+   "in": "sale_order line_item",
+   "out": [
+    "sale_order line_item"
+   ]
+  },
+  {
+   "in": "deep_reasoner",
+   "out": [
+    "deep_reasoner"
+   ]
+  },
+  {
+   "in": "x­Σ",
+   "out": [
+    "x­Σ"
+   ]
+  },
+  {
+   "in": "Σ­",
+   "out": [
+    "Σ­"
+   ]
+  },
+  {
+   "in": "wordאΣ",
+   "out": [
+    "wordאΣ"
+   ]
+  }
+ ],
+ "isdigit_join": [
+  {
+   "in": "Bob Sanders",
+   "out": ""
+  },
+  {
+   "in": "bob sanders",
+   "out": ""
+  },
+  {
+   "in": "Sanders Bob",
+   "out": ""
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": ""
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": ""
+  },
+  {
+   "in": "Globex Corp",
+   "out": ""
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": ""
+  },
+  {
+   "in": "Globex plc",
+   "out": ""
+  },
+  {
+   "in": "Initech LLC",
+   "out": ""
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": ""
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": ""
+  },
+  {
+   "in": "Acme Ltd",
+   "out": ""
+  },
+  {
+   "in": "Acme Tech",
+   "out": ""
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": ""
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": ""
+  },
+  {
+   "in": "First Central Bank",
+   "out": ""
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": ""
+  },
+  {
+   "in": "FCB",
+   "out": ""
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": ""
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": ""
+  },
+  {
+   "in": "Steven Clarke",
+   "out": ""
+  },
+  {
+   "in": "Adam Clark",
+   "out": ""
+  },
+  {
+   "in": "John Smith",
+   "out": ""
+  },
+  {
+   "in": "Jon Smyth",
+   "out": ""
+  },
+  {
+   "in": "J. Smyth",
+   "out": ""
+  },
+  {
+   "in": "Susan Maryann",
+   "out": ""
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": ""
+  },
+  {
+   "in": "José García",
+   "out": ""
+  },
+  {
+   "in": "Jose Garcia",
+   "out": ""
+  },
+  {
+   "in": "Müller GmbH",
+   "out": ""
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": ""
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": ""
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": ""
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": ""
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": ""
+  },
+  {
+   "in": "山田太郎",
+   "out": ""
+  },
+  {
+   "in": "山田 太郎",
+   "out": ""
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": ""
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": ""
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": ""
+  },
+  {
+   "in": "istanbul ltd",
+   "out": ""
+  },
+  {
+   "in": "Straße GmbH",
+   "out": ""
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": ""
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "out": ""
+  },
+  {
+   "in": "a",
+   "out": ""
+  },
+  {
+   "in": "ab",
+   "out": ""
+  },
+  {
+   "in": "abc",
+   "out": ""
+  },
+  {
+   "in": "￶‍Adam",
+   "out": ""
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": ""
+  },
+  {
+   "in": "Rachel Green",
+   "out": ""
+  },
+  {
+   "in": "Rachel  Green",
+   "out": ""
+  },
+  {
+   "in": "école",
+   "out": ""
+  },
+  {
+   "in": "école",
+   "out": ""
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": ""
+  },
+  {
+   "in": "finance corp",
+   "out": ""
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": ""
+  },
+  {
+   "in": "１２３ Store",
+   "out": "１２３"
+  },
+  {
+   "in": "123 Store",
+   "out": "123"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": ""
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": ""
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": ""
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": ""
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": ""
+  },
+  {
+   "in": "andy wilson",
+   "out": ""
+  },
+  {
+   "in": "R&D Center",
+   "out": ""
+  },
+  {
+   "in": "R D Center",
+   "out": ""
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": ""
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": ""
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": ""
+  },
+  {
+   "in": "Ǆ",
+   "out": ""
+  },
+  {
+   "in": "ſ",
+   "out": ""
+  },
+  {
+   "in": "ﬃ",
+   "out": ""
+  },
+  {
+   "in": "ß",
+   "out": ""
+  },
+  {
+   "in": "ŉ",
+   "out": ""
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": ""
+  },
+  {
+   "in": "Σ",
+   "out": ""
+  },
+  {
+   "in": "aΣ",
+   "out": ""
+  },
+  {
+   "in": "aΣb",
+   "out": ""
+  },
+  {
+   "in": "a.Σ",
+   "out": ""
+  },
+  {
+   "in": "A'Σ'",
+   "out": ""
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": ""
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "412"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "624"
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": ""
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": ""
+  },
+  {
+   "in": "\t a b \n",
+   "out": ""
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": ""
+  },
+  {
+   "in": "​zero​width",
+   "out": ""
+  },
+  {
+   "in": " nbsp ",
+   "out": ""
+  },
+  {
+   "in": "　ideo　",
+   "out": ""
+  },
+  {
+   "in": "nel",
+   "out": ""
+  },
+  {
+   "in": " ls ps",
+   "out": ""
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "123456789101112"
+  },
+  {
+   "in": "trailing\n",
+   "out": ""
+  },
+  {
+   "in": "\n",
+   "out": ""
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": ""
+  },
+  {
+   "in": "hello world",
+   "out": ""
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": ""
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": ""
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": ""
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": "123"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": ""
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": ""
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": ""
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": ""
+  },
+  {
+   "in": "İIıi",
+   "out": ""
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": ""
+  },
+  {
+   "in": "ǅ",
+   "out": ""
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": ""
+  },
+  {
+   "in": "ͅx",
+   "out": ""
+  },
+  {
+   "in": "ABͅC",
+   "out": ""
+  },
+  {
+   "in": "ȧΣ",
+   "out": ""
+  },
+  {
+   "in": "sale_order line_item",
+   "out": ""
+  },
+  {
+   "in": "deep_reasoner",
+   "out": ""
+  },
+  {
+   "in": "x­Σ",
+   "out": ""
+  },
+  {
+   "in": "Σ­",
+   "out": ""
+  },
+  {
+   "in": "wordאΣ",
+   "out": ""
+  }
+ ],
+ "normalize_name": [
+  {
+   "in": "Bob Sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "bob sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Sanders Bob",
+   "out": "sanders bob"
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": "mr bob sanders esq"
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": "ms susan reed"
+  },
+  {
+   "in": "Globex Corp",
+   "out": "globex"
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": "globex"
+  },
+  {
+   "in": "Globex plc",
+   "out": "globex"
+  },
+  {
+   "in": "Initech LLC",
+   "out": "initech"
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": "initech holdings"
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": "acme solutions japan"
+  },
+  {
+   "in": "Acme Ltd",
+   "out": "acme"
+  },
+  {
+   "in": "Acme Tech",
+   "out": "acme tech"
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": "nippon telecom holdings"
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": "nippon telecom"
+  },
+  {
+   "in": "First Central Bank",
+   "out": "first central bank"
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": "first central bank"
+  },
+  {
+   "in": "FCB",
+   "out": "fcb"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "dr mr bob sanders m b a"
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": "dr steven clarke"
+  },
+  {
+   "in": "Steven Clarke",
+   "out": "steven clarke"
+  },
+  {
+   "in": "Adam Clark",
+   "out": "adam clark"
+  },
+  {
+   "in": "John Smith",
+   "out": "john smith"
+  },
+  {
+   "in": "Jon Smyth",
+   "out": "jon smyth"
+  },
+  {
+   "in": "J. Smyth",
+   "out": "j smyth"
+  },
+  {
+   "in": "Susan Maryann",
+   "out": "susan maryann"
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": "susan mary ann"
+  },
+  {
+   "in": "José García",
+   "out": "jos garc a"
+  },
+  {
+   "in": "Jose Garcia",
+   "out": "jose garcia"
+  },
+  {
+   "in": "Müller GmbH",
+   "out": "m ller"
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": "mueller"
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": "zo o brien smith"
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": "zo o brien smith"
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": "ng v n l m"
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": "dang van lam"
+  },
+  {
+   "in": "山田太郎",
+   "out": ""
+  },
+  {
+   "in": "山田 太郎",
+   "out": ""
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": ""
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": ""
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": "i stanbul"
+  },
+  {
+   "in": "istanbul ltd",
+   "out": "istanbul"
+  },
+  {
+   "in": "Straße GmbH",
+   "out": "stra e"
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": "strasse"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "out": ""
+  },
+  {
+   "in": "a",
+   "out": "a"
+  },
+  {
+   "in": "ab",
+   "out": "ab"
+  },
+  {
+   "in": "abc",
+   "out": "abc"
+  },
+  {
+   "in": "￶‍Adam",
+   "out": "adam"
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": "adam joseph"
+  },
+  {
+   "in": "Rachel Green",
+   "out": "rachel green"
+  },
+  {
+   "in": "Rachel  Green",
+   "out": "rachel green"
+  },
+  {
+   "in": "école",
+   "out": "e cole"
+  },
+  {
+   "in": "école",
+   "out": "cole"
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": "nance"
+  },
+  {
+   "in": "finance corp",
+   "out": "finance"
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": "holdings"
+  },
+  {
+   "in": "１２３ Store",
+   "out": "store"
+  },
+  {
+   "in": "123 Store",
+   "out": "123 store"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": "global tech asia"
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": "global tech asia"
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": "o neil sons"
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": "o neil and sons"
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "andy wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "R&D Center",
+   "out": "r d center"
+  },
+  {
+   "in": "R D Center",
+   "out": "r d center"
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": "multiple spaces here"
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": "x y z"
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": "emal uro"
+  },
+  {
+   "in": "Ǆ",
+   "out": ""
+  },
+  {
+   "in": "ſ",
+   "out": ""
+  },
+  {
+   "in": "ﬃ",
+   "out": ""
+  },
+  {
+   "in": "ß",
+   "out": ""
+  },
+  {
+   "in": "ŉ",
+   "out": ""
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": ""
+  },
+  {
+   "in": "Σ",
+   "out": ""
+  },
+  {
+   "in": "aΣ",
+   "out": "a"
+  },
+  {
+   "in": "aΣb",
+   "out": "a b"
+  },
+  {
+   "in": "a.Σ",
+   "out": "a"
+  },
+  {
+   "in": "A'Σ'",
+   "out": "a"
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": ""
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "hello mr bob thank you for your time yesterday attached is our price quotation for acme laptop series office monitor for 4 units with a software licence for 12 months please confirm if there are questions about the laptop specifications or the delivery schedule on site regards"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "hello mr bob thank you for your time yesterday attached is our price quotation for acme laptop series office monitor for 6 units with a software licence for 24 months please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site warm regards"
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": "dear ms susan following our call i am sending the quotation for the laptop and support plan rollout for your three branch offices in tokyo osaka and sapporo the price includes installation training for your hr team and one year of support please let me know if anything should change"
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": "dear ms susan as discussed on our call attached is the quotation for the laptop and support plan rollout covering your branch offices in tokyo and sapporo pricing includes installation and training for the hr team plus one year of support let me know if anything needs to change before you sign"
+  },
+  {
+   "in": "\t a b \n",
+   "out": "a b"
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": "x"
+  },
+  {
+   "in": "​zero​width",
+   "out": "zero width"
+  },
+  {
+   "in": " nbsp ",
+   "out": "nbsp"
+  },
+  {
+   "in": "　ideo　",
+   "out": "ideo"
+  },
+  {
+   "in": "nel",
+   "out": "nel"
+  },
+  {
+   "in": " ls ps",
+   "out": "ls ps"
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "line1 line2 line3 line4 line5 line6 line7 line8 line9 line10 line11 line12"
+  },
+  {
+   "in": "trailing\n",
+   "out": "trailing"
+  },
+  {
+   "in": "\n",
+   "out": ""
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": ""
+  },
+  {
+   "in": "hello world",
+   "out": "hello world"
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": "hello world"
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": "they re bill s friends from the uk"
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": "o neil mcdonald smith"
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": "1st 2nd 3rd"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": "ubljana"
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": ""
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": "n"
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": ""
+  },
+  {
+   "in": "İIıi",
+   "out": "i i i"
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": "apoleon"
+  },
+  {
+   "in": "ǅ",
+   "out": ""
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": ""
+  },
+  {
+   "in": "ͅx",
+   "out": "x"
+  },
+  {
+   "in": "ABͅC",
+   "out": "ab c"
+  },
+  {
+   "in": "ȧΣ",
+   "out": "a"
+  },
+  {
+   "in": "sale_order line_item",
+   "out": "sale order line item"
+  },
+  {
+   "in": "deep_reasoner",
+   "out": "deep reasoner"
+  },
+  {
+   "in": "x­Σ",
+   "out": "x"
+  },
+  {
+   "in": "Σ­",
+   "out": ""
+  },
+  {
+   "in": "wordאΣ",
+   "out": "word"
+  }
+ ],
+ "clean_person": [
+  {
+   "in": "Bob Sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "bob sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Sanders Bob",
+   "out": "sanders bob"
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": "susan reed"
+  },
+  {
+   "in": "Globex Corp",
+   "out": "globex corp"
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": "globex corp"
+  },
+  {
+   "in": "Globex plc",
+   "out": "globex plc"
+  },
+  {
+   "in": "Initech LLC",
+   "out": "initech llc"
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": "initech holdings llc"
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": "acme ltd solutions japan"
+  },
+  {
+   "in": "Acme Ltd",
+   "out": "acme ltd"
+  },
+  {
+   "in": "Acme Tech",
+   "out": "acme tech"
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": "nippon telecom holdings plc"
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": "nippon telecom"
+  },
+  {
+   "in": "First Central Bank",
+   "out": "first central bank"
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": "first central bank plc"
+  },
+  {
+   "in": "FCB",
+   "out": "fcb"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": "steven clarke"
+  },
+  {
+   "in": "Steven Clarke",
+   "out": "steven clarke"
+  },
+  {
+   "in": "Adam Clark",
+   "out": "adam clark"
+  },
+  {
+   "in": "John Smith",
+   "out": "john smith"
+  },
+  {
+   "in": "Jon Smyth",
+   "out": "jon smyth"
+  },
+  {
+   "in": "J. Smyth",
+   "out": "j smyth"
+  },
+  {
+   "in": "Susan Maryann",
+   "out": "susan maryann"
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": "susan mary ann"
+  },
+  {
+   "in": "José García",
+   "out": "jos garc a"
+  },
+  {
+   "in": "Jose Garcia",
+   "out": "jose garcia"
+  },
+  {
+   "in": "Müller GmbH",
+   "out": "m ller gmbh"
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": "mueller gmbh"
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": "zo o brien smith"
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": "zo o brien smith"
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": "ng v n l m"
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": "dang van lam"
+  },
+  {
+   "in": "山田太郎",
+   "out": ""
+  },
+  {
+   "in": "山田 太郎",
+   "out": ""
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": ""
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": ""
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": "i stanbul ltd"
+  },
+  {
+   "in": "istanbul ltd",
+   "out": "istanbul ltd"
+  },
+  {
+   "in": "Straße GmbH",
+   "out": "stra e gmbh"
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": "strasse gmbh"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "out": ""
+  },
+  {
+   "in": "a",
+   "out": "a"
+  },
+  {
+   "in": "ab",
+   "out": "ab"
+  },
+  {
+   "in": "abc",
+   "out": "abc"
+  },
+  {
+   "in": "￶‍Adam",
+   "out": "adam"
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": "adam joseph"
+  },
+  {
+   "in": "Rachel Green",
+   "out": "rachel green"
+  },
+  {
+   "in": "Rachel  Green",
+   "out": "rachel green"
+  },
+  {
+   "in": "école",
+   "out": "e cole"
+  },
+  {
+   "in": "école",
+   "out": "cole"
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": "nance corp"
+  },
+  {
+   "in": "finance corp",
+   "out": "finance corp"
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": "holdings"
+  },
+  {
+   "in": "１２３ Store",
+   "out": "store"
+  },
+  {
+   "in": "123 Store",
+   "out": "123 store"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": "global tech asia pte ltd"
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": "global tech asia"
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": "o neil sons"
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": "o neil and sons inc"
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "andy wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "R&D Center",
+   "out": "r d center"
+  },
+  {
+   "in": "R D Center",
+   "out": "r d center"
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": "multiple spaces here"
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": "x y z"
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": "emal uro"
+  },
+  {
+   "in": "Ǆ",
+   "out": ""
+  },
+  {
+   "in": "ſ",
+   "out": ""
+  },
+  {
+   "in": "ﬃ",
+   "out": ""
+  },
+  {
+   "in": "ß",
+   "out": ""
+  },
+  {
+   "in": "ŉ",
+   "out": ""
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": ""
+  },
+  {
+   "in": "Σ",
+   "out": ""
+  },
+  {
+   "in": "aΣ",
+   "out": "a"
+  },
+  {
+   "in": "aΣb",
+   "out": "a b"
+  },
+  {
+   "in": "a.Σ",
+   "out": "a"
+  },
+  {
+   "in": "A'Σ'",
+   "out": "a"
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": ""
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "hello bob"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "hello bob"
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": "dear susan"
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": "dear susan"
+  },
+  {
+   "in": "\t a b \n",
+   "out": "a b"
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": "x"
+  },
+  {
+   "in": "​zero​width",
+   "out": "zero width"
+  },
+  {
+   "in": " nbsp ",
+   "out": "nbsp"
+  },
+  {
+   "in": "　ideo　",
+   "out": "ideo"
+  },
+  {
+   "in": "nel",
+   "out": "nel"
+  },
+  {
+   "in": " ls ps",
+   "out": "ls ps"
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "line1 line2 line3 line4 line5 line6 line7 line8 line9 line10 line11 line12"
+  },
+  {
+   "in": "trailing\n",
+   "out": "trailing"
+  },
+  {
+   "in": "\n",
+   "out": ""
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": ""
+  },
+  {
+   "in": "hello world",
+   "out": "hello world"
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": "hello world"
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": "they re bill s friends from the uk"
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": "o neil mcdonald smith"
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": "1st 2nd 3rd"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": "ubljana"
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": ""
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": "n"
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": ""
+  },
+  {
+   "in": "İIıi",
+   "out": "i i i"
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": "apoleon"
+  },
+  {
+   "in": "ǅ",
+   "out": ""
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": ""
+  },
+  {
+   "in": "ͅx",
+   "out": "x"
+  },
+  {
+   "in": "ABͅC",
+   "out": "ab c"
+  },
+  {
+   "in": "ȧΣ",
+   "out": "a"
+  },
+  {
+   "in": "sale_order line_item",
+   "out": "sale order line item"
+  },
+  {
+   "in": "deep_reasoner",
+   "out": "deep reasoner"
+  },
+  {
+   "in": "x­Σ",
+   "out": "x"
+  },
+  {
+   "in": "Σ­",
+   "out": ""
+  },
+  {
+   "in": "wordאΣ",
+   "out": "word"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Mr Dr. Steven, B.Eng",
+   "out": "steven"
+  },
+  {
+   "in": "Mr. John Smith, PhD",
+   "out": "john smith"
+  },
+  {
+   "in": "Mrs. Susan, CPA, M.Acc",
+   "out": "susan"
+  },
+  {
+   "in": "Dr Bob, Ph.D.",
+   "out": "bob"
+  },
+  {
+   "in": "Prof. Dr. Mr. Steven Clarke, M.Sc.",
+   "out": "prof steven clarke"
+  },
+  {
+   "in": "Bob, Esq.\n",
+   "out": "bob"
+  },
+  {
+   "in": "Bob, Esq.\nx",
+   "out": "bob"
+  },
+  {
+   "in": "Ms\u001cSusan",
+   "out": "susan"
+  },
+  {
+   "in": "DR Bob",
+   "out": "bob"
+  },
+  {
+   "in": "irving",
+   "out": "irving"
+  },
+  {
+   "in": "hjk",
+   "out": "hjk"
+  },
+  {
+   "in": "Mr.Bob",
+   "out": "bob"
+  },
+  {
+   "in": "Mr-Bob",
+   "out": "bob"
+  },
+  {
+   "in": "Mr.Bob,MBA",
+   "out": "bob"
+  },
+  {
+   "in": "José, CPA",
+   "out": "jos"
+  }
+ ],
+ "research_normalise_name": [
+  {
+   "in": "Bob Sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "bob sanders",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Sanders Bob",
+   "out": "sanders bob"
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "out": "bob sanders esq"
+  },
+  {
+   "in": "Ms Susan Reed",
+   "out": "susan reed"
+  },
+  {
+   "in": "Globex Corp",
+   "out": "globex corp"
+  },
+  {
+   "in": "Globex Corp., plc",
+   "out": "globex corp plc"
+  },
+  {
+   "in": "Globex plc",
+   "out": "globex plc"
+  },
+  {
+   "in": "Initech LLC",
+   "out": "initech llc"
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "out": "initech holdings llc"
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "out": "acme ltd solutions japan"
+  },
+  {
+   "in": "Acme Ltd",
+   "out": "acme ltd"
+  },
+  {
+   "in": "Acme Tech",
+   "out": "acme tech"
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "out": "nippon telecom holdings plc"
+  },
+  {
+   "in": "Nippon Telecom",
+   "out": "nippon telecom"
+  },
+  {
+   "in": "First Central Bank",
+   "out": "first central bank"
+  },
+  {
+   "in": "First Central Bank plc",
+   "out": "first central bank plc"
+  },
+  {
+   "in": "FCB",
+   "out": "fcb"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "out": "steven clarke"
+  },
+  {
+   "in": "Steven Clarke",
+   "out": "steven clarke"
+  },
+  {
+   "in": "Adam Clark",
+   "out": "adam clark"
+  },
+  {
+   "in": "John Smith",
+   "out": "john smith"
+  },
+  {
+   "in": "Jon Smyth",
+   "out": "jon smyth"
+  },
+  {
+   "in": "J. Smyth",
+   "out": "j smyth"
+  },
+  {
+   "in": "Susan Maryann",
+   "out": "susan maryann"
+  },
+  {
+   "in": "Susan Mary Ann",
+   "out": "susan mary ann"
+  },
+  {
+   "in": "José García",
+   "out": "jose garcia"
+  },
+  {
+   "in": "Jose Garcia",
+   "out": "jose garcia"
+  },
+  {
+   "in": "Müller GmbH",
+   "out": "muller gmbh"
+  },
+  {
+   "in": "Mueller GmbH",
+   "out": "mueller gmbh"
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "out": "zoe o brien smith"
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "out": "zoe o brien smith"
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "out": "ang van lam"
+  },
+  {
+   "in": "Dang Van Lam",
+   "out": "dang van lam"
+  },
+  {
+   "in": "山田太郎",
+   "out": ""
+  },
+  {
+   "in": "山田 太郎",
+   "out": ""
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "out": ""
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "out": ""
+  },
+  {
+   "in": "İstanbul Ltd",
+   "out": "istanbul ltd"
+  },
+  {
+   "in": "istanbul ltd",
+   "out": "istanbul ltd"
+  },
+  {
+   "in": "Straße GmbH",
+   "out": "strae gmbh"
+  },
+  {
+   "in": "STRASSE GMBH",
+   "out": "strasse gmbh"
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "out": ""
+  },
+  {
+   "in": "a",
+   "out": "a"
+  },
+  {
+   "in": "ab",
+   "out": "ab"
+  },
+  {
+   "in": "abc",
+   "out": "abc"
+  },
+  {
+   "in": "￶‍Adam",
+   "out": "adam"
+  },
+  {
+   "in": "Adam​ Joseph",
+   "out": "adam joseph"
+  },
+  {
+   "in": "Rachel Green",
+   "out": "rachel green"
+  },
+  {
+   "in": "Rachel  Green",
+   "out": "rachel green"
+  },
+  {
+   "in": "école",
+   "out": "ecole"
+  },
+  {
+   "in": "école",
+   "out": "ecole"
+  },
+  {
+   "in": "ﬁnance Corp",
+   "out": "finance corp"
+  },
+  {
+   "in": "finance corp",
+   "out": "finance corp"
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "out": "xii holdings"
+  },
+  {
+   "in": "１２３ Store",
+   "out": "store"
+  },
+  {
+   "in": "123 Store",
+   "out": "store"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "out": "global tech asia pte ltd"
+  },
+  {
+   "in": "Global Tech Asia",
+   "out": "global tech asia"
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "out": "o neil sons inc"
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "out": "o neil and sons inc"
+  },
+  {
+   "in": "Andy_Wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "andy wilson",
+   "out": "andy wilson"
+  },
+  {
+   "in": "R&D Center",
+   "out": "r d center"
+  },
+  {
+   "in": "R D Center",
+   "out": "r d center"
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "out": "multiple spaces here"
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "out": "x y z"
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "out": "dzemal dzuro"
+  },
+  {
+   "in": "Ǆ",
+   "out": "dz"
+  },
+  {
+   "in": "ſ",
+   "out": "s"
+  },
+  {
+   "in": "ﬃ",
+   "out": "ffi"
+  },
+  {
+   "in": "ß",
+   "out": ""
+  },
+  {
+   "in": "ŉ",
+   "out": "n"
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "out": ""
+  },
+  {
+   "in": "Σ",
+   "out": ""
+  },
+  {
+   "in": "aΣ",
+   "out": "a"
+  },
+  {
+   "in": "aΣb",
+   "out": "ab"
+  },
+  {
+   "in": "a.Σ",
+   "out": "a"
+  },
+  {
+   "in": "A'Σ'",
+   "out": "a"
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "out": ""
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "hello bob thank you for your time yesterday attached is our price quotation for acme laptop series office monitor for units with a software licence for months please confirm if there are questions about the laptop specifications or the delivery schedule on site regards"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "hello bob thank you for your time yesterday attached is our price quotation for acme laptop series office monitor for units with a software licence for months please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site warm regards"
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": "dear susan following our call i am sending the quotation for the laptop and support plan rollout for your three branch offices in tokyo osaka and sapporo the price includes installation training for your hr team and one year of support please let me know if anything should change"
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": "dear susan as discussed on our call attached is the quotation for the laptop and support plan rollout covering your branch offices in tokyo and sapporo pricing includes installation and training for the hr team plus one year of support let me know if anything needs to change before you sign"
+  },
+  {
+   "in": "\t a b \n",
+   "out": "a b"
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": "x"
+  },
+  {
+   "in": "​zero​width",
+   "out": "zerowidth"
+  },
+  {
+   "in": " nbsp ",
+   "out": "nbsp"
+  },
+  {
+   "in": "　ideo　",
+   "out": "ideo"
+  },
+  {
+   "in": "nel",
+   "out": "nel"
+  },
+  {
+   "in": " ls ps",
+   "out": "lsps"
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "line line line line line line line line line line line line"
+  },
+  {
+   "in": "trailing\n",
+   "out": "trailing"
+  },
+  {
+   "in": "\n",
+   "out": ""
+  },
+  {
+   "in": "",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "out": ""
+  },
+  {
+   "in": "hello world",
+   "out": "hello world"
+  },
+  {
+   "in": "HELLO WORLD",
+   "out": "hello world"
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "out": "they re bill s friends from the uk"
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "out": "o neil mcdonald smith"
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "out": "st nd rd"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "out": "ljubljana lj"
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "out": "ff fl ffl"
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "out": "n j"
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": ""
+  },
+  {
+   "in": "İIıi",
+   "out": "iii"
+  },
+  {
+   "in": "ŉAPOLEON",
+   "out": "napoleon"
+  },
+  {
+   "in": "ǅ",
+   "out": "dz"
+  },
+  {
+   "in": "ᾈᾉ",
+   "out": ""
+  },
+  {
+   "in": "ͅx",
+   "out": "x"
+  },
+  {
+   "in": "ABͅC",
+   "out": "abc"
+  },
+  {
+   "in": "ȧΣ",
+   "out": "a"
+  },
+  {
+   "in": "sale_order line_item",
+   "out": "sale order line item"
+  },
+  {
+   "in": "deep_reasoner",
+   "out": "deep reasoner"
+  },
+  {
+   "in": "x­Σ",
+   "out": "x"
+  },
+  {
+   "in": "Σ­",
+   "out": ""
+  },
+  {
+   "in": "wordאΣ",
+   "out": "word"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Mr Dr. Steven, B.Eng",
+   "out": "steven"
+  },
+  {
+   "in": "Mr. John Smith, PhD",
+   "out": "john smith"
+  },
+  {
+   "in": "Mrs. Susan, CPA, M.Acc",
+   "out": "susan"
+  },
+  {
+   "in": "Dr Bob, Ph.D.",
+   "out": "bob"
+  },
+  {
+   "in": "Prof. Dr. Mr. Steven Clarke, M.Sc.",
+   "out": "steven clarke"
+  },
+  {
+   "in": "Bob, Esq.\n",
+   "out": "bob esq"
+  },
+  {
+   "in": "Bob, Esq.\nx",
+   "out": "bob esq x"
+  },
+  {
+   "in": "Ms\u001cSusan",
+   "out": "susan"
+  },
+  {
+   "in": "DR Bob",
+   "out": "bob"
+  },
+  {
+   "in": "irving",
+   "out": "irving"
+  },
+  {
+   "in": "hjk",
+   "out": "hjk"
+  },
+  {
+   "in": "Mr.Bob",
+   "out": "bob"
+  },
+  {
+   "in": "Mr-Bob",
+   "out": "bob"
+  },
+  {
+   "in": "Mr.Bob,MBA",
+   "out": "bob"
+  },
+  {
+   "in": "José, CPA",
+   "out": "jose"
+  }
+ ],
+ "jaccard": [
+  {
+   "a": "bob sanders",
+   "b": "globex",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Bob Sanders",
+   "b": "bob sanders",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "bob sanders",
+   "b": "globex",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "bob sanders",
+   "b": "Sanders Bob",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "sanders bob",
+   "b": "globex",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Sanders Bob",
+   "b": "Mr Bob Sanders, Esq.",
+   "dedupe": "0.2",
+   "identity": "0.2"
+  },
+  {
+   "a": "mr bob sanders esq",
+   "b": "initech",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Mr Bob Sanders, Esq.",
+   "b": "Ms Susan Reed",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "mrs susan reed",
+   "b": "initech holdings",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Ms Susan Reed",
+   "b": "Globex Corp",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "globex",
+   "b": "acme solutions japan",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Globex Corp",
+   "b": "Globex Corp., plc",
+   "dedupe": "0.25",
+   "identity": "0.25"
+  },
+  {
+   "a": "globex",
+   "b": "acme ltd",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Globex Corp., plc",
+   "b": "Globex plc",
+   "dedupe": "0.6666666666666666",
+   "identity": "0.6666666666666666"
+  },
+  {
+   "a": "globex",
+   "b": "acme tech",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Globex plc",
+   "b": "Initech LLC",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "initech",
+   "b": "nippon telecom",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Initech LLC",
+   "b": "Initech Holdings LLC",
+   "dedupe": "0.6666666666666666",
+   "identity": "0.6666666666666666"
+  },
+  {
+   "a": "initech holdings",
+   "b": "nippon telecom",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Initech Holdings LLC",
+   "b": "Acme Ltd Solutions Japan",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "acme solutions japan",
+   "b": "first central bank",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Acme Ltd Solutions Japan",
+   "b": "Acme Ltd",
+   "dedupe": "0.5",
+   "identity": "0.5"
+  },
+  {
+   "a": "acme ltd",
+   "b": "first central bank",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Acme Ltd",
+   "b": "Acme Tech",
+   "dedupe": "0.3333333333333333",
+   "identity": "0.3333333333333333"
+  },
+  {
+   "a": "acme tech",
+   "b": "fcb",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Acme Tech",
+   "b": "Nippon Telecom (Holdings) plc",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "nippon telecom",
+   "b": "dr mr bob sanders m b a",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Nippon Telecom (Holdings) plc",
+   "b": "Nippon Telecom",
+   "dedupe": "0.5",
+   "identity": "0.5"
+  },
+  {
+   "a": "nippon telecom",
+   "b": "dr steven clarke",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Nippon Telecom",
+   "b": "First Central Bank",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "first central bank",
+   "b": "steven clarke",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "First Central Bank",
+   "b": "First Central Bank plc",
+   "dedupe": "0.75",
+   "identity": "0.75"
+  },
+  {
+   "a": "first central bank",
+   "b": "adam clark",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "First Central Bank plc",
+   "b": "FCB",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "fcb",
+   "b": "john smith",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "FCB",
+   "b": "Dr. Mr. Bob Sanders, M.B.A.",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "dr mr bob sanders m b a",
+   "b": "jon smyth",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Dr. Mr. Bob Sanders, M.B.A.",
+   "b": "Dr. Steven Clarke",
+   "dedupe": "0.14285714285714285",
+   "identity": "0.14285714285714285"
+  },
+  {
+   "a": "dr steven clarke",
+   "b": "j smyth",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Dr. Steven Clarke",
+   "b": "Steven Clarke",
+   "dedupe": "0.6666666666666666",
+   "identity": "0.6666666666666666"
+  },
+  {
+   "a": "steven clarke",
+   "b": "susan maryann",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Steven Clarke",
+   "b": "Adam Clark",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "adam clark",
+   "b": "susan mary ann",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Adam Clark",
+   "b": "John Smith",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "john smith",
+   "b": "jos garc a",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "John Smith",
+   "b": "Jon Smyth",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "jon smyth",
+   "b": "jose garcia",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Jon Smyth",
+   "b": "J. Smyth",
+   "dedupe": "0.3333333333333333",
+   "identity": "0.3333333333333333"
+  },
+  {
+   "a": "j smyth",
+   "b": "m ller",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "J. Smyth",
+   "b": "Susan Maryann",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "susan maryann",
+   "b": "mueller",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Susan Maryann",
+   "b": "Susan Mary Ann",
+   "dedupe": "0.25",
+   "identity": "0.25"
+  },
+  {
+   "a": "susan mary ann",
+   "b": "zo o brien smith",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Susan Mary Ann",
+   "b": "José García",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "jos garc a",
+   "b": "zo o brien smith",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "José García",
+   "b": "Jose Garcia",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "jose garcia",
+   "b": "ng v n l m",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Jose Garcia",
+   "b": "Müller GmbH",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "m ller",
+   "b": "dang van lam",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Müller GmbH",
+   "b": "Mueller GmbH",
+   "dedupe": "0.3333333333333333",
+   "identity": "0.3333333333333333"
+  },
+  {
+   "a": "mueller",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Mueller GmbH",
+   "b": "Zoë O'Brien-Smith",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "zo o brien smith",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Zoë O'Brien-Smith",
+   "b": "ZOË O'BRIEN SMITH",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "zo o brien smith",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ZOË O'BRIEN SMITH",
+   "b": "Đặng Văn Lâm",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ng v n l m",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Đặng Văn Lâm",
+   "b": "Dang Van Lam",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "dang van lam",
+   "b": "i stanbul",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Dang Van Lam",
+   "b": "山田太郎",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "istanbul",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "山田太郎",
+   "b": "山田 太郎",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "stra e",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "山田 太郎",
+   "b": "Ελληνική Εταιρεία",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "strasse",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Ελληνική Εταιρεία",
+   "b": "ΟΔΥΣΣΕΥΣ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ΟΔΥΣΣΕΥΣ",
+   "b": "İstanbul Ltd",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "i stanbul",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "İstanbul Ltd",
+   "b": "istanbul ltd",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "istanbul",
+   "b": "a",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "istanbul ltd",
+   "b": "Straße GmbH",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "stra e",
+   "b": "ab",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Straße GmbH",
+   "b": "STRASSE GMBH",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "strasse",
+   "b": "abc",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "STRASSE GMBH",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "adam",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": " ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "adam joseph",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": " ",
+   "b": "a",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "a",
+   "b": "rachel green",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "a",
+   "b": "ab",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ab",
+   "b": "rachel green",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ab",
+   "b": "abc",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "abc",
+   "b": "e cole",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "abc",
+   "b": "￶‍Adam",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "adam",
+   "b": "cole",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "￶‍Adam",
+   "b": "Adam​ Joseph",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "adam joseph",
+   "b": "nance",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Adam​ Joseph",
+   "b": "Rachel Green",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "rachel green",
+   "b": "finance",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Rachel Green",
+   "b": "Rachel  Green",
+   "dedupe": "1.0",
+   "identity": "1.0"
+  },
+  {
+   "a": "rachel green",
+   "b": "holdings",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Rachel  Green",
+   "b": "école",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "e cole",
+   "b": "store",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "école",
+   "b": "école",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "cole",
+   "b": "123 store",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "école",
+   "b": "ﬁnance Corp",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "nance",
+   "b": "global tech asia",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ﬁnance Corp",
+   "b": "finance corp",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "finance",
+   "b": "global tech asia",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "finance corp",
+   "b": "Ⅻ Holdings",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "holdings",
+   "b": "o neil sons",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Ⅻ Holdings",
+   "b": "１２３ Store",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "store",
+   "b": "o neil and sons",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "１２３ Store",
+   "b": "123 Store",
+   "dedupe": "0.3333333333333333",
+   "identity": "0.3333333333333333"
+  },
+  {
+   "a": "123 store",
+   "b": "andy wilson",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "123 Store",
+   "b": "Global-Tech (Asia) Pte. Ltd.",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "global tech asia",
+   "b": "andy wilson",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Global-Tech (Asia) Pte. Ltd.",
+   "b": "Global Tech Asia",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "global tech asia",
+   "b": "r d center",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Global Tech Asia",
+   "b": "o'neil & sons, inc.",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "o neil sons",
+   "b": "r d center",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "o'neil & sons, inc.",
+   "b": "O Neil and Sons Inc",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "o neil and sons",
+   "b": "multiple spaces here",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "O Neil and Sons Inc",
+   "b": "Andy_Wilson",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "andy wilson",
+   "b": "x y z",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Andy_Wilson",
+   "b": "andy wilson",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "andy wilson",
+   "b": "emal uro",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "andy wilson",
+   "b": "R&D Center",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "r d center",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "R&D Center",
+   "b": "R D Center",
+   "dedupe": "0.25",
+   "identity": "0.25"
+  },
+  {
+   "a": "r d center",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "R D Center",
+   "b": "  multiple   spaces\there\n",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "multiple spaces here",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "  multiple   spaces\there\n",
+   "b": "x\u001cy\u001dz",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "x y z",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "x\u001cy\u001dz",
+   "b": "ǆemal ǅuro",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "emal uro",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ǆemal ǅuro",
+   "b": "Ǆ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Ǆ",
+   "b": "ſ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ſ",
+   "b": "ﬃ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "a",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ﬃ",
+   "b": "ß",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "a b",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ß",
+   "b": "ŉ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "a",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ŉ",
+   "b": "ΣΑΣ ΟΔΟΣ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "a",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ΣΑΣ ΟΔΟΣ",
+   "b": "Σ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "Σ",
+   "b": "aΣ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "a",
+   "b": "bob sanders",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "aΣ",
+   "b": "aΣb",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "a b",
+   "b": "bob sanders",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "aΣb",
+   "b": "a.Σ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "a",
+   "b": "sanders bob",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "a.Σ",
+   "b": "A'Σ'",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "a",
+   "b": "mr bob sanders esq",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "A'Σ'",
+   "b": "ᾳ ᾼ",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "",
+   "b": "mrs susan reed",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  },
+  {
+   "a": "ᾳ ᾼ",
+   "b": "Bob Sanders",
+   "dedupe": "0.0",
+   "identity": "0.0"
+  }
+ ],
+ "text_similarity": [
+  {
+   "a": "Bob Sanders",
+   "b": "Mr Bob Sanders, Esq.",
+   "out": "0.7586206896551724"
+  },
+  {
+   "a": "bob sanders",
+   "b": "Ms Susan Reed",
+   "out": "0.4166666666666667"
+  },
+  {
+   "a": "Sanders Bob",
+   "b": "Globex Corp",
+   "out": "0.18181818181818182"
+  },
+  {
+   "a": "Mr Bob Sanders, Esq.",
+   "b": "Globex Corp., plc",
+   "out": "0.30303030303030304"
+  },
+  {
+   "a": "Ms Susan Reed",
+   "b": "Globex plc",
+   "out": "0.08695652173913043"
+  },
+  {
+   "a": "Globex Corp",
+   "b": "Initech LLC",
+   "out": "0.18181818181818182"
+  },
+  {
+   "a": "Globex Corp., plc",
+   "b": "Initech Holdings LLC",
+   "out": "0.22857142857142856"
+  },
+  {
+   "a": "Globex plc",
+   "b": "Acme Ltd Solutions Japan",
+   "out": "0.23529411764705882"
+  },
+  {
+   "a": "Initech LLC",
+   "b": "Acme Ltd",
+   "out": "0.3157894736842105"
+  },
+  {
+   "a": "Initech Holdings LLC",
+   "b": "Acme Tech",
+   "out": "0.27586206896551724"
+  },
+  {
+   "a": "Acme Ltd Solutions Japan",
+   "b": "Nippon Telecom (Holdings) plc",
+   "out": "0.39215686274509803"
+  },
+  {
+   "a": "Acme Ltd",
+   "b": "Nippon Telecom",
+   "out": "0.18181818181818182"
+  },
+  {
+   "a": "Acme Tech",
+   "b": "First Central Bank",
+   "out": "0.14814814814814814"
+  },
+  {
+   "a": "Nippon Telecom (Holdings) plc",
+   "b": "First Central Bank plc",
+   "out": "0.24489795918367346"
+  },
+  {
+   "a": "Nippon Telecom",
+   "b": "FCB",
+   "out": "0.11764705882352941"
+  },
+  {
+   "a": "First Central Bank",
+   "b": "Dr. Mr. Bob Sanders, M.B.A.",
+   "out": "0.2926829268292683"
+  },
+  {
+   "a": "First Central Bank plc",
+   "b": "Dr. Steven Clarke",
+   "out": "0.3157894736842105"
+  },
+  {
+   "a": "FCB",
+   "b": "Steven Clarke",
+   "out": "0.125"
+  },
+  {
+   "a": "Dr. Mr. Bob Sanders, M.B.A.",
+   "b": "Adam Clark",
+   "out": "0.30303030303030304"
+  },
+  {
+   "a": "Dr. Steven Clarke",
+   "b": "John Smith",
+   "out": "0.23076923076923078"
+  },
+  {
+   "a": "Steven Clarke",
+   "b": "Jon Smyth",
+   "out": "0.18181818181818182"
+  },
+  {
+   "a": "Adam Clark",
+   "b": "J. Smyth",
+   "out": "0.11764705882352941"
+  },
+  {
+   "a": "John Smith",
+   "b": "Susan Maryann",
+   "out": "0.2608695652173913"
+  },
+  {
+   "a": "Jon Smyth",
+   "b": "Susan Mary Ann",
+   "out": "0.34782608695652173"
+  },
+  {
+   "a": "J. Smyth",
+   "b": "José García",
+   "out": "0.2222222222222222"
+  },
+  {
+   "a": "Susan Maryann",
+   "b": "Jose Garcia",
+   "out": "0.4166666666666667"
+  },
+  {
+   "a": "Susan Mary Ann",
+   "b": "Müller GmbH",
+   "out": "0.16"
+  },
+  {
+   "a": "José García",
+   "b": "Mueller GmbH",
+   "out": "0.17391304347826086"
+  },
+  {
+   "a": "Jose Garcia",
+   "b": "Zoë O'Brien-Smith",
+   "out": "0.21428571428571427"
+  },
+  {
+   "a": "Müller GmbH",
+   "b": "ZOË O'BRIEN SMITH",
+   "out": "0.14285714285714285"
+  },
+  {
+   "a": "Mueller GmbH",
+   "b": "Đặng Văn Lâm",
+   "out": "0.08333333333333333"
+  },
+  {
+   "a": "Zoë O'Brien-Smith",
+   "b": "Dang Van Lam",
+   "out": "0.27586206896551724"
+  },
+  {
+   "a": "ZOË O'BRIEN SMITH",
+   "b": "山田太郎",
+   "out": "0.0"
+  },
+  {
+   "a": "Đặng Văn Lâm",
+   "b": "山田 太郎",
+   "out": "0.11764705882352941"
+  },
+  {
+   "a": "Dang Van Lam",
+   "b": "Ελληνική Εταιρεία",
+   "out": "0.06896551724137931"
+  },
+  {
+   "a": "山田太郎",
+   "b": "ΟΔΥΣΣΕΥΣ",
+   "out": "0.0"
+  },
+  {
+   "a": "山田 太郎",
+   "b": "İstanbul Ltd",
+   "out": "0.1111111111111111"
+  },
+  {
+   "a": "Ελληνική Εταιρεία",
+   "b": "istanbul ltd",
+   "out": "0.06896551724137931"
+  },
+  {
+   "a": "ΟΔΥΣΣΕΥΣ",
+   "b": "Straße GmbH",
+   "out": "0.0"
+  },
+  {
+   "a": "İstanbul Ltd",
+   "b": "STRASSE GMBH",
+   "out": "0.32"
+  },
+  {
+   "a": "istanbul ltd",
+   "b": "",
+   "out": "0.0"
+  },
+  {
+   "a": "Straße GmbH",
+   "b": " ",
+   "out": "0.0"
+  },
+  {
+   "a": "STRASSE GMBH",
+   "b": "a",
+   "out": "0.15384615384615385"
+  },
+  {
+   "a": "",
+   "b": "ab",
+   "out": "0.0"
+  },
+  {
+   "a": " ",
+   "b": "abc",
+   "out": "0.0"
+  },
+  {
+   "a": "a",
+   "b": "￶‍Adam",
+   "out": "0.4"
+  },
+  {
+   "a": "ab",
+   "b": "Adam​ Joseph",
+   "out": "0.15384615384615385"
+  },
+  {
+   "a": "abc",
+   "b": "Rachel Green",
+   "out": "0.26666666666666666"
+  },
+  {
+   "a": "￶‍Adam",
+   "b": "Rachel  Green",
+   "out": "0.125"
+  },
+  {
+   "a": "Adam​ Joseph",
+   "b": "école",
+   "out": "0.35294117647058826"
+  },
+  {
+   "a": "Rachel Green",
+   "b": "école",
+   "out": "0.23529411764705882"
+  },
+  {
+   "a": "Rachel  Green",
+   "b": "ﬁnance Corp",
+   "out": "0.08695652173913043"
+  },
+  {
+   "a": "école",
+   "b": "finance corp",
+   "out": "0.4444444444444444"
+  },
+  {
+   "a": "école",
+   "b": "Ⅻ Holdings",
+   "out": "0.26666666666666666"
+  },
+  {
+   "a": "ﬁnance Corp",
+   "b": "１２３ Store",
+   "out": "0.3"
+  },
+  {
+   "a": "finance corp",
+   "b": "123 Store",
+   "out": "0.2857142857142857"
+  },
+  {
+   "a": "Ⅻ Holdings",
+   "b": "Global-Tech (Asia) Pte. Ltd.",
+   "out": "0.23529411764705882"
+  },
+  {
+   "a": "１２３ Store",
+   "b": "Global Tech Asia",
+   "out": "0.16"
+  },
+  {
+   "a": "123 Store",
+   "b": "o'neil & sons, inc.",
+   "out": "0.25"
+  },
+  {
+   "a": "Global-Tech (Asia) Pte. Ltd.",
+   "b": "O Neil and Sons Inc",
+   "out": "0.18604651162790697"
+  },
+  {
+   "a": "Global Tech Asia",
+   "b": "Andy_Wilson",
+   "out": "0.14814814814814814"
+  },
+  {
+   "a": "o'neil & sons, inc.",
+   "b": "andy wilson",
+   "out": "0.46153846153846156"
+  },
+  {
+   "a": "O Neil and Sons Inc",
+   "b": "R&D Center",
+   "out": "0.27586206896551724"
+  },
+  {
+   "a": "Andy_Wilson",
+   "b": "R D Center",
+   "out": "0.09523809523809523"
+  },
+  {
+   "a": "andy wilson",
+   "b": "  multiple   spaces\there\n",
+   "out": "0.12903225806451613"
+  },
+  {
+   "a": "R&D Center",
+   "b": "x\u001cy\u001dz",
+   "out": "0.26666666666666666"
+  },
+  {
+   "a": "R D Center",
+   "b": "ǆemal ǅuro",
+   "out": "0.1"
+  },
+  {
+   "a": "  multiple   spaces\there\n",
+   "b": "Ǆ",
+   "out": "0.0"
+  },
+  {
+   "a": "x\u001cy\u001dz",
+   "b": "ſ",
+   "out": "0.0"
+  },
+  {
+   "a": "ǆemal ǅuro",
+   "b": "ﬃ",
+   "out": "0.0"
+  },
+  {
+   "a": "Ǆ",
+   "b": "ß",
+   "out": "0.0"
+  },
+  {
+   "a": "ſ",
+   "b": "ŉ",
+   "out": "0.0"
+  },
+  {
+   "a": "ﬃ",
+   "b": "ΣΑΣ ΟΔΟΣ",
+   "out": "0.0"
+  },
+  {
+   "a": "ß",
+   "b": "Σ",
+   "out": "0.0"
+  },
+  {
+   "a": "ŉ",
+   "b": "aΣ",
+   "out": "0.0"
+  },
+  {
+   "a": "ΣΑΣ ΟΔΟΣ",
+   "b": "aΣb",
+   "out": "0.18181818181818182"
+  },
+  {
+   "a": "Σ",
+   "b": "a.Σ",
+   "out": "0.0"
+  },
+  {
+   "a": "aΣ",
+   "b": "A'Σ'",
+   "out": "0.8"
+  },
+  {
+   "a": "aΣb",
+   "b": "ᾳ ᾼ",
+   "out": "0.0"
+  },
+  {
+   "a": "a.Σ",
+   "b": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "out": "0.0"
+  },
+  {
+   "a": "A'Σ'",
+   "b": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "out": "0.0"
+  },
+  {
+   "a": "ᾳ ᾼ",
+   "b": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "out": "0.0"
+  },
+  {
+   "a": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "b": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "out": "0.021015761821366025"
+  },
+  {
+   "a": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "b": "\t a b \n",
+   "out": "0.013468013468013467"
+  },
+  {
+   "a": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "b": "\u001c\u001d\u001e\u001fx\u001f",
+   "out": "0.0"
+  },
+  {
+   "a": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "b": "​zero​width",
+   "out": "0.05263157894736842"
+  },
+  {
+   "a": "\t a b \n",
+   "b": " nbsp ",
+   "out": "0.2857142857142857"
+  },
+  {
+   "a": "\u001c\u001d\u001e\u001fx\u001f",
+   "b": "　ideo　",
+   "out": "0.0"
+  },
+  {
+   "a": "​zero​width",
+   "b": "nel",
+   "out": "0.15384615384615385"
+  },
+  {
+   "a": " nbsp ",
+   "b": " ls ps",
+   "out": "0.4444444444444444"
+  },
+  {
+   "a": "　ideo　",
+   "b": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "out": "0.05128205128205128"
+  },
+  {
+   "a": "nel",
+   "b": "trailing\n",
+   "out": "0.18181818181818182"
+  },
+  {
+   "a": " ls ps",
+   "b": "\n",
+   "out": "0.0"
+  },
+  {
+   "a": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "b": "",
+   "out": "0.0"
+  },
+  {
+   "a": "trailing\n",
+   "b": "\r\n\r\n",
+   "out": "0.0"
+  },
+  {
+   "a": "\n",
+   "b": "hello world",
+   "out": "0.0"
+  },
+  {
+   "a": "",
+   "b": "HELLO WORLD",
+   "out": "0.0"
+  },
+  {
+   "a": "\r\n\r\n",
+   "b": "they're bill's friends from the UK",
+   "out": "0.0"
+  },
+  {
+   "a": "hello world",
+   "b": "o'neil mcdonald-smith",
+   "out": "0.3125"
+  },
+  {
+   "a": "HELLO WORLD",
+   "b": "1st 2nd 3rd",
+   "out": "0.2727272727272727"
+  },
+  {
+   "a": "they're bill's friends from the UK",
+   "b": "ǉubljana ǈ",
+   "out": "0.045454545454545456"
+  },
+  {
+   "a": "o'neil mcdonald-smith",
+   "b": "ﬀ ﬂ ﬄ",
+   "out": "0.15384615384615385"
+  },
+  {
+   "a": "1st 2nd 3rd",
+   "b": "ʼn ǰ ΐ",
+   "out": "0.23529411764705882"
+  },
+  {
+   "a": "ǉubljana ǈ",
+   "b": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "out": "0.09090909090909091"
+  },
+  {
+   "a": "ﬀ ﬂ ﬄ",
+   "b": "İIıi",
+   "out": "0.2"
+  },
+  {
+   "a": "ʼn ǰ ΐ",
+   "b": "ŉAPOLEON",
+   "out": "0.14285714285714285"
+  },
+  {
+   "a": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "b": "ǅ",
+   "out": "0.0"
+  },
+  {
+   "a": "İIıi",
+   "b": "ᾈᾉ",
+   "out": "0.0"
+  },
+  {
+   "a": "ŉAPOLEON",
+   "b": "ͅx",
+   "out": "0.0"
+  },
+  {
+   "a": "ǅ",
+   "b": "ABͅC",
+   "out": "0.0"
+  },
+  {
+   "a": "ᾈᾉ",
+   "b": "ȧΣ",
+   "out": "0.0"
+  },
+  {
+   "a": "ͅx",
+   "b": "sale_order line_item",
+   "out": "0.0"
+  },
+  {
+   "a": "ABͅC",
+   "b": "deep_reasoner",
+   "out": "0.11764705882352941"
+  },
+  {
+   "a": "ȧΣ",
+   "b": "x­Σ",
+   "out": "0.6666666666666666"
+  },
+  {
+   "a": "sale_order line_item",
+   "b": "Σ­",
+   "out": "0.0"
+  },
+  {
+   "a": "deep_reasoner",
+   "b": "wordאΣ",
+   "out": "0.10526315789473684"
+  },
+  {
+   "a": "x­Σ",
+   "b": "Bob Sanders",
+   "out": "0.14285714285714285"
+  },
+  {
+   "a": "Σ­",
+   "b": "bob sanders",
+   "out": "0.0"
+  },
+  {
+   "a": "wordאΣ",
+   "b": "Sanders Bob",
+   "out": "0.11764705882352941"
+  },
+  {
+   "a": null,
+   "b": "x",
+   "out": "0.0"
+  }
+ ],
+ "strip_chars": [
+  {
+   "in": "Bob Sanders",
+   "chars": " *_~",
+   "out": "Bob Sanders"
+  },
+  {
+   "in": "bob sanders",
+   "chars": " *_~",
+   "out": "bob sanders"
+  },
+  {
+   "in": "Sanders Bob",
+   "chars": " *_~",
+   "out": "Sanders Bob"
+  },
+  {
+   "in": "Mr Bob Sanders, Esq.",
+   "chars": " *_~",
+   "out": "Mr Bob Sanders, Esq."
+  },
+  {
+   "in": "Ms Susan Reed",
+   "chars": " *_~",
+   "out": "Ms Susan Reed"
+  },
+  {
+   "in": "Globex Corp",
+   "chars": " *_~",
+   "out": "Globex Corp"
+  },
+  {
+   "in": "Globex Corp., plc",
+   "chars": " *_~",
+   "out": "Globex Corp., plc"
+  },
+  {
+   "in": "Globex plc",
+   "chars": " *_~",
+   "out": "Globex plc"
+  },
+  {
+   "in": "Initech LLC",
+   "chars": " *_~",
+   "out": "Initech LLC"
+  },
+  {
+   "in": "Initech Holdings LLC",
+   "chars": " *_~",
+   "out": "Initech Holdings LLC"
+  },
+  {
+   "in": "Acme Ltd Solutions Japan",
+   "chars": " *_~",
+   "out": "Acme Ltd Solutions Japan"
+  },
+  {
+   "in": "Acme Ltd",
+   "chars": " *_~",
+   "out": "Acme Ltd"
+  },
+  {
+   "in": "Acme Tech",
+   "chars": " *_~",
+   "out": "Acme Tech"
+  },
+  {
+   "in": "Nippon Telecom (Holdings) plc",
+   "chars": " *_~",
+   "out": "Nippon Telecom (Holdings) plc"
+  },
+  {
+   "in": "Nippon Telecom",
+   "chars": " *_~",
+   "out": "Nippon Telecom"
+  },
+  {
+   "in": "First Central Bank",
+   "chars": " *_~",
+   "out": "First Central Bank"
+  },
+  {
+   "in": "First Central Bank plc",
+   "chars": " *_~",
+   "out": "First Central Bank plc"
+  },
+  {
+   "in": "FCB",
+   "chars": " *_~",
+   "out": "FCB"
+  },
+  {
+   "in": "Dr. Mr. Bob Sanders, M.B.A.",
+   "chars": " *_~",
+   "out": "Dr. Mr. Bob Sanders, M.B.A."
+  },
+  {
+   "in": "Dr. Steven Clarke",
+   "chars": " *_~",
+   "out": "Dr. Steven Clarke"
+  },
+  {
+   "in": "Steven Clarke",
+   "chars": " *_~",
+   "out": "Steven Clarke"
+  },
+  {
+   "in": "Adam Clark",
+   "chars": " *_~",
+   "out": "Adam Clark"
+  },
+  {
+   "in": "John Smith",
+   "chars": " *_~",
+   "out": "John Smith"
+  },
+  {
+   "in": "Jon Smyth",
+   "chars": " *_~",
+   "out": "Jon Smyth"
+  },
+  {
+   "in": "J. Smyth",
+   "chars": " *_~",
+   "out": "J. Smyth"
+  },
+  {
+   "in": "Susan Maryann",
+   "chars": " *_~",
+   "out": "Susan Maryann"
+  },
+  {
+   "in": "Susan Mary Ann",
+   "chars": " *_~",
+   "out": "Susan Mary Ann"
+  },
+  {
+   "in": "José García",
+   "chars": " *_~",
+   "out": "José García"
+  },
+  {
+   "in": "Jose Garcia",
+   "chars": " *_~",
+   "out": "Jose Garcia"
+  },
+  {
+   "in": "Müller GmbH",
+   "chars": " *_~",
+   "out": "Müller GmbH"
+  },
+  {
+   "in": "Mueller GmbH",
+   "chars": " *_~",
+   "out": "Mueller GmbH"
+  },
+  {
+   "in": "Zoë O'Brien-Smith",
+   "chars": " *_~",
+   "out": "Zoë O'Brien-Smith"
+  },
+  {
+   "in": "ZOË O'BRIEN SMITH",
+   "chars": " *_~",
+   "out": "ZOË O'BRIEN SMITH"
+  },
+  {
+   "in": "Đặng Văn Lâm",
+   "chars": " *_~",
+   "out": "Đặng Văn Lâm"
+  },
+  {
+   "in": "Dang Van Lam",
+   "chars": " *_~",
+   "out": "Dang Van Lam"
+  },
+  {
+   "in": "山田太郎",
+   "chars": " *_~",
+   "out": "山田太郎"
+  },
+  {
+   "in": "山田 太郎",
+   "chars": " *_~",
+   "out": "山田 太郎"
+  },
+  {
+   "in": "Ελληνική Εταιρεία",
+   "chars": " *_~",
+   "out": "Ελληνική Εταιρεία"
+  },
+  {
+   "in": "ΟΔΥΣΣΕΥΣ",
+   "chars": " *_~",
+   "out": "ΟΔΥΣΣΕΥΣ"
+  },
+  {
+   "in": "İstanbul Ltd",
+   "chars": " *_~",
+   "out": "İstanbul Ltd"
+  },
+  {
+   "in": "istanbul ltd",
+   "chars": " *_~",
+   "out": "istanbul ltd"
+  },
+  {
+   "in": "Straße GmbH",
+   "chars": " *_~",
+   "out": "Straße GmbH"
+  },
+  {
+   "in": "STRASSE GMBH",
+   "chars": " *_~",
+   "out": "STRASSE GMBH"
+  },
+  {
+   "in": "",
+   "chars": " *_~",
+   "out": ""
+  },
+  {
+   "in": " ",
+   "chars": " *_~",
+   "out": ""
+  },
+  {
+   "in": "a",
+   "chars": " *_~",
+   "out": "a"
+  },
+  {
+   "in": "ab",
+   "chars": " *_~",
+   "out": "ab"
+  },
+  {
+   "in": "abc",
+   "chars": " *_~",
+   "out": "abc"
+  },
+  {
+   "in": "￶‍Adam",
+   "chars": " *_~",
+   "out": "￶‍Adam"
+  },
+  {
+   "in": "Adam​ Joseph",
+   "chars": " *_~",
+   "out": "Adam​ Joseph"
+  },
+  {
+   "in": "Rachel Green",
+   "chars": " *_~",
+   "out": "Rachel Green"
+  },
+  {
+   "in": "Rachel  Green",
+   "chars": " *_~",
+   "out": "Rachel  Green"
+  },
+  {
+   "in": "école",
+   "chars": " *_~",
+   "out": "école"
+  },
+  {
+   "in": "école",
+   "chars": " *_~",
+   "out": "école"
+  },
+  {
+   "in": "ﬁnance Corp",
+   "chars": " *_~",
+   "out": "ﬁnance Corp"
+  },
+  {
+   "in": "finance corp",
+   "chars": " *_~",
+   "out": "finance corp"
+  },
+  {
+   "in": "Ⅻ Holdings",
+   "chars": " *_~",
+   "out": "Ⅻ Holdings"
+  },
+  {
+   "in": "１２３ Store",
+   "chars": " *_~",
+   "out": "１２３ Store"
+  },
+  {
+   "in": "123 Store",
+   "chars": " *_~",
+   "out": "123 Store"
+  },
+  {
+   "in": "Global-Tech (Asia) Pte. Ltd.",
+   "chars": " *_~",
+   "out": "Global-Tech (Asia) Pte. Ltd."
+  },
+  {
+   "in": "Global Tech Asia",
+   "chars": " *_~",
+   "out": "Global Tech Asia"
+  },
+  {
+   "in": "o'neil & sons, inc.",
+   "chars": " *_~",
+   "out": "o'neil & sons, inc."
+  },
+  {
+   "in": "O Neil and Sons Inc",
+   "chars": " *_~",
+   "out": "O Neil and Sons Inc"
+  },
+  {
+   "in": "Andy_Wilson",
+   "chars": " *_~",
+   "out": "Andy_Wilson"
+  },
+  {
+   "in": "andy wilson",
+   "chars": " *_~",
+   "out": "andy wilson"
+  },
+  {
+   "in": "R&D Center",
+   "chars": " *_~",
+   "out": "R&D Center"
+  },
+  {
+   "in": "R D Center",
+   "chars": " *_~",
+   "out": "R D Center"
+  },
+  {
+   "in": "  multiple   spaces\there\n",
+   "chars": " *_~",
+   "out": "multiple   spaces\there\n"
+  },
+  {
+   "in": "x\u001cy\u001dz",
+   "chars": " *_~",
+   "out": "x\u001cy\u001dz"
+  },
+  {
+   "in": "ǆemal ǅuro",
+   "chars": " *_~",
+   "out": "ǆemal ǅuro"
+  },
+  {
+   "in": "Ǆ",
+   "chars": " *_~",
+   "out": "Ǆ"
+  },
+  {
+   "in": "ſ",
+   "chars": " *_~",
+   "out": "ſ"
+  },
+  {
+   "in": "ﬃ",
+   "chars": " *_~",
+   "out": "ﬃ"
+  },
+  {
+   "in": "ß",
+   "chars": " *_~",
+   "out": "ß"
+  },
+  {
+   "in": "ŉ",
+   "chars": " *_~",
+   "out": "ŉ"
+  },
+  {
+   "in": "ΣΑΣ ΟΔΟΣ",
+   "chars": " *_~",
+   "out": "ΣΑΣ ΟΔΟΣ"
+  },
+  {
+   "in": "Σ",
+   "chars": " *_~",
+   "out": "Σ"
+  },
+  {
+   "in": "aΣ",
+   "chars": " *_~",
+   "out": "aΣ"
+  },
+  {
+   "in": "aΣb",
+   "chars": " *_~",
+   "out": "aΣb"
+  },
+  {
+   "in": "a.Σ",
+   "chars": " *_~",
+   "out": "a.Σ"
+  },
+  {
+   "in": "A'Σ'",
+   "chars": " *_~",
+   "out": "A'Σ'"
+  },
+  {
+   "in": "ᾳ ᾼ",
+   "chars": " *_~",
+   "out": "ᾳ ᾼ"
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards.",
+   "chars": " *_~",
+   "out": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 4 units with a software licence for 12 months. Please confirm if there are questions about the laptop specifications or the delivery schedule on site. Regards."
+  },
+  {
+   "in": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards.",
+   "chars": " *_~",
+   "out": "Hello Mr Bob, thank you for your time yesterday. Attached is our price quotation for ACME Laptop Series Office Monitor for 6 units with a software licence for 24 months. Please confirm should there be questions regarding the laptop specifications or the delivery schedule at your site. Warm regards."
+  },
+  {
+   "in": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change.",
+   "chars": " *_~",
+   "out": "Dear Ms. Susan, following our call I am sending the quotation for the laptop and support plan rollout for your three branch offices in Tokyo, Osaka and Sapporo. The price includes installation, training for your HR team and one year of support. Please let me know if anything should change."
+  },
+  {
+   "in": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign.",
+   "chars": " *_~",
+   "out": "Dear Ms Susan, as discussed on our call, attached is the quotation for the laptop and support plan rollout covering your branch offices in Tokyo and Sapporo. Pricing includes installation and training for the HR team, plus one year of support. Let me know if anything needs to change before you sign."
+  },
+  {
+   "in": "\t a b \n",
+   "chars": " *_~",
+   "out": "\t a b \n"
+  },
+  {
+   "in": "\u001c\u001d\u001e\u001fx\u001f",
+   "chars": " *_~",
+   "out": "\u001c\u001d\u001e\u001fx\u001f"
+  },
+  {
+   "in": "​zero​width",
+   "chars": " *_~",
+   "out": "​zero​width"
+  },
+  {
+   "in": " nbsp ",
+   "chars": " *_~",
+   "out": " nbsp "
+  },
+  {
+   "in": "　ideo　",
+   "chars": " *_~",
+   "out": "　ideo　"
+  },
+  {
+   "in": "nel",
+   "chars": " *_~",
+   "out": "nel"
+  },
+  {
+   "in": " ls ps",
+   "chars": " *_~",
+   "out": " ls ps"
+  },
+  {
+   "in": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n",
+   "chars": " *_~",
+   "out": "line1\nline2\r\nline3\rline4\u000bline5\fline6\u001cline7\u001dline8\u001eline9line10 line11 line12\n"
+  },
+  {
+   "in": "trailing\n",
+   "chars": " *_~",
+   "out": "trailing\n"
+  },
+  {
+   "in": "\n",
+   "chars": " *_~",
+   "out": "\n"
+  },
+  {
+   "in": "",
+   "chars": " *_~",
+   "out": ""
+  },
+  {
+   "in": "\r\n\r\n",
+   "chars": " *_~",
+   "out": "\r\n\r\n"
+  },
+  {
+   "in": "hello world",
+   "chars": " *_~",
+   "out": "hello world"
+  },
+  {
+   "in": "HELLO WORLD",
+   "chars": " *_~",
+   "out": "HELLO WORLD"
+  },
+  {
+   "in": "they're bill's friends from the UK",
+   "chars": " *_~",
+   "out": "they're bill's friends from the UK"
+  },
+  {
+   "in": "o'neil mcdonald-smith",
+   "chars": " *_~",
+   "out": "o'neil mcdonald-smith"
+  },
+  {
+   "in": "1st 2nd 3rd",
+   "chars": " *_~",
+   "out": "1st 2nd 3rd"
+  },
+  {
+   "in": "ǉubljana ǈ",
+   "chars": " *_~",
+   "out": "ǉubljana ǈ"
+  },
+  {
+   "in": "ﬀ ﬂ ﬄ",
+   "chars": " *_~",
+   "out": "ﬀ ﬂ ﬄ"
+  },
+  {
+   "in": "ʼn ǰ ΐ",
+   "chars": " *_~",
+   "out": "ʼn ǰ ΐ"
+  },
+  {
+   "in": "ΣΣ ΑΣ ΑΣ. Σ.Σ",
+   "chars": " *_~",
+   "out": "ΣΣ ΑΣ ΑΣ. Σ.Σ"
+  },
+  {
+   "in": "İIıi",
+   "chars": " *_~",
+   "out": "İIıi"
+  },
+  {
+   "in": "ŉAPOLEON",
+   "chars": " *_~",
+   "out": "ŉAPOLEON"
+  },
+  {
+   "in": "ǅ",
+   "chars": " *_~",
+   "out": "ǅ"
+  },
+  {
+   "in": "ᾈᾉ",
+   "chars": " *_~",
+   "out": "ᾈᾉ"
+  },
+  {
+   "in": "ͅx",
+   "chars": " *_~",
+   "out": "ͅx"
+  },
+  {
+   "in": "ABͅC",
+   "chars": " *_~",
+   "out": "ABͅC"
+  },
+  {
+   "in": "ȧΣ",
+   "chars": " *_~",
+   "out": "ȧΣ"
+  },
+  {
+   "in": "sale_order line_item",
+   "chars": " *_~",
+   "out": "sale_order line_item"
+  },
+  {
+   "in": "deep_reasoner",
+   "chars": " *_~",
+   "out": "deep_reasoner"
+  },
+  {
+   "in": "x­Σ",
+   "chars": " *_~",
+   "out": "x­Σ"
+  },
+  {
+   "in": "Σ­",
+   "chars": " *_~",
+   "out": "Σ­"
+  },
+  {
+   "in": "wordאΣ",
+   "chars": " *_~",
+   "out": "wordאΣ"
+  },
+  {
+   "in": "**Bob**",
+   "chars": " *_~",
+   "out": "Bob"
+  },
+  {
+   "in": "_~x~_",
+   "chars": " *_~",
+   "out": "x"
+  },
+  {
+   "in": "* * ",
+   "chars": " *_~",
+   "out": ""
+  },
+  {
+   "in": "",
+   "chars": " *_~",
+   "out": ""
+  },
+  {
+   "in": "~",
+   "chars": " *_~",
+   "out": ""
+  },
+  {
+   "in": "a*b",
+   "chars": " *_~",
+   "out": "a*b"
+  }
+ ]
+}

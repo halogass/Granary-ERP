@@ -1,0 +1,427 @@
+[
+ {
+  "text": null,
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": null,
+  "sig": "David | Owner, Acme Ltd",
+  "out": "David | Owner, Acme Ltd"
+ },
+ {
+  "text": null,
+  "sig": "_x_",
+  "out": "_x_"
+ },
+ {
+  "text": null,
+  "sig": "sig",
+  "out": "sig"
+ },
+ {
+  "text": null,
+  "sig": " padded sig ",
+  "out": " padded sig "
+ },
+ {
+  "text": "",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "David | Owner, Acme Ltd"
+ },
+ {
+  "text": "",
+  "sig": "_x_",
+  "out": "_x_"
+ },
+ {
+  "text": "",
+  "sig": "sig",
+  "out": "sig"
+ },
+ {
+  "text": "",
+  "sig": " padded sig ",
+  "out": " padded sig "
+ },
+ {
+  "text": " ",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": " ",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "David | Owner, Acme Ltd"
+ },
+ {
+  "text": " ",
+  "sig": "_x_",
+  "out": "_x_"
+ },
+ {
+  "text": " ",
+  "sig": "sig",
+  "out": "sig"
+ },
+ {
+  "text": " ",
+  "sig": " padded sig ",
+  "out": " padded sig "
+ },
+ {
+  "text": "\n\n",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "\n\n",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "David | Owner, Acme Ltd"
+ },
+ {
+  "text": "\n\n",
+  "sig": "_x_",
+  "out": "_x_"
+ },
+ {
+  "text": "\n\n",
+  "sig": "sig",
+  "out": "sig"
+ },
+ {
+  "text": "\n\n",
+  "sig": " padded sig ",
+  "out": " padded sig "
+ },
+ {
+  "text": "Hello Mr",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello Mr",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello Mr\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello Mr",
+  "sig": "_x_",
+  "out": "Hello Mr\n\n_x_"
+ },
+ {
+  "text": "Hello Mr",
+  "sig": "sig",
+  "out": "Hello Mr\n\nsig"
+ },
+ {
+  "text": "Hello Mr",
+  "sig": " padded sig ",
+  "out": "Hello Mr\n\n padded sig "
+ },
+ {
+  "text": "Hello Mr  \n ",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello Mr  \n ",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello Mr\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello Mr  \n ",
+  "sig": "_x_",
+  "out": "Hello Mr\n\n_x_"
+ },
+ {
+  "text": "Hello Mr  \n ",
+  "sig": "sig",
+  "out": "Hello Mr\n\nsig"
+ },
+ {
+  "text": "Hello Mr  \n ",
+  "sig": " padded sig ",
+  "out": "Hello Mr\n\n padded sig "
+ },
+ {
+  "text": "Hello\n\nsig",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello\n\nsig\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello\n\nsig",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello\n\nsig\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello\n\nsig",
+  "sig": "_x_",
+  "out": "Hello\n\nsig\n\n_x_"
+ },
+ {
+  "text": "Hello\n\nsig",
+  "sig": "sig",
+  "out": "Hello\n\nsig"
+ },
+ {
+  "text": "Hello\n\nsig",
+  "sig": " padded sig ",
+  "out": "Hello\n\nsig\n\n padded sig "
+ },
+ {
+  "text": "Hello sig",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello sig\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello sig",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello sig\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello sig",
+  "sig": "_x_",
+  "out": "Hello sig\n\n_x_"
+ },
+ {
+  "text": "Hello sig",
+  "sig": "sig",
+  "out": "Hello sig"
+ },
+ {
+  "text": "Hello sig",
+  "sig": " padded sig ",
+  "out": "Hello sig\n\n padded sig "
+ },
+ {
+  "text": "sig",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "sig\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "sig",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "sig\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "sig",
+  "sig": "_x_",
+  "out": "sig\n\n_x_"
+ },
+ {
+  "text": "sig",
+  "sig": "sig",
+  "out": "sig"
+ },
+ {
+  "text": "sig",
+  "sig": " padded sig ",
+  "out": "sig\n\n padded sig "
+ },
+ {
+  "text": "  sig  ",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "  sig\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "  sig  ",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "  sig\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "  sig  ",
+  "sig": "_x_",
+  "out": "  sig\n\n_x_"
+ },
+ {
+  "text": "  sig  ",
+  "sig": "sig",
+  "out": "  sig"
+ },
+ {
+  "text": "  sig  ",
+  "sig": " padded sig ",
+  "out": "  sig\n\n padded sig "
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_",
+  "sig": "_x_",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\n_x_"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_",
+  "sig": "sig",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\nsig"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_",
+  "sig": " padded sig ",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\n padded sig "
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n",
+  "sig": "_x_",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\n_x_"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n",
+  "sig": "sig",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\nsig"
+ },
+ {
+  "text": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n",
+  "sig": " padded sig ",
+  "out": "Hello Mr\n\n_— Bob S. W., Acme Ltd_\n\n padded sig "
+ },
+ {
+  "text": "Hello ",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello ",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello ",
+  "sig": "_x_",
+  "out": "Hello\n\n_x_"
+ },
+ {
+  "text": "Hello ",
+  "sig": "sig",
+  "out": "Hello\n\nsig"
+ },
+ {
+  "text": "Hello ",
+  "sig": " padded sig ",
+  "out": "Hello\n\n padded sig "
+ },
+ {
+  "text": "Hello ",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Hello\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Hello ",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Hello\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Hello ",
+  "sig": "_x_",
+  "out": "Hello\n\n_x_"
+ },
+ {
+  "text": "Hello ",
+  "sig": "sig",
+  "out": "Hello\n\nsig"
+ },
+ {
+  "text": "Hello ",
+  "sig": " padded sig ",
+  "out": "Hello\n\n padded sig "
+ },
+ {
+  "text": "Multi\nline\r\nbody",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "Multi\nline\r\nbody\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "Multi\nline\r\nbody",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "Multi\nline\r\nbody\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "Multi\nline\r\nbody",
+  "sig": "_x_",
+  "out": "Multi\nline\r\nbody\n\n_x_"
+ },
+ {
+  "text": "Multi\nline\r\nbody",
+  "sig": "sig",
+  "out": "Multi\nline\r\nbody\n\nsig"
+ },
+ {
+  "text": "Multi\nline\r\nbody",
+  "sig": " padded sig ",
+  "out": "Multi\nline\r\nbody\n\n padded sig "
+ },
+ {
+  "text": "David | Owner, Acme Ltd",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "David | Owner, Acme Ltd\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "David | Owner, Acme Ltd",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "David | Owner, Acme Ltd"
+ },
+ {
+  "text": "David | Owner, Acme Ltd",
+  "sig": "_x_",
+  "out": "David | Owner, Acme Ltd\n\n_x_"
+ },
+ {
+  "text": "David | Owner, Acme Ltd",
+  "sig": "sig",
+  "out": "David | Owner, Acme Ltd\n\nsig"
+ },
+ {
+  "text": "David | Owner, Acme Ltd",
+  "sig": " padded sig ",
+  "out": "David | Owner, Acme Ltd\n\n padded sig "
+ },
+ {
+  "text": "x\u001c",
+  "sig": "_— Bob S. W., Acme Ltd_",
+  "out": "x\n\n_— Bob S. W., Acme Ltd_"
+ },
+ {
+  "text": "x\u001c",
+  "sig": "David | Owner, Acme Ltd",
+  "out": "x\n\nDavid | Owner, Acme Ltd"
+ },
+ {
+  "text": "x\u001c",
+  "sig": "_x_",
+  "out": "x\n\n_x_"
+ },
+ {
+  "text": "x\u001c",
+  "sig": "sig",
+  "out": "x\n\nsig"
+ },
+ {
+  "text": "x\u001c",
+  "sig": " padded sig ",
+  "out": "x\n\n padded sig "
+ }
+]

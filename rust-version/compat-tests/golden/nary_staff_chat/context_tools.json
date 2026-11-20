@@ -1,0 +1,63 @@
+[
+ {
+  "name": "customer_records",
+  "description": "This customer's own inquiries, projects and sent quotations.",
+  "parameters": {
+   "type": "object",
+   "properties": {},
+   "required": [],
+   "additionalProperties": false
+  },
+  "required_any": []
+ },
+ {
+  "name": "catalog_public",
+  "description": "Search the company's products: name, description and list price.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "query": {
+     "type": "string"
+    },
+    "currency": {
+     "type": "string",
+     "description": "a currency code, e.g. USD"
+    }
+   },
+   "required": [
+    "query",
+    "currency"
+   ],
+   "additionalProperties": false
+  },
+  "required_any": []
+ },
+ {
+  "name": "customer_safe_knowledge",
+  "description": "Search product and company information that is safe to share.",
+  "parameters": {
+   "type": "object",
+   "properties": {
+    "query": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "additionalProperties": false
+  },
+  "required_any": []
+ },
+ {
+  "name": "company_facts",
+  "description": "Approved facts about the company (address, hours, policies).",
+  "parameters": {
+   "type": "object",
+   "properties": {},
+   "required": [],
+   "additionalProperties": false
+  },
+  "required_any": []
+ }
+]

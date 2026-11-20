@@ -1,0 +1,121 @@
+[
+ {
+  "block": {
+   "type": "spacer",
+   "height": "abc"
+  },
+  "error": "invalid literal for int() with base 10: 'abc'"
+ },
+ {
+  "block": {
+   "type": "spacer",
+   "height": null
+  },
+  "error": "int() argument must be a string, a bytes-like object or a real number, not 'NoneType'"
+ },
+ {
+  "block": {
+   "type": "spacer",
+   "height": "1.5"
+  },
+  "error": "invalid literal for int() with base 10: '1.5'"
+ },
+ {
+  "block": {
+   "type": "spacer",
+   "height": ""
+  },
+  "error": "invalid literal for int() with base 10: ''"
+ },
+ {
+  "block": {
+   "type": "spacer",
+   "height": "it's"
+  },
+  "error": "invalid literal for int() with base 10: \"it's\""
+ },
+ {
+  "block": {
+   "type": "spacer",
+   "height": [
+    1
+   ]
+  },
+  "error": "int() argument must be a string, a bytes-like object or a real number, not 'list'"
+ },
+ {
+  "block": {
+   "type": "spacer",
+   "height": "__1"
+  },
+  "error": "invalid literal for int() with base 10: '__1'"
+ },
+ {
+  "block": {
+   "type": "heading",
+   "text": 5
+  },
+  "error": "'int' object has no attribute 'replace'"
+ },
+ {
+  "block": {
+   "type": "heading",
+   "text": null
+  },
+  "error": "'NoneType' object has no attribute 'replace'"
+ },
+ {
+  "block": {
+   "type": "paragraph",
+   "text": [
+    "x"
+   ]
+  },
+  "error": "'list' object has no attribute 'replace'"
+ },
+ {
+  "block": {
+   "type": "image",
+   "url": 5
+  },
+  "error": "'int' object has no attribute 'strip'"
+ },
+ {
+  "block": {
+   "type": "image",
+   "alt": null
+  },
+  "error": "'NoneType' object has no attribute 'replace'"
+ },
+ {
+  "block": {
+   "type": "header_image",
+   "url": "https://x",
+   "alt": 1.5
+  },
+  "error": "'float' object has no attribute 'replace'"
+ },
+ {
+  "block": {
+   "type": "cta_button",
+   "label": {
+    "a": 1
+   }
+  },
+  "error": "'dict' object has no attribute 'replace'"
+ },
+ {
+  "block": {
+   "type": "cta_button",
+   "button_url": null
+  },
+  "error": "'NoneType' object has no attribute 'replace'"
+ },
+ {
+  "block": {
+   "type": "code",
+   "text": true
+  },
+  "error": "'bool' object has no attribute 'replace'"
+ }
+]

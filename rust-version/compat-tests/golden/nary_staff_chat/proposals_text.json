@@ -1,0 +1,645 @@
+[
+ {
+  "props": [
+   {}
+  ],
+  "out": "*Waiting for your yes:*\n1. a change\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {},
+   {
+    "kind": null
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. a change\n2. a change\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {},
+   {
+    "kind": null
+   },
+   {
+    "kind": "something_new"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. a change\n2. a change\n3. something new\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "summary": "Just a summary"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Just a summary\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "summary": "Just a summary"
+   },
+   {
+    "kind": "quotation",
+    "summary": "Globex Corp",
+    "payload": {
+     "items": [
+      1,
+      2
+     ]
+    }
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Just a summary\n2. Draft quotation: Globex Corp (2 lines)\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "summary": "Just a summary"
+   },
+   {
+    "kind": "quotation",
+    "summary": "Globex Corp",
+    "payload": {
+     "items": [
+      1,
+      2
+     ]
+    }
+   },
+   {
+    "kind": "invoice",
+    "payload": {
+     "items": [
+      1
+     ]
+    }
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Just a summary\n2. Draft quotation: Globex Corp (2 lines)\n3. Draft invoice (1 line)\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "quotation",
+    "payload": null
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Draft quotation (0 lines)\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "quotation",
+    "payload": null
+   },
+   {
+    "kind": "invoice",
+    "title": "T",
+    "payload": {
+     "items": []
+    },
+    "currency": "usd"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Draft quotation (0 lines)\n2. Draft invoice: T (0 lines)\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "quotation",
+    "payload": null
+   },
+   {
+    "kind": "invoice",
+    "title": "T",
+    "payload": {
+     "items": []
+    },
+    "currency": "usd"
+   },
+   {
+    "kind": "quotation",
+    "payload": {
+     "currency": "eur",
+     "items": [
+      {
+       "a": 1
+      }
+     ]
+    }
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Draft quotation (0 lines)\n2. Draft invoice: T (0 lines)\n3. Draft quotation (1 line)\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "record_change",
+    "action": "update",
+    "object_type": "contact",
+    "label": "John",
+    "after": {
+     "phone": "1"
+    },
+    "record_id": "r1",
+    "display": {
+     "organization_id": "Globex Corp",
+     "name": "x",
+     "lead_id": "Lead A"
+    }
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Update contact: John (linked to Globex Corp, Lead A)\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "record_change",
+    "action": "update",
+    "object_type": "contact",
+    "label": "John",
+    "after": {
+     "phone": "1"
+    },
+    "record_id": "r1",
+    "display": {
+     "organization_id": "Globex Corp",
+     "name": "x",
+     "lead_id": "Lead A"
+    }
+   },
+   {
+    "kind": "record_change"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Update contact: John (linked to Globex Corp, Lead A)\n2. Change record\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "record_change",
+    "action": "update",
+    "object_type": "contact",
+    "label": "John",
+    "after": {
+     "phone": "1"
+    },
+    "record_id": "r1",
+    "display": {
+     "organization_id": "Globex Corp",
+     "name": "x",
+     "lead_id": "Lead A"
+    }
+   },
+   {
+    "kind": "record_change"
+   },
+   {
+    "kind": "record_change",
+    "action": "cREATE",
+    "label": ""
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Update contact: John (linked to Globex Corp, Lead A)\n2. Change record\n3. Create record\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "sop",
+    "title": "Returns",
+    "payload": {
+     "title": "Returns"
+    }
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. SOP draft: Returns\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "sop",
+    "title": "Returns",
+    "payload": {
+     "title": "Returns"
+    }
+   },
+   {
+    "kind": "sop"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. SOP draft: Returns\n2. SOP draft: untitled\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "sop",
+    "title": "Returns",
+    "payload": {
+     "title": "Returns"
+    }
+   },
+   {
+    "kind": "sop"
+   },
+   {
+    "kind": "customer_message",
+    "channel": "whatsapp",
+    "recipient": "David (+1 555 0199)",
+    "text": "Hello\nthere"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. SOP draft: Returns\n2. SOP draft: untitled\n3. Send WhatsApp to David (+1 555 0199) as Nary:\n> Hello\n> there\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "customer_message",
+    "channel": "email",
+    "to": "a@b.c",
+    "subject": "Hi",
+    "text": "Dear\n\nX",
+    "attachments": [
+     "Quotation Q-1.pdf",
+     "Spec.pdf"
+    ],
+    "warning": "first message",
+    "attach": [
+     {
+      "type": "q",
+      "id": "1"
+     }
+    ],
+    "chat_id": null,
+    "thread_id": "t1",
+    "contact_id": "c1"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Send email to a@b.c as Nary, subject \"Hi\" (first message):\n> Dear\n> \n> X\nAttached: Quotation Q-1.pdf, Spec.pdf\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "customer_message",
+    "channel": "email",
+    "to": "a@b.c",
+    "subject": "Hi",
+    "text": "Dear\n\nX",
+    "attachments": [
+     "Quotation Q-1.pdf",
+     "Spec.pdf"
+    ],
+    "warning": "first message",
+    "attach": [
+     {
+      "type": "q",
+      "id": "1"
+     }
+    ],
+    "chat_id": null,
+    "thread_id": "t1",
+    "contact_id": "c1"
+   },
+   {
+    "kind": "customer_message"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Send email to a@b.c as Nary, subject \"Hi\" (first message):\n> Dear\n> \n> X\nAttached: Quotation Q-1.pdf, Spec.pdf\n2. Send WhatsApp to None as Nary:\n\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "customer_message",
+    "channel": "email",
+    "to": "a@b.c",
+    "subject": "Hi",
+    "text": "Dear\n\nX",
+    "attachments": [
+     "Quotation Q-1.pdf",
+     "Spec.pdf"
+    ],
+    "warning": "first message",
+    "attach": [
+     {
+      "type": "q",
+      "id": "1"
+     }
+    ],
+    "chat_id": null,
+    "thread_id": "t1",
+    "contact_id": "c1"
+   },
+   {
+    "kind": "customer_message"
+   },
+   {
+    "kind": "meeting",
+    "summary": "Book Acme x Globex",
+    "message": {
+     "text": "Join {link}\nsee you"
+    },
+    "title": "Acme x GX",
+    "start": "2026-10-16T11:00:00+07:00",
+    "duration_minutes": 30,
+    "staff_ids": [
+     "a"
+    ],
+    "customer_email": "d@g.test",
+    "lead_id": null,
+    "deal_id": "d1",
+    "contact_id": null
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Send email to a@b.c as Nary, subject \"Hi\" (first message):\n> Dear\n> \n> X\nAttached: Quotation Q-1.pdf, Spec.pdf\n2. Send WhatsApp to None as Nary:\n\n3. Book Acme x Globex:\n> Join (the Meet link, made when you confirm)\n> see you\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "meeting",
+    "summary": "No message"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. No message\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "meeting",
+    "summary": "No message"
+   },
+   {
+    "kind": "meeting"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. No message\n2. None\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "meeting",
+    "summary": "No message"
+   },
+   {
+    "kind": "meeting"
+   },
+   {
+    "kind": "nary_action",
+    "action": "meeting.cancel",
+    "payload": {
+     "meeting_id": "m1"
+    },
+    "summary": "Cancel TEST"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. No message\n2. None\n3. Cancel TEST\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "nary_action",
+    "summary": "With msg",
+    "message": {
+     "text": "Line 1\nLine 2"
+    },
+    "action": "x",
+    "payload": {}
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. With msg:\n> Line 1\n> Line 2\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "nary_action",
+    "summary": "With msg",
+    "message": {
+     "text": "Line 1\nLine 2"
+    },
+    "action": "x",
+    "payload": {}
+   },
+   {
+    "kind": "nary_decision",
+    "card_id": "c1",
+    "decision": "apply",
+    "summary": "Apply card"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. With msg:\n> Line 1\n> Line 2\n2. Apply card\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "nary_action",
+    "summary": "With msg",
+    "message": {
+     "text": "Line 1\nLine 2"
+    },
+    "action": "x",
+    "payload": {}
+   },
+   {
+    "kind": "nary_decision",
+    "card_id": "c1",
+    "decision": "apply",
+    "summary": "Apply card"
+   },
+   {
+    "kind": "nary_topic_answer",
+    "topic_id": "t1",
+    "answer": "yes",
+    "tier_pct": 5
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. With msg:\n> Line 1\n> Line 2\n2. Apply card\n3. nary topic answer\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "proposal_change",
+    "document_id": "d1",
+    "instruction": "shorter"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. proposal change\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "proposal_change",
+    "document_id": "d1",
+    "instruction": "shorter"
+   },
+   {
+    "kind": "nary_pause",
+    "paused": true,
+    "summary": "Pause"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. proposal change\n2. Pause\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "proposal_change",
+    "document_id": "d1",
+    "instruction": "shorter"
+   },
+   {
+    "kind": "nary_pause",
+    "paused": true,
+    "summary": "Pause"
+   },
+   {
+    "kind": "nary_pause"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. proposal change\n2. Pause\n3. nary pause\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "chat_link",
+    "chat_id": "818@c.us",
+    "contact_id": "c1",
+    "summary": "Link the WhatsApp chat"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Link the WhatsApp chat\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "chat_link",
+    "chat_id": "818@c.us",
+    "contact_id": "c1",
+    "summary": "Link the WhatsApp chat"
+   },
+   {
+    "kind": "reminder_change",
+    "reminder_id": "r1",
+    "action": "snooze",
+    "until": "2026-10-20"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Link the WhatsApp chat\n2. reminder change\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "chat_link",
+    "chat_id": "818@c.us",
+    "contact_id": "c1",
+    "summary": "Link the WhatsApp chat"
+   },
+   {
+    "kind": "reminder_change",
+    "reminder_id": "r1",
+    "action": "snooze",
+    "until": "2026-10-20"
+   },
+   {
+    "kind": "reminder_change",
+    "reminder_id": "r1",
+    "action": "cancel"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. Link the WhatsApp chat\n2. reminder change\n3. reminder change\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "debrief",
+    "meeting_id": "m",
+    "deal_id": null,
+    "text": "t",
+    "source": "chat"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. debrief\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "debrief",
+    "meeting_id": "m",
+    "deal_id": null,
+    "text": "t",
+    "source": "chat"
+   },
+   {
+    "kind": "followup_reminder",
+    "title": "Call Globex Corp",
+    "note": null,
+    "entity_type": "whatsapp_chat",
+    "entity_id": null,
+    "chat_id": "81@c.us",
+    "due_at": "2026-10-17T00:00:00+00:00",
+    "summary": "Remind you"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. debrief\n2. Remind you\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "debrief",
+    "meeting_id": "m",
+    "deal_id": null,
+    "text": "t",
+    "source": "chat"
+   },
+   {
+    "kind": "followup_reminder",
+    "title": "Call Globex Corp",
+    "note": null,
+    "entity_type": "whatsapp_chat",
+    "entity_id": null,
+    "chat_id": "81@c.us",
+    "due_at": "2026-10-17T00:00:00+00:00",
+    "summary": "Remind you"
+   },
+   {
+    "kind": "research",
+    "object_type": "lead",
+    "record_id": "l1"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. debrief\n2. Remind you\n3. research\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "research"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. research\nReply 1 to confirm, 0 to skip."
+ },
+ {
+  "props": [
+   {
+    "kind": "research"
+   },
+   {
+    "kind": "some_kind_x",
+    "label": "lbl"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. research\n2. lbl\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ },
+ {
+  "props": [
+   {
+    "kind": "research"
+   },
+   {
+    "kind": "some_kind_x",
+    "label": "lbl"
+   },
+   {
+    "kind": "a_b_c"
+   }
+  ],
+  "out": "*Waiting for your yes:*\n1. research\n2. lbl\n3. a b c\nReply with the numbers to confirm (e.g. 1 3), 0 to skip all."
+ }
+]

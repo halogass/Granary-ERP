@@ -1,0 +1,62 @@
+[
+ {
+  "in": {
+   "title": "Warranty",
+   "sop_code": null,
+   "summary": null,
+   "content": null,
+   "sop_steps": null
+  },
+  "out": "Warranty"
+ },
+ {
+  "in": {
+   "title": null,
+   "sop_code": "SOP-001",
+   "summary": "Sum",
+   "content": "# Body\n\n*x*",
+   "sop_steps": [
+    {
+     "title": "Step 1",
+     "description": "Do it",
+     "responsible": "Ops"
+    },
+    {
+     "title": "",
+     "description": ""
+    },
+    "not a dict",
+    {
+     "title": 5,
+     "responsible": null
+    },
+    {}
+   ]
+  },
+  "out": "(SOP-001)\n\nSum\n\n Body\n\n x \n\nStep 1 Do it Ops\n\n5 None"
+ },
+ {
+  "in": {
+   "title": "T",
+   "sop_code": "",
+   "summary": "",
+   "content": "c",
+   "sop_steps": []
+  },
+  "out": "T\n\nc"
+ },
+ {
+  "in": {
+   "title": "",
+   "sop_code": null,
+   "summary": null,
+   "content": null,
+   "sop_steps": [
+    {
+     "description": "only"
+    }
+   ]
+  },
+  "out": "only"
+ }
+]
