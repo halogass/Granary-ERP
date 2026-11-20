@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/halogass/Granary-ERP/discussions
+    about: Ask how to do something or discuss an idea in Discussions.
+  - name: Documentation
+    url: https://github.com/halogass/Granary-ERP/wiki
+    about: Installation, first steps and a guide to every module.
+  - name: Report a security vulnerability
+    url: https://github.com/halogass/Granary-ERP/security/advisories/new
+    about: Please report security problems privately, never in a public issue.
