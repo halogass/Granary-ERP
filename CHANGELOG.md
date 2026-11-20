@@ -3,6 +3,16 @@
 All notable changes to Granary are listed here. Granary follows [Semantic Versioning](https://semver.org/): from
 1.0.0 on, every upgrade keeps your data (database changes always ship as migrations).
 
+## 1.0.1 (2026-11-21)
+
+### Fixed
+- Messaging: thread panels, conversation previews, the dashboard widget and notifications showed raw `<#deal:...>`
+  and `<@user:...>` tokens; they now show the same chips (or readable labels) as the channel view, and thread replies
+  show their attachments.
+- Nary approvals: editing a WhatsApp reply, email reply or customer message opens a plain message box (and the
+  subject for email) instead of a raw JSON editor; after "Apply edited" the card shows the edited text; the Waiting
+  count and the menu badge update at once.
+
 ## 1.0.0 (2026-11-21)
 
 The first public release.

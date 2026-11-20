@@ -15,11 +15,47 @@ export function shown(v: unknown): boolean {
   return true;
 }
 
-/** The message text a card sends: its own, or the one inside an agent's (MCP) proposal. */
+/** The count on an approvals status chip: the cards still in that status, so a card decided there leaves it at once. */
+export function waitingCount(cards: Pick<NaryCard, "status">[], status: string): number {
+  return cards.filter((c) => c.status === status).length;
+}
+
+/** The payload the card acts on: the person's edit once there is one, else Nary's draft. */
+export function cardPayload(card: NaryCard): Obj {
+  return isObj(card.edited_payload) ? card.edited_payload : (card.payload ?? {});
+}
+
+/** The object holding a message's text: the payload itself, or an agent's (MCP) proposal inside it. */
+function messageHolder(card: NaryCard, payload: Obj): Obj | null {
+  if (typeof payload.text === "string") return payload;
+  const inner = card.action === "mcp.proposal" && isObj(payload.proposal) ? payload.proposal : null;
+  return inner && typeof inner.text === "string" ? inner : null;
+}
+
+/** The message text a card sends (the edited text once the card was edited). */
 export function cardText(card: NaryCard): string | null {
-  if (typeof card.payload?.text === "string") return card.payload.text;
-  const inner = card.action === "mcp.proposal" && isObj(card.payload?.proposal) ? card.payload.proposal : null;
-  return inner && typeof inner.text === "string" ? inner.text : null;
+  const holder = messageHolder(card, cardPayload(card));
+  return holder ? (holder.text as string) : null;
+}
+
+/**
+ * A message card (WhatsApp reply, email reply, an agent's customer message) is edited in a plain form: the
+ * text, and the subject when the email has one. `subject` is null when there is no subject to edit.
+ */
+export interface MessageEdit { text: string; subject: string | null }
+
+export function messageEdit(card: NaryCard): MessageEdit | null {
+  const holder = messageHolder(card, cardPayload(card));
+  if (!holder) return null;
+  return { text: holder.text as string, subject: typeof holder.subject === "string" ? holder.subject : null };
+}
+
+/** The whole payload with only the message text (and subject) replaced; every other field stays as it was. */
+export function editedMessagePayload(card: NaryCard, edit: MessageEdit): Obj {
+  const payload = cardPayload(card);
+  const patch = (o: Obj): Obj => ({ ...o, text: edit.text, ...(edit.subject !== null ? { subject: edit.subject } : {}) });
+  if (typeof payload.text === "string") return patch(payload);
+  return { ...payload, proposal: patch(payload.proposal as Obj) };
 }
 
 // the keys of an agent's proposal that are bookkeeping (the API leaves them off newer cards too)
@@ -60,10 +96,15 @@ export function cardDiff(card: NaryCard): Diff | null {
   const d = card.diff;
   if (!d) return null;
   const after = d.after;
-  if (card.action === "mcp.proposal" && after && Object.keys(after).length === 1 && isObj(after.proposal)) {
-    return { ...d, after: proposalFields(after.proposal) };
-  }
-  return d;
+  const out = card.action === "mcp.proposal" && after && Object.keys(after).length === 1 && isObj(after.proposal)
+    ? { ...d, after: proposalFields(after.proposal) } : d;
+  // an edited message card shows the text and subject the person wrote, not Nary's draft
+  const edit = card.edited_payload ? messageEdit(card) : null;
+  if (!edit || !out.after) return out;
+  const edited = { ...out.after };
+  if ("text" in edited) edited.text = edit.text;
+  if ("subject" in edited && edit.subject !== null) edited.subject = edit.subject;
+  return { ...out, after: edited };
 }
 
 const LABELS: Record<string, string> = {

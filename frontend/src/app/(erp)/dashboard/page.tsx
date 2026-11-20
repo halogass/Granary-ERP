@@ -11,6 +11,7 @@ import { formatCurrency } from "@/lib/currency";
 import { NARY_VIEW } from "@/components/nary/NaryTabs";
 import type { NaryCard } from "@/components/nary/types";
 import type { MeetingRow } from "@/components/nary/Meetings";
+import { mentionsToPlainText } from "@/lib/messageMentions";
 import {
   Button, Card, CardHeader, CountBadge, DataTable, PageHeader, Stat, StatGroup, StatusPill, type ColumnDef,
 } from "@/components/ui";
@@ -312,7 +313,7 @@ export default function DashboardPage() {
                   </div>
                   <div className="min-w-0 flex-1">
                     <p className="truncate text-sm font-medium text-fg">{c.other_user_name}</p>
-                    {c.last_message && <p className="truncate text-xs text-fg-muted">{c.last_message}</p>}
+                    {c.last_message && <p className="truncate text-xs text-fg-muted">{mentionsToPlainText(c.last_message)}</p>}
                   </div>
                   <div className="flex shrink-0 flex-col items-end gap-1">
                     {c.last_message_at && <span className="text-[11px] text-fg-subtle tabular">{timeAgo(c.last_message_at)}</span>}

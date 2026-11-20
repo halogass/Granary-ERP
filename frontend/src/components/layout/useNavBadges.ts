@@ -65,7 +65,9 @@ function useFetchBadges(): Badges {
     };
     refresh();
     const timer = setInterval(refresh, 60_000);
-    return () => { alive = false; clearInterval(timer); };
+    // a card decided on the approvals page (CardView) counts again at once
+    window.addEventListener("nary:changed", refresh);
+    return () => { alive = false; clearInterval(timer); window.removeEventListener("nary:changed", refresh); };
   }, [naryViewer]);
 
   return { approvals, crm_email: crmEmail, nary };

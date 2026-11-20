@@ -17,6 +17,7 @@ import { DropdownMenu, MenuItem, MenuRadioGroup, MenuSeparator } from "@/compone
 import { Kbd } from "@/components/ui/Feedback";
 import { Dialog } from "@/components/ui/Dialog";
 import { openCommandPalette } from "./CommandPalette";
+import { mentionsToPlainText } from "@/lib/messageMentions";
 
 interface TopbarProps {
   user: { name: string; email: string; is_superadmin: boolean; portal_type: string };
@@ -367,7 +368,7 @@ export default function Topbar({ user }: TopbarProps) {
                             <p className={cn("text-[13px] leading-snug", n.is_read ? "text-fg-muted" : "font-semibold text-fg")}>
                               {n.title}
                             </p>
-                            {n.body && <p className="mt-0.5 line-clamp-2 text-xs text-fg-muted">{n.body}</p>}
+                            {n.body && <p className="mt-0.5 line-clamp-2 text-xs text-fg-muted">{mentionsToPlainText(n.body)}</p>}
                             <p className="mt-1 text-xs text-fg-subtle">{timeAgo(n.created_at)}</p>
                           </div>
                           <div className="flex shrink-0 items-center gap-0.5">

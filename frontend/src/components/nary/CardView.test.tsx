@@ -8,6 +8,7 @@ vi.mock("@/lib/api", () => ({ naryApi: { decide: (...a: unknown[]) => decide(...
 
 import CardView from "./CardView";
 import type { NaryCard } from "./types";
+import { waitingCount } from "./cardDetails";
 
 const card = (over: Partial<NaryCard> = {}): NaryCard => ({
   id: "c1", action: "crm.record_change", label: "Create or update a CRM record", origin: "nary", status: "pending",
@@ -185,5 +186,80 @@ describe("Nary approval card", () => {
   it("a record change saved without a currency still groups the digits", () => {
     render(<CardView card={card({ diff: { label: "Deal", before: { value: 3980000 }, after: { value: 3400000 } } })} onDone={() => {}} />);
     expect(screen.getByText("3,400,000")).toBeInTheDocument();
+  });
+
+  // 21 Nov 2026: Edit on a WhatsApp reply opened a raw JSON editor, and after "Apply edited" the card kept
+  // showing Nary's original draft
+  describe("editing a message card", () => {
+    const wa = (over: Partial<NaryCard> = {}) => card({
+      action: "whatsapp.reply.send", label: "Send a WhatsApp reply", customer_facing: true, diff: null,
+      payload: { channel: "whatsapp", chat_id: "62811@c.us", contact_id: "k1", text: "Hello, the quote is ready.", by_owner: false },
+      ...over,
+    });
+
+    it("edits the WhatsApp text in a plain box and keeps the other fields", async () => {
+      const edited = { channel: "whatsapp", chat_id: "62811@c.us", contact_id: "k1", text: "Hi Budi, the quote is attached.", by_owner: false };
+      decide.mockResolvedValue({ data: wa({ status: "applied", edited_payload: edited }) });
+      let shown: NaryCard | null = null;
+      const { rerender } = render(<CardView card={wa()} onDone={(c) => { shown = c; }} />);
+      await userEvent.click(screen.getByRole("button", { name: /edit/i }));
+      expect(screen.queryByLabelText("Edited payload")).not.toBeInTheDocument();
+      const box = screen.getByRole("textbox", { name: "Message" });
+      expect(box).toHaveValue("Hello, the quote is ready.");
+      await userEvent.clear(box);
+      await userEvent.type(box, "Hi Budi, the quote is attached.");
+      await userEvent.click(screen.getByRole("button", { name: /apply edited/i }));
+      expect(decide).toHaveBeenCalledWith("c1", { decision: "apply", edited_payload: edited, reason: undefined });
+      rerender(<CardView card={shown!} onDone={() => {}} />);
+      expect(screen.getByText("Hi Budi, the quote is attached.")).toBeInTheDocument();
+      expect(screen.queryByText("Hello, the quote is ready.")).not.toBeInTheDocument();
+    });
+
+    it("an email reply also edits its subject", async () => {
+      decide.mockResolvedValue({ data: wa({ status: "applied" }) });
+      const payload = { channel: "email", thread_id: "t1", subject: "Re: CCTV", cc: ["a@b.co"], text: "Dear Sir," };
+      render(<CardView card={wa({ action: "email.reply.send", payload })} onDone={() => {}} />);
+      await userEvent.click(screen.getByRole("button", { name: /edit/i }));
+      const subject = screen.getByRole("textbox", { name: "Subject" });
+      await userEvent.clear(subject);
+      await userEvent.type(subject, "Re: CCTV quotation");
+      await userEvent.click(screen.getByRole("button", { name: /apply edited/i }));
+      expect(decide).toHaveBeenCalledWith("c1", { decision: "apply", reason: undefined,
+        edited_payload: { ...payload, subject: "Re: CCTV quotation" } });
+    });
+
+    it("an agent's customer message edits the text inside its proposal", async () => {
+      decide.mockResolvedValue({ data: wa({ status: "applied" }) });
+      const payload = { proposal: { kind: "customer_message", channel: "whatsapp", chat_id: "1@c.us", text: "Old" }, note: "x" };
+      render(<CardView card={wa({ action: "mcp.proposal", origin: "mcp", payload })} onDone={() => {}} />);
+      await userEvent.click(screen.getByRole("button", { name: /edit/i }));
+      expect(screen.queryByRole("textbox", { name: "Subject" })).not.toBeInTheDocument();
+      const box = screen.getByRole("textbox", { name: "Message" });
+      await userEvent.clear(box);
+      await userEvent.type(box, "New");
+      await userEvent.click(screen.getByRole("button", { name: /apply edited/i }));
+      expect(decide).toHaveBeenCalledWith("c1", { decision: "apply", reason: undefined,
+        edited_payload: { proposal: { ...payload.proposal, text: "New" }, note: "x" } });
+    });
+
+    it("an empty message is not sent", async () => {
+      render(<CardView card={wa()} onDone={() => {}} />);
+      await userEvent.click(screen.getByRole("button", { name: /edit/i }));
+      await userEvent.clear(screen.getByRole("textbox", { name: "Message" }));
+      await userEvent.click(screen.getByRole("button", { name: /apply edited/i }));
+      expect(decide).not.toHaveBeenCalled();
+      expect(screen.getByText(/can't be empty/)).toBeInTheDocument();
+    });
+
+    it("a card without a form keeps the JSON editor as the advanced fallback", async () => {
+      render(<CardView card={card()} onDone={() => {}} />);
+      await userEvent.click(screen.getByRole("button", { name: /edit/i }));
+      expect(screen.getByLabelText("Edited payload")).toBeInTheDocument();
+      expect(screen.getByText(/Advanced/)).toBeInTheDocument();
+    });
+  });
+
+  it("the Waiting count leaves out a card once it is decided", () => {
+    expect(waitingCount([{ status: "pending" }, { status: "applied" }, { status: "pending" }], "pending")).toBe(2);
   });
 });

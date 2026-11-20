@@ -1,13 +1,14 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { MessageSquare, Download, Film, FileText, ScrollText, CheckCheck, RotateCcw, Clock, ChevronDown, ChevronUp } from "lucide-react";
 import { messagingApi } from "@/lib/api";
 import { safeHref } from "@/lib/sanitize";
 import Avatar from "@/components/common/Avatar";
 import { Button, Pill, Skeleton, StatusPill, type Tone } from "@/components/ui";
 import { cn } from "@/lib/utils";
+import { mentionsToPlainText } from "@/lib/messageMentions";
+import MessageContent from "./MessageContent";
 
 const COMMON_EMOJIS = ["👍", "❤️", "😂", "🎉", "🔥", "👏", "😍", "🚀", "💯", "✅"];
 
@@ -52,103 +53,6 @@ export interface Message {
   receiver_id?: string;
   memo_id?: string;
   memo?: MemoData;
-}
-
-// Mention token to route map
-const ENTITY_ROUTE: Record<string, (id: string) => string> = {
-  user: (id) => `/team/${id}`,
-  project: (id) => `/projects/${id}`,
-  deal: (id) => `/crm/deals/${id}`,
-  sop: (id) => `/knowledge/${id}`,
-  product: (id) => `/products/${id}`,
-};
-
-const MENTION_CHIP_COLORS: Record<string, string> = {
-  user: "bg-tone-violet-soft text-tone-violet",
-  project: "bg-tone-blue-soft text-tone-blue",
-  deal: "bg-tone-blue-soft text-tone-blue",
-  sop: "bg-tone-orange-soft text-tone-orange",
-  product: "bg-tone-neutral-soft text-tone-neutral",
-};
-
-// Content parser
-function parseContent(raw: string, mentions: Message["mentions"]) {
-  // Build a lookup from token to mention metadata
-  const mentionMap: Record<string, { type: string; id: string; name: string }> = {};
-  for (const m of (mentions ?? [])) {
-    const key = m.type === "user" ? `<@user:${m.id}>` : `<#${m.type}:${m.id}>`;
-    mentionMap[key] = m;
-  }
-
-  // Split content into segments: text | mention-token | markdown
-  const parts: React.ReactNode[] = [];
-  let text = raw;
-
-  // Replace mention tokens
-  text = text.replace(/<@user:[0-9a-f-]{36}>|<#\w+:[0-9a-f-]{36}>/g, (match) => `\x00${match}\x00`);
-
-  const segments = text.split("\x00");
-  for (let i = 0; i < segments.length; i++) {
-    const seg = segments[i];
-    if (seg.match(/^<[@#]/)) {
-      const m = mentionMap[seg];
-      if (m) {
-        parts.push(
-          <MentionChip key={`m-${i}`} type={m.type} id={m.id} name={m.name} />
-        );
-      } else {
-        // Fallback: try to extract type/id from token
-        const userMatch = seg.match(/^<@user:([0-9a-f-]{36})>$/);
-        const entityMatch = seg.match(/^<#(\w+):([0-9a-f-]{36})>$/);
-        if (userMatch) {
-          parts.push(<MentionChip key={`m-${i}`} type="user" id={userMatch[1]} name="@user" />);
-        } else if (entityMatch) {
-          parts.push(<MentionChip key={`m-${i}`} type={entityMatch[1]} id={entityMatch[2]} name={`#${entityMatch[1]}`} />);
-        } else {
-          parts.push(<span key={`t-${i}`}>{seg}</span>);
-        }
-      }
-    } else if (seg) {
-      parts.push(<MarkdownText key={`t-${i}`} text={seg} />);
-    }
-  }
-
-  return parts;
-}
-
-function MentionChip({ type, id, name }: { type: string; id: string; name: string }) {
-  const router = useRouter();
-  const route = ENTITY_ROUTE[type]?.(id);
-  const colorClass = MENTION_CHIP_COLORS[type] ?? "bg-tone-neutral-soft text-tone-neutral";
-  const prefix = type === "user" ? "@" : "#";
-  const cls = cn("inline-flex items-center rounded px-1.5 py-0.5 text-xs font-medium", colorClass);
-  if (!route) return <span className={cls}>{prefix}{name}</span>;
-  return (
-    <button type="button" onClick={() => router.push(route)} className={cn(cls, "hover:opacity-80")}>
-      {prefix}{name}
-    </button>
-  );
-}
-
-function escapeHtml(s: string): string {
-  return s
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
-}
-
-function MarkdownText({ text }: { text: string }) {
-  // Escape HTML first, then apply safe markdown substitutions
-  const rendered = escapeHtml(text)
-    .replace(/```([\s\S]*?)```/g, '<pre class="bg-surface-2 text-fg border border-line rounded-lg px-3 py-2 my-1 text-xs overflow-x-auto font-mono whitespace-pre-wrap">$1</pre>')
-    .replace(/`([^`]+)`/g, '<code class="bg-surface-2 text-fg rounded px-1 py-0.5 text-xs font-mono">$1</code>')
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/_(.+?)_/g, "<em>$1</em>")
-    .replace(/\n/g, "<br>");
-
-  return <span dangerouslySetInnerHTML={{ __html: rendered }} />;
 }
 
 // Attachment renderers
@@ -481,6 +385,16 @@ function MemoCard({ msg, myId, onMemoChange }: {
   );
 }
 
+/** The attachment under a message (image, video or file), shared by the channel view and the thread panel. */
+export function MessageAttachment({ msg }: { msg: Pick<Message, "message_type" | "file_url" | "file_name" | "file_size" | "mime_type"> }) {
+  const url = safeHref(msg.file_url);
+  if (!url) return null;
+  if (msg.message_type === "image") return <ImageAttachment url={url} name={msg.file_name} />;
+  if (msg.message_type === "video") return <VideoAttachment url={url} name={msg.file_name} />;
+  if (msg.message_type === "file") return <FileAttachment url={url} name={msg.file_name} size={msg.file_size} mime={msg.mime_type} />;
+  return null;
+}
+
 // Main MessageBubble
 interface BubbleProps {
   msg: Message;
@@ -497,7 +411,7 @@ export default function MessageBubble({ msg, isMe, showAvatar, myId, reactions =
   const [hover, setHover] = useState(false);
 
   const isHighlighted = searchQuery
-    ? msg.content.toLowerCase().includes(searchQuery.toLowerCase())
+    ? mentionsToPlainText(msg.content, msg.mentions).toLowerCase().includes(searchQuery.toLowerCase())
     : false;
 
   // Formal memos render as a special full-width card, not a chat bubble
@@ -541,18 +455,9 @@ export default function MessageBubble({ msg, isMe, showAvatar, myId, reactions =
         {/* Bubble */}
         <div className={cn("rounded-lg border px-3.5 py-2 text-sm leading-relaxed text-fg",
           isMe ? "rounded-br-sm border-brand/20 bg-brand/[0.07]" : "rounded-bl-sm border-line bg-surface")}>
-          {parseContent(msg.content, msg.mentions)}
+          <MessageContent content={msg.content} mentions={msg.mentions} />
 
-          {/* Attachments */}
-          {msg.message_type === "image" && safeHref(msg.file_url) && (
-            <ImageAttachment url={safeHref(msg.file_url)!} name={msg.file_name} />
-          )}
-          {msg.message_type === "video" && safeHref(msg.file_url) && (
-            <VideoAttachment url={safeHref(msg.file_url)!} name={msg.file_name} />
-          )}
-          {msg.message_type === "file" && safeHref(msg.file_url) && (
-            <FileAttachment url={safeHref(msg.file_url)!} name={msg.file_name} size={msg.file_size} mime={msg.mime_type} />
-          )}
+          <MessageAttachment msg={msg} />
         </div>
 
         {/* Metadata row */}

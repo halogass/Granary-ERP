@@ -6,6 +6,7 @@ import { channelApi } from "@/lib/api";
 import Avatar from "@/components/common/Avatar";
 import { Button, CountBadge, Dialog, Field, IconButton, Input } from "@/components/ui";
 import { cn } from "@/lib/utils";
+import { mentionsToPlainText } from "@/lib/messageMentions";
 
 export interface ChannelItem {
   id: string;
@@ -263,7 +264,7 @@ export default function Sidebar({
                     )}
                   </div>
                   <div className="mt-0.5 flex items-center justify-between">
-                    <p className="truncate pr-2 text-xs text-fg-muted">{conv.last_message ?? ""}</p>
+                    <p className="truncate pr-2 text-xs text-fg-muted">{mentionsToPlainText(conv.last_message)}</p>
                     <CountBadge count={conv.unread_count} className="shrink-0" />
                   </div>
                 </div>

@@ -7,6 +7,7 @@ import { naryApi } from "@/lib/api";
 import { extractApiError } from "@/lib/apiError";
 import NaryTabs from "@/components/nary/NaryTabs";
 import CardView from "@/components/nary/CardView";
+import { waitingCount } from "@/components/nary/cardDetails";
 import type { NaryCard } from "@/components/nary/types";
 import { Button, Checkbox, EmptyState, FilterChips, Skeleton } from "@/components/ui";
 
@@ -53,7 +54,7 @@ function Approvals() {
       <NaryTabs subtitle="What Nary wants to do. Apply, edit or reject; each decision teaches it." />
       <div className="mb-3 overflow-hidden rounded-lg border border-line">
         <FilterChips className="border-b-0"
-          chips={STATUSES.map(([k, label]) => ({ id: k, label, active: status === k, count: status === k && !loading ? cards.length : undefined }))}
+          chips={STATUSES.map(([k, label]) => ({ id: k, label, active: status === k, count: status === k && !loading ? waitingCount(cards, k) : undefined }))}
           onToggle={(id) => setStatus(id)}>
           {selectable.length > 1 && (
             <Checkbox label="Select all" checked={allOn}

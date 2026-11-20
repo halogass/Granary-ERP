@@ -8,7 +8,10 @@ import { settleCard } from "@/lib/longWork";
 import { Button, Checkbox, Input, StatusPill, Textarea } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import { LEVEL_LABELS, type NaryCard } from "./types";
-import { cardCurrency, cardDiff, cardText, cardTitle, DiffValue, fieldLabel, KickoffDetails, shown } from "./cardDetails";
+import {
+  cardCurrency, cardDiff, cardPayload, cardText, cardTitle, DiffValue, editedMessagePayload, fieldLabel, KickoffDetails,
+  messageEdit, shown,
+} from "./cardDetails";
 
 const STATUS_LABEL: Record<string, string> = {
   pending: "Waiting for you", scheduled: "Scheduled", shadow: "Shadow draft", applying: "Applying",
@@ -19,7 +22,11 @@ export default function CardView({ card, selected, onSelect, onDone }: {
   card: NaryCard; selected?: boolean; onSelect?: (on: boolean) => void; onDone: (c: NaryCard) => void;
 }) {
   const [mode, setMode] = useState<"view" | "edit" | "reject">("view");
-  const [draft, setDraft] = useState(JSON.stringify(card.payload, null, 2));
+  // a message card (WhatsApp/email reply, an agent's customer message) is edited as text; other kinds as JSON
+  const message = messageEdit(card);
+  const [msgText, setMsgText] = useState(message?.text ?? "");
+  const [msgSubject, setMsgSubject] = useState(message?.subject ?? "");
+  const [draft, setDraft] = useState(JSON.stringify(cardPayload(card), null, 2));
   const [reason, setReason] = useState("");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -38,18 +45,34 @@ export default function CardView({ card, selected, onSelect, onDone }: {
   // 21 Nov 2026: the kickoff has its own layout (project, PM, customer, tasks, handoff package)
   const kickoff = card.action === "handoff.kickoff";
 
+  // the editor starts from what the card shows now (its last edit, if any)
+  const startEdit = () => {
+    setMsgText(message?.text ?? "");
+    setMsgSubject(message?.subject ?? "");
+    setDraft(JSON.stringify(cardPayload(card), null, 2));
+    setError(null);
+    setMode("edit");
+  };
+
   const decide = async (decision: "apply" | "reject") => {
     setBusy(true); setError(null);
     try {
       let edited: unknown;
       if (decision === "apply" && mode === "edit") {
-        try { edited = JSON.parse(draft); } catch { setError("The edited payload isn't valid JSON."); setBusy(false); return; }
+        if (message) {
+          if (!msgText.trim()) { setError("The message can't be empty."); setBusy(false); return; }
+          edited = editedMessagePayload(card, { text: msgText, subject: message.subject !== null ? msgSubject : null });
+        } else {
+          try { edited = JSON.parse(draft); } catch { setError("The edited payload isn't valid JSON."); setBusy(false); return; }
+        }
       }
       const res = await naryApi.decide(card.id, { decision, edited_payload: edited, reason: decision === "reject" ? reason : undefined });
       const final = await settleCard(res, () => setWorking(true));
       if (final.status === "failed") setError(final.detail || final.error || "It couldn't be applied.");
       onDone(final);
       setMode("view");
+      // the Waiting badge in the menu counts again now rather than at its next minute
+      window.dispatchEvent(new Event("nary:changed"));
     } catch (e) {
       setError(extractApiError(e));
     } finally { setBusy(false); setWorking(false); }
@@ -107,9 +130,21 @@ export default function CardView({ card, selected, onSelect, onDone }: {
         <p className="mt-2 text-xs text-fg-muted">Actually sent ({card.diff_ratio}% different): {card.actual_text}</p>
       )}
 
-      {mode === "edit" && (
-        <Textarea value={draft} onChange={(e) => setDraft(e.target.value)} rows={8} aria-label="Edited payload"
-          className="mt-3 font-mono md:text-xs" />
+      {mode === "edit" && message && (
+        <div className="mt-3 space-y-2">
+          {message.subject !== null && (
+            <Input value={msgSubject} onChange={(e) => setMsgSubject(e.target.value)} aria-label="Subject"
+              placeholder="Subject" autoComplete="off" />
+          )}
+          <Textarea value={msgText} onChange={(e) => setMsgText(e.target.value)} rows={6} aria-label="Message" />
+        </div>
+      )}
+      {mode === "edit" && !message && (
+        <div className="mt-3">
+          <p className="mb-1 text-xs text-fg-muted">Advanced: this kind of card has no form, so its payload is edited as JSON.</p>
+          <Textarea value={draft} onChange={(e) => setDraft(e.target.value)} rows={8} aria-label="Edited payload"
+            className="font-mono md:text-xs" />
+        </div>
       )}
       {mode === "reject" && (
         <Input value={reason} onChange={(e) => setReason(e.target.value)} placeholder="Why? Nary learns from it"
@@ -137,7 +172,7 @@ export default function CardView({ card, selected, onSelect, onDone }: {
             </Button>
           )}
           {mode === "view" && (
-            <Button onClick={() => setMode("edit")}><Pencil aria-hidden /> Edit</Button>
+            <Button onClick={startEdit}><Pencil aria-hidden /> Edit</Button>
           )}
           {mode === "reject" ? (
             <Button variant="danger" disabled={busy || !reason.trim()} onClick={() => decide("reject")}>

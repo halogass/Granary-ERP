@@ -6,7 +6,8 @@ import Avatar from "@/components/common/Avatar";
 import { EmptyState, IconButton, Skeleton } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import { messagingApi } from "@/lib/api";
-import { Message } from "./MessageBubble";
+import { Message, MessageAttachment } from "./MessageBubble";
+import MessageContent from "./MessageContent";
 import Composer from "./Composer";
 import { MentionItem } from "./MentionDropdown";
 
@@ -66,7 +67,10 @@ export default function ThreadPanel({ rootMessage, myId, onClose, onSend }: Prop
           <Avatar name={rootMessage.sender_name} size="sm" />
           <div className="min-w-0">
             <p className="text-xs font-medium text-fg">{rootMessage.sender_name}</p>
-            <p className="mt-0.5 text-[13px] leading-relaxed text-fg">{rootMessage.content}</p>
+            <div className="mt-0.5 break-words text-[13px] leading-relaxed text-fg">
+              <MessageContent content={rootMessage.content} mentions={rootMessage.mentions} />
+              <MessageAttachment msg={rootMessage} />
+            </div>
             <p className="mt-1 text-xs text-fg-subtle tabular">{formatTime(rootMessage.created_at)}</p>
           </div>
         </div>
@@ -95,7 +99,8 @@ export default function ThreadPanel({ rootMessage, myId, onClose, onSend }: Prop
                   {!isMe && <p className="mb-0.5 text-xs font-medium text-fg-muted">{r.sender_name}</p>}
                   <div className={cn("rounded-lg border px-3 py-2 text-[13px] leading-relaxed text-fg",
                     isMe ? "border-brand/20 bg-brand/[0.07]" : "border-line bg-surface")}>
-                    {r.content}
+                    <MessageContent content={r.content} mentions={r.mentions} />
+                    <MessageAttachment msg={r} />
                   </div>
                   <span className="mt-0.5 text-xs text-fg-subtle tabular">{formatTime(r.created_at)}</span>
                 </div>
