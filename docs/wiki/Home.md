@@ -1,3 +1,5 @@
+<p align="center"><img src="images/granary-logo-128.png" alt="Granary logo" width="96"></p>
+
 # Granary
 
 <!-- nav:top -->

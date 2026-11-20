@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b82f6"/><stop offset="1" stop-color="#1e40af"/></linearGradient></defs>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <!-- a wheat ear: stem + 3 pairs of kernels + top kernel -->
+  <path d="M256 420 V170" stroke="#fff" stroke-width="22" stroke-linecap="round"/>
+  <g fill="#fff">
+    <ellipse cx="256" cy="128" rx="30" ry="50"/>
+    <ellipse cx="206" cy="210" rx="28" ry="48" transform="rotate(-38 206 210)"/>
+    <ellipse cx="306" cy="210" rx="28" ry="48" transform="rotate(38 306 210)"/>
+    <ellipse cx="206" cy="288" rx="28" ry="48" transform="rotate(-38 206 288)"/>
+    <ellipse cx="306" cy="288" rx="28" ry="48" transform="rotate(38 306 288)"/>
+  </g>
+  <!-- AI spark -->
+  <path d="M392 96 l10 26 26 10 -26 10 -10 26 -10 -26 -26 -10 26 -10z" fill="#bfdbfe"/>
+</svg>

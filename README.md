@@ -1,22 +1,41 @@
-# Granary
+<p align="center">
+  <img src="docs/images/brand/granary-banner.png" alt="Granary: the open-source ERP that thinks alongside your team" width="100%">
+</p>
 
-**The open-source ERP that thinks alongside your team.**
+<p align="center">
+  <a href="https://github.com/halogass/Granary-ERP/actions/workflows/ci.yml"><img src="https://github.com/halogass/Granary-ERP/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="#licence"><img src="https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue" alt="License: MIT OR Apache-2.0"></a>
+  <img src="https://img.shields.io/badge/backend-Rust-dea584?logo=rust&logoColor=white" alt="Backend: Rust">
+  <img src="https://img.shields.io/badge/frontend-Next.js-000000?logo=nextdotjs&logoColor=white" alt="Frontend: Next.js">
+  <img src="https://img.shields.io/badge/self--hosted-Docker%20Compose-2496ED?logo=docker&logoColor=white" alt="Self-hosted with Docker Compose">
+  <img src="https://img.shields.io/badge/AI-bring%20your%20own%20model-7c3aed" alt="AI: bring your own model">
+</p>
 
-Granary is a self-hosted ERP for small and mid-sized companies, with an AI assistant, **Nary**, built into its
+<p align="center">
+  <a href="https://github.com/halogass/Granary-ERP/wiki"><b>Wiki</b></a> ·
+  <a href="https://github.com/halogass/Granary-ERP/wiki/Installation">Install</a> ·
+  <a href="https://github.com/halogass/Granary-ERP/wiki/First-Steps">First steps</a> ·
+  <a href="https://github.com/halogass/Granary-ERP/wiki/AI-Across-Granary">AI across Granary</a> ·
+  <a href="https://github.com/halogass/Granary-ERP/discussions">Discussions</a> ·
+  <a href="CONTRIBUTING.md">Contributing</a> ·
+  <a href="SECURITY.md">Security</a>
+</p>
+
+Granary is a free, self-hosted ERP for small and mid-sized companies, with an AI assistant, **Nary**, built into its
 business processes rather than bolted on. Nary scores and researches your leads, drafts replies, quotations and
 proposals, reads the attachments customers send, follows up on quotations, prepares invoices and project kickoffs,
-and answers questions from your own SOPs and records. Every action that commits the company (a message to a
-customer, a price, an invoice, a merge) comes to a person as a card to approve first.
+and answers questions from your own SOPs and records. **Every action that commits the company (a message to a
+customer, a price, an invoice, a merge) comes to a person as a card to approve first.**
 
 One web application covers CRM and sales, finance, HR and payroll, projects, manufacturing and inventory,
 procurement, partners, marketing, messaging and video calls. The backend is Rust, the frontend Next.js, and the
 whole stack runs with Docker Compose on one server. Bring your own AI provider (Anthropic, OpenAI or any
 OpenAI-compatible API, Gemini, DeepSeek, or a local model through Ollama), or connect your own AI client over MCP.
 
-![Granary dashboard](docs/images/dashboard.png)
-
-**[Read the Wiki](https://github.com/halogass/Granary-ERP/wiki)** for installation, a guide to every module and
-the full map of what the AI does where.
+<p align="center">
+  <img src="docs/images/nary-approval-cards.png" alt="Nary's approval cards: a quotation drafted from a customer conversation and an email reply, each waiting for a person to apply it" width="100%">
+  <br><sub>Nary's work arrives as cards: here a quotation drafted from a customer conversation and an email reply, waiting for a person to apply them.</sub>
+</p>
 
 ---
 
