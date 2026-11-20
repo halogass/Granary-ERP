@@ -76,3 +76,7 @@ services/whatsapp/.wwebjs_cache/
 *.crt
 secrets/
 
+
+# Wiki images and capture manifests live in the GitHub Wiki repository, not here (keeps this repo small)
+/docs/wiki/images/
+/docs/wiki/_shots/

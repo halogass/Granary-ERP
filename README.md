@@ -1,10 +1,39 @@
 # Granary
 
-Granary is an open-source, self-hosted ERP for a small or mid-sized company. One web application covers CRM and
-sales, finance and accounting, HR and payroll, projects, manufacturing and inventory, procurement, partners,
-marketing, internal messaging and video calls, with an AI assistant, Nary, that works across all of it.
+**The open-source ERP that thinks alongside your team.**
 
-The backend is written in Rust, the frontend in Next.js. Everything runs with Docker Compose on one server.
+Granary is a self-hosted ERP for small and mid-sized companies, with an AI assistant, **Nary**, built into its
+business processes rather than bolted on. Nary scores and researches your leads, drafts replies, quotations and
+proposals, reads the attachments customers send, follows up on quotations, prepares invoices and project kickoffs,
+and answers questions from your own SOPs and records. Every action that commits the company (a message to a
+customer, a price, an invoice, a merge) comes to a person as a card to approve first.
+
+One web application covers CRM and sales, finance, HR and payroll, projects, manufacturing and inventory,
+procurement, partners, marketing, messaging and video calls. The backend is Rust, the frontend Next.js, and the
+whole stack runs with Docker Compose on one server. Bring your own AI provider (Anthropic, OpenAI or any
+OpenAI-compatible API, Gemini, DeepSeek, or a local model through Ollama), or connect your own AI client over MCP.
+
+![Granary dashboard](docs/images/dashboard.png)
+
+**[Read the Wiki](https://github.com/halogass/Granary-ERP/wiki)** for installation, a guide to every module and
+the full map of what the AI does where.
+
+---
+
+## AI across the ERP
+
+| Where | What Nary does |
+|---|---|
+| CRM | Scores leads (hot, warm, cold, with reasons and a next step), writes an AI brief of any record, enriches new organizations, researches companies and people on the web, finds duplicates, keeps deal notes (fit, negotiation hints, follow-up cadence) |
+| Inboxes | Triages incoming email and WhatsApp, takes in new leads from web forms, drafts replies, reads PDFs and images, transcribes voice notes on your own server |
+| Sales | Drafts quotations from a conversation (priced by your price lists and rules), drafts proposals with figures and a cost sheet, follows up on sent quotations, drafts the contract and the down-payment proforma when a customer accepts |
+| Finance and projects | Lists overdue invoices, summarizes revenue, drafts proformas and invoices, hands a won deal to delivery with a kickoff plan |
+| Knowledge | Answers from your published SOPs with citations, turns a PDF into an article, drafts SOP revisions, keeps an AI-only knowledge library |
+| Your own AI client | The same tools over MCP, signed in as a person and limited to that person's permissions |
+
+Nary's tools run with the signed-in person's permissions. Proposed changes arrive as cards you **Apply**, edit or
+dismiss, and you decide which kinds of action may later run on their own. The full map, including which actions
+save directly, is in [AI Across Granary](https://github.com/halogass/Granary-ERP/wiki/AI-Across-Granary).
 
 ---
 
@@ -29,7 +58,6 @@ The backend is written in Rust, the frontend in Next.js. Everything runs with Do
 | Knowledge | Markdown articles and SOPs with draft revisions and approval, a document library with versions and download watermarks, PDF import |
 | R&D | Product lines, projects, backlog, two-way GitLab issue sync |
 | Collaboration | Channels, threads, reactions, mentions and file uploads (WebSocket + Redis), a personal email client (per-user IMAP/SMTP), WebRTC video calls with TURN, guest join and recording |
-| Nary and AI | The assistant (chat panel and full page), an AI-only knowledge library, an MCP server for outside AI clients |
 | Administration | Users, roles and permissions, portal users, two-factor sign-in, settings for every business rule |
 
 Business numbers (tax rates, payroll contributions and wage caps, income tax brackets, approval limits, reminder
@@ -128,24 +156,21 @@ exists, so changing these values later has no effect.
 - **Secrets in Settings.** AI provider keys (Settings → Nary & AI → Providers & keys), mail passwords, the
   ExchangeRate-API key and the GitLab token are stored encrypted in the database, not in `.env`. When the API
   and the worker start, they log every secret (in `.env` or in Settings) that still holds a placeholder value
-  and notify the Owner.
+  and notify the Owner; `JWT_SECRET_KEY`, `APP_SECRET_KEY` and `NEXTAUTH_SECRET` must not hold a placeholder at all
+  (the API refuses to start).
 
 [Configuration](docs/CONFIGURATION.md) walks through every setting.
 
 ---
 
-## Nary and MCP
+## AI providers, MCP and WhatsApp
 
-**Nary** is the built-in AI assistant. It answers from the company's own data (SOPs, AI knowledge, CRM records,
-invoices, projects) through tools that run with the signed-in user's permissions. Anything that would change
-data (a quotation, an invoice, an SOP, a CRM change) comes back as a confirm card, and nothing is saved until a
-person confirms it. Nary can also take in new leads from email and web forms, draft replies and follow-ups, and
-queue its work for the Owner's approval. Providers: Anthropic, OpenAI and OpenAI-compatible endpoints, Gemini,
-DeepSeek and Ollama, chosen per job in Settings → Nary & AI, with a monthly budget cap.
+**Providers.** Anthropic, OpenAI and OpenAI-compatible endpoints, Gemini, DeepSeek and Ollama, chosen per job in
+Settings → Nary & AI, with a cheap model first, a monthly budget cap and keys stored encrypted in the database.
 
-**MCP.** The same tools are available to your AI client (MCP) at `/api/v1/mcp` (JSON-RPC over HTTP). A
-connection signs in with a personal access token (Settings → Integrations & access → MCP access) or a browser
-login, acts as that person with their permissions, and is narrowed further by its level: read, propose or act.
+**MCP.** The same tools are available to your AI client at `/api/v1/mcp` (JSON-RPC over HTTP). A connection signs
+in with a personal access token (Settings → Integrations & access → MCP access) or a browser login, acts as that
+person with their permissions, and is narrowed further by its level: read, propose or act.
 
 **WhatsApp.** Granary does not ship a WhatsApp Web bridge. The WhatsApp inbox and Nary's WhatsApp channel talk
 to an HTTP service at `WHATSAPP_SERVICE_URL`; without one they stay disconnected and the rest of Granary works.
@@ -156,6 +181,7 @@ to an HTTP service at `WHATSAPP_SERVICE_URL`; without one they stay disconnected
 
 | Guide | Contents |
 |---|---|
+| [Wiki](https://github.com/halogass/Granary-ERP/wiki) | Installation, first steps, a guide to every module, AI across Granary, administration, developer guide |
 | [Architecture](docs/ARCHITECTURE.md) | Services, request routing, auth, AI, documents, money and ledger, background jobs, source layout |
 | [Deployment](docs/DEPLOYMENT.md) | Server setup, environment, Nginx (LAN, Cloudflare Tunnel, Let's Encrypt), upgrades |
 | [Configuration](docs/CONFIGURATION.md) | Every setting after the first sign-in, and the environment variables |
