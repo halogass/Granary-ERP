@@ -1,4 +1,4 @@
-//! granary-face: PORT (3003), FACE_SERVICE_TOKEN or SERVICE_TOKEN (required), FACE_MAX_CONCURRENT (2),
+//! granary-face: HOST (unset: all interfaces, IPv6 then IPv4), PORT (3003), FACE_SERVICE_TOKEN or SERVICE_TOKEN (required), FACE_MAX_CONCURRENT (2),
 //! FACE_API_DIR (the face-api package: browser bundle + tfjs weights), FACE_ONNX_DIR (converted models),
 //! FACE_ANTISPOOF_DIR (the committed MiniFASNet anti-spoof models for POST /passive and the kiosk).
 
@@ -72,17 +72,26 @@ async fn main() {
         antispoof: Some(antispoof),
         antispoof_dir: antispoof_dir(),
     });
-    let listener = match tokio::net::TcpListener::bind(format!("[::]:{port}")).await {
-        Ok(l) => l,
-        Err(_) => match tokio::net::TcpListener::bind(format!("0.0.0.0:{port}")).await {
-            Ok(l) => l,
-            Err(e) => {
-                log::error("listen failed", json!({ "error": e.to_string() }));
-                std::process::exit(1);
-            }
+    // HOST set (e.g. 127.0.0.1 on a bare-metal install): listen there only. Unset: every interface, as before.
+    let host = var("HOST");
+    let bound = match &host {
+        Some(h) => match port.parse::<u16>() {
+            Ok(p) => tokio::net::TcpListener::bind((h.as_str(), p)).await,
+            Err(e) => Err(std::io::Error::new(std::io::ErrorKind::InvalidInput, format!("PORT {port:?}: {e}"))),
+        },
+        None => match tokio::net::TcpListener::bind(format!("[::]:{port}")).await {
+            Ok(l) => Ok(l),
+            Err(_) => tokio::net::TcpListener::bind(format!("0.0.0.0:{port}")).await,
         },
     };
-    log::info("face service listening", json!({ "port": port }));
+    let listener = match bound {
+        Ok(l) => l,
+        Err(e) => {
+            log::error("listen failed", json!({ "host": host, "port": port, "error": e.to_string() }));
+            std::process::exit(1);
+        }
+    };
+    log::info("face service listening", json!({ "host": host, "port": port }));
     let shutdown = async {
         let mut term =
             tokio::signal::unix::signal(tokio::signal::unix::SignalKind::terminate()).ok();

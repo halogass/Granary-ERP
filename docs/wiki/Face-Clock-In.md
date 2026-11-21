@@ -203,8 +203,9 @@ Open **Settings > General**, area **People & payroll**, section **Attendance**.
 The sections **Office locations** and **Kiosk tablets** sit in the same area.
 
 Server side, the backend reaches the face service at `FACE_SERVICE_URL` (default `http://face:3003`) with
-`FACE_SERVICE_TOKEN`. `FACE_MAX_CONCURRENT` sets how many analyses run at once. See `docs/CONFIGURATION.md`
-in the repository.
+`FACE_SERVICE_TOKEN`. `FACE_MAX_CONCURRENT` sets how many analyses run at once. The face service listens on all
+interfaces; on a bare-metal install, set its `HOST` to `127.0.0.1` so only the backend on the same machine can
+reach it. See `docs/CONFIGURATION.md` in the repository.
 
 ---
 
