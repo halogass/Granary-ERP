@@ -38,7 +38,7 @@
     "value": "none"
    },
    "not_catalog_list_price": {
-    "label": "Not every line is a catalog item at list price (a volume tier counts as list)",
+    "label": "A line is not a catalog item at its list price (volume-tier prices count as list)",
     "value": "none"
    },
    "terms_gt_days": {

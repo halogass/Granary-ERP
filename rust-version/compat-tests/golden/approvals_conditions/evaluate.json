@@ -427,7 +427,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -1744,7 +1744,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -2075,7 +2075,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -2631,7 +2631,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -3033,7 +3033,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -7044,7 +7044,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)",
+     "A line is not a catalog item at its list price (volume-tier prices count as list)",
      "Value an amount with no conversion to the base currency is at least 50 (base currency)"
     ]
    ]
@@ -8500,7 +8500,7 @@
     true,
     [
      "Gross margin 5.0% is below the 12.345% floor",
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -9296,7 +9296,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -13191,7 +13191,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -14370,7 +14370,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)",
+     "A line is not a catalog item at its list price (volume-tier prices count as list)",
      "Value an amount with no conversion to the base currency is at least -0 (base currency)"
     ]
    ]
@@ -14502,7 +14502,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -14966,7 +14966,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -18601,7 +18601,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -19120,7 +19120,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -22938,7 +22938,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -26164,7 +26164,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -26283,7 +26283,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -27357,7 +27357,7 @@
     true,
     [
      "Value an amount with no conversion to the base currency is at least 0 (base currency)",
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -28545,7 +28545,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -28726,7 +28726,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -31730,7 +31730,7 @@
     true,
     [
      "Gross margin 0.0% is below the 15% floor",
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -35673,7 +35673,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -39453,7 +39453,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -40399,7 +40399,7 @@
     true,
     [
      "Discount of 45.7% is above the 3% hard limit",
-     "Not every line is a catalog item at list price (only a volume tier discount is list)",
+     "A line is not a catalog item at its list price (volume-tier prices count as list)",
      "Contains custom scope or pricing not in the catalog"
     ]
    ]
@@ -41438,7 +41438,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -43840,7 +43840,7 @@
     true,
     [
      "First invoice to this customer",
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -45470,7 +45470,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -47281,7 +47281,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -48143,7 +48143,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -49717,7 +49717,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -57392,7 +57392,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -60885,7 +60885,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)",
+     "A line is not a catalog item at its list price (volume-tier prices count as list)",
      "Contains custom scope or pricing not in the catalog"
     ]
    ]
@@ -62331,7 +62331,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -62853,7 +62853,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -67174,7 +67174,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -67504,7 +67504,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -70865,7 +70865,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -71111,7 +71111,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -71271,7 +71271,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -71831,7 +71831,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -71865,7 +71865,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -72998,7 +72998,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -73682,7 +73682,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -75262,7 +75262,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -76084,7 +76084,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -82672,7 +82672,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -83037,7 +83037,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -86167,7 +86167,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)",
+     "A line is not a catalog item at its list price (volume-tier prices count as list)",
      "Content type 'None' needs a technical review",
      "Contains custom scope or pricing not in the catalog"
     ]
@@ -87967,7 +87967,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -89924,7 +89924,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -93071,7 +93071,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -98319,7 +98319,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -99450,7 +99450,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -103198,8 +103198,8 @@
     [
      "Value could not be converted to the base currency (no exchange rate); treated as above threshold",
      "Payment terms differ from the contract/quotation",
-     "Not every line is a catalog item at list price (only a volume tier discount is list)",
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)",
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -106617,7 +106617,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -110109,7 +110109,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -110685,7 +110685,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -113518,7 +113518,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -113603,7 +113603,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -114175,7 +114175,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -115064,7 +115064,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -119190,7 +119190,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122256,7 +122256,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122284,7 +122284,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122357,7 +122357,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122383,7 +122383,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122406,7 +122406,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122470,7 +122470,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122553,7 +122553,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122589,7 +122589,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122619,7 +122619,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122651,7 +122651,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122708,7 +122708,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122755,7 +122755,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122779,7 +122779,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122807,7 +122807,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122835,7 +122835,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122863,7 +122863,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122895,7 +122895,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -122923,7 +122923,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123002,7 +123002,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123034,7 +123034,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123067,7 +123067,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123145,7 +123145,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123179,7 +123179,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123221,7 +123221,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123300,7 +123300,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123334,7 +123334,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123381,7 +123381,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123422,7 +123422,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123481,7 +123481,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123522,7 +123522,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123555,7 +123555,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123583,7 +123583,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123626,7 +123626,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123675,7 +123675,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123706,7 +123706,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123800,7 +123800,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123826,7 +123826,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123857,7 +123857,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123933,7 +123933,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -123962,7 +123962,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124080,7 +124080,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124117,7 +124117,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124150,7 +124150,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124179,7 +124179,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124216,7 +124216,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124244,7 +124244,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124298,7 +124298,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }
@@ -124330,7 +124330,7 @@
    "ok": [
     true,
     [
-     "Not every line is a catalog item at list price (only a volume tier discount is list)"
+     "A line is not a catalog item at its list price (volume-tier prices count as list)"
     ]
    ]
   }

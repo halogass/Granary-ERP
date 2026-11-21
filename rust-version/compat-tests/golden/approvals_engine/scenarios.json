@@ -847,7 +847,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -884,7 +884,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_custom",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_custom:1",
        "email": true,
        "whatsapp": true
@@ -1015,7 +1015,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "role_slug": null,
@@ -1051,7 +1051,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_custom",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_custom:1",
       "entity_type": "quotation",
       "entity_id": "q_custom",
@@ -1121,7 +1121,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -1158,7 +1158,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_loyal",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_loyal:1",
        "email": true,
        "whatsapp": false
@@ -1197,7 +1197,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -1234,7 +1234,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_volume",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_volume:1",
        "email": true,
        "whatsapp": false
@@ -1270,7 +1270,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -1307,7 +1307,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_above",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_above:1",
        "email": true,
        "whatsapp": false
@@ -1399,7 +1399,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "role_slug": null,
@@ -1506,7 +1506,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "role_slug": null,
@@ -1607,7 +1607,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "role_slug": null,
@@ -1661,7 +1661,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_loyal",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_loyal:1",
       "entity_type": "quotation",
       "entity_id": "q_loyal",
@@ -1673,7 +1673,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_volume",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_volume:1",
       "entity_type": "quotation",
       "entity_id": "q_volume",
@@ -1685,7 +1685,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_above",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_above:1",
       "entity_type": "quotation",
       "entity_id": "q_above",
@@ -3122,7 +3122,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -3159,7 +3159,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_stale",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_stale:1",
        "email": true,
        "whatsapp": true
@@ -3334,7 +3334,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "role_slug": null,
@@ -3435,7 +3435,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "role_slug": null,
@@ -3498,7 +3498,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_stale",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_stale:1",
       "entity_type": "quotation",
       "entity_id": "q_stale",
@@ -3522,7 +3522,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_send",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_send:1",
       "entity_type": "quotation",
       "entity_id": "q_send",
@@ -3659,7 +3659,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -3696,7 +3696,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_rej",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_rej:1",
        "email": true,
        "whatsapp": true
@@ -3731,7 +3731,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -3816,7 +3816,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -3853,7 +3853,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_rej",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_rej:2",
        "email": true,
        "whatsapp": true
@@ -3888,7 +3888,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -3974,7 +3974,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -4011,7 +4011,7 @@
         "user:owner@example.com"
        ],
        "title": "Approval needed: Quotation GOLD-q_own",
-       "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+       "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
        "link": "/approvals?request=request:q_own:1",
        "email": true,
        "whatsapp": true
@@ -4046,7 +4046,7 @@
         "name": "Owner approval",
         "is_notify_only": false,
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "routing_note": null,
         "candidates": [
@@ -5027,7 +5027,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "decision": "rejected",
@@ -5131,7 +5131,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "decision": "approved",
@@ -5235,7 +5235,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "decision": "approved",
@@ -5339,7 +5339,7 @@
         "name": "Owner approval",
         "due_at": "<ts>",
         "reasons": [
-         "Not every line is a catalog item at list price (only a volume tier discount is list)"
+         "A line is not a catalog item at its list price (volume-tier prices count as list)"
         ],
         "user_id": null,
         "role_slug": null,
@@ -5673,7 +5673,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_rej",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_rej:1",
       "entity_type": "quotation",
       "entity_id": "q_rej",
@@ -5697,7 +5697,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_rej",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_rej:2",
       "entity_type": "quotation",
       "entity_id": "q_rej",
@@ -5721,7 +5721,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_own",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_own:1",
       "entity_type": "quotation",
       "entity_id": "q_own",
@@ -5745,7 +5745,7 @@
       "user_id": "user:owner@example.com",
       "type": "approval_required",
       "title": "Approval needed: Quotation GOLD-q_eos",
-      "body": "Owner approval: Not every line is a catalog item at list price (only a volume tier discount is list)",
+      "body": "Owner approval: A line is not a catalog item at its list price (volume-tier prices count as list)",
       "link": "/approvals?request=request:q_eos:1",
       "entity_type": "quotation",
       "entity_id": "q_eos",

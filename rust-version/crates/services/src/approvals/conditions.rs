@@ -561,7 +561,7 @@ fn describe(name: &str, s: &Value, v: &Value) -> R<String> {
         "margin_unknown" => "Gross margin cannot be verified (catalog cost price missing)".into(),
         "has_custom_line" => "Contains custom scope or pricing not in the catalog".into(),
         "not_catalog_list_price" => {
-            "Not every line is a catalog item at list price (only a volume tier discount is list)".into()
+            "A line is not a catalog item at its list price (volume-tier prices count as list)".into()
         }
         "terms_gt_days" => format!(
             "Payment terms of {} days net exceed {} days",
@@ -848,7 +848,7 @@ pub fn rule_meta() -> Value {
         "margin_lt_pct": {"label": "Gross margin below (%)", "value": "pct"},
         "margin_unknown": {"label": "Gross margin cannot be verified", "value": "none"},
         "has_custom_line": {"label": "Contains custom (non-catalog) lines", "value": "none"},
-        "not_catalog_list_price": {"label": "Not every line is a catalog item at list price (a volume tier counts as list)",
+        "not_catalog_list_price": {"label": "A line is not a catalog item at its list price (volume-tier prices count as list)",
                                    "value": "none"},
         "terms_gt_days": {"label": "Payment terms longer than (days)", "value": "days"},
         "terms_differ_from_contract": {"label": "Payment terms differ from contract/quotation", "value": "none"},
