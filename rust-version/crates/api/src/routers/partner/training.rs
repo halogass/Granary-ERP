@@ -76,6 +76,7 @@ pub async fn create_training_module(
     PyJson(body): PyJson<TrainingModuleCreate>,
 ) -> ApiResult<Response> {
     require_perm(&user, "partner_mgmt:manage")?;
+    super::require_option(super::PARTNER_TIERS, "min_tier", &body.min_tier)?;
     let mut conn = db.conn().await?;
     let id = Uuid::new_v4();
     sqlx::query(
@@ -122,6 +123,7 @@ pub async fn update_training_module(
     PyJson(body): PyJson<Body>,
 ) -> ApiResult<Response> {
     require_perm(&user, "partner_mgmt:manage")?;
+    super::require_min_tier_patch(&body)?;
     let mut conn = db.conn().await?;
     let id = live_module_id(&mut conn, &module_id).await?;
     setattr_update(

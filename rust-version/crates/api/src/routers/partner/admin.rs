@@ -1058,6 +1058,7 @@ pub async fn create_resource(
     PyJson(body): PyJson<PartnerResourceCreate>,
 ) -> ApiResult<Response> {
     require_perm(&user, "partner_mgmt:manage")?;
+    require_option(super::PARTNER_TIERS, "min_tier", &body.min_tier)?;
     let mut conn = db.conn().await?;
     let id = Uuid::new_v4();
     sqlx::query(
@@ -1173,6 +1174,7 @@ pub async fn update_resource(
     PyJson(body): PyJson<Body>,
 ) -> ApiResult<Response> {
     require_perm(&user, "partner_mgmt:manage")?;
+    super::require_min_tier_patch(&body)?;
     let mut conn = db.conn().await?;
     let id = resource_id(&mut conn, &rid).await?;
     setattr_update(

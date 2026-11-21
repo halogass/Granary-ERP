@@ -236,6 +236,16 @@ pub(crate) fn require_option(list: &[(&str, &str)], field: &str, value: &str) ->
     ))
 }
 
+/// A `min_tier` in a PATCH body (training modules, resources): absent or null keeps the old rule; a string must be
+/// one of [`PARTNER_TIERS`] (an unknown tier ranks as the lowest one, so a typo would open it to every partner).
+pub(crate) fn require_min_tier_patch(body: &serde_json::Map<String, Value>) -> ApiResult<()> {
+    match body.get("min_tier") {
+        None | Some(Value::Null) => Ok(()),
+        Some(Value::String(t)) => require_option(PARTNER_TIERS, "min_tier", t),
+        Some(_) => Err(ApiError::http(400, "min_tier must be a string".to_string())),
+    }
+}
+
 /// `GET /options`: the tiers, partner types and account statuses every partner screen offers.
 pub async fn partner_options(
     CurrentUser(user): CurrentUser,
