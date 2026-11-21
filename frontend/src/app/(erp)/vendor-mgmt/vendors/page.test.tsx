@@ -61,7 +61,7 @@ describe("vendors: edit a vendor (20 Nov 2026)", () => {
     perms = ["vendor_mgmt:view", "vendor_mgmt:manage_vendors"];
     render(<VendorsPage />);
     expect(await screen.findByRole("button", { name: /Add vendor/ })).toBeTruthy();
-    expect(screen.getByRole("button", { name: "Delete Acme Supplies" })).toBeTruthy();
+    expect(await screen.findByRole("button", { name: "Delete Acme Supplies" })).toBeTruthy();
   });
 
   it("switches withholding on with a rate and saves through PATCH /vendor/vendors/{id}", async () => {
