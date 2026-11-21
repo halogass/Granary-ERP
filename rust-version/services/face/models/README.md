@@ -28,9 +28,9 @@ The conversion is deterministic. From face-api 1.7.15 it gives (SHA-256):
 
 | file | bytes | sha256 |
 |---|---|---|
-| ssd_mobilenetv1.onnx | 22238632 | 631207b1b0a83b639820385924c6462ddf8c77a3dcad0415543393fc73341b14 |
-| face_landmark_68.onnx | 1433824 | 75924e2f20fd34e7da4d5e4d9b610d6999505d23a4d63f143061b433b7913b09 |
-| face_recognition.onnx | 22541312 | 3dfd1770afce3ee30c1928c9c49c625e60a8cb78775caea68f01503764ed106e |
+| ssd_mobilenetv1.onnx | 22238635 | b7350d5ee298f7383a356195ba2a2ba9130203653e33f9d09da0c8ab4c3a9866 |
+| face_landmark_68.onnx | 1433827 | fd6fa29cfcd367ba37c1258c12cfcd766e737b6b5c8fab3d4f8a3d62aeb541c2 |
+| face_recognition.onnx | 22541315 | 0fc87ec6f6cc8ec2e5225841d8c646504e568fe21a9ca74db9e4c207e5e36c11 |
 
 ## 4. Check the conversion against face-api.js
 
