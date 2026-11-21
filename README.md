@@ -21,6 +21,13 @@
   <a href="SECURITY.md">Security</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/halogass/Granary-ERP/releases/download/v1.0.1/granary-launch.mp4">
+    <img src="docs/images/brand/granary-launch-preview.gif" alt="Granary in action: Nary drafts a WhatsApp reply, a person edits and applies it" width="100%">
+  </a>
+  <br><sub>▶ <a href="https://github.com/halogass/Granary-ERP/releases/download/v1.0.1/granary-launch.mp4">Watch the 1-minute launch video</a></sub>
+</p>
+
 Granary is a free, self-hosted ERP for small and mid-sized companies, with an AI assistant, **Nary**, built into its
 business processes rather than bolted on. Nary scores and researches your leads, drafts replies, quotations and
 proposals, reads the attachments customers send, follows up on quotations, prepares invoices and project kickoffs,
