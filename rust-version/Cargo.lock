@@ -1592,7 +1592,7 @@ dependencies = [
 
 [[package]]
 name = "granary-api"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "anyhow",
  "axum",
@@ -1623,7 +1623,7 @@ dependencies = [
 
 [[package]]
 name = "granary-compat"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "base64 0.22.1",
  "bcrypt",
@@ -1650,7 +1650,7 @@ dependencies = [
 
 [[package]]
 name = "granary-core"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "anyhow",
  "axum",
@@ -1682,7 +1682,7 @@ dependencies = [
 
 [[package]]
 name = "granary-db"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "anyhow",
  "chrono",
@@ -1704,7 +1704,7 @@ dependencies = [
 
 [[package]]
 name = "granary-face"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "axum",
  "base64 0.22.1",
@@ -1726,7 +1726,7 @@ dependencies = [
 
 [[package]]
 name = "granary-pdf"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "axum",
  "base64 0.22.1",
@@ -1755,7 +1755,7 @@ dependencies = [
 
 [[package]]
 name = "granary-research"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "axum",
  "encoding_rs",
@@ -1782,7 +1782,7 @@ dependencies = [
 
 [[package]]
 name = "granary-services"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1842,7 +1842,7 @@ dependencies = [
 
 [[package]]
 name = "granary-signal"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "axum",
  "base64 0.22.1",
@@ -1861,7 +1861,7 @@ dependencies = [
 
 [[package]]
 name = "granary-worker"
-version = "1.0.1"
+version = "1.0.2"
 dependencies = [
  "anyhow",
  "chrono",

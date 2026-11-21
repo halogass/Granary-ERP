@@ -4,7 +4,7 @@ members = ["crates/compat", "crates/core", "crates/db", "crates/services", "crat
 
 [workspace.package]
 edition = "2021"
-version = "1.0.1"
+version = "1.0.2"
 publish = false
 license = "MIT OR Apache-2.0"
 

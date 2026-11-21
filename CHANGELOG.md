@@ -3,6 +3,29 @@
 All notable changes to Granary are listed here. Granary follows [Semantic Versioning](https://semver.org/): from
 1.0.0 on, every upgrade keeps your data (database changes always ship as migrations).
 
+## 1.0.2 (2026-11-21)
+
+### Added
+- **Prebuilt images.** Each release publishes its images to GitHub's registry (`ghcr.io/halogass/granary-api`,
+  `-pdf`, `-face`, `-signal`, `-research`, `-frontend`, `-stt`; x86-64). `docker compose up -d` pulls the release
+  set in `GRANARY_VERSION`, so a server no longer compiles Rust. `docker compose build` still builds from source.
+- MCP: every `propose_*` tool that makes an approval card takes an optional `reason`. The card shows it first, so
+  a person sees why an AI client proposes the change (#3).
+- The face service reads `HOST`. Unset, it listens on all interfaces as before; set `127.0.0.1` on a bare-metal
+  install (#5).
+
+### Changed
+- The web app no longer has URLs baked in at build time: live updates and calls use the address the browser
+  opened, which Nginx passes on. `SIGNAL_URL` is still read by the backend.
+- The approval reason for an off-list line now reads "A line is not a catalog item at its list price (volume-tier
+  prices count as list)" (#2).
+
+### Fixed
+- Training modules and partner resources accept only a known `min_tier`. An unknown tier counted as the lowest
+  one, so a typo opened the item to every partner (#4).
+- Approval cards keep the line breaks of their reason.
+- A frontend test that could fail on a slow CI runner now waits for the row it checks.
+
 ## 1.0.1 (2026-11-21)
 
 ### Fixed
