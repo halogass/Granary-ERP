@@ -128,10 +128,11 @@ CORS_ORIGINS=["http://localhost:3000"]
 MINIO_PUBLIC_URL=http://localhost:9000
 ```
 
-Then build and start:
+Then start it. Compose downloads the prebuilt images of the release in `GRANARY_VERSION`
+(`ghcr.io/halogass/granary-*`, x86-64); `docker compose build` compiles them from source instead:
 
 ```bash
-docker compose up -d --build
+docker compose up -d
 docker compose logs -f backend      # wait for "listening"
 ```
 

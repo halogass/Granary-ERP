@@ -73,7 +73,8 @@ docker compose ps db   # should show (healthy)
 **Cause**: `INTERNAL_API_URL` or `API_URL` is set to the public HTTPS domain. The Next.js rewrite uses it as the
 proxy destination, Nginx redirects `http://` to `https://`, and the redirect leaks to the browser.
 
-**Fix**: point both at the Docker-internal backend, then rebuild the frontend:
+**Fix**: point both at the Docker-internal backend, then restart (a frontend built from source with the public
+domain needs `docker compose build frontend` too):
 
 ```dotenv
 INTERNAL_API_URL=http://backend:8000
@@ -81,7 +82,7 @@ API_URL=http://backend:8000
 ```
 
 ```bash
-docker compose up -d --build frontend
+docker compose up -d backend worker beat frontend
 ```
 
 ---
@@ -98,12 +99,9 @@ docker compose ps db
 
 ## The frontend shows a blank page, or calls go to the wrong host
 
-`NEXT_PUBLIC_API_URL` (from `API_URL`) and `NEXT_PUBLIC_SIGNAL_URL` (from `SIGNAL_URL`) are baked into the client
-bundle at build time. After changing them in `.env`:
-
-```bash
-docker compose up -d --build frontend
-```
+The browser calls the address it was opened on, so check that Nginx passes `/api/` and `/ws/signal` on. A
+frontend built from source with `NEXT_PUBLIC_API_URL` or `NEXT_PUBLIC_SIGNAL_URL` set uses those instead;
+rebuild it without them: `docker compose build frontend && docker compose up -d frontend`.
 
 ---
 

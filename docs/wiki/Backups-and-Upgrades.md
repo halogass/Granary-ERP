@@ -75,11 +75,12 @@ After a restore, run the [duplicate checks](#duplicate-checks) to confirm the da
 ## Upgrade Granary
 
 1. **Take a database backup** (above).
-2. Get the new version and rebuild:
+2. Get the new version: check out its tag, set `GRANARY_VERSION` in `.env` to it, and pull the images:
 
    ```bash
-   git pull
-   docker compose up -d --build
+   git fetch --tags && git checkout v1.0.2   # the new release
+   docker compose pull
+   docker compose up -d
    docker compose logs -f backend            # watch until "listening"
    docker compose exec -T backend granary-migrate --status | tail -3   # newest migration applied
    ```
@@ -93,13 +94,10 @@ After a restore, run the [duplicate checks](#duplicate-checks) to confirm the da
 What happens on start: the backend applies new migrations (`granary-migrate`), then runs the seed, which adds new
 default settings without touching the ones you edited. There is no separate migration step.
 
-- **Keep `backend`, `worker` and `beat` on the same image.** They share one image; after rebuilding the backend
-  code, recreate all three: `docker compose up -d --build backend worker beat`. Otherwise the schedule may queue
-  a job the worker doesn't know.
-- **Frontend only:** `docker compose up -d --build frontend`.
-- **Small server:** build the Rust images elsewhere and load them (see
-  [Installation](Installation#building-the-images-on-another-machine)), then run `docker compose up -d` without
-  `--build`.
+- **Keep `backend`, `worker` and `beat` on the same image.** They share one image, so recreate all three
+  together. Otherwise the schedule may queue a job the worker doesn't know.
+- **Built from source?** Run `docker compose build` after the checkout instead of `docker compose pull` (see
+  [Installation](Installation#building-from-source)).
 - **If a migration fails**, the backend exits and restarts, and nothing after it is applied. Read
   `docker compose logs backend`, fix the data it names (often duplicates, see below), then
   `docker compose restart backend`.

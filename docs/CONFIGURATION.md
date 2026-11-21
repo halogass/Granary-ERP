@@ -460,7 +460,7 @@ have no default: the backend does not start without them.
 | `APP_SECRET_KEY` | required | The backend's master key. The backend refuses to start while it starts with the `.env.example` placeholder (see below) |
 | `APP_NAME`, `APP_ENV`, `DEBUG` | `Granary`, `development`, `false` | |
 | `APP_URL` | `http://localhost:3000` | Public URL: links in emails, and the frontend's `NEXTAUTH_URL` |
-| `API_URL` | `http://localhost:8000` | Keep `http://backend:8000` in Docker; also baked into the frontend build as `NEXT_PUBLIC_API_URL` |
+| `API_URL` | `http://localhost:8000` | Keep `http://backend:8000` in Docker. The browser uses its own origin; a source build may still bake `NEXT_PUBLIC_API_URL` in |
 | `DATABASE_URL`, `POSTGRES_PASSWORD` | required | `POSTGRES_HOST`, `POSTGRES_PORT`, `POSTGRES_DB`, `POSTGRES_USER` default to `db`, `5432`, `granary`, `granary` |
 | `REDIS_PASSWORD` | required by Compose | The Redis container's password; `REDIS_URL` and `CELERY_BROKER_URL` must carry it |
 | `REDIS_URL` | `redis://redis:6379/0` | Cache, pub/sub, login limiter, leases |
@@ -476,7 +476,7 @@ have no default: the backend does not start without them.
 | `MINIO_PUBLIC_URL` | `http://localhost:9000` | Where browsers reach the storage; in production the `/minio` path on your domain |
 | `WHATSAPP_SERVICE_URL`, `WHATSAPP_SERVICE_TOKEN`, `WHATSAPP_BUSINESS_NUMBER` | `http://whatsapp:3001`, empty, empty | A WhatsApp bridge you provide (section 8) |
 | `PDF_SERVICE_URL`, `PDF_SERVICE_TOKEN` | `http://pdf:3002`, empty | `PDF_ASSET_HOSTS`: extra hosts the renderer may load images from |
-| `FACE_SERVICE_URL`, `FACE_SERVICE_TOKEN` | `http://face:3003`, empty | `FACE_MAX_CONCURRENT`: analyses run at once |
+| `FACE_SERVICE_URL`, `FACE_SERVICE_TOKEN` | `http://face:3003`, empty | `FACE_MAX_CONCURRENT`: analyses run at once. The face service's own `HOST`: unset listens on all interfaces; `127.0.0.1` on bare metal |
 | `RESEARCH_SERVICE_URL`, `RESEARCH_SERVICE_TOKEN` | `http://research:3004`, empty | `SEARXNG_SECRET` is read by the searxng container |
 | `STT_SERVICE_URL`, `STT_SERVICE_TOKEN` | `http://stt:3005`, empty | `STT_MODEL` (`small`), `STT_CPUS` (`1.5`), `STT_THREADS` (`1`) are read by Compose |
 | `SIGN_CERT_P12_PATH`, `SIGN_CERT_P12_PASSWORD`, `SIGN_TSA_URL` | `/keys/platform.p12`, empty, empty | Section 15 |

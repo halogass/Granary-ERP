@@ -3,7 +3,7 @@
 <!-- nav:top -->
 [Home](Home) › Getting started › **Installation**
 
-**On this page:** [Requirements](#requirements) · [What runs where](#what-runs-where) · [Install with Docker Compose](#install-with-docker-compose) · [Reverse proxy and TLS (Nginx)](#reverse-proxy-and-tls-nginx) · [TURN server for video calls (coturn)](#turn-server-for-video-calls-coturn) · [Building the images on another machine](#building-the-images-on-another-machine) · [WhatsApp (optional)](#whatsapp-optional)
+**On this page:** [Requirements](#requirements) · [What runs where](#what-runs-where) · [Install with Docker Compose](#install-with-docker-compose) · [Reverse proxy and TLS (Nginx)](#reverse-proxy-and-tls-nginx) · [TURN server for video calls (coturn)](#turn-server-for-video-calls-coturn) · [Building from source](#building-from-source) · [WhatsApp (optional)](#whatsapp-optional)
 <!-- /nav:top -->
 
 This page takes you from an empty Linux server to a running Granary that you can sign in to. It is for the
@@ -23,16 +23,16 @@ the host in front of them. When you finish here, continue with [First Steps](Fir
 | Disk | 20 GB | 50 GB SSD |
 | OS | A current Linux with Docker | Ubuntu 22.04 LTS or later, or Debian 12 |
 
-Compiling the Rust images needs about **8 GB of RAM and 10 GB of disk** for the build cache. On a smaller server,
-build the images on another machine and copy them over (see
-[Building the images on another machine](#building-the-images-on-another-machine)).
+The images are prebuilt for each release (`ghcr.io/halogass/granary-*`, x86-64), so the server does not compile
+anything. Only [building from source](#building-from-source) needs more: about **8 GB of RAM and 10 GB of disk**
+for the Rust build cache.
 
 ### Software
 
 - Docker Engine 24 or later with the Compose plugin (v2). Check with `docker --version` and
   `docker compose version`.
 - Nginx on the host (installed with your package manager), as the reverse proxy.
-- Git, to fetch the source.
+- Git, to fetch the Compose file, the Nginx config and the example `.env`.
 - Optional: Certbot (Let's Encrypt) or `cloudflared` (Cloudflare Tunnel) for a public domain.
 
 ---
@@ -69,8 +69,9 @@ the storage.
 ### 1. Get the source
 
 ```bash
-git clone <your-repo-url> granary
+git clone https://github.com/halogass/Granary-ERP.git granary
 cd granary
+git checkout v1.0.2        # the release you run; GRANARY_VERSION in .env matches it
 cp .env.example .env
 ```
 
@@ -148,8 +149,9 @@ Things to know about `.env`:
   enter real data: settings encrypted with one key can't be read with another.
 - **`INTERNAL_API_URL` and `API_URL` must stay `http://backend:8000`.** The public domain there causes an
   http-to-https redirect loop that breaks API calls.
-- **`API_URL` and `SIGNAL_URL` are baked into the frontend when it is built.** After changing them, rebuild the
-  frontend (`docker compose up -d --build frontend`).
+- **The browser uses its own address** for API calls and live updates (Nginx passes them on), so no URL is
+  baked into the frontend. `SIGNAL_URL` is read by the backend at start.
+- **`GRANARY_VERSION`** picks the release of the prebuilt images. Keep it equal to the tag you checked out.
 - Business settings (taxes, payroll, approval limits, time zone) are **not** environment variables. You set them
   in the web interface after the first sign-in.
 
@@ -168,16 +170,16 @@ MINIO_PUBLIC_URL=http://localhost:9000
 
 Then open `http://localhost:3000` after the first start.
 
-### 3. Build and start
+### 3. Start
 
 ```bash
-docker compose up -d --build
+docker compose up -d
 ```
 
-The Rust services (`backend`, `worker`, `beat`, `pdf`, `face`, `signal`, `research`) run images built from
-`rust-version/Dockerfile` under fixed names (`granary-rust-api`, `granary-rust-pdf`, `granary-rust-face`,
-`granary-rust-signal`, `granary-rust-research`, tag `latest`). Compose never tries to download them. The
-`frontend` and `stt` images are built from `frontend/` and `services/stt/`. The first build takes a while.
+Compose downloads the prebuilt images for `GRANARY_VERSION` from GitHub's registry (`ghcr.io/halogass/granary-api`,
+`-pdf`, `-face`, `-signal`, `-research`, `-frontend`, `-stt`) and the stock images (Postgres, Redis, storage,
+SearXNG, coturn), then starts everything. To compile them yourself instead, see
+[Building from source](#building-from-source).
 
 ### 4. Wait for the first start
 
@@ -285,8 +287,7 @@ commands.
 Set `APP_URL`, `SIGNAL_URL`, `MINIO_PUBLIC_URL` and `CORS_ORIGINS` to the `https://` domain in `.env`, then:
 
 ```bash
-docker compose up -d --build frontend   # bakes the URLs into the browser code
-docker compose up -d backend worker beat
+docker compose up -d backend worker beat frontend
 ```
 
 ---
@@ -318,25 +319,25 @@ to reach your internal network. `TURN_URIS` must be a JSON list.
 
 ---
 
-## Building the images on another machine
+## Building from source
 
-If the server is too small to compile Rust, build the images on a bigger machine and stream them over:
+The prebuilt images cover x86-64 servers. To compile them yourself (another CPU type, or your own changes):
+
+```bash
+docker compose build          # about 8 GB of RAM; the first build takes a while
+docker compose up -d
+```
+
+The build tags its result with the same names as the prebuilt images, so Compose runs your build. To go back to
+the published images: `docker compose pull && docker compose up -d`.
+
+On a small server, build on a bigger machine and copy the images over:
 
 ```bash
 # on the build machine, in the repository
-docker compose build backend pdf face signal research
-docker save granary-rust-api:latest granary-rust-pdf:latest granary-rust-face:latest \
-    granary-rust-signal:latest granary-rust-research:latest \
-  | gzip | ssh <user>@<server> 'gunzip | docker load'
-
-# on the server: check that all five images are there, then start without --build
-docker image inspect granary-rust-api:latest granary-rust-pdf:latest granary-rust-face:latest \
-    granary-rust-signal:latest granary-rust-research:latest >/dev/null && docker compose up -d
+docker compose build backend pdf face signal research frontend stt
+docker compose config --images | grep granary- | xargs docker save | gzip | ssh <user>@<server> 'gunzip | docker load'
 ```
-
-Check the images first: Compose builds an image that is missing, whatever else you ask. The `frontend` and `stt`
-images are small enough to build on the server: `docker compose up -d --build frontend stt` (name the services;
-a bare `--build` would compile Rust).
 
 ---
 

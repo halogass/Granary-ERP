@@ -123,7 +123,8 @@ Back up the database, the `storage_data` and `signing_keys` volumes, and your `.
 [Backups and Upgrades](Backups-and-Upgrades).
 
 **How do I upgrade?**
-Back up, then `git pull` and `docker compose up -d --build`. Migrations run on start. See
+Back up, check out the new release tag, set `GRANARY_VERSION` to it, then `docker compose pull` and
+`docker compose up -d`. Migrations run on start. See
 [Backups and Upgrades](Backups-and-Upgrades#upgrade-granary).
 
 **Where are the logs?**

@@ -126,12 +126,13 @@ window** in **Settings > System & security > Login security**, or fix Redis. Ngi
 ### Mixed Content warnings, or calls go to `http://`
 
 `INTERNAL_API_URL` or `API_URL` is set to the public domain. Set both to `http://backend:8000`, then
-`docker compose up -d --build frontend`.
+`docker compose up -d backend worker beat frontend`.
 
 ### Blank page, or calls go to the wrong host
 
-`API_URL` and `SIGNAL_URL` are baked into the frontend at build time. After changing them:
-`docker compose up -d --build frontend`.
+The browser uses the address it was opened on, so check that Nginx passes `/api/` and `/ws/signal` on (see
+[Installation](Installation#reverse-proxy-and-tls-nginx)). If you built the frontend from source with
+`NEXT_PUBLIC_API_URL` or `NEXT_PUBLIC_SIGNAL_URL` set, rebuild it without them.
 
 ### Uploads fail with a storage error
 

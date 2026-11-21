@@ -23,8 +23,8 @@ the server.
 | Disk | 20 GB | 50 GB SSD |
 | OS | A current Linux with Docker | Ubuntu 22.04 LTS or later, Debian 12 |
 
-Compiling the Rust images needs about 8 GB of RAM and 10 GB of disk for the build cache. On a smaller server,
-build the images on another machine (see [Building the images elsewhere](#building-the-images-elsewhere)).
+The images are prebuilt for each release, so the server compiles nothing. Only
+[building from source](#building-from-source) needs about 8 GB of RAM and 10 GB of disk for the build cache.
 
 ### Docker
 
@@ -129,16 +129,15 @@ sudo rm -f /etc/nginx/sites-enabled/default
 sudo nginx -t
 ```
 
-### 3. Build and start
+### 3. Start
 
 ```bash
-docker compose up -d --build
+docker compose up -d
 ```
 
-The backend, worker, beat, pdf, face, signal and research containers run images built from
-`rust-version/Dockerfile` under fixed names (`granary-rust-api`, `granary-rust-pdf`, `granary-rust-face`,
-`granary-rust-signal`, `granary-rust-research`, tag `latest`, `pull_policy: never`). The frontend and stt images
-are built from `frontend/` and `services/stt/`.
+Compose pulls the prebuilt images for `GRANARY_VERSION` (`ghcr.io/halogass/granary-api`, `-pdf`, `-face`,
+`-signal`, `-research`, `-frontend`, `-stt`; x86-64). To compile them yourself, see
+[Building from source](#building-from-source).
 
 On every start the backend container runs `granary-migrate` (pending migrations, in one transaction under an
 advisory lock), then `granary-seed`, then `granary-api`. If either of the first two fails, the backend does not
@@ -226,12 +225,11 @@ ingress:
 cloudflared tunnel route dns granary granary.example.com
 ```
 
-### 6. Update `.env` and rebuild the frontend
+### 6. Update `.env` and restart
 
 ```bash
 # In .env: APP_URL, SIGNAL_URL, MINIO_PUBLIC_URL and CORS_ORIGINS on https://granary.example.com
-docker compose up -d --build frontend   # bakes the URLs into the client bundle
-docker compose up -d backend worker beat
+docker compose up -d backend worker beat frontend
 ```
 
 ### 7. Run the tunnel as a service
@@ -263,7 +261,7 @@ sudo nginx -t && sudo systemctl reload nginx
 ### 2. Start the stack
 
 ```bash
-docker compose up -d --build
+docker compose up -d
 ```
 
 ### 3. Get the certificate
@@ -281,12 +279,11 @@ e-signature audit trail, sign-in throttling) are the real visitor's. The backend
 Nginx. When Cloudflare publishes new ranges (<https://www.cloudflare.com/ips>), add them to the
 `set_real_ip_from` list and reload Nginx.
 
-### 4. Update `.env` and rebuild the frontend
+### 4. Update `.env` and restart
 
 ```bash
 # In .env: APP_URL, SIGNAL_URL, MINIO_PUBLIC_URL and CORS_ORIGINS on https://granary.example.com
-docker compose up -d --build frontend
-docker compose up -d backend worker beat
+docker compose up -d backend worker beat frontend
 ```
 
 ### 5. Check auto-renewal
@@ -305,29 +302,26 @@ sudo ufw allow 49152:65535/udp
 
 ---
 
-## Building the images elsewhere
+## Building from source
 
-The Rust images can be built on a bigger machine and loaded on the server, which then never compiles Rust:
+The prebuilt images cover x86-64. To compile them yourself (another CPU type, or your own changes), on a machine
+with about 8 GB of RAM:
 
 ```bash
-# build machine, in the repository
-docker compose build backend pdf face signal research
-docker save granary-rust-api:latest granary-rust-pdf:latest granary-rust-face:latest \
-    granary-rust-signal:latest granary-rust-research:latest \
-  | gzip | ssh <user>@<server> 'gunzip | docker load'
-
-# server
-docker image inspect granary-rust-api:latest granary-rust-pdf:latest granary-rust-face:latest \
-    granary-rust-signal:latest granary-rust-research:latest >/dev/null && docker compose up -d
+docker compose build
+docker compose up -d
 ```
 
-Run `docker compose up -d` on the server without `--build`. Check the images first, as above: Compose builds an
-image that is missing, whatever the pull policy, and `docker compose up -d --no-build` fails instead. The
-frontend and stt images are small enough to build on the server: `docker compose up -d --build frontend stt`
-(name the services; a bare `--build` would compile Rust).
+The build tags its result with the prebuilt names, so Compose runs your build; `docker compose pull` returns to
+the published images. To build on a bigger machine and load the images on the server:
 
-The `api` build stage uses `CARGO_BUILD_JOBS=2` to keep memory low; on a machine with more RAM pass
-`--build-arg CARGO_BUILD_JOBS=4` (or more) to `docker build`.
+```bash
+docker compose build backend pdf face signal research frontend stt
+docker compose config --images | grep granary- | xargs docker save | gzip | ssh <user>@<server> 'gunzip | docker load'
+```
+
+The `api` build stage uses `CARGO_BUILD_JOBS=2` to keep memory low; with more RAM pass
+`--build-arg CARGO_BUILD_JOBS=4` (or more). CI builds the published images with `docker-bake.hcl`.
 
 ---
 
@@ -336,8 +330,9 @@ The `api` build stage uses `CARGO_BUILD_JOBS=2` to keep memory low; on a machine
 **Take a database backup first** ([Maintenance → Database backups](MAINTENANCE.md#database-backups)).
 
 ```bash
-git pull
-docker compose up -d --build              # or load prebuilt images and run without --build (see above)
+git fetch --tags && git checkout v1.0.2  # the new release; set GRANARY_VERSION in .env to match
+docker compose pull                       # or `docker compose build` if you build from source
+docker compose up -d
 docker compose logs -f backend            # watch for errors until "listening"
 docker compose exec -T backend granary-migrate --status | tail -3   # newest migration applied
 ```
@@ -374,7 +369,7 @@ Automatic posting is **off** until `finance.gl_autopost_from` is set. Before set
 
 ```bash
 docker compose down                                  # stop everything (volumes are kept)
-docker compose up -d --build frontend                # rebuild and restart one service
+docker compose up -d --force-recreate frontend        # restart one service
 docker compose up -d --force-recreate worker beat    # restart the worker and beat
 
 docker compose logs -f backend

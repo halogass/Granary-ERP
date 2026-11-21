@@ -1,22 +1,14 @@
-# The Rust stack (since the switch from Python/Node, Oct 2026): backend, worker, beat, pdf, face, signal and
-# research run images built from rust-version/Dockerfile. Each of them has a FIXED image name:
+# Granary's own images are published to GitHub's registry on every release: ghcr.io/halogass/granary-<name>.
+# GRANARY_VERSION in .env picks the release (default: latest). A plain `docker compose up -d` pulls what is missing;
+# `docker compose pull && docker compose up -d` upgrades.
 #
-#   granary-rust-api:latest       backend, worker, beat (one image, three commands)
-#   granary-rust-pdf:latest       pdf
-#   granary-rust-face:latest      face
-#   granary-rust-signal:latest    signal
-#   granary-rust-research:latest  research
+#   granary-api       backend, worker, beat (one image, three commands)
+#   granary-pdf       pdf          granary-face      face          granary-signal    signal
+#   granary-research  research     granary-frontend  frontend      granary-stt       stt
 #
-# Production does NOT compile Rust (the server is too small): the images are built on a bigger machine
-# (`docker compose build backend pdf face signal research`) and streamed to the server with
-# `docker save ... | gzip | ssh <server> 'gunzip | docker load'`; the server then runs `docker compose up -d`
-# WITHOUT --build, which starts the loaded images as they are. `pull_policy: never`: Compose never tries Docker
-# Hub for these names. NOTE: if one of the images is MISSING, a plain `up -d` falls back to building it (Compose
-# builds a missing image that has a build section, whatever the pull policy), so on the server check them first:
-#   docker image inspect granary-rust-api:latest granary-rust-pdf:latest granary-rust-face:latest \
-#     granary-rust-signal:latest granary-rust-research:latest >/dev/null && docker compose up -d
-# (`docker compose up -d --no-build` fails instead of building, too.) The build sections stay so that
-# `docker compose up -d --build` still works on a machine with enough RAM.
+# Build from source instead (needs a machine with about 8 GB of RAM for the Rust compile):
+#   docker compose build && docker compose up -d
+# The build sections tag the result with the same image names, so Compose then runs your own build.
 x-rust-api-build: &rust-api-build
   context: ./rust-version
   dockerfile: Dockerfile
@@ -116,8 +108,8 @@ services:
   # ─── Backend (Rust: granary-api) ───────────────────────────────────────────────
   backend:
     build: *rust-api-build
-    image: granary-rust-api:latest
-    pull_policy: never
+    image: ghcr.io/halogass/granary-api:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     depends_on:
       db:
@@ -146,8 +138,8 @@ services:
   # ─── Worker (Rust: granary-worker; queue = a Redis list) ───────
   worker:
     build: *rust-api-build
-    image: granary-rust-api:latest
-    pull_policy: never
+    image: ghcr.io/halogass/granary-api:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     depends_on:
       - backend
@@ -159,8 +151,8 @@ services:
   # ─── Beat (Rust: granary-worker beat, the job schedule) ────────────────
   beat:
     build: *rust-api-build
-    image: granary-rust-api:latest
-    pull_policy: never
+    image: ghcr.io/halogass/granary-api:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     depends_on:
       - worker
@@ -186,8 +178,8 @@ services:
       context: ./rust-version
       dockerfile: Dockerfile
       target: research
-    image: granary-rust-research:latest
-    pull_policy: never
+    image: ghcr.io/halogass/granary-research:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     environment:
       - RESEARCH_SERVICE_TOKEN=${RESEARCH_SERVICE_TOKEN}
@@ -203,6 +195,8 @@ services:
     build:
       context: ./services/stt
       dockerfile: Dockerfile
+    image: ghcr.io/halogass/granary-stt:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     environment:
       - STT_SERVICE_TOKEN=${STT_SERVICE_TOKEN}
@@ -221,8 +215,8 @@ services:
       context: ./rust-version
       dockerfile: Dockerfile
       target: pdf
-    image: granary-rust-pdf:latest
-    pull_policy: never
+    image: ghcr.io/halogass/granary-pdf:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     # No host port — backend reaches it at PDF_SERVICE_URL over the Docker network
     # Security 26 Oct: only what it reads (no shared .env); PDF_ASSETS_DIR comes from the image
@@ -241,8 +235,8 @@ services:
       context: ./rust-version
       dockerfile: Dockerfile
       target: face
-    image: granary-rust-face:latest
-    pull_policy: never
+    image: ghcr.io/halogass/granary-face:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     # No host port — backend reaches it at FACE_SERVICE_URL; browsers get the engine only through the backend
     # Security 26 Oct: only what it reads (no shared .env); FACE_API_DIR / FACE_ONNX_DIR come from the image
@@ -258,8 +252,8 @@ services:
       context: ./rust-version
       dockerfile: Dockerfile
       target: signal
-    image: granary-rust-signal:latest
-    pull_policy: never
+    image: ghcr.io/halogass/granary-signal:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     ports:
       - "127.0.0.1:3003:3003"   # localhost only — nginx proxies /ws/signal
@@ -293,12 +287,12 @@ services:
 
   # ─── Frontend (Next.js) ─────────────────────────────────────────────────────
   frontend:
+    # No URLs are baked into the browser code: it talks to its own origin, which nginx proxies.
     build:
       context: ./frontend
       dockerfile: Dockerfile
-      args:
-        - NEXT_PUBLIC_API_URL=${API_URL:-http://localhost:8000}
-        - NEXT_PUBLIC_SIGNAL_URL=${SIGNAL_URL:-ws://localhost:3003}
+    image: ghcr.io/halogass/granary-frontend:${GRANARY_VERSION:-latest}
+    pull_policy: missing
     restart: unless-stopped
     depends_on:
       - backend

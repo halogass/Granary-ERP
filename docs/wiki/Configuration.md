@@ -93,7 +93,7 @@ The repository's `docs/CONFIGURATION.md` has the full reference with every defau
 
 The backend, worker and beat read `.env` (and real environment variables, which win). The required ones have no
 default: the backend does not start without them. Changing a variable needs a restart of the containers that
-read it (`docker compose up -d backend worker beat`, and `--build frontend` for the URLs baked into the frontend).
+read it (`docker compose up -d backend worker beat frontend`).
 
 ### Keys and secrets
 
@@ -140,7 +140,7 @@ Any S3-compatible service works in place of the shipped SeaweedFS.
 |---|---|
 | `APP_URL` | The public address; used in email links and as the frontend's sign-in URL |
 | `API_URL`, `INTERNAL_API_URL` | Keep `http://backend:8000`. Never the public domain |
-| `SIGNAL_URL` | Public WebSocket URL for video calls, `wss://<your domain>/ws/signal`. Baked into the frontend |
+| `SIGNAL_URL` | Public WebSocket URL for video calls, `wss://<your domain>/ws/signal`. The backend hands it to the calls page |
 | `CORS_ORIGINS` | A JSON list, for example `["https://granary.example.com"]` |
 
 ### Sidecars, calls and signing
@@ -149,6 +149,7 @@ Any S3-compatible service works in place of the shipped SeaweedFS.
 |---|---|
 | `PDF_SERVICE_URL`, `PDF_ASSET_HOSTS` | The PDF renderer; extra hosts it may load images from |
 | `FACE_SERVICE_URL`, `FACE_MAX_CONCURRENT` | Face matching; analyses run at once |
+| `HOST` (face service only) | Where the face service listens. Unset: all interfaces (right for Docker). On a bare-metal install, set `127.0.0.1` |
 | `RESEARCH_SERVICE_URL` | Web page reader for research |
 | `STT_SERVICE_URL`, `STT_MODEL`, `STT_CPUS`, `STT_THREADS` | Speech to text: `small`, `1.5`, `1` |
 | `SIGNAL_SERVICE_URL` | Backend to signalling service (internal) |

@@ -52,22 +52,23 @@ Volume names carry the Compose project name as a prefix; check them with `docker
 ## Updating the application
 
 ```bash
-git pull
-docker compose up -d --build
+git fetch --tags && git checkout v1.0.2   # the new release; set GRANARY_VERSION in .env to match
+docker compose pull                        # or `docker compose build` if you build from source
+docker compose up -d
 ```
 
-This rebuilds and restarts what changed. The backend applies new migrations when it starts (`granary-migrate`),
-then runs the idempotent seed, which adds any new default settings without touching edited ones. If the server
-is too small to compile Rust, build and load the images as in
-[Deployment → Building the images elsewhere](DEPLOYMENT.md#building-the-images-elsewhere). Before an update that
+This pulls and restarts what changed. The backend applies new migrations when it starts (`granary-migrate`),
+then runs the idempotent seed, which adds any new default settings without touching edited ones. If you build
+from source on a small server, build and load the images as in
+[Deployment → Building from source](DEPLOYMENT.md#building-from-source). Before an update that
 adds unique indexes, run the [duplicate checks](#duplicate-checks): a migration that finds duplicates aborts and
 the backend won't start.
 
-Rebuilding part of the stack:
+Rebuilding part of the stack from source:
 
 ```bash
-docker compose up -d --build frontend              # frontend only
-docker compose up -d --build backend worker beat   # backend code: keep worker and beat on the same image
+docker compose build frontend && docker compose up -d frontend                          # frontend only
+docker compose build backend && docker compose up -d backend worker beat                # keep worker and beat on the same image
 ```
 
 If `infra/nginx/granary.conf` changed, apply the change **by hand** to the live file. Don't copy the repository
