@@ -105,7 +105,7 @@ export default function CardView({ card, selected, onSelect, onDone }: {
           <ShieldAlert className="size-3.5" aria-hidden /> Reaches a customer.{card.status === "shadow" ? " A draft only: nothing was sent." : ""}
         </p>
       )}
-      {card.rationale && <p className="mt-2 text-sm text-fg">{card.rationale}</p>}
+      {card.rationale && <p className="mt-2 whitespace-pre-wrap text-sm text-fg">{card.rationale}</p>}
       {text && <blockquote className="mt-2 whitespace-pre-wrap rounded-r-lg border-l-2 border-line-strong bg-surface-2 px-3 py-2 text-sm text-fg">{text}</blockquote>}
 
       {kickoff ? <KickoffDetails card={card} /> : diff?.after && (

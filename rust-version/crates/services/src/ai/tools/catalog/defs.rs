@@ -2664,5 +2664,29 @@ pub(super) fn all_tools() -> Vec<Tool> {
     all.extend(super::quotation_notes_tools::tools());
     // 5 Nov 2026 (E7): the Owner's pricing override
     all.extend(super::pricing_rules_tools::tools());
+    with_reason_argument(&mut all);
     all
+}
+
+/// Issue #3: every `propose_*` tool that makes an approval card takes an optional `reason`, which leads the card's
+/// rationale (`mcp_access::client_reason`). A tool that already has its own `reason` (some require it) keeps it.
+/// `propose_skill` and `propose_tool_idea` write at once and make no card.
+fn with_reason_argument(all: &mut [Tool]) {
+    for tool in all.iter_mut() {
+        if !tool.name.starts_with("propose_") || matches!(tool.name.as_str(), "propose_skill" | "propose_tool_idea") {
+            continue;
+        }
+        let Some(params) = tool.parameters.as_object_mut() else { continue };
+        let props = params
+            .entry("properties")
+            .or_insert_with(|| json!({}));
+        if let Some(props) = props.as_object_mut() {
+            props.entry("reason").or_insert_with(|| {
+                json!({
+                    "type": "string",
+                    "description": "Optional: why you propose this, in one or two sentences. Shown on the approval card."
+                })
+            });
+        }
+    }
 }

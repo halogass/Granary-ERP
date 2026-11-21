@@ -298,3 +298,34 @@ async fn calls_match_python() {
         failed.join("\n")
     );
 }
+
+/// Issue #3: every propose tool that makes an approval card offers an optional `reason`; tools that already had
+/// their own `reason` keep it (and keep it required where it was).
+#[test]
+fn propose_tools_take_an_optional_reason() {
+    let no_card = ["propose_skill", "propose_tool_idea"];
+    let mut checked = 0;
+    for tool in catalog::ALL_TOOLS.iter() {
+        if !tool.name.starts_with("propose_") || no_card.contains(&tool.name.as_str()) {
+            continue;
+        }
+        let reason = &tool.parameters["properties"]["reason"];
+        assert_eq!(reason["type"], "string", "{} has no reason argument", tool.name);
+        checked += 1;
+    }
+    assert!(checked >= 40, "only {checked} propose tools found");
+    for name in ["propose_quotation_cancel", "propose_activity_delete", "propose_proposal_reject"] {
+        let tool = catalog::ALL_TOOLS.iter().find(|t| t.name == name).unwrap();
+        let required = tool.parameters["required"].as_array().cloned().unwrap_or_default();
+        assert!(required.contains(&json!("reason")), "{name} must still require its reason");
+        assert_ne!(
+            tool.parameters["properties"]["reason"]["description"],
+            json!("Optional: why you propose this, in one or two sentences. Shown on the approval card."),
+            "{name} keeps its own reason description"
+        );
+    }
+    for name in no_card {
+        let tool = catalog::ALL_TOOLS.iter().find(|t| t.name == name).unwrap();
+        assert!(tool.parameters["properties"].get("reason").is_none(), "{name} makes no card");
+    }
+}

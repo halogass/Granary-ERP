@@ -823,7 +823,7 @@ pub async fn as_card(
 }
 
 /// The reason an agent passed with a proposal: `rationale` / `reason` of the tool call, else of the proposal or
-/// its payload.
+/// its payload; at most 500 characters.
 fn client_reason(args: &Value, proposal: &Value) -> Option<String> {
     let places = [
         args,
@@ -836,7 +836,7 @@ fn client_reason(args: &Value, proposal: &Value) -> Option<String> {
                 .and_then(Value::as_str)
                 .map(str::trim)
                 .filter(|r| !r.is_empty())
-                .map(str::to_string)
+                .map(|r| r.chars().take(500).collect::<String>())
         })
     })
 }
