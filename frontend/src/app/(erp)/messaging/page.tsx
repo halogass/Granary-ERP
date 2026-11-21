@@ -19,6 +19,7 @@ import {
 } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import { useUrlParam } from "@/hooks/useUrlParam";
+import { apiWsBase } from "@/lib/publicUrls";
 
 // Types
 interface ActiveRoom {
@@ -101,7 +102,7 @@ export default function MessagingPage() {
 
   useEffect(() => {
     if (!myId) return;
-    const wsUrl = process.env.NEXT_PUBLIC_API_URL?.replace(/^http/, "ws") ?? "ws://localhost:8000";
+    const wsUrl = apiWsBase();
     let ping: ReturnType<typeof setInterval> | undefined;
     // Stage 8: a single-use ticket opens the socket (no access token in the URL)
     const close = openTicketedSocket(`${wsUrl}/api/v1/messaging/ws/${myId}`, (ws) => {

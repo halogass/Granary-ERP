@@ -13,6 +13,7 @@ import { PortalBrand } from "@/components/portal/PortalBrand";
 import { Button, Field, IconButton, Input, Pill } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import { useUrlParam } from "@/hooks/useUrlParam";
+import { signalWsUrl } from "@/lib/publicUrls";
 
 interface IceServer { urls: string; username?: string; credential?: string }
 
@@ -92,7 +93,7 @@ export default function GuestMeetPage() {
   const [waitingId, setWaitingId] = useState("");
   const [waitSeconds, setWaitSeconds] = useState(0);
   const iceServersRef = useRef<IceServer[]>([]);
-  const signalUrl = process.env.NEXT_PUBLIC_SIGNAL_URL ?? "ws://localhost:3003";
+  const signalUrl = signalWsUrl();
 
   const [micOn, setMicOn] = useState(true);
   const [camOn, setCamOn] = useState(true);

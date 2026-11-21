@@ -33,6 +33,7 @@ import {
   Check, CheckCheck, Users, X, Volume2, Clock, AlertTriangle, User as UserIcon,
   Smile, Paperclip, Reply, Forward, ArrowLeft, Building2, Trash2, Mic, ChevronDown, ArrowUp, Loader2,
 } from "lucide-react";
+import { apiWsBase } from "@/lib/publicUrls";
 
 // Client-only: the emoji picker touches `window`.
 const EmojiPicker = dynamic(() => import("emoji-picker-react"), { ssr: false });
@@ -501,7 +502,7 @@ export default function WhatsAppPage() {
   useEffect(() => {
     if (!accessToken) return;
 
-    const wsBase = process.env.NEXT_PUBLIC_API_URL?.replace(/^http/, "ws") ?? "ws://localhost:8000";
+    const wsBase = apiWsBase();
     // Stage 8: a single-use ticket opens the socket (no access token in the URL)
     return openTicketedSocket(`${wsBase}/api/v1/whatsapp/ws`, (ws) => {
       wsRef.current = ws;

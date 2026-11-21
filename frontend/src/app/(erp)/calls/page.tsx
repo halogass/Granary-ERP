@@ -17,6 +17,7 @@ import {
 } from "@/components/ui";
 import { cn } from "@/lib/utils";
 import { useUrlParam } from "@/hooks/useUrlParam";
+import { signalWsUrl } from "@/lib/publicUrls";
 
 interface Room { room_id: string; name: string; is_active: boolean; participants: Participant[]; max_participants: number; is_host: boolean; has_recording: boolean }
 interface Participant { user_id: string; name: string; joined_at: string; left_at?: string; is_guest?: boolean }
@@ -191,7 +192,7 @@ export default function CallsPage() {
       signalTicket.current = res.data.signal_ticket;
       setIceServers(res.data.iceServers);
       iceServersRef.current = res.data.iceServers;
-      dbg("room created | ICE servers:", res.data.iceServers, "| signal URL:", process.env.NEXT_PUBLIC_SIGNAL_URL);
+      dbg("room created | ICE servers:", res.data.iceServers, "| signal URL:", signalWsUrl());
       setIsHost(true);
       await startMedia();
       setCallState("lobby");
@@ -210,7 +211,7 @@ export default function CallsPage() {
       signalTicket.current = res.data.signal_ticket;
       setIceServers(res.data.iceServers);
       iceServersRef.current = res.data.iceServers;
-      dbg("room joined | ICE servers:", res.data.iceServers, "| signal URL:", process.env.NEXT_PUBLIC_SIGNAL_URL);
+      dbg("room joined | ICE servers:", res.data.iceServers, "| signal URL:", signalWsUrl());
       setIsHost(res.data.is_host ?? false);
       await startMedia();
       setCallState("lobby");
@@ -238,7 +239,7 @@ export default function CallsPage() {
 
   const connectSignal = useCallback((signalUrl?: string) => {
     if (!room) return;
-    const wsUrl = signalUrl ?? (process.env.NEXT_PUBLIC_SIGNAL_URL ?? "ws://localhost:3003");
+    const wsUrl = signalUrl ?? signalWsUrl();
     dbg("[signal] connecting to", wsUrl, "| room:", room.room_id, "| peer:", myPeerId.current);
     const ws = new WebSocket(`${wsUrl}?room=${room.room_id}&user=${encodeURIComponent(myPeerId.current)}&ticket=${encodeURIComponent(signalTicket.current)}`);
     wsRef.current = ws;
