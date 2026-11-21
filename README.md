@@ -12,6 +12,7 @@
 </p>
 
 <p align="center">
+  <a href="https://granary-demo.pages.dev"><b>Live demo</b></a> ·
   <a href="https://github.com/halogass/Granary-ERP/wiki"><b>Wiki</b></a> ·
   <a href="https://github.com/halogass/Granary-ERP/wiki/Installation">Install</a> ·
   <a href="https://github.com/halogass/Granary-ERP/wiki/First-Steps">First steps</a> ·
@@ -27,6 +28,10 @@
   </a>
   <br><sub>▶ <a href="https://github.com/halogass/Granary-ERP/releases/download/v1.0.1/granary-launch.mp4">Watch the 1-minute launch video</a></sub>
 </p>
+
+> **Try it in your browser:** [granary-demo.pages.dev](https://granary-demo.pages.dev) is an interactive demo with
+> sample data. Click through every module and apply Nary's cards. Nothing is saved, and the AI chat gives a scripted
+> answer there; install Granary to use your own AI model.
 
 Granary is a free, self-hosted ERP for small and mid-sized companies, with an AI assistant, **Nary**, built into its
 business processes rather than bolted on. Nary scores and researches your leads, drafts replies, quotations and
