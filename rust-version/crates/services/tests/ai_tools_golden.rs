@@ -310,14 +310,28 @@ fn propose_tools_take_an_optional_reason() {
             continue;
         }
         let reason = &tool.parameters["properties"]["reason"];
-        assert_eq!(reason["type"], "string", "{} has no reason argument", tool.name);
+        assert_eq!(
+            reason["type"], "string",
+            "{} has no reason argument",
+            tool.name
+        );
         checked += 1;
     }
     assert!(checked >= 40, "only {checked} propose tools found");
-    for name in ["propose_quotation_cancel", "propose_activity_delete", "propose_proposal_reject"] {
+    for name in [
+        "propose_quotation_cancel",
+        "propose_activity_delete",
+        "propose_proposal_reject",
+    ] {
         let tool = catalog::ALL_TOOLS.iter().find(|t| t.name == name).unwrap();
-        let required = tool.parameters["required"].as_array().cloned().unwrap_or_default();
-        assert!(required.contains(&json!("reason")), "{name} must still require its reason");
+        let required = tool.parameters["required"]
+            .as_array()
+            .cloned()
+            .unwrap_or_default();
+        assert!(
+            required.contains(&json!("reason")),
+            "{name} must still require its reason"
+        );
         assert_ne!(
             tool.parameters["properties"]["reason"]["description"],
             json!("Optional: why you propose this, in one or two sentences. Shown on the approval card."),
@@ -326,6 +340,9 @@ fn propose_tools_take_an_optional_reason() {
     }
     for name in no_card {
         let tool = catalog::ALL_TOOLS.iter().find(|t| t.name == name).unwrap();
-        assert!(tool.parameters["properties"].get("reason").is_none(), "{name} makes no card");
+        assert!(
+            tool.parameters["properties"].get("reason").is_none(),
+            "{name} makes no card"
+        );
     }
 }

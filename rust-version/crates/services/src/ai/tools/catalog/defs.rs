@@ -2673,13 +2673,15 @@ pub(super) fn all_tools() -> Vec<Tool> {
 /// `propose_skill` and `propose_tool_idea` write at once and make no card.
 fn with_reason_argument(all: &mut [Tool]) {
     for tool in all.iter_mut() {
-        if !tool.name.starts_with("propose_") || matches!(tool.name.as_str(), "propose_skill" | "propose_tool_idea") {
+        if !tool.name.starts_with("propose_")
+            || matches!(tool.name.as_str(), "propose_skill" | "propose_tool_idea")
+        {
             continue;
         }
-        let Some(params) = tool.parameters.as_object_mut() else { continue };
-        let props = params
-            .entry("properties")
-            .or_insert_with(|| json!({}));
+        let Some(params) = tool.parameters.as_object_mut() else {
+            continue;
+        };
+        let props = params.entry("properties").or_insert_with(|| json!({}));
         if let Some(props) = props.as_object_mut() {
             props.entry("reason").or_insert_with(|| {
                 json!({

@@ -1955,13 +1955,24 @@ async fn min_tier_must_be_a_known_tier_for_modules_and_resources() {
     // Issue #4: an unknown min_tier ranks as the lowest tier, so a typo would open a module to every partner.
     let app = app(TAG);
     let sa = app.superadmin().await;
-    for (base, title) in [("training/modules", "Tier check module"), ("resources", "Tier check sheet")] {
+    for (base, title) in [
+        ("training/modules", "Tier check module"),
+        ("resources", "Tier check sheet"),
+    ] {
         let url = format!("{API}/{base}");
         let bad = app
-            .post(&sa.token, &url, json!({"title": title, "min_tier": "diamond"}))
+            .post(
+                &sa.token,
+                &url,
+                json!({"title": title, "min_tier": "diamond"}),
+            )
             .await;
         assert_eq!(bad.status, 400, "{base}: {}", bad.text());
-        assert!(bad.text().contains("min_tier must be one of"), "{base}: {}", bad.text());
+        assert!(
+            bad.text().contains("min_tier must be one of"),
+            "{base}: {}",
+            bad.text()
+        );
 
         let ok = app
             .post(&sa.token, &url, json!({"title": title, "min_tier": "gold"}))
@@ -1970,13 +1981,19 @@ async fn min_tier_must_be_a_known_tier_for_modules_and_resources() {
         let id = ok.json()["id"].as_str().unwrap().to_string();
         let item = format!("{url}/{id}");
 
-        let bad = app.patch(&sa.token, &item, json!({"min_tier": "Gold "})).await;
+        let bad = app
+            .patch(&sa.token, &item, json!({"min_tier": "Gold "}))
+            .await;
         assert_eq!(bad.status, 400, "{base}: {}", bad.text());
         let bad = app.patch(&sa.token, &item, json!({"min_tier": 2})).await;
         assert_eq!(bad.status, 400, "{base}: {}", bad.text());
-        let ok = app.patch(&sa.token, &item, json!({"min_tier": "silver"})).await;
+        let ok = app
+            .patch(&sa.token, &item, json!({"min_tier": "silver"}))
+            .await;
         assert_eq!(ok.status, 200, "{base}: {}", ok.text());
-        let ok = app.patch(&sa.token, &item, json!({"title": format!("{title} 2")})).await;
+        let ok = app
+            .patch(&sa.token, &item, json!({"title": format!("{title} 2")}))
+            .await;
         assert_eq!(ok.status, 200, "{base}: {}", ok.text());
     }
 }

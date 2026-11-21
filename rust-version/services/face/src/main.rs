@@ -77,7 +77,10 @@ async fn main() {
     let bound = match &host {
         Some(h) => match port.parse::<u16>() {
             Ok(p) => tokio::net::TcpListener::bind((h.as_str(), p)).await,
-            Err(e) => Err(std::io::Error::new(std::io::ErrorKind::InvalidInput, format!("PORT {port:?}: {e}"))),
+            Err(e) => Err(std::io::Error::new(
+                std::io::ErrorKind::InvalidInput,
+                format!("PORT {port:?}: {e}"),
+            )),
         },
         None => match tokio::net::TcpListener::bind(format!("[::]:{port}")).await {
             Ok(l) => Ok(l),
@@ -87,11 +90,17 @@ async fn main() {
     let listener = match bound {
         Ok(l) => l,
         Err(e) => {
-            log::error("listen failed", json!({ "host": host, "port": port, "error": e.to_string() }));
+            log::error(
+                "listen failed",
+                json!({ "host": host, "port": port, "error": e.to_string() }),
+            );
             std::process::exit(1);
         }
     };
-    log::info("face service listening", json!({ "host": host, "port": port }));
+    log::info(
+        "face service listening",
+        json!({ "host": host, "port": port }),
+    );
     let shutdown = async {
         let mut term =
             tokio::signal::unix::signal(tokio::signal::unix::SignalKind::terminate()).ok();
