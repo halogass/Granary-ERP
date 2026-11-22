@@ -23,10 +23,10 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/halogass/Granary-ERP/releases/download/v1.0.1/granary-launch.mp4">
-    <img src="docs/images/brand/granary-launch-preview.gif" alt="Granary in action: Nary drafts a WhatsApp reply, a person edits and applies it" width="100%">
+  <a href="https://github.com/halogass/Granary-ERP/releases/download/v1.0.2/granary-launch.mp4">
+    <img src="docs/images/brand/granary-launch-preview.gif" alt="Granary in action: Nary drafts an email reply and a quotation priced from the price list, and a person applies it" width="100%">
   </a>
-  <br><sub>▶ <a href="https://github.com/halogass/Granary-ERP/releases/download/v1.0.1/granary-launch.mp4">Watch the 1-minute launch video</a></sub>
+  <br><sub>▶ <a href="https://github.com/halogass/Granary-ERP/releases/download/v1.0.2/granary-launch.mp4">Watch the 1-minute launch video</a></sub>
 </p>
 
 > **Try it in your browser:** [granary-demo.pages.dev](https://granary-demo.pages.dev) is an interactive demo with
